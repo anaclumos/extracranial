@@ -1088,42 +1088,23 @@
   "2023-01-31": {
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-01-31]]. 2차 면접 봤다"
   },
-  "2023-02-01": {
-    "Harry Stebbings Challenge": "| [[2023-02-01]] | 🇬🇧 [[Imoogi and Dragon ..."
-  },
-  "2023-02-02": {
-    "Harry Stebbings Challenge": "| [[2023-02-02]] | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 ..."
-  },
-  "2023-02-03": {
-    "Harry Stebbings Challenge": "| [[2023-02-03]] | 🇬🇧 [[The Zenly Playbook]] ..."
-  },
-  "2023-02-04": {
-    "Harry Stebbings Challenge": "| [[2023-02-04]] | 🇬🇧 [[Finally, Apple Pay ..."
-  },
-  "2023-02-05": {
-    "Harry Stebbings Challenge": "| [[2023-02-05]] | 🇬🇧 [[The Era of ..."
-  },
-  "2023-02-06": {
-    "Harry Stebbings Challenge": "| [[2023-02-06]] | 🇬🇧 [[Remembering that Disarmed ..."
-  },
-  "2023-02-07": {
-    "Harry Stebbings Challenge": "| [[2023-02-07]] | 🇬🇧 [[A Massive Mystery]] ..."
-  },
+  "2023-02-01": {},
+  "2023-02-02": {},
+  "2023-02-03": {},
+  "2023-02-04": {},
+  "2023-02-05": {},
+  "2023-02-06": {},
+  "2023-02-07": {},
   "2023-02-08": {
-    "Harry Stebbings Challenge": "| [[2023-02-08]] | 🇬🇧 [[Powerfully Powerless Tools]] ...",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-08]]. 중간고사"
   },
   "2023-02-09": {
-    "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]",
-    "Harry Stebbings Challenge": "| [[2023-02-09]] | 🇬🇧 [[Are Computers Psychotropic ..."
+    "0059 Spiral Matrix II": "Solved at: [[2023-02-09]]"
   },
   "2023-02-10": {
-    "Harry Stebbings Challenge": "| [[2023-02-10]] | 🇬🇧 [[In search of ...",
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-10]]. 면접 도우미"
   },
-  "2023-02-11": {
-    "Harry Stebbings Challenge": "| [[2023-02-11]] | 🇬🇧 [Bing Chat for ..."
-  },
+  "2023-02-11": {},
   "2023-02-12": {
     "Jog 25 minutes (Jan-Feb 23誠鉉)": "- [[2023-02-12]]. 컨디션이 좋지 않았다."
   },
@@ -3705,8 +3686,7 @@
   },
   "A Massive Mystery": {
     "2023-02-07": "- [[A Massive Mystery]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-07](../journals/2023-02-07.md) | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ...",
-    "Harry Stebbings Challenge": "| [[2023-02-07]] | 🇬🇧 [[A Massive Mystery]] <br/>🇰🇷 [[관성 질량과 중력 질량]] ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-07](../journals/2023-02-07.md) | 🇬🇧 [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 ..."
   },
   "A01C1B.png": {
     "Hashflags": "![[A01C1B.png]]"
@@ -4074,7 +4054,6 @@
     "Automation": "... a schedule, or on demand. [[API]] calls are easy with authentication ...",
     "Backdrop Build Week 1 Update": "- OpenAI [[API]]",
     "Beeper": "... problem - they built an [[API]] enabling 'bridges' between [[Matrix Network|Matrix]] ...",
-    "Book Metadata as a Service": "[[Old Someday]] [[Project]]. Open [[API]] that returns Book [[Metadata]] when ...",
     "Brane": "- Intercept Geolocation [[API]] and present a custom permission ...",
     "Canvas (HTML5)": "... offers its own 2D drawing [[API]], it also supports the WebGL ...",
     "Cartography": "1. Logistics: The Matrix [[API]] enables automatic calculation of travel ...",
@@ -4194,7 +4173,6 @@
   },
   "AWS Fargate": {
     "2024-02-01": "- [[AWS Fargate]]",
-    "Hey": "I finally use [[AWS Fargate]] and [[FlightControl]] for deploying, [[caching]], ...",
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "## Configuring [[AWS Fargate]] Dockerfiles"
   },
   "AWS Nuke": {
@@ -4322,13 +4300,10 @@
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
     "Better Aldehyde": "- [[Aldehyde]]",
     "Developing Review Notes for Obsidian": "- [[Aldehyde]]의 기술적 발전으로 인해 옵시디언 내부보다 ...",
-    "Hey": "... brain. Therefore, this website, Project [[Aldehyde]], aims to create a superset ...",
     "Link Coefficient": "For example, as of [[2023-02-16]], [[Aldehyde]] has a 0.592% of Link ...",
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to ...",
     "Neo Aldehyde": "What would the future of [[Aldehyde]] look like?",
-    "Neoaldehyde": "What would the future of [[Aldehyde]] look like?",
-    "Welcome": "... brain. Therefore, this website, Project [[Aldehyde]], aims to create a superset ...",
-    "환영합니다": "그래서 이 웹사이트, 본 계획 [[Aldehyde]]는 [[Memex]]를 다음과 같이 확장하는 목표를 ..."
+    "Welcome": "... brain. Therefore, this website, Project [[Aldehyde]], aims to create a superset ..."
   },
   "Aldehyde Backlinks Outage (January 23誠鉉)": {
     "2023-01-30": "- [[Aldehyde Backlinks Outage (January 23誠鉉)]]",
@@ -4723,8 +4698,7 @@
   "Are Computers Psychotropic Substances": {
     "2023-02-09": "- [[Are Computers Psychotropic Substances]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-09](../journals/2023-02-09.md) | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] ...",
-    "Dumb Phone": "- [[Are Computers Psychotropic Substances]]",
-    "Harry Stebbings Challenge": "| [[2023-02-09]] | 🇬🇧 [[Are Computers Psychotropic Substances]] <br/>🇰🇷 [[컴퓨터는 향정신성 약물인가]] | ..."
+    "Dumb Phone": "- [[Are Computers Psychotropic Substances]]"
   },
   "Are.na (Service)": {
     "Jumpsite": "## [[Are.na (Service)]]"
@@ -4740,7 +4714,6 @@
     "초대장의 시대": "[[Amie]] 뿐만 아니라 [Texts](https://texts.com), [Tana](https://tana.inc), [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 ..."
   },
   "As We May Think": {
-    "Hey": "In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, ...",
     "Welcome": "... my projects and research. In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, ..."
   },
   "Assembly": {
@@ -4775,7 +4748,6 @@
     "2022-07-29": "- [[Attention Settings]]",
     "Digital Addiction": "- [[Attention Settings]]",
     "민사고 앱": "어쨌든, [[Attention Settings]]과 비슷한 나만의 프레임워크를 만들기 위해서 ...",
-    "소셜 엔지니어링 금지": "... Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고",
     "소셜엔지니어링 금지법": "... Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
   },
   "Augmented Reality": {
@@ -6347,9 +6319,6 @@
   "Convergence of Power Series": {
     "2023-01-31": "- [[Convergence of Power Series]]"
   },
-  "Conversation with Mr. Kyle Park on 2023-02-15": {
-    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. Kyle Park on 2023-02-15]]"
-  },
   "Conversational AI Tools for Thought": {
     "2022-12-04": "... [Elicit: The AI Research Assistant](https://elicit.org/): [[Conversational AI Tools for Thought]]",
     "2022-12-24": "- [[Conversational AI Tools for Thought]]. [Poe beta test starting - ...",
@@ -6948,7 +6917,6 @@
     "Dumb Phone": "- [[Digital Addiction]]",
     "Using an iPad as my Ebook": "... matter -- essentially solving the [[Digital Addiction]].",
     "민사고 앱": "... 기술은 별개라는 사실을 점차 깨달았다. [[Digital Addiction|디지털 중독]] 참고.",
-    "소셜 엔지니어링 금지": "... 개발하는 것과 다를 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention ...",
     "소셜엔지니어링 금지법": "... 개발하는 것과 다를 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention ..."
   },
   "Digital Bookmarks for Physical Books": {
@@ -7073,7 +7041,6 @@
     "2023-11-12": "Updated this blog to [[Docusaurus]] v3! Had to fix a ...",
     "Aldehyde Outage (January 23誠鉉)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
     "Better Docusaurus": "... I currently don't like about [[Docusaurus]]",
-    "Hey": "... notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.",
     "In search of my domain": "... from WordPress to Ghost to [[Docusaurus]], making several contributions and almost ...",
     "LavaLab Cohort of Spring 2023": "Documentations tool that generates a [[Docusaurus]]-like website, given a PDF. Integrated ...",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... convert [[Obsidian]] MD files to [[Docusaurus]] MD files since they have ...",
@@ -7083,8 +7050,7 @@
     "Project Heimdall": "... switched to a more conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
     "Redirect": "## Redirects in [[Docusaurus]]",
     "Welcome": "... notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.",
-    "도메인 찾아 삼만리": "... 느꼈다. 나는 블로그를 WordPress에서 Ghost, [[Docusaurus]]로 마이그레이션하면서 여러 기여를 했고 프레임워크를 ...",
-    "환영합니다": "[[TypeScript]] [[Docusaurus]]로 연동합니다."
+    "도메인 찾아 삼만리": "... 느꼈다. 나는 블로그를 WordPress에서 Ghost, [[Docusaurus]]로 마이그레이션하면서 여러 기여를 했고 프레임워크를 ..."
   },
   "Docusaurus 3.5.1 Import Error": {
     "2024-08-10": "[[Docusaurus 3.5.1 Import Error]]"
@@ -7115,7 +7081,6 @@
   "Dopamine Detox": {
     "Dopamine Addiction": "[[Dopamine Detox]]",
     "Watch is the Greatest Dumb Phone": "... Phone]] in the context of [[Dopamine Detox]]. While most of the dumb ...",
-    "소셜 엔지니어링 금지": "... 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고",
     "소셜엔지니어링 금지법": "... 바가 없다. [[Digital Addiction]] & [[Dopamine Detox|Digital Detox]]. [[Attention Settings]] 참고"
   },
   "Download All Images in a Page": {
@@ -7156,8 +7121,7 @@
   },
   "Dynamic Scrollbar": {
     "2024-03-05": "- [[Dynamic Scrollbar]]",
-    "Neo Aldehyde": "- [[Dynamic Scrollbar]]",
-    "Neoaldehyde": "- [[Dynamic Scrollbar]]"
+    "Neo Aldehyde": "- [[Dynamic Scrollbar]]"
   },
   "Dynamic Viewport Units": {
     "2022-12-03": "- [[Dynamic Viewport Units]]"
@@ -7747,7 +7711,6 @@
     "2023-01-27": "I had to migrate [[Extracranial]] to [[Cloudflare Pages]] for [[Vercel]] ...",
     "2023-03-04": "- [[Extracranial]]",
     "Data Preservation": "... important concept for [[Memex]] and [[Extracranial]]",
-    "Hey": "Thus, the name [[Extracranial]], — **The Exosuit for [[Superbrain|Superbrains]]**.",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... [[Memex]] or, in my term, _[[Extracranial]]_ at [https://cho.sh](https://cho.sh/).",
     "Memex": "Synonym with [[Extracranial]], [[Second Brain|Digital Brain]], [[Second Brain]], ...",
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "... website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[FlightControl]].",
@@ -7755,8 +7718,7 @@
     "Paracosm": "... an experimental documentation toolkit & [[Extracranial]] [[Tools for Thought]] that aims ...",
     "Plateau of Latent Potential": "... could be a form of [[Extracranial]], a [[Memex]], or even [[Conversational ...",
     "Rauno": "Interesting [[Extracranial]] [[Tools for Thought]] ([[Data Capturers]])",
-    "Welcome": "Thus, the name [[Extracranial]], -- **The Exosuit for [[Superbrain|Superbrains]]**.",
-    "환영합니다": "그래서 이름이 [[Extracranial]] (외두개골)입니다. 슈퍼브레인들을 위한 외골격 기기."
+    "Welcome": "Thus, the name [[Extracranial]], -- **The Exosuit for [[Superbrain|Superbrains]]**."
   },
   "Extracranial.com": {
     "2024-12-05": "- [[Extracranial.com]]",
@@ -8025,7 +7987,6 @@
     "Letter to Mr. Matt Rickard on 2022-12-24": "... for everything. It's [[Google]] + [[Facebook]] + Uber + Uber Eats ...",
     "Letter to the Heptabase Team on 2022-10-11": "... also a contributor to GoogleChrome/web.dev, [[Facebook]]/[[docusaurus]], [[Vercel]]/[[Satori]], Logseq/Logseq, Etc. I came ...",
     "Meta (Company)": "- [[Facebook]]",
-    "One and Only (Social App)": "... all the sources--LinkedIn, Twitter, [[Instagram|Insta]], [[Facebook]], etc. It's similar to [[Jumpsite]], ...",
     "React": "... maintained by [[Meta (Company)|Meta]] (formerly [[Facebook]]) and a community of individual ...",
     "Real Exams": "### [[Facebook]]",
     "Sudden Rise of Bondee": "... assets. It feels better than [[Facebook]] and [[Instagram]]'s [[3D]] avatar.",
@@ -8082,7 +8043,6 @@
     "2022-11-30": "- The [[Fediverse]] is designed for subsidiarity. People ...",
     "Threads (Service)": "... significant contributor would be the [[Fediverse]]. If they can interoperate with ..."
   },
-  "Feed One": {},
   "Feedforward Neural Network": {
     "2023-09-27": "- [[Feedforward Neural Network]]"
   },
@@ -8130,7 +8090,6 @@
   "Finally, Apple Pay in Korea": {
     "2023-02-04": "- [[Finally, Apple Pay in Korea]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-04](../journals/2023-02-04.md) | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] ...",
-    "Harry Stebbings Challenge": "| [[2023-02-04]] | 🇬🇧 [[Finally, Apple Pay in Korea]] <br/>🇰🇷 [[드디어, 한국 애플페이]] | ...",
     "드디어, 한국 애플페이": "[[Finally, Apple Pay in Korea]]"
   },
   "Finance": {
@@ -8222,7 +8181,6 @@
   "FlightControl": {
     "2024-02-01": "- [[FlightControl]]",
     "Configuring Root Domain on FlightControl with CloudFlare": "... flattening · Cloudflare DNS docs](https://developers.cloudflare.com/dns/cname-flattening/) [[FlightControl]]",
-    "Hey": "... finally use [[AWS Fargate]] and [[FlightControl]] for deploying, [[caching]], and distributing.",
     "Migrating Project Aldehyde to FlightControl (February 24誠鉉)": "... (part of Project [[Extracranial]]), to [[FlightControl]].",
     "Project Ganymede": "Restored server with [[FlightControl]]"
   },
@@ -9016,7 +8974,6 @@
     "On National Crises and the Intellectuals — Focused on GB and KR": "## Dear [[Harry Stebbings|Mr. Stebbings]],",
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "## [[Harry Stebbings|Stebbings]] 님께"
   },
-  "Harry Stebbings Challenge": {},
   "Haruki Murakami": {
     "HTML 텍스트 위에 덧말 강조점 쓰기": "[[Haruki Murakami|하루키]]처럼 강조점을 길게 넣는 것도 가능하다.",
     "水適穿石": "### 직업으로서의 소설가 -- [[Haruki Murakami|하루키]]",
@@ -9078,7 +9035,6 @@
     "Spacial Cognition": "... Thought]] use it. For example, [[Heptabase]].",
     "Visual-based Tools for Thought": "### [[Heptabase]]"
   },
-  "Hey": {},
   "High Growth Handbook": {
     "Readings": "- [x] [[High Growth Handbook]]"
   },
@@ -9243,8 +9199,7 @@
   },
   "Imoogi and Dragon Company": {
     "2023-02-01": "- [[Imoogi and Dragon Company]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-01](../journals/2023-02-01.md) | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ...",
-    "Harry Stebbings Challenge": "| [[2023-02-01]] | 🇬🇧 [[Imoogi and Dragon Company]] <br/>🇰🇷 [[이무기 기업, 청룡 기업]] ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-01](../journals/2023-02-01.md) | 🇬🇧 [[Imoogi and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 ..."
   },
   "Impact over Performance": {
     "2023-07-05": "- [[Impact over Performance]]",
@@ -9271,8 +9226,7 @@
   },
   "In search of my domain": {
     "2023-01-09": "- [[In search of my domain]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ...",
-    "Harry Stebbings Challenge": "| [[2023-02-10]] | 🇬🇧 [[In search of my domain]] <br/>🇰🇷 [[도메인 찾아 삼만리]] | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-10](../journals/2023-02-10.md) | 🇬🇧 [[In search of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] ..."
   },
   "In-house and Free Market": {
     "2022-12-24": "- [[In-house and Free Market]]. Can independent scientists ever win ...",
@@ -9341,7 +9295,6 @@
     "Letter to Mr. Matt Rickard on 2022-11-28": "[[Facebook]] and [[Instagram]] have been doing this for ...",
     "Meta (Company)": "- [[Instagram]]",
     "Old Fashioned Camera": "- [[Instagram|인스타그램]]을 이용한 바이럴 [[Strategy|전략]] 활용",
-    "One and Only (Social App)": "... social media accounts, including [[Facebook]], [[Instagram]], Reddit, and Twitter, into one ...",
     "Sudden Rise of Bondee": "... feels better than [[Facebook]] and [[Instagram]]'s [[3D]] avatar.",
     "Super App is a Universal Chat App": "- [[Twitter]], [[Facebook]], [[Instagram]], and Snapchat cannot be super ...",
     "Threads (Service)": "... bubble, have different **persona** on [[Instagram|Insta]] and [[Twitter]]. Not a wise ...",
@@ -9677,9 +9630,7 @@
     "2022-10-13": "- [x] [[Jumpsite]]",
     "2022-11-29": "- [[Jumpsite]]",
     "2023-02-02": "- [[Jumpsite]]",
-    "Feed One": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ...",
     "Interface (Jumpsite)": "- [[Jumpsite]]",
-    "One and Only (Social App)": "... [[Facebook]], etc. It's similar to [[Jumpsite]], but not the same; you ...",
     "Person 9078DC": "... 서버 최적화를 진행하셨다. [Veltrends](https://www.veltrends.com)와 같은 [[Jumpsite]]를 제작하셨으며, 궁극적으로는 출판 업계와 지식의 ...",
     "The One and Only (Social App)": "... Facebook, etc. It's similar to [[Jumpsite]], but not the same; you ..."
   },
@@ -10420,7 +10371,6 @@
     "2022-10-17": "- [[Memex]]",
     "2023-09-14": "- [[Memex]]",
     "Data Preservation": "- An important concept for [[Memex]] and [[Extracranial]]",
-    "Hey": "... [[Superbrain|Superbrains]] and a superset of [[Memex]]",
     "In-house and Free Market": "... should be more accessible. This [[Memex]] is one branch of that ...",
     "Letter to Mr. Stephan Ango on 2022-10-19": "I also have a [[Memex]] or, in my term, _[[Extracranial]]_ ...",
     "Memex is more than a Memex": "- [[Memex]] is more than a ",
@@ -10430,8 +10380,7 @@
     "Vannevar Bush": "... 추진한 주역 중 한 사람이었으며 [[Memex|메멕스]]([[Memex]])라고 불리는 기억 확장기 개념을 최초로 ...",
     "Welcome": "... Bush]], a legendary scientist, describes [[Memex]] as",
     "앰비언트 컴퓨팅을 향해": "... 에세이 As You May Think에서 [[Memex]]([[Memex|메멕스]])라는 기기를 고안했다. 한 개인이 나눈 ...",
-    "인하우스와 자유경쟁": "... 것이 더 쉬워져야 한다. 이 [[Memex]]는 그 생각의 한 걸음이다.",
-    "환영합니다": "... 이 웹사이트, 본 계획 [[Aldehyde]]는 [[Memex]]를 다음과 같이 확장하는 목표를 가지고 ..."
+    "인하우스와 자유경쟁": "... 것이 더 쉬워져야 한다. 이 [[Memex]]는 그 생각의 한 걸음이다."
   },
   "Memex is more than a Memex": {
     "2022-10-20": "- [[Memex is more than a Memex]]"
@@ -10508,7 +10457,6 @@
     "2022-11-11": "- [[Meta Theme Color for Spacial Cognition]]"
   },
   "Metadata": {
-    "Book Metadata as a Service": "... Open [[API]] that returns Book [[Metadata]] when given an ISBN.",
     "Data Preservation": "### [[Metadata]] [[Crawler|Scraping]]",
     "Developing Review Notes for Obsidian": "`manifest.json`에는 다음과 같이 플러그인의 [[Metadata|메타데이터]]를 넣을 수 있다.",
     "Hive Metastore": "... is the central repository for [[Metadata]] within [[Apache Hive]]",
@@ -10841,7 +10789,6 @@
   "Neo Email": {
     "2023-02-27": "- [[Neo Email]]"
   },
-  "Neoaldehyde": {},
   "Neon Genesis Evangelion": {
     "2023-07-03": "- Started watching [[Neon Genesis Evangelion]]. OMG this is legendary. I ...",
     "MAGI": "[[Neon Genesis Evangelion|신세기 에반게리온]]에 등장하는 슈퍼컴퓨터 시스템 MAGI는 3대의 ...",
@@ -11094,7 +11041,6 @@
     "Better Obsidian": "## [[WebExtension|Extension]] Ideas for [[Obsidian]]",
     "Developing Review Notes for Obsidian": "이 문서는 [[Obsidian]]을 스캐폴딩하는 방법에 대해 다루며 옵시디언 ...",
     "Dilemmas of Technopreneur": "... Mark Zuckerberg, the creators of [[Obsidian]], or even Mr. Levels.",
-    "Hey": "I use [[Obsidian]] for taking notes.",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... are wondering, yes, I use [[Obsidian]] for my [[Memex]], but I ...",
     "Letter to the Heptabase Team on 2022-10-11": "... (https://cho.sh/r/) runs on heavily customized [[Obsidian]], [[Nota]], and [[Docusaurus]], serving as ...",
     "Neo Apps": "- **Notes**. [[Notion]] → [[Obsidian]]",
@@ -11104,8 +11050,7 @@
     "Stephan Ango": "- CEO of [[Obsidian]]",
     "Text-based Tools for Thought": "### [[Obsidian]]",
     "Tools Must Vanish": "... blog and forum posts where [[Obsidian]] and [Roam](https://roamresearch.com/) power users explain ...",
-    "Welcome": "I use [[Obsidian]] for taking notes.",
-    "환영합니다": "저는 [[Obsidian]]을 이용해 생각을 기록합니다."
+    "Welcome": "I use [[Obsidian]] for taking notes."
   },
   "Obsidian Ava": {
     "2022-10-19": "- [[Obsidian Ava]]",
@@ -11131,7 +11076,6 @@
     "Autopedia": "[[Old Someday]]",
     "Autosave Everything": "[[Old Someday]] [[Project]]. A small Mac App ...",
     "Better Hacker News": "[[Old Someday]] [[Project]]. Improving HN.",
-    "Book Metadata as a Service": "[[Old Someday]] [[Project]]. Open [[API]] that returns ...",
     "CalliFontia": "[[Old Someday]] [[Project]]. [[Apple]] Pencil Handwriting → ...",
     "Chopstick Game": "[[Old Someday]] [[Project]]. Digital implementation of the ...",
     "ChromeOS Packer": "- [[Old Someday]] [[Project]]",
@@ -11151,7 +11095,6 @@
     "Neo Aldehyde": "[[Old Someday]] [[Project]]",
     "Not-So-Procrastinating Lazy Loading": "[[Old Someday]] [[Project]]. `img loading=lazy`, but if ...",
     "Old Fashioned Camera": "[[Old Someday]] [[Project]]. iPhone 4 시절 그 ...",
-    "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "One and Only WebExtension": "- [[Old Someday]] [[Project]]",
     "Open Graph Image as a Service": "[[Old Someday]] [[Project]]. Request Open Graph Images ...",
     "PineApple Pay": "[[Old Someday]] [[Project]].",
@@ -11220,8 +11163,7 @@
     "Letter to Mr. Gustav Ekerot on 2023-02-24": "... a shower-thought if there was \"[[One and Only WebExtension]]\" for [[Firefox]] and [[Safari]]. It ..."
   },
   "One and only": {
-    "LavaLab Cohort of Spring 2023": "- Hive gives [[One and only]] search interface to fish your ...",
-    "One and Only (Social App)": "... the solution for you. Introducing '[[One and only]],' the ultimate social media app ..."
+    "LavaLab Cohort of Spring 2023": "- Hive gives [[One and only]] search interface to fish your ..."
   },
   "OneStack.dev": {
     "2025-02-17": "- [[OneStack.dev]]"
@@ -11527,7 +11469,6 @@
   },
   "Person 648442": {
     "2023-02-15": "- [[Person 648442]]",
-    "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "Project PEOPLE": "- [[Person 648442]]",
     "The One and Only (Social App)": "[[Someday]] [[Project]]. Ideated during [[Person 648442]]"
   },
@@ -11702,7 +11643,6 @@
     "2023-02-08": "- [[Powerfully Powerless Tools]]",
     "2024-04-14": "- [[Powerfully Powerless Tools]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-08](../journals/2023-02-08.md) | 🇬🇧 [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] ...",
-    "Harry Stebbings Challenge": "| [[2023-02-08]] | 🇬🇧 [[Powerfully Powerless Tools]] <br/>🇰🇷 [[강력하게 미약한 도구들]] | ...",
     "Tools Must Vanish": "- [[Powerfully Powerless Tools]]"
   },
   "Pragmatic Engineer": {
@@ -11955,7 +11895,6 @@
     "Autosave Everything": "[[Old Someday]] [[Project]]. A small Mac App that ...",
     "Better Aldehyde": "- [[Project]]",
     "Better Hacker News": "[[Old Someday]] [[Project]]. Improving HN.",
-    "Book Metadata as a Service": "[[Old Someday]] [[Project]]. Open [[API]] that returns Book ...",
     "CELLO": "- [[Project]]",
     "CalliFontia": "- 추출 후 [[Project|프로젝트]]는 Freeze되며 수정할 수 없음. 대신 ...",
     "Cashflow (Service)": "[[Someday]] [[Project]]. Link all of your SaaS ...",
@@ -11970,7 +11909,6 @@
     "Dynamic Island on the Web": "- [[Done]] [[Project]]",
     "ElonPet": "- [[Old Someday]] [[Project]]. Uses GPT-3 to write good ...",
     "Embeddable GitHub Repo Card But It Looks Great": "[[Old Someday]] [[Project]].",
-    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with Mr. ...",
     "Fix Your Posture": "[[Old Someday]] [[Project]]. Small [[macOS]] application that reminds ...",
     "Generative Intelligence": "- [[Project]] scaffolding",
     "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as a ...",
@@ -11993,7 +11931,6 @@
     "Not-So-Procrastinating Lazy Loading": "[[Old Someday]] [[Project]]. `img loading=lazy`, but if the ...",
     "Off The Record": "- [[Project]]. Disappearing message for [[iMessage]].",
     "Old Fashioned Camera": "[[Old Someday]] [[Project]]. iPhone 4 시절 그 구진 ...",
-    "One and Only (Social App)": "[[Old Someday]] [[Project]]. Ideated during [[Person 648442]]",
     "One and Only WebExtension": "- [[Old Someday]] [[Project]]",
     "Open Graph Image as a Service": "[[Old Someday]] [[Project]]. Request Open Graph Images with ...",
     "PDF": "... its roots in \"The Camelot [[Project]]\" initiated by Adobe co-founder John ...",
@@ -12003,7 +11940,6 @@
     "Power Nap Pill": "[[Oneday]] [[Project]].",
     "Programmable Vaccines": "[[Oneday]] [[Project]]",
     "Project FFMpeg for iPad": "- [[Old Someday]] [[Project]]. [[FFMpeg]] equivalent for iPads!",
-    "Project Fakedoor": "[[Project]]",
     "Project Florence": "- [[Project]] Florence is a research [[project]] ...",
     "Project Ganymede": "- Therefore, we name it [[Project]] Ganymede. You can NEVER win ...",
     "Project Heimdall": "... conventional [[Docusaurus]] with [[Listmonk]]. Consider [[Project]] [[Done]].",
@@ -12122,7 +12058,6 @@
     "2022-10-20": "- [[Project FFMpeg for iPad]]",
     "2023-05-09": "- [[Project FFMpeg for iPad]]"
   },
-  "Project Fakedoor": {},
   "Project Fiesole": {
     "2023-10-03": "- [[Project Fiesole]]",
     "2023-10-04": "- [[Project Fiesole]]",
@@ -12539,7 +12474,6 @@
     "Get Job Done": "...  - Coding [[React]]",
     "GitHub Pages에 React 앱 띄우기": "최근 [[React]] 앱을 GitHub Pages에 띄우면 좋겠다는 ...",
     "Grammarly Work Note 2023-05-26": "1. **Outdated Node and [[React]]**. [[Manakin]] runs on [[Node.js]] 16 ...",
-    "Hey": "... customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.",
     "JSX": "... as JavaScript XML) is a [[React]] extension to the JavaScript language ...",
     "Jest": "... projects using Babel, [[TypeScript]], [[Node.js]], [[React]], Angular, Vue.js, and [[Svelte]]. Jest ...",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... I have built a custom [[React]] application for presenting on the ...",
@@ -12693,8 +12627,7 @@
   },
   "Remembering that Disarmed Bomb": {
     "2023-02-06": "- [[Remembering that Disarmed Bomb]]",
-    "30-Day Tweet Test (Harry Stebbings)": "| [02-06](../journals/2023-02-06.md) | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ...",
-    "Harry Stebbings Challenge": "| [[2023-02-06]] | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/>🇰🇷 [[방지된 폭탄에 대한 경의]] ..."
+    "30-Day Tweet Test (Harry Stebbings)": "| [02-06](../journals/2023-02-06.md) | 🇬🇧 [[Remembering that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 ..."
   },
   "Reminder Tools": {
     "Tools for Thought": "- [[Reminder Tools]]"
@@ -13143,7 +13076,6 @@
     "2023-02-02": "- [[Service Shimming]]",
     "30-Day Tweet Test (Harry Stebbings)": "| [02-02](../journals/2023-02-02.md) | 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]] | ...",
     "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
-    "Harry Stebbings Challenge": "| [[2023-02-02]] | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 [[서비스 시밍]] | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) ...",
     "Tech Now Pay Later": "... is similar but different from [[Service Shimming|Service Shimmings]]; faking a service until you ...",
     "서비스 시밍": "[[Service Shimming]]"
   },
@@ -13213,7 +13145,6 @@
     "WWDC23": "... → Can be used as [[Shortcuts]] and Siri commands",
     "sssss": "Supersedes [[Shortcuts]]"
   },
-  "Shortcuts and Breakthrough": {},
   "Show me your Laptop": {
     "2023-07-25": "- [[Show me your Laptop]]",
     "Sticker Party": "[[Show me your Laptop]]"
@@ -13346,7 +13277,7 @@
     "Matt Rickard": "- [[Social Coding]]"
   },
   "Social Engineering": {
-    "소셜 엔지니어링 금지": "... 멸종 방어]]를 위해 금지가 필수. [[Social Engineering]]은 마약성 상품을 개발하는 것과 다를 ...",
+    "소셜엔지니어링 금지법": "... 멸종 방어]]를 위해 금지가 필수. [[Social Engineering]]은 마약성 상품을 개발하는 것과 다를 ...",
     "앰비언트 컴퓨팅을 향해": "현대 시대에 만연한 [[Social Engineering|소셜 엔지니어링]] 또한 가치 중립적이지 않은 영역이다. ..."
   },
   "Social Network Service": {
@@ -13389,7 +13320,6 @@
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
     "Alter": "- [[Someday]] [[Project]]",
     "Cashflow (Service)": "[[Someday]] [[Project]]. Link all of your ...",
-    "Feed One": "[[Someday]] [[Project]]. Ideated during [[Conversation with ...",
     "Generative Open Graph": "[[Someday]] [[Project]]. [[Open Graph Image as ...",
     "LocLog": "[[Someday]] [[Project]].",
     "Metadata as a Service": "- [[Someday]] [[Project]]",
@@ -13580,7 +13510,6 @@
     "Person 9078DC": "... [[DEV.to]]와 경쟁 방안으로 [Packt](https://www.packtpub.com/)과 같은 [[Strategy|전략]]을 고려 중. 지적 자산의 보급과 ...",
     "Project Ganymede": "... How do you store different [[Strategy|strategies]] (After 5 seconds? 10 seconds? ...",
     "Proposal of Research 2023-03-28": "... PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing ...",
-    "The Engine Equation": "... of people and to develop [[Strategy|strategies]] to shape the course of ...",
     "Tian Li et al. Federated Learning Challenges, Methods, and Future Directions": "#### [[Strategy|Strategies]]",
     "Winning America": "... of America|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 것이 있을까?",
     "hn.cho.sh 개발 기록": "- PMF보다 [[Go To Market]] [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 그런 ...",
@@ -13687,13 +13616,11 @@
     "Letter to Mr. Matt Rickard on 2022-12-24": "... at his desire for a [[Super App]]. What concerns me more is ...",
     "Mini App": "... within a more extensive, comprehensive [[Super App]]. Mini Apps are designed to ...",
     "Neo ArXiv": "... a more streamlined, so-called **ResearchOps**--a [[Super App]] platform for all research.",
-    "One and Only (Social App)": "... the world by creating a **[[Super App]]** in the US. China has ...",
     "One and only": "... all data into one place--the [[Super App]] approach.",
     "Super App and Democracy": "... that [[WeChat]] is the only \"[[Super App|everything app]]\" anyone can cite, and it ...",
     "Super App is a Universal Chat App": "... 2022-12-24]], the conditions for a [[Super App]] in the [[United States of ...",
     "Texts (Service)": "Potential [[Super App]] for the [[United States of ...",
     "The One and Only (Social App)": "... the world by creating a **[[Super App]]** in the US. China has ...",
-    "The one and only": "... all data into one place—the [[Super App]] approach.",
     "Toss": "... say _the most innovative_ Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
     "Universal Chat App": "## Connections: [[Super App]]",
     "Universal Identity": "- [[Super App]] accounts can be another. See ...",
@@ -13723,7 +13650,6 @@
     "2023-03-08": "- [[Superbrain]]",
     "Dumbest Person in the Room": "> Surround yourself with more [[Superbrain|intelligent people]], and you'll all win. More ...",
     "Extracranial": "**Extracranial**. **The Exosuit for [[Superbrain|Superbrains]]**",
-    "Hey": "## Extracranial: The Exosuit for [[Superbrain|Superbrains]] and a superset of [[Memex]]",
     "METI Engine": "... of knowledge... linking extra intelligent [[Superbrain|superbrains]]...",
     "Newtonian Mail": "... corresponded with numerous scientists and [[Superbrain|intellectuals]]. Newton's [[Mail|letters]] were often highly ...",
     "On National Crises and the Intellectuals — Focused on GB and KR": "## The duties of the [[Superbrain|Intellectuals]]",
@@ -13934,16 +13860,13 @@
     "2024-04-23": "- [[TextGPT]]"
   },
   "Texts": {
-    "Feed One": "Like [[Texts]], it pulls from all the ...",
-    "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ...",
-    "The one and only": "[[Texts]] aims to be the one ..."
+    "The One and Only (Social App)": "Like [[Texts]], it pulls from all the ..."
   },
   "Texts (Service)": {
     "2023-01-31": "Got Invited to [[Texts (Service)]]",
     "Automattic의 Beeper 인수": "[[Texts (Service)]] 그리고 [[Beeper]] 모두를 손에 넣었다.",
     "Beeper": "An [[alternative]] to [[Texts (Service)]]. A better approach with [[iMessage]], ...",
     "Love Software": "- ([[Fiercely Overpriced|paywalled]]) [[Texts (Service)]] and [[Beeper]]",
-    "One and Only (Social App)": "Like [[Texts (Service)]], it pulls from all the ...",
     "One and only": "[[Texts (Service)]] aims to be the one ..."
   },
   "The Dropbox Comment on Hacker News": {
@@ -13954,10 +13877,6 @@
     "Soft Power": "- [[The Empires of the Future are the Empires of the Mind]]",
     "애국심은 국가 단위의 스톡홀름 신드롬인가": "[[The Empires of the Future are the Empires of the Mind]]",
     "오직 가지고 싶은 것은 드높은 문화의 힘이다": "[[The Empires of the Future are the Empires of the Mind]]"
-  },
-  "The Engine Equation": {},
-  "The Era of Invites": {
-    "Harry Stebbings Challenge": "| [[2023-02-05]] | 🇬🇧 [[The Era of Invites]] <br/>🇰🇷 [[초대장의 시대]] | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) ..."
   },
   "The Get-Shit-Done Computer": {
     "2025-09-13": "[[The Get-Shit-Done Computer]]"
@@ -13984,10 +13903,6 @@
   "The Web Can Do What": {
     "2023-11-20": "- [[The Web Can Do What]]"
   },
-  "The Zenly Playbook": {
-    "Harry Stebbings Challenge": "| [[2023-02-03]] | 🇬🇧 [[The Zenly Playbook]] <br/>🇰🇷 [[젠리의 성공 공식]] | ..."
-  },
-  "The one and only": {},
   "Thesephist Work Case Study": {
     "2022-12-04": "- [[Thesephist Work Case Study]]"
   },
@@ -14071,7 +13986,6 @@
   "ToolbarItem": {
     "WWDC23": "- [[ToolbarItem]] → Using corners of Apple ..."
   },
-  "Tools I will use one day": {},
   "Tools Must Vanish": {
     "2022-07-07": "- [[Tools Must Vanish]]",
     "2022-12-28": "- [[Tools Must Vanish]]",
@@ -14232,7 +14146,6 @@
     "2022-07-20": "- [[JavaScript]] → [[TypeScript]]",
     "2022-09-30": "### [[TypeScript]] Dynamic Types with String Interpolations",
     "Deno Deploy": "- [[TypeScript]], [[WebAssembly|Wasm]], ES Modules",
-    "Hey": "... those notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.",
     "Jest": "... works with projects using Babel, [[TypeScript]], [[Node.js]], [[React]], Angular, Vue.js, and ...",
     "Prisma": "... query builder for Node.js & [[TypeScript]].",
     "Redwood.js": "- [[TypeScript]]",
@@ -14241,13 +14154,11 @@
     "Vitest": "... test framework for [[JavaScript]] and [[TypeScript]], optimized for the Vite ecosystem, ...",
     "WebGPU": "- It's a **stand-alone [[TypeScript]]+[[Rust]]/[[WebAssembly|WASM]] library** with its own [[React]]-like ...",
     "Welcome": "... those notes into heavily customized [[TypeScript]] [[Docusaurus]] with custom [[React]] components.",
-    "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 권장 사항일 ...",
-    "환영합니다": "[[TypeScript]] [[Docusaurus]]로 연동합니다."
+    "배달의민족 FE 개발자가 일하는 법 Q&A": "[[Front-end|프론트엔드]]에는 리액트와 [[TypeScript|타입스크립트]]를 쓰고 있다. 하지만 권장 사항일 ..."
   },
   "Typescript": {
     "Shopify Analyzes CSS Frameworks": "| [[Typescript]] support | As a developer, ..."
   },
-  "UBI for Scholars": {},
   "UI AI": {
     "Diagram (Company)": "- Creator of [[UI AI]]"
   },
@@ -14528,7 +14439,6 @@
   "Vannevar Bush": {
     "2023-09-14": "- [[Vannevar Bush]]",
     "As We May Think": "... is a 1945 essay by [[Vannevar Bush]], described as visionary and influential, ...",
-    "Hey": "In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] ...",
     "Memex": "... 친밀한 보조 장치일 것입니다. -- [[Vannevar Bush|버니바 부시]].",
     "Tools Must Vanish": "... the [[Zettelkasten]] of the next [[Vannevar Bush]]; it's always a setup with ...",
     "Towards Ambient Computing": "In 1945, [[American]] scientist [[Vannevar Bush]] developed a concept called the ...",
@@ -14590,8 +14500,7 @@
     "Vercel node modules cache": "Set this env variable on [[Vercel]]",
     "Welcome": "I finally use [[Vercel]] for deploying, [[caching]], and distributing.",
     "dub.co": "- Built with [[Vercel]] [[Edge]] Functions + Upstash Redis",
-    "lovearc.net": "... much Image Proxy Bandwidth from [[Vercel]] that I turned off image ...",
-    "환영합니다": "이후 [[Vercel]]을 이용해 배포합니다."
+    "lovearc.net": "... much Image Proxy Bandwidth from [[Vercel]] that I turned off image ..."
   },
   "Vercel Incident Report (23誠鉉)": {
     "2023-04-08": "[[Vercel Incident Report (23誠鉉)]]",
@@ -14731,8 +14640,7 @@
   },
   "WasmEdge": {
     "2022-11-30": "- [[WasmEdge]]",
-    "Oneday": "- [[WasmEdge]]",
-    "Tools I will use one day": "- [[WasmEdge]]"
+    "Oneday": "- [[WasmEdge]]"
   },
   "Watch is the Greatest Dumb Phone": {
     "2023-07-25": "- [[Watch is the Greatest Dumb Phone]]"
@@ -14769,7 +14677,6 @@
     "FinTech and Justice": "... 90 percent of people use [[WeChat]] and Alipay as their primary ...",
     "KakaoTalk": "... is similar to Line or [[WeChat]] and is primarily used in ...",
     "Mini App": "... Examples of Super Apps include [[WeChat]] in China. These platforms incorporate ...",
-    "One and Only (Social App)": "... a highly successful [[Super App]] ([[WeChat]]) that combines various functionalities such ...",
     "Super App": "... commercial life. Super-apps include Tencent's [[WeChat]] in China and Grab in ...",
     "Super App and Democracy": "... to emulate the success of [[WeChat]], a [[중국|Chinese]] super-app.",
     "Universal Chat App": "1. **[[WeChat]] (China)**. Developed by Tencent, ",
@@ -14911,7 +14818,6 @@
     "Web Graphics": "- Usually uses [[WebGPU]] and [[WebAssembly|WASM]]",
     "WebNPU API를 상상하다": "- [[WebGPU]]는 웹에서 [[GPU]]의 온전한 성능을 개방한다."
   },
-  "WebNPU": {},
   "WebNPU API를 상상하다": {
     "2023-02-18": "- [[WebNPU API를 상상하다]]",
     "30-Day Tweet Test (Harry Stebbings)": "... [[Imagining WebNPU API]] <br/> 🇰🇷 [[WebNPU API를 상상하다]] | [tweet](https://twitter.com/anaclumos/status/1627161630080659460) | ..."
@@ -15075,7 +14981,6 @@
   "Z-Fellows": {
     "2023-03-19": "## [[Z-Fellows]]",
     "2023-04-12": "- [[Z-Fellows]]. Rejected. But I was in ...",
-    "One and Only (Social App)": "## [[Z-Fellows]]",
     "The One and Only (Social App)": "## [[Z-Fellows]]"
   },
   "Zen browser no padding": {
@@ -15265,7 +15170,6 @@
   "browseronly template": {},
   "caching": {
     "Cache Conscious Programming": "... due to the way of [[caching]]",
-    "Hey": "... Fargate]] and [[FlightControl]] for deploying, [[caching]], and distributing.",
     "Welcome": "... finally use [[Vercel]] for deploying, [[caching]], and distributing."
   },
   "call option": {
@@ -15447,7 +15351,6 @@
     "Higher-Level Languages and Their Speeds": "... entire product catalog of the [[e-commerce]] site can be a single ...",
     "Jeff Bezos": "... of [[Amazon]], the world's largest [[e-commerce]] and [[cloud computing]] company. He ...",
     "Mini App": "... platforms incorporate services like messaging, [[e-commerce]], ride-hailing, food delivery, and digital ...",
-    "One and Only (Social App)": "... such as messaging, social media, [[e-commerce]], and mobile payments into a ...",
     "Separation of Computer Scientists and Computer Technologists": "... make a cool-looking Single-Page-App [[JavaScript]] [[e-commerce]] website..."
   },
   "eBPF": {
@@ -15536,8 +15439,7 @@
     "Stories Behind Satori": "... elements' positions through a layout [[engine]] and convert them into [[SVG]] ...",
     "Supabase": "... PostgreSQL as its core [[database]] [[engine]], providing developers with a hosted ...",
     "Super App is a Universal Chat App": "... as seen in the Gecko [[engine]].",
-    "Tech Now Pay Later": "An [[engine]] takes time (a type of ...",
-    "The Engine Equation": "In thermodynamics, an [[engine]] is a machine that converts ..."
+    "Tech Now Pay Later": "An [[engine]] takes time (a type of ..."
   },
   "epub": {
     "ePub to PDF": "- [[epub]] to [[pdf]]"
@@ -16064,9 +15966,6 @@
   "openai": {
     "Dear AIs, I have a question.": "## [[openai]]:gpt-3.5-turbo"
   },
-  "optimized simulation": {
-    "simulation": "... are time-space restrictions, look into [[optimized simulation]]s."
-  },
   "os": {
     "dub.co": "... each link's clicks (incl. location, device/[[os]]) with [airbnb/visx: 🐯 visx](https://github.com/airbnb/visx)"
   },
@@ -16290,7 +16189,6 @@
     "2023-11-20": "- [[shots.so]]"
   },
   "shuffle template": {},
-  "simulation": {},
   "simulations": {
     "Monte Carlo Algorithm": "... the technique performs numerous random [[simulations]] to estimate the desired outcome. ..."
   },
@@ -16601,8 +16499,7 @@
   "강력하게 미약한 도구들": {
     "2023-02-08": "- [[강력하게 미약한 도구들]]",
     "30-Day Tweet Test (Harry Stebbings)": "... [[Powerfully Powerless Tools]] <br/> 🇰🇷 [[강력하게 미약한 도구들]] | [tweet](https://twitter.com/anaclumos/status/1623522946034847745) | ...",
-    "Antipreneur": "- [[강력하게 미약한 도구들]]. Do one small thing, but ...",
-    "Harry Stebbings Challenge": "... 🇬🇧 [[Powerfully Powerless Tools]] <br/>🇰🇷 [[강력하게 미약한 도구들]] | [Tweet](https://twitter.com/anaclumos/status/1623522946034847745) | | ..."
+    "Antipreneur": "- [[강력하게 미약한 도구들]]. Do one small thing, but ..."
   },
   "개성은 쟁취하는 것": {
     "2021-06-23": "- [[개성은 쟁취하는 것]]",
@@ -16663,8 +16560,7 @@
   },
   "관성 질량과 중력 질량": {
     "2023-02-07": "- [[관성 질량과 중력 질량]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]] | [tweet](https://twitter.com/anaclumos/status/1623227887632646144) | ...",
-    "Harry Stebbings Challenge": "... 🇬🇧 [[A Massive Mystery]] <br/>🇰🇷 [[관성 질량과 중력 질량]] | [Tweet](https://twitter.com/anaclumos/status/1623227887632646144) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... [[A Massive Mystery]] <br/> 🇰🇷 [[관성 질량과 중력 질량]] | [tweet](https://twitter.com/anaclumos/status/1623227887632646144) | ..."
   },
   "국가와 민족": {
     "2023-02-15": "- [[국가와 민족]]",
@@ -16952,8 +16848,7 @@
   },
   "도메인 찾아 삼만리": {
     "2023-02-11": "- [[도메인 찾아 삼만리]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] | [tweet](https://twitter.com/anaclumos/status/1624308920792776706) | ...",
-    "Harry Stebbings Challenge": "... search of my domain]] <br/>🇰🇷 [[도메인 찾아 삼만리]] | [Tweet](https://twitter.com/anaclumos/status/1624308920792776706) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... of my domain]] <br/> 🇰🇷 [[도메인 찾아 삼만리]] | [tweet](https://twitter.com/anaclumos/status/1624308920792776706) | ..."
   },
   "동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건": {
     "2023-04-24": "- [[동아일보 1926년 2월 13일 이완용 사망 기사 검열 처리에 대한 사건]]"
@@ -16970,8 +16865,7 @@
   "드디어 한국 애플페이": {},
   "드디어, 한국 애플페이": {
     "2023-02-04": "- [[드디어, 한국 애플페이]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] | [tweet](https://twitter.com/anaclumos/status/1621975286127513600) | ...",
-    "Harry Stebbings Challenge": "... Apple Pay in Korea]] <br/>🇰🇷 [[드디어, 한국 애플페이]] | [Tweet](https://twitter.com/anaclumos/status/1621975286127513600) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] | [tweet](https://twitter.com/anaclumos/status/1621975286127513600) | ..."
   },
   "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": {
     "2024-02-01": "- [[디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)]]",
@@ -17115,8 +17009,7 @@
   "방지된 폭탄에 대한 경의": {
     "2023-02-01": "- [[방지된 폭탄에 대한 경의]]",
     "2023-02-06": "- [[방지된 폭탄에 대한 경의]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]] | [tweet](https://twitter.com/anaclumos/status/1622705516693843969) | ...",
-    "Harry Stebbings Challenge": "... [[Remembering that Disarmed Bomb]] <br/>🇰🇷 [[방지된 폭탄에 대한 경의]] | [Tweet](https://twitter.com/anaclumos/status/1622705516693843969) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... that Disarmed Bomb]] <br/> 🇰🇷 [[방지된 폭탄에 대한 경의]] | [tweet](https://twitter.com/anaclumos/status/1622705516693843969) | ..."
   },
   "배달의민족": {
     "2022-05-31": "... 빗대고 싶진 않지만, **[[Karrot|당근]] + [[배달의민족]] + [[쿠팡]]**이라고 생각하면 됩니다. -",
@@ -17237,7 +17130,6 @@
     "2023-02-02": "- [[서비스 시밍]]",
     "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 [[Service Shimming]] <br/> 🇰🇷 [[서비스 시밍]] | [tweet](https://twitter.com/anaclumos/status/1621250040022061060) | ...",
     "Avoid Premature Optimizations": "- [[Service Shimming]], [[서비스 시밍]]",
-    "Harry Stebbings Challenge": "... | 🇬🇧 [[Service Shimming]] <br/>🇰🇷 [[서비스 시밍]] | [Tweet](https://twitter.com/anaclumos/status/1621250040022061060) | | ...",
     "기술 할부 결제": "... 방식은 만들 때까지 만든 척하는 [[서비스 시밍]]과 유사하다."
   },
   "서울": {
@@ -17297,7 +17189,7 @@
     "박스상자 (12誠鉉)": "[[성현적 발상]]",
     "방송부 (13誠鉉-14誠鉉)": "[[성현적 발상]]",
     "불가사리 (23誠鉉)": "[[성현적 발상]]",
-    "소셜 엔지니어링 금지": "[[성현적 발상]]",
+    "소셜엔지니어링 금지법": "[[성현적 발상]]",
     "시간 횡령 (12誠鉉)": "[[성현적 발상]]",
     "야광봉 (14誠鉉)": "[[성현적 발상]]",
     "원하는 곳만 전자레인지": "[[성현적 발상]]",
@@ -17469,8 +17361,7 @@
     "GitHub Copilot Investigation": "- Very similar to [[이루다]] in terms that it collected ..."
   },
   "이무기 기업, 청룡 기업": {
-    "30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]] | [tweet](https://twitter.com/anaclumos/status/1620714157418094593) | ...",
-    "Harry Stebbings Challenge": "... [[Imoogi and Dragon Company]] <br/>🇰🇷 [[이무기 기업, 청룡 기업]] | [Tweet](https://twitter.com/anaclumos/status/1620714157418094593) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... and Dragon Company]] <br/> 🇰🇷 [[이무기 기업, 청룡 기업]] | [tweet](https://twitter.com/anaclumos/status/1620714157418094593) | ..."
   },
   "이역만리": {
     "한타 vs 케이타운": "[[이역만리]] 먼 길 건너와서 한국인들 사이에만 ..."
@@ -17614,7 +17505,6 @@
   "젠리의 성공 공식": {
     "2023-02-03": "- [[젠리의 성공 공식]]",
     "30-Day Tweet Test (Harry Stebbings)": "... 🇬🇧 [[Zenly Playbook]] <br/> 🇰🇷 [[젠리의 성공 공식]] | [tweet](https://twitter.com/anaclumos/status/1621646220954574848) | ...",
-    "Harry Stebbings Challenge": "... 🇬🇧 [[The Zenly Playbook]] <br/>🇰🇷 [[젠리의 성공 공식]] | [Tweet](https://twitter.com/anaclumos/status/1621646220954574848) | | ...",
     "Zenly": "... down in 2023. [[Zenly Playbook]] [[젠리의 성공 공식]]"
   },
   "조디슨 (11誠鉉)": {
@@ -17702,8 +17592,7 @@
   },
   "초대장의 시대": {
     "2023-02-05": "- [[초대장의 시대]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... [[Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]] | [tweet](https://twitter.com/anaclumos/status/1622384241442160641) | ...",
-    "Harry Stebbings Challenge": "... [[The Era of Invites]] <br/>🇰🇷 [[초대장의 시대]] | [Tweet](https://twitter.com/anaclumos/status/1622384241442160641) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... [[Era of Invites]] <br/> 🇰🇷 [[초대장의 시대]] | [tweet](https://twitter.com/anaclumos/status/1622384241442160641) | ..."
   },
   "초상권 vs 저작권": {
     "CELLO": "- [[초상권 vs 저작권]]",
@@ -17720,8 +17609,7 @@
   },
   "컴퓨터는 향정신성 약물인가": {
     "2023-02-09": "- [[컴퓨터는 향정신성 약물인가]]",
-    "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [tweet](https://twitter.com/anaclumos/status/1623798629155713024) | ...",
-    "Harry Stebbings Challenge": "... [[Are Computers Psychotropic Substances]] <br/>🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [Tweet](https://twitter.com/anaclumos/status/1623798629155713024) | | ..."
+    "30-Day Tweet Test (Harry Stebbings)": "... Computers Psychotropic Substances]] <br/> 🇰🇷 [[컴퓨터는 향정신성 약물인가]] | [tweet](https://twitter.com/anaclumos/status/1623798629155713024) | ..."
   },
   "코드클럽": {
     "2019-03-04": "- [[코드클럽]]",
@@ -17969,8 +17857,7 @@
     "상공농사": "[[한민족의 멸종 방어|Neo Korea]]",
     "새로운 4대 사회악": "아래는, [[한민족의 멸종 방어|네오코리아]]로 나아가기 위해 반드시 해결해야할 과제들이다.",
     "서당개 3년이면 풍월을 읊는다": "[[한민족의 멸종 방어]]",
-    "소셜 엔지니어링 금지": "[[한민족의 멸종 방어]]를 위해 금지가 필수. [[Social Engineering]]은 ...",
-    "소셜엔지니어링 금지법": "[[한민족의 멸종 방어]]를 위한 필수. 소셜 엔지니어링은 마약성 ...",
+    "소셜엔지니어링 금지법": "[[한민족의 멸종 방어]]를 위해 금지가 필수. [[Social Engineering]]은 ...",
     "역사에는 사건만 있을 뿐 진실은 없다": "[[한민족의 멸종 방어|네오코리아]]",
     "연암 박지원 그리고 전국수도권화": "[[한민족의 멸종 방어]].",
     "의료 인공지능과 의대 쏠림": "[[한민족의 멸종 방어]]",
@@ -18039,7 +17926,6 @@
     "2024-01-19": "- [[화요일에는 인쇄 기능이 고장나는 오피스 프로그램]]",
     "말도 안 되는 버그": "- [[화요일에는 인쇄 기능이 고장나는 오피스 프로그램]]"
   },
-  "환영합니다": {},
   "활자": {
     "하늘땅사람": "- [[활자]]",
     "하늘땅사람 개발 기록": "[[Subproject]]로 JSON 집합체를 [[활자]]라는 이름으로 배포했다: [anaclumos/hwalja: 활자: 세상에서 ..."
