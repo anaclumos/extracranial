@@ -1,0 +1,14 @@
+---
+lang: 'en'
+slug: '/63C775'
+---
+
+Both [Jiro Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md) and [J. Robert Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md) were influential figures during World War II, making significant contributions to aeronautical engineering and theoretical physics. They developed technologies that significantly impacted the course of the war and subsequent peace but also grappled with moral implications.
+
+[Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md) designed the Mitsubishi A6M Zero, a fighter plane representing [Japanese](./../.././docs/pages/%EC%9D%BC%EB%B3%B8.md) military power. [Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md) led the scientific team of the Manhattan [Project](./../.././docs/pages/Project.md), which developed the first atomic bomb for the [United States](./../.././docs/pages/United%20States%20of%20America.md). Both men were technological pioneers, pushing the boundaries of what was possible. After the war, [Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md)'s career in military aircraft production ended with [Japan](./../.././docs/pages/%EC%9D%BC%EB%B3%B8.md)'s defeat. He shifted his focus to commercial airliners and education. [Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md) became an advocate for nuclear regulation but was accused of communist sympathies during the Red Scare, losing his security clearance and influential position. [Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md)'s planes were used in war and kamikaze missions, causing death and destruction. [Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md)'s atomic bomb resulted in unprecedented destruction in Hiroshima and Nagasaki, causing immense loss of life. Their legacies are complex, remembered for their technological achievements and the suffering and destruction they caused.
+
+Both [Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md) and [Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md) faced moral dilemmas reflecting the profound ethical challenges faced by scientists and engineers whose inventions are used in war. They lived in the shadow of their work's ethical implications, navigating complex moral terrain.
+
+We conveniently consume [Horikoshi](./../.././docs/pages/Jiro%20Horikoshi.md) as a war criminal and [Oppenheimer](./../.././docs/pages/J.%20Robert%20Oppenheimer.md) as a war hero. If history unfolded differently, would we so conveniently say the same thing?
+
+Just to be clear, I am not advocating any of the war criminal activities. I'm making a point that a scientist's path may be swayed regardless of one's intent, and the two scientist's fates may have unfolded differently if the two had been born in different environments. And I'm feeling disgusted about the fact that however we try, we can never be set free from the string and ties of the nation we work for.

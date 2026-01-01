@@ -1,0 +1,9 @@
+---
+lang: 'en'
+slug: '/B324D5'
+---
+
+## [Still Have A Use For Adobe Flash? Ruffle Is Working To Emulate It In Rust Safely](https://www.phoronix.com/news/Ruffle-Adobe-Flash-Rust)
+
+- Have A Use For Adobe Flash? Ruffle Is Working To Emulate It In [Rust](./../.././docs/pages/Rust.md) Safely
+- Ruffle is getting Adobe Flash content running safely in modern [web browsers](./../.././docs/pages/Web%20Browser.md) via [Rust](./../.././docs/pages/Rust.md) and [WebAssembly](./../.././docs/pages/WebAssembly.md)

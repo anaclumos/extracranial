@@ -1,0 +1,139 @@
+{
+  "main": {
+    "id": "2993533c7e40d307",
+    "type": "split",
+    "children": [
+      {
+        "id": "6092d2d4339d8b06",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Journals/2022-10-13.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7403db17d0484814",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc96f4531524c994",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa73c60d583d3db3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b9b3d1724f39de07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8a1cbdbe60bd7d71",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 363
+  },
+  "right": {
+    "id": "1bb7f4a449135cb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c29e4577df9a66b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d8fcfa116cdddff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Journals/2022-10-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59bace770cf9ea54",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Journals/2022-10-13.md"
+              }
+            }
+          },
+          {
+            "id": "349901b993d3fba4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "5de072701500b87e",
+            "type": "leaf",
+            "state": {
+              "type": "Review Daily Notes",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 415.5,
+    "collapsed": true
+  },
+  "active": "6092d2d4339d8b06",
+  "lastOpenFiles": [
+    "Research/Extracranial.md",
+    "Research/Svelte.md",
+    "Research/Untitled.md",
+    "Journals/2022-10-13.md",
+    "Research/Either be best-in-class or the most efficient.md",
+    "Research/Venture Capital.md",
+    "Research/WebAssembly.md",
+    "Research/How is WASM cross-platform.md",
+    "Research/Stories Behind Satori.md",
+    "Research/PNG.md"
+  ]
+}

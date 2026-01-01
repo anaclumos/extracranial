@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "조성현",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "저는 인터넷을 여행하는 조성현입니다.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "블로그",
+    "description": "The label for the left sidebar"
+  }
+}

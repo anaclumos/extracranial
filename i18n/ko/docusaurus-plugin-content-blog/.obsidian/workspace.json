@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "27b50f5ee541a48a",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b6f85702d21f0a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe062430b52c502b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-11-05-dynamic-island/ko.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c3881272c2933cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4331274af4c63bf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbd2ac39fa4fa9e0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4cc2b05c1305a314",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3c8ebc3fd46e3c35",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d40ea49e6020fcbb",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e480f8723fa856b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fd5d24396f214fe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-11-05-dynamic-island/ko.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d8b8c238413a9eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2022-11-05-dynamic-island/ko.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8590bae39e646c3a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6fd61d8a041ee1f0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-11-05-dynamic-island/ko.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "fe062430b52c502b",
+  "lastOpenFiles": [
+    "2022-11-05-dynamic-island/en.md",
+    "2022-11-05-dynamic-island/ko.md",
+    "2020-05-11-youtube-find-korean/en.md",
+    "2020-05-11-youtube-find-korean/F6B289.png",
+    "2020-05-11-youtube-find-korean/ko.md",
+    "2022-11-05-dynamic-island/622B66.png",
+    "2022-11-05-dynamic-island/2059F2.png",
+    "2022-11-05-dynamic-island/129B7C.png",
+    "2022-11-05-dynamic-island/4EAA04.png",
+    "2022-09-14-brane/ko.md"
+  ]
+}

@@ -1,0 +1,22 @@
+---
+lang: 'en'
+slug: '/56317F'
+---
+
+[WebGPU](https://gpuweb.github.io/gpuweb/) is a recently developed web interface that provides access to modern [graphics](./../.././docs/pages/Graphics.md) processing unit ([GPU](./../.././docs/pages/GPU.md)) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and computation tasks. Its aim is comparable to WebGL APIs, but [WebGPU](./../.././docs/pages/WebGPU.md) offers access to more advanced [GPU](./../.././docs/pages/GPU.md) features. **What if we could do this with [NPU](./../.././docs/pages/NPU.md)**? I hereby suggest a hypothetical **WebNPU** [API](./../.././docs/pages/API.md). Think this way:
+
+- [WebAssembly](./../.././docs/pages/WebAssembly.md) unlocks the bare-metal power of [CPU](./../.././docs/pages/CPU.md)s.
+- [WebGPU](./../.././docs/pages/WebGPU.md) unlocks the bare-metal power of [GPU](./../.././docs/pages/GPU.md)s.
+- **WebNPU** unlocks the bare-metal power of [NPU](./../.././docs/pages/NPU.md)s.
+
+We are already observing blooming [On-device](./../.././docs/pages/On-Device.md) inferencing [ML](./../.././docs/pages/ML.md) technology with [Apple](./../.././docs/pages/Apple.md)'s [Neural Engine](./../.././docs/pages/Neural%20Engine.md). This includes many jobs, from simple Siri commands to full-blown [Stable Diffusion](https://github.com/apple/ml-stable-diffusion) models. While they are way weaker in power compared to full-server scale inferencing, they have far better latency and privacy, which are required for some specific jobs. Other companies are catching up, such as [Google](./../.././docs/pages/Google.md)'s [Tensor](https://blog.google/products/pixel/introducing-google-tensor/). Unfortunately, so far, these chips are only accessible through native applications. For web-based solutions, we have high-level services running on the [CPU](./../.././docs/pages/CPU.md), like [TensorFlow.js](https://www.tensorflow.org/js).
+
+At one point in the future, when [AI-native](./../.././docs/pages/AI-native.md) (just like us Cloud-Natives) become the norm, there will be more and more need for an [On-device](./../.././docs/pages/On-Device.md) [API](./../.././docs/pages/API.md) to access [NPUs](./../.././docs/pages/NPU.md), especially with Web technologies. These are good for all stakeholders:
+
+- **Customers**. Everything is local, fast, and secure--no need to install an app for an [AI](./../.././docs/pages/AI.md) to be tailored to their specific preferences and behavior. Visiting a website will suffice.
+- **Developers**. No need to ramp up an inferencing server. WebNPU can also simplify the development process for developers, as they can [Write Once Run Everywhere](./../.././docs/pages/Write%20Once%20Run%20Everywhere.md).
+- **Companies**. Aggregating data will be harder and harder due to regulations and restrictions in the future. WebNPU will eradicate the need for such things. WebNPU can also provide a more scalable solution for companies, as [AI](./../.././docs/pages/AI.md) tasks can be performed on user devices, reducing the load on servers and enabling the company to scale its services more efficiently.
+- **Hardware vendors**. WebNPU can provide new business opportunities for hardware vendors, as they can develop specialized hardware optimized for [AI](./../.././docs/pages/AI.md) tasks and sell it to device manufacturers and other customers.
+- **Regulatory bodies**. WebNPU can address privacy and security concerns by enabling [AI](./../.././docs/pages/AI.md) tasks to be performed locally on user devices, reducing the amount of data that needs to be transmitted over the network and potentially reducing the risk of data breaches and other security issues. This can help regulatory bodies ensure that data is handled responsibly and securely.
+
+However, it is noteworthy that we are still in the early days of [AI](./../.././docs/pages/AI.md). We do not have a standardized way of building [NPUs](./../.././docs/pages/NPU.md), as different hardware vendors have different approaches and requirements. For example, [Core ML](./../.././docs/pages/Core%20ML.md) uses [Core ML](./../.././docs/pages/Core%20ML.md) model formats, whereas TensorFlow Lite uses FlatBuffers formats. We will again see a battle between [Apple](./../.././docs/pages/Apple.md) and [Google](./../.././docs/pages/Google.md), just like [VP9 vs HEVC](./../.././docs/pages/VP9%20vs%20HEVC.md)or [USDZ vs glTF](./../.././docs/pages/USDZ%20vs%20glTF.md) battles.

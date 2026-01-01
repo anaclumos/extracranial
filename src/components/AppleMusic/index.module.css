@@ -1,0 +1,6 @@
+.embedPlayer {
+  width: 100%;
+  overflow: hidden;
+  animation: 2s ease 0s 6 normal none running loading-indicator;
+  border: none;
+}
