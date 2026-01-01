@@ -1,7 +1,0 @@
-<figure>
-
-<figcaption>
-
-</figcaption>
-
-</figure>

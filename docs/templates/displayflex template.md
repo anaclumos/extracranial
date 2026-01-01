@@ -1,5 +1,0 @@
-;
-
-<Horizontal>
-
-</Horizontal>
