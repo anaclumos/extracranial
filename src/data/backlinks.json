@@ -1476,7 +1476,6 @@
   "2023-10-05": {},
   "2023-10-08": {},
   "2023-10-09": {
-    "Off The Record": "## [[2023-10-09]]",
     "Project Ganymede": "## [[2023-10-09]]"
   },
   "2023-10-10": {},
@@ -1769,7 +1768,6 @@
   "2024-07-30": {},
   "2024-07-31": {},
   "2024-08-01": {
-    "GANGNAM": "Last updated on [[2024-08-01]].",
     "GANGNAM (2024)": "Last updated on [[2024-08-01]]."
   },
   "2024-08-02": {},
@@ -3938,7 +3936,6 @@
     "Microsoft": "... [[Google]] has been exploring the [[AI]] ecosystem. Consequently, the increased demand ...",
     "Mojo": "... designed specifically for artificial intelligence ([[AI]]) developers, with features that streamline ...",
     "Nuclear Fission": "... his bet on energy alongside [[AI]], stating that the future depends ...",
-    "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
     "OpenAI": "OpenAI is an [[AI]] research and deployment company that ...",
     "OpenAI enthroned as the Levis of Tech": "... service, powered by the GPT-3.5-turbo [[AI]] model. The model is available ...",
     "OpenAI가 새로운 테크 리바이스로 등극하다": "**방금 [[AI]] 네이티브 시대의 골드러시가 시작되었다**.",
@@ -3983,7 +3980,6 @@
     "2023-05-03": "- [[AI and Ecommerce]]"
   },
   "AI and ML": {
-    "Project Core ML": "- [[AI and ML]]",
     "Project Core ML Foundation": "- [[AI and ML]]"
   },
   "AI replaces expensive jobs first": {
@@ -4095,7 +4091,6 @@
     "Service Shimming": "... intercepting, modifying, and redirecting the [[API]] calls. A smooth [[shim]] is ...",
     "Shim": "... a library that transparently intercepts [[API]] calls and changes the arguments ...",
     "Simple Analytics War Room": "... Fetch data from Hacker News [[API]]",
-    "Stable Alternative": "... Or [[Hugging Face]] as an [[API]] server?",
     "Stories Behind Satori": "... also added [[Google]] [[Font]]'s `?text=` [[API]], containing a specific subset of ...",
     "Storing sensitive data in iOS Apps": "... However, I am using LinkedIn [[API]] that makes a network request.",
     "Supabase": "... Supabase offers a real-time subscription [[API]], enabling real-time functionality such as ...",
@@ -4158,7 +4153,6 @@
     "OpenAI enthroned as the Levis of Tech": "... dealer in this silent war. [[AWS]] was the latest Levi's of ...",
     "OpenAI가 새로운 테크 리바이스로 등극하다": "[[AWS]]는 AT&T와 같은 통신 회사에 이어 ...",
     "Project PIRI Initial Proposal": "... lock-ins associated with products like [[AWS]] Elemental MediaLive. Thus, introducing an ...",
-    "Stable Alternative": "... Server to `image → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as ...",
     "Vercel Incident Report (23誠鉉)": "... with [[Vercel]] and \\$2,017 in [[AWS]] CloudFront.",
     "henrymakesapps": "5. [[AWS]] Copilot: Provides hosting for the ..."
   },
@@ -4417,7 +4411,6 @@
   "American Bank Problems": {
     "2023-05-03": "- [[American Bank Problems]]"
   },
-  "American Prometheus": {},
   "Amie": {
     "2023-01-30": "- Also got invited to [[Amie]].",
     "Bento Grid": "## [[Amie]]",
@@ -4709,7 +4702,6 @@
     "Era of Invites": "... any invites for [Texts](https://texts.com/), [Tana](https://tana.inc/), [[Artifact]], and so on. But things ...",
     "LavaLab Cohort of Spring 2023": "News recommending app, just like [[Artifact]], but it shows a one-liner ...",
     "hn.cho.sh 개발 기록": "- [[Artifact]]",
-    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. ",
     "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 창업자인 케빈 시스트롬과 마이크 크리거는 [[Artifact|아티팩트]]라는 새로운 앱을 출시했다. ",
     "초대장의 시대": "[[Amie]] 뿐만 아니라 [Texts](https://texts.com), [Tana](https://tana.inc), [[Artifact]]까지 초대장이 있냐고 연락을 받았다. 하지만 ..."
   },
@@ -5242,7 +5234,6 @@
     "2023-04-09": "... a nice review to get. [[Bing Chat for All Browsers]]",
     "Bing Chat for All Browsers in Japan": "- [[Bing Chat for All Browsers]]",
     "Edge Browser": "... [[Bing Chat]], although bypassable with [[Bing Chat for All Browsers]]",
-    "Privacy Policy for My Chrome Extensions": "## [[Bing Chat for All Browsers]]",
     "Search AI": "- [[Bing Chat for All Browsers]]",
     "Unchained Bing": "A competitor to [[Bing Chat for All Browsers]].",
     "hn.cho.sh 개발 기록": "[[Bing Chat for All Browsers]]가 10만 주간 사용자를 돌파하기 직전이다. ...",
@@ -6037,7 +6028,6 @@
     "One and Only WebExtension": "... [[WebExtension|extension]] that disguises itself as [[Chrome]] and runs all ",
     "Person 1E6ABA": "... [[Google]] involved multiple teams, from [[Chrome]] to TensorFlow.",
     "Porting a Chrome Extension to Firefox Add-on": "While [[Chrome]] and [[Firefox]] are two very ...",
-    "Privacy Policy for My Chrome Extensions": "... collect any data from this [[Chrome]] [[WebExtension|Extension]].",
     "Sending Notifications on Chrome Extension": "... and Updates of a given [[Chrome]] [[WebExtension|Extension]] (with different content, of ...",
     "Snowpack으로 WASM 시작하기": "- 조사해본 결과 ffmpeg.wasm은 현재 [[Chrome]]에서만 동작하기 때문이라고 한다 ([참고 링크 ...",
     "Toss Product Sans": "- 안드로이드, [[iOS]], 윈도우, [[Chrome|크롬]], 사파리 등 다양한 환경에서 원활하게 ...",
@@ -6204,9 +6194,7 @@
   "Companies are Economic Organisms": {
     "2023-07-25": "- [[Companies are Economic Organisms]]"
   },
-  "Comparing BLIP and CLIP": {
-    "Stable Alternative": "- [[Comparing BLIP and CLIP]]"
-  },
+  "Comparing BLIP and CLIP": {},
   "Compiling": {
     "2023-01-25": "- [[Compiling]]",
     "Clock skew detected": "... make decides which files to [[Compiling|compile]] when performing an incremental build ...",
@@ -7526,9 +7514,6 @@
     "Person 1E6ABA": "... at a [[Financial Technology|FinTech]] + [[Educational Technology|EduTech]] Startup. Worked at [[Google]] as ...",
     "Person 431D6C": "- Currently looking into [[Educational Technology|EduTech]] Startup"
   },
-  "Effective Accelerationism": {
-    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 없는 역사의 흐름이라 생각한다. 대신 [[Effective Accelerationism|효과적 가속주의]]에서 보듯 이런 어쩔 수 없는 ..."
-  },
   "Egregore": {
     "2023-06-22": "- [[Egregore]]"
   },
@@ -7673,9 +7658,7 @@
   "Everything Is Figureoutable": {
     "2023-09-08": "- [[Everything Is Figureoutable]]"
   },
-  "Example References for Alter": {
-    "Stable Alternative": "- [[Example References for Alter]]"
-  },
+  "Example References for Alter": {},
   "Exclude Gitignored Files from VS Code Sidebar": {
     "2025-05-07": "[[Exclude Gitignored Files from VS Code Sidebar]]"
   },
@@ -8286,7 +8269,6 @@
     "Passkey": "Passkey for Google is [[GA]] as of [[2023-05-03]]",
     "도메인 찾아 삼만리": "... 1년 뒤 [[Google|구글]]이 `.dev` 도메인을 [[GA|공개]]했고, `cho.dev`을 사려 했지만 ▲ 가격이 ..."
   },
-  "GANGNAM": {},
   "GANGNAM (2024)": {
     "2024-07-31": "- [[GANGNAM (2024)]]",
     "2024-08-02": "- [[GANGNAM (2024)]]",
@@ -9081,9 +9063,7 @@
   "How to Build Software like an SRE": {
     "2022-10-18": "- [[How to Build Software like an SRE]]"
   },
-  "Hugging Face": {
-    "Stable Alternative": "... → text`. [[AWS]] SageMaker? Or [[Hugging Face]] as an [[API]] server?"
-  },
+  "Hugging Face": {},
   "Humane Ai Pin": {
     "Wayfinding with AI Pin": "- Hypothesized that [[Humane Ai Pin|Ai Pin]] could utilize a MEMS blue ..."
   },
@@ -9904,9 +9884,7 @@
     "2022-10-04": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]",
     "Screenshot as an API": "- [[Letter to Mr. Matt Rickard on 2022-10-03]]"
   },
-  "Letter to Mr. Matt Rickard on 2022-11-28": {
-    "Stable Alternative": "- [[Letter to Mr. Matt Rickard on 2022-11-28]]"
-  },
+  "Letter to Mr. Matt Rickard on 2022-11-28": {},
   "Letter to Mr. Matt Rickard on 2022-12-21": {
     "2022-12-21": "- [[Letter to Mr. Matt Rickard on 2022-12-21]]"
   },
@@ -10823,9 +10801,6 @@
   "Newline in GitHub Bio": {
     "2023-02-10": "- [[Newline in GitHub Bio]]"
   },
-  "News App with Friendly Chatbot": {
-    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 다르지 않다고 느꼈다. 예를 들어 [[News App with Friendly Chatbot|챗봇 기반 뉴스 앱]]과 같이 좀 더 \"획기적인\" 무언가를 ..."
-  },
   "News Minimalist": {
     "Project Heimdall Initial Planning": "... [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually lead to ..."
   },
@@ -11066,7 +11041,6 @@
     "2023-01-23": "- [[Odds]]",
     "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
   },
-  "Off The Record": {},
   "Old Fashioned Camera": {},
   "Old Someday": {
     "2025-02-26": "- [[Old Someday]]",
@@ -11133,7 +11107,6 @@
   "On National Crises and the Intellectuals — Focused on GB and KR": {},
   "On-Device": {
     "2023-03-01": "- [[On-Device]]",
-    "Stable Alternative": "- [ ] Perceptual Hashing [[On-Device|On Device]]. [[phash.wasm]]",
     "WebNPU API를 상상하다": "우리는 이미 [[Apple|애플]]의 [[Neural Engine]]으로 [[On-Device|온디바이스]] [[ML]] 기술의 시작을 관찰하고 있다. ..."
   },
   "On-Premise": {
@@ -11188,7 +11161,6 @@
     "불가사리": "[[Tossface|토스페이스]] 같은 곳에 [[Oneday|훗날]] 들어갔으면",
     "원하는 곳만 전자레인지": "[[Oneday]]"
   },
-  "Oneliner News": {},
   "Open API Hono": {
     "2025-05-15": "- [[Open API Hono]]"
   },
@@ -11198,7 +11170,6 @@
     "2024-05-02": "... 엔젤 투자. 나는 그동안 항상 [[Open Core Models]]이 유일한 커뮤니티 상생법이라고 생각했는데 얘네처럼 ...",
     "2024-07-04": "- [[Open Core Models]]",
     "2024-07-10": "- [[Open Core Models]]",
-    "GANGNAM": "... OSS and GitHub-Sponsor them. See [[Open Core Models]].",
     "GANGNAM (2024)": "... OSS and GitHub-Sponsor them. See [[Open Core Models]].",
     "Newtonian Correspondence": "| [02-28](../journals/2023-02-28.md) | `EN` [[Open Core Models]] | [Tweet](https://twitter.com/anaclumos/status/1763114869845557579) |"
   },
@@ -11550,7 +11521,6 @@
   "Photoshop for Text": {
     "Generative Intelligence": "- [[Photoshop for Text]]",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... came across your article on [[Photoshop for Text]] and was deeply inspired by ...",
-    "Project Core ML": "- [[Photoshop for Text]]",
     "Project Core ML Foundation": "- [[Photoshop for Text]]",
     "기술 발전의 속도": "당시에도 나는 [[Photoshop for Text]]를 상상하며 [[Oneday|훗날]] 미래에 도래할 텍스트 ..."
   },
@@ -11655,7 +11625,6 @@
   },
   "Prehistoric": {
     "2023-05-10": "- [[Prehistoric]]",
-    "Off The Record": "## [[Prehistoric]]",
     "Project FFMpeg for iPad": "## [[Prehistoric]]",
     "Project Ganymede": "## [[Prehistoric]]",
     "Project Heimdall Initial Planning": "## [[Prehistoric]]",
@@ -11929,7 +11898,6 @@
     "Neo Aldehyde": "[[Old Someday]] [[Project]]",
     "Neo ArXiv": "[[Oneday]] [[Project]].",
     "Not-So-Procrastinating Lazy Loading": "[[Old Someday]] [[Project]]. `img loading=lazy`, but if the ...",
-    "Off The Record": "- [[Project]]. Disappearing message for [[iMessage]].",
     "Old Fashioned Camera": "[[Old Someday]] [[Project]]. iPhone 4 시절 그 구진 ...",
     "One and Only WebExtension": "- [[Old Someday]] [[Project]]",
     "Open Graph Image as a Service": "[[Old Someday]] [[Project]]. Request Open Graph Images with ...",
@@ -12012,7 +11980,6 @@
     "2024-03-07": "- [[Project Calenzano]]",
     "2024-03-18": "[[Project Calenzano]]"
   },
-  "Project Core ML": {},
   "Project Core ML Foundation": {
     "2023-01-26": "- [[Project Core ML Foundation]]",
     "2023-01-27": "- [[Project Core ML Foundation]]",
@@ -12349,7 +12316,6 @@
   },
   "PyTorch": {
     "Accessing Remote Jupyter at USC ISI": "... learning tasks using TensorFlow and [[PyTorch]].",
-    "Stable Alternative": "- [salesforce/BLIP](https://github.com/salesforce/BLIP): [[PyTorch]] code for BLIP: Bootstrapping Language-Image ...",
     "Use Apple GPU on PyTorch": "... Acceleration ([[Metal]] Performance [[Shader]]) on [[PyTorch]]"
   },
   "Pyrrhus and Cinéas": {
@@ -13750,8 +13716,7 @@
     "2022-10-13": "## [[TODO]]",
     "2022-11-01": "## [[TODO]]",
     "2022-11-02": "## [[TODO]]",
-    "Coding Tests": "- [[QuickSelect]] [[TODO]]",
-    "Stable Alternative": "## [[TODO]]"
+    "Coding Tests": "- [[QuickSelect]] [[TODO]]"
   },
   "TS1208 All files must be modules when the --isolatedModules flag is provided.": {
     "2023-06-06": "- [[TS1208 All files must be modules when the --isolatedModules flag is provided.]]"
@@ -14808,7 +14773,6 @@
     "Letter to the Heptabase Team on 2022-10-11": "- [[WebExtension|Extension]] APIs",
     "One and Only WebExtension": "... Only [[WebExtension]] will install [[Chrome]] [[WebExtension|Extension]] within itself and proxy all ...",
     "Porting a Chrome Extension to Firefox Add-on": "... possible to transplant a [[Chrome]] [[WebExtension|extension]] to a [[Firefox]] Add-on and ...",
-    "Privacy Policy for My Chrome Extensions": "... any data from this [[Chrome]] [[WebExtension|Extension]].",
     "Sending Notifications on Chrome Extension": "... get the version of the [[WebExtension|extension]].",
     "YCLF 주간 사용자 1000명": "## 1. [[Chrome|크롬]] [[WebExtension|익스텐션]] 스토어의 집계"
   },
@@ -15596,7 +15560,6 @@
     "2023-03-24": "- [[hn.cho.sh]]",
     "2023-04-01": "- [[hn.cho.sh]]",
     "METI Engine": "The current generation is [[hn.cho.sh]] -- and plan to scale ...",
-    "Oneliner News": "Where would [[hn.cho.sh]] lead us?",
     "Project Heimdall Initial Planning": "Where would [[hn.cho.sh]] lead us? An [[AI]]-powered news ...",
     "Project Heimdall Locale Transition Strategy": "[[Project Heimdall]]'s predecessor [[hn.cho.sh]] operated on DeepL's 29 languages. ...",
     "Project Linguine": "... into the subscriber lists of [[hn.cho.sh]], I did notice that there ...",
@@ -15604,7 +15567,6 @@
     "Vercel Incident Report (23誠鉉)": "... with two projects: [[lovearc.net]] and [[hn.cho.sh]].",
     "hn.cho.sh 개발 기록": "... 아마도 사이드바 채팅 [[AI]]를 추가하고 [[hn.cho.sh]]에 대한 셀프 프로모션을 추가해야겠다."
   },
-  "hn.cho.sh Believer Plan": {},
   "hn.cho.sh 개발 기록": {
     "2023-03-20": "- [[hn.cho.sh 개발 기록]]",
     "2023-04-02": "[[hn.cho.sh 개발 기록]]",
@@ -15660,7 +15622,6 @@
   },
   "iMessage": {
     "Beeper": "... (Service)]]. A better approach with [[iMessage]], given that it logs into ...",
-    "Off The Record": "- [[Project]]. Disappearing message for [[iMessage]].",
     "Project Ganymede": "... It is **possible** to limit [[iMessage]] forwarding for [[iMessage App|iMessage Extensions]]",
     "RCS": "... Message|SMS]] and is similar to [[iMessage]], WhatsApp, and [[Facebook Messenger]]. RCS ...",
     "Send Separately": "... Someday]] [[Project]]. \"Send Separately\" for [[iMessage]].",
@@ -16000,9 +15961,7 @@
     "Person E7CFC5": "A lot of smart [[people]]."
   },
   "person template": {},
-  "phash.wasm": {
-    "Stable Alternative": "... ] Perceptual Hashing [[On-Device|On Device]]. [[phash.wasm]]"
-  },
+  "phash.wasm": {},
   "pip install . vs pip install -e .": {
     "2025-05-09": "- [[pip install . vs pip install -e .]]"
   },
@@ -16529,7 +16488,6 @@
     "Can we ever build TikTok for Text": "... News app. Even I also [[곰단|tried once]]. However, none has been as ...",
     "뤼튼": "[[곰단]]의 (나만의) 경쟁자였다. 결과는 싸워보지도 못하고 ...",
     "북스페이스": "... 기획자가 설립했던 작문 플랫폼 스타트업. [[곰단]]의 (나만의) 경쟁자였다. 아마도 [[뤼튼]]과도 경쟁했을 ...",
-    "우린 글 기반 틱톡을 평생 만들 수 있을까": "... 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 '틱톡'만큼 매력적이고 중독성 있는 ...",
     "우린 텍스트 틱톡을 평생 만들 수 있을까": "... 다른 시도는 이미 충분히 있었다. [[곰단|나도 했었다.]] 하지만 틱톡만큼 매력적이고 중독성 있는 ..."
   },
   "공강에서 보내는 공강 활용법": {
@@ -16862,7 +16820,6 @@
     "誠鉉": "- [[두그열]]",
     "디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월)": "무엇보다 저는 승현님의 [[두그열]]에 큰 응원을 보내고 싶습니다. 제게 ..."
   },
-  "드디어 한국 애플페이": {},
   "드디어, 한국 애플페이": {
     "2023-02-04": "- [[드디어, 한국 애플페이]]",
     "30-Day Tweet Test (Harry Stebbings)": "... Pay in Korea]] <br/> 🇰🇷 [[드디어, 한국 애플페이]] | [tweet](https://twitter.com/anaclumos/status/1621975286127513600) | ..."
@@ -17311,7 +17268,6 @@
     "2024-05-23": "- [[외할머니의 코리안 사이버펑크]]",
     "2024-05-28": "- [[외할머니의 코리안 사이버펑크]]"
   },
-  "우린 글 기반 틱톡을 평생 만들 수 있을까": {},
   "우린 텍스트 틱톡을 평생 만들 수 있을까": {
     "2023-02-27": "- [[우린 텍스트 틱톡을 평생 만들 수 있을까]]",
     "30-Day Tweet Test (Harry Stebbings)": "... TikTok for Text]] <br/> 🇰🇷 [[우린 텍스트 틱톡을 평생 만들 수 있을까]] | [tweet](https://twitter.com/anaclumos/status/1630370788422610945) | ...",
@@ -17464,7 +17420,6 @@
   },
   "일일일": {
     "2023-04-19": "- [[일일일]]",
-    "Oneliner News": "An [[AI]]-powered news portal? Reference: [[일일일]]",
     "Project Heimdall Initial Planning": "... An [[AI]]-powered news portal? Reference: [[일일일]], [[News Minimalist]]. Would it eventually ..."
   },
   "자아는 발굴되는 것이다": {
@@ -17615,7 +17570,6 @@
     "2019-03-04": "- [[코드클럽]]",
     "2022-12-10": "- [[코드클럽]]"
   },
-  "코리안 디스카운트": {},
   "코리안 르네상스": {
     "네오 코리안 르네상스": "엄밀하게 이 문서에서 정의한 네오 [[코리안 르네상스]]는 아니지만, 그래도 한국적 문화 요소를 ...",
     "한국의 식민지 근대성": "## 신채호와 첫 [[코리안 르네상스]]"
