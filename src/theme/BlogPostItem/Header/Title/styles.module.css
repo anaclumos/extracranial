@@ -1,0 +1,10 @@
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media (width <= 576px) {
+  .title {
+    font-size: 2rem;
+  }
+}

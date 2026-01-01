@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "cho.sh",
+    "description": "The title in the navbar"
+  },
+  "item.label.Articles": {
+    "message": "블로그",
+    "description": "Navbar item with label Articles"
+  },
+  "item.label.Today": {
+    "message": "오늘",
+    "description": "Navbar item with label Today"
+  },
+  "item.label.Random": {
+    "message": "무작위",
+    "description": "Navbar item with label Random"
+  },
+  "logo.alt": {
+    "message": "Sunghyun Cho Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.What's this?": {
+    "message": "설명",
+    "description": "Navbar item with label What's this?"
+  }
+}

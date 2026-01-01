@@ -1,0 +1,32 @@
+import Head from '@docusaurus/Head'
+import { useDoc } from '@docusaurus/plugin-content-docs/client'
+import { PageMetadata } from '@docusaurus/theme-common'
+import React from 'react'
+import type { JSX } from 'react'
+
+export default function DocItemMetadata() {
+  const { metadata, frontMatter, assets } = useDoc()
+  const name = 'cho.sh'
+  return (
+    <>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name='description' content={metadata.description} />
+        <meta property='og:title' content={metadata.title} />
+        <meta property='og:description' content={metadata.description} />
+        <meta
+          property='og:image'
+          content={`https://og.cho.sh/api/og?title=${encodeURIComponent(
+            metadata.title,
+          )}&subheading=${encodeURIComponent(name)}`}
+        />
+      </Head>
+      <PageMetadata
+        title={metadata.title}
+        description={metadata.description}
+        keywords={frontMatter.keywords}
+        image={assets.image ?? frontMatter.image}
+      />
+    </>
+  )
+}

@@ -1,0 +1,16 @@
+.container {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.viewCount {
+  color: var(--ifm-font-color-base);
+}
+
+.viewCount::before {
+  display: none !important;
+}
+
+.viewCount::after {
+  display: none !important;
+}

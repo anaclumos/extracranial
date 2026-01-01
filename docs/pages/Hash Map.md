@@ -1,0 +1,19 @@
+---
+lang: 'en'
+slug: '/BC5754'
+aliases: ['Hash Maps', 'HashMap', 'HashMaps', '해시맵', '해시 맵']
+---
+
+TODO: USE FUMADOCS I18N
+
+<div lang='en-US'>
+
+A hash map is a data structure that stores key-value pairs for efficient retrieval. A value stored in a hash map is retrieved using the key under which it was stored. A hash map uses a hash function to [map](./../.././docs/pages/Map.md) identifying values, known as keys, to their associated values. A hash function is an algorithm that produces an index of where a value can be found or stored in the hash table.
+
+</div>
+
+<div lang='ko-KR'>
+
+해시 맵은 효율적인 검색을 위해 키-값 쌍을 저장하는 데이터 구조다. 해시 맵에 저장된 값은 해당 값이 저장된 키를 사용하여 검색된다. 해시 맵은 해시 함수를 사용하여 키라고 하는 식별 값을 연관된 값에 매핑한다. 해시 함수는 해시 테이블에서 값을 찾거나 저장할 수 있는 위치의 인덱스를 생성하는 알고리즘이다.
+
+</div>

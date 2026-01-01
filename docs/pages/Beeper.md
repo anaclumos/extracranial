@@ -1,0 +1,20 @@
+---
+lang: 'en'
+slug: '/2DBC4A'
+---
+
+An [alternative](./../.././docs/pages/Alternative.md) to [Texts (Service)](./../.././docs/pages/Texts%20%28Service%29.md). A better approach with [iMessage](./../.././docs/pages/iMessage.md), given that it logs into a server computer. But more than that...
+
+<blockquote class="twitter-tweet">
+
+I'm excited to introduce a little side project I've been working on Beepberry - a portable e-paper computer for hackers, designed for chatting on Beeper. It's available today to pre-order for USD 79. It's a partnership between me ([@onbeeper](https://twitter.com/onbeeper?ref_src=twsrc%5Etfw)) and [@sqfmi](https://twitter.com/sqfmi?ref_src=twsrc%5Etfw):
+
+[Original Post Link](https://t.co/hIZRQMTrvr)
+
+&mdash; Eric Migicovsky (@ericmigi) [May 17, 2023](https://twitter.com/ericmigi/status/1658854905220587522?ref_src=twsrc%5Etfw)
+
+</blockquote>
+
+Uses [Matrix Network](./../.././docs/pages/Matrix%20Network.md)
+
+> [Matrix](./../.././docs/pages/Matrix%20Network.md) is the holy grail of chat. It's end-to-end encrypted by default, federated and open source. The only problem is that none of my friends or family was on it! Luckily the [Matrix](./../.././docs/pages/Matrix%20Network.md) folks had already envisioned a solution to this problem - they built an [API](./../.././docs/pages/API.md) enabling 'bridges' between [Matrix](./../.././docs/pages/Matrix%20Network.md) and other chat networks. This struck a chord with me; we could finally make a single app I could use to chat with all my friends, regardless of which chat app they used. Through the [Matrix](./../.././docs/pages/Matrix%20Network.md) community, I met Tulir, the most prolific bridge developer, and we started working on what would become Beeper. I've used it as my primary chat client for almost two years. I could not imagine returning to the hot mess of 12 different chat apps I had before!
