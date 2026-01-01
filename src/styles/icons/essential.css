@@ -5,36 +5,36 @@ article a[href*="github.com"]::before,
 article a[href*="githubusercontent.com"]::before,
 article a[href*="github.blog"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/github.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg");
 }
 
 article a[href*="gitlab.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/gitlab.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg");
 }
 
 /* === Wikipedia === */
 article a[href*="wikipedia.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/wikipedia.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/wikipedia.svg");
 }
 
 /* === Apple Ecosystem === */
 article a[href*="apple.com"]::before,
 article a[href*="support.apple.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/apple.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/apple.svg");
 }
 
 article a[href*="apps.apple.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/appstore.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/appstore.svg");
 }
 
 article a[href*="music.apple.com"]::before,
 article a[href*="js-cdn.music.apple.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/applemusic.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/applemusic.svg");
 }
 
 /* === Google & Alphabet === */
@@ -43,13 +43,13 @@ article a[href*="about.google"]::before,
 article a[href*="blog.google"]::before,
 article a[href*="googleblog.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/google.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/google.svg");
 }
 
 article a[href*="youtube.com"]::before,
 article a[href*="youtu.be"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/youtube.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/youtube.svg");
 }
 
 article a[href*="chrome.google"]::before,
@@ -57,523 +57,513 @@ article a[href*="developer.chrome.com"]::before,
 article a[href*="chromium.org"]::before,
 article a[href*="web.dev"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googlechrome.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlechrome.svg");
 }
 
 article a[href*="drive.google"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googledrive.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googledrive.svg");
 }
 
 article a[href*="docs.google.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googledocs.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googledocs.svg");
 }
 
 article a[href*="colab.research.google"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googlecolab.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecolab.svg");
 }
 
 article a[href*="fonts.google"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googlefonts.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlefonts.svg");
 }
 
 /* === Social Platforms === */
 article a[href*="twitter.com"]::before,
 article a[href*="x.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/x.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/x.svg");
 }
 
 article a[href*="linkedin.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/linkedin.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg");
 }
 
 article a[href*="facebook.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/facebook.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/facebook.svg");
 }
 
 article a[href*="instagram.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/instagram.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg");
 }
 
 article a[href*="threads.net"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/threads.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/threads.svg");
 }
 
 article a[href*="mastodon"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/mastodon.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mastodon.svg");
 }
 
 article a[href*="reddit.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/reddit.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/reddit.svg");
 }
 
 article a[href*="news.ycombinator.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/ycombinator.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ycombinator.svg");
 }
 
 article a[href*="discord.com"]::before,
 article a[href*="discord.gg"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/discord.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/discord.svg");
 }
 
 article a[href*="slack.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/slack.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/slack.svg");
 }
 
 /* === Developer Platforms === */
 article a[href*="stackoverflow.com"]::before,
 article a[href*="stackexchange.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/stackoverflow.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stackoverflow.svg");
 }
 
 article a[href*="developer.mozilla.org"]::before,
 article a[href*="mdn.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/mdnwebdocs.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mdnwebdocs.svg");
 }
 
 article a[href*="npmjs.com"]::before,
 article a[href*="npm.im"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/npm.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/npm.svg");
 }
 
 article a[href*="pypi.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/pypi.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pypi.svg");
 }
 
 article a[href*="crates.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/rust.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rust.svg");
 }
 
 article a[href*="codepen.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/codepen.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codepen.svg");
 }
 
 article a[href*="codesandbox.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/codesandbox.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/codesandbox.svg");
 }
 
 article a[href*="jsfiddle.net"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/jsfiddle.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jsfiddle.svg");
 }
 
 article a[href*="glitch.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/glitch.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/glitch.svg");
 }
 
 article a[href*="replit.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/replit.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/replit.svg");
 }
 
 /* === Blogging & Content === */
 article a[href*="medium.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/medium.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/medium.svg");
 }
 
 article a[href*="dev.to"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/devdotto.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/devdotto.svg");
 }
 
 article a[href*="hashnode.com"]::before,
 article a[href*="hashnode.dev"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/hashnode.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/hashnode.svg");
 }
 
 article a[href*="substack.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/substack.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/substack.svg");
 }
 
 article a[href*="ghost.org"]::before,
 article a[href*="ghost.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/ghost.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ghost.svg");
 }
 
 /* === Productivity & Design === */
 article a[href*="notion.so"]::before,
 article a[href*="notion.site"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/notion.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/notion.svg");
 }
 
 article a[href*="figma.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/figma.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/figma.svg");
 }
 
 article a[href*="framer.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/framer.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/framer.svg");
 }
 
 article a[href*="canva.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/canva.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/canva.svg");
 }
 
 article a[href*="miro.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/miro.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/miro.svg");
 }
 
 article a[href*="linear.app"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/linear.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linear.svg");
 }
 
 article a[href*="trello.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/trello.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/trello.svg");
 }
 
 article a[href*="asana.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/asana.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/asana.svg");
 }
 
 article a[href*="atlassian.com"]::before,
 article a[href*="jira.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/atlassian.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/atlassian.svg");
 }
 
 /* === PKM & Note-taking === */
 article a[href*="obsidian.md"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/obsidian.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/obsidian.svg");
 }
 
 article a[href*="logseq.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/logseq.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/logseq.svg");
 }
 
 article a[href*="roamresearch.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/roamresearch.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/roamresearch.svg");
 }
 
 /* === Hosting & Cloud === */
 article a[href*="vercel.com"]::before,
 article a[href*="vercel.app"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/vercel.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vercel.svg");
 }
 
 article a[href*="netlify.com"]::before,
 article a[href*="netlify.app"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/netlify.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/netlify.svg");
 }
 
 article a[href*="cloudflare.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/cloudflare.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cloudflare.svg");
 }
 
 article a[href*="aws.amazon.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/amazonaws.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazonaws.svg");
 }
 
 article a[href*="azure.microsoft.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/microsoftazure.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoftazure.svg");
 }
 
 article a[href*="cloud.google"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/googlecloud.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlecloud.svg");
 }
 
 article a[href*="heroku.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/heroku.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/heroku.svg");
 }
 
 article a[href*="railway.app"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/railway.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/railway.svg");
 }
 
 article a[href*="render.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/render.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/render.svg");
 }
 
 article a[href*="fly.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/flydotio.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/flydotio.svg");
 }
 
 article a[href*="supabase.com"]::before,
 article a[href*="supabase.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/supabase.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/supabase.svg");
 }
 
 article a[href*="planetscale.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/planetscale.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/planetscale.svg");
 }
 
 /* === Tech Companies === */
 article a[href*="microsoft.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/microsoft.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoft.svg");
 }
 
 article a[href*="amazon.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/amazon.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/amazon.svg");
 }
 
 article a[href*="netflix.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/netflix.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/netflix.svg");
 }
 
 article a[href*="spotify.com"]::before,
 article a[href*="developer.spotify.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/spotify.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spotify.svg");
 }
 
 article a[href*="starlink.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/starlink.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/spacex.svg");
 }
 
 article a[href*="tesla.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/tesla.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tesla.svg");
 }
 
 article a[href*="openai.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/openai.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg");
 }
 
 article a[href*="anthropic.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/anthropic.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/anthropic.svg");
 }
 
 article a[href*="huggingface.co"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/huggingface.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/huggingface.svg");
 }
 
 /* === Frameworks & Libraries === */
 article a[href*="react.dev"]::before,
 article a[href*="reactjs.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/react.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/react.svg");
 }
 
 article a[href*="nextjs.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/nextdotjs.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nextdotjs.svg");
 }
 
 article a[href*="vuejs.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/vuedotjs.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vuedotjs.svg");
 }
 
 article a[href*="svelte.dev"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/svelte.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/svelte.svg");
 }
 
 article a[href*="angular.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/angular.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/angular.svg");
 }
 
 article a[href*="astro.build"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/astro.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/astro.svg");
 }
 
 article a[href*="solidjs.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/solid.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/solid.svg");
 }
 
 article a[href*="tailwindcss.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/tailwindcss.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tailwindcss.svg");
 }
 
 article a[href*="nodejs.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/nodedotjs.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nodedotjs.svg");
 }
 
 article a[href*="deno.land"]::before,
 article a[href*="deno.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/deno.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/deno.svg");
 }
 
 article a[href*="bun.sh"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/bun.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bun.svg");
 }
 
 article a[href*="typescriptlang.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/typescript.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/typescript.svg");
 }
 
 article a[href*="rust-lang.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/rust.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/rust.svg");
 }
 
 article a[href*="golang.org"]::before,
 article a[href*="go.dev"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/go.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/go.svg");
 }
 
 article a[href*="python.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/python.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/python.svg");
 }
 
 article a[href*="webpack.js.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/webpack.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/webpack.svg");
 }
 
 article a[href*="vitejs.dev"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/vite.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vite.svg");
 }
 
 article a[href*="esbuild.github.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/esbuild.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/esbuild.svg");
 }
 
 article a[href*="turbo.build"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/turborepo.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/turborepo.svg");
 }
 
 article a[href*="graphql.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/graphql.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/graphql.svg");
 }
 
 article a[href*="docker.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/docker.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/docker.svg");
 }
 
 article a[href*="kubernetes.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/kubernetes.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kubernetes.svg");
 }
 
 /* === Korean Platforms === */
 article a[href*="naver.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/naver.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/naver.svg");
 }
 
 article a[href*="kakao.com"]::before,
 article a[href*="kakaocorp.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/kakao.svg");
-}
-
-article a[href*="toss.im"]::before {
-  content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/toss.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kakao.svg");
 }
 
 article a[href*="velog.io"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/velog.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/velog.svg");
 }
 
 article a[href*="tistory.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/tistory.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tistory.svg");
 }
 
 /* === Presentations === */
 article a[href*="slideshare.net"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/slideshare.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/slideshare.svg");
 }
 
 article a[href*="speakerdeck.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/speakerdeck.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/speakerdeck.svg");
 }
 
 /* === Other Popular Sites === */
 article a[href*="producthunt.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/producthunt.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/producthunt.svg");
 }
 
 article a[href*="dribbble.com"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/dribbble.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/dribbble.svg");
 }
 
 article a[href*="behance.net"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/behance.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/behance.svg");
 }
 
 article a[href*="arxiv.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/arxiv.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/arxiv.svg");
 }
 
 article a[href*="w3.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/w3c.svg");
-}
-
-article a[href*="ietf.org"]::before {
-  content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/ietf.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/w3c.svg");
 }
 
 article a[href*="archive.org"]::before {
   content: "\00a0";
-  mask-image: url("https://simpleicons.org/icons/internetarchive.svg");
+  mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/internetarchive.svg");
 }
