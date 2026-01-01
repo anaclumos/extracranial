@@ -3,7 +3,7 @@ date: 2022-11-23
 description: '웹 기술로 다이나믹 아일랜드를 재현하기 위해 힘쓴 기록'
 authors: anaclumos
 slug: '/9F7F85'
-title: '🏝 웹으로 빚은 다이나믹 아일랜드'
+title: '웹으로 빚은 다이나믹 아일랜드'
 ---
 
 <!-- truncate -->

@@ -1,5 +1,5 @@
 ---
-title: '🇰🇷 Reviving Korean Emojis'
+title: 'Reviving Korean Emojis'
 date: 2022-08-19
 description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean Ones. They are now back.'
 authors: anaclumos

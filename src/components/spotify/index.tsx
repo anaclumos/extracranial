@@ -7,12 +7,10 @@ export default function Spotify({ url }: SpotifyProps) {
     <iframe
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       allowFullScreen={false}
-      height="152"
+      className="h-40 w-full rounded-xl"
       loading="lazy"
       src={url}
-      style={{ borderRadius: 12 }}
       title="Spotify Player"
-      width="100%"
     />
   )
 }

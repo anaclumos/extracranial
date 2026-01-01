@@ -1,5 +1,5 @@
 ---
-title: '🔎 YouTube Comment Language Filter'
+title: 'YouTube Comment Language Filter'
 date: 2020-05-11
 authors: anaclumos
 slug: '/4BB66F'

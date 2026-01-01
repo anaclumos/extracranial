@@ -1,5 +1,5 @@
 ---
-title: '🪣 API로 크롤링'
+title: 'API로 크롤링'
 date: 2020-10-30
 authors: anaclumos
 slug: '/589DF4'
