@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/9E4EE7'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 Many people know [[Monte Carlo Algorithm|Monte Carlo algorithms]], but few know about [[Las Vegas Algorithm|Las Vegas algorithms]]. As the name keenly suggests, both use some bets and rewards. Still, in the end, I have an indescribable sense that they might hint at the physical structure of our universe of how time and information are intertwined and, finally, that they might be interchangeable.
 
@@ -26,9 +27,8 @@ So what does this mean?
 
 Maybe time and information are the same physical property, and we observe in two different ways due to some **[[Exquisite Geometric Nature of the Universe]]**. But this is yet to be proven and might even be the answer to the [[P vs NP|P-NP problem]].
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 많은 사람들이 [[Monte Carlo Algorithm|몬테카를로 알고리즘]]을 알지만, 아주 소수만이 [[Las Vegas Algorithm|라스베가스 알고리즘]]과 연결지어 생각한다. 이름에서 짐작할 수 있듯이 둘은 모두 베팅과 보상을 기반으로 한다. 하지만 그럼에도 나는 이 두 알고리즘이 결국에는 시간과 정보가 서로 얽혀 있는 우주의 물리적 구조를 암시하며 시간과 정보는 서로 교환할 수 있을지도 모른다는 형언할 수 없는 느낌이 든다.
 
@@ -49,4 +49,5 @@ Maybe time and information are the same physical property, and we observe in two
 
 어쩌면 시간과 정보는 동일한 물리적 속성이며, **[[Exquisite Geometric Nature of the Universe|우주의 정교한 기하학적 성질]]** 때문에 두 개의 다른 값으로 관측되고 있는지도 모른다. 하지만 아직 입증되지 않았으며, 어쩌면 [[P vs NP|P-NP 문제]]에 대한 해답이 될지도 모른다.
 
-</div>
+</TabItem>
+</Tabs>

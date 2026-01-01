@@ -2,14 +2,15 @@
 lang: 'en'
 slug: '/3485AD'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 # Lost Futures: A 19th-Century Vision of the Year 2000
 
 [Lost Futures: A 19th-Century Vision of the Year 2000 - The Public Domain Review](https://publicdomainreview.org/collection/a-19th-century-vision-of-the-year-2000/)
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 What did the year 2000 look like in 1900? Initially commissioned by Armand Gervais, a French toy manufacturer in Lyon, for the 1900 World Exhibition in Paris, the first fifty of these paper cards were produced by Jean-Marc Côté, designed to be enclosed in cigarette boxes and, later, sent as postcards. Côté and other artists made all in all, at least seventy-eight cards, although the exact number is not known, and some may still remain undiscovered. Each tries to imagine what it would be like to live in the then-distant year of 2000.
 
@@ -17,9 +18,8 @@ Some technologies are wonderfully prescient. Chicken eggs are incubated with mac
 
 These somewhat prescient scenes did not see the light of day until their future was nearly at hand. A few sets of cards were printed by Gervais in 1899 but he died during production. For the next quarter century, the cards sat idle in his defunct toy plant -- future visions shelved in a basement like forgotten relics from the past. An antiquarian bought the archive, transferring it to his own crypt for fifty more years, until the Canadian writer Christopher Hyde stumbled across them at his Parisian shop. Hyde in turn lent the cards to science-fiction author Isaac Asimov, who republished them in 1986, with accompanying commentary, in the book [_Futuredays: A Nineteenth Century Vision of the Year 2000_](http://www.amazon.com/dp/0805001204/ref=nosim?tag=thepubdomrev-20).
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 1900년에 2000년이 어떤 모습일지를 상상하기 위해 제작된 이 종이 카드들은 처음에는 리옹의 프랑스 장난감 제조업자 아르망 제르베가 파리 세계 박람회를 위해 의뢰했다. 장-마르크 코테가 제작한 첫 50장의 카드는 담배 상자 안에 넣어지기도 하고, 나중에는 엽서로 발송되기도 했다. 코테와 다른 예술가들은 총 78장 이상의 카드를 제작했으며, 정확한 수는 알려져 있지 않고 일부는 아직 발견되지 않았을 수도 있다. 각각의 카드는 당시로서는 먼 미래인 2000년에 살게 될 것이 어떤 모습일지를 상상하려고 시도했다.
 

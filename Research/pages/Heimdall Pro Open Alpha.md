@@ -2,10 +2,11 @@
 lang: 'en'
 slug: /681B09
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 ## Welcome!
 
@@ -70,9 +71,8 @@ And I believe in **show > tell**, so let me just show you some examples.
 - No SLA (This Alpha experiment can shut down anytime, without notice.)
 - [Sign up for Alpha Testing here!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 ## 환영합니다!
 
@@ -139,4 +139,5 @@ import DisplayFlex from '@site/src/components/DisplayFlex'
 - SLA 없습니다 (언제든지 중단될 수 있는 테스트입니다.)
 - [여기에서 알파 테스트를 신청해주세요!](https://airtable.com/appLfbX7pNQxpBx00/shrkP8rkkbJxpBWE6)
 
-</div>
+</TabItem>
+</Tabs>

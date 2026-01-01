@@ -2,13 +2,14 @@
 lang: 'en'
 slug: '/F54F61'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
-<div lang='en-US'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
-</div>
-
-<div lang='ko-KR'>
-
-</div>
+</TabItem>
+</Tabs>

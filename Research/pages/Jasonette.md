@@ -2,12 +2,13 @@
 lang: 'en'
 slug: '/75CE52'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 Attempted [[Super App]] DX.
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 Jasonette was an open-source framework that allowed developers to create native iOS and Android apps using nothing but a JSON markup. The idea was that you could define the entire app's structure, layout, and behavior in a single JSON file hosted on a server.
 
@@ -19,9 +20,8 @@ Jasonette was an open-source framework that allowed developers to create native 
 
 However, it's important to note that the Jasonette project is no longer actively maintained. The last commit to the GitHub repository was made in 2017, and the project's website is no longer accessible. While it was an interesting concept, it seems that the project did not gain significant traction and has since become defunct.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 Jasonette는 JSON 마크업만을 사용하여 네이티브 iOS 및 Android 앱을 만들 수 있게 해주는 오픈 소스 프레임워크이다. 이 아이디어는 서버에서 호스팅되는 단일 JSON 파일에 전체 앱의 구조, 레이아웃 및 동작을 정의할 수 있다는 것이다.
 

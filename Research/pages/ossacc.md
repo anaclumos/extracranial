@@ -5,16 +5,16 @@ aliases:
   - oss/acc
 title: 'oss/acc'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 Open Source Software Accelerationism (oss/acc) suggests a philosophy or movement that advocates for the rapid advancement of technology through open-source software development practices. It is based on [[효과적 가속주의|Effective Accelerationism]].
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 오픈 소스 소프트웨어 가속주의(OSS/ACC)는 오픈 소스 소프트웨어 개발 방식을 통해 기술의 급속한 발전을 지지하는 철학 또는 운동을 말한다. [[효과적 가속주의]]에 기반한다.
 

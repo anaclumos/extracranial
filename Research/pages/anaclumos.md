@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/A798A0'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 - One of my favorite books from elementary school was Percy Jackson and the Olympians.
 - The protagonist's sword is named [_anaklusmos_](https://en.wikipedia.org/wiki/Percy_Jackson#Weapons).
@@ -15,9 +16,8 @@ TODO: USE FUMADOCS I18N
 - Thus, I still use it to this day!
 - A good example of [[자아는 발굴되는 것이다|Excavating Egos]].
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 - 초등학교 때 가장 좋아했던 책 중 하나는 퍼시 잭슨과 올림포스의 신들이었다.
 - 주인공의 검 이름이 '아나클루스모스'였는데, 이메일을 처음 정할 때 꽤 괜찮은 이름이라고 생각했었다.
@@ -25,4 +25,5 @@ TODO: USE FUMADOCS I18N
 - 하지만 그 계정명을 쓰는 사람이 나밖에 없다는 걸 알았고, 그래서 지금까지도 그 계정명을 사용하고 있다.
 - [[자아는 발굴되는 것이다|자아의 발굴]]의 좋은 예시이다.
 
-</div>
+</TabItem>
+</Tabs>

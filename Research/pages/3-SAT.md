@@ -2,10 +2,11 @@
 lang: 'en'
 slug: '/DCB869'
 ---
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
-TODO: USE FUMADOCS I18N
-
-<div lang='en-US'>
+<Tabs groupId="lang">
+<TabItem value="en" label="English" default>
 
 The 3-SAT (3-Satisfiability) problem is a classic problem in computer science, particularly in the field of computational complexity theory. It's a specific type of Boolean satisfiability problem (SAT), which is foundational in the study of algorithmic logic and has significant implications in various areas like cryptography, artificial intelligence, and algorithm design.
 
@@ -21,9 +22,8 @@ The 3-SAT (3-Satisfiability) problem is a classic problem in computer science, p
 
 The importance of 3-SAT and other SAT problems lies in their applicability to real-world scenarios where complex decision-making is required. They are used in various domains like electronic design automation, model checking, software verification, scheduling, and more. The challenge in solving these problems efficiently has driven much of the research in algorithm development and complexity theory.
 
-</div>
-
-<div lang='ko-KR'>
+</TabItem>
+<TabItem value="ko" label="한국어">
 
 3-SAT(3-만족가능성) 문제는 컴퓨터 과학, 특히 계산 복잡성 이론 분야에서의 고전적인 문제이다. 이는 Boolean 만족 가능성 문제(SAT)의 특정 유형으로, 알고리즘 논리 연구와 암호학, 인공지능, 알고리즘 설계와 같은 다양한 분야에서 중요한 의미를 가지고 있다.
 
@@ -39,4 +39,5 @@ The importance of 3-SAT and other SAT problems lies in their applicability to re
 
 3-SAT 및 기타 SAT 문제들의 중요성은 복잡한 의사결정이 필요한 실제 시나리오에 적용될 수 있기 때문이다. 이들은 전자 설계 자동화, 모델 체킹, 소프트웨어 검증, 스케줄링 등 다양한 분야에서 사용되며, 이러한 문제들을 효율적으로 해결하는 도전은 알고리즘 개발과 복잡성 이론 연구를 크게 촉진시켰다.
 
-</div>
+</TabItem>
+</Tabs>
