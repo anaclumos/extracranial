@@ -30,8 +30,8 @@ a:has(img)::after,
 a:has(img)::before,
 a:has(i)::after,
 a:has(i)::before {
-  mask-image: none !important;
-  content: none !important;
+  mask-image: none;
+  content: none;
 }
 
 * {
@@ -44,8 +44,7 @@ article a[href^='http']::before {
   width: 0.8rem;
   margin: 0 2pt 2pt;
   display: inline-block;
-  vertical-align: middle !important;
-  mask-repeat: no-repeat;
+  vertical-align: middle;
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
@@ -59,5 +58,5 @@ article a[href^='http']::after {
 
 article a[href*='cho.sh']::before {
   content: '\00a0';
-  display: none !important;
+  display: none;
 }

@@ -1,21 +1,20 @@
-import React, { JSX } from 'react'
 import Link from '@docusaurus/Link'
-import styles from './styles.module.css'
-
+import { translate } from '@docusaurus/Translate'
 import backlinks from '@site/src/data/backlinks.json'
 import filenames from '@site/src/data/filenames.json'
-import { translate } from '@docusaurus/Translate'
+import styles from './styles.module.css'
 
-type Props = {
+interface BacklinkProps {
   documentTitle: string
 }
-const escapeRegExp = (string) => {
+
+function escapeRegExp(str: string): string {
   // Escapes special characters for use in a regular expression
-  return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // $& means the whole matched string
 }
 
-const processBacklinkItem = (text, title) => {
-  text = text
+function processBacklinkItem(text: string, title: string) {
+  const escapedText = text
     .trim()
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
@@ -23,11 +22,11 @@ const processBacklinkItem = (text, title) => {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;')
 
-  let normalizedTitle = title.normalize('NFC')
-  let normalizedText = text.normalize('NFC')
+  const normalizedTitle = title.normalize('NFC')
+  let normalizedText = escapedText.normalize('NFC')
 
   // Escape special characters in title
-  let escapedTitle = escapeRegExp(normalizedTitle)
+  const escapedTitle = escapeRegExp(normalizedTitle)
 
   try {
     // Replace [[title|display]] with `<b class="${styles.highlight}">${display}</b>` with regex
@@ -59,8 +58,7 @@ const processBacklinkItem = (text, title) => {
   )
 }
 
-const Backlink = (props: Props) => {
-  const { documentTitle } = props
+export default function Backlink({ documentTitle }: BacklinkProps) {
 
   // normalize to 'NFC' to match the key of backlinks
   // See https://cho.sh/r/DF5A6E
@@ -109,5 +107,3 @@ const Backlink = (props: Props) => {
     </div>
   )
 }
-
-export default Backlink

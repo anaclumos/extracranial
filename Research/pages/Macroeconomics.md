@@ -35,7 +35,8 @@ Other common terms in macroeconomics include Output, Production, Income, and Exp
 
 거시[[Economy|경제학]]의 다른 일반적인 용어에는 생산량, 생산, 소득, 지출 등이 있다.
 
-</div>
+</TabItem>
+</Tabs>
 
 [[민사고]] 재학 시절 전교 1등을 했다...라고 하기엔 상당히 오해가 있는 것이, 수업에서 1등을 한 것은 맞지만
 

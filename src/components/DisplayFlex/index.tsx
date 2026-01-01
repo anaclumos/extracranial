@@ -1,16 +1,14 @@
-import React, { JSX } from 'react'
+import type { ReactNode } from 'react'
 import styles from './index.module.css'
 
-type Props = {
-  children: React.ReactNode
+interface DisplayFlexProps {
+  children: ReactNode
 }
 
-const DisplayFlex = (props: Props) => {
+export default function DisplayFlex({ children }: DisplayFlexProps) {
   return (
     <figure>
-      <div className={styles.displayFlex}>{props.children}</div>
+      <div className={styles.displayFlex}>{children}</div>
     </figure>
   )
 }
-
-export default DisplayFlex

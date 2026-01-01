@@ -33,6 +33,7 @@ Jasonette는 JSON 마크업만을 사용하여 네이티브 iOS 및 Android 앱�
 
 그러나 Jasonette 프로젝트는 더 이상 적극적으로 유지 관리되지 않는다는 점에 유의해야 한다. GitHub 저장소에 대한 마지막 커밋은 2017년에 이루어졌으며, 프로젝트 웹사이트는 더 이상 액세스할 수 없다. 이는 흥미로운 개념이었지만, 프로젝트가 상당한 관심을 얻지 못했으며 현재는 작동하지 않는 것으로 보인다.
 
-</div>
+</TabItem>
+</Tabs>
 
 ![Claude is a genius](../assets/F8DCCC.png)

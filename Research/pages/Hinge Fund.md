@@ -15,7 +15,8 @@ Hinge Fund is an interesting fund model by Jack Raines. It catfishes on Hinge to
 
 Hinge Fund는 Jack Raines에 의해 고안된 흥미로운 자금 모델이다. 데이팅 앱 Hinge에서 AI로 가짜 프로필을 만들어 매치된 사람들이 리조트 멤버십을 구매하게 만든 다음에 리조트 주식에 [[Call Option|콜 옵션]]을 건다. 그는 리조트에게 약 900억의 수익을 올렸고 5천만원의 [[Call Option|콜 옵션]]을 걸었다고 한다.
 
-</div>
+</TabItem>
+</Tabs>
 
 <blockquote class="twitter-tweet">
 

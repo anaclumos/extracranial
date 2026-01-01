@@ -1,4 +1,3 @@
-import React, { JSX, useId } from 'react'
 import { cn } from '@site/src/util/cn'
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
@@ -6,7 +5,7 @@ import type { Props } from '@theme/BlogSidebar/Desktop'
 
 import styles from './styles.module.css'
 
-export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
+export default function BlogSidebarDesktop({ sidebar }: Props) {
   return (
     <aside className="col col--3">
       <nav
@@ -22,14 +21,12 @@ export default function BlogSidebarDesktop({ sidebar }: Props): JSX.Element {
           {sidebar.items.map((item) => (
             <Link
               isNavLink
-              key={useId()}
+              key={item.permalink}
               to={item.permalink}
               className={styles.sidebarItemLink}
               activeClassName={styles.sidebarItemLinkActive}
             >
-              <li key={item.permalink} className={cn(styles.sidebarItem)}>
-                {item.title}
-              </li>
+              <li className={cn(styles.sidebarItem)}>{item.title}</li>
             </Link>
           ))}
         </ul>

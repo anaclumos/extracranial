@@ -2,15 +2,29 @@
 @import url('./color.css');
 @import url('./external-link.css');
 
-* {
-  --ifm-font-family-base:
-    'Pretendard GOV', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
-    'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif !important;
+:root {
+  --ifm-font-family-base: 'Pretendard GOV', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif,
+    'Apple SD Gothic Neo', 'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell,
+    'Helvetica Neue', sans-serif;
   --ifm-font-family-monospace: 'Iosevka', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);
 
+  --unhovered-transparency: 10%;
+  --padding: 1rem;
+  --border-radius: 0.25rem;
+  --ifm-container-width-xxl: 1600px;
+
+  --ifm-h1-font-size: 2rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1rem;
+  --ifm-h5-font-size: 0.875rem;
+  --ifm-h6-font-size: 0.85rem;
+}
+
+* {
   word-wrap: break-word;
   word-break: keep-all;
   color-scheme: dark light;
@@ -18,19 +32,6 @@
     'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
 
   line-height: 2;
-
-  --unhovered-transparency: 10%;
-  --padding: 1rem;
-  --border-radius: 0.25rem;
-  --ifm-container-width-xxl: 1600px;
-
-  --ifm-h1-font-size: 2rem !important;
-  --ifm-h2-font-size: 1.5rem !important;
-  --ifm-h3-font-size: 1.25rem !important;
-  --ifm-h4-font-size: 1rem !important;
-  --ifm-h5-font-size: 0.875rem !important;
-  --ifm-h6-font-size: 0.85rem !important;
-
   max-width: 100dvw;
 }
 
@@ -103,12 +104,12 @@ code {
   margin: 0 auto;
 }
 
-[data-theme='dark'] * {
-  --ifm-background-color: #121212 !important;
+[data-theme='dark'] {
+  --ifm-background-color: #121212;
 }
 
 .table-of-contents__link--active {
-  filter: none !important;
+  filter: none;
 }
 
 .table-of-contents__link {

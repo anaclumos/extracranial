@@ -21,6 +21,7 @@ Synonym with [[Extracranial]], [[Second Brain|Digital Brain]], [[Second Brain]],
 > 그것은 동시에 기계화되어, 매우 빠르고 유연하게 정보를 참조할 수 있을 것입니다.
 > 그것은 기억의 확장이자... 기억의 친밀한 보조 장치일 것입니다. -- [[Vannevar Bush|버니바 부시]].
 
-</div>
+</TabItem>
+</Tabs>
 
 ![[5426B0.png]]

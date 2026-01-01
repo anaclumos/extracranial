@@ -15,7 +15,8 @@ The Orion app was developed in 45 days to turn an iPad into an HDMI monitor, ins
 
 Orion 앱은 USB 비디오 클래스 장치를 지원하는 iPadOS 17의 발표에 영감을 받아 45일 만에 개발되어 iPad를 HDMI 모니터로 전환할 수 있었다. 이 앱은 80년대 미학, 실제 언박싱 경험, 오래된 CRT 텔레비전 에뮬레이션을 활용하여 복고풍의 재미있는 미학을 구현했다. 팀은 어려움에 직면했지만 데모 모드를 추가하고 매력적인 업그레이드 화면을 디자인하는 등 창의적인 해결책을 찾아냈다. 이 앱은 사용자들로부터 긍정적인 반응과 감사의 메시지를 받았다.
 
-</div>
+</TabItem>
+</Tabs>
 
 ## [Orion - From idea to launch in 45 days](https://www.lux.camera/orion-from-idea-to-launch-in-45-days/)
 

@@ -20,7 +20,8 @@ An interesting observation is that Monte Carlo always gives fast results but som
 
 흥미로운 점은, 몬테카를로 알고리즘은 추산치를 구하는 시간은 매우 빠르지만 아주 낮은 확률로 크게 값이 틀린다는 것이다. 즉 빠른 시간을 약속 받는 대신 정확도에 리스크를 거는 것이다. [[Computational Theory|계산 이론]]에서 흥미로운 점이 아닐 수 없다.
 
-</div>
+</TabItem>
+</Tabs>
 
 - [[Monte Carlo and Las Vegas Algorithm]]
 - [GitHub - anaclumos/WWDC18: Apple WWDC18 Scholarship (Accepted)](https://github.com/anaclumos/wwdc18)

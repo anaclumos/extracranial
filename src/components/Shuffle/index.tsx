@@ -1,19 +1,17 @@
-import React, { JSX } from 'react'
+import { Children, type ReactNode } from 'react'
 
-type Props = {
+interface ShuffleProps {
   children: {
     props: {
-      children: string
+      children: ReactNode
     }
   }
 }
 
-const Index = (props: Props) => {
-  const children = props.children.props.children
-  const shuffledChildren = React.Children.toArray(children).sort(() => 0.5 - Math.random())
-  // this supposes that we only use unordered lists
-  // I mean... if we shuffle something, they wouldn't have any 'order' right?
-  return <ul>{shuffledChildren}</ul>
+export default function Shuffle({ children }: ShuffleProps) {
+  const items = children.props.children
+  const shuffledItems = Children.toArray(items).sort(() => 0.5 - Math.random())
+  // This supposes that we only use unordered lists
+  // If we shuffle something, they wouldn't have any 'order' right?
+  return <ul>{shuffledItems}</ul>
 }
-
-export default Index
