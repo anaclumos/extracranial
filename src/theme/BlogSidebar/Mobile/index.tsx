@@ -1,19 +1,17 @@
-import React, { JSX } from 'react'
 import Link from '@docusaurus/Link'
 import { NavbarSecondaryMenuFiller } from '@docusaurus/theme-common'
 import type { Props } from '@theme/BlogSidebar/Mobile'
 
-function BlogSidebarMobileSecondaryMenu({ sidebar }: Props): JSX.Element {
+function BlogSidebarMobileSecondaryMenu({ sidebar }: Props) {
   return (
     <ul className="menu__list">
       {sidebar.items.map((item) => (
-        <li key={item.permalink} className="menu__list-item">
+        <li className="menu__list-item" key={item.permalink}>
           <Link
+            activeClassName="menu__link--active"
+            className="menu__link text-balance"
             isNavLink
             to={item.permalink}
-            className="menu__link text-balance
-"
-            activeClassName="menu__link--active"
           >
             {item.title}
           </Link>
@@ -23,6 +21,11 @@ function BlogSidebarMobileSecondaryMenu({ sidebar }: Props): JSX.Element {
   )
 }
 
-export default function BlogSidebarMobile(props: Props): JSX.Element {
-  return <NavbarSecondaryMenuFiller component={BlogSidebarMobileSecondaryMenu} props={props} />
+export default function BlogSidebarMobile(props: Props) {
+  return (
+    <NavbarSecondaryMenuFiller
+      component={BlogSidebarMobileSecondaryMenu}
+      props={props}
+    />
+  )
 }

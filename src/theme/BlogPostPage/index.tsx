@@ -1,25 +1,25 @@
-import React, { JSX } from 'react'
-import BlogPostPage from '@theme-original/BlogPostPage'
-import type BlogPostPageType from '@theme/BlogPostPage'
-import type { WrapperProps } from '@docusaurus/types'
 import Head from '@docusaurus/Head'
+import type { WrapperProps } from '@docusaurus/types'
+import type BlogPostPageType from '@theme/BlogPostPage'
+import BlogPostPage from '@theme-original/BlogPostPage'
+
 type Props = WrapperProps<typeof BlogPostPageType>
 
-export default function BlogPostPageWrapper(props: Props): JSX.Element {
-  const title = props.content.metadata.title
-  const description = props.content.metadata.description
+export default function BlogPostPageWrapper(props: Props) {
+  const { title, description } = props.content.metadata
+
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
+        <meta content={description} name="description" />
+        <meta content={title} property="og:title" />
+        <meta content={description} property="og:description" />
         <meta
-          property="og:image"
           content={`https://og.cho.sh/api/og?title=${encodeURIComponent(title)}&subheading=${encodeURIComponent(
             'Sunghyun Cho'
           )}`}
+          property="og:image"
         />
       </Head>
       <BlogPostPage {...props} />

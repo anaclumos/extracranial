@@ -20,7 +20,7 @@
   text-decoration: none;
 }
 
-[data-theme='dark'] .searchGoogleButton {
+[data-theme="dark"] .searchGoogleButton {
   background-color: rgb(118 96 35);
   border-color: #9ca3af;
   box-shadow:
@@ -28,7 +28,7 @@
     0 1px 2px 0 rgb(20 20 0 / 6%);
 }
 
-[data-theme='dark'] .searchGoogleButton:hover {
+[data-theme="dark"] .searchGoogleButton:hover {
   background-color: rgb(85 69 25);
   text-decoration: none;
 }

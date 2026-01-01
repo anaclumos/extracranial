@@ -1,7 +1,7 @@
 .youtube {
   width: 100%;
   max-height: 25rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 9;
   margin: 1rem auto;
   display: flex;
   justify-content: center;

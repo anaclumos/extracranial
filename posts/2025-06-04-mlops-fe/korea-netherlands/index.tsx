@@ -28,7 +28,8 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
     (lat * Math.PI) / 180,
   ]
 
-  const clamp = (v: number, min: number, max: number) => Math.min(Math.max(v, min), max)
+  const clamp = (v: number, min: number, max: number) =>
+    Math.min(Math.max(v, min), max)
 
   useEffect(() => {
     const onResize = () => {
@@ -92,7 +93,11 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
     const dy = clientY - startY.current
     const w = widthRef.current || 1
     targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2
-    targetTheta.current = clamp(startTheta.current + (dy / w) * Math.PI, -Math.PI / 2, Math.PI / 2)
+    targetTheta.current = clamp(
+      startTheta.current + (dy / w) * Math.PI,
+      -Math.PI / 2,
+      Math.PI / 2
+    )
   }
 
   const handlePointerUp = () => {
@@ -104,7 +109,8 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
   }
 
   const labels = {
-    netherlands: lang === 'ko' ? '네덜란드 · 암스테르담' : 'Netherlands · Amsterdam',
+    netherlands:
+      lang === 'ko' ? '네덜란드 · 암스테르담' : 'Netherlands · Amsterdam',
     korea: lang === 'ko' ? '대한민국 · 서울' : 'South Korea · Seoul',
   }
 
@@ -127,11 +133,19 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
       </div>
 
       <div className={styles.buttonGroup}>
-        <button type="button" className={styles.button} onClick={() => handleCityClick(52.3676, 4.9041)}>
+        <button
+          className={styles.button}
+          onClick={() => handleCityClick(52.3676, 4.9041)}
+          type="button"
+        >
           <span className={styles.emoji}>&#x1F1F3;&#x1F1F1;</span>
           <span className={styles.label}>{labels.netherlands}</span>
         </button>
-        <button type="button" className={styles.button} onClick={() => handleCityClick(37.5665, 126.978)}>
+        <button
+          className={styles.button}
+          onClick={() => handleCityClick(37.5665, 126.978)}
+          type="button"
+        >
           <span className={styles.emoji}>&#x1F1F0;&#x1F1F7;</span>
           <span className={styles.label}>{labels.korea}</span>
         </button>

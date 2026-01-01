@@ -19,7 +19,8 @@ var __defNormalProp = (obj, key, value) =>
       })
     : (obj[key] = value)
 var __spreadValues = (a, b) => {
-  for (var prop in b || (b = {})) if (__hasOwnProp.call(b, prop)) __defNormalProp(a, prop, b[prop])
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop)) __defNormalProp(a, prop, b[prop])
   if (__getOwnPropSymbols)
     for (var prop of __getOwnPropSymbols(b)) {
       if (__propIsEnum.call(b, prop)) __defNormalProp(a, prop, b[prop])
@@ -27,10 +28,14 @@ var __spreadValues = (a, b) => {
   return a
 }
 var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b))
-var __markAsModule = (target) => __defProp(target, '__esModule', { value: true })
+var __markAsModule = (target) =>
+  __defProp(target, '__esModule', { value: true })
 var __commonJS = (cb, mod) =>
   function __require() {
-    return (mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports)
+    return (
+      mod || (0, cb[Object.keys(cb)[0]])((mod = { exports: {} }).exports, mod),
+      mod.exports
+    )
   }
 var __export = (target, all) => {
   __markAsModule(target)
@@ -41,12 +46,16 @@ var __export = (target, all) => {
     })
 }
 var __reExport = (target, module2, desc) => {
-  if ((module2 && typeof module2 === 'object') || typeof module2 === 'function') {
-    for (let key of __getOwnPropNames(module2))
+  if (
+    (module2 && typeof module2 === 'object') ||
+    typeof module2 === 'function'
+  ) {
+    for (const key of __getOwnPropNames(module2))
       if (!__hasOwnProp.call(target, key) && key !== 'default')
         __defProp(target, key, {
           get: () => module2[key],
-          enumerable: !(desc = __getOwnPropDesc(module2, key)) || desc.enumerable,
+          enumerable:
+            !(desc = __getOwnPropDesc(module2, key)) || desc.enumerable,
         })
   }
   return target
@@ -81,7 +90,10 @@ var __async = (__this, __arguments, generator) => {
         reject(e)
       }
     }
-    var step = (x) => (x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected))
+    var step = (x) =>
+      x.done
+        ? resolve(x.value)
+        : Promise.resolve(x.value).then(fulfilled, rejected)
     step((generator = generator.apply(__this, __arguments)).next())
   })
 }
@@ -95,9 +107,11 @@ var require_package = __commonJS({
       main: 'main.js',
       scripts: {
         start: 'node esbuild.config.mjs',
-        build: 'tsc -noEmit -skipLibCheck && BUILD_ENV=production node esbuild.config.mjs && cp manifest.json build',
+        build:
+          'tsc -noEmit -skipLibCheck && BUILD_ENV=production node esbuild.config.mjs && cp manifest.json build',
         version: 'node version-bump.mjs && git add manifest.json versions.json',
-        release: 'yarn build && gh release create ${npm_package_version} build/*',
+        release:
+          'yarn build && gh release create ${npm_package_version} build/*',
       },
       keywords: [],
       author: 'Reorx',
@@ -156,7 +170,7 @@ var path = {
     for (let i = 0, l = parts.length; i < l; i++) {
       const part = parts[i]
       if (!part || part === '.') continue
-      else newParts.push(part)
+      newParts.push(part)
     }
     if (parts[0] === '') newParts.unshift('')
     return newParts.join('/')
@@ -166,7 +180,7 @@ var path = {
     return sp[sp.length - 1]
   },
   extension(fullpath) {
-    const positions = [...fullpath.matchAll(new RegExp('\\.', 'gi'))].map((a) => a.index)
+    const positions = [...fullpath.matchAll(/\./gi)].map((a) => a.index)
     return fullpath.slice(positions[positions.length - 1] + 1)
   },
 }
@@ -266,7 +280,9 @@ var ImageBatchRenameModal = class extends import_obsidian.Modal {
     )
     const nameReplaceSetting = new import_obsidian.Setting(contentEl)
       .setName('Name replace')
-      .setDesc('Please input the string to replace the matched name (use $1, $2 for regex groups)')
+      .setDesc(
+        'Please input the string to replace the matched name (use $1, $2 for regex groups)'
+      )
       .addText((text) =>
         text.setValue(this.state.nameReplace).onChange((value) =>
           __async(this, null, function* () {
@@ -361,11 +377,14 @@ var ImageBatchRenameModal = class extends import_obsidian.Modal {
     const renameTasks = []
     tbodyEl.empty()
     const fileCache = this.app.metadataCache.getFileCache(this.activeFile)
-    if (!fileCache || !fileCache.embeds) return
+    if (!(fileCache && fileCache.embeds)) return
     const namePatternRegex = new RegExp(state.namePattern, 'g')
     const extPatternRegex = new RegExp(state.extPattern)
     fileCache.embeds.forEach((embed) => {
-      const file = this.app.metadataCache.getFirstLinkpathDest(embed.link, this.activeFile.path)
+      const file = this.app.metadataCache.getFirstLinkpathDest(
+        embed.link,
+        this.activeFile.path
+      )
       if (!file) {
         console.warn('file not found', embed.link)
         return
@@ -536,15 +555,13 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
           if (isPastedImage(file)) {
             debugLog('pasted image created', file)
             this.startRenameProcess(file, this.settings.autoRename)
-          } else {
-            if (this.settings.handleAllAttachments) {
-              debugLog('file created', file)
-              if (this.testExcludeExtensionRegex(file)) {
-                debugLog('excluded file by ext', file)
-                return
-              }
-              this.startRenameProcess(file, this.settings.autoRename)
+          } else if (this.settings.handleAllAttachments) {
+            debugLog('file created', file)
+            if (this.testExcludeExtensionRegex(file)) {
+              debugLog('excluded file by ext', file)
+              return
             }
+            this.startRenameProcess(file, this.settings.autoRename)
           }
         })
       )
@@ -557,7 +574,11 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
         callback: startBatchRenameProcess,
       })
       if (DEBUG) {
-        this.addRibbonIcon('wand-glyph', 'Batch rename embeded files', startBatchRenameProcess)
+        this.addRibbonIcon(
+          'wand-glyph',
+          'Batch rename embeded files',
+          startBatchRenameProcess
+        )
       }
       const batchRenameAllImages = () => {
         this.batchRenameAllImages()
@@ -584,9 +605,12 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
         new import_obsidian2.Notice('Error: No active file found.')
         return
       }
-      const { stem, newName, isMeaningful } = this.generateNewName(file, activeFile)
+      const { stem, newName, isMeaningful } = this.generateNewName(
+        file,
+        activeFile
+      )
       debugLog('generated newName:', newName, isMeaningful)
-      if (!isMeaningful || !autoRename) {
+      if (!(isMeaningful && autoRename)) {
         this.openRenameModal(file, isMeaningful ? stem : '', activeFile.path)
         return
       }
@@ -595,7 +619,8 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
   }
   renameFile(file, inputNewName, sourcePath, replaceCurrentLine) {
     return __async(this, null, function* () {
-      const { name: newName, stem: newNameStem } = yield this.deduplicateNewName(inputNewName, file)
+      const { name: newName, stem: newNameStem } =
+        yield this.deduplicateNewName(inputNewName, file)
       debugLog('deduplicated newName:', newName)
       const originName = file.name
       const originStem = file.basename
@@ -617,16 +642,29 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
       }
       let linkTextRegex, newLinkText
       if (useMarkdownLinks) {
-        linkTextRegex = new RegExp('!\\[\\]\\(([^[\\]]*\\/)?${originStem}\\.${ext}\\)')
-        newLinkText = `![]($1${newNameStem}.${ext}])`
+        linkTextRegex = /!\[\]\(([^[\]]*\\/
+        )?$
+          originStem
+        \.$
+          ext
+        \)/
+        newLinkText = `![]($1$
+          newNameStem
+        .$
+          ext
+        ])`
       } else {
-        linkTextRegex = new RegExp(`!\\[\\[([^[\\]]*\\/)?${originStem}\\.${ext}\\]\\]`)
+        linkTextRegex = new RegExp(
+          `!\\[\\[([^[\\]]*\\/)?${originStem}\\.${ext}\\]\\]`
+        )
         newLinkText = `![[$1${newNameStem}.${ext}]]`
       }
       debugLog('replace text', linkTextRegex, newLinkText)
       const editor = this.getActiveEditor()
       if (!editor) {
-        new import_obsidian2.Notice(`Failed to rename ${newName}: no active editor`)
+        new import_obsidian2.Notice(
+          `Failed to rename ${newName}: no active editor`
+        )
         return
       }
       const cursor = editor.getCursor()
@@ -688,10 +726,13 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
     return __async(this, null, function* () {
       const activeFile = this.getActiveFile()
       const fileCache = this.app.metadataCache.getFileCache(activeFile)
-      if (!fileCache || !fileCache.embeds) return
+      if (!(fileCache && fileCache.embeds)) return
       const extPatternRegex = /jpe?g|png|gif|tiff|webp/i
       for (const embed of fileCache.embeds) {
-        const file = this.app.metadataCache.getFirstLinkpathDest(embed.link, activeFile.path)
+        const file = this.app.metadataCache.getFirstLinkpathDest(
+          embed.link,
+          activeFile.path
+        )
         if (!file) {
           console.warn('file not found', embed.link)
           return
@@ -701,7 +742,9 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
         const { newName, isMeaningful } = this.generateNewName(file, activeFile)
         debugLog('generated newName:', newName, isMeaningful)
         if (!isMeaningful) {
-          new import_obsidian2.Notice('Failed to batch rename images: the generated name is not meaningful')
+          new import_obsidian2.Notice(
+            'Failed to batch rename images: the generated name is not meaningful'
+          )
           break
         }
         yield this.renameFile(file, newName, activeFile.path, false)
@@ -714,7 +757,8 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
     const fileCache = this.app.metadataCache.getFileCache(activeFile)
     if (fileCache) {
       debugLog('frontmatter', fileCache.frontmatter)
-      imageNameKey = ((_a = fileCache.frontmatter) == null ? void 0 : _a.imageNameKey) || ''
+      imageNameKey =
+        ((_a = fileCache.frontmatter) == null ? void 0 : _a.imageNameKey) || ''
     } else {
       console.warn('could not get file cache from active file', activeFile.name)
     }
@@ -722,7 +766,10 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
       imageNameKey,
       fileName: activeFile.basename,
     })
-    const meaninglessRegex = new RegExp(`[${this.settings.dupNumberDelimiter}s]`, 'gm')
+    const meaninglessRegex = new RegExp(
+      `[${this.settings.dupNumberDelimiter}s]`,
+      'gm'
+    )
     return {
       stem,
       newName: stem + '.' + file.extension,
@@ -741,9 +788,13 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
         delimiterEscaped = escapeRegExp(delimiter)
       let dupNameRegex
       if (this.settings.dupNumberAtStart) {
-        dupNameRegex = new RegExp(`^(?<number>\\d+)${delimiterEscaped}(?<name>${newNameStemEscaped})\\.${newNameExt}$`)
+        dupNameRegex = new RegExp(
+          `^(?<number>\\d+)${delimiterEscaped}(?<name>${newNameStemEscaped})\\.${newNameExt}$`
+        )
       } else {
-        dupNameRegex = new RegExp(`^(?<name>${newNameStemEscaped})${delimiterEscaped}(?<number>\\d+)\\.${newNameExt}$`)
+        dupNameRegex = new RegExp(
+          `^(?<name>${newNameStemEscaped})${delimiterEscaped}(?<number>\\d+)\\.${newNameExt}$`
+        )
       }
       debugLog('dupNameRegex', dupNameRegex)
       const dupNameNumbers = []
@@ -756,10 +807,11 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
         }
         const m = dupNameRegex.exec(sibling)
         if (!m) continue
-        dupNameNumbers.push(parseInt(m.groups.number))
+        dupNameNumbers.push(Number.parseInt(m.groups.number))
       }
       if (isNewNameExist) {
-        const newNumber = dupNameNumbers.length > 0 ? Math.max(...dupNameNumbers) + 1 : 1
+        const newNumber =
+          dupNameNumbers.length > 0 ? Math.max(...dupNameNumbers) + 1 : 1
         if (this.settings.dupNumberAtStart) {
           newName = `${newNumber}${delimiter}${newNameStem}.${newNameExt}`
         } else {
@@ -774,20 +826,26 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
     })
   }
   getActiveFile() {
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView)
+    const view = this.app.workspace.getActiveViewOfType(
+      import_obsidian2.MarkdownView
+    )
     const file = view == null ? void 0 : view.file
     debugLog('active file', file == null ? void 0 : file.path)
     return file
   }
   getActiveEditor() {
-    const view = this.app.workspace.getActiveViewOfType(import_obsidian2.MarkdownView)
+    const view = this.app.workspace.getActiveViewOfType(
+      import_obsidian2.MarkdownView
+    )
     return view == null ? void 0 : view.editor
   }
   onunload() {
     this.modals.map((modal) => modal.close())
   }
   buildExcludeExtensionRegex() {
-    this.excludeExtensionRegex = new RegExp(this.settings.excludeExtensionPattern)
+    this.excludeExtensionRegex = new RegExp(
+      this.settings.excludeExtensionPattern
+    )
   }
   testExcludeExtensionRegex(file) {
     if (!this.excludeExtensionRegex) {
@@ -797,7 +855,7 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
   }
   loadSettings() {
     return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData())
+      this.settings = { ...DEFAULT_SETTINGS, ...(yield this.loadData()) }
     })
   }
   saveSettings() {
@@ -807,18 +865,17 @@ var PasteImageRenamePlugin = class extends import_obsidian2.Plugin {
   }
 }
 function isPastedImage(file) {
-  if (file instanceof import_obsidian2.TFile) {
-    if (file.name.startsWith(PASTED_IMAGE_PREFIX)) {
-      return true
-    }
+  if (
+    file instanceof import_obsidian2.TFile &&
+    file.name.startsWith(PASTED_IMAGE_PREFIX)
+  ) {
+    return true
   }
   return false
 }
 function isMarkdownFile(file) {
-  if (file instanceof import_obsidian2.TFile) {
-    if (file.extension === 'md') {
-      return true
-    }
+  if (file instanceof import_obsidian2.TFile && file.extension === 'md') {
+    return true
   }
   return false
 }
@@ -845,7 +902,8 @@ var ImageRenameModal = class extends import_obsidian2.Modal {
     let stem = this.stem
     const ext = this.src.extension
     const getNewName = (stem2) => stem2 + '.' + ext
-    const getNewPath = (stem2) => path.join(this.src.parent.path, getNewName(stem2))
+    const getNewPath = (stem2) =>
+      path.join(this.src.parent.path, getNewName(stem2))
     const infoET = createElementTree(contentEl, {
       tag: 'ul',
       cls: 'info',
@@ -975,15 +1033,17 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
     new import_obsidian2.Setting(containerEl)
       .setName('Duplicate number at start (or end)')
       .setDesc(
-        `If enabled, duplicate number will be added at the start as prefix for the image name, otherwise it will be added at the end as suffix for the image name.`
+        'If enabled, duplicate number will be added at the start as prefix for the image name, otherwise it will be added at the end as suffix for the image name.'
       )
       .addToggle((toggle) =>
-        toggle.setValue(this.plugin.settings.dupNumberAtStart).onChange((value) =>
-          __async(this, null, function* () {
-            this.plugin.settings.dupNumberAtStart = value
-            yield this.plugin.saveSettings()
-          })
-        )
+        toggle
+          .setValue(this.plugin.settings.dupNumberAtStart)
+          .onChange((value) =>
+            __async(this, null, function* () {
+              this.plugin.settings.dupNumberAtStart = value
+              yield this.plugin.saveSettings()
+            })
+          )
       )
     new import_obsidian2.Setting(containerEl)
       .setName('Duplicate number delimiter')
@@ -991,17 +1051,20 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
         `The delimiter to generate the number prefix/suffix for duplicated names. For example, if the value is "-", the suffix will be like "-1", "-2", "-3", and the prefix will be like "1-", "2-", "3-". Only characters that are valid in file names are allowed.`
       )
       .addText((text) =>
-        text.setValue(this.plugin.settings.dupNumberDelimiter).onChange((value) =>
-          __async(this, null, function* () {
-            this.plugin.settings.dupNumberDelimiter = sanitizer.delimiter(value)
-            yield this.plugin.saveSettings()
-          })
-        )
+        text
+          .setValue(this.plugin.settings.dupNumberDelimiter)
+          .onChange((value) =>
+            __async(this, null, function* () {
+              this.plugin.settings.dupNumberDelimiter =
+                sanitizer.delimiter(value)
+              yield this.plugin.saveSettings()
+            })
+          )
       )
     new import_obsidian2.Setting(containerEl)
       .setName('Auto rename')
       .setDesc(
-        `By default, the rename modal will always be shown to confirm before renaming, if this option is set, the image will be auto renamed after pasting.`
+        'By default, the rename modal will always be shown to confirm before renaming, if this option is set, the image will be auto renamed after pasting.'
       )
       .addToggle((toggle) =>
         toggle.setValue(this.plugin.settings.autoRename).onChange((value) =>
@@ -1019,12 +1082,14 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
 			If this option is set, the plugin will handle all attachments that are created in the valut.`
       )
       .addToggle((toggle) =>
-        toggle.setValue(this.plugin.settings.handleAllAttachments).onChange((value) =>
-          __async(this, null, function* () {
-            this.plugin.settings.handleAllAttachments = value
-            yield this.plugin.saveSettings()
-          })
-        )
+        toggle
+          .setValue(this.plugin.settings.handleAllAttachments)
+          .onChange((value) =>
+            __async(this, null, function* () {
+              this.plugin.settings.handleAllAttachments = value
+              yield this.plugin.saveSettings()
+            })
+          )
       )
     new import_obsidian2.Setting(containerEl)
       .setName('Exclude extension pattern')
@@ -1052,12 +1117,14 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
 			Note that Obsidian may display a notice when a link has changed, this option cannot disable that.`
       )
       .addToggle((toggle) =>
-        toggle.setValue(this.plugin.settings.disableRenameNotice).onChange((value) =>
-          __async(this, null, function* () {
-            this.plugin.settings.disableRenameNotice = value
-            yield this.plugin.saveSettings()
-          })
-        )
+        toggle
+          .setValue(this.plugin.settings.disableRenameNotice)
+          .onChange((value) =>
+            __async(this, null, function* () {
+              this.plugin.settings.disableRenameNotice = value
+              yield this.plugin.saveSettings()
+            })
+          )
       )
   }
 }

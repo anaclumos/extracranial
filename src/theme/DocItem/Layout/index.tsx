@@ -1,16 +1,16 @@
-import { cn } from '@site/src/util/cn'
-import { useWindowSize } from '@docusaurus/theme-common'
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
-import DocItemPaginator from '@theme/DocItem/Paginator'
-import DocVersionBanner from '@theme/DocVersionBanner'
-import DocVersionBadge from '@theme/DocVersionBadge'
-import DocItemFooter from '@theme/DocItem/Footer'
-import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile'
-import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop'
-import DocItemContent from '@theme/DocItem/Content'
-import DocBreadcrumbs from '@theme/DocBreadcrumbs'
-import type { Props } from '@theme/DocItem/Layout'
+import { useWindowSize } from '@docusaurus/theme-common'
 import Backlink from '@site/src/components/backlink'
+import { cn } from '@site/src/util/cn'
+import DocBreadcrumbs from '@theme/DocBreadcrumbs'
+import DocItemContent from '@theme/DocItem/Content'
+import DocItemFooter from '@theme/DocItem/Footer'
+import type { Props } from '@theme/DocItem/Layout'
+import DocItemPaginator from '@theme/DocItem/Paginator'
+import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop'
+import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile'
+import DocVersionBadge from '@theme/DocVersionBadge'
+import DocVersionBanner from '@theme/DocVersionBanner'
 import styles from './styles.module.css'
 
 /**
@@ -25,7 +25,10 @@ function useDocTOC() {
 
   const mobile = canRender ? <DocItemTOCMobile /> : undefined
 
-  const desktop = canRender && (windowSize === 'desktop' || windowSize === 'ssr') ? <DocItemTOCDesktop /> : undefined
+  const desktop =
+    canRender && (windowSize === 'desktop' || windowSize === 'ssr') ? (
+      <DocItemTOCDesktop />
+    ) : undefined
 
   return {
     hidden,

@@ -2,7 +2,13 @@
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
     "baseUrl": ".",
-    "types": ["node", "react", "react-dom", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
+    "types": [
+      "node",
+      "react",
+      "react-dom",
+      "@docusaurus/module-type-aliases",
+      "@docusaurus/theme-classic"
+    ],
     "lib": ["dom", "esnext"],
     "target": "ES2022",
     "module": "ESNext",

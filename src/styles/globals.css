@@ -1,12 +1,14 @@
-@import url('./navbar.css');
-@import url('./color.css');
-@import url('./external-link.css');
+@import url("./navbar.css");
+@import url("./color.css");
+@import url("./external-link.css");
 
 :root {
   --ifm-font-family-base:
-    'Pretendard GOV', system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, 'Apple SD Gothic Neo',
-    'Apple Color Emoji', 'SF Pro', 'Segoe UI', roboto, oxygen-sans, ubuntu, cantarell, 'Helvetica Neue', sans-serif;
-  --ifm-font-family-monospace: 'Iosevka', ui-monospace, 'SF Mono', sfmono-regular, menlo, consolas, monospace;
+    "Pretendard GOV", system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, "Apple SD Gothic Neo",
+    "Apple Color Emoji", "SF Pro", "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
+  --ifm-font-family-monospace:
+    "Iosevka", ui-monospace, "SF Mono", sfmono-regular, menlo, consolas,
+    monospace;
   --font-family-sans-serif: var(--ifm-font-family-base);
   --font-family-headline: var(--ifm-font-family-base);
   --font-family-monospace: var(--ifm-font-family-monospace);
@@ -29,7 +31,7 @@
   word-break: keep-all;
   color-scheme: dark light;
   font-feature-settings:
-    'rlig', 'calt', 'case', 'ccmp', 'dlig', 'salt', 'zero', 'ss01', 'ss02', 'ss03', 'ss05', 'ss06', 'ss08', 'ss15';
+    "rlig", "calt", "case", "ccmp", "dlig", "salt", "zero", "ss01", "ss02", "ss03", "ss05", "ss06", "ss08", "ss15";
 
   line-height: 2;
   max-width: 100dvw;
@@ -104,7 +106,7 @@ code {
   margin: 0 auto;
 }
 
-[data-theme='dark'] {
+[data-theme="dark"] {
   --ifm-background-color: #121212;
 }
 
@@ -197,7 +199,7 @@ table {
   overflow: auto;
 }
 
-[data-theme='dark'] img {
+[data-theme="dark"] img {
   filter: brightness(0.7);
   transition: filter 0.2s ease-in-out;
 }
@@ -206,16 +208,16 @@ table {
   filter: none;
 }
 
-[data-theme='dark'] img:hover {
+[data-theme="dark"] img:hover {
   filter: brightness(1);
 }
 
 .pagination-nav__link--next .pagination-nav__label::after {
-  content: '';
+  content: "";
 }
 
 .pagination-nav__link--prev .pagination-nav__label::before {
-  content: '';
+  content: "";
 }
 
 .pagination-nav__link {
