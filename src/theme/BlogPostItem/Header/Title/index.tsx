@@ -30,18 +30,22 @@ export default function BlogPostItemHeaderTitle({
   }
 
   return (
-    <TitleHeading className={cn(className, 'text-balance')} itemProp="headline">
+    <TitleHeading
+      className={cn(className)}
+      itemProp="headline"
+      style={{ textWrap: 'balance' }}
+    >
       {isBlogPostPage ? (
         <>
           {titleText}
           <br />
-          {emoji}
+          <span aria-hidden="true">{emoji}</span>
         </>
       ) : (
         <Link itemProp="url" to={permalink}>
           {titleText}
           <br />
-          {emoji}
+          <span aria-hidden="true">{emoji}</span>
         </Link>
       )}
     </TitleHeading>

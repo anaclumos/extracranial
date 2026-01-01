@@ -2,6 +2,7 @@ import { cn } from '@site/src/util/cn'
 import type { Props } from '@theme/BlogLayout'
 import BlogSidebar from '@theme/BlogSidebar'
 import Layout from '@theme/Layout'
+import styles from './styles.module.css'
 
 export default function BlogLayout(props: Props) {
   const { sidebar, toc, children, ...layoutProps } = props
@@ -16,7 +17,7 @@ export default function BlogLayout(props: Props) {
 
   return (
     <Layout {...layoutProps}>
-      <div className="mx-auto my-8 max-w-screen-2xl px-4">
+      <div className={styles.blogLayout} style={{ margin: '2rem auto' }}>
         <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main
@@ -24,7 +25,7 @@ export default function BlogLayout(props: Props) {
             itemScope
             itemType="http://schema.org/Blog"
           >
-            <div className="max-w-prose">{children}</div>
+            <div style={{ maxWidth: '65ch' }}>{children}</div>
           </main>
           {toc && <div className="col col--3">{toc}</div>}
         </div>

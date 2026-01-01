@@ -1,9 +1,9 @@
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
-import { cn } from '@site/src/util/cn'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import Layout from '@theme/Layout'
+import styles from './styles.module.css'
 
 const t = {
   singular: translate({
@@ -37,10 +37,10 @@ function Year({ year, posts }: YearProp) {
         {yearSuffix} — {posts.length}
         {posts.length > 1 ? t.plural : t.singular}
       </h3>
-      <ul className="m-0 list-disc p-0 pl-6">
+      <ul className={styles.list}>
         {posts.map((post) => (
           <Link key={post.metadata.permalink} to={post.metadata.permalink}>
-            <li className="text-balance">{post.metadata.title}</li>
+            <li style={{ textWrap: 'balance' }}>{post.metadata.title}</li>
           </Link>
         ))}
       </ul>
@@ -51,12 +51,7 @@ function Year({ year, posts }: YearProp) {
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
     <section className="margin-vert--lg">
-      <div
-        className={cn(
-          'container',
-          'mx-auto max-w-4/5 px-4 max-2xl:max-w-11/12'
-        )}
-      >
+      <div className={styles.container}>
         <div className="row">
           {years.reverse().map((yearProps) => (
             <div className="col margin-vert--md col--4" key={yearProps.year}>
@@ -99,13 +94,8 @@ export default function BlogArchive({ archive }: Props) {
       <PageMetadata description={description} title={title} />
       <Layout>
         <header className="hero hero--primary">
-          <div
-            className={cn(
-              'container',
-              'mx-auto w-full max-w-4/5 text-center max-2xl:max-w-11/12'
-            )}
-          >
-            <h1 className="m-0 p-0 text-5xl">{title}</h1>
+          <div className={styles.heroContainer}>
+            <h1 className={styles.heroTitle}>{title}</h1>
           </div>
         </header>
         <main>{years.length > 0 && <YearsSection years={years} />}</main>

@@ -12,6 +12,7 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop'
 import DocItemTOCMobile from '@theme/DocItem/TOC/Mobile'
 import DocVersionBadge from '@theme/DocVersionBadge'
 import DocVersionBanner from '@theme/DocVersionBanner'
+import styles from './styles.module.css'
 
 function useDocTOC() {
   const { frontMatter, toc } = useDoc()
@@ -39,9 +40,9 @@ export default function DocItemLayout({ children }: Props) {
   const docTOC = useDocTOC()
   return (
     <div className="row">
-      <div className={cn('col', !docTOC.hidden && 'lg:max-w-[75%]')}>
+      <div className={cn('col', !docTOC.hidden && styles.docItemCol)}>
         <DocVersionBanner />
-        <div className="max-w-prose max-lg:px-1 [&_article>*:first-child]:mt-0 [&_header+*]:mt-0">
+        <div className={styles.docItemContainer}>
           <article>
             <DocBreadcrumbs />
             <DocVersionBadge />

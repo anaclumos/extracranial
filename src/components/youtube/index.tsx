@@ -1,14 +1,22 @@
+import styles from './styles.module.css'
+
 interface YouTubeProps {
   id: string
+  title?: string
 }
 
-export default function YouTube({ id }: YouTubeProps) {
+export default function YouTube({
+  id,
+  title = 'YouTube video player',
+}: YouTubeProps) {
   return (
     <figure>
       <iframe
-        className="mx-auto my-4 flex aspect-video max-h-96 w-full items-center justify-center rounded-lg border-2 border-emphasis"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        className={styles.youtube}
         src={`https://www.youtube.com/embed/${id}`}
-        title="YouTube"
+        title={title}
       />
     </figure>
   )

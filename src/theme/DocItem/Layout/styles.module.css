@@ -1,0 +1,20 @@
+.docItemContainer {
+  max-width: 65ch;
+}
+
+.docItemContainer header + *,
+.docItemContainer article > *:first-child {
+  margin-top: 0;
+}
+
+@media (width >= 997px) {
+  .docItemCol {
+    max-width: 75% !important;
+  }
+}
+
+@media (width <= 996px) {
+  .docItemContainer {
+    padding: 0 0.3rem;
+  }
+}

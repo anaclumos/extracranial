@@ -1,5 +1,6 @@
 import { translate } from '@docusaurus/Translate'
 import Admonition from '@theme/Admonition'
+import styles from './styles.module.css'
 
 const TRANSLATIONS = {
   title: translate({ message: 'Heads Up!' }),
@@ -44,12 +45,14 @@ function urlify(text: string): string {
 function SearchGoogleButton({ title }: { title: string }) {
   return (
     <a
-      className="ml-auto block w-fit rounded border border-gray-400 bg-white px-4 py-2 font-semibold no-underline shadow-sm transition-all hover:bg-amber-100 hover:no-underline dark:border-gray-400 dark:bg-amber-700 dark:shadow-sm dark:hover:bg-amber-800"
+      aria-label={`${TRANSLATIONS.callToAction} (opens in new tab)`}
+      className={styles.searchGoogleButton}
       href={`https://www.google.com/search?q=${urlify(title)}&tbs=qdr:y`}
       rel="noopener noreferrer"
       target="_blank"
     >
       {TRANSLATIONS.callToAction}
+      <span aria-hidden="true"> ↗</span>
     </a>
   )
 }

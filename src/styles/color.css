@@ -1,4 +1,4 @@
-* {
+:root {
   --primary-color-50: #e5f2fd;
   --primary-color-100: #c1defa;
   --primary-color-200: #9ccaf7;
@@ -9,9 +9,7 @@
   --primary-color-700: #4976ca;
   --primary-color-800: #4365b8;
   --primary-color-900: #384897;
-}
 
-:root {
   --ifm-color-primary: var(--primary-color-700);
   --ifm-color-primary-dark: var(--primary-color-800);
   --ifm-color-primary-darker: var(--primary-color-900);

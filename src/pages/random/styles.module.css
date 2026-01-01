@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.diceButton {
+  display: grid;
+  place-items: center;
+  width: 10rem;
+  height: 10rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.dice {
+  font-size: 4rem;
+  animation: rotating 1s linear infinite;
+}
