@@ -71,7 +71,7 @@ python manage.py test --settings incl.test_settings core.tests.test_job_view_kil
 ```
 
 <details>
-<summary>Setups</summary>>
+<summary>Setups</summary>
 
 ```
 echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list

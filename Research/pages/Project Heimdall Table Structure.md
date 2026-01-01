@@ -86,7 +86,7 @@ erDiagram
 ```
 
 <details>
-<summary>[[2023-06-18]] Version</summary>>
+<summary>[[2023-06-18]] Version</summary>
 
 ```mermaid
 erDiagram

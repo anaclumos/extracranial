@@ -26,7 +26,7 @@ Ran entire ten epochs with the original dataset
 - MNIST CNN: 99.16 %
 
 <details>
-<summary>One by One</summary>>
+<summary>One by One</summary>
 
 I ran ten epochs on one dataset and have yet to come back. Then I moved on to the next one.
 
@@ -40,7 +40,7 @@ I ran ten epochs on one dataset and have yet to come back. Then I moved on to th
 ## Round Robin
 
 <details>
-<summary>Round-robin</summary>>
+<summary>Round-robin</summary>
 
 I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four cycles, thus 16 epochs.
 
@@ -68,7 +68,7 @@ I ran one epoch on TL and moved on to TR, BL, and BR. Then came back. Ran four c
 </details>
 
 <details>
-<summary>Round Robin, 10 cycles</summary>>
+<summary>Round Robin, 10 cycles</summary>
 Still around 92%, max. Never goes above 95%.
 </details>
 
@@ -77,7 +77,7 @@ Still around 92%, max. Never goes above 95%.
 import DisplayFlex from '@site/src/components/DisplayFlex'
 
 <details>
-<summary>Results</summary>>
+<summary>Results</summary>
 
 <DisplayFlex>
 

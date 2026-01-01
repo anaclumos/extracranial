@@ -29,7 +29,7 @@ This is NOT for everyone NOR I don't intend to persuade you. All techs are drive
 Everything changes, and you will, too. Your defense to A will perish into history with B's new update and C's unpopular push. Your job is to disprove yourself as often as possible.
 
 <details>
-<summary>Instagram's Engineering Philosophy in 2011</summary>>
+<summary>Instagram's Engineering Philosophy in 2011</summary>
 
 One of the most popular philosophies is Instagram.
 

@@ -32,7 +32,7 @@ Everything changes--including your own reasoning. Plan for it.
 - **Prefer learning loops over sunk‑cost loyalty.** When the world shifts, you shift.
 
 <details>
-<summary>Instagram's Engineering Philosophy (2011)</summary>>
+<summary>Instagram's Engineering Philosophy (2011)</summary>
 
 1. Keep it very simple
 2. Don't reinvent the wheel
