@@ -15,7 +15,7 @@ Master Detail in mobile, tablet (or foldable), and desktop has been thoroughly r
 
 ![[91B7AF.gif]]
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

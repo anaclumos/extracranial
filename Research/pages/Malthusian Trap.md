@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/E6A898'
 aliases: ['Neo-Malthusian', '네오 맬서스', '맬서스', 'Neo-Malthusian Trap', '네오 맬서스 트랩']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

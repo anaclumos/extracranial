@@ -7,7 +7,7 @@ slug: '/E2CAE4'
 
 <!-- truncate -->
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 ![ALT: 우아한테크캠프 3기 후기](976A54.jpg)
 

@@ -7,7 +7,7 @@ slug: '/E2CAE4'
 
 <!-- truncate -->
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 ![ALT: Woowa Tech Camp 3rd Review](976A54.jpg)
 

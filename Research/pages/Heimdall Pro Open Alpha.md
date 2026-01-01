@@ -2,6 +2,7 @@
 lang: 'en'
 slug: /681B09
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
@@ -89,7 +90,7 @@ And I believe in **show > tell**, so let me just show you some examples.
 
 ## 업계 새 소식을 모니터링하세요!
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

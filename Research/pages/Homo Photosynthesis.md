@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/D7EC42'
 aliases: ['광합성 인간']
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

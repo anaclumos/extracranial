@@ -9,8 +9,8 @@ slug: '/D7DE14'
 <!-- truncate -->
 
 import Admonition from '@theme/Admonition';
-import DisplayFlex from '@site/src/components/DisplayFlex'
-import YouTube from '@site/src/components/YouTube'
+import DisplayFlex from '@site/src/components/display-flex'
+import YouTube from '@site/src/components/youtube'
 
 ![ALT: Image: Hero image of the iPhone's Korean keyboard: "Sky, Earth, and Human."](7B584A.png)
 

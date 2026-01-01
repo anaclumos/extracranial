@@ -11,6 +11,7 @@ aliases:
     'Pyrrhus et Cinéas',
   ]
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

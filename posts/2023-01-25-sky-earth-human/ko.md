@@ -9,7 +9,7 @@ slug: '/D7DE14'
 <!-- truncate -->
 
 import Admonition from '@theme/Admonition';
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 ![ALT: 아이폰 키보드 "하늘땅사람"의 모습](7B584A.png)
 

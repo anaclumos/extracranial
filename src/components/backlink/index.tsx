@@ -59,7 +59,6 @@ function processBacklinkItem(text: string, title: string) {
 }
 
 export default function Backlink({ documentTitle }: BacklinkProps) {
-
   // normalize to 'NFC' to match the key of backlinks
   // See https://cho.sh/r/DF5A6E
   const documentTitleEncoded = documentTitle.normalize('NFC')

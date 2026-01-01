@@ -9,6 +9,7 @@ aliases:
   - 경제학
   - 경제학자
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

@@ -11,7 +11,7 @@ I may call it... neobubble trend?
 
 More subtle ones:
 
-import DisplayFlex from '@site/src/components/DisplayFlex'
+import DisplayFlex from '@site/src/components/display-flex'
 
 <DisplayFlex>
 

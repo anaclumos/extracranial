@@ -4,6 +4,7 @@ slug: /A7AEDC
 aliases:
   - 버니바 부시
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 

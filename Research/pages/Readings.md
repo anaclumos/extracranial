@@ -12,7 +12,7 @@ Try refreshing the page!
 
 :::
 
-import Shuffle from '@site/src/components/Shuffle'
+import Shuffle from '@site/src/components/shuffle'
 
 ## Complete
 

@@ -1,22 +1,20 @@
-import React, { JSX } from 'react'
 import BlogPostItem from '@theme-original/BlogPostItem'
 import type BlogPostItemType from '@theme/BlogPostItem'
 import type { WrapperProps } from '@docusaurus/types'
-import Giscus from '@site/src/components/Giscus'
-import PostNotice from '@site/src/components/PostNotice'
-
 import { useBlogPost } from '@docusaurus/plugin-content-blog/client'
 import BrowserOnly from '@docusaurus/BrowserOnly'
+import GiscusComments from '@site/src/components/giscus'
+import PostNotice from '@site/src/components/post-notice'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 
-export default function BlogPostItemWrapper(props: Props): JSX.Element {
+export default function BlogPostItemWrapper(props: Props) {
   const { metadata } = useBlogPost()
   return (
     <>
-      <PostNotice {...{ metadata }} />
+      <PostNotice metadata={metadata} />
       <BlogPostItem {...props} />
-      <BrowserOnly>{() => <Giscus />}</BrowserOnly>
+      <BrowserOnly>{() => <GiscusComments />}</BrowserOnly>
     </>
   )
 }

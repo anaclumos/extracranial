@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/FFB6EA'
 ---
+
 import Tabs from '@theme/Tabs'
 import TabItem from '@theme/TabItem'
 
