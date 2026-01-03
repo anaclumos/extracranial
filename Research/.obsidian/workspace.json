@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6c374cb296e7bc46",
+        "id": "96b528a7f4801add",
         "type": "tabs",
         "children": [
           {
-            "id": "f32c6ac1c3ec4a48",
+            "id": "c13f7486ba7e0b28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2025-04-20.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-04-20"
-            }
-          },
-          {
-            "id": "12ff994d98102725",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/AI Slop.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AI Slop"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "너 주식 해",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,8 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "12ff994d98102725",
+  "active": "c13f7486ba7e0b28",
   "lastOpenFiles": [
+    "journals/2025-04-20.md",
+    "pages/Grandma's Koreapunk.md",
+    "pages/Laplace's Demon.md",
+    "pages/시공간적 연속성 (19誠鉉).md",
+    "pages/Gall's Law.md",
+    "pages/너 주식 해.md",
+    "pages/Regulation of Fake News.md",
+    "pages/United States.md",
+    "journals/2023-06-12.md",
     "pages/AI Slop.md",
     "pages/AI Slop.md",
     "pages/Amdahl Law.md",
@@ -229,15 +199,6 @@
     "pages/United Kingdom.md",
     "pages/Thought Experiment.md",
     "pages/Statistics.md",
-    "pages/Serverless.md",
-    "pages/Researcher.md",
-    "pages/Prompt.md",
-    "pages/Prompt Injection.md",
-    "pages/Project Starfish.md",
-    "pages/Project Referrals.md",
-    "pages/Problem.md",
-    "pages/On-Device.md",
-    "pages/OS.md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",

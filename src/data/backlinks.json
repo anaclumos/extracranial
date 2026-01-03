@@ -1712,7 +1712,7 @@
   "2024-05-17": {},
   "2024-05-19": {},
   "2024-05-23": {
-    "Grandma Koreapunk": "[[2024-05-23]] Essay.",
+    "Grandma's Koreapunk": "[[2024-05-23]] Essay.",
     "외할머니의 코리안 사이버펑크": "[[2024-05-23]]의 에세이."
   },
   "2024-05-28": {},
@@ -2466,7 +2466,7 @@
     "Jesse Lyu": "![[3D8883.png]]"
   },
   "3DEF3A.png": {
-    "Grandma Koreapunk": "![[3DEF3A.png]]"
+    "Grandma's Koreapunk": "![[3DEF3A.png]]"
   },
   "3E3837.png": {
     "Ticket Bounty Model": "![[3E3837.png]]"
@@ -3891,7 +3891,7 @@
     "2023-02-06": "- [[AI]] used these human-made source images ...",
     "2023-02-16": "...  - [[AI]] applications",
     "2023-03-01": "- [[AI]]",
-    "AI Garbage Data Flooding": "... on the Internet as potential [[AI]] garbage. The picture gallery from ...",
+    "AI Slop": "... on the Internet as potential [[AI]] garbage. The picture gallery from ...",
     "AI and ML": "How are [[AI]] and [[ML]] different? ",
     "AI replaces expensive jobs first": "## Then why can [[AI]] replace expensive jobs?",
     "AI-native": "[[AI]]-native refers to developing and deploying ...",
@@ -3960,11 +3960,11 @@
     "프로젝트 어덕행덕": "...  - Stage Mix [[AI]]",
     "효과적 가속주의": "8. [[AI|인공지능]]과 기술적 자본의 초변수(hyper-parameters)를 먼저 통제하는 ..."
   },
-  "AI Garbage Data Flooding": {
-    "Generative Intelligence": "- [[AI Garbage Data Flooding]]"
-  },
   "AI Note Generators": {
     "2024-05-30": "- [[AI Note Generators]]"
+  },
+  "AI Slop": {
+    "Generative Intelligence": "- [[AI Slop]]"
   },
   "AI and Ecommerce": {
     "2023-05-03": "- [[AI and Ecommerce]]"
@@ -4352,7 +4352,7 @@
     "2023-07-25": "- [[Alternatives to Hacker News]]"
   },
   "Amazon": {
-    "AI Garbage Data Flooding": "... video? Is this book on [[Amazon]]? They are all potential [[AI]] ...",
+    "AI Slop": "... video? Is this book on [[Amazon]]? They are all potential [[AI]] ...",
     "AWS Fargate": "... is a compute engine for [[Amazon]] ECS (Elastic Container Service) and ...",
     "DNS": "... Hey .com Server! Where is [[Amazon|amazon.com]]? Oh, OK, thanks.",
     "EC2": "[[Amazon]] Elastic Compute Cloud",
@@ -4388,7 +4388,7 @@
     "Ted Chiang": "> Ted Chiang is an [[American]] science fiction writer. His work ...",
     "Torvalds": "Linus Benedict Torvalds is a Finnish-[[American]] software engineer who is the ...",
     "Towards Ambient Computing": "In 1945, [[American]] scientist [[Vannevar Bush]] developed a ...",
-    "United States of America": "[[American]]",
+    "United States": "[[American]]",
     "Vannevar Bush": "... June 28, 1974) was an [[American]] engineer, inventor, and science administrator ...",
     "Veil of Ignorance": "... a thought experiment introduced by [[American]] philosopher John Rawls in his ...",
     "Vercel": "... Inc., formerly Zeit, is an [[American]] cloud platform as a service ...",
@@ -4593,7 +4593,7 @@
     "Sign in with Apple": "\"Sign in with [[Apple]]\" is a privacy-focused login feature ...",
     "Sunghyun's OS": "... still want to escape the [[Apple]] ecosystem -- [[Linux Device that ...",
     "Super App": "... the mobile search partnership between [[Apple]] and [[Google]]",
-    "Super App is a Universal Chat App": "... of America|United States]] are vague. [[Apple]] and [[Google]] divide the tech ...",
+    "Super App is a Universal Chat App": "... the [[United States]] are vague. [[Apple]] and [[Google]] divide the tech ...",
     "Swift": "- Programming Language for [[Apple]] platforms",
     "Towards Ambient Computing": "## Road towards the Next [[Apple]]",
     "USDZ vs glTF": "... by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. ...",
@@ -5090,6 +5090,7 @@
   "Bad Interview Experience with Replo": {
     "2023-05-29": "- [[Bad Interview Experience with Replo]]"
   },
+  "Bas Ording": {},
   "Base Frame Pointer": {
     "2022-11-03": "- [[Base Frame Pointer]]",
     "ARM Architecture": "... of `x29`. Same as `rbp` ([[Base Frame Pointer]])",
@@ -5389,6 +5390,7 @@
   "Brunch violates SF terms of use": {
     "San Francisco": "- Although [[Brunch violates SF terms of use]]"
   },
+  "Bubbly Solutions": {},
   "Buffer Overflow Attacks": {
     "2022-11-03": "- [[Buffer Overflow Attacks]]",
     "Computer Systems": "- [[Buffer Overflow Attacks]]"
@@ -7392,7 +7394,7 @@
     "EU and AI": "The [[EU]] is grappling with how to ...",
     "European Rhapsody": "... a 'Hostile State' due to [[EU]] regulations, stemming from a Silicon ...",
     "GDPR": "... The General Data Protection Regulation ([[EU]]) (GDPR) is a regulation in ...",
-    "Memory Hierarchy": "| [[United States of America\\|US]]-[[EU]] Roundtrip | 150ms | ...",
+    "Memory Hierarchy": "| [[United States\\|US]]-[[EU]] Roundtrip | 150ms | ...",
     "PECR": "... subscriber. The law implements an [[EU]] directive, the Privacy and Electronic ...",
     "Plausible Analytics": "... Made and hosted in the [[EU]], powered by European-owned cloud infrastructure ...",
     "Threads (Service)": "... PR show to enter the [[EU]] market with minimum regulations. [[Meta ...",
@@ -7985,6 +7987,7 @@
   "Fast": {
     "2023-09-05": "- [[Fast]]"
   },
+  "Fault Tolerance": {},
   "Feature": {
     "Bloomberg Terminal": "The [[Bloomberg]] Terminal offers various [[Feature|features]], including financial market data, news, ...",
     "Daniele Romanini et al. PyVertical": "... that different entities own different [[Feature|features]] of the same dataset. Private ...",
@@ -8280,9 +8283,9 @@
     "WebNPU API를 상상하다": "... 12, Metal, Vulkan과 같은 현대 [[GPU]] 기능에 접근할 수 있는 [[API]]이다.",
     "효과적 가속주의": "... 위해 [[Economy|경제]]를 재설계할 수 없습니다. [[GPU]]를 없앨 수 없습니다. 모든 문제는 ..."
   },
-  "Gall Law": {
-    "2023-04-10": "- [[Gall Law]]",
-    "Avoid Premature Optimizations": "- [[Gall Law]]"
+  "Gall's Law": {
+    "2023-04-10": "- [[Gall's Law]]",
+    "Avoid Premature Optimizations": "- [[Gall's Law]]"
   },
   "Game Porting Toolkit": {
     "WWDC23": "- [[Game Porting Toolkit]] → automatic HLSL conversion"
@@ -8692,8 +8695,8 @@
     "2023-04-25": "- [[GrammarlyGO]]",
     "Project Prepare for Grammarly": "- [[GrammarlyGO]]. [GrammarlyGO](https://www.grammarly.com/grammarlygo)"
   },
-  "Grandma Koreapunk": {
-    "외할머니의 코리안 사이버펑크": "[[Grandma Koreapunk]]"
+  "Grandma's Koreapunk": {
+    "외할머니의 코리안 사이버펑크": "[[Grandma's Koreapunk]]"
   },
   "GraphQL": {
     "IDOL Stack": "- Takes care of [[GraphQL]] fuzz",
@@ -8755,6 +8758,7 @@
     "2022-12-09": "- [[Gumroad]]",
     "Survivorship Biased": "- [[Gumroad]]"
   },
+  "HCI (Human-Classics Interactions)": {},
   "HEEx": {
     "2023-03-06": "- [[HEEx]]"
   },
@@ -9190,6 +9194,7 @@
   "Index Fund": {
     "Finance": "- [[Index Fund]]"
   },
+  "Indian Ocean, Somali, and Anguilla Domains": {},
   "Indirect Information Leakage": {
     "Qiang Yang et al. Federated Machine Learning Concept and Applications": "- [[Indirect Information Leakage]]"
   },
@@ -9766,8 +9771,8 @@
     "N-grams Language Detection": "### 3. Compare Against Known [[Language]] Profiles",
     "Native Language": "Native [[Language]]"
   },
-  "Laplace Demon": {
-    "2024-05-19": "- [[Laplace Demon]]"
+  "Laplace's Demon": {
+    "2024-05-19": "- [[Laplace's Demon]]"
   },
   "Las Vegas Algorithm": {
     "2023-08-14": "- [[Las Vegas Algorithm]]",
@@ -9871,6 +9876,7 @@
   "Letter to the Heptabase Team on 2022-10-11": {
     "2022-10-11": "- [[Letter to the Heptabase Team on 2022-10-11]]"
   },
+  "Levi's Companies": {},
   "LiFiDeA": {
     "2010년 테크 블로그 여행": "- [[LiFiDeA]]"
   },
@@ -9989,6 +9995,7 @@
     "Finance": "- [[Long Position]]",
     "Short Position": "... return it, keeping the difference. [[Long Position]] is the opposite."
   },
+  "Looking at the Right Metric": {},
   "Los Angeles": {
     "Biden-Harris Administration National Security Strategy 2022": "- Reviewed in-flight to [[Los Angeles]] on [[2023-01-08]]",
     "Letter to Mr. Stephan Ango on 2022-10-19": "... computer science student based in [[Los Angeles]].",
@@ -10051,7 +10058,7 @@
   },
   "ML": {
     "2023-03-01": "- [[ML]]",
-    "AI Garbage Data Flooding": "... at the output of an [[ML]]-based language model, such as GPT-3",
+    "AI Slop": "... at the output of an [[ML]]-based language model, such as GPT-3",
     "AI and ML": "How are [[AI]] and [[ML]] different? [[AI]] is the general ...",
     "AI-native": "... tools such as [[ML|machine learning]] ([[ML]]) frameworks, [[natural language processing]] ([[Natural ...",
     "AIs.txt": "... a mental model of a [[ML|machine learning]] permission system.",
@@ -11005,6 +11012,7 @@
   "Obsidian 과거의 오늘": {
     "2024-04-29": "- [[Obsidian 과거의 오늘]]"
   },
+  "Occam's Norelco": {},
   "Odds": {
     "2023-01-23": "- [[Odds]]",
     "Bayes Theorem": "The [[Odds]] form of Bayes Theorem is"
@@ -11339,6 +11347,7 @@
   "Paracosm": {
     "Text-based Tools for Thought": "### [[Paracosm]]"
   },
+  "Parallel Computing's Upper Limit": {},
   "Parallelism": {
     "2022-12-09": "- [[Parallelism]]",
     "Computer Systems": "- [[Parallelism]]"
@@ -11471,7 +11480,7 @@
   },
   "Ph.D.": {
     "2022-06-10": "... enabled,** says Joseph Ravichandran, a [[Ph.D.|PhD]] student at MIT CSAIL and ...",
-    "2022-07-05": "- 허 교수는 [[Ph.D.|박사]] 과정을 위해 [[United States of ...",
+    "2022-07-05": "- 허 교수는 [[Ph.D.|박사]] 과정을 위해 [[United States|미국]]으로 유학길을 ...",
     "Feature": "... level (high school, bachelor's, master's, [[Ph.D.]]).",
     "Resume": "- [[Ph.D.]]'s are a little different -- ...",
     "Zenly Playbook": "... the early days, [[Zenly]] hired [[Ph.D.]]-level [[Researcher|researchers]] to acquire unparalleled tech ...",
@@ -12739,6 +12748,23 @@
   "SIT Technique": {
     "Probability": "- [[SIT Technique]]"
   },
+  "SIWOOO": {
+    "Bas Ording": "[[SIWOOO]]",
+    "Bazalgette Overengineering": "[[SIWOOO]]",
+    "Bubbly Solutions": "[[SIWOOO]]",
+    "Fault Tolerance": "[[SIWOOO]]",
+    "Guillermo Rauch": "[[SIWOOO]]",
+    "HCI (Human-Classics Interactions)": "[[SIWOOO]]",
+    "Indian Ocean, Somali, and Anguilla Domains": "[[SIWOOO]]",
+    "Levi's Companies": "[[SIWOOO]]",
+    "Looking at the Right Metric": "[[SIWOOO]]",
+    "Occam's Norelco": "[[SIWOOO]]",
+    "Parallel Computing's Upper Limit": "[[SIWOOO]]",
+    "Self-fulfilling Prophecies": "[[SIWOOO]]",
+    "The Inhumane Pivot": "[[SIWOOO]]",
+    "The Mafia Companies": "[[SIWOOO]]",
+    "Three Words": "[[SIWOOO]]"
+  },
   "SKAdNetwork": {
     "WWDC23": "- [[SKAdNetwork]]. [[App Store]]'s more in-depth analytics: ..."
   },
@@ -12954,6 +12980,7 @@
     "2023-01-13": "- [[Self Driving]]",
     "Self Driving": "... the car was in Full [[Self Driving|Self-Driving]] (FSD) mode, and it would ..."
   },
+  "Self-fulfilling Prophecies": {},
   "Self-fulfilling Prophecy": {
     "2024-04-25": "[[Self-fulfilling Prophecy]]"
   },
@@ -13309,9 +13336,9 @@
   },
   "Spiritual Development": {
     "Renaissance": "... was sending me a message: [[Spiritual Development]] always comes in the face ...",
-    "Time-Space Continuum (19誠鉉)": "결국 온전한 [[Spiritual Development|영적 성장]]을 위해서는 **그 모든 것들이 나라는 ...",
     "르네상스": "[[Spiritual Development|영적 성장]]은 도전과 역경에 직면할 때만 이루어진다는 ...",
     "민사고": "... 그들이 그토록 추구했던 것은 사실 [[Spiritual Development|영적 성장]] ([[Spiritual Development]]) 이었을 것.",
+    "시공간적 연속성 (19誠鉉)": "결국 온전한 [[Spiritual Development|영적 성장]]을 위해서는 **그 모든 것들이 나라는 ...",
     "역사의 집대성": "... 역사의 주류를 재편성하고 해석하여 개인의 [[Spiritual Development|영적 성장]]을 포착하는 것을 목표로 한다."
   },
   "Sprachraum": {
@@ -13443,7 +13470,7 @@
     "Project Ganymede": "... How do you store different [[Strategy|strategies]] (After 5 seconds? 10 seconds? ...",
     "Proposal of Research 2023-03-28": "... PI attack techniques and mitigation [[Strategy|strategies]] to identify gaps in existing ...",
     "Tian Li et al. Federated Learning Challenges, Methods, and Future Directions": "#### [[Strategy|Strategies]]",
-    "Winning America": "... of America|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 것이 있을까?",
+    "Winning America": "... '[[United States|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 것이 있을까?",
     "hn.cho.sh 개발 기록": "- PMF보다 [[Go To Market]] [[Strategy|전략]]이 훨씬 더 중요하다 (진짜 그런 ...",
     "경제 개발의 길목에서": "... 목적은 하나이지만, 목적 달성을 위한 [[Strategy|전략]]을 논의하고자 하는 것\"이라고 응수했다. 그 ...",
     "드디어, 한국 애플페이": "... 결제에 집중하는 것. 첫 번째 [[Strategy|전략]]이 결국 실패한 \"저스터치\"이다 (이때 저스터치가 ...",
@@ -13550,8 +13577,8 @@
     "Neo ArXiv": "... a more streamlined, so-called **ResearchOps**--a [[Super App]] platform for all research.",
     "One and only": "... all data into one place--the [[Super App]] approach.",
     "Super App and Democracy": "... that [[WeChat]] is the only \"[[Super App|everything app]]\" anyone can cite, and it ...",
-    "Super App is a Universal Chat App": "... 2022-12-24]], the conditions for a [[Super App]] in the [[United States of ...",
-    "Texts (Service)": "Potential [[Super App]] for the [[United States of ...",
+    "Super App is a Universal Chat App": "... 2022-12-24]], the conditions for a [[Super App]] in the [[United States]] are ...",
+    "Texts (Service)": "Potential [[Super App]] for the [[United States]]. [[Super ...",
     "The One and Only (Social App)": "... the world by creating a **[[Super App]]** in the US. China has ...",
     "Toss": "... say _the most innovative_ Financial [[Super App]] I've ever seen in [[대한민국|Korea]] ...",
     "Universal Chat App": "## Connections: [[Super App]]",
@@ -13568,7 +13595,7 @@
   "Super App is a Universal Chat App": {
     "2023-01-09": "- [[Super App is a Universal Chat App]]",
     "Automattic의 Beeper 인수": "어쩌면 Automattic은 [[Super App is a Universal Chat App|슈퍼 앱을 만들고 싶은 것인지 모르겠다.]]",
-    "Texts (Service)": "... [[United States of America|United States]]. [[Super App is a Universal Chat App]]",
+    "Texts (Service)": "... App]] for the [[United States]]. [[Super App is a Universal Chat App]]",
     "Universal Chat App": "[[Super App is a Universal Chat App]]."
   },
   "Super Mario Wonder": {
@@ -13722,7 +13749,7 @@
     "Engine Equation": "... take in resources such as [[Tax|taxes]], labor, and natural resources and ...",
     "Finance": "- [[Tax]]",
     "IRA vs 401k": "...  - [[Tax|Taxes]] on Withdrawals: The money you ...",
-    "IRS": "... [[United States of America|U.S.]] federal [[Tax|taxes]] and administering the Internal Revenue ...",
+    "IRS": "... for collecting [[United States|U.S.]] federal [[Tax|taxes]] and administering the Internal Revenue ...",
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... 만성적인 경영난에 시달리고 있으며, 비효율적인 [[Tax|세금]] 지출와 부적절한 증세로 인해 국민들의 ...",
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 총리는 2022년 10월 복지 축소와 [[Tax|세금]] 인하라는 대규모 감세안을 발표했는데, [[United ...",
     "엔진 방정식": "- **정부**는 [[Tax|세금]], 노동 및 천연 자원과 시간 ...",
@@ -13812,6 +13839,8 @@
   "The Get-Shit-Done Computer": {
     "2025-09-13": "[[The Get-Shit-Done Computer]]"
   },
+  "The Inhumane Pivot": {},
+  "The Mafia Companies": {},
   "The Need for Project DANSO": {
     "Prject PIRI": "- [[The Need for Project DANSO]]"
   },
@@ -13861,6 +13890,7 @@
     "Master Detail": "- [[Three Column Design]]",
     "Spacial Cognition": "- [[Three Column Design]] and [[Sliding Panes]] are a ..."
   },
+  "Three Words": {},
   "Throughput": {
     "2022-06-14": "... - [[DOM]] 퍼포먼스를 확인하기 위해 [[Throughput]]이 높은 DBMon을 사용한다.",
     "Internetworking": "- [[Throughput]]",
@@ -13886,15 +13916,9 @@
     "기술 할부 결제": "이는 서비스의 [[Time to Market|출시 시기]]를 기하급수적으로 앞당기는데, 이는 **스타트업에서 완전무결한 ...",
     "서비스 시밍": "... 그보다 더 중요한 것은 시장까지의 시간([[Time to Market|Time-to-market]])이다. 이런 사례는 기업의 운영에 있어서 ..."
   },
-  "Time-Space Continuum (19誠鉉)": {
-    "2023-04-12": "- [[Time-Space Continuum (19誠鉉)]]",
-    "2024-04-14": "- [[Time-Space Continuum (19誠鉉)|시공간적 연속성 (19誠鉉?)]]",
-    "誠鉉": "- [[Time-Space Continuum (19誠鉉)|시공간적 연속성 (19誠鉉?)]]",
-    "역사의 집대성": "[[Time-Space Continuum (19誠鉉)|시공간적 연속성 (19誠鉉?)]] 참고."
-  },
   "Time-Space Continuum (Physics)": {
     "2023-04-12": "- [[Time-Space Continuum (Physics)]]",
-    "Time-Space Continuum (19誠鉉)": "... 찾고 사고를 증대할 수 있다. [[Time-Space Continuum (Physics)|마치 시간과 공간이 모두 연결되어 있다는 물리학처럼 말이다.]]"
+    "시공간적 연속성 (19誠鉉)": "... 찾고 사고를 증대할 수 있다. [[Time-Space Continuum (Physics)|마치 시간과 공간이 모두 연결되어 있다는 물리학처럼 말이다.]]"
   },
   "Timebelt": {},
   "Timed Terminal Commands": {
@@ -14058,7 +14082,7 @@
     "Musk-Twitter Incident": "... share my motivation for acquiring [[Twitter]]. There has been much speculation ...",
     "Person 648442": "... about the fragmented nature of [[Twitter]].",
     "Project Heimdall": "... are Access Restricted SPAs like [[Twitter]].",
-    "Regulation of Fake News": "... of America|United States]] government pressured [[Twitter]] to elevate certain content and ...",
+    "Regulation of Fake News": "... The [[United States]] government pressured [[Twitter]] to elevate certain content and ...",
     "Social Coding": "... model compared to LinkedIn (or [[Twitter]]",
     "Super App is a Universal Chat App": "- [[Twitter]], [[Facebook]], [[Instagram]], and Snapchat cannot ...",
     "Threads (Service)": "- People I follow on [[Twitter]] are **not** my high school ...",
@@ -14209,88 +14233,88 @@
   "United Kingdom": {
     "2023-03-03": "- [[United Kingdom]]",
     "Accelerationism": "- [[United Kingdom|영국]]의 철학자 및 이후 어두운 계몽주의 ...",
-    "Fast": "... 시작되었다. [[United States of America|미국]], [[United Kingdom|영국]], 프랑스는 463일 동안 300대의 항공기로 ...",
+    "Fast": "... 공수 작전이 시작되었다. [[United States|미국]], [[United Kingdom|영국]], 프랑스는 463일 동안 300대의 항공기로 ...",
     "On National Crises and the Intellectuals — Focused on GB and KR": "... Republic of [[대한민국|Korea]] and the [[United Kingdom]] share many similarities in our ...",
     "PECR": "... is a law in the [[United Kingdom]] which made it unlawful to, ...",
     "Site On Which the Sun Never Sets": "... the internet. Just as the [[United Kingdom|British]] Empire once had territories and ...",
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "[[대한민국]]과 [[United Kingdom|영국]]은 많은 유사점을 가지고 있습니다.",
     "선진국과 주민등록번호": "... 하이 리스크 하이 리턴식 사회, [[United Kingdom|영국]]은 최소한의 기본권을 제도화한 후 통제 ..."
   },
-  "United States of America": {
-    "16세 수능론": "... 알아듣는데 그렇게 오래 걸리지도 않는다. [[United States of America|미국]]의 공교육 수학을 봐라. 우리나라 중학교 ...",
-    "2022-06-10": "... ranges in all of its [[United States of America|U.S.]] job listings, a move that ...",
-    "2022-06-14": "... shows how resumes differ in [[United States of America|US]] and [[대한민국|Korea]].",
-    "2022-07-05": "- [[United States of America|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. ...",
-    "2023-02-16": "- [[United States of America]]",
-    "2023-08-22": "... 것을 본다. 며칠 전에는 북한이 [[United States of America|미국]]령(괌처럼...)으로 정복당하더니, 오늘은 한국 내 각 ...",
-    "AT&T Roaming Incident Report (22誠鉉)": "... to see that in the [[United States of America|United States]] you should protect and exercise ...",
-    "American Bank Problems": "[[United States of America|US]] has the most banks...",
-    "Biden-Harris Administration National Security Strategy 2022": "- The [[United States of America|US]] will modernize and strengthen its ...",
-    "Bootstrap": "... is more common in the [[United States of America|US]], it was historically less popular ...",
-    "Born of this Land - The Founding Story of Hyundai": "... working outsourcing jobs for the [[United States of America|US]] military, Jung had to put ...",
-    "CCPA": "... protection for residents of California, [[United States of America|United States]]. The bill was passed by ...",
-    "Downloading Any Recordings from Zoom": "- Both the [[United States of America|United States]] and the Republic of [[대한민국|Korea]] ...",
-    "Fast": "... **[조선소](http://www.sausalitohistoricalsociety.com/2019-columns/2019/1/23/marinship-on-the-fast-track)** - 1942년 3월 2일 [[United States of America|미국]] 해사위원회로부터 전보를 받은 W. A. ...",
-    "Federated Transfer Learning": "... an [[e-commerce]] company in the [[United States of America|United States]]",
-    "FinTech and Justice": "... ahead of cash. In the [[United States of America|US]], the use of money is ...",
-    "Frames Per Second": "... was audio post in the [[United States of America|U.S.]]_",
-    "IP is the new Real Estate": "... the yen appreciated against the [[United States of America|US]] dollar, [[일본|Japanese]] investors reinvested in ...",
-    "IRS": "... the revenue service for the [[United States of America|United States]] federal government, which is responsible ...",
-    "Krafton Way": "... 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. ...",
-    "Letter to Mr. Matt Rickard on 2022-12-23": "... for the people in the [[United States of America|United States]].",
-    "Letter to Mr. Matt Rickard on 2022-12-24": "... for the people in the [[United States of America|United States]].",
-    "Martin Shkreli의 마약 문제를 E-ACC로 해결한다는 가설": "[[United States of America|미국]]의 백만장자 [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli)가 마약 문제를 ...",
-    "Metadream": "... [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States of America|United States]]. One of Metadream's directors is ...",
-    "Nuclear Fusion": "- The [[United States of America|U.S.]] Department of Energy (DOE) and ...",
-    "On National Crises and the Intellectuals — Focused on GB and KR": "... to balance Europe and the [[United States of America|US]], and [[대한민국|Korea]] is in a ...",
-    "Palantir Apollo": "... Security Systems (IL5) by the [[United States of America|U.S.]] Department of Defense. [Palantir Technologies](https://en.wikipedia.org/wiki/Palantir_Technologies)",
-    "Palantir Gotham": "... and Transparency Board, a former [[United States of America|US]] federal agency which operated from ...",
-    "Person A3BA1A": "... company, Carta, already dominates the [[United States of America|U.S.]] market.",
-    "Protocol Wars": "... would like to admit. The [[United States of America|U.S.]] Department of Defense was an ...",
-    "Regulation of Fake News": "- The [[United States of America|United States]] government pressured [[Twitter]] to elevate ...",
-    "Robert Oppenheimer and Jiro Horikoshi": "... first atomic bomb for the [[United States of America|United States]]. Both men were technological pioneers, ...",
-    "SVB Debacle": "... the working hours of the [[United States of America|U.S.]] banking system.",
-    "Screenshot as an API": "... a rumored frustration with the [[United States of America|US]] Postal Service.",
-    "Self Driving": "... suite that's available in the [[United States of America|United States]]",
-    "Sourgraping": "Yes, the [[United States of America|U.S.]] sucks in some ways, but ...",
-    "Super App is a Universal Chat App": "... a [[Super App]] in the [[United States of America|United States]] are vague. [[Apple]] and [[Google]] ...",
-    "Tax": "In the [[United States of America|USA]], taxes on income and long-term ...",
-    "Texts (Service)": "Potential [[Super App]] for the [[United States of America|United States]]. [[Super App is a Universal ...",
-    "The U.S. is Homelander": "The [[United States of America|U.S.]] is Homelander. Really.",
-    "Toss": "... ever seen in [[대한민국|Korea]] and [[United States of America|U.S.]]",
-    "Universal Chat App": "## [[United States of America|U.S.]]",
-    "Vannevar Bush": "> 버니바 부시는 [[United States of America|미국]]의 기술자이자 아날로그 컴퓨터의 선구자이다. 역사적으로 ...",
-    "WeChat": "... other countries, such as the [[United States of America|United States]], Indonesia, Vietnam, and Malaysia.",
-    "Why Korean Banks Suck": "... the one used in the [[United States of America|United States]] can provide more time for ...",
-    "Winning America": "[[대한민국|한국]]이 '[[United States of America|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 ...",
-    "雅號": "[[United States of America|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 ...",
-    "간판법": "- [[United States of America|미국]]과 유럽의 다른 도시에서도 비슷한 규제를 ...",
-    "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... [[중국]], 동남아에서 탈출하고자 모색하는 유럽과 [[United States of America|미국]]의 기업들을 [[서울]]로 유치하기 위해 적극 ...",
-    "경제 개발의 길목에서": "... 박 대통령을 만났을 때 내가 [[United States of America|미국]]에서 공부했고 교수 출신인 점을 인식해서인지 ...",
-    "공기 청정 비행선": "### [[United States of America|미국]]의 특허 US5147429A",
-    "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 고군분투하고 있습니다. 한편, [[대한민국|한국]]은 [[중국]]과 [[United States of America|미국]] 간의 무역 긴장이 지속되면서 [[Economy|경제]]에 ...",
-    "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 [[United States of America|미국]]에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 ...",
-    "너 주식 해": "[[United States of America|미국]]에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 ...",
-    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States of America|미국]], [[일본]]의 기술 수준을 따라갈 수 ...",
-    "도로명주소": "[[United States of America|미국]]에서의 흥미로운 관찰이다. 도로명 주소와 함께 ...",
-    "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 누른 뒤 다운로드를 시작한다. (팁: [[United States of America|미국]] VPN 서버를 사용하면 다운로드 속도가 ...",
-    "미국물": "즉, 정체성을 완전히 뛰어넘어 [[United States of America|미국]]의 환경에 동화되는 것인가?",
-    "민사고": "... 책을 읽고 분석하는 시간을 가지며 [[United States of America|미국]]사의 여러 인물들을 분석했다. 해당 작품은 ...",
-    "벌금과 물가": "## [[United States of America|미국]]",
-    "새로운 부동산은 지적 재산이다": "... 고수익을 위해 해외 부동산, 특히 [[United States of America|미국]]과 유럽의 부동산에 재투자했다.",
-    "서당개 3년이면 풍월을 읊는다": "... 방해받는 요소가 전혀 없었다. 그리고 [[United States of America|미국]]에서는 그런 기회가 적지 않았다. 노력을 ...",
-    "선진국과 주민등록번호": "... 알아서 본인의 권리를 주장해야 합니다. [[United States of America|미국]] 같은 나라는 자유를 위시한 하이 ...",
-    "앰비언트 컴퓨팅을 향해": "1945년 [[United States of America|미국]]의 과학자 [[Vannevar Bush|버니바 부시]]는 자신의 ...",
-    "이완용": "더군다나 [[United States of America|미국]]을 답사한 관리들이 악취로 가득했다는 점이 ...",
-    "일본 과학기술 총력전": "패전 당시 [[United States of America|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] ...",
-    "젠리의 성공 공식": "... 나는 스냅의 큰 실수라고 생각한다. [[United States of America|미국]] 대학생 사이에서도 더 이상 스냅을 ...",
-    "학자 및 직계 가족의 의료보장제": "[[Winning America]]. 해외의 인재들이 [[United States of America|미국]]으로 가는 대신 [[대한민국|한국]]으로 올 명분을 ...",
-    "한국의 입시와 거짓된 명예": "오히려 [[United States of America|미국]]의 청소년들이 돈을 가지고 불장난을 하며 ...",
-    "한민족": "[[중국]], [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
-    "한민족의 동족상잔": "... 되는 납공노비가 있었다는 점에서 과거 [[United States of America|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 ..."
+  "United States": {
+    "16세 수능론": "... 알아듣는데 그렇게 오래 걸리지도 않는다. [[United States|미국]]의 공교육 수학을 봐라. 우리나라 중학교 ...",
+    "2022-06-10": "... ranges in all of its [[United States|U.S.]] job listings, a move that ...",
+    "2022-06-14": "... shows how resumes differ in [[United States|US]] and [[대한민국|Korea]].",
+    "2022-07-05": "- [[United States|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. ...",
+    "2023-02-16": "- [[United States]]",
+    "2023-08-22": "... 것을 본다. 며칠 전에는 북한이 [[United States|미국]]령(괌처럼...)으로 정복당하더니, 오늘은 한국 내 각 ...",
+    "AT&T Roaming Incident Report (22誠鉉)": "... to see that in the [[United States]] you should protect and exercise ...",
+    "American Bank Problems": "[[United States|US]] has the most banks...",
+    "Biden-Harris Administration National Security Strategy 2022": "- The [[United States|US]] will modernize and strengthen its ...",
+    "Bootstrap": "... is more common in the [[United States|US]], it was historically less popular ...",
+    "Born of this Land - The Founding Story of Hyundai": "... working outsourcing jobs for the [[United States|US]] military, Jung had to put ...",
+    "CCPA": "... protection for residents of California, [[United States]]. The bill was passed by ...",
+    "Downloading Any Recordings from Zoom": "- Both the [[United States]] and the Republic of [[대한민국|Korea]] ...",
+    "Fast": "... **[조선소](http://www.sausalitohistoricalsociety.com/2019-columns/2019/1/23/marinship-on-the-fast-track)** - 1942년 3월 2일 [[United States|미국]] 해사위원회로부터 전보를 받은 W. A. ...",
+    "Federated Transfer Learning": "... an [[e-commerce]] company in the [[United States]]",
+    "FinTech and Justice": "... ahead of cash. In the [[United States|US]], the use of money is ...",
+    "Frames Per Second": "... was audio post in the [[United States|U.S.]]_",
+    "IP is the new Real Estate": "... the yen appreciated against the [[United States|US]] dollar, [[일본|Japanese]] investors reinvested in ...",
+    "IRS": "... the revenue service for the [[United States]] federal government, which is responsible ...",
+    "Krafton Way": "... 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States|미국]] 기업들을 선망하며 스스로를 낮추곤 했습니다. ...",
+    "Letter to Mr. Matt Rickard on 2022-12-23": "... for the people in the [[United States]].",
+    "Letter to Mr. Matt Rickard on 2022-12-24": "... for the people in the [[United States]].",
+    "Martin Shkreli의 마약 문제를 E-ACC로 해결한다는 가설": "[[United States|미국]]의 백만장자 [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli)가 마약 문제를 ...",
+    "Metadream": "... [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States]]. One of Metadream's directors is ...",
+    "Nuclear Fusion": "- The [[United States|U.S.]] Department of Energy (DOE) and ...",
+    "On National Crises and the Intellectuals — Focused on GB and KR": "... to balance Europe and the [[United States|US]], and [[대한민국|Korea]] is in a ...",
+    "Palantir Apollo": "... Security Systems (IL5) by the [[United States|U.S.]] Department of Defense. [Palantir Technologies](https://en.wikipedia.org/wiki/Palantir_Technologies)",
+    "Palantir Gotham": "... and Transparency Board, a former [[United States|US]] federal agency which operated from ...",
+    "Person A3BA1A": "... company, Carta, already dominates the [[United States|U.S.]] market.",
+    "Protocol Wars": "... would like to admit. The [[United States|U.S.]] Department of Defense was an ...",
+    "Regulation of Fake News": "- The [[United States]] government pressured [[Twitter]] to elevate ...",
+    "Robert Oppenheimer and Jiro Horikoshi": "... first atomic bomb for the [[United States]]. Both men were technological pioneers, ...",
+    "SVB Debacle": "... the working hours of the [[United States|U.S.]] banking system.",
+    "Screenshot as an API": "... a rumored frustration with the [[United States|US]] Postal Service.",
+    "Self Driving": "... suite that's available in the [[United States]]",
+    "Sourgraping": "Yes, the [[United States|U.S.]] sucks in some ways, but ...",
+    "Super App is a Universal Chat App": "... a [[Super App]] in the [[United States]] are vague. [[Apple]] and [[Google]] ...",
+    "Tax": "In the [[United States|USA]], taxes on income and long-term ...",
+    "Texts (Service)": "Potential [[Super App]] for the [[United States]]. [[Super App is a Universal ...",
+    "The U.S. is Homelander": "The [[United States|U.S.]] is Homelander. Really.",
+    "Toss": "... ever seen in [[대한민국|Korea]] and [[United States|U.S.]]",
+    "Universal Chat App": "## [[United States|U.S.]]",
+    "Vannevar Bush": "> 버니바 부시는 [[United States|미국]]의 기술자이자 아날로그 컴퓨터의 선구자이다. 역사적으로 ...",
+    "WeChat": "... other countries, such as the [[United States]], Indonesia, Vietnam, and Malaysia.",
+    "Why Korean Banks Suck": "... the one used in the [[United States]] can provide more time for ...",
+    "Winning America": "[[대한민국|한국]]이 '[[United States|미국]]을 이길 수 있는' [[Strategy|전략]]에는 어떤 ...",
+    "雅號": "[[United States|미국]]의 친구들이 Sunghyun을 발음하기 어려워하기에, 기왕이면 ...",
+    "간판법": "- [[United States|미국]]과 유럽의 다른 도시에서도 비슷한 규제를 ...",
+    "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... [[중국]], 동남아에서 탈출하고자 모색하는 유럽과 [[United States|미국]]의 기업들을 [[서울]]로 유치하기 위해 적극 ...",
+    "경제 개발의 길목에서": "... 박 대통령을 만났을 때 내가 [[United States|미국]]에서 공부했고 교수 출신인 점을 인식해서인지 ...",
+    "공기 청정 비행선": "### [[United States|미국]]의 특허 US5147429A",
+    "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 고군분투하고 있습니다. 한편, [[대한민국|한국]]은 [[중국]]과 [[United States|미국]] 간의 무역 긴장이 지속되면서 [[Economy|경제]]에 ...",
+    "국내 은행 서비스가 나쁜 이유": "은행이 기술에 뒤처지는 것은 [[United States|미국]]에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 ...",
+    "너 주식 해": "[[United States|미국]]에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 ...",
+    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States|미국]], [[일본]]의 기술 수준을 따라갈 수 ...",
+    "도로명주소": "[[United States|미국]]에서의 흥미로운 관찰이다. 도로명 주소와 함께 ...",
+    "라즈베리 파이로 스마트 오디오 시스템 만들기": "... 누른 뒤 다운로드를 시작한다. (팁: [[United States|미국]] VPN 서버를 사용하면 다운로드 속도가 ...",
+    "미국물": "즉, 정체성을 완전히 뛰어넘어 [[United States|미국]]의 환경에 동화되는 것인가?",
+    "민사고": "... 책을 읽고 분석하는 시간을 가지며 [[United States|미국]]사의 여러 인물들을 분석했다. 해당 작품은 ...",
+    "벌금과 물가": "## [[United States|미국]]",
+    "새로운 부동산은 지적 재산이다": "... 고수익을 위해 해외 부동산, 특히 [[United States|미국]]과 유럽의 부동산에 재투자했다.",
+    "서당개 3년이면 풍월을 읊는다": "... 방해받는 요소가 전혀 없었다. 그리고 [[United States|미국]]에서는 그런 기회가 적지 않았다. 노력을 ...",
+    "선진국과 주민등록번호": "... 알아서 본인의 권리를 주장해야 합니다. [[United States|미국]] 같은 나라는 자유를 위시한 하이 ...",
+    "앰비언트 컴퓨팅을 향해": "1945년 [[United States|미국]]의 과학자 [[Vannevar Bush|버니바 부시]]는 자신의 ...",
+    "이완용": "더군다나 [[United States|미국]]을 답사한 관리들이 악취로 가득했다는 점이 ...",
+    "일본 과학기술 총력전": "패전 당시 [[United States|미국]]의 점령 정책이 완전한 비군사화에서 [[Economy|경제]] ...",
+    "젠리의 성공 공식": "... 나는 스냅의 큰 실수라고 생각한다. [[United States|미국]] 대학생 사이에서도 더 이상 스냅을 ...",
+    "학자 및 직계 가족의 의료보장제": "[[Winning America]]. 해외의 인재들이 [[United States|미국]]으로 가는 대신 [[대한민국|한국]]으로 올 명분을 ...",
+    "한국의 입시와 거짓된 명예": "오히려 [[United States|미국]]의 청소년들이 돈을 가지고 불장난을 하며 ...",
+    "한민족": "[[중국]], [[United States|미국]], [[일본]] 등에 많이 살고 있다.",
+    "한민족의 동족상잔": "... 되는 납공노비가 있었다는 점에서 과거 [[United States|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 ..."
   },
-  "United States of America\\": {
-    "Memory Hierarchy": "| [[United States of America\\|US]]-[[EU]] Roundtrip | 150ms | ..."
+  "United States\\": {
+    "Memory Hierarchy": "| [[United States\\|US]]-[[EU]] Roundtrip | 150ms | ..."
   },
   "Universal Approximation Theorem": {
     "2023-09-27": "- [[Universal Approximation Theorem]]"
@@ -14372,7 +14396,7 @@
     "Tools Must Vanish": "... the [[Zettelkasten]] of the next [[Vannevar Bush]]; it's always a setup with ...",
     "Towards Ambient Computing": "In 1945, [[American]] scientist [[Vannevar Bush]] developed a concept called the ...",
     "Welcome": "... In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] ...",
-    "앰비언트 컴퓨팅을 향해": "... [[United States of America|미국]]의 과학자 [[Vannevar Bush|버니바 부시]]는 자신의 에세이 As You May ..."
+    "앰비언트 컴퓨팅을 향해": "1945년 [[United States|미국]]의 과학자 [[Vannevar Bush|버니바 부시]]는 자신의 에세이 As You May ..."
   },
   "Variance": {
     "2023-03-07": "- [[Variance]]",
@@ -14789,7 +14813,7 @@
   "Winning America": {
     "2023-08-24": "- [[Winning America]]",
     "건강한 한국 토착 신앙": "... 국가적 브랜드를 쇄신할 수 있으며, [[Winning America|미국을 이길]] 수 있다.",
-    "학자 및 직계 가족의 의료보장제": "[[Winning America]]. 해외의 인재들이 [[United States of ..."
+    "학자 및 직계 가족의 의료보장제": "[[Winning America]]. 해외의 인재들이 [[United States|미국]]으로 가는 ..."
   },
   "Winning Backdrop Build v2 (23誠鉉)": {
     "2023-12-07": "[[Winning Backdrop Build v2 (23誠鉉)]]",
@@ -15267,7 +15291,7 @@
     "2022-05-31": "... 모든 소비로 확장 - 두잇 [[e-commerce|이커머스]] 전체로 카테고리 확장 (23.07~) - ...",
     "AI and Ecommerce": "[[ai]] and [[e-commerce]]",
     "CDN": "... (media files, software, documents), applications ([[e-commerce]], portals), live streaming media, on-demand ...",
-    "Federated Transfer Learning": "...  - an [[e-commerce]] company in the [[United States ...",
+    "Federated Transfer Learning": "...  - an [[e-commerce]] company in the [[United States]]",
     "Google": "... computing]], computer software, quantum computing, [[e-commerce]], [[AI|artificial intelligence]], and consumer electronics. ...",
     "Higher-Level Languages and Their Speeds": "... entire product catalog of the [[e-commerce]] site can be a single ...",
     "Jeff Bezos": "... of [[Amazon]], the world's largest [[e-commerce]] and [[cloud computing]] company. He ...",
@@ -16331,7 +16355,7 @@
     "eieio.games": "[[weird]]. clever."
   },
   "when I was young": {
-    "Laplace Demon": "... questioned of the same thing [[when I was young]]."
+    "Laplace's Demon": "... questioned of the same thing [[when I was young]]."
   },
   "wikilink": {
     "2022-10-17": "... is necessary because I use `[[wikilink]]` for interlinking, which [[Docusaurus]] does ..."
@@ -16364,9 +16388,9 @@
     "2024-04-14": "- [[誠鉉]]",
     "2024-04-20": "- [[誠鉉]]",
     "Letter to the Heptabase Team on 2022-10-11": "趙[[誠鉉]] 敬上",
-    "Time-Space Continuum (19誠鉉)": "... 경험들이 유기적으로 연동되어 지속적인 환기와 [[誠鉉|메타인지]]를 일으켜야만 그 영적 성장에서 연결점을 ...",
     "내가 만든": "- [[誠鉉]]",
-    "시간 횡령 (12誠鉉)": "지금으로부터 꽤 오래 전, 그러니까 12[[誠鉉]] 시절부터 고안한 사고 프레임워크가 하나 ..."
+    "시간 횡령 (12誠鉉)": "지금으로부터 꽤 오래 전, 그러니까 12[[誠鉉]] 시절부터 고안한 사고 프레임워크가 하나 ...",
+    "시공간적 연속성 (19誠鉉)": "... 경험들이 유기적으로 연동되어 지속적인 환기와 [[誠鉉|메타인지]]를 일으켜야만 그 영적 성장에서 연결점을 ..."
   },
   "雅號": {
     "2023-01-09": "- [[雅號]]",
@@ -16624,14 +16648,14 @@
   },
   "대한민국": {
     "2016년 12월 5일 민족사관고등학교 교장 사임 사건": "[[대한민국]]의 두뇌라고 하는 이들조차 어찌 이리 ...",
-    "2022-06-14": "... [[United States of America|US]] and [[대한민국|Korea]].",
-    "2022-07-05": "... [[United States of America|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 ...",
+    "2022-06-14": "... differ in [[United States|US]] and [[대한민국|Korea]].",
+    "2022-07-05": "- [[United States|미국]] 국적이지만 [[대한민국|한국]] 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 ...",
     "2023-05-19": "... more heavily tied to the [[대한민국|Korean]] Market.",
     "2023-07-24": "지난주에 오랜만에 [[대한민국|한국]] 면접을 볼 기회가 있었는데. 내 ...",
     "AI replaces expensive jobs first": "_[[서울|SEOUL]] (Reuters) - [[대한민국|Korea]]'s parliament on late Friday passed ...",
     "AT&T Roaming Incident Report (22誠鉉)": "... December 15th, I landed in [[대한민국|Korea]] and did not have my ...",
     "Bootstrap": "[[대한민국|Korean]] startups often perceive that they ...",
-    "Born of this Land - The Founding Story of Hyundai": "... States of America|US]] Army in [[대한민국|Korea]] was Hyundai's.",
+    "Born of this Land - The Founding Story of Hyundai": "... the [[United States|US]] Army in [[대한민국|Korea]] was Hyundai's.",
     "Doheny East Asian Book Stacks": "특히 지하 북스택에는 [[대한민국|한국]] 고문헌들, 특히 20세기부터는 자료가 엄청나게 ...",
     "Downloading Any Recordings from Zoom": "... States]] and the Republic of [[대한민국|Korea]] allow limited usage of copyrighted ...",
     "Finally, Apple Pay in Korea": "**Card companies**. [[대한민국|Korean]] citizens use credit cards a ...",
@@ -16646,7 +16670,7 @@
     "Letter to Mr. Matt Rickard on 2022-10-03": "There are two behemoths in [[대한민국|Korea]], [[Naver]], and [[Kakao]].",
     "Letter to Mr. Matt Rickard on 2022-12-23": "... from Seoul to Daejeon in [[대한민국|Korea]], and I just got this ...",
     "Letter to Mr. Matt Rickard on 2022-12-24": "... from [[서울|Seoul]] to Daejeon in [[대한민국|Korea]], and I just got this ...",
-    "Metadream": "... data centers in [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States of ...",
+    "Metadream": "... data centers in [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States]]. One ...",
     "Naver": "... the first web portal in [[대한민국|Korea]] to develop and use its ...",
     "On National Crises and the Intellectuals — Focused on GB and KR": "... challenges facing our nations, the [[대한민국|Republic of Korea]] and the [[United Kingdom]], we ...",
     "Person 1E6ABA": "Why would the [[대한민국|Korean]] Govs and ",
@@ -16659,13 +16683,13 @@
     "Separation of Computer Scientists and Computer Technologists": "... rappers to classical oboists, from [[대한민국|Korean]] idols to shamanist drummers.",
     "Service Shimming": "- [[Naver]] (≈ [[대한민국|Korean]] Google), for a while, failed ...",
     "Setting different fonts by language in CSS": "I recently came across a [[대한민국|Korean]] [[font]] called [Spoqa Han Sans](https://spoqa.github.io/spoqa-han-sans/en-US/). ...",
-    "Sourgraping": "... the middle gray area of [[대한민국|Korea]] and the [[United States of ...",
+    "Sourgraping": "... the middle gray area of [[대한민국|Korea]] and the [[United States|U.S.]] to ...",
     "Sudden Rise of Bondee": "... social app, going crazy in [[대한민국|Korea]], [[일본|Japan]], [[Singapore]], [[대만|Taiwan]], etc., ranking ...",
     "Toss": "- [[Financial Technology|FinTech]] [[Unicorn]] of [[대한민국|Korea]].",
     "Universal Chat App": "... ([[일본|Japan]])**. Developed by [[Naver]], a [[대한민국|Korean]] search portal, Line is widely ...",
     "Using an iPad as my Ebook": "... vendors. I also read many [[대한민국|Korean]] books, and the [[Kindle]] store ...",
     "Why Korean Banks Suck": "There is a [[대한민국|Korean]] law stating:",
-    "Winning America": "[[대한민국|한국]]이 '[[United States of America|미국]]을 이길 ...",
+    "Winning America": "[[대한민국|한국]]이 '[[United States|미국]]을 이길 수 있는' ...",
     "hn.cho.sh 개발 기록": "Stripe도 붙이려다가 [[대한민국|한국]]이 지원되지 않아 포기했다.",
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... 대해 범죄인 인도조약에 따르지 않고, [[대한민국|한국]] 현지에서 처벌 받겠다는 서약을 미리 ...",
     "개성은 쟁취하는 것": "**[[대한민국]]에는 독립적인 자아가 부족하다** -- 14誠鉉이 ...",
@@ -16674,9 +16698,9 @@
     "공강에서 보내는 공강 활용법": "필수 모듈이 아닌 선택 모듈에는 [[대한민국|한국]]화, 실무영어, 시사영어, 물리실험 등의 \"필수가 ...",
     "국가와 민족": "- [[대한민국]]은 [[한민족|민족]]과 국가를 종종 혼동한다.",
     "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 위해 앉아 고민하면서, 제 조국, [[대한민국]]이 직면한 위기에 대해 생각하지 않을 ...",
-    "국내 은행 서비스가 나쁜 이유": "... States of America|미국]]에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 ...",
+    "국내 은행 서비스가 나쁜 이유": "... 것은 [[United States|미국]]에서도 익숙한 이야기지만, [[대한민국|한국]]은 한 단계 더 정수를 보여준다고 ...",
     "김치, 엽전, 선비 등 한국적 문화유산에 대한 부정적 의미 제거 작업": "... 위해선 김치, 엽전, 선비 등 [[대한민국|한국]]적 문화유산에 대한 부정적 의미 제거 ...",
-    "너 주식 해": "... America|미국]]에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 흔한 아이스 브레이커로 사용되는 \"너 ...",
+    "너 주식 해": "... States|미국]]에서 흥미로운 관찰 중 하나는 [[대한민국|한국]]에서 흔한 아이스 브레이커로 사용되는 \"너 ...",
     "네오 코리안 르네상스": "... 재료는 충분하지만 [[중국]]과 [[일본]]에 비해서 [[대한민국|한국]]의 문화가 '재탐색'되지 않았다.",
     "대한민국의 저출산": "[[대한민국|Korea]]'s fertility rate has dropped to ...",
     "드디어, 한국 애플페이": "... 3일자 [[Finance|금융]]위원회에서 [[Apple|애플]]페이 도입을 승인했다. [[대한민국|한국]]은 선진국 중 유일하게 [[Apple|애플]]페이가 지원되지 ...",
@@ -16708,7 +16732,7 @@
     "태백산맥 계획": "[[대한민국]]의 정치, 사회, [[Economy|경제]], 문화, 세대, ...",
     "퍼블리시티권": "- [[대한민국|한국]]에서는 지난 1982년 [[서울]] 민사지방법원에서 본인의 ...",
     "하늘땅사람 개발 기록": "보아하니 [[대한민국|한국]] 대학 컴공과에서는 State Machine 수업을 ...",
-    "학자 및 직계 가족의 의료보장제": "... States of America|미국]]으로 가는 대신 [[대한민국|한국]]으로 올 명분을 어떻게 만들 수 ...",
+    "학자 및 직계 가족의 의료보장제": "... 인재들이 [[United States|미국]]으로 가는 대신 [[대한민국|한국]]으로 올 명분을 어떻게 만들 수 ...",
     "한국 IT 산업의 내수 편중": "[[대한민국|한국]]은 원래부터 수출 주도로 먹고 살던 ...",
     "한국어": "[[한민족]]과 [[대한민국]]의 [[Native Language|모국어]]이다.",
     "한국의 입시와 거짓된 명예": "[[대한민국|한국]]의 입시가 물론 시간을 낭비하는 것은 ...",
@@ -16991,7 +17015,7 @@
   "삼체": {
     "2023-06-28": "[[삼체]]",
     "Readings": "- [ ] [[삼체]] (Re-read)",
-    "Time-Space Continuum (19誠鉉)": "[[삼체]]들의 문명 초기화 같은 현상이 일어나는 ..."
+    "시공간적 연속성 (19誠鉉)": "[[삼체]]들의 문명 초기화 같은 현상이 일어나는 ..."
   },
   "상경과 상항": {
     "2023-07-06": "- [[상경과 상항]]"
@@ -17030,7 +17054,7 @@
     "Letter to the Heptabase Team on 2022-10-11": "... based in [[Los Angeles|LA]] and [[서울|Seoul]]. I am also a contributor ...",
     "MetroPunk": "... 않는다. 반면 메트로펑크 스토리에는 도쿄나 [[서울]]과 같은 아시아 대도시를 연상시키는 첨단 ...",
     "Spirits do not Inherit": "... wasn't built in a day, [[서울|Seoul]] wasn't in a day, and ...",
-    "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... [[United States of America|미국]]의 기업들을 [[서울]]로 유치하기 위해 적극 투자한다.",
+    "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "... 모색하는 유럽과 [[United States|미국]]의 기업들을 [[서울]]로 유치하기 위해 적극 투자한다.",
     "개성은 쟁취하는 것": "[[서울]]도 하루아침에 이루어지지 않았습니다.",
     "공기 청정 비행선": "[[서울]]의 공기는 최악이다.",
     "데이터베이스권": "- [[서울]]중앙지법 민사합의62부(부장 이영광)는 \"방픽은 [[Crawler|크롤링]]으로 얻은 ...",
@@ -17057,7 +17081,6 @@
     "Programmable Vaccines": "[[성현적 발상]]",
     "ScienceOps": "[[성현적 발상]]",
     "Super App is a Universal Chat App": "- [[성현적 발상]]",
-    "Time-Space Continuum (19誠鉉)": "[[성현적 발상]]",
     "誠鉉": "[[성현적 발상]]",
     "건강한 한국 토착 신앙": "[[성현적 발상]]",
     "공기 청정 비행선": "[[성현적 발상]]",
@@ -17078,6 +17101,7 @@
     "불가사리 (23誠鉉)": "[[성현적 발상]]",
     "소셜엔지니어링 금지법": "[[성현적 발상]]",
     "시간 횡령 (12誠鉉)": "[[성현적 발상]]",
+    "시공간적 연속성 (19誠鉉)": "[[성현적 발상]]",
     "야광봉 (14誠鉉)": "[[성현적 발상]]",
     "원하는 곳만 전자레인지": "[[성현적 발상]]",
     "의료 인공지능과 의대 쏠림": "[[성현적 발상]]",
@@ -17108,6 +17132,12 @@
   },
   "시간-돈": {
     "2023-11-23": "- [[시간-돈]]"
+  },
+  "시공간적 연속성 (19誠鉉)": {
+    "2023-04-12": "- [[시공간적 연속성 (19誠鉉)]]",
+    "2024-04-14": "- [[시공간적 연속성 (19誠鉉)|시공간적 연속성 (19誠鉉?)]]",
+    "誠鉉": "- [[시공간적 연속성 (19誠鉉)|시공간적 연속성 (19誠鉉?)]]",
+    "역사의 집대성": "[[시공간적 연속성 (19誠鉉)|시공간적 연속성 (19誠鉉?)]] 참고."
   },
   "식영부원의 관점에서 바라본 치킨데이": {
     "2016-07-01": "- [[식영부원의 관점에서 바라본 치킨데이]]"
@@ -17178,7 +17208,7 @@
   "역사의 집대성": {
     "2023-01-12": "- [[역사의 집대성]]",
     "2023-09-05": "- [[역사의 집대성]]",
-    "Time-Space Continuum (19誠鉉)": "[[역사의 집대성]] 프로젝트 참고.",
+    "시공간적 연속성 (19誠鉉)": "[[역사의 집대성]] 프로젝트 참고.",
     "재학생일기": "[[2023-01-12]]에 [[역사의 집대성]] 과정 중 다시 읽어보니 이때가 ...",
     "카카오스토리 완전백업": "[[역사의 집대성]]"
   },
@@ -17292,8 +17322,8 @@
     "Haruki Murakami": "... stories have been bestsellers in [[일본|Japan]] and internationally, with his work ...",
     "IP is the new Real Estate": "... and sought investment opportunities outside [[일본|Japan]]. Real estate markets in global ...",
     "Jiro Horikoshi": "... aircraft utilized by the Imperial [[일본|Japanese]] Navy throughout World War II. ...",
-    "Krafton Way": "... 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States of America|미국]] 기업들을 ...",
-    "Metadream": "... and data centers in [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States ...",
+    "Krafton Way": "... 우리는 과거에 B급 제품을 만들어왔습니다. [[일본]]이나 [[United States|미국]] 기업들을 선망하며 스스로를 ...",
+    "Metadream": "... and data centers in [[Singapore]], [[일본|Japan]], [[대한민국|Korea]], and the [[United States]]. ...",
     "Pretendard의 아쉬운 점": "... [[한자|한문]]은 자주 사용되지 않는다는 이유로 [[일본]] [[한자|한문]]을 그대로 가져오는 경우가 빈번하다.",
     "Robert Oppenheimer and Jiro Horikoshi": "... military aircraft production ended with [[일본|Japan]]'s defeat. He shifted his focus ...",
     "Ruby": "... by Yukihiro \"Matz\" Matsumoto in [[일본|Japan]]. [Ruby (programming language)](<https://en.wikipedia.org/wiki/Ruby_(programming_language)>)",
@@ -17306,7 +17336,7 @@
     "경제 개발의 길목에서": "\"[[일본]]의 지도자들은 나라와 민족의 명운을 걸고 ...",
     "까리": "[[중국]]이나 [[일본]]의 프로덕트는 자신의 문화나 언어에서 따온 ...",
     "네오 코리안 르네상스": "... 우리는 문화적 재료는 충분하지만 [[중국]]과 [[일본]]에 비해서 [[대한민국|한국]]의 문화가 '재탐색'되지 않았다.",
-    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States of America|미국]], [[일본]]의 기술 수준을 따라갈 수 있을까,",
+    "누군가는 온갖 어려움을 무릅쓰고 반드시 성취해야 하는 프로젝트이다": "> [[United States|미국]], [[일본]]의 기술 수준을 따라갈 수 있을까,",
     "드디어, 한국 애플페이": "... 실패한 \"저스터치\"이다 (이때 저스터치가 성공했다면 [[일본]]의 스이카와 같이 예외적인 NFC 규격으로 ...",
     "새로운 부동산은 지적 재산이다": "[[일본]] 기업과 투자자들은 1980년대 [[Economy|경제]] 호황기에 ...",
     "선진국과 주민등록번호": "... 국가는 없죠. 설령 연방제가 아닌 [[일본]]조차도 국민의 삶에 가장 큰 영향을 ...",
@@ -17317,8 +17347,8 @@
     "일본어": "[[일본]] [[일본인]]",
     "젠리의 성공 공식": "... 관찰했다. [[대만]] 대학에 유학 간 [[일본]] 학생들로부터 [[대만]] 전체로 앱이 퍼지는 ...",
     "한국통사": "... 조정의 대신들은 결국 조금이라도 시원해보이는 [[일본]]을 파고들었다. 그 안에서 익어죽을 것을 ...",
-    "한민족": "[[중국]], [[United States of America|미국]], [[일본]] 등에 많이 살고 있다.",
-    "한민족의 동족상잔": "... of America|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 ...",
+    "한민족": "[[중국]], [[United States|미국]], [[일본]] 등에 많이 살고 있다.",
+    "한민족의 동족상잔": "... [[United States|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 점을 ...",
     "한반도": "대한해협은 한반도와 [[일본]]을 남동쪽으로 분리한다.",
     "헤이그 특사": "> 러일전쟁 당시 [[일본]]은 두 가지의 전쟁목적이 있다고 공언하였다. ...",
     "혜성처럼 나타난 본디": "[[Bondee|본디]]는 [[대한민국|한국]], [[일본]], [[Singapore|싱가포르]], [[대만|타이완]] 등에서 [[App Store|앱스토어]] ..."
@@ -17429,7 +17459,7 @@
     "감세와 벌금 강화를 통한 국가 신경영 모델의 독자 연구": "지정학적 어려움으로 [[일본]]과 [[중국]], 동남아에서 탈출하고자 모색하는 유럽과 [[United ...",
     "경제 개발의 길목에서": "... 각종 천연자원도 많고, [[일본]], [[대한민국|한국]], [[중국]]이 세계에서 중요한 [[Economy|경제]]권을 형성하고 있다. ...",
     "공기 청정 비행선": "### [[중국]]의 특허 CN204737020U",
-    "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 위해 고군분투하고 있습니다. 한편, [[대한민국|한국]]은 [[중국]]과 [[United States of America|미국]] 간의 ...",
+    "국가적 위기와 지식인에 대해 — 영국과 한국을 중심으로": "... 위해 고군분투하고 있습니다. 한편, [[대한민국|한국]]은 [[중국]]과 [[United States|미국]] 간의 무역 긴장이 ...",
     "까리": "[[중국]]이나 [[일본]]의 프로덕트는 자신의 문화나 언어에서 ...",
     "네오 코리안 르네상스": "... 경우 우리는 문화적 재료는 충분하지만 [[중국]]과 [[일본]]에 비해서 [[대한민국|한국]]의 문화가 '재탐색'되지 ...",
     "드디어, 한국 애플페이": "... [[일본]]처럼 충성심이 높은 것도 아니고, [[중국]]처럼 잠재적 구매자가 넘쳐나는 것도 아니다. ...",
@@ -17440,10 +17470,10 @@
     "일본 과학기술 총력전": "[[일본]]은 근대화 이후 [[중국]], 조선은 근대화가 가망 없다고 단념하고 ...",
     "중국어": "[[중국]]",
     "중국인": "[[중국]]",
-    "학자 및 직계 가족의 의료보장제": "특히 인도, [[중국]] 등에서 학자들이 [[United States of ...",
+    "학자 및 직계 가족의 의료보장제": "특히 인도, [[중국]] 등에서 학자들이 [[United States|미국]]으로 떠나는 ...",
     "한국통사": "... 진정시킬 수 있을 텐데 어찌 [[중국]]에 원병을 청했다는 말인가! 우리나라에서 구구하게 ...",
-    "한민족": "[[중국]], [[United States of America|미국]], [[일본]] ...",
-    "한민족의 동족상잔": "... States of America|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 ...",
+    "한민족": "[[중국]], [[United States|미국]], [[일본]] 등에 많이 ...",
+    "한민족의 동족상잔": "... 과거 [[United States|미국]] 흑인노예나 혹은 [[중국]]과 [[일본]]에 있었던 노예보다는 자유로운 존재였다는 ...",
     "한반도": "한반도는 북쪽으로는 [[중국]], 북동쪽으로는 러시아와 국경을 접하고 있다.",
     "한자": "... many Korean words come from [[중국|Chinese]] roots, knowing Hanja can help ..."
   },
