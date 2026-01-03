@@ -11,10 +11,24 @@
             "id": "c13f7486ba7e0b28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/Bento Grid.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Bento Grid"
             }
           }
         ]
@@ -173,6 +187,8 @@
   },
   "active": "c13f7486ba7e0b28",
   "lastOpenFiles": [
+    "pages/Aldehyde Landing Page 2023.md",
+    "pages/Bento Grid.md",
     "journals/2025-04-20.md",
     "pages/Grandma's Koreapunk.md",
     "pages/Laplace's Demon.md",
@@ -197,8 +213,6 @@
     "pages/Virtual Reality.md",
     "pages/University of Southern California.md",
     "pages/United Kingdom.md",
-    "pages/Thought Experiment.md",
-    "pages/Statistics.md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",

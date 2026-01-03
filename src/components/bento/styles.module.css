@@ -1,0 +1,785 @@
+/* Bento Grid — Apple-style Widget Design System */
+/* Inspired by iOS 26 Liquid Glass, WWDC widgets, and Apple Human Interface Guidelines */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CSS Custom Properties — Apple Design Language
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+  /* Glass Material — Liquid Glass inspired */
+  --glass-blur: 24px;
+  --glass-saturation: 180%;
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-bg-elevated: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.5);
+  --glass-border-subtle: rgba(0, 0, 0, 0.06);
+
+  /* Shadows — Apple-style layered shadows */
+  --shadow-widget:
+    0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06), 0 8px 32px
+    rgba(0, 0, 0, 0.08);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+
+  /* Layout */
+  --bento-gap: 16px;
+  --bento-padding: 20px;
+
+  /* Motion — Apple-style spring animations */
+  --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --duration-fast: 0.2s;
+  --duration-normal: 0.35s;
+  --duration-slow: 0.5s;
+
+  /* Typography — San Francisco inspired */
+  --font-display:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
+  --font-text:
+    -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  --font-rounded:
+    -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif;
+
+  /* Apple Accent Colors */
+  --apple-blue: #007aff;
+  --apple-green: #34c759;
+  --apple-orange: #ff9500;
+  --apple-red: #ff3b30;
+  --apple-purple: #af52de;
+  --apple-pink: #ff2d55;
+  --apple-teal: #5ac8fa;
+  --apple-indigo: #5856d6;
+}
+
+[data-theme="dark"] {
+  --glass-bg: rgba(28, 28, 30, 0.72);
+  --glass-bg-elevated: rgba(44, 44, 46, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-border-subtle: rgba(255, 255, 255, 0.06);
+  --shadow-widget:
+    0 1px 3px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.25), 0 8px 32px
+    rgba(0, 0, 0, 0.3);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Container & Grid Layout
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.bentoContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  min-height: calc(100vh - var(--ifm-navbar-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bentoGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(170px, auto);
+  gap: var(--bento-gap);
+  width: 100%;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Card Link Wrapper
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: contents;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Base Card — Apple Widget Style
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.bentoCard {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #3a3a3c 0%, #1c1c1e 100%);
+  border: none;
+  box-shadow:
+    0 4px 16px rgba(0, 0, 0, 0.2),
+    0 8px 32px rgba(0, 0, 0, 0.15);
+  padding: var(--bento-padding);
+  display: flex;
+  flex-direction: column;
+  will-change: transform;
+  cursor: default;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Card Size Variants
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.cardXL {
+  grid-column: span 2;
+  grid-row: span 2;
+  aspect-ratio: 1;
+}
+
+.cardLarge {
+  grid-column: span 2;
+  grid-row: span 1;
+  aspect-ratio: 2 / 1;
+}
+
+.cardTall {
+  grid-column: span 1;
+  grid-row: span 2;
+  aspect-ratio: 1 / 2;
+}
+
+.cardNormal {
+  grid-column: span 1;
+  grid-row: span 1;
+  aspect-ratio: 1;
+}
+
+.cardFull {
+  grid-column: span 4;
+  grid-row: span 1;
+  aspect-ratio: 4 / 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Hero Card — Primary Introduction
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.heroCard {
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  background: linear-gradient(145deg, #1e3a8a 0%, #1e1b4b 100%);
+}
+
+.heroGlow {
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 80%;
+  height: 100%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.15) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.heroTitle {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1;
+  margin: 0 0 16px 0;
+  color: #fff;
+}
+
+.heroSubtitle {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-text);
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  line-height: 1.6;
+  max-width: 32ch;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Now Playing Widget — Last.fm
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.nowPlayingCard {
+  padding: 12px;
+  background: linear-gradient(145deg, #1db954 0%, #191414 100%);
+  border: none;
+  cursor: pointer;
+}
+
+.nowPlayingGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 3fr 2fr;
+  width: 100%;
+  height: 100%;
+  gap: 12px;
+}
+
+.nowPlayingLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.spotifyLogo {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.nowPlayingArt {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nowPlayingLogoCell {
+  grid-column: 4;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+
+.nowPlayingDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #1db954;
+  box-shadow: 0 0 8px #1db954;
+  animation: nowPlayingPulse 2s ease-in-out infinite;
+}
+
+@keyframes nowPlayingPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.nowPlayingInfo {
+  grid-column: 1 / 5;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.nowPlayingTitle {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nowPlayingArtist {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.85);
+  margin: 0;
+  margin-top: -2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   GitHub Contribution Graph Widget
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.githubGraphCard {
+  padding: 16px 20px;
+  background: linear-gradient(145deg, #2d333b 0%, #161b22 100%);
+  cursor: pointer;
+}
+
+.githubGraphHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.githubGraphLogo {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+.githubGraphLabel {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.githubGraphImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Map Widget — Location
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.mapCard {
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(145deg, #10b981 0%, #059669 100%);
+}
+
+.mapWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+}
+
+.mapImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mapPulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  animation: mapPulseAnim 2s ease-out infinite;
+}
+
+@keyframes mapPulseAnim {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Navigation Cards — Section Links
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.navCard {
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.navIcon {
+  font-size: 2.25rem;
+  line-height: 1;
+  transition: transform var(--duration-normal) var(--ease-spring);
+}
+
+.navTitle {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin: 10px 0 0 0;
+  color: var(--ifm-color-emphasis-900);
+}
+
+[data-theme="dark"] .navTitle {
+  color: #fff;
+}
+
+.navDescription {
+  font-family: var(--font-text);
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-500);
+  margin: 2px 0 0 0;
+  line-height: 1.4;
+}
+
+.navArrow {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--apple-blue);
+  opacity: 0;
+  transform: translateX(-12px);
+  transition:
+    opacity var(--duration-normal) var(--ease-apple),
+    transform var(--duration-normal) var(--ease-spring);
+  margin-top: auto;
+  align-self: flex-end;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Bio Card — About Section
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.bioCard {
+  justify-content: flex-start;
+  background: linear-gradient(145deg, #f97316 0%, #ea580c 100%);
+}
+
+.bioLabel {
+  font-family: var(--font-text);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+}
+
+.bioContent {
+  font-family: var(--font-text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #fff;
+  margin: 0;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bioRefreshButton {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  transition: background 0.2s ease;
+}
+
+.bioRefreshButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.bioRefreshButton svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Globe Card — Visual Decoration
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.globeCard {
+  padding: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 149, 0, 0.12) 0%,
+    rgba(255, 45, 85, 0.08) 50%,
+    rgba(175, 82, 222, 0.1) 100%
+  );
+  border: none;
+}
+
+[data-theme="dark"] .globeCard {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 149, 0, 0.2) 0%,
+    rgba(255, 45, 85, 0.15) 50%,
+    rgba(175, 82, 222, 0.18) 100%
+  );
+}
+
+.globeWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meshGradient {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(
+      ellipse at 20% 30%,
+      rgba(255, 149, 0, 0.3) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 80% 70%,
+      rgba(175, 82, 222, 0.25) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      ellipse at 50% 80%,
+      rgba(255, 45, 85, 0.2) 0%,
+      transparent 50%
+    );
+  opacity: 0.8;
+  transition: opacity var(--duration-slow) var(--ease-apple);
+  animation: meshFloat 15s ease-in-out infinite;
+}
+
+@keyframes meshFloat {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(5deg);
+  }
+}
+
+.globeEmoji {
+  font-size: 4.5rem;
+  z-index: 1;
+  transition: transform var(--duration-slow) var(--ease-spring);
+  animation: floatGlobe 5s ease-in-out infinite;
+}
+
+@keyframes floatGlobe {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Focus States — Accessibility
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.cardLink:focus-visible .bentoCard {
+  outline: 3px solid var(--apple-blue);
+  outline-offset: 4px;
+}
+
+.bentoCard:focus-visible {
+  outline: 3px solid var(--apple-blue);
+  outline-offset: 4px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Responsive Design
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 1024px) {
+  .bentoContainer {
+    padding: 32px 20px;
+  }
+
+  .bentoGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(160px, auto);
+  }
+
+  .cardXL {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .cardLarge {
+    grid-column: span 2;
+  }
+
+  .heroTitle {
+    font-size: clamp(2.5rem, 7vw, 3.5rem);
+  }
+
+  .heroCard {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --bento-gap: 12px;
+    --bento-padding: 16px;
+  }
+
+  .bentoContainer {
+    padding: 20px 16px;
+    justify-content: flex-start;
+    padding-top: 24px;
+  }
+
+  .bentoGrid {
+    grid-template-columns: 1fr;
+    gap: var(--bento-gap);
+  }
+
+  .cardXL,
+  .cardLarge,
+  .cardTall {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .heroCard {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.05rem;
+    max-width: none;
+  }
+
+  .timeDisplay {
+    font-size: 2.25rem;
+  }
+
+  .navIcon {
+    font-size: 2rem;
+  }
+
+  .globeEmoji {
+    font-size: 3.5rem;
+  }
+
+  .globeWrapper {
+    min-height: 150px;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Reduced Motion — Accessibility
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+  .bentoCard,
+  .navArrow,
+  .socialIcon,
+  .meshGradient,
+  .navIcon,
+  .globeEmoji,
+  .heroGlow {
+    transition: none;
+    animation: none;
+  }
+
+  .heroTitle {
+    animation: none;
+    background-position: 0% 50%;
+  }
+
+  .timeDot,
+  .statusDot,
+  .mapPulse {
+    animation: none;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   Entrance Animations
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animateIn {
+  animation: fadeInUp var(--duration-slow) var(--ease-out) forwards;
+  opacity: 0;
+}
+
+.animateIn:nth-child(1) {
+  animation-delay: 0ms;
+}
+.animateIn:nth-child(2) {
+  animation-delay: 40ms;
+}
+.animateIn:nth-child(3) {
+  animation-delay: 80ms;
+}
+.animateIn:nth-child(4) {
+  animation-delay: 120ms;
+}
+.animateIn:nth-child(5) {
+  animation-delay: 160ms;
+}
+.animateIn:nth-child(6) {
+  animation-delay: 200ms;
+}
+.animateIn:nth-child(7) {
+  animation-delay: 240ms;
+}
+.animateIn:nth-child(8) {
+  animation-delay: 280ms;
+}
+.animateIn:nth-child(9) {
+  animation-delay: 320ms;
+}
+.animateIn:nth-child(10) {
+  animation-delay: 360ms;
+}
+.animateIn:nth-child(11) {
+  animation-delay: 400ms;
+}
+.animateIn:nth-child(12) {
+  animation-delay: 440ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animateIn {
+    animation: none;
+    opacity: 1;
+  }
+}

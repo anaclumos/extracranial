@@ -21,6 +21,7 @@
     "caniuse-lite": "^1.0.30001762",
     "clsx": "^2.1.1",
     "cobe": "^0.6.4",
+    "corner-smoothing": "^0.1.5",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-spring": "^10.0.1",
