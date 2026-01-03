@@ -8,7 +8,7 @@ Federated Transfer Learning (FTL) is a technique that can be applied when two da
 
 - Consider
   - a bank in China
-  - an [[e-commerce]] company in the [[United States of America|United States]]
+  - an [[e-commerce]] company in the [[United States]]
 - Due to geographical restrictions, the user groups of these two institutions have only a small intersection.
 - Because of their different businesses, there is only a tiny overlap in the [[feature]] space between the two parties.
 

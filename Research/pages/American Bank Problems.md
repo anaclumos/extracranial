@@ -15,7 +15,7 @@ Updated my plot of bank failures. 😬
 
 </blockquote>
 
-[[United States of America|US]] has the most banks...
+[[United States|US]] has the most banks...
 
 - [[SVB Debacle]]
 - FRB

@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/A05670'
 ---
 
-[[United States of America|미국]]의 백만장자 [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli)가 마약 문제를 [[효과적 가속주의|E-ACC]]로 해결하는 가설
+[[United States|미국]]의 백만장자 [Martin Shkreli](https://en.wikipedia.org/wiki/Martin_Shkreli)가 마약 문제를 [[효과적 가속주의|E-ACC]]로 해결하는 가설
 
 > U wanna fix [[San Francisco|SF]]? Listen up, nerds.
 >

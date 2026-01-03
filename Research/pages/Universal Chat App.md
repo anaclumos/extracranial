@@ -21,7 +21,7 @@ In the [[EU]], it's slightly more complicated. Most people use WhatsApp.
 2. **[[Facebook Messenger]]**. Also owned by [[Meta (Company)|Facebook]], [[Facebook Messenger|Messenger]] is a messaging platform that allows for text messages, voice calls, and video calls to people on the [[Facebook]] platform.
 3. **Viber**. Owned by the [[일본|Japanese]] company Rakuten, Viber is a free messaging and calling app that provides a secure connection, high-quality calls, and the ability to send texts, photos, and videos.
 
-## [[United States of America|U.S.]]
+## [[United States|U.S.]]
 
 In the Americas, there is no such universal chat app. Younger generations use [[iMessage]], while elderlies use WhatsApp. Or often, everyone sticks to texting.
 

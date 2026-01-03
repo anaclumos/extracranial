@@ -31,7 +31,7 @@ There are countless cases where [[Twitter]] troubled up, but the above point is 
 >
 > -- [[Elon Musk]] (@elonmusk) [October 4, 2022,](https://twitter.com/elonmusk/status/1577428272056389633?ref_src=twsrc%5Etfw)
 
-You mentioned a couple of times about a potential [[Super App]] in the [[United States of America|US]], but this may be a very alarming scenario for the people in the [[United States of America|United States]].
+You mentioned a couple of times about a potential [[Super App]] in the [[United States|US]], but this may be a very alarming scenario for the people in the [[United States]].
 
 From my native [[한민족|Korean]] experience, the [[Super App]] is mighty and dangerous. We have a [[Super App]] called [[Kakao]], a go-to for everything. It's [[Google]] + [[Facebook]] + Uber + Uber Eats + Netflix + Spotify + AirBnB. [[Kakao]] had an outage last October for about a week, and... It wasn't good. All of the economies stopped.
 

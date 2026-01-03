@@ -1,7 +1,6 @@
 ---
 lang: 'en'
 slug: '/3289E5'
-title: "Grandma's Koreapunk"
 ---
 
 [[2024-05-23]] Essay.
