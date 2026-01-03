@@ -12,7 +12,7 @@ slug: '/9A0D39'
 - [[Copilot]] is already doing it for codes
 - [[Conversational AI Tools for Thought]]
 - [[ChatGPT]]
-- [[AI Garbage Data Flooding]]
+- [[AI Slop]]
 - [[Photoshop for Text]]
 
 ### [Notion AI](https://www.notion.so/ai)
