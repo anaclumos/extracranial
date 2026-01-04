@@ -308,9 +308,10 @@ function MapWidget() {
 
   useEffect(() => {
     let map: MapKitMapInstance | null = null
-    const mapkit = window.mapkit
+    let script: HTMLScriptElement | null = null
 
     const initMap = () => {
+      const mapkit = window.mapkit
       if (!(mapRef.current && mapkit)) {
         return
       }
@@ -337,17 +338,27 @@ function MapWidget() {
       })
     }
 
-    if (mapkit) {
+    if (window.mapkit) {
       initMap()
     } else {
-      const script = document.createElement('script')
-      script.src = 'https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js'
-      script.crossOrigin = 'anonymous'
+      script =
+        document.querySelector<HTMLScriptElement>('script[data-mapkit]') ??
+        document.createElement('script')
+
+      if (!script.dataset.mapkit) {
+        script.src = 'https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js'
+        script.crossOrigin = 'anonymous'
+        script.dataset.mapkit = 'true'
+        document.head.appendChild(script)
+      }
+
       script.addEventListener('load', initMap)
-      document.head.appendChild(script)
     }
 
     return () => {
+      if (script) {
+        script.removeEventListener('load', initMap)
+      }
       if (map) {
         map.destroy()
       }
