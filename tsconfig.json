@@ -7,7 +7,9 @@
       "react",
       "react-dom",
       "@docusaurus/module-type-aliases",
-      "@docusaurus/theme-classic"
+      "@docusaurus/theme-classic",
+      "@docusaurus/theme-common",
+      "@docusaurus/theme-common/internal"
     ],
     "lib": ["dom", "esnext"],
     "target": "ES2022",

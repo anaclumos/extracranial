@@ -23,29 +23,25 @@ import {
 import { fileURLToPath } from 'node:url'
 import { parseArgs } from 'node:util'
 
-// ── constants ────────────────────────────────────────────────────────────────────
-
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const REPO = resolve(__dirname)
 const REPLACE_RULES_PATH = join(REPO, 'replace_rules.json')
 
-// ── helpers ──────────────────────────────────────────────────────────────────────
-
 class CaseInsensitiveMap<T> extends Map<string, T> {
-  get(key: string): T | undefined {
+  override get(key: string): T | undefined {
     return super.get(key.toLowerCase())
   }
 
-  set(key: string, value: T): this {
+  override set(key: string, value: T): this {
     return super.set(key.toLowerCase(), value)
   }
 
-  has(key: string): boolean {
+  override has(key: string): boolean {
     return super.has(key.toLowerCase())
   }
 
-  delete(key: string): boolean {
+  override delete(key: string): boolean {
     return super.delete(key.toLowerCase())
   }
 }
@@ -57,8 +53,6 @@ function nfc(text: string): string {
 function randomHex(): string {
   return randomBytes(3).toString('hex').toUpperCase()
 }
-
-// ── load replace rules ───────────────────────────────────────────────────────────
 
 const REPLACE_RULES: Record<string, string> = JSON.parse(
   await readFile(REPLACE_RULES_PATH, 'utf-8')
@@ -73,15 +67,11 @@ const REPLACE_RE = new RegExp(
 
 const LANG_FIX_RE = /---\s*\n(.*?)\n---/s
 
-// ── global regexes ───────────────────────────────────────────────────────────────
-
-const WIKILINK_RE = /\[\[([^\]]+?)]]/g // raw [[…]] tokens
-const CODE_BLOCK_RE = /```.*?```/gs // fenced code
-const IMG_RE = /!\[([^\]]*?)\]\(([^)]+?)\)$/gm // images
+const WIKILINK_RE = /\[\[([^\]]+?)]]/g
+const CODE_BLOCK_RE = /```.*?```/gs
+const IMG_RE = /!\[([^\]]*?)\]\(([^)]+?)\)$/gm
 const SLUG_RE = /^slug:\s+['"]?([^\s'"#]+)['"]?/m
 const WHITESPACE_RE = /\s+/
-
-// ── markdown sanitisation ────────────────────────────────────────────────────────
 
 async function sanitiseMd(root: string): Promise<void> {
   const mdFiles = await findFiles(root, ['.md', '.mdx'])
@@ -98,11 +88,11 @@ async function sanitiseOne(filePath: string): Promise<void> {
     text = text.replace('{{hex}}', `/${randomHex()}`)
   }
 
-  text = text.replace(REPLACE_RE, (match) => REPLACE_RULES[match])
+  text = text.replace(REPLACE_RE, (match) => REPLACE_RULES[match] ?? match)
 
   const fm = text.match(LANG_FIX_RE)
   if (
-    fm?.[1].includes("lang: 'en'") &&
+    fm?.[1]?.includes("lang: 'en'") &&
     !(text.includes("div lang='ko") || text.includes('div lang="ko'))
   ) {
     const fileName = basename(filePath)
@@ -121,8 +111,6 @@ async function sanitiseOne(filePath: string): Promise<void> {
 
   await writeFile(filePath, text, 'utf-8')
 }
-
-// ── file utilities ───────────────────────────────────────────────────────────────
 
 async function findFiles(dir: string, extensions: string[]): Promise<string[]> {
   const files: string[] = []
@@ -164,8 +152,6 @@ async function rmrf(dir: string): Promise<void> {
     await rm(dir, { recursive: true, force: true })
   }
 }
-
-// ── blog generation ──────────────────────────────────────────────────────────────
 
 async function processBlog(
   src: string,
@@ -242,8 +228,6 @@ async function countFiles(dir: string): Promise<number> {
   return count
 }
 
-// ── docs build ───────────────────────────────────────────────────────────────────
-
 async function processDocs(src: string, dst: string): Promise<void> {
   console.log('📔 Processing documentation...')
 
@@ -258,7 +242,6 @@ async function processDocs(src: string, dst: string): Promise<void> {
     linkMap.set(nfc(basename(file, '.md')), file)
   }
 
-  // Copy yml files
   const ymlFiles = await findFiles(src, ['.yml'])
   for (const yml of ymlFiles) {
     const rel = relative(src, yml)
@@ -267,17 +250,14 @@ async function processDocs(src: string, dst: string): Promise<void> {
     await copyFile(yml, target)
   }
 
-  // Copy assets
   const assetsDir = join(src, 'assets')
   if (existsSync(assetsDir)) {
     await copyRecursive(assetsDir, join(dst, 'assets'))
   }
 
-  // Process images first
   console.log(`📸 Processing images in ${mdFiles.length} files...`)
   await Promise.all(mdFiles.map((file) => processImages(file)))
 
-  // Then resolve links
   console.log('🔗 Resolving wikilinks...')
   await Promise.all(mdFiles.map((file) => resolveFile(file, linkMap)))
 
@@ -302,14 +282,12 @@ async function resolveFile(
   const parts: string[] = []
   let lastIndex = 0
 
-  // Handle code blocks
   const matches = [...txt.matchAll(CODE_BLOCK_RE)]
 
   for (const match of matches) {
     const start = match.index ?? 0
     const end = start + match[0].length
 
-    // Process text outside code block
     const outside = txt.slice(lastIndex, start)
     const processedOutside = outside.replace(WIKILINK_RE, (m, p1) =>
       resolveWikilink(m, p1, filePath, linkMap)
@@ -320,7 +298,6 @@ async function resolveFile(
     lastIndex = end
   }
 
-  // Process remainder
   const remainder = txt.slice(lastIndex)
   const processedRemainder = remainder.replace(WIKILINK_RE, (m, p1) =>
     resolveWikilink(m, p1, filePath, linkMap)
@@ -339,7 +316,6 @@ function resolveWikilink(
   currentFile: string,
   linkMap: CaseInsensitiveMap<string>
 ): string {
-  // Skip tokens that are clearly not wiki titles
   if (
     !raw ||
     raw[0] === ' ' ||
@@ -349,11 +325,13 @@ function resolveWikilink(
     return match
   }
 
-  const [target, display] = raw.includes('|') ? raw.split('|', 2) : [raw, raw]
+  const pipeIndex = raw.indexOf('|')
+  const target = pipeIndex === -1 ? raw : raw.slice(0, pipeIndex)
+  const display = pipeIndex === -1 ? raw : raw.slice(pipeIndex + 1) || target
   const mdFile = linkMap.get(nfc(target))
 
   if (!mdFile) {
-    return match // unresolved → keep original
+    return match
   }
 
   let rel = relative(dirname(currentFile), mdFile)
@@ -363,8 +341,6 @@ function resolveWikilink(
     .join('/')
   return `[${display}](./${rel})`
 }
-
-// ── backlink map ─────────────────────────────────────────────────────────────────
 
 interface BacklinkMap {
   [key: string]: {
@@ -386,7 +362,6 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
   let linkCount = 0
 
   const allMdFiles = await findFiles(root, ['.md'])
-  // Exclude template files from backlink processing
   const mdFiles = allMdFiles.filter((file) => !file.includes('/templates/'))
 
   for (const file of mdFiles) {
@@ -399,41 +374,60 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
 
     const txt = await readFile(file, 'utf-8')
 
-    // Extract slug
     const uidMatch = txt.match(SLUG_RE)
     if (uidMatch) {
-      uidMap[fname] = uidMatch[1]
+      const uid = uidMatch[1]
+      if (uid) {
+        uidMap[fname] = uid
+      }
     }
 
-    // Find all wikilinks
     const wikilinks = [...txt.matchAll(WIKILINK_RE)]
     for (const match of wikilinks) {
       linkCount++
-      const source = match[1].split('|')[0]
-
-      if (!backlinkMap[source]) {
-        backlinkMap[source] = {}
+      const rawWikilink = match[1]
+      if (!rawWikilink) {
+        continue
       }
 
-      backlinkMap[source][fname] = getContext(txt, match[1])
+      const pipeIndex = rawWikilink.indexOf('|')
+      const source =
+        pipeIndex === -1 ? rawWikilink : rawWikilink.slice(0, pipeIndex)
+      if (!source) {
+        continue
+      }
+
+      const sourceBacklinks = backlinkMap[source] ?? (backlinkMap[source] = {})
+
+      sourceBacklinks[fname] = getContext(txt, rawWikilink)
     }
   }
 
   await mkdir(outDir, { recursive: true })
 
-  // Sort the backlink map keys and their nested objects
   const sortedBacklinkMap: BacklinkMap = {}
   for (const key of Object.keys(backlinkMap).sort()) {
     sortedBacklinkMap[key] = {}
-    for (const nestedKey of Object.keys(backlinkMap[key]).sort()) {
-      sortedBacklinkMap[key][nestedKey] = backlinkMap[key][nestedKey]
+
+    const backlinkEntries = backlinkMap[key]
+    if (!backlinkEntries) {
+      continue
+    }
+
+    for (const nestedKey of Object.keys(backlinkEntries).sort()) {
+      const value = backlinkEntries[nestedKey]
+      if (value !== undefined) {
+        sortedBacklinkMap[key][nestedKey] = value
+      }
     }
   }
 
-  // Sort the uid map
   const sortedUidMap: UidMap = {}
   for (const key of Object.keys(uidMap).sort()) {
-    sortedUidMap[key] = uidMap[key]
+    const value = uidMap[key]
+    if (value !== undefined) {
+      sortedUidMap[key] = value
+    }
   }
 
   await writeFile(
@@ -460,7 +454,7 @@ function getContext(txt: string, needle: string, keep = 6): string {
       continue
     }
 
-    const [preRaw, postRaw] = line.split(tag)
+    const [preRaw = '', postRaw = ''] = line.split(tag)
     const preParts = preRaw.split(WHITESPACE_RE)
     const postParts = postRaw.split(WHITESPACE_RE)
 
@@ -476,8 +470,6 @@ function getContext(txt: string, needle: string, keep = 6): string {
 
   return ''
 }
-
-// ── image alt fix ────────────────────────────────────────────────────────────────
 
 async function fixImgAlt(root: string): Promise<void> {
   const files = await findFiles(root, ['.md', '.mdx'])
@@ -505,8 +497,6 @@ async function fixImgAlt(root: string): Promise<void> {
     }
   }
 }
-
-// ── asset cleanup ────────────────────────────────────────────────────────────────
 
 async function cleanupAssets(
   assetsDir: string,
@@ -576,8 +566,6 @@ async function cleanupAssets(
   }
 }
 
-// ── entry point ─────────────────────────────────────────────────────────────────
-
 async function main(): Promise<void> {
   console.log('🚀 Starting preprocessing...')
 
@@ -613,7 +601,6 @@ async function main(): Promise<void> {
   console.log('✅ Preprocess completed.')
 }
 
-// Run if executed directly
 if (import.meta.url === `file://${process.argv[1]}`) {
   main().catch(console.error)
 }
