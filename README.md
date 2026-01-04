@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Sun Jan 4 05:07:45 PM KST 2026
+Sun Jan 4 08:54:26 PM KST 2026
 
 ## Stats
 
@@ -30,9 +30,9 @@ Sun Jan 4 05:07:45 PM KST 2026
 ───────────────────────────────────────────────────────────────────────────────
 Language            Files       Lines    Blanks  Comments       Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-Markdown            3,061      78,323    21,132         0     57,191          0
-TypeScript             46       3,004       343        64      2,597        173
-JSON                   40      23,156         0         0     23,156          0
+Markdown            3,068      78,834    21,309         0     57,525          0
+TypeScript             46       3,019       342        38      2,639        185
+JSON                   40      23,196         0         0     23,196          0
 CSS                    25       2,781       420       101      2,260          0
 SVG                     9           9         0         0          9          0
 YAML                    6          35         0         0         35          0
@@ -42,12 +42,12 @@ JSONC                   1          28         0         0         28          0
 JavaScript              1       1,130         5         5      1,120         28
 Plain Text              1           3         0         0          3          0
 ───────────────────────────────────────────────────────────────────────────────
-Total               3,193     108,526    21,906       175     86,445        201
+Total               3,200     109,092    22,082       149     86,861        213
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,918,584
-Estimated Schedule Effort (organic) 20.66 months
-Estimated People Required (organic) 12.55
+Estimated Cost to Develop (organic) $2,933,333
+Estimated Schedule Effort (organic) 20.70 months
+Estimated People Required (organic) 12.59
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5474286 bytes, 5.474 megabytes (SI)
+Processed 5517927 bytes, 5.518 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
