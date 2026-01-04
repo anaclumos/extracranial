@@ -1,42 +1,11 @@
 import Link from '@docusaurus/Link'
 import Translate, { translate } from '@docusaurus/Translate'
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
 import { Squircle } from 'corner-smoothing'
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { funFacts } from './funFacts'
-
-declare global {
-  interface Window {
-    mapkit: typeof mapkit
-  }
-  namespace mapkit {
-    function init(options: {
-      authorizationCallback: (done: (token: string) => void) => void
-    }): void
-    class Coordinate {
-      constructor(latitude: number, longitude: number)
-    }
-    class Map {
-      constructor(element: HTMLElement, options?: MapConstructorOptions)
-      destroy(): void
-      static MapTypes: { Standard: string }
-    }
-    interface MapConstructorOptions {
-      center?: Coordinate
-      cameraDistance?: number
-      mapType?: string
-      showsCompass?: string
-      showsZoomControl?: boolean
-      showsMapTypeControl?: boolean
-      isScrollEnabled?: boolean
-      isZoomEnabled?: boolean
-      isRotationEnabled?: boolean
-    }
-    const FeatureVisibility: { Hidden: string }
-  }
-}
-
 import styles from './styles.module.css'
 
 const CORNER_RADIUS = 28
@@ -202,7 +171,9 @@ function NowPlayingWidget() {
           <img
             alt={`${track.album['#text']} album art`}
             className={styles.nowPlayingArt}
+            height={174}
             src={albumArt}
+            width={174}
           />
         )}
         <div className={styles.nowPlayingLogoCell}>
@@ -264,7 +235,9 @@ function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array]
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
-    ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    const temp = shuffled[i]
+    shuffled[i] = shuffled[j] as T
+    shuffled[j] = temp as T
   }
   return shuffled
 }
@@ -274,18 +247,18 @@ function BioCard() {
   const shuffledSnippets = useRef<string[]>([])
   const currentIndex = useRef(0)
 
-  const refreshSnippet = () => {
+  const refreshSnippet = useCallback(() => {
     if (shuffledSnippets.current.length === 0) {
       shuffledSnippets.current = shuffleArray(getBioSnippets())
     }
     setSnippet(shuffledSnippets.current[currentIndex.current] ?? '')
     currentIndex.current =
       (currentIndex.current + 1) % shuffledSnippets.current.length
-  }
+  }, [])
 
   useEffect(() => {
     refreshSnippet()
-  }, [])
+  }, [refreshSnippet])
 
   const refreshLabel = translate({
     id: 'bento.bio.refreshLabel',
@@ -331,17 +304,22 @@ const MAPKIT_TOKEN =
 
 function MapWidget() {
   const mapRef = useRef<HTMLDivElement>(null)
+  const { i18n } = useDocusaurusContext()
 
   useEffect(() => {
-    let map: mapkit.Map | null = null
+    let map: MapKitMapInstance | null = null
+    const mapkit = window.mapkit
 
     const initMap = () => {
-      if (!(mapRef.current && window.mapkit)) return
+      if (!(mapRef.current && mapkit)) {
+        return
+      }
 
       mapkit.init({
-        authorizationCallback: (done) => {
+        authorizationCallback: (done: (token: string) => void) => {
           done(MAPKIT_TOKEN)
         },
+        language: i18n.currentLocale,
       })
 
       const gangnamStation = new mapkit.Coordinate(37.4981, 127.0283)
@@ -359,7 +337,7 @@ function MapWidget() {
       })
     }
 
-    if (window.mapkit) {
+    if (mapkit) {
       initMap()
     } else {
       const script = document.createElement('script')
@@ -374,7 +352,7 @@ function MapWidget() {
         map.destroy()
       }
     }
-  }, [])
+  }, [i18n.currentLocale])
 
   return (
     <BentoCard className={cn(styles.cardNormal, styles.mapCard)}>
