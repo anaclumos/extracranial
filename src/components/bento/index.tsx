@@ -300,7 +300,7 @@ function BioCard() {
 // ═══════════════════════════════════════════════════════════════════════════
 
 const MAPKIT_TOKEN =
-  'eyJraWQiOiJZVDJCSDUzSERCIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJRS1BYUDk3ODhMIiwiaWF0IjoxNzY3NTA1NjQ2LCJvcmlnaW4iOiJjaG8uc2gifQ.0ssv1DFSu3hgtq2uEzZORKiySh6-Pk6pMg3OMHxOflW7fboaEv-HLAISVYlRircjaJX7Rg9hwNOg_3u7Gr2fEQ'
+  'eyJraWQiOiIzRlRWQUxHQlBNIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJRS1BYUDk3ODhMIiwiaWF0IjoxNzY3NTI2NzIwLCJvcmlnaW4iOiJjaG8uc2giLCJleHAiOjE4MzA1MjQ0MDB9.c0GhqgFDK_frPMh8ZKVSeAonhwhAPzQqpSrLP8dJ4nb2ydmR833F0cDUd9rcgf0gHWAFt7gW3fPwP0i9pOUxLg'
 
 function MapWidget() {
   const mapRef = useRef<HTMLDivElement>(null)

@@ -81,7 +81,7 @@ const config: Config = {
       as: 'style',
     },
     {
-      href: `${CDN_BASE}/npm/pretendard-gov@latest/dist/web/variable/pretendardgov-subset.min.css`,
+      href: `${CDN_BASE}/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov-dynamic-subset.min.css`,
       type: 'text/css',
       rel: 'stylesheet',
       crossorigin: 'anonymous',
