@@ -352,6 +352,77 @@ interface UidMap {
   [key: string]: string
 }
 
+function extractUid(txt: string): string | undefined {
+  const uidMatch = txt.match(SLUG_RE)
+  return uidMatch?.[1]
+}
+
+function processWikilinks(
+  txt: string,
+  fname: string,
+  backlinkMap: BacklinkMap
+): number {
+  const wikilinks = [...txt.matchAll(WIKILINK_RE)]
+  let linkCount = 0
+
+  for (const match of wikilinks) {
+    const rawWikilink = match[1]
+    if (!rawWikilink) {
+      continue
+    }
+
+    const pipeIndex = rawWikilink.indexOf('|')
+    const source =
+      pipeIndex === -1 ? rawWikilink : rawWikilink.slice(0, pipeIndex)
+    if (!source) {
+      continue
+    }
+
+    if (!backlinkMap[source]) {
+      backlinkMap[source] = {}
+    }
+
+    backlinkMap[source][fname] = getContext(txt, rawWikilink)
+    linkCount++
+  }
+
+  return linkCount
+}
+
+function sortBacklinkMap(backlinkMap: BacklinkMap): BacklinkMap {
+  const sorted: BacklinkMap = {}
+
+  for (const key of Object.keys(backlinkMap).sort()) {
+    sorted[key] = {}
+    const entries = backlinkMap[key]
+    if (!entries) {
+      continue
+    }
+
+    for (const nestedKey of Object.keys(entries).sort()) {
+      const value = entries[nestedKey]
+      if (value !== undefined) {
+        sorted[key][nestedKey] = value
+      }
+    }
+  }
+
+  return sorted
+}
+
+function sortUidMap(uidMap: UidMap): UidMap {
+  const sorted: UidMap = {}
+
+  for (const key of Object.keys(uidMap).sort()) {
+    const value = uidMap[key]
+    if (value !== undefined) {
+      sorted[key] = value
+    }
+  }
+
+  return sorted
+}
+
 async function buildBacklinks(root: string, outDir: string): Promise<void> {
   console.log('🔄 Building backlink map...')
 
@@ -374,61 +445,18 @@ async function buildBacklinks(root: string, outDir: string): Promise<void> {
 
     const txt = await readFile(file, 'utf-8')
 
-    const uidMatch = txt.match(SLUG_RE)
-    if (uidMatch) {
-      const uid = uidMatch[1]
-      if (uid) {
-        uidMap[fname] = uid
-      }
+    const uid = extractUid(txt)
+    if (uid) {
+      uidMap[fname] = uid
     }
 
-    const wikilinks = [...txt.matchAll(WIKILINK_RE)]
-    for (const match of wikilinks) {
-      linkCount++
-      const rawWikilink = match[1]
-      if (!rawWikilink) {
-        continue
-      }
-
-      const pipeIndex = rawWikilink.indexOf('|')
-      const source =
-        pipeIndex === -1 ? rawWikilink : rawWikilink.slice(0, pipeIndex)
-      if (!source) {
-        continue
-      }
-
-      const sourceBacklinks = backlinkMap[source] ?? (backlinkMap[source] = {})
-
-      sourceBacklinks[fname] = getContext(txt, rawWikilink)
-    }
+    linkCount += processWikilinks(txt, fname, backlinkMap)
   }
 
   await mkdir(outDir, { recursive: true })
 
-  const sortedBacklinkMap: BacklinkMap = {}
-  for (const key of Object.keys(backlinkMap).sort()) {
-    sortedBacklinkMap[key] = {}
-
-    const backlinkEntries = backlinkMap[key]
-    if (!backlinkEntries) {
-      continue
-    }
-
-    for (const nestedKey of Object.keys(backlinkEntries).sort()) {
-      const value = backlinkEntries[nestedKey]
-      if (value !== undefined) {
-        sortedBacklinkMap[key][nestedKey] = value
-      }
-    }
-  }
-
-  const sortedUidMap: UidMap = {}
-  for (const key of Object.keys(uidMap).sort()) {
-    const value = uidMap[key]
-    if (value !== undefined) {
-      sortedUidMap[key] = value
-    }
-  }
+  const sortedBacklinkMap = sortBacklinkMap(backlinkMap)
+  const sortedUidMap = sortUidMap(uidMap)
 
   await writeFile(
     join(outDir, 'backlinks.json'),
