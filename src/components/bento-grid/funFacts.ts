@@ -1,7 +1,7 @@
 /**
  * Fun Facts - Source of Truth
  *
- * This file contains all fun fact snippets for the bento landing page.
+ * This file contains all fun fact snippets for the bento grid.
  * Edit the English messages here. Korean translations are in i18n/ko/code.json
  *
  * To add a new snippet:

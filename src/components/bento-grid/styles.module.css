@@ -210,9 +210,11 @@
 .nowPlayingGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 3fr 2fr;
+  grid-template-rows: minmax(0, 3fr) minmax(0, 2fr);
   width: 100%;
   height: 100%;
+  min-height: 0;
+  flex: 1;
   gap: 12px;
 }
 
@@ -234,8 +236,10 @@
 .nowPlayingArt {
   grid-column: 1 / 4;
   grid-row: 1;
+  display: block;
   width: 100%;
   height: 100%;
+  min-height: 0;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -396,67 +400,13 @@
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
-   Navigation Cards — Section Links
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-.navCard {
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.navHeader {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.navIcon {
-  font-size: 2.25rem;
-  line-height: 1;
-  transition: transform var(--duration-normal) var(--ease-spring);
-}
-
-.navTitle {
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  font-weight: 650;
-  letter-spacing: -0.02em;
-  margin: 10px 0 0 0;
-  color: var(--ifm-color-emphasis-900);
-}
-
-[data-theme="dark"] .navTitle {
-  color: #fff;
-}
-
-.navDescription {
-  font-family: var(--font-text);
-  font-size: 0.85rem;
-  color: var(--ifm-color-emphasis-500);
-  margin: 2px 0 0 0;
-  line-height: 1.4;
-}
-
-.navArrow {
-  font-size: 1.5rem;
-  font-weight: 300;
-  color: var(--apple-blue);
-  opacity: 0;
-  transform: translateX(-12px);
-  transition:
-    opacity var(--duration-normal) var(--ease-apple),
-    transform var(--duration-normal) var(--ease-spring);
-  margin-top: auto;
-  align-self: flex-end;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
    Bio Card — About Section
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .bioCard {
   justify-content: flex-start;
   background: linear-gradient(145deg, #f97316 0%, #ea580c 100%);
+  --bio-line-clamp: 7;
 }
 
 .bioLabel {
@@ -474,7 +424,10 @@
   color: #fff;
   margin: 0;
   flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--bio-line-clamp);
   -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .bioRefreshButton {
@@ -500,94 +453,6 @@
 .bioRefreshButton svg {
   width: 100%;
   height: 100%;
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Globe Card — Visual Decoration
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-.globeCard {
-  padding: 0;
-  overflow: hidden;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(
-    145deg,
-    rgba(255, 149, 0, 0.12) 0%,
-    rgba(255, 45, 85, 0.08) 50%,
-    rgba(175, 82, 222, 0.1) 100%
-  );
-  border: none;
-}
-
-[data-theme="dark"] .globeCard {
-  background: linear-gradient(
-    145deg,
-    rgba(255, 149, 0, 0.2) 0%,
-    rgba(255, 45, 85, 0.15) 50%,
-    rgba(175, 82, 222, 0.18) 100%
-  );
-}
-
-.globeWrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.meshGradient {
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(
-      ellipse at 20% 30%,
-      rgba(255, 149, 0, 0.3) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      ellipse at 80% 70%,
-      rgba(175, 82, 222, 0.25) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      ellipse at 50% 80%,
-      rgba(255, 45, 85, 0.2) 0%,
-      transparent 50%
-    );
-  opacity: 0.8;
-  transition: opacity var(--duration-slow) var(--ease-apple);
-  animation: meshFloat 15s ease-in-out infinite;
-}
-
-@keyframes meshFloat {
-  0%,
-  100% {
-    transform: scale(1) rotate(0deg);
-  }
-  50% {
-    transform: scale(1.1) rotate(5deg);
-  }
-}
-
-.globeEmoji {
-  font-size: 4.5rem;
-  z-index: 1;
-  transition: transform var(--duration-slow) var(--ease-spring);
-  animation: floatGlobe 5s ease-in-out infinite;
-}
-
-@keyframes floatGlobe {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-8px);
-  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -734,6 +599,7 @@
 
   .bioCard {
     padding: 16px;
+    --bio-line-clamp: 6;
   }
 
   .bioLabel {
@@ -770,42 +636,6 @@
   .githubGraphLabel {
     font-size: 0.85rem;
   }
-
-  .navIcon {
-    font-size: 2rem;
-  }
-
-  .globeEmoji {
-    font-size: 3.5rem;
-  }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Reduced Motion — Accessibility
-   ═══════════════════════════════════════════════════════════════════════════ */
-
-@media (prefers-reduced-motion: reduce) {
-  .bentoCard,
-  .navArrow,
-  .socialIcon,
-  .meshGradient,
-  .navIcon,
-  .globeEmoji,
-  .heroGlow {
-    transition: none;
-    animation: none;
-  }
-
-  .heroTitle {
-    animation: none;
-    background-position: 0% 50%;
-  }
-
-  .timeDot,
-  .statusDot,
-  .mapPulse {
-    animation: none;
-  }
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -823,51 +653,57 @@
   }
 }
 
+.bentoGrid > :nth-child(1) {
+  --bento-stagger-delay: 0ms;
+}
+.bentoGrid > :nth-child(2) {
+  --bento-stagger-delay: 40ms;
+}
+.bentoGrid > :nth-child(3) {
+  --bento-stagger-delay: 80ms;
+}
+.bentoGrid > :nth-child(4) {
+  --bento-stagger-delay: 120ms;
+}
+.bentoGrid > :nth-child(5) {
+  --bento-stagger-delay: 160ms;
+}
+.bentoGrid > :nth-child(6) {
+  --bento-stagger-delay: 200ms;
+}
+.bentoGrid > :nth-child(7) {
+  --bento-stagger-delay: 240ms;
+}
+.bentoGrid > :nth-child(8) {
+  --bento-stagger-delay: 280ms;
+}
+.bentoGrid > :nth-child(9) {
+  --bento-stagger-delay: 320ms;
+}
+.bentoGrid > :nth-child(10) {
+  --bento-stagger-delay: 360ms;
+}
+.bentoGrid > :nth-child(11) {
+  --bento-stagger-delay: 400ms;
+}
+.bentoGrid > :nth-child(12) {
+  --bento-stagger-delay: 440ms;
+}
+
 .animateIn {
   animation: fadeInUp var(--duration-slow) var(--ease-out) forwards;
+  animation-delay: var(--bento-stagger-delay, 0ms);
   opacity: 0;
 }
 
-.animateIn:nth-child(1) {
-  animation-delay: 0ms;
-}
-.animateIn:nth-child(2) {
-  animation-delay: 40ms;
-}
-.animateIn:nth-child(3) {
-  animation-delay: 80ms;
-}
-.animateIn:nth-child(4) {
-  animation-delay: 120ms;
-}
-.animateIn:nth-child(5) {
-  animation-delay: 160ms;
-}
-.animateIn:nth-child(6) {
-  animation-delay: 200ms;
-}
-.animateIn:nth-child(7) {
-  animation-delay: 240ms;
-}
-.animateIn:nth-child(8) {
-  animation-delay: 280ms;
-}
-.animateIn:nth-child(9) {
-  animation-delay: 320ms;
-}
-.animateIn:nth-child(10) {
-  animation-delay: 360ms;
-}
-.animateIn:nth-child(11) {
-  animation-delay: 400ms;
-}
-.animateIn:nth-child(12) {
-  animation-delay: 440ms;
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .animateIn {
+  .animateIn,
+  .mapPulse,
+  .nowPlayingDot {
     animation: none;
+  }
+
+  .animateIn {
     opacity: 1;
   }
 }

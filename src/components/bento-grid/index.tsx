@@ -3,6 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
 import { Squircle } from 'corner-smoothing'
+import type { ReactNode } from 'react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
 import { funFacts } from './funFacts'
@@ -13,7 +14,7 @@ const CORNER_SMOOTHING = 0.6
 
 interface BentoCardProps {
   className?: string
-  children: React.ReactNode
+  children: ReactNode
   href?: string
   external?: boolean
   animate?: boolean
@@ -121,11 +122,18 @@ function NowPlayingWidget() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const controller = new AbortController()
     const fetchNowPlaying = async () => {
       try {
         const response = await fetch(
-          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=1`
+          `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${LASTFM_USERNAME}&api_key=${LASTFM_API_KEY}&format=json&limit=1`,
+          { signal: controller.signal }
         )
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
+        }
+
         const data: LastFmResponse = await response.json()
         const latestTrack = data.recenttracks.track[0]
 
@@ -134,15 +142,23 @@ function NowPlayingWidget() {
           setIsPlaying(latestTrack['@attr']?.nowplaying === 'true')
         }
       } catch (error) {
+        if (controller.signal.aborted) {
+          return
+        }
         console.error('Failed to fetch Last.fm data:', error)
       } finally {
-        setLoading(false)
+        if (!controller.signal.aborted) {
+          setLoading(false)
+        }
       }
     }
 
     fetchNowPlaying()
     const interval = setInterval(fetchNowPlaying, 30_000)
-    return () => clearInterval(interval)
+    return () => {
+      controller.abort()
+      clearInterval(interval)
+    }
   }, [])
 
   const albumArt =
@@ -235,9 +251,13 @@ function shuffleArray<T>(array: T[]): T[] {
   const shuffled = [...array]
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1))
-    const temp = shuffled[i]
-    shuffled[i] = shuffled[j] as T
-    shuffled[j] = temp as T
+    const a = shuffled[i]
+    const b = shuffled[j]
+    if (a === undefined || b === undefined) {
+      continue
+    }
+    shuffled[i] = b
+    shuffled[j] = a
   }
   return shuffled
 }
@@ -376,10 +396,10 @@ function MapWidget() {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// Main Landing Component
+// Main Bento Grid Component
 // ═══════════════════════════════════════════════════════════════════════════
 
-export default function BentoLanding() {
+export default function BentoGrid() {
   return (
     <main className={styles.bentoContainer}>
       <div className={styles.bentoGrid}>
