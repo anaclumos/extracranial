@@ -1,5 +1,5 @@
 ---
 date: '{{title}}'
-lang: 'en'
+lang: 'ko'
 slug: '/{{title}}'
 ---
