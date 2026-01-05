@@ -1009,7 +1009,7 @@
     "Building Habit": "- [[2022년 11월 한 달간 일기 쓰기]]"
   },
   "2022년의 선명함": {
-    "2026-01-05": "[[2022년의 선명함]]"
+    "2026-01-05": "- [[2022년의 선명함]]"
   },
   "2023-01-02": {
     "하늘땅사람 개발 기록": "## [[2023-01-02]]"
@@ -1963,6 +1963,9 @@
   "2026-01-02": {},
   "2026-01-04": {},
   "2026-01-05": {},
+  "2026년 탕아의 맥 복귀": {
+    "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
+  },
   "209AF0.png": {
     "Django Rest Framework Database Query Builder Does Not Stable Sort": "![[209AF0.png]]"
   },
@@ -3459,6 +3462,9 @@
   "8D3998.jpg": {
     "Lost Futures A 19th-Century Vision of the Year 2000": "![[8D3998.jpg]]"
   },
+  "8DD10B.jpeg": {
+    "2026년 탕아의 맥 복귀": "![[8DD10B.jpeg]]"
+  },
   "8DE1B4.png": {
     "Attention Settings": "![[8DE1B4.png]]"
   },
@@ -4815,6 +4821,9 @@
   },
   "B1FDA3.jpg": {
     "Lost Futures A 19th-Century Vision of the Year 2000": "![[B1FDA3.jpg]]"
+  },
+  "B21ABE.jpeg": {
+    "2026년 탕아의 맥 복귀": "![[B21ABE.jpeg]]"
   },
   "B22093.png": {
     "2022-06-27": "![[B22093.png]]"
@@ -13860,7 +13869,8 @@
     "오직 가지고 싶은 것은 드높은 문화의 힘이다": "[[The Empires of the Future are the Empires of the Mind]]"
   },
   "The Get-Shit-Done Computer": {
-    "2025-09-13": "[[The Get-Shit-Done Computer]]"
+    "2025-09-13": "[[The Get-Shit-Done Computer]]",
+    "2026년 탕아의 맥 복귀": "[[The Get-Shit-Done Computer]]"
   },
   "The Inhumane Pivot": {},
   "The Mafia Companies": {},
@@ -14231,9 +14241,6 @@
   "Undefined Symbol Vtable": {
     "2022-09-22": "- [[Undefined Symbol Vtable]]",
     "Symbol (Computer Systems)": "- [[Undefined Symbol Vtable]]"
-  },
-  "Undefined Symbol Vtable Error": {
-    "Undefined Symbol Vtable": "[[Undefined Symbol Vtable Error]]"
   },
   "Undefined symbol vtable": {},
   "Unexpected number value in conditional. An explicit zero NaN check is required": {

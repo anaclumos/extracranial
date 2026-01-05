@@ -16,7 +16,3 @@ It just works.
 It just works.
 
 It simply works.
-
----
-
-Edit: I'm back at Framework ;)
