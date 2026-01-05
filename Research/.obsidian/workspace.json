@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "11f18c69a2355855",
+        "id": "46dd8b8ac402f9d0",
         "type": "tabs",
         "children": [
           {
-            "id": "7d076f1b6471dc8c",
+            "id": "e9aa9da16f191d7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/2026년 탕아의 맥 복귀.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026년 탕아의 맥 복귀"
+            }
+          },
+          {
+            "id": "d1e4be6008fe5682",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,30 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "2026-01-05"
-            }
-          },
-          {
-            "id": "188608de215bac4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/2022년의 선명함.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2022년의 선명함"
             }
           }
         ],
@@ -211,12 +211,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "188608de215bac4d",
+  "active": "d1e4be6008fe5682",
   "lastOpenFiles": [
+    "pages/The Get-Shit-Done Computer.md",
+    "pages/2026년 탕아의 맥 복귀.md",
     "journals/2026-01-05.md",
+    "assets/8DD10B.jpeg",
+    "assets/B21ABE.jpeg",
+    "pages/2022년의 선명함.md",
     "templates/note template.md",
     "templates/journal template.md",
-    "pages/2022년의 선명함.md",
     "journals/2024-06-19.md",
     "journals/2026-01-04.md",
     "assets/44949C.png",
@@ -242,13 +246,9 @@
     "pages/Amdahl Law.md",
     "pages/일본인.md",
     "pages/방송부 (13誠鉉-14誠鉉).md",
-    "pages/박스상자 (12誠鉉).md",
-    "pages/기술 르네상스 (18誠鉉-20誠鉉).md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
-    "assets/F483D2.png",
-    "assets/5A3846.gif",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
