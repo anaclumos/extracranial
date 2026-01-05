@@ -3,6 +3,10 @@ import Giscus from '@giscus/react'
 import { useEffect, useState } from 'react'
 import styles from './styles.module.css'
 
+interface GiscusCommentsProps {
+  term?: string
+}
+
 function getInitialTheme(): 'dark' | 'light' {
   if (typeof window === 'undefined') {
     return 'dark'
@@ -16,7 +20,7 @@ function getInitialTheme(): 'dark' | 'light' {
     : 'light'
 }
 
-export default function GiscusComments() {
+export default function GiscusComments({ term }: GiscusCommentsProps) {
   const { i18n } = useDocusaurusContext()
   const [theme, setTheme] = useState<'dark' | 'light'>(getInitialTheme)
 
@@ -56,11 +60,12 @@ export default function GiscusComments() {
         inputPosition="top"
         lang={i18n.currentLocale}
         loading="lazy"
-        mapping="pathname"
+        mapping={term ? 'specific' : 'pathname'}
         reactionsEnabled="1"
         repo="anaclumos/extracranial-comments"
         repoId="R_kgDOHh2XAw"
         strict="0"
+        term={term}
         theme={theme}
       />
     </div>

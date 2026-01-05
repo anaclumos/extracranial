@@ -9,8 +9,18 @@ import BlogPostItem from '@theme-original/BlogPostItem'
 
 type Props = WrapperProps<typeof BlogPostItemType>
 
+const LEADING_SLASH = /^\//
+
+function extractDiscussionTerm(slug: unknown): string | undefined {
+  if (!slug) {
+    return undefined
+  }
+  return String(slug).replace(LEADING_SLASH, '')
+}
+
 export default function BlogPostItemWrapper(props: Props) {
-  const { metadata } = useBlogPost()
+  const { metadata, frontMatter } = useBlogPost()
+  const discussionTerm = extractDiscussionTerm(frontMatter.slug)
   return (
     <>
       <PostNotice metadata={metadata} />
@@ -18,7 +28,7 @@ export default function BlogPostItemWrapper(props: Props) {
       <BrowserOnly>
         {() => (
           <ErrorBoundary>
-            <GiscusComments />
+            <GiscusComments term={discussionTerm} />
           </ErrorBoundary>
         )}
       </BrowserOnly>

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2024-06-19.md",
+                "file": "journals/2026-01-05.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2024-06-19"
+              "title": "2026-01-05"
+            }
+          },
+          {
+            "id": "188608de215bac4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/2022년의 선명함.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2022년의 선명함"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +114,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.50260543823242
+    "width": 250.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -185,8 +211,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d076f1b6471dc8c",
+  "active": "188608de215bac4d",
   "lastOpenFiles": [
+    "journals/2026-01-05.md",
+    "templates/note template.md",
+    "templates/journal template.md",
+    "pages/2022년의 선명함.md",
+    "journals/2024-06-19.md",
     "journals/2026-01-04.md",
     "assets/44949C.png",
     "pages/은하대백과 기능.md",
@@ -213,10 +244,6 @@
     "pages/방송부 (13誠鉉-14誠鉉).md",
     "pages/박스상자 (12誠鉉).md",
     "pages/기술 르네상스 (18誠鉉-20誠鉉).md",
-    "pages/글 10,000장 써서 해결 안 될 문제는 정말 없는가.md",
-    "pages/proved me wrong.md",
-    "pages/e-commerce.md",
-    "pages/armada.md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
