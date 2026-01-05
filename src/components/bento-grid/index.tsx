@@ -6,7 +6,7 @@ import { Squircle } from 'corner-smoothing'
 import type { ReactNode } from 'react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import { funFacts } from './funFacts'
+import { funFacts } from './fun-facts'
 import styles from './styles.module.css'
 
 const CORNER_RADIUS = 28
