@@ -1,6 +1,7 @@
 import BrowserOnly from '@docusaurus/BrowserOnly'
 import { useDoc } from '@docusaurus/plugin-content-docs/client'
 import { useWindowSize } from '@docusaurus/theme-common'
+import BacklinkMobile from '@site/src/components/backlink-mobile'
 import BacklinkSidebar from '@site/src/components/backlink-sidebar'
 import { ErrorBoundary } from '@site/src/components/error-boundary'
 import GiscusComments from '@site/src/components/giscus'
@@ -45,6 +46,9 @@ export default function DocItemLayout({ children }: Props) {
             <DocBreadcrumbs />
             <DocVersionBadge />
             {docTOC.mobile}
+            <ErrorBoundary>
+              <BacklinkMobile documentTitle={title} />
+            </ErrorBoundary>
             <DocItemContent>{children}</DocItemContent>
             <DocItemFooter />
           </article>

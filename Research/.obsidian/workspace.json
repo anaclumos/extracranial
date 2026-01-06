@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bef9df5809dd331b",
+        "id": "e40dc4732d5f6237",
         "type": "tabs",
         "children": [
           {
-            "id": "d0bf4ef7d2a1d4c4",
+            "id": "529c08bbbe0bf878",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -172,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0bf4ef7d2a1d4c4",
+  "active": "529c08bbbe0bf878",
   "lastOpenFiles": [
+    "journals/2026-01-06.md",
     "pages/Undefined Symbol Vtable.md",
     "pages/2026년 탕아의 맥 복귀.md",
     "journals/2026-01-02.md",
@@ -206,7 +207,6 @@
     "journals/2023-06-12.md",
     "pages/AI Slop.md",
     "pages/AI Slop.md",
-    "pages/Amdahl Law.md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
