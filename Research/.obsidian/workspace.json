@@ -11,10 +11,48 @@
             "id": "529c08bbbe0bf878",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/OpenAI Grove.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OpenAI Grove"
+            }
+          },
+          {
+            "id": "7d80d7c0a84f68e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/OpenAI Grove.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenAI Grove"
             }
           }
         ]
@@ -175,6 +213,7 @@
   "active": "529c08bbbe0bf878",
   "lastOpenFiles": [
     "journals/2026-01-06.md",
+    "pages/OpenAI Grove.md",
     "pages/Undefined Symbol Vtable.md",
     "pages/2026년 탕아의 맥 복귀.md",
     "journals/2026-01-02.md",
@@ -205,7 +244,6 @@
     "pages/Regulation of Fake News.md",
     "pages/United States.md",
     "journals/2023-06-12.md",
-    "pages/AI Slop.md",
     "pages/AI Slop.md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",

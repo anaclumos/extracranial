@@ -1963,6 +1963,7 @@
   "2026-01-02": {},
   "2026-01-04": {},
   "2026-01-05": {},
+  "2026-01-06": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -11206,6 +11207,9 @@
     "Towards Ambient Computing": "Two pendant [[AI]] devices utilize [[OpenAI]] Whisper and [[Generative Pre-trained Transformer|GPT]] ...",
     "hn.cho.sh 개발 기록": "[[OpenAI]]를 가지고 많이 놀았다.",
     "앰비언트 컴퓨팅을 향해": "두 제품 모두 [[OpenAI]] Whisper와 [[Generative Pre-trained Transformer|GPT]] 기술을 ..."
+  },
+  "OpenAI Grove": {
+    "2026-01-06": "[[OpenAI Grove]]"
   },
   "OpenAI enthroned as the Levis of Tech": {
     "2023-03-01": "- [[OpenAI enthroned as the Levis of Tech]]",
