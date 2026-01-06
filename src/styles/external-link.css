@@ -14,20 +14,14 @@ a:has(i)::before {
 
 article a[href^="http"]::before {
   background-color: var(--linkflags-color);
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 0.8em;
+  width: 0.8em;
   margin: 0 2pt 2pt;
   display: inline-block;
   vertical-align: middle;
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
-}
-
-article a[href^="http"]::after {
-  content: "↗";
-  margin: 0 2pt 2pt;
-  font-size: 0.8em;
 }
 
 article a[href*="cho.sh"]::before {
