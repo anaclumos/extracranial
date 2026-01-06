@@ -17,10 +17,6 @@ slug: '/465D96'
 - Hypany 템플릿 (?)
   - Hypany 자체와 동일한 디자인
 
-import { Tweet } from 'react-tweet'
-
-<Tweet id="1920449257259123101" />
-
-<Tweet id="1909999059231785322" />
-
-<Tweet id="1922258466460119234" />
+- https://x.com/BreejeAnadkat/status/1920449257259123101
+- https://x.com/MarkKnd/status/1909999059231785322
+- https://x.com/him_uiux/status/1922258466460119234
