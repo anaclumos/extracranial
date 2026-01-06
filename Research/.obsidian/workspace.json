@@ -4,59 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "46dd8b8ac402f9d0",
+        "id": "bef9df5809dd331b",
         "type": "tabs",
         "children": [
           {
-            "id": "e9aa9da16f191d7a",
+            "id": "d0bf4ef7d2a1d4c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/2026년 탕아의 맥 복귀.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026년 탕아의 맥 복귀"
-            }
-          },
-          {
-            "id": "d1e4be6008fe5682",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-05.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-05"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,18 +172,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1e4be6008fe5682",
+  "active": "d0bf4ef7d2a1d4c4",
   "lastOpenFiles": [
-    "pages/The Get-Shit-Done Computer.md",
     "pages/2026년 탕아의 맥 복귀.md",
+    "journals/2026-01-02.md",
+    "journals/2026-01-04.md",
     "journals/2026-01-05.md",
+    "pages/The Get-Shit-Done Computer.md",
     "assets/8DD10B.jpeg",
     "assets/B21ABE.jpeg",
     "pages/2022년의 선명함.md",
     "templates/note template.md",
     "templates/journal template.md",
     "journals/2024-06-19.md",
-    "journals/2026-01-04.md",
     "assets/44949C.png",
     "pages/은하대백과 기능.md",
     "assets/164E3A.png",
@@ -245,7 +207,6 @@
     "pages/AI Slop.md",
     "pages/Amdahl Law.md",
     "pages/일본인.md",
-    "pages/방송부 (13誠鉉-14誠鉉).md",
     "assets/BD8935.gif",
     "assets/15F2AC.png",
     "assets/3CDD1D.gif",
