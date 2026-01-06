@@ -49,12 +49,18 @@ function processBacklinkItem(text: string, title: string) {
 
     const regex4 = /\[\[(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex4, '$1')
-  } catch {}
+  } catch {
+    return (
+      <pre
+        className={styles.backlinkItemText}
+        dangerouslySetInnerHTML={{ __html: escapedText.trim() }}
+      />
+    )
+  }
 
   return (
     <pre
       className={styles.backlinkItemText}
-      // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering highlighted backlinks
       dangerouslySetInnerHTML={{
         __html: normalizedText.trim(),
       }}

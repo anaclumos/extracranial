@@ -90,7 +90,6 @@ export default function BacklinkSidebar({
                 <Link className={styles.link} to={entry.link}>
                   <span className={styles.linkTitle}>{entry.title}</span>
                   {entry.content && (
-                    // biome-ignore lint/security/noDangerouslySetInnerHtml: Required for rendering highlighted backlinks
                     <span
                       className={styles.excerpt}
                       dangerouslySetInnerHTML={{
