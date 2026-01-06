@@ -175,19 +175,21 @@ function NowPlayingWidget() {
       href={track.url}
     >
       <div className={styles.nowPlayingGrid}>
-        {albumArt && (
-          <img
-            alt={`${track.album['#text']} album art`}
-            className={styles.nowPlayingArt}
-            height={174}
-            src={albumArt}
-            width={174}
-          />
-        )}
-        <div className={styles.nowPlayingLogoCell}>
-          <div className={styles.nowPlayingLogoStack}>
-            <SpotifyLogo />
-            {isPlaying && <span className={styles.nowPlayingDot} />}
+        <div className={styles.nowPlayingArtWrapper}>
+          {albumArt && (
+            <img
+              alt={`${track.album['#text']} album art`}
+              className={styles.nowPlayingArt}
+              height={300}
+              src={albumArt}
+              width={300}
+            />
+          )}
+          <div className={styles.nowPlayingLogoCell}>
+            <div className={styles.nowPlayingLogoStack}>
+              <SpotifyLogo />
+              {isPlaying && <span className={styles.nowPlayingDot} />}
+            </div>
           </div>
         </div>
         <div className={styles.nowPlayingInfo}>
