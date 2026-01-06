@@ -1,6 +1,3 @@
-/* Essential external link icons - curated for cho.sh blog */
-
-/* === GitHub & Git Platforms === */
 article a[href*="github.com"]::before,
 article a[href*="githubusercontent.com"]::before,
 article a[href*="github.blog"]::before {
@@ -13,13 +10,11 @@ article a[href*="gitlab.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gitlab.svg");
 }
 
-/* === Wikipedia === */
 article a[href*="wikipedia.org"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/wikipedia.svg");
 }
 
-/* === Apple Ecosystem === */
 article a[href*="apple.com"]::before,
 article a[href*="support.apple.com"]::before {
   content: "\00a0";
@@ -37,7 +32,6 @@ article a[href*="js-cdn.music.apple.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/applemusic.svg");
 }
 
-/* === Google & Alphabet === */
 article a[href*="google.com/search"]::before,
 article a[href*="about.google"]::before,
 article a[href*="blog.google"]::before,
@@ -80,7 +74,6 @@ article a[href*="fonts.google"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlefonts.svg");
 }
 
-/* === Social Platforms === */
 article a[href*="twitter.com"]::before,
 article a[href*="x.com"]::before {
   content: "\00a0";
@@ -133,7 +126,6 @@ article a[href*="slack.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/slack.svg");
 }
 
-/* === Developer Platforms === */
 article a[href*="stackoverflow.com"]::before,
 article a[href*="stackexchange.com"]::before {
   content: "\00a0";
@@ -187,7 +179,6 @@ article a[href*="replit.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/replit.svg");
 }
 
-/* === Blogging & Content === */
 article a[href*="medium.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/medium.svg");
@@ -215,7 +206,6 @@ article a[href*="ghost.io"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/ghost.svg");
 }
 
-/* === Productivity & Design === */
 article a[href*="notion.so"]::before,
 article a[href*="notion.site"]::before {
   content: "\00a0";
@@ -263,7 +253,6 @@ article a[href*="jira.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/atlassian.svg");
 }
 
-/* === PKM & Note-taking === */
 article a[href*="obsidian.md"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/obsidian.svg");
@@ -279,7 +268,6 @@ article a[href*="roamresearch.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/roamresearch.svg");
 }
 
-/* === Hosting & Cloud === */
 article a[href*="vercel.com"]::before,
 article a[href*="vercel.app"]::before {
   content: "\00a0";
@@ -343,7 +331,6 @@ article a[href*="planetscale.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/planetscale.svg");
 }
 
-/* === Tech Companies === */
 article a[href*="microsoft.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/microsoft.svg");
@@ -390,7 +377,6 @@ article a[href*="huggingface.co"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/huggingface.svg");
 }
 
-/* === Frameworks & Libraries === */
 article a[href*="react.dev"]::before,
 article a[href*="reactjs.org"]::before {
   content: "\00a0";
@@ -504,7 +490,6 @@ article a[href*="kubernetes.io"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/kubernetes.svg");
 }
 
-/* === Korean Platforms === */
 article a[href*="naver.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/naver.svg");
@@ -526,7 +511,6 @@ article a[href*="tistory.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tistory.svg");
 }
 
-/* === Presentations === */
 article a[href*="slideshare.net"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/slideshare.svg");
@@ -537,7 +521,6 @@ article a[href*="speakerdeck.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/speakerdeck.svg");
 }
 
-/* === Other Popular Sites === */
 article a[href*="producthunt.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/producthunt.svg");
@@ -568,7 +551,6 @@ article a[href*="archive.org"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/internetarchive.svg");
 }
 
-/* === AI & ML Platforms === */
 article a[href*="perplexity.ai"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/perplexity.svg");
@@ -595,13 +577,11 @@ article a[href*="gemini.google.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googlegemini.svg");
 }
 
-/* === More Git Platforms === */
 article a[href*="bitbucket.org"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bitbucket.svg");
 }
 
-/* === Developer Tools & IDEs === */
 article a[href*="code.visualstudio.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/visualstudiocode.svg");
@@ -628,7 +608,6 @@ article a[href*="brew.sh"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/homebrew.svg");
 }
 
-/* === More Google Services === */
 article a[href*="firebase.google.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/firebase.svg");
@@ -654,7 +633,6 @@ article a[href*="analytics.google"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/googleanalytics.svg");
 }
 
-/* === Databases & Infrastructure === */
 article a[href*="mongodb.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mongodb.svg");
@@ -681,7 +659,6 @@ article a[href*="nginx.org"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/nginx.svg");
 }
 
-/* === Testing Frameworks === */
 article a[href*="jestjs.io"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/jest.svg");
@@ -697,7 +674,6 @@ article a[href*="cypress.io"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/cypress.svg");
 }
 
-/* === More Frameworks & Languages === */
 article a[href*="remix.run"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/remix.svg");
@@ -744,7 +720,6 @@ article a[href*="drizzle.team"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/drizzle.svg");
 }
 
-/* === Communication === */
 article a[href*="telegram.org"]::before,
 article a[href*="t.me"]::before {
   content: "\00a0";
@@ -766,7 +741,6 @@ article a[href*="signal.org"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/signal.svg");
 }
 
-/* === More Social Platforms === */
 article a[href*="bsky.app"]::before,
 article a[href*="bsky.social"]::before {
   content: "\00a0";
@@ -788,7 +762,6 @@ article a[href*="pinterest.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/pinterest.svg");
 }
 
-/* === Documentation Platforms === */
 article a[href*="readthedocs.io"]::before,
 article a[href*="readthedocs.org"]::before {
   content: "\00a0";
@@ -805,7 +778,6 @@ article a[href*="docusaurus.io"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/docusaurus.svg");
 }
 
-/* === Payments & Commerce === */
 article a[href*="stripe.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stripe.svg");
@@ -821,7 +793,6 @@ article a[href*="gumroad.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/gumroad.svg");
 }
 
-/* === CI/CD === */
 article a[href*="circleci.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/circleci.svg");
@@ -833,7 +804,6 @@ article a[href*="travis-ci.org"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/travisci.svg");
 }
 
-/* === Design Tools === */
 article a[href*="adobe.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/adobe.svg");
@@ -844,7 +814,6 @@ article a[href*="sketch.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/sketch.svg");
 }
 
-/* === Gaming & Creative === */
 article a[href*="steampowered.com"]::before,
 article a[href*="store.steampowered.com"]::before {
   content: "\00a0";
@@ -861,7 +830,6 @@ article a[href*="unrealengine.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/unrealengine.svg");
 }
 
-/* === News Websites === */
 article a[href*="techcrunch.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/techcrunch.svg");
@@ -928,7 +896,6 @@ article a[href*="digg.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/digg.svg");
 }
 
-/* === News Aggregators & Readers === */
 article a[href*="news.apple.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/applenews.svg");
@@ -960,7 +927,6 @@ article a[href*="inoreader.com"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/inoreader.svg");
 }
 
-/* === Newsletter Platforms === */
 article a[href*="mailchimp.com"]::before {
   content: "\00a0";
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailchimp.svg");
@@ -998,7 +964,6 @@ article a[href*="mailtrap.io"]::before {
   mask-image: url("https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/mailtrap.svg");
 }
 
-/* === RSS === */
 article a[href$=".rss"]::before,
 article a[href$="/rss"]::before,
 article a[href$="/feed"]::before,

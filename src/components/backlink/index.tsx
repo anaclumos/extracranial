@@ -49,9 +49,7 @@ function processBacklinkItem(text: string, title: string) {
 
     const regex4 = /\[\[(.+?)\]\]/g
     normalizedText = normalizedText.replace(regex4, '$1')
-  } catch {
-    // Silently handle regex processing errors
-  }
+  } catch {}
 
   return (
     <pre

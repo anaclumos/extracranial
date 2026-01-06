@@ -24,17 +24,13 @@
   --ifm-h5-font-size: 0.875rem;
   --ifm-h6-font-size: 0.85rem;
 
-  /* Computed layout values for sticky sidebar/TOC */
   --sticky-top: calc(var(--ifm-navbar-height) + 2rem);
   --sidebar-max-height: calc(100vh - var(--ifm-navbar-height) - 4rem);
 
-  /* Unhovered transparency for sidebars */
   --unhovered-transparency: 0.1;
 
-  /* Transitions */
   --transition-fast: 0.2s ease-in-out;
 
-  /* Semantic colors */
   --color-border: var(--ifm-color-emphasis-200);
   --color-border-muted: var(--ifm-color-emphasis-400);
   --color-text-muted: var(--ifm-color-emphasis-400);

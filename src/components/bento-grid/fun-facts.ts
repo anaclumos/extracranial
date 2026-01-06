@@ -1,14 +1,3 @@
-/**
- * Fun Facts - Source of Truth
- *
- * This file contains all fun fact snippets for the bento grid.
- * Edit the English messages here. Korean translations are in i18n/ko/code.json
- *
- * To add a new snippet:
- * 1. Add it to this array with a semantic id (bento.bio.{topic})
- * 2. Add the Korean translation to i18n/ko/code.json with the same id
- */
-
 export interface FunFactSnippet {
   id: string
   message: string

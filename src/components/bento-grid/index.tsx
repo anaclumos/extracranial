@@ -60,10 +60,6 @@ function BentoCard({
   return cardContent
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// Hero Card
-// ═══════════════════════════════════════════════════════════════════════════
-
 function HeroCard() {
   return (
     <BentoCard className={cn(styles.cardXL, styles.heroCard)}>
@@ -80,10 +76,6 @@ function HeroCard() {
     </BentoCard>
   )
 }
-
-// ═══════════════════════════════════════════════════════════════════════════
-// Now Playing Widget — Last.fm API
-// ═══════════════════════════════════════════════════════════════════════════
 
 const LASTFM_API_KEY = 'f38b247197f3dc409a6911356a204510'
 const LASTFM_USERNAME = 'anaclumos'
@@ -207,10 +199,6 @@ function NowPlayingWidget() {
   )
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// GitHub Contribution Graph Widget
-// ═══════════════════════════════════════════════════════════════════════════
-
 function GitHubGraphWidget() {
   return (
     <BentoCard
@@ -239,10 +227,6 @@ function GitHubGraphWidget() {
     </BentoCard>
   )
 }
-
-// ═══════════════════════════════════════════════════════════════════════════
-// Bio Card
-// ═══════════════════════════════════════════════════════════════════════════
 
 const getBioSnippets = () =>
   funFacts.map((fact) => translate({ id: fact.id, message: fact.message }))
@@ -314,10 +298,6 @@ function BioCard() {
     </BentoCard>
   )
 }
-
-// ═══════════════════════════════════════════════════════════════════════════
-// Map Widget — Apple MapKit JS
-// ═══════════════════════════════════════════════════════════════════════════
 
 const MAPKIT_TOKEN =
   'eyJraWQiOiIzRlRWQUxHQlBNIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJRS1BYUDk3ODhMIiwiaWF0IjoxNzY3NTI2NzIwLCJvcmlnaW4iOiJjaG8uc2giLCJleHAiOjE4MzA1MjQ0MDB9.c0GhqgFDK_frPMh8ZKVSeAonhwhAPzQqpSrLP8dJ4nb2ydmR833F0cDUd9rcgf0gHWAFt7gW3fPwP0i9pOUxLg'
@@ -395,27 +375,14 @@ function MapWidget() {
   )
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// Main Bento Grid Component
-// ═══════════════════════════════════════════════════════════════════════════
-
 export default function BentoGrid() {
   return (
     <main className={styles.bentoContainer}>
       <div className={styles.bentoGrid}>
-        {/* Hero */}
         <HeroCard />
-
-        {/* Now Playing - Last.fm */}
         <NowPlayingWidget />
-
-        {/* Map location */}
         <MapWidget />
-
-        {/* Fun Fact */}
         <BioCard />
-
-        {/* GitHub contribution graph */}
         <GitHubGraphWidget />
       </div>
     </main>

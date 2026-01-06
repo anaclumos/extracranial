@@ -3,7 +3,6 @@
 /// <reference types="@docusaurus/theme-common" />
 /// <reference types="@docusaurus/theme-common/internal" />
 
-// Apple MapKit JS types
 interface MapKitInitOptions {
   authorizationCallback: (done: (token: string) => void) => void
   language?: string
