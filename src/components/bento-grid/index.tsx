@@ -329,7 +329,7 @@ function MapWidget() {
 
       map = new mapkit.Map(mapRef.current, {
         center: gangnamStation,
-        cameraDistance: 50_000,
+        cameraDistance: 20_000,
         mapType: mapkit.Map.MapTypes.Standard,
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: false,
