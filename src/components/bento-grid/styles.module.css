@@ -1,12 +1,4 @@
-/* Bento Grid — Apple-style Widget Design System */
-/* Inspired by iOS 26 Liquid Glass, WWDC widgets, and Apple Human Interface Guidelines */
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   CSS Custom Properties — Apple Design Language
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 :root {
-  /* Glass Material — Liquid Glass inspired */
   --glass-blur: 24px;
   --glass-saturation: 180%;
   --glass-bg: rgba(255, 255, 255, 0.72);
@@ -14,17 +6,14 @@
   --glass-border: rgba(255, 255, 255, 0.5);
   --glass-border-subtle: rgba(0, 0, 0, 0.06);
 
-  /* Shadows — Apple-style layered shadows */
   --shadow-widget:
     0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06), 0 8px 32px
     rgba(0, 0, 0, 0.08);
   --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.5);
 
-  /* Layout */
   --bento-gap: 16px;
   --bento-padding: 20px;
 
-  /* Motion — Apple-style spring animations */
   --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
   --ease-out: cubic-bezier(0, 0, 0.2, 1);
@@ -32,7 +21,6 @@
   --duration-normal: 0.35s;
   --duration-slow: 0.5s;
 
-  /* Typography — San Francisco inspired */
   --font-display:
     -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
   --font-text:
@@ -40,7 +28,6 @@
   --font-rounded:
     -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif;
 
-  /* Apple Accent Colors */
   --apple-blue: #007aff;
   --apple-green: #34c759;
   --apple-orange: #ff9500;
@@ -62,10 +49,6 @@
   --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   Container & Grid Layout
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 .bentoContainer {
   width: 100%;
   max-width: 1200px;
@@ -84,19 +67,11 @@
   width: 100%;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   Card Link Wrapper
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 .cardLink {
   text-decoration: none;
   color: inherit;
   display: contents;
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Base Card — Apple Widget Style
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .bentoCard {
   position: relative;
@@ -112,11 +87,6 @@
   will-change: transform;
   cursor: default;
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Card Size Variants — Exact Square System
-   1x1 and 2x2 are exact squares. 2x1 and 4x1 match row height.
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .cardXL {
   grid-column: span 2;
@@ -146,10 +116,6 @@
   grid-row: span 1;
   aspect-ratio: 4.174;
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Hero Card — Primary Introduction
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .heroCard {
   justify-content: center;
@@ -195,10 +161,6 @@
   line-height: 1.6;
   max-width: 32ch;
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Now Playing Widget — Last.fm
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .nowPlayingCard {
   padding: 16px;
@@ -312,10 +274,6 @@
   text-overflow: ellipsis;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   GitHub Contribution Graph Widget
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 .githubGraphCard {
   padding: 16px 20px;
   background: linear-gradient(145deg, #2d333b 0%, #161b22 100%);
@@ -349,10 +307,6 @@
   border-radius: 8px;
   margin: auto 0;
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Map Widget — Location
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .mapCard {
   padding: 0;
@@ -398,10 +352,6 @@
     box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
   }
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Bio Card — About Section
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 .bioCard {
   justify-content: flex-start;
@@ -455,10 +405,6 @@
   height: 100%;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   Focus States — Accessibility
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 .cardLink:focus-visible .bentoCard {
   outline: 3px solid var(--apple-blue);
   outline-offset: 4px;
@@ -469,10 +415,6 @@
   outline-offset: 4px;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════════
-   Responsive Design
-   ═══════════════════════════════════════════════════════════════════════════ */
-
 @media (max-width: 1024px) {
   .bentoContainer {
     padding: 32px 20px;
@@ -482,7 +424,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* On 2-col grid: XL becomes 2x1 banner (full width, half height of square) */
   .cardXL {
     grid-column: span 2;
     grid-row: span 1;
@@ -534,33 +475,28 @@
     gap: var(--bento-gap);
   }
 
-  /* Mobile: XL becomes 2x1 banner */
   .cardXL {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
   }
 
-  /* Mobile: Large needs aspect-ratio since it's alone in its row */
   .cardLarge {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
   }
 
-  /* Mobile: Tall becomes square */
   .cardTall {
     grid-column: span 1;
     grid-row: span 1;
     aspect-ratio: 1;
   }
 
-  /* Mobile: Normal stays square */
   .cardNormal {
     aspect-ratio: 1;
   }
 
-  /* Mobile: Full becomes 2x1 */
   .cardFull {
     grid-column: span 2;
     grid-row: span 1;
@@ -637,10 +573,6 @@
     font-size: 0.85rem;
   }
 }
-
-/* ═══════════════════════════════════════════════════════════════════════════
-   Entrance Animations
-   ═══════════════════════════════════════════════════════════════════════════ */
 
 @keyframes fadeInUp {
   from {
