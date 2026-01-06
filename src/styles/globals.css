@@ -4,7 +4,7 @@
 
 :root {
   --ifm-font-family-base:
-    "Pretendard GOV", system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, "Apple SD Gothic Neo",
+    "Pretendard GOV Variable", system-ui, -apple-system, blinkmacsystemfont, ui-sans-serif, "Apple SD Gothic Neo",
     "Apple Color Emoji", "SF Pro", "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
   --ifm-font-family-monospace:
     "Iosevka", ui-monospace, "SF Mono", sfmono-regular, menlo, consolas,
