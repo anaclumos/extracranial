@@ -21,13 +21,6 @@
   --duration-normal: 0.35s;
   --duration-slow: 0.5s;
 
-  --font-display:
-    -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif;
-  --font-text:
-    -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
-  --font-rounded:
-    -apple-system, BlinkMacSystemFont, "SF Pro Rounded", system-ui, sans-serif;
-
   --apple-blue: #007aff;
   --apple-green: #34c759;
   --apple-orange: #ff9500;
@@ -141,7 +134,6 @@
 .heroTitle {
   position: relative;
   z-index: 1;
-  font-family: var(--font-display);
   font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 700;
   letter-spacing: -0.035em;
@@ -256,7 +248,6 @@
 }
 
 .nowPlayingTitle {
-  font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.2;
@@ -299,7 +290,6 @@
 }
 
 .githubGraphLabel {
-  font-family: var(--font-display);
   font-size: 0.95rem;
   font-weight: 600;
   color: #fff;
