@@ -1,6 +1,6 @@
 ---
 lang: 'en'
-slug: '/A36A37'
+slug: '/9D95DE'
 ---
 
-[[Undefined Symbol Vtable Error]]
+- Means you haven't implemented some `override`n functions

@@ -45,9 +45,6 @@
   word-wrap: break-word;
   word-break: keep-all;
   color-scheme: dark light;
-  font-feature-settings:
-    "rlig", "calt", "case", "ccmp", "dlig", "salt", "zero", "ss01", "ss02", "ss03", "ss05", "ss06", "ss08", "ss15";
-
   line-height: 2;
   max-width: 100dvw;
 }
