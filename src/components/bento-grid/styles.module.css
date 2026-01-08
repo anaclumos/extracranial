@@ -21,14 +21,14 @@
   --duration-normal: 0.35s;
   --duration-slow: 0.5s;
 
-  --apple-blue: #007aff;
-  --apple-green: #34c759;
-  --apple-orange: #ff9500;
-  --apple-red: #ff3b30;
-  --apple-purple: #af52de;
-  --apple-pink: #ff2d55;
-  --apple-teal: #5ac8fa;
-  --apple-indigo: #5856d6;
+  --apple-blue: #0a84ff;
+  --apple-green: #30d158;
+  --apple-orange: #ff9f0a;
+  --apple-red: #ff453a;
+  --apple-purple: #bf5af2;
+  --apple-pink: #ff375f;
+  --apple-teal: #64d2ff;
+  --apple-indigo: #5e5ce6;
 }
 
 [data-theme="dark"] {
@@ -69,7 +69,7 @@
 .bentoCard {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(145deg, #3a3a3c 0%, #1c1c1e 100%);
+  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
   border: none;
   box-shadow:
     0 4px 16px rgba(0, 0, 0, 0.2),
@@ -81,30 +81,30 @@
   cursor: default;
 }
 
-.cardXL {
+.card2x2 {
   grid-column: span 2;
   grid-row: span 2;
 }
 
-.cardLarge {
+.card2x1 {
   grid-column: span 2;
   grid-row: span 1;
   aspect-ratio: 2.058;
 }
 
-.cardTall {
+.card1x2 {
   grid-column: span 1;
   grid-row: span 2;
   aspect-ratio: 1 / 2;
 }
 
-.cardNormal {
+.card1x1 {
   grid-column: span 1;
   grid-row: span 1;
   aspect-ratio: 1;
 }
 
-.cardFull {
+.card4x1 {
   grid-column: span 4;
   grid-row: span 1;
   aspect-ratio: 4.174;
@@ -114,7 +114,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 32px;
-  background: linear-gradient(145deg, #1e3a8a 0%, #1e1b4b 100%);
+  background: linear-gradient(180deg, #5e5ce6 0%, #4b4acf 100%);
 }
 
 .heroGlow {
@@ -156,19 +156,20 @@
 
 .nowPlayingCard {
   padding: 16px;
-  background: linear-gradient(145deg, #1db954 0%, #191414 100%);
+  background: linear-gradient(145deg, #1db954 0%, #2d2d2d 100%);
   border: none;
   cursor: pointer;
 }
 
 .nowPlayingGrid {
+  position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
   min-height: 0;
   flex: 1;
-  gap: 10px;
 }
 
 .nowPlayingLoading {
@@ -188,8 +189,15 @@
 
 .nowPlayingArtWrapper {
   position: relative;
-  flex: 1;
-  min-height: 0;
+  width: 65%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s var(--ease-spring);
+}
+
+.nowPlayingCard:hover .nowPlayingArtWrapper {
+  transform: scale(1.03);
 }
 
 .nowPlayingArt {
@@ -198,14 +206,13 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
 }
 
 .nowPlayingLogoCell {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -245,6 +252,8 @@
   min-width: 0;
   overflow: hidden;
   flex-shrink: 0;
+  padding-top: 12px;
+  padding-right: 4px;
 }
 
 .nowPlayingTitle {
@@ -271,7 +280,7 @@
 
 .githubGraphCard {
   padding: 16px 20px;
-  background: linear-gradient(145deg, #2d333b 0%, #161b22 100%);
+  background: linear-gradient(180deg, #3a3a3c 0%, #2c2c2e 100%);
   cursor: pointer;
 }
 
@@ -305,7 +314,7 @@
 .mapCard {
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(145deg, #10b981 0%, #059669 100%);
+  background: linear-gradient(180deg, #66d4cf 0%, #00c7be 100%);
 }
 
 .mapWrapper {
@@ -330,26 +339,26 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #22c55e;
-  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  background: #30d158;
+  box-shadow: 0 0 0 0 rgba(48, 209, 88, 0.7);
   animation: mapPulseAnim 2s ease-out infinite;
 }
 
 @keyframes mapPulseAnim {
   0% {
-    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    box-shadow: 0 0 0 0 rgba(48, 209, 88, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 20px rgba(34, 197, 94, 0);
+    box-shadow: 0 0 0 20px rgba(48, 209, 88, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+    box-shadow: 0 0 0 0 rgba(48, 209, 88, 0);
   }
 }
 
 .bioCard {
   justify-content: flex-start;
-  background: linear-gradient(145deg, #f97316 0%, #ea580c 100%);
+  background: linear-gradient(180deg, #ff9f0a 0%, #ff9500 100%);
   --bio-line-clamp: 7;
 }
 
@@ -399,6 +408,120 @@
   height: 100%;
 }
 
+.habitTrackerCard {
+  padding: 20px 24px;
+  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.habitTrackerCard::-webkit-scrollbar {
+  display: none;
+}
+
+.habitTrackerHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.habitTrackerLogo {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+}
+
+.habitTrackerLabel {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.habitGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.habitGridRow {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.habitIdCell {
+  width: 48px;
+  flex-shrink: 0;
+  font-family: var(--font-family-monospace);
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+  padding-right: 8px;
+  transition: opacity var(--duration-fast) var(--ease-apple);
+}
+
+.habitIdCell:hover {
+  opacity: 0.7;
+}
+
+.habitDayHeader {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  font-size: 9px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.habitDayHeader:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.habitDayHeaderAllDone {
+  color: var(--apple-green);
+}
+
+.habitCell {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  text-decoration: none;
+  transition:
+    transform var(--duration-fast) var(--ease-spring),
+    opacity var(--duration-fast) var(--ease-apple);
+}
+
+.habitCell:hover {
+  transform: scale(1.2);
+  opacity: 0.85;
+}
+
+.habitCellDone {
+  background: var(--apple-green);
+}
+
+.habitCellEmpty {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.habitCellEmpty:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
 .cardLink:focus-visible .bentoCard {
   outline: 3px solid var(--apple-blue);
   outline-offset: 4px;
@@ -418,18 +541,18 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .cardXL {
+  .card2x2 {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
   }
 
-  .cardLarge {
+  .card2x1 {
     grid-column: span 2;
     aspect-ratio: 2 / 1;
   }
 
-  .cardFull {
+  .card4x1 {
     grid-column: span 2;
     aspect-ratio: 2 / 1;
   }
@@ -450,6 +573,34 @@
     width: 100%;
     object-fit: contain;
   }
+
+  .habitTrackerCard {
+    padding: 16px 18px;
+  }
+
+  .habitGrid {
+    gap: 5px;
+  }
+
+  .habitGridRow {
+    gap: 3px;
+  }
+
+  .habitIdCell {
+    width: 42px;
+    font-size: 10px;
+  }
+
+  .habitDayHeader,
+  .habitCell {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+  }
+
+  .habitDayHeader {
+    font-size: 8px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -469,29 +620,29 @@
     gap: var(--bento-gap);
   }
 
-  .cardXL {
+  .card2x2 {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
   }
 
-  .cardLarge {
+  .card2x1 {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
   }
 
-  .cardTall {
+  .card1x2 {
     grid-column: span 1;
     grid-row: span 1;
     aspect-ratio: 1;
   }
 
-  .cardNormal {
+  .card1x1 {
     aspect-ratio: 1;
   }
 
-  .cardFull {
+  .card4x1 {
     grid-column: span 2;
     grid-row: span 1;
     aspect-ratio: 2 / 1;
@@ -565,6 +716,43 @@
 
   .githubGraphLabel {
     font-size: 0.85rem;
+  }
+
+  .habitTrackerCard {
+    padding: 16px;
+  }
+
+  .habitTrackerHeader {
+    margin-bottom: 12px;
+  }
+
+  .habitTrackerLabel {
+    font-size: 0.9rem;
+  }
+
+  .habitGrid {
+    gap: 4px;
+  }
+
+  .habitGridRow {
+    gap: 3px;
+  }
+
+  .habitIdCell {
+    width: 36px;
+    font-size: 9px;
+    padding-right: 6px;
+  }
+
+  .habitDayHeader,
+  .habitCell {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  .habitDayHeader {
+    font-size: 7px;
   }
 }
 

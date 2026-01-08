@@ -526,6 +526,141 @@ async function fixImgAlt(root: string): Promise<void> {
   }
 }
 
+const FRONTMATTER_RE = /^---\s*\n([\s\S]*?)\n---/
+const HABIT_ID_RE = /^habit:\s*['"]?([A-Z0-9_]+)['"]?\s*$/m
+const HABIT_STATUS_RE = /^status:\s*['"]?(TODO|ING|SUCCESS|FAILURE)['"]?\s*$/m
+const DATE_FILENAME_RE = /^(\d{4}-\d{2}-\d{2})\.md$/
+
+type HabitStatus = 'TODO' | 'ING' | 'SUCCESS' | 'FAILURE'
+
+interface HabitDefinition {
+  id: string
+  title: string
+  status: HabitStatus
+  sourceFile: string
+}
+
+interface HabitLog {
+  [habitId: string]: string[]
+}
+
+function parseFrontmatter(content: string): Record<string, string> {
+  const match = content.match(FRONTMATTER_RE)
+  if (!match?.[1]) {
+    return {}
+  }
+
+  const frontmatter: Record<string, string> = {}
+  const lines = match[1].split('\n')
+
+  for (const line of lines) {
+    const colonIndex = line.indexOf(':')
+    if (colonIndex === -1) {
+      continue
+    }
+
+    const key = line.slice(0, colonIndex).trim()
+    let value = line.slice(colonIndex + 1).trim()
+
+    if (
+      (value.startsWith("'") && value.endsWith("'")) ||
+      (value.startsWith('"') && value.endsWith('"'))
+    ) {
+      value = value.slice(1, -1)
+    }
+
+    frontmatter[key] = value
+  }
+
+  return frontmatter
+}
+
+async function buildHabitData(
+  pagesDir: string,
+  journalsDir: string,
+  outDir: string
+): Promise<void> {
+  console.log('🏃 Building habit tracking data...')
+
+  const habits: HabitDefinition[] = []
+  const habitLog: HabitLog = {}
+  const knownHabitIds = new Set<string>()
+
+  const pageFiles = await findFiles(pagesDir, ['.md'])
+
+  for (const file of pageFiles) {
+    const content = await readFile(file, 'utf-8')
+    const habitMatch = content.match(HABIT_ID_RE)
+    const statusMatch = content.match(HABIT_STATUS_RE)
+
+    if (habitMatch?.[1] && statusMatch?.[1]) {
+      const habitId = habitMatch[1]
+      const status = statusMatch[1] as HabitStatus
+      const title = basename(file, '.md')
+
+      habits.push({
+        id: habitId,
+        title,
+        status,
+        sourceFile: relative(pagesDir, file),
+      })
+
+      knownHabitIds.add(habitId)
+      habitLog[habitId] = []
+    }
+  }
+
+  console.log(`📋 Found ${habits.length} habit definitions`)
+
+  const journalFiles = await findFiles(journalsDir, ['.md'])
+  let completionCount = 0
+
+  for (const file of journalFiles) {
+    const filename = basename(file)
+    const dateMatch = filename.match(DATE_FILENAME_RE)
+
+    if (!dateMatch?.[1]) {
+      continue
+    }
+
+    const date = dateMatch[1]
+    const content = await readFile(file, 'utf-8')
+    const frontmatter = parseFrontmatter(content)
+
+    for (const habitId of knownHabitIds) {
+      const value = frontmatter[habitId]
+      if (
+        value === 'true' ||
+        value === 'TRUE' ||
+        value === 'yes' ||
+        value === 'YES'
+      ) {
+        habitLog[habitId]?.push(date)
+        completionCount++
+      }
+    }
+  }
+
+  for (const habitId of Object.keys(habitLog)) {
+    habitLog[habitId]?.sort()
+  }
+
+  habits.sort((a, b) => a.title.localeCompare(b.title))
+
+  console.log(`✅ Found ${completionCount} habit completions across journals`)
+
+  await mkdir(outDir, { recursive: true })
+
+  await writeFile(join(outDir, 'habits.json'), JSON.stringify(habits, null, 2))
+
+  await writeFile(
+    join(outDir, 'habit-log.json'),
+    JSON.stringify(habitLog, null, 2)
+  )
+
+  console.log('🎯 Habit data written to src/data/')
+}
+
 async function cleanupAssets(
   assetsDir: string,
   researchRoot: string
@@ -616,9 +751,13 @@ async function main(): Promise<void> {
   const outTs = join(REPO, 'src', 'data')
   const assets = join(research, 'assets')
 
+  const pages = join(research, 'pages')
+  const journals = join(research, 'journals')
+
   await sanitiseMd(research)
   await processBlog(postsSrc, blogEn, blogKo, cfg)
   await buildBacklinks(research, outTs)
+  await buildHabitData(pages, journals, outTs)
   await processDocs(research, docs)
   await fixImgAlt(docs)
 
