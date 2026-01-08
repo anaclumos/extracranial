@@ -3,7 +3,8 @@ lang: 'en'
 slug: '/C066BC'
 ---
 
-[[Raycast]]
+- [[Raycast]]
+- [[My Raycast Wrapped of 2023]]
 
 ![[2D239A.png]]
 ![[9B8B3C.png]]

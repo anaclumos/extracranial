@@ -3,8 +3,9 @@ lang: 'en'
 slug: '/5B207A'
 ---
 
-[[My Raycast Wrapped of 2023]]
-[[My Raycast Wrapped of 2024]]
+- [[My Raycast Wrapped of 2023]]
+- [[My Raycast Wrapped of 2025]]
+- [[Raycast]]
 
 ![[41D7C4.png]]
 ![[5348E2.png]]

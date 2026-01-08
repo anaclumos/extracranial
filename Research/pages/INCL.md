@@ -17,19 +17,6 @@ incl config set --docker-image lunit/insight-ai-br:latest
 incl config set --machine-type n2-standard-2
 ```
 
-## BE on Mac (WIP)
-
-```bash
-gcloud compute ssh --zone "asia-northeast3-c" "sunghyun-cho" --project "ai-research-322406"
-```
-
-```bash
-brew install mysql
-export LIBRARY_PATH=$LIBRARY_PATH:$(brew --prefix zstd)/lib/
-gcloud init
-
-```
-
 ## Client
 
 ```bash

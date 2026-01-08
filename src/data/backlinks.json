@@ -1964,6 +1964,9 @@
   "2026-01-04": {},
   "2026-01-05": {},
   "2026-01-06": {},
+  "2026-01-08": {
+    "바잘제트 오버엔지니어링": "[[조잡생각]] [[2026-01-08]]"
+  },
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -10641,15 +10644,21 @@
   },
   "My Raycast Wrapped of 2022": {
     "2022-12-17": "- [[My Raycast Wrapped of 2022]]",
-    "My Raycast Wrapped of 2023": "[[My Raycast Wrapped of 2022]]"
+    "My Raycast Wrapped of 2023": "- [[My Raycast Wrapped of 2022]]"
   },
   "My Raycast Wrapped of 2023": {
     "2023-12-15": "- [[My Raycast Wrapped of 2023]]",
-    "My Raycast Wrapped of 2024": "[[My Raycast Wrapped of 2023]]"
+    "My Raycast Wrapped of 2022": "- [[My Raycast Wrapped of 2023]]",
+    "My Raycast Wrapped of 2024": "- [[My Raycast Wrapped of 2023]]"
   },
   "My Raycast Wrapped of 2024": {
     "2024-12-18": "[[My Raycast Wrapped of 2024]]",
-    "My Raycast Wrapped of 2024": "[[My Raycast Wrapped of 2024]]"
+    "My Raycast Wrapped of 2023": "- [[My Raycast Wrapped of 2024]]",
+    "My Raycast Wrapped of 2025": "- [[My Raycast Wrapped of 2024]]"
+  },
+  "My Raycast Wrapped of 2025": {
+    "2026-01-08": "- [[My Raycast Wrapped of 2025]]",
+    "My Raycast Wrapped of 2024": "- [[My Raycast Wrapped of 2025]]"
   },
   "My UI Framework": {
     "2025-01-20": "- [[My UI Framework]]",
@@ -11209,7 +11218,8 @@
     "앰비언트 컴퓨팅을 향해": "두 제품 모두 [[OpenAI]] Whisper와 [[Generative Pre-trained Transformer|GPT]] 기술을 ..."
   },
   "OpenAI Grove": {
-    "2026-01-06": "[[OpenAI Grove]]"
+    "2026-01-06": "[[OpenAI Grove]]",
+    "Project Mangrove": "[[OpenAI Grove]] 가보자!"
   },
   "OpenAI enthroned as the Levis of Tech": {
     "2023-03-01": "- [[OpenAI enthroned as the Levis of Tech]]",
@@ -11406,6 +11416,21 @@
   "Passkey": {
     "2022-06-20": "... standard. [[Apple]] [[Passkey]] is a [[Passkey|FIDO]] alliance.",
     "2023-05-03": "- [[Passkey]]"
+  },
+  "Pasted image 20260108161928.png": {
+    "My Raycast Wrapped of 2025": "![[Pasted image 20260108161928.png]]"
+  },
+  "Pasted image 20260108161938.png": {
+    "My Raycast Wrapped of 2025": "![[Pasted image 20260108161938.png]]"
+  },
+  "Pasted image 20260108161946.png": {
+    "My Raycast Wrapped of 2025": "![[Pasted image 20260108161946.png]]"
+  },
+  "Pasted image 20260108161954.png": {
+    "My Raycast Wrapped of 2025": "![[Pasted image 20260108161954.png]]"
+  },
+  "Pasted image 20260108162007.png": {
+    "My Raycast Wrapped of 2025": "![[Pasted image 20260108162007.png]]"
   },
   "Pensieve": {
     "2022-11-07": "- [[Pensieve]]",
@@ -12177,6 +12202,9 @@
     "Project Florence": "- [[Project Malmantile]]",
     "Project Impruneta": "... subproject of [[Project Florence]]. Supercedes [[Project Malmantile]]"
   },
+  "Project Mangrove": {
+    "2026-01-08": "- [[Project Mangrove]]"
+  },
   "Project MarkRight": {
     "2025-06-30": "- [[Project MarkRight]]",
     "2025-07-01": "- [[Project MarkRight]]",
@@ -12437,8 +12465,10 @@
   },
   "Raycast": {
     "2023-04-05": "[[Raycast]]는 이모지 피커는 참 좋은데 검색이 ...",
-    "My Raycast Wrapped of 2022": "[[Raycast]]",
-    "My Raycast Wrapped of 2023": "[[Raycast]]",
+    "My Raycast Wrapped of 2022": "- [[Raycast]]",
+    "My Raycast Wrapped of 2023": "- [[Raycast]]",
+    "My Raycast Wrapped of 2024": "- [[Raycast]]",
+    "My Raycast Wrapped of 2025": "- [[Raycast]]",
     "Neo Apps": "... **Search**. Spotlight → Alfred → [[Raycast]]"
   },
   "React": {
@@ -16929,6 +16959,9 @@
   "바이올린 켜면 바이올레이션": {
     "2016-04-01": "- [[바이올린 켜면 바이올레이션]]"
   },
+  "바잘제트 오버엔지니어링": {
+    "2026-01-08": "- [[바잘제트 오버엔지니어링]]"
+  },
   "박스상자 (12誠鉉)": {
     "2023-09-05": "- [[박스상자 (12誠鉉)]]",
     "誠鉉": "- [[박스상자 (12誠鉉)]]",
@@ -17490,6 +17523,10 @@
   },
   "조성문의 블로그": {
     "2010년 테크 블로그 여행": "- [[조성문의 블로그]]"
+  },
+  "조잡생각": {
+    "2026-01-08": "- [[조잡생각]]",
+    "바잘제트 오버엔지니어링": "[[조잡생각]] [[2026-01-08]]"
   },
   "졸업을 앞둔 중학교 3학년들에게": {
     "2016-12-08": "- [[졸업을 앞둔 중학교 3학년들에게]]"

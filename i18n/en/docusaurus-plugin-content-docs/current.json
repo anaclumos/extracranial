@@ -5,10 +5,10 @@
   },
   "sidebar.defaultSidebar.category.Journals": {
     "message": "Journals",
-    "description": "The label for category Journals in sidebar defaultSidebar"
+    "description": "The label for category 'Journals' in sidebar 'defaultSidebar'"
   },
   "sidebar.defaultSidebar.category.Memex": {
     "message": "Memex",
-    "description": "The label for category Memex in sidebar defaultSidebar"
+    "description": "The label for category 'Memex' in sidebar 'defaultSidebar'"
   }
 }
