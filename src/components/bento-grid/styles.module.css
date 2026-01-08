@@ -1,52 +1,54 @@
 :root {
-  --glass-blur: 24px;
+  --glass-blur: 40px;
   --glass-saturation: 180%;
-  --glass-bg: rgba(255, 255, 255, 0.72);
-  --glass-bg-elevated: rgba(255, 255, 255, 0.85);
-  --glass-border: rgba(255, 255, 255, 0.5);
-  --glass-border-subtle: rgba(0, 0, 0, 0.06);
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-bg-elevated: rgba(255, 255, 255, 0.9);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-border-subtle: rgba(0, 0, 0, 0.05);
 
   --shadow-widget:
-    0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.06), 0 8px 32px
-    rgba(0, 0, 0, 0.08);
-  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.08);
+  --shadow-hover:
+    0 4px 16px rgba(0, 0, 0, 0.08), 0 16px 32px rgba(0, 0, 0, 0.12);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.8);
 
-  --bento-gap: 16px;
-  --bento-padding: 20px;
+  --bento-gap: 24px;
+  --bento-padding: 32px;
+  --card-radius: 24px;
 
   --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
   --ease-out: cubic-bezier(0, 0, 0.2, 1);
   --duration-fast: 0.2s;
-  --duration-normal: 0.35s;
+  --duration-normal: 0.4s;
   --duration-slow: 0.5s;
 
-  --apple-blue: #0a84ff;
-  --apple-green: #30d158;
-  --apple-orange: #ff9f0a;
-  --apple-red: #ff453a;
-  --apple-purple: #bf5af2;
-  --apple-pink: #ff375f;
-  --apple-teal: #64d2ff;
-  --apple-indigo: #5e5ce6;
+  --apple-blue: #007aff;
+  --apple-green: #34c759;
+  --apple-orange: #ff9500;
+  --apple-red: #ff3b30;
+  --apple-purple: #af52de;
+  --apple-pink: #ff2d55;
+  --apple-teal: #5ac8fa;
+  --apple-indigo: #5856d6;
+  --apple-gray: #8e8e93;
 }
 
 [data-theme="dark"] {
-  --glass-bg: rgba(28, 28, 30, 0.72);
-  --glass-bg-elevated: rgba(44, 44, 46, 0.85);
-  --glass-border: rgba(255, 255, 255, 0.12);
-  --glass-border-subtle: rgba(255, 255, 255, 0.06);
-  --shadow-widget:
-    0 1px 3px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.25), 0 8px 32px
-    rgba(0, 0, 0, 0.3);
-  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(30, 30, 30, 0.6);
+  --glass-bg-elevated: rgba(44, 44, 46, 0.8);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-border-subtle: rgba(255, 255, 255, 0.08);
+  --shadow-widget: 0 2px 8px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.3);
+  --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3), 0 16px 48px rgba(0, 0, 0, 0.4);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .bentoContainer {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 64px 24px;
   min-height: calc(100vh - var(--ifm-navbar-height));
   display: flex;
   flex-direction: column;
@@ -58,6 +60,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: var(--bento-gap);
   width: 100%;
+  padding-bottom: 2rem;
 }
 
 .cardLink {
@@ -69,16 +72,35 @@
 .bentoCard {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
-  border: none;
-  box-shadow:
-    0 4px 16px rgba(0, 0, 0, 0.2),
-    0 8px 32px rgba(0, 0, 0, 0.15);
+  background: var(--color-background-secondary);
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-widget);
   padding: var(--bento-padding);
   display: flex;
   flex-direction: column;
+  transition:
+    transform var(--duration-normal) var(--ease-spring),
+    box-shadow var(--duration-normal) var(--ease-apple);
   will-change: transform;
   cursor: default;
+  border: 1px solid var(--glass-border-subtle);
+}
+
+[data-theme="dark"] .bentoCard {
+  background: #1c1c1e;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cardLink:hover .bentoCard,
+.bentoCard:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-hover);
+  z-index: 1;
+}
+
+.cardLink:active .bentoCard,
+.bentoCard:active {
+  transform: scale(0.98);
 }
 
 .card2x2 {
@@ -110,11 +132,13 @@
   aspect-ratio: 4.174;
 }
 
+/* Hero Card */
 .heroCard {
   justify-content: center;
   align-items: flex-start;
-  padding: 32px;
-  background: linear-gradient(180deg, #5e5ce6 0%, #4b4acf 100%);
+  padding: 40px;
+  background: linear-gradient(180deg, var(--apple-indigo) 0%, #4b4acf 100%);
+  color: white;
 }
 
 .heroGlow {
@@ -125,7 +149,7 @@
   height: 100%;
   background: radial-gradient(
     ellipse at center,
-    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.2) 0%,
     transparent 70%
   );
   pointer-events: none;
@@ -134,29 +158,31 @@
 .heroTitle {
   position: relative;
   z-index: 1;
-  font-size: clamp(3rem, 8vw, 5rem);
+  font-size: clamp(3rem, 6vw, 4.5rem);
   font-weight: 700;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.04em;
   line-height: 1;
   margin: 0 0 16px 0;
   color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
 }
 
 .heroSubtitle {
   position: relative;
   z-index: 1;
-  font-family: var(--font-text);
-  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.9);
+  font-family: var(--font-family-sans-serif);
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
   margin: 0;
-  line-height: 1.6;
-  max-width: 32ch;
+  line-height: 1.4;
+  max-width: 36ch;
 }
 
+/* Now Playing Card */
 .nowPlayingCard {
-  padding: 16px;
-  background: linear-gradient(145deg, #1db954 0%, #2d2d2d 100%);
+  padding: 24px;
+  background: linear-gradient(135deg, #1db954 0%, #191919 100%);
   border: none;
   cursor: pointer;
 }
@@ -168,8 +194,6 @@
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  min-height: 0;
-  flex: 1;
 }
 
 .nowPlayingLoading {
@@ -184,20 +208,20 @@
   width: 32px;
   height: 32px;
   color: #fff;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
 
 .nowPlayingArtWrapper {
   position: relative;
-  width: 65%;
+  width: 60%;
   aspect-ratio: 1;
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-  transition: transform 0.3s var(--ease-spring);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s var(--ease-spring);
 }
 
 .nowPlayingCard:hover .nowPlayingArtWrapper {
-  transform: scale(1.03);
+  transform: scale(1.05) rotate(2deg);
 }
 
 .nowPlayingArt {
@@ -215,7 +239,6 @@
   right: 0;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
   z-index: 2;
 }
 
@@ -239,9 +262,11 @@
   0%,
   100% {
     opacity: 1;
+    transform: scale(1);
   }
   50% {
-    opacity: 0.5;
+    opacity: 0.6;
+    transform: scale(0.9);
   }
 }
 
@@ -249,57 +274,51 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  min-width: 0;
-  overflow: hidden;
-  flex-shrink: 0;
-  padding-top: 12px;
-  padding-right: 4px;
+  padding-top: 16px;
 }
 
 .nowPlayingTitle {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   line-height: 1.2;
   color: #fff;
-  margin: 0;
+  margin: 0 0 4px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .nowPlayingArtist {
-  font-family: var(--font-text);
-  font-size: 1rem;
-  line-height: 1.2;
-  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+/* GitHub Graph Card */
 .githubGraphCard {
-  padding: 16px 20px;
-  background: linear-gradient(180deg, #3a3a3c 0%, #2c2c2e 100%);
+  padding: 24px;
+  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
   cursor: pointer;
 }
 
 .githubGraphHeader {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .githubGraphLogo {
   width: 24px;
   height: 24px;
   color: #fff;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .githubGraphLabel {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
 }
@@ -309,12 +328,19 @@
   height: auto;
   border-radius: 8px;
   margin: auto 0;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.githubGraphCard:hover .githubGraphImage {
+  opacity: 1;
 }
 
 .mapCard {
   padding: 0;
+  background: linear-gradient(180deg, var(--apple-teal) 0%, #00c7be 100%);
+  border: none;
   overflow: hidden;
-  background: linear-gradient(180deg, #66d4cf 0%, #00c7be 100%);
 }
 
 .mapWrapper {
@@ -329,6 +355,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .mapPulse {
@@ -339,41 +366,40 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #30d158;
-  box-shadow: 0 0 0 0 rgba(48, 209, 88, 0.7);
+  background: #fff;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
   animation: mapPulseAnim 2s ease-out infinite;
 }
 
 @keyframes mapPulseAnim {
   0% {
-    box-shadow: 0 0 0 0 rgba(48, 209, 88, 0.7);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 20px rgba(48, 209, 88, 0);
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(48, 209, 88, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   }
 }
 
+/* Bio Card */
 .bioCard {
   justify-content: flex-start;
-  background: linear-gradient(180deg, #ff9f0a 0%, #ff9500 100%);
+  background: linear-gradient(180deg, var(--apple-orange) 0%, #ff9500 100%);
   --bio-line-clamp: 7;
 }
 
 .bioLabel {
-  font-family: var(--font-text);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 10px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 12px;
 }
 
 .bioContent {
-  font-family: var(--font-text);
   color: #fff;
   margin: 0;
   flex: 1;
@@ -381,26 +407,30 @@
   -webkit-line-clamp: var(--bio-line-clamp);
   -webkit-box-orient: vertical;
   overflow: hidden;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 .bioRefreshButton {
   position: absolute;
-  bottom: 12px;
-  right: 12px;
-  width: 28px;
-  height: 28px;
-  padding: 4px;
-  background: rgba(255, 255, 255, 0.2);
+  bottom: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  background: rgba(255, 255, 255, 0.25);
   border: none;
   border-radius: 50%;
   color: #fff;
   cursor: pointer;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
-  transition: background 0.2s ease;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
 }
 
 .bioRefreshButton:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
+  transform: rotate(180deg);
 }
 
 .bioRefreshButton svg {
@@ -408,62 +438,53 @@
   height: 100%;
 }
 
+/* Habit Tracker Card */
 .habitTrackerCard {
-  padding: 20px 24px;
+  padding: 24px;
   background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-
-.habitTrackerCard::-webkit-scrollbar {
-  display: none;
 }
 
 .habitTrackerHeader {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 16px;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
 .habitTrackerLogo {
-  width: 22px;
-  height: 22px;
-  color: #fff;
+  width: 24px;
+  height: 24px;
+  color: var(--apple-green);
 }
 
 .habitTrackerLabel {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  letter-spacing: -0.01em;
 }
 
 .habitGrid {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 8px;
 }
 
 .habitGridRow {
   display: flex;
-  gap: 4px;
+  gap: 6px;
   align-items: center;
 }
 
 .habitIdCell {
-  width: 48px;
+  width: 56px;
   flex-shrink: 0;
   font-family: var(--font-family-monospace);
-  font-size: 11px;
-  font-weight: 600;
-  text-decoration: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
   text-align: right;
-  padding-right: 8px;
+  padding-right: 12px;
+  text-decoration: none;
   transition: opacity var(--duration-fast) var(--ease-apple);
 }
 
@@ -472,17 +493,17 @@
 }
 
 .habitDayHeader {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   flex-shrink: 0;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.4);
-  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .habitDayHeader:hover {
@@ -495,271 +516,153 @@
 }
 
 .habitCell {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   flex-shrink: 0;
   border-radius: 4px;
   text-decoration: none;
-  transition:
-    transform var(--duration-fast) var(--ease-spring),
-    opacity var(--duration-fast) var(--ease-apple);
+  transition: all var(--duration-fast) var(--ease-spring);
 }
 
 .habitCell:hover {
-  transform: scale(1.2);
-  opacity: 0.85;
+  transform: scale(1.3);
+  z-index: 10;
 }
 
 .habitCellDone {
   background: var(--apple-green);
+  box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
 }
 
 .habitCellEmpty {
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .habitCellEmpty:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.2);
 }
 
-.cardLink:focus-visible .bentoCard {
-  outline: 3px solid var(--apple-blue);
-  outline-offset: 4px;
-}
-
+/* Focus States */
+.cardLink:focus-visible .bentoCard,
 .bentoCard:focus-visible {
-  outline: 3px solid var(--apple-blue);
-  outline-offset: 4px;
+  outline: 4px solid var(--apple-blue);
+  outline-offset: 2px;
 }
 
+/* Tablet */
 @media (max-width: 1024px) {
   .bentoContainer {
-    padding: 32px 20px;
+    padding: 48px 24px;
   }
-
   .bentoGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .card2x2 {
-    grid-column: span 2;
-    grid-row: span 1;
-    aspect-ratio: 2 / 1;
-  }
-
-  .card2x1 {
-    grid-column: span 2;
-    aspect-ratio: 2 / 1;
-  }
-
+  .card2x2,
+  .card2x1,
   .card4x1 {
     grid-column: span 2;
+  }
+  .card2x1,
+  .card4x1 {
     aspect-ratio: 2 / 1;
   }
-
+  .card2x2 {
+    aspect-ratio: 1;
+  }
   .heroTitle {
-    font-size: clamp(2.5rem, 7vw, 3.5rem);
-  }
-
-  .heroCard {
-    padding: 24px;
-  }
-
-  .githubGraphCard {
-    padding: 14px 16px;
-  }
-
-  .githubGraphImage {
-    width: 100%;
-    object-fit: contain;
-  }
-
-  .habitTrackerCard {
-    padding: 16px 18px;
-  }
-
-  .habitGrid {
-    gap: 5px;
-  }
-
-  .habitGridRow {
-    gap: 3px;
-  }
-
-  .habitIdCell {
-    width: 42px;
-    font-size: 10px;
-  }
-
-  .habitDayHeader,
-  .habitCell {
-    width: 12px;
-    height: 12px;
-    border-radius: 3px;
-  }
-
-  .habitDayHeader {
-    font-size: 8px;
+    font-size: 3.5rem;
   }
 }
 
+/* Mobile */
 @media (max-width: 640px) {
   :root {
-    --bento-gap: 12px;
-    --bento-padding: 16px;
+    --bento-gap: 16px;
+    --bento-padding: 24px;
   }
-
   .bentoContainer {
-    padding: 20px 16px;
-    justify-content: flex-start;
-    padding-top: 24px;
+    padding: 32px 16px;
   }
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  .nowPlayingArtWrapper {
+    width: 50%;
+  }
+}
 
+/* Small Mobile */
+@media (max-width: 480px) {
   .bentoGrid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--bento-gap);
+    grid-template-columns: 1fr;
   }
-
-  .card2x2 {
-    grid-column: span 2;
-    grid-row: span 1;
-    aspect-ratio: 2 / 1;
-  }
-
-  .card2x1 {
-    grid-column: span 2;
-    grid-row: span 1;
-    aspect-ratio: 2 / 1;
-  }
-
-  .card1x2 {
+  .card2x2,
+  .card2x1,
+  .card1x2,
+  .card1x1,
+  .card4x1 {
     grid-column: span 1;
-    grid-row: span 1;
-    aspect-ratio: 1;
+    grid-row: auto;
+    aspect-ratio: auto;
+    min-height: 200px;
   }
 
   .card1x1 {
     aspect-ratio: 1;
   }
 
-  .card4x1 {
-    grid-column: span 2;
-    grid-row: span 1;
-    aspect-ratio: 2 / 1;
-  }
-
   .heroCard {
-    padding: 20px;
+    aspect-ratio: 4 / 5;
+    padding: 24px;
   }
 
   .heroTitle {
     font-size: 2.25rem;
   }
 
-  .heroSubtitle {
-    font-size: 1rem;
-    max-width: none;
+  .habitTrackerCard {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .habitTrackerCard::-webkit-scrollbar {
+    display: none;
   }
 
   .nowPlayingCard {
-    padding: 12px;
+    aspect-ratio: auto;
+    min-height: 180px;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
   }
 
-  .nowPlayingTitle {
-    font-size: 1rem;
+  .nowPlayingArtWrapper {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
   }
 
-  .nowPlayingArtist {
-    font-size: 0.875rem;
+  .nowPlayingInfo {
+    padding-top: 0;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
   }
 
-  .spotifyLogo {
-    width: 24px;
-    height: 24px;
-  }
-
-  .bioCard {
-    padding: 16px;
-    --bio-line-clamp: 6;
-  }
-
-  .bioLabel {
-    font-size: 0.65rem;
-    margin-bottom: 8px;
-  }
-
-  .bioContent {
-    font-size: 0.875rem;
-    line-height: 1.45;
-  }
-
-  .bioRefreshButton {
-    width: 24px;
-    height: 24px;
-    bottom: 10px;
-    right: 10px;
-  }
-
-  .githubGraphCard {
-    padding: 12px 14px;
-  }
-
-  .githubGraphHeader {
-    margin-bottom: 8px;
-    gap: 8px;
-  }
-
-  .githubGraphLogo {
-    width: 20px;
-    height: 20px;
-  }
-
-  .githubGraphLabel {
-    font-size: 0.85rem;
-  }
-
-  .habitTrackerCard {
-    padding: 16px;
-  }
-
-  .habitTrackerHeader {
-    margin-bottom: 12px;
-  }
-
-  .habitTrackerLabel {
-    font-size: 0.9rem;
-  }
-
-  .habitGrid {
-    gap: 4px;
-  }
-
-  .habitGridRow {
-    gap: 3px;
-  }
-
-  .habitIdCell {
-    width: 36px;
-    font-size: 9px;
-    padding-right: 6px;
-  }
-
-  .habitDayHeader,
-  .habitCell {
-    width: 10px;
-    height: 10px;
-    border-radius: 2px;
-  }
-
-  .habitDayHeader {
-    font-size: 7px;
+  .nowPlayingLogoCell {
+    top: 20px;
+    right: 20px;
   }
 }
 
+/* Animation */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px) scale(0.95);
+    transform: translateY(30px) scale(0.95);
   }
   to {
     opacity: 1;
@@ -771,37 +674,37 @@
   --bento-stagger-delay: 0ms;
 }
 .bentoGrid > :nth-child(2) {
-  --bento-stagger-delay: 40ms;
+  --bento-stagger-delay: 50ms;
 }
 .bentoGrid > :nth-child(3) {
-  --bento-stagger-delay: 80ms;
+  --bento-stagger-delay: 100ms;
 }
 .bentoGrid > :nth-child(4) {
-  --bento-stagger-delay: 120ms;
+  --bento-stagger-delay: 150ms;
 }
 .bentoGrid > :nth-child(5) {
-  --bento-stagger-delay: 160ms;
-}
-.bentoGrid > :nth-child(6) {
   --bento-stagger-delay: 200ms;
 }
+.bentoGrid > :nth-child(6) {
+  --bento-stagger-delay: 250ms;
+}
 .bentoGrid > :nth-child(7) {
-  --bento-stagger-delay: 240ms;
+  --bento-stagger-delay: 300ms;
 }
 .bentoGrid > :nth-child(8) {
-  --bento-stagger-delay: 280ms;
+  --bento-stagger-delay: 350ms;
 }
 .bentoGrid > :nth-child(9) {
-  --bento-stagger-delay: 320ms;
-}
-.bentoGrid > :nth-child(10) {
-  --bento-stagger-delay: 360ms;
-}
-.bentoGrid > :nth-child(11) {
   --bento-stagger-delay: 400ms;
 }
+.bentoGrid > :nth-child(10) {
+  --bento-stagger-delay: 450ms;
+}
+.bentoGrid > :nth-child(11) {
+  --bento-stagger-delay: 500ms;
+}
 .bentoGrid > :nth-child(12) {
-  --bento-stagger-delay: 440ms;
+  --bento-stagger-delay: 550ms;
 }
 
 .animateIn {
@@ -816,7 +719,6 @@
   .nowPlayingDot {
     animation: none;
   }
-
   .animateIn {
     opacity: 1;
   }
