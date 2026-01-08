@@ -1,13 +1,23 @@
 import Link from '@docusaurus/Link'
 import Translate, { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
+import habitLogData from '@site/src/data/habit-log.json'
+import habitsData from '@site/src/data/habits.json'
 import { cn } from '@site/src/util/cn'
 import { Squircle } from 'corner-smoothing'
 import type { ReactNode } from 'react'
 import { useCallback, useEffect, useRef, useState } from 'react'
-
 import { funFacts } from './fun-facts'
 import styles from './styles.module.css'
+
+interface HabitDefinition {
+  id: string
+  title: string
+  status: 'TODO' | 'ING' | 'SUCCESS' | 'FAILURE'
+  sourceFile: string
+}
+
+type HabitLog = Record<string, string[]>
 
 const CORNER_RADIUS = 28
 const CORNER_SMOOTHING = 0.6
@@ -62,7 +72,7 @@ function BentoCard({
 
 function HeroCard() {
   return (
-    <BentoCard className={cn(styles.cardXL, styles.heroCard)}>
+    <BentoCard className={cn(styles.card2x2, styles.heroCard)}>
       <div aria-hidden="true" className={styles.heroGlow} />
       <h1 className={styles.heroTitle}>
         <Translate id="bento.hero.name">Sunghyun Cho</Translate>
@@ -160,7 +170,7 @@ function NowPlayingWidget() {
 
   if (loading || !track) {
     return (
-      <BentoCard className={cn(styles.cardNormal, styles.nowPlayingCard)}>
+      <BentoCard className={cn(styles.card1x1, styles.nowPlayingCard)}>
         <div className={styles.nowPlayingLoading}>
           <SpotifyLogo />
         </div>
@@ -170,11 +180,17 @@ function NowPlayingWidget() {
 
   return (
     <BentoCard
-      className={cn(styles.cardNormal, styles.nowPlayingCard)}
+      className={cn(styles.card1x1, styles.nowPlayingCard)}
       external
       href={track.url}
     >
       <div className={styles.nowPlayingGrid}>
+        <div className={styles.nowPlayingLogoCell}>
+          <div className={styles.nowPlayingLogoStack}>
+            <SpotifyLogo />
+            {isPlaying && <span className={styles.nowPlayingDot} />}
+          </div>
+        </div>
         <div className={styles.nowPlayingArtWrapper}>
           {albumArt && (
             <img
@@ -185,12 +201,6 @@ function NowPlayingWidget() {
               width={300}
             />
           )}
-          <div className={styles.nowPlayingLogoCell}>
-            <div className={styles.nowPlayingLogoStack}>
-              <SpotifyLogo />
-              {isPlaying && <span className={styles.nowPlayingDot} />}
-            </div>
-          </div>
         </div>
         <div className={styles.nowPlayingInfo}>
           <p className={styles.nowPlayingTitle}>{track.name}</p>
@@ -204,7 +214,7 @@ function NowPlayingWidget() {
 function GitHubGraphWidget() {
   return (
     <BentoCard
-      className={cn(styles.cardFull, styles.githubGraphCard)}
+      className={cn(styles.card4x1, styles.githubGraphCard)}
       external
       href="https://github.com/anaclumos"
     >
@@ -272,7 +282,7 @@ function BioCard() {
   })
 
   return (
-    <BentoCard className={cn(styles.cardLarge, styles.bioCard)}>
+    <BentoCard className={cn(styles.card2x1, styles.bioCard)}>
       <span className={styles.bioLabel}>
         <Translate id="bento.bio.label">Fun Fact</Translate>
       </span>
@@ -368,10 +378,146 @@ function MapWidget() {
   }, [i18n.currentLocale])
 
   return (
-    <BentoCard className={cn(styles.cardNormal, styles.mapCard)}>
+    <BentoCard className={cn(styles.card1x1, styles.mapCard)}>
       <div className={styles.mapWrapper}>
         <div className={styles.mapImage} ref={mapRef} />
         <span className={styles.mapPulse} />
+      </div>
+    </BentoCard>
+  )
+}
+
+const HABIT_WEEKS = 8
+const MD_EXT_RE = /\.md$/
+const SPACE_RE = / /g
+const HABIT_COLORS = [
+  'var(--apple-green)',
+  'var(--apple-blue)',
+  'var(--apple-orange)',
+  'var(--apple-pink)',
+  'var(--apple-purple)',
+  'var(--apple-teal)',
+  'var(--apple-red)',
+  'var(--apple-indigo)',
+]
+
+function generateDateRange(weeks: number): string[] {
+  const dates: string[] = []
+  const today = new Date()
+  const totalDays = weeks * 7
+
+  for (let i = totalDays - 1; i >= 0; i--) {
+    const date = new Date(today)
+    date.setDate(today.getDate() - i)
+    dates.push(date.toISOString().split('T')[0] ?? '')
+  }
+
+  return dates
+}
+
+function HabitTrackerWidget() {
+  const habits = (habitsData as HabitDefinition[]).filter(
+    (h) => h.status === 'ING'
+  )
+  const habitLog = habitLogData as HabitLog
+
+  if (habits.length === 0) {
+    return null
+  }
+
+  const dates = generateDateRange(HABIT_WEEKS)
+  const completedDatesSet = new Map<string, Set<string>>()
+
+  for (const habit of habits) {
+    completedDatesSet.set(habit.id, new Set(habitLog[habit.id] ?? []))
+  }
+
+  const dailyCompletionCount = dates.map((date) => {
+    let count = 0
+    for (const habit of habits) {
+      if (completedDatesSet.get(habit.id)?.has(date)) {
+        count++
+      }
+    }
+    return count
+  })
+
+  return (
+    <BentoCard className={cn(styles.card4x1, styles.habitTrackerCard)}>
+      <div className={styles.habitTrackerHeader}>
+        <svg
+          aria-hidden="true"
+          className={styles.habitTrackerLogo}
+          fill="none"
+          stroke="currentColor"
+          strokeWidth={2}
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span className={styles.habitTrackerLabel}>
+          <Translate id="bento.habits.label">Building Habits</Translate>
+        </span>
+      </div>
+      <div className={styles.habitGrid}>
+        <div className={styles.habitGridRow}>
+          <div className={styles.habitIdCell} />
+          {dates.map((date, idx) => {
+            const count = dailyCompletionCount[idx] ?? 0
+            const allDone = count === habits.length
+            return (
+              <Link
+                className={cn(
+                  styles.habitDayHeader,
+                  allDone && styles.habitDayHeaderAllDone
+                )}
+                key={date}
+                title={`${date}: ${count}/${habits.length} habits`}
+                to={`/r/${date}`}
+              >
+                {count > 0 ? count : ''}
+              </Link>
+            )
+          })}
+        </div>
+        {habits.map((habit, habitIndex) => {
+          const completedSet = completedDatesSet.get(habit.id)
+          const slugPath = habit.sourceFile
+            .replace(MD_EXT_RE, '')
+            .replace(SPACE_RE, '%20')
+          const habitColor = HABIT_COLORS[habitIndex % HABIT_COLORS.length]
+          return (
+            <div className={styles.habitGridRow} key={habit.id}>
+              <Link
+                className={styles.habitIdCell}
+                style={{ color: habitColor }}
+                title={habit.title}
+                to={`/r/${slugPath}`}
+              >
+                {habit.id}
+              </Link>
+              {dates.map((date) => {
+                const isCompleted = completedSet?.has(date) ?? false
+                return (
+                  <Link
+                    className={cn(
+                      styles.habitCell,
+                      isCompleted ? styles.habitCellDone : styles.habitCellEmpty
+                    )}
+                    key={date}
+                    style={isCompleted ? { background: habitColor } : undefined}
+                    title={`${habit.id} - ${date}: ${isCompleted ? 'Done' : 'Not done'}`}
+                    to={`/r/${date}`}
+                  />
+                )
+              })}
+            </div>
+          )
+        })}
       </div>
     </BentoCard>
   )
@@ -385,6 +531,7 @@ export default function BentoGrid() {
         <NowPlayingWidget />
         <MapWidget />
         <BioCard />
+        <HabitTrackerWidget />
         <GitHubGraphWidget />
       </div>
     </main>
