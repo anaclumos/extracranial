@@ -11,9 +11,9 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: var(--ifm-color-emphasis-700);
-  margin-bottom: 0.5rem;
-  padding-left: 0.5rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
 }
 
 .list {
@@ -31,17 +31,19 @@
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  padding: 0.5rem;
-  border-radius: var(--border-radius);
-  color: var(--ifm-color-content);
-  transition: background-color var(--transition-fast);
+  padding: 0.75rem;
+  border-radius: 12px;
+  color: var(--color-text-primary);
+  transition: all var(--transition-fast);
   text-decoration: none;
+  border: 1px solid transparent;
 }
 
 .link:hover {
-  background-color: var(--ifm-menu-color-background-active);
-  color: var(--ifm-color-content);
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
   text-decoration: none;
+  border-color: var(--color-separator);
 }
 
 .linkTitle {
@@ -52,7 +54,7 @@
 
 .excerpt {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-500);
+  color: var(--color-text-secondary);
   line-height: 1.4;
   overflow: hidden;
   display: -webkit-box;
@@ -67,7 +69,7 @@
 
 .empty {
   font-size: 0.8rem;
-  color: var(--ifm-color-emphasis-500);
-  padding: 0.5rem;
+  color: var(--color-text-secondary);
+  padding: 0.75rem;
   font-style: italic;
 }
