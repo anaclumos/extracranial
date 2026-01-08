@@ -16,7 +16,7 @@
     "description": "Navbar item with label Random"
   },
   "logo.alt": {
-    "message": "Sunghyun Cho Logo",
+    "message": "조성현 로고",
     "description": "The alt text of navbar logo"
   },
   "item.label.What's this?": {

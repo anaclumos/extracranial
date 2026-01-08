@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e40dc4732d5f6237",
+        "id": "faf7a673fda703dc",
         "type": "tabs",
         "children": [
           {
-            "id": "529c08bbbe0bf878",
+            "id": "6cc277ca3cee5e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/OpenAI Grove.md",
+                "file": "journals/2026-01-08.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "OpenAI Grove"
-            }
-          },
-          {
-            "id": "7d80d7c0a84f68e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/OpenAI Grove.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Grove"
+              "title": "2026-01-08"
             }
           }
         ]
@@ -210,10 +186,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "529c08bbbe0bf878",
+  "active": "6cc277ca3cee5e39",
   "lastOpenFiles": [
-    "journals/2026-01-06.md",
+    "pages/My Raycast Wrapped of 2025.md",
+    "pages/My Raycast Wrapped of 2024.md",
+    "pages/My Raycast Wrapped of 2023.md",
+    "pages/My Raycast Wrapped of 2022.md",
+    "pages/Raycast.md",
+    "journals/2026-01-08.md",
+    "assets/Pasted image 20260108162007.png",
+    "assets/Pasted image 20260108161954.png",
+    "assets/Pasted image 20260108161946.png",
+    "assets/Pasted image 20260108161938.png",
+    "assets/Pasted image 20260108161928.png",
+    "pages/Project Mangrove.md",
+    "pages/바잘제트 오버엔지니어링.md",
+    "pages/조잡생각.md",
+    "pages/Bazalgette Overengineering.md",
     "pages/OpenAI Grove.md",
+    "pages/INCL.md",
+    "journals/2026-01-06.md",
     "pages/Undefined Symbol Vtable.md",
     "pages/2026년 탕아의 맥 복귀.md",
     "journals/2026-01-02.md",
@@ -231,23 +223,7 @@
     "assets/164E3A.png",
     "assets/2F9B59.png",
     "pages/은하대백과 탐사.md",
-    "assets/E20A0E.png",
-    "assets/329A3E.png",
     "pages/Bento Grid.md",
-    "pages/Aldehyde Landing Page 2023.md",
-    "journals/2025-04-20.md",
-    "pages/Grandma's Koreapunk.md",
-    "pages/Laplace's Demon.md",
-    "pages/시공간적 연속성 (19誠鉉).md",
-    "pages/Gall's Law.md",
-    "pages/너 주식 해.md",
-    "pages/Regulation of Fake News.md",
-    "pages/United States.md",
-    "journals/2023-06-12.md",
-    "pages/AI Slop.md",
-    "assets/BD8935.gif",
-    "assets/15F2AC.png",
-    "assets/3CDD1D.gif",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

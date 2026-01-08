@@ -3,9 +3,9 @@ lang: 'en'
 slug: '/4F56FE'
 ---
 
-[[Raycast]]
-
-[[My Raycast Wrapped of 2022]]
+- [[My Raycast Wrapped of 2022]]
+- [[My Raycast Wrapped of 2024]]
+- [[Raycast]]
 
 ![[FA49F5.png]]
 

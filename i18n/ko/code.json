@@ -49,7 +49,7 @@
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "warning",
+    "message": "경고",
     "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
@@ -146,7 +146,7 @@
   },
   "theme.colorToggle.ariaLabel": {
     "message": "다크 모드와 라이트 모드 변경(현재 {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "다크 모드",
@@ -193,7 +193,7 @@
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "내비게이션 바 닫기",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
@@ -213,11 +213,11 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "문서 사이드바",
     "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "내비게이션 바 열기/닫기",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -248,11 +248,11 @@
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "사이드바 카테고리 '{label}' 접기",
     "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "사이드바 카테고리 '{label}' 펼치기",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.ErrorPageContent.title": {
@@ -288,7 +288,7 @@
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Main",
+    "message": "메인",
     "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
@@ -312,59 +312,59 @@
   },
   "theme.SearchModal.errorScreen.helpText": {
     "message": "인터넷 연결을 다시 확인하시기 바랍니다.",
-    "description": "The help text for error screen of search modal"
+    "description": "The help text for error screen"
   },
   "theme.SearchModal.errorScreen.titleText": {
     "message": "결과를 불러올 수 없음",
-    "description": "The title for error screen of search modal"
+    "description": "The title for error screen"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
     "message": "Esc 키",
-    "description": "The ARIA label for the Escape key button that close the modal"
+    "description": "The ARIA label for close key in footer"
   },
   "theme.SearchModal.footer.closeText": {
     "message": "로 종료",
-    "description": "The explanatory text of the action for Escape key"
+    "description": "The close text for footer"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
     "message": "화살표 아래 키",
-    "description": "The ARIA label for the Arrow down key button that makes the navigation"
+    "description": "The ARIA label for navigate down key in footer"
   },
   "theme.SearchModal.footer.navigateText": {
     "message": "로 이동",
-    "description": "The explanatory text of the action for the Arrow up and Arrow down key"
+    "description": "The navigate text for footer"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
     "message": "화살표 위 키",
-    "description": "The ARIA label for the Arrow up key button that makes the navigation"
+    "description": "The ARIA label for navigate up key in footer"
   },
   "theme.SearchModal.footer.searchByText": {
     "message": "검색 제공",
-    "description": "The text explain that the search is making by Algolia"
+    "description": "The 'Powered by' text for footer"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
     "message": "엔터 키",
-    "description": "The ARIA label for the Enter key button that makes the selection"
+    "description": "The ARIA label for select key in footer"
   },
   "theme.SearchModal.footer.selectText": {
     "message": "로 선택",
-    "description": "The explanatory text of the action for the enter key"
+    "description": "The select text for footer"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
     "message": "검색 결과 없음",
-    "description": "The text explains that there are no results for the following search"
+    "description": "The text when there are no results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
     "message": "알려주시기 바랍니다.",
-    "description": "The text for the link to report missing results"
+    "description": "The link text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
     "message": "검색 결과가 없는 것이 오류라고 생각되십니까?",
-    "description": "The text for the question where the user thinks there are missing results"
+    "description": "The text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
     "message": "다른 추천 검색어",
-    "description": "The text for the suggested query when no results are found for the following search"
+    "description": "The text for suggested query"
   },
   "theme.SearchModal.placeholder": {
     "message": "문서 검색",
@@ -384,7 +384,7 @@
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
     "message": "최근 검색어 없음",
-    "description": "The text when no recent searches"
+    "description": "The text when there are no recent searches"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
     "message": "최근",
@@ -392,19 +392,19 @@
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
     "message": "이 검색어를 즐겨찾기에서 삭제",
-    "description": "The label for remove favorite search button"
+    "description": "The title for remove favorite search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
     "message": "이 검색어를 최근 검색어에서 삭제",
-    "description": "The label for remove recent search button"
+    "description": "The title for remove recent search button"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
     "message": "이 검색어를 저장",
-    "description": "The label for save recent search button"
+    "description": "The title for save recent search button"
   },
   "theme.SearchPage.algoliaLabel": {
     "message": "Algolia로 검색",
-    "description": "The ARIA label for Algolia mention"
+    "description": "The description label for Algolia mention"
   },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "{count}개의 문서를 찾았습니다.",
@@ -451,7 +451,7 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "Work in Progress": {
-    "message": "Work in Progress"
+    "message": "작업 중"
   },
   "Work in Progress. Check back later.": {
     "message": "작업 중입니다. 나중에 다시 확인해 주시기 바랍니다."
@@ -489,10 +489,10 @@
     "description": "The draft content banner message"
   },
   " year ago.": {
-    "message": " year ago."
+    "message": "년이 지났습니다."
   },
   " years ago.": {
-    "message": " years ago."
+    "message": "년이 지났습니다."
   },
   "bento.hero.name": {
     "message": "조성현"
@@ -507,42 +507,174 @@
     "message": "새로고침"
   },
   "bento.bio.accelerationist": {
-    "message": "저는 여러 분야에서 가속주의(Accelerationist)자입니다. 그중 제일은 오픈소스 가속(oss/acc)입니다. 더 많이 만들고, 더 빨리 내놓고, 더 많이 대화하자는 철학입니다. 저는 수십만 유저를 가진 오픈소스 프로젝트를 여럿 이끌었으며, 그중 하나는 마이크로소프트에게서 연락을 받는 경험도 했습니다. 언젠가는 원자력(nuc/acc), 생명공학(bme/acc), 의료기술(med/acc), 그리고 나아가 과학(sci/acc) 분야로도 확장해보고 싶습니다."
+    "message": "저는 가속주의자입니다. 현재는 오픈소스 가속(oss/acc)에 집중합니다. 더 많이 만들고, 더 빨리 내놓고, 더 많이 대화하자는 철학입니다. 성공적인 OSS 프로젝트를 여럿 이끌었고, 마이크로소프트에게서 연락을 받기도 했습니다. 언젠가 nuc/acc, bme/acc, med/acc, sci/acc로도 확장하고 싶습니다."
   },
   "bento.bio.medicalAI": {
-    "message": "저는 운좋게도 관심 있는 영역에서 일하고 있습니다. 현재 의료AI 회사에서 MLOps를 담당하고 있습니다. 제 팀은 다양한 의료 AI 훈련의 어려움을 해결하는 플랫폼을 만듭니다. 궁극적으로 경쟁력 있는 세계적 제품을 만들어내고, 가능하다면 이를 오픈소스로 공개하여 더욱 나은 생태계를 구축하고 싶습니다."
+    "message": "현재 의료AI 회사에서 MLOps를 담당하며 의료 AI 훈련의 어려움을 해결하는 플랫폼을 만듭니다. 경쟁력 있는 세계적 제품을 만들고, 가능하다면 오픈소스로 공개하여 더 나은 생태계를 구축하고 싶습니다."
   },
   "bento.bio.lateralThinking": {
-    "message": "저는 상식을 뒤집는 수평적 사고와 독특한 아이디어를 매우 좋아합니다. 로켓 발사가 너무 비싸다라는 말에 \"그렇다면 착륙시켜 재활용하면 되지 않겠습니까!\"라고 응수하는 발상이 바로 그 예입니다. 훌륭한 엔지니어링 능력과 결합된다면 어느 분야에서든 멋진 혁신을 이끌어낼 수 있다고 생각합니다."
+    "message": "저는 수평적 사고와 독특한 아이디어를 좋아합니다. \"로켓이 너무 비싸다\" → \"착륙시켜 재활용하면 되지!\" 훌륭한 엔지니어링과 결합하면 어느 분야에서든 혁신을 이끌어낼 수 있습니다."
   },
   "bento.bio.earlyAdopter": {
-    "message": "저는 여러 분야에서 얼리어답터입니다. 덜 다듬어진 제품이나 초기 프로토타입도 기꺼이 사용해보는 편입니다. 새로운 아이디어를 탐구하고, 서로 과학자나 엔지니어로서 대화하는 것을 좋아합니다. 이러한 시도를 지속하려면 당연히 누군가의 지원이 필요하고, 그 역할을 제가 기꺼이 맡는 셈입니다."
+    "message": "저는 얼리어답터입니다. 덜 다듬어진 제품이나 초기 프로토타입도 기꺼이 사용합니다. 새 아이디어를 탐구하고 과학자나 엔지니어로서 대화하는 것을 좋아합니다. 누군가 지원해야 하니, 그 역할을 제가 맡습니다."
   },
   "bento.bio.koreanCulture": {
-    "message": "저는 한민족의 문화를 매우 좋아합니다. K-POP을 비롯한 최근의 한류도 좋지만, 사실은 전통문화에 더욱 많은 관심을 두고 있습니다. 한민족의 전통문화에는 아직 깊이 파헤쳐지지 않은 멋진 이야기들이 많습니다. 제가 가장 좋아하는 설화는 불가사리로, 쇠를 먹고 불을 뿜는 괴수이며 부패한 자들을 벌하고 전쟁과 고통을 끝낸 존재입니다. 제가 좋아하는 전통 유물인 장승(일명 벅수)은 공동체의 안녕을 지키는 토템 역할을 했습니다."
+    "message": "저는 한민족의 문화를 좋아합니다. K-POP도 좋지만 전통문화에 더 관심을 둡니다. 가장 좋아하는 설화는 불가사리로, 쇠를 먹고 불을 뿜어 부패한 자들을 벌하고 전쟁을 끝낸 괴수입니다. 좋아하는 유물인 장승(벅수)은 공동체의 안녕을 지키는 토템입니다."
   },
   "bento.bio.noEnglishName": {
-    "message": "저는 미국에서 공부할 때도 별도의 영어 이름을 사용하지 않았습니다. 이기홍(Ki Hong Lee)이나 우조아마카 아두바(Uzoamaka Aduba)가 말했듯, 사람들이 차이콥스키나 미켈란젤로, 도스토옙스키 같은 이름을 익힐 수 있다면 제 이름도 충분히 외울 수 있다고 생각합니다."
+    "message": "저는 미국에서 공부할 때도 영어 이름을 사용하지 않았습니다. 이기홍이나 우조아마카 아두바가 말했듯, 차이콥스키나 미켈란젤로를 익힐 수 있다면 제 이름 Sunghyun도 충분히 외울 수 있습니다."
   },
   "bento.bio.koreanHistory": {
-    "message": "저는 한민족의 역사와 동아시아 지정학에도 깊은 관심을 가지고 있습니다. 한민족의 5천 년 역사 어느 시점을 들여다보아도 항상 큰 격변이 있었습니다. 그 과정에서 한민족은 스스로를 구하기도 하고 스스로를 무너뜨리기도 했습니다. 역사는 반복되지는 않지만 유사한 흐름을 가진다고 하니, 대비하는 자세가 필요하다고 생각합니다."
+    "message": "저는 한민족의 역사와 동아시아 지정학에 깊은 관심을 가지고 있습니다. 5천 년 역사 어느 시점을 보아도 큰 격변이 있었고, 스스로를 구하기도, 무너뜨리기도 했습니다. 역사는 항상 운율이 있으니 대비가 필요합니다."
   },
   "bento.bio.trading": {
-    "message": "저는 투자도 많이 하고 있습니다. 토스증권 여러 항목에서 수익률 1위를 달성한 경험도 있습니다. 현재는 여러 알고리즘 트레이딩 전략을 공부 중입니다. 가끔은 정교한 계산으로 대박을 터뜨리기도 하고 가끔은 시장의 광기에 쪽박을 보기도 하지만, 매일 배움을 통해 전략을 탄탄히 다져나가고 있습니다. 물론 지금 백만장자는 아니어도 언젠가는 큰 목표를 달성하리라 생각합니다."
+    "message": "저는 투자도 많이 합니다. 토스증권에서 수익률 1위를 달성한 경험도 있습니다. 현재는 알고리즘 트레이딩 전략을 공부 중입니다. 가끔은 대박, 가끔은 쪽박이지만 매일 전략을 다져나가고 있습니다. 백만장자는 아니지만 나아가는 중입니다!"
   },
   "bento.bio.consoleGamer": {
-    "message": "저는 콘솔 게임을 무척 좋아하고, 특히 스토리성이 풍부하거나 사운드트랙이 뛰어난 게임에 몰입합니다. 소설이 19세기의 문학, 영화가 20세기의 새로운 문학이었다면, 게임은 21세기의 새로운 문학이라 생각합니다. 좋은 게임을 감상하고 음미하는 것은 하나의 기술이자 특권이라 봅니다."
+    "message": "저는 콘솔 게임을 좋아합니다. 특히 스토리나 사운드트랙이 뛰어난 게임에 몰입합니다. 게임은 21세기의 새로운 문학입니다. 좋은 게임을 감상하고 음미하는 것은 하나의 기술이자 특권입니다."
   },
   "bento.bio.favoriteGames": {
-    "message": "제가 특히 좋아하는 작품으로는 고스트 오브 쓰시마/요테이, 데스 스트랜딩 1 & 2, 디트로이트: 비컴 휴먼, 33 원정대, 그리고 산나비를 꼽을 수 있으며, 라스트 오브 어스와 스파이더맨 시리즈 또한 훌륭한 작품으로 평가하고 있습니다. 또 최근에는 리듬세상에 푹 빠져서, 닌텐도 Wii와 DS, 그리고 게임보이 (아날로그 포켓)으로 리듬세상을 하는 재미에 살고 있습니다. 이렇게 보면 음악이 좋은 게임을 좋아하는 것 같기도 합니다."
+    "message": "좋아하는 게임은 고스트 오브 쓰시마/요테이, 데스 스트랜딩 1 & 2, 디트로이트: 비컴 휴먼, 33 원정대, 산나비입니다. 최근에는 리듬세상에 빠져 Wii, DS, 게임보이로 플레이 중입니다. 음악 좋은 게임을 좋아하나 봅니다!"
   },
   "bento.bio.a11yI18n": {
-    "message": "저는 접근성과 국제화에 대한 집착에 가까운 관심을 가지고 있습니다. 제가 미국에서 생활할 때 현지 문화나 언론에 접근할 때 문턱을 느낀 경험이 있습니다. 주변의 뛰어난 한국인 친구들이 언어 장벽으로 기회를 놓치는 모습을 보며, 언어 장벽이 의도치 않게 새로운 형태의 차별이 될 수 있다는 생각을 하게 되었습니다."
+    "message": "저는 접근성과 국제화에 집착에 가까운 관심이 있습니다. 뛰어난 친구들이 언어 장벽으로 기회를 놓치는 모습을 보며, 언어 장벽이 의도치 않게 새로운 형태의 차별이 될 수 있다고 느꼈습니다."
   },
   "bento.bio.heroes": {
-    "message": "똑똑한 사람들과 대화하고, 제가 그 방에서 가장 부족한 사람으로 느껴지는 상황을 좋아합니다. 언젠가는 요란한 홍보나 허세 대신 진정한 품질로 승부하는 제품이나 서비스를 만들고 싶습니다. 이 목표를 위해 저는 제 롤모델들을 존경합니다. 예를 들어, 젠슨 황의 끈기, 리사 수의 기술적이면서 구원자 같은 리더십, 그리고 기예르모 라우치가 2014년의 대담한 개발자에서 미래를 개척하는 경영자로 성장한 모습 등을 통해 많은 영감을 받습니다."
+    "message": "똑똒한 사람들과 대화하고, 제가 가장 부족한 사람으로 느껴지는 상황을 좋아합니다. 진정한 품질로 승부하는 제품을 만들고 싶습니다. 롤모델은 젠슨 황(끈기), 리사 수(기술적 리더십), 기예르모 라우치(대담한 개발자에서 미래를 개척하는 경영자로)입니다."
   },
   "bento.bio.medici": {
-    "message": "저는 과학과 기술의 메디치가 되고 싶습니다. 메디치는 변화하는 르네상스 시대에 맞춰 뛰어난 사람들을 후원해 예술 산업을 개부심했습니다. 뛰어난 사람들을 움직여 더 나은 미래를 빚어낼 수 있다는 메디치의 가치에 저는 큰 울림을 받았고, 뛰어난 사람들이 모아 미래를 빚어나가고 싶다고 결심했습니다. 제 공상들을 현실로 바꾸고, 그 길을 닦아나가며, 이를 통해 사람들이 새로운 모험을 더욱 마음껏 즐길 수 있는 생태계를 만들어나가고자 합니다."
+    "message": "저는 과학과 기술의 메디치가 되고 싶습니다. 메디치는 르네상스 시대에 뛰어난 사람들을 후원해 예술을 혁신했습니다. 저도 뛰어난 사람들을 모아 미래를 빚어나가고, 새로운 모험을 마음껏 즐길 수 있는 생태계를 만들고자 합니다."
+  },
+  "backlink.sidebar.title": {
+    "message": "이 문서를 언급한 문서들",
+    "description": "The title of the backlink sidebar section"
+  },
+  "backlink.sidebar.empty": {
+    "message": "아직 아무것도 없네요...",
+    "description": "The message when there is no backlink"
+  },
+  "backlink.mobile.title": {
+    "message": "이 문서를 언급한 문서들",
+    "description": "The title of the mobile backlink section"
+  },
+  "backlink.mobile.empty": {
+    "message": "아직 아무것도 없네요...",
+    "description": "The message when there is no backlink on mobile"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "시스템 모드",
+    "description": "The name for the system color mode"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(새 탭에서 열림)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "드롭다운 펼치기",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "드롭다운 접기",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.SearchModal.searchBox.placeholderText": {
+    "message": "문서 검색",
+    "description": "The placeholder text for the main search input field"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAi": {
+    "message": "다른 질문하기...",
+    "description": "The placeholder text when in AI question mode"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAiStreaming": {
+    "message": "답변 중...",
+    "description": "The placeholder text for search box when AI is streaming an answer"
+  },
+  "theme.SearchModal.searchBox.enterKeyHint": {
+    "message": "검색",
+    "description": "The hint for the search box enter key text"
+  },
+  "theme.SearchModal.searchBox.enterKeyHintAskAi": {
+    "message": "입력",
+    "description": "The hint for the Ask AI search box enter key text"
+  },
+  "theme.SearchModal.searchBox.searchInputLabel": {
+    "message": "검색",
+    "description": "The ARIA label for search input"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonText": {
+    "message": "키워드 검색으로 돌아가기",
+    "description": "The text for back to keyword search button"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonAriaLabel": {
+    "message": "키워드 검색으로 돌아가기",
+    "description": "The ARIA label for back to keyword search button"
+  },
+  "theme.SearchModal.startScreen.recentConversationsTitle": {
+    "message": "최근 대화",
+    "description": "The title for recent conversations"
+  },
+  "theme.SearchModal.startScreen.removeRecentConversationButtonTitle": {
+    "message": "이 대화를 기록에서 삭제",
+    "description": "The title for remove recent conversation button"
+  },
+  "theme.SearchModal.resultsScreen.askAiPlaceholder": {
+    "message": "AI에게 질문: ",
+    "description": "The placeholder text for Ask AI input"
+  },
+  "theme.SearchModal.askAiScreen.disclaimerText": {
+    "message": "답변은 AI가 생성하며 오류가 있을 수 있습니다. 응답을 확인해주세요.",
+    "description": "The disclaimer text for AI answers"
+  },
+  "theme.SearchModal.askAiScreen.relatedSourcesText": {
+    "message": "관련 출처",
+    "description": "The text for related sources"
+  },
+  "theme.SearchModal.askAiScreen.thinkingText": {
+    "message": "생각 중...",
+    "description": "The text when AI is thinking"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonText": {
+    "message": "복사",
+    "description": "The text for copy button"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonCopiedText": {
+    "message": "복사됨!",
+    "description": "The text for copy button when copied"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonTitle": {
+    "message": "복사",
+    "description": "The title for copy button"
+  },
+  "theme.SearchModal.askAiScreen.likeButtonTitle": {
+    "message": "좋아요",
+    "description": "The title for like button"
+  },
+  "theme.SearchModal.askAiScreen.dislikeButtonTitle": {
+    "message": "싫어요",
+    "description": "The title for dislike button"
+  },
+  "theme.SearchModal.askAiScreen.thanksForFeedbackText": {
+    "message": "피드백 감사합니다!",
+    "description": "The text for thanks for feedback"
+  },
+  "theme.SearchModal.askAiScreen.preToolCallText": {
+    "message": "검색 중...",
+    "description": "The text before tool call"
+  },
+  "theme.SearchModal.askAiScreen.duringToolCallText": {
+    "message": "검색 중: ",
+    "description": "The text during tool call"
+  },
+  "theme.SearchModal.askAiScreen.afterToolCallText": {
+    "message": "검색 완료: ",
+    "description": "The text after tool call"
+  },
+  "theme.SearchModal.footer.submitQuestionText": {
+    "message": "질문 제출",
+    "description": "The submit question text for footer"
+  },
+  "theme.SearchModal.footer.backToSearchText": {
+    "message": "검색으로 돌아가기",
+    "description": "The back to search text for footer"
   }
 }
