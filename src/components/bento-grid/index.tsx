@@ -3,6 +3,7 @@ import Translate, { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import habitLogData from '@site/src/data/habit-log.json'
 import habitsData from '@site/src/data/habits.json'
+import journalDates from '@site/src/data/journals.json'
 import { cn } from '@site/src/util/cn'
 import { Squircle } from 'corner-smoothing'
 import type { ReactNode } from 'react'
@@ -123,7 +124,7 @@ function HeroCard() {
     kmla: { icon: '/img/kmla.png', en: 'KMLA', ko: '민사고' },
     usc: { icon: '/img/usc.svg', en: 'USC', ko: 'USC' },
     lunit: { icon: '/img/lunit.svg', en: 'Lunit', ko: '루닛' },
-    baemin: { icon: '/img/baemin.png', en: 'Baemin', ko: '배민' },
+    baemin: { icon: '/img/baemin.png', en: 'Baemin', ko: '배달의민족' },
     karrot: { icon: '/img/karrot.png', en: 'Karrot', ko: '당근' },
     grammarly: { icon: '/img/grammarly.png', en: 'Grammarly', ko: 'Grammarly' },
   }
@@ -161,7 +162,7 @@ function HeroCard() {
                 name={getName('lunit')}
                 onClick={() => handleOrgClick('lunit')}
               />
-              에서 의료 AI 플랫폼을 만듭니다.
+              에서 의료 LLM 플랫폼을 만듭니다.
               <br />
               이전에는{' '}
               <InlineOrg
@@ -204,7 +205,7 @@ function HeroCard() {
               />
               .
               <br />
-              Building medical AI platform at{' '}
+              Building medical LLM platform at{' '}
               <InlineOrg
                 icon={orgs.lunit.icon}
                 isActive={activeOrg === 'lunit'}
@@ -685,6 +686,7 @@ function HabitTrackerWidget() {
     (h) => h.status === 'ING'
   )
   const habitLog = habitLogData as HabitLog
+  const existingJournals = new Set(journalDates as string[])
 
   if (habits.length === 0) {
     return null
@@ -734,18 +736,27 @@ function HabitTrackerWidget() {
           {dates.map((date, idx) => {
             const count = dailyCompletionCount[idx] ?? 0
             const allDone = count === habits.length
-            return (
+            const hasJournal = existingJournals.has(date)
+            const className = cn(
+              styles.habitDayHeader,
+              allDone && styles.habitDayHeaderAllDone
+            )
+            const title = `${date}: ${count}/${habits.length} habits`
+            const content = count > 0 ? count : ''
+
+            return hasJournal ? (
               <Link
-                className={cn(
-                  styles.habitDayHeader,
-                  allDone && styles.habitDayHeaderAllDone
-                )}
+                className={className}
                 key={date}
-                title={`${date}: ${count}/${habits.length} habits`}
+                title={title}
                 to={`/r/${date}`}
               >
-                {count > 0 ? count : ''}
+                {content}
               </Link>
+            ) : (
+              <span className={className} key={date} title={title}>
+                {content}
+              </span>
             )
           })}
         </div>
@@ -767,16 +778,30 @@ function HabitTrackerWidget() {
               </Link>
               {dates.map((date) => {
                 const isCompleted = completedSet?.has(date) ?? false
-                return (
+                const hasJournal = existingJournals.has(date)
+                const className = cn(
+                  styles.habitCell,
+                  isCompleted ? styles.habitCellDone : styles.habitCellEmpty
+                )
+                const style = isCompleted
+                  ? { background: habitColor }
+                  : undefined
+                const title = `${habit.id} - ${date}: ${isCompleted ? 'Done' : 'Not done'}`
+
+                return hasJournal ? (
                   <Link
-                    className={cn(
-                      styles.habitCell,
-                      isCompleted ? styles.habitCellDone : styles.habitCellEmpty
-                    )}
+                    className={className}
                     key={date}
-                    style={isCompleted ? { background: habitColor } : undefined}
-                    title={`${habit.id} - ${date}: ${isCompleted ? 'Done' : 'Not done'}`}
+                    style={style}
+                    title={title}
                     to={`/r/${date}`}
+                  />
+                ) : (
+                  <span
+                    className={className}
+                    key={date}
+                    style={style}
+                    title={title}
                   />
                 )
               })}
