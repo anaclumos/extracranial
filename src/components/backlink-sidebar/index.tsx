@@ -19,35 +19,57 @@ function escapeRegExp(str: string): string {
 }
 
 function processExcerpt(text: string, title: string): string {
-  let normalizedText = text
-    .trim()
-    .normalize('NFC')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
+  const normalizedText = text.trim().normalize('NFC')
 
   const normalizedTitle = title.normalize('NFC')
   const escapedTitle = escapeRegExp(normalizedTitle)
 
+  // First, strip wikilinks to plain text for truncation calculation
+  let plainText = normalizedText
   try {
     const regex1 = new RegExp(`\\[\\[${escapedTitle}\\|(.+?)\\]\\]`, 'gi')
-    normalizedText = normalizedText.replace(regex1, '<b>$1</b>')
+    plainText = plainText.replace(regex1, '$1')
 
     const regex2 = new RegExp(`\\[\\[${escapedTitle}\\]\\]`, 'gi')
-    normalizedText = normalizedText.replace(regex2, `<b>${normalizedTitle}</b>`)
+    plainText = plainText.replace(regex2, normalizedTitle)
 
-    normalizedText = normalizedText.replace(/\[\[(.+?)\|(.+?)\]\]/g, '$2')
-    normalizedText = normalizedText.replace(/\[\[(.+?)\]\]/g, '$1')
+    plainText = plainText.replace(/\[\[(.+?)\|(.+?)\]\]/g, '$2')
+    plainText = plainText.replace(/\[\[(.+?)\]\]/g, '$1')
   } catch {
-    return normalizedText
+    // If regex fails, use original text
   }
 
+  // Truncate plain text before adding HTML
   const maxLength = 140
-  if (normalizedText.length > maxLength) {
-    normalizedText = `${normalizedText.slice(0, maxLength)}...`
+  let truncated = false
+  if (plainText.length > maxLength) {
+    plainText = plainText.slice(0, maxLength)
+    truncated = true
   }
 
-  return normalizedText
+  // Escape HTML entities
+  let result = plainText
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+
+  // Now add <b> tags for the title (on the already-truncated text)
+  try {
+    const escapedTitleForHtml = normalizedTitle
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+    const titleRegex = new RegExp(escapeRegExp(escapedTitleForHtml), 'gi')
+    result = result.replace(titleRegex, `<b>${escapedTitleForHtml}</b>`)
+  } catch {
+    // If regex fails, return without bold
+  }
+
+  if (truncated) {
+    result = `${result}...`
+  }
+
+  return result
 }
 
 export default function BacklinkSidebar({
