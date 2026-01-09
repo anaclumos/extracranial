@@ -32,6 +32,12 @@
   --apple-teal: #5ac8fa;
   --apple-indigo: #5856d6;
   --apple-gray: #8e8e93;
+
+  --grid-cell-size: 18px;
+  --grid-col-gap: 6px;
+  --grid-row-gap: 8px;
+
+  --github-empty: rgba(0, 0, 0, 0.06);
 }
 
 [data-theme="dark"] {
@@ -42,6 +48,8 @@
   --shadow-widget: 0 2px 8px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.3);
   --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3), 0 16px 48px rgba(0, 0, 0, 0.4);
   --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
+  --github-empty: rgba(255, 255, 255, 0.1);
 }
 
 .bentoContainer {
@@ -87,8 +95,8 @@
 }
 
 [data-theme="dark"] .bentoCard {
-  background: #1c1c1e;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, #252538 0%, #151520 100%);
+  border: none;
 }
 
 .cardLink:hover .bentoCard,
@@ -137,7 +145,13 @@
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
-  background: linear-gradient(180deg, var(--apple-indigo) 0%, #4b4acf 100%);
+  background: linear-gradient(180deg, #e8e7f5 0%, #d5d4eb 100%);
+  border: none;
+  color: #1c1c1e;
+}
+
+[data-theme="dark"] .heroCard {
+  background: linear-gradient(180deg, #2d2b5a 0%, #1a1840 100%);
   color: white;
 }
 
@@ -163,6 +177,11 @@
   letter-spacing: -0.04em;
   line-height: 1;
   margin: 0 0 16px 0;
+  color: #1c1c1e;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .heroTitle {
   color: #fff;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
 }
@@ -173,18 +192,26 @@
   font-family: var(--font-family-sans-serif);
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(0, 0, 0, 0.75);
   margin: 0;
   line-height: 1.4;
   max-width: 36ch;
 }
 
+[data-theme="dark"] .heroSubtitle {
+  color: rgba(255, 255, 255, 0.95);
+}
+
 /* Now Playing Card */
 .nowPlayingCard {
   padding: 24px;
-  background: linear-gradient(135deg, #1db954 0%, #191919 100%);
+  background: linear-gradient(135deg, #e3f9e8 0%, #c8f0d0 100%);
   border: none;
   cursor: pointer;
+}
+
+[data-theme="dark"] .nowPlayingCard {
+  background: linear-gradient(135deg, #1a3528 0%, #0f1f18 100%);
 }
 
 .nowPlayingGrid {
@@ -207,6 +234,11 @@
 .spotifyLogo {
   width: 32px;
   height: 32px;
+  color: #1c1c1e;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+[data-theme="dark"] .spotifyLogo {
   color: #fff;
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
@@ -216,8 +248,12 @@
   width: 60%;
   aspect-ratio: 1;
   border-radius: 12px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
   transition: transform 0.4s var(--ease-spring);
+}
+
+[data-theme="dark"] .nowPlayingArtWrapper {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 .nowPlayingCard:hover .nowPlayingArtWrapper {
@@ -253,8 +289,10 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #1db954;
-  box-shadow: 0 0 8px #1db954;
+  background: var(--apple-green);
+  box-shadow:
+    0 0 0 2px #ffffff,
+    0 0 8px var(--apple-green);
   animation: nowPlayingPulse 2s ease-in-out infinite;
 }
 
@@ -281,66 +319,167 @@
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
+  color: #1c1c1e;
   margin: 0 0 4px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+[data-theme="dark"] .nowPlayingTitle {
+  color: #fff;
+}
+
 .nowPlayingArtist {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+[data-theme="dark"] .nowPlayingArtist {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Shared Grid Styles */
+.githubGrid,
+.habitGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-row-gap);
+  align-items: center;
+}
+
+.githubGridRow,
+.habitGridRow {
+  display: flex;
+  gap: var(--grid-col-gap);
+  align-items: center;
+}
+
+.githubDayCell,
+.habitIdCell {
+  width: 56px;
+  flex-shrink: 0;
+  font-family: var(--font-family-monospace);
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  padding-right: 12px;
+}
+
+[data-theme="dark"] .githubDayCell,
+[data-theme="dark"] .habitIdCell {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.githubWeekHeader,
+.habitDayHeader {
+  width: var(--grid-cell-size);
+  height: var(--grid-cell-size);
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .githubWeekHeader,
+[data-theme="dark"] .habitDayHeader {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.githubWeekHeader:hover,
+.habitDayHeader:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.githubCell,
+.habitCell {
+  width: var(--grid-cell-size);
+  height: var(--grid-cell-size);
+  flex-shrink: 0;
+  border-radius: 4px;
+  transition: all var(--duration-fast) var(--ease-spring);
+}
+
+.githubCell:hover,
+.habitCell:hover {
+  transform: scale(1.3);
+  z-index: 10;
+}
+
 /* GitHub Graph Card */
 .githubGraphCard {
   padding: 24px;
-  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
+  background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%);
+  border: none;
   cursor: pointer;
 }
 
-.githubGraphHeader {
+[data-theme="dark"] .githubGraphCard {
+  background: linear-gradient(180deg, #1a3025 0%, #101a16 100%);
+}
+
+.githubHeader {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
-.githubGraphLogo {
+.githubLogo {
   width: 24px;
   height: 24px;
+  color: #1c1c1e;
+}
+
+[data-theme="dark"] .githubLogo {
   color: #fff;
 }
 
-.githubGraphLabel {
-  font-size: 1rem;
+.githubLabel {
+  font-size: 1.1rem;
   font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+[data-theme="dark"] .githubLabel {
   color: #fff;
 }
 
-.githubGraphImage {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin: auto 0;
-  opacity: 0.9;
-  transition: opacity 0.3s ease;
+.githubWeekHeaderActive {
+  color: #216e39;
 }
 
-.githubGraphCard:hover .githubGraphImage {
-  opacity: 1;
+[data-theme="dark"] .githubWeekHeaderActive {
+  color: #9be9a8;
+}
+
+.githubCellEmpty {
+  background: var(--github-empty);
+}
+
+.githubCellActive {
+  box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
 }
 
 .mapCard {
   padding: 0;
-  background: linear-gradient(180deg, var(--apple-teal) 0%, #00c7be 100%);
+  background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 100%);
   border: none;
   overflow: hidden;
+}
+
+[data-theme="dark"] .mapCard {
+  background: linear-gradient(180deg, #153a40 0%, #0a2328 100%);
 }
 
 .mapWrapper {
@@ -356,6 +495,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .mapPulse {
@@ -366,28 +507,41 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #fff;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+  background: var(--apple-blue);
+  box-shadow:
+    0 0 0 3px #ffffff,
+    0 0 0 3px rgba(0, 122, 255, 0.3);
   animation: mapPulseAnim 2s ease-out infinite;
 }
 
 @keyframes mapPulseAnim {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 3px rgba(0, 122, 255, 0.7);
   }
   70% {
-    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 24px rgba(0, 122, 255, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 3px rgba(0, 122, 255, 0);
   }
 }
 
 /* Bio Card */
 .bioCard {
   justify-content: flex-start;
-  background: linear-gradient(180deg, var(--apple-orange) 0%, #ff9500 100%);
+  background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%);
+  border: none;
   --bio-line-clamp: 7;
+}
+
+[data-theme="dark"] .bioCard {
+  background: linear-gradient(180deg, #3d2815 0%, #2a1a0a 100%);
 }
 
 .bioLabel {
@@ -395,21 +549,29 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.6);
   margin-bottom: 12px;
 }
 
+[data-theme="dark"] .bioLabel {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 .bioContent {
-  color: #fff;
+  color: #1c1c1e;
   margin: 0;
   flex: 1;
   display: -webkit-box;
   -webkit-line-clamp: var(--bio-line-clamp);
   -webkit-box-orient: vertical;
   overflow: hidden;
-  font-size: 1.05rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 500;
+}
+
+[data-theme="dark"] .bioContent {
+  color: #fff;
 }
 
 .bioRefreshButton {
@@ -419,18 +581,27 @@
   width: 32px;
   height: 32px;
   padding: 6px;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.05);
   border: none;
   border-radius: 50%;
-  color: #fff;
+  color: #1c1c1e;
   cursor: pointer;
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
 }
 
+[data-theme="dark"] .bioRefreshButton {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
 .bioRefreshButton:hover {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.1);
   transform: rotate(180deg);
+}
+
+[data-theme="dark"] .bioRefreshButton:hover {
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .bioRefreshButton svg {
@@ -438,10 +609,38 @@
   height: 100%;
 }
 
+@keyframes bioBounce {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  60% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.bioContentRefreshing {
+  animation: bioBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
 /* Habit Tracker Card */
 .habitTrackerCard {
   padding: 24px;
-  background: linear-gradient(180deg, #2c2c2e 0%, #1c1c1e 100%);
+  background: linear-gradient(180deg, #e8f4fc 0%, #d0e8f7 100%);
+  border: none;
+}
+
+[data-theme="dark"] .habitTrackerCard {
+  background: linear-gradient(180deg, #1a2a40 0%, #0f1725 100%);
 }
 
 .habitTrackerHeader {
@@ -454,36 +653,20 @@
 .habitTrackerLogo {
   width: 24px;
   height: 24px;
-  color: var(--apple-green);
+  color: var(--apple-blue);
 }
 
 .habitTrackerLabel {
   font-size: 1.1rem;
   font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+[data-theme="dark"] .habitTrackerLabel {
   color: #fff;
 }
 
-.habitGrid {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.habitGridRow {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
-
 .habitIdCell {
-  width: 56px;
-  flex-shrink: 0;
-  font-family: var(--font-family-monospace);
-  font-size: 12px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
-  text-align: right;
-  padding-right: 12px;
   text-decoration: none;
   transition: opacity var(--duration-fast) var(--ease-apple);
 }
@@ -493,48 +676,27 @@
 }
 
 .habitDayHeader {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  font-size: 10px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
   text-decoration: none;
-}
-
-.habitDayHeader:hover {
-  color: rgba(255, 255, 255, 0.8);
-  background: rgba(255, 255, 255, 0.1);
 }
 
 .habitDayHeaderAllDone {
-  color: var(--apple-green);
+  color: var(--apple-blue);
 }
 
 .habitCell {
-  width: 16px;
-  height: 16px;
-  flex-shrink: 0;
-  border-radius: 4px;
   text-decoration: none;
-  transition: all var(--duration-fast) var(--ease-spring);
-}
-
-.habitCell:hover {
-  transform: scale(1.3);
-  z-index: 10;
 }
 
 .habitCellDone {
-  background: var(--apple-green);
-  box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
+  background: var(--apple-blue);
+  box-shadow: 0 0 8px rgba(0, 122, 255, 0.4);
 }
 
 .habitCellEmpty {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .habitCellEmpty {
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -620,13 +782,15 @@
     font-size: 2.25rem;
   }
 
-  .habitTrackerCard {
+  .habitTrackerCard,
+  .githubGraphCard {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
 
-  .habitTrackerCard::-webkit-scrollbar {
+  .habitTrackerCard::-webkit-scrollbar,
+  .githubGraphCard::-webkit-scrollbar {
     display: none;
   }
 

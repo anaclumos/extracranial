@@ -46,22 +46,14 @@
 .navbar {
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.72);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--navbar-glass-bg);
   transition:
     background-color var(--transition-medium),
     border-color var(--transition-medium);
 }
 
 [data-theme="dark"] .navbar {
-  background-color: rgba(0, 0, 0, 0.72);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-/* Hide language specific links */
-.navbar-hn-ko-link:lang(en-US),
-.navbar-hn-en-link:lang(ko-KR) {
-  display: none;
+  background-color: var(--navbar-glass-bg);
 }
 
 /* Mobile Hamburger Polish */
