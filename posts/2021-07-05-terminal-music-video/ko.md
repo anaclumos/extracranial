@@ -1,7 +1,6 @@
 ---
 title: '점자로 보는 뮤직 비디오'
 date: 2021-07-05
-authors: anaclumos
 slug: '/AF848F'
 ---
 

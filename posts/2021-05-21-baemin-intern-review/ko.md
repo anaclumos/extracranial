@@ -1,7 +1,6 @@
 ---
 title: '우아한테크캠프 3기 후기'
 date: 2021-05-21
-authors: anaclumos
 slug: '/E2CAE4'
 ---
 

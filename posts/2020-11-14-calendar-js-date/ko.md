@@ -1,7 +1,6 @@
 ---
 title: 'JS로 달력 만들기'
 date: 2020-11-14
-authors: anaclumos
 slug: '/F522B3'
 ---
 

@@ -2,7 +2,6 @@
 title: "Bringing Samsung's Korean Keyboard Experience to iPhones"
 date: 2023-01-25
 description: "⌨️ Bringing Samsung's Korean Keyboard Experience to iPhones"
-authors: anaclumos
 slug: '/D7DE14'
 ---
 
