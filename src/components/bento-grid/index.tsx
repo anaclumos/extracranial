@@ -71,18 +71,174 @@ function BentoCard({
   return cardContent
 }
 
+function InlineOrg({
+  name,
+  icon,
+  isActive,
+  onClick,
+}: {
+  name: string
+  icon: string
+  isActive: boolean
+  onClick: () => void
+}) {
+  return (
+    <span
+      className={cn(styles.inlineOrg, isActive && styles.inlineOrgExpanded)}
+      onClick={(e) => {
+        e.stopPropagation()
+        onClick()
+      }}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          onClick()
+        }
+      }}
+      role="button"
+      tabIndex={0}
+    >
+      <img
+        alt={name}
+        className={styles.inlineOrgIcon}
+        height={24}
+        src={icon}
+        width={24}
+      />
+      <span className={styles.inlineOrgLabel}>{name}</span>
+    </span>
+  )
+}
+
 function HeroCard() {
+  const [activeOrg, setActiveOrg] = useState<string | null>(null)
+  const { i18n } = useDocusaurusContext()
+  const isKorean = i18n.currentLocale === 'ko'
+
+  const handleOrgClick = (name: string) => {
+    setActiveOrg(activeOrg === name ? null : name)
+  }
+
+  const orgs = {
+    kmla: { icon: '/img/kmla.png', en: 'KMLA', ko: '민사고' },
+    usc: { icon: '/img/usc.svg', en: 'USC', ko: 'USC' },
+    lunit: { icon: '/img/lunit.svg', en: 'Lunit', ko: '루닛' },
+    baemin: { icon: '/img/baemin.png', en: 'Baemin', ko: '배민' },
+    karrot: { icon: '/img/karrot.png', en: 'Karrot', ko: '당근' },
+    grammarly: { icon: '/img/grammarly.png', en: 'Grammarly', ko: 'Grammarly' },
+  }
+
+  const getName = (org: keyof typeof orgs) =>
+    isKorean ? orgs[org].ko : orgs[org].en
+
   return (
     <BentoCard className={cn(styles.card2x2, styles.heroCard)}>
-      <h1 className={styles.heroTitle}>
-        <Translate id="bento.hero.name">Sunghyun Cho</Translate>
-      </h1>
-      <p className={styles.heroSubtitle}>
-        <Translate id="bento.hero.subtitle">
-          Graduated from KMLA and USC, building medical AI platform at Lunit.
-          Previously at Woowa Brothers, Karrot, and Grammarly.
-        </Translate>
-      </p>
+      <div className={styles.heroContent}>
+        <h1 className={styles.heroTitle}>
+          <Translate id="bento.hero.name">Sunghyun Cho</Translate>
+        </h1>
+        <p className={styles.heroSubtitle}>
+          {isKorean ? (
+            <>
+              <InlineOrg
+                icon={orgs.kmla.icon}
+                isActive={activeOrg === 'kmla'}
+                name={getName('kmla')}
+                onClick={() => handleOrgClick('kmla')}
+              />
+              와{' '}
+              <InlineOrg
+                icon={orgs.usc.icon}
+                isActive={activeOrg === 'usc'}
+                name={getName('usc')}
+                onClick={() => handleOrgClick('usc')}
+              />
+              를 졸업하고,
+              <br />
+              <InlineOrg
+                icon={orgs.lunit.icon}
+                isActive={activeOrg === 'lunit'}
+                name={getName('lunit')}
+                onClick={() => handleOrgClick('lunit')}
+              />
+              에서 의료 AI 플랫폼을 만듭니다.
+              <br />
+              이전에는{' '}
+              <InlineOrg
+                icon={orgs.baemin.icon}
+                isActive={activeOrg === 'baemin'}
+                name={getName('baemin')}
+                onClick={() => handleOrgClick('baemin')}
+              />
+              ,{' '}
+              <InlineOrg
+                icon={orgs.karrot.icon}
+                isActive={activeOrg === 'karrot'}
+                name={getName('karrot')}
+                onClick={() => handleOrgClick('karrot')}
+              />
+              ,{' '}
+              <InlineOrg
+                icon={orgs.grammarly.icon}
+                isActive={activeOrg === 'grammarly'}
+                name={getName('grammarly')}
+                onClick={() => handleOrgClick('grammarly')}
+              />
+              를 거쳤습니다.
+            </>
+          ) : (
+            <>
+              Graduated from{' '}
+              <InlineOrg
+                icon={orgs.kmla.icon}
+                isActive={activeOrg === 'kmla'}
+                name={getName('kmla')}
+                onClick={() => handleOrgClick('kmla')}
+              />{' '}
+              and{' '}
+              <InlineOrg
+                icon={orgs.usc.icon}
+                isActive={activeOrg === 'usc'}
+                name={getName('usc')}
+                onClick={() => handleOrgClick('usc')}
+              />
+              .
+              <br />
+              Building medical AI platform at{' '}
+              <InlineOrg
+                icon={orgs.lunit.icon}
+                isActive={activeOrg === 'lunit'}
+                name={getName('lunit')}
+                onClick={() => handleOrgClick('lunit')}
+              />
+              .
+              <br />
+              Previously at{' '}
+              <InlineOrg
+                icon={orgs.baemin.icon}
+                isActive={activeOrg === 'baemin'}
+                name={getName('baemin')}
+                onClick={() => handleOrgClick('baemin')}
+              />
+              ,{' '}
+              <InlineOrg
+                icon={orgs.karrot.icon}
+                isActive={activeOrg === 'karrot'}
+                name={getName('karrot')}
+                onClick={() => handleOrgClick('karrot')}
+              />
+              , and{' '}
+              <InlineOrg
+                icon={orgs.grammarly.icon}
+                isActive={activeOrg === 'grammarly'}
+                name={getName('grammarly')}
+                onClick={() => handleOrgClick('grammarly')}
+              />
+              .
+            </>
+          )}
+        </p>
+      </div>
     </BentoCard>
   )
 }

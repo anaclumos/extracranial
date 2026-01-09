@@ -142,7 +142,9 @@
 
 /* Hero Card */
 .heroCard {
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
   background: linear-gradient(180deg, #e8e7f5 0%, #d5d4eb 100%);
@@ -153,6 +155,89 @@
 [data-theme="dark"] .heroCard {
   background: linear-gradient(180deg, #2d2b5a 0%, #1a1840 100%);
   color: white;
+}
+
+.heroContent {
+  width: 100%;
+}
+
+.inlineOrg {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  max-width: 28px;
+  padding: 2px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  transition:
+    max-width 0.4s var(--ease-spring),
+    padding 0.3s var(--ease-apple),
+    background 0.2s ease,
+    border-color 0.2s ease;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.inlineOrg:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.inlineOrgExpanded {
+  max-width: 160px;
+  padding: 2px 12px 2px 2px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inlineOrgIcon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.inlineOrgLabel {
+  opacity: 0;
+  margin-left: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1c1c1e;
+  white-space: nowrap;
+  transition:
+    opacity 0.2s ease,
+    margin-left 0.3s var(--ease-spring);
+  transform: translateX(-10px);
+}
+
+.inlineOrgExpanded .inlineOrgLabel {
+  opacity: 1;
+  margin-left: 8px;
+  transform: translateX(0);
+}
+
+[data-theme="dark"] .inlineOrg {
+  background: rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .inlineOrg:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .inlineOrgExpanded {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .inlineOrgLabel {
+  color: #fff;
 }
 
 .heroGlow {
