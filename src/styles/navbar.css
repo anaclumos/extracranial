@@ -44,12 +44,17 @@
 
 /* Apple-style Frosted Glass Navbar */
 .navbar {
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
   background-color: var(--navbar-glass-bg);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
   transition:
     background-color var(--transition-medium),
     border-color var(--transition-medium);
+}
+
+@supports (backdrop-filter: blur(1px)) {
+  .navbar {
+    backdrop-filter: blur(20px) saturate(180%);
+  }
 }
 
 [data-theme="dark"] .navbar {
