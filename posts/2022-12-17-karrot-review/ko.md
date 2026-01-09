@@ -2,7 +2,6 @@
 title: '당근마켓 엔지니어 인턴 후기'
 date: 2023-01-01
 description: '당근마켓에서의 3개월을 마무리하며'
-authors: anaclumos
 slug: '/FF7E37'
 draft: true
 ---

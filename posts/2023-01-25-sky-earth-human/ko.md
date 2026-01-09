@@ -2,7 +2,6 @@
 title: '갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드'
 date: 2023-01-25
 description: '⌨️ 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드'
-authors: anaclumos
 slug: '/D7DE14'
 ---
 

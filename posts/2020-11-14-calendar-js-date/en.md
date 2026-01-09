@@ -1,7 +1,6 @@
 ---
 title: 'Creating Calendar in JavaScript'
 date: 2020-11-14
-authors: anaclumos
 slug: '/F522B3'
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'How Video Compression Works'
 date: 2019-11-06
-authors: anaclumos
 slug: '/6B6D29'
 ---
 
