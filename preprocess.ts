@@ -576,6 +576,31 @@ function parseFrontmatter(content: string): Record<string, string> {
   return frontmatter
 }
 
+async function buildJournalDates(
+  journalsDir: string,
+  outDir: string
+): Promise<void> {
+  console.log('📅 Building journal dates index...')
+
+  const journalFiles = await findFiles(journalsDir, ['.md'])
+  const dates: string[] = []
+
+  for (const file of journalFiles) {
+    const filename = basename(file)
+    const dateMatch = filename.match(DATE_FILENAME_RE)
+    if (dateMatch?.[1]) {
+      dates.push(dateMatch[1])
+    }
+  }
+
+  dates.sort()
+
+  await mkdir(outDir, { recursive: true })
+  await writeFile(join(outDir, 'journals.json'), JSON.stringify(dates, null, 2))
+
+  console.log(`📅 Indexed ${dates.length} journal dates`)
+}
+
 async function buildHabitData(
   pagesDir: string,
   journalsDir: string,
@@ -760,6 +785,7 @@ async function main(): Promise<void> {
   await sanitiseMd(research)
   await processBlog(postsSrc, blogEn, blogKo, cfg)
   await buildBacklinks(research, outTs)
+  await buildJournalDates(journals, outTs)
   await buildHabitData(pages, journals, outTs)
   await processDocs(research, docs)
   await fixImgAlt(docs)

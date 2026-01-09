@@ -172,10 +172,11 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   overflow: hidden;
   transition:
-    max-width 0.4s var(--ease-spring),
-    padding 0.3s var(--ease-apple),
+    max-width 0.35s var(--ease-apple),
+    padding 0.35s var(--ease-apple),
     background 0.2s ease,
-    border-color 0.2s ease;
+    border-color 0.2s ease,
+    box-shadow 0.35s var(--ease-apple);
   vertical-align: middle;
   cursor: pointer;
   margin: 0 3px;
@@ -209,8 +210,9 @@
   color: #1c1c1e;
   white-space: nowrap;
   transition:
-    opacity 0.2s ease,
-    margin-left 0.3s var(--ease-spring);
+    opacity 0.3s var(--ease-apple),
+    margin-left 0.35s var(--ease-apple),
+    transform 0.35s var(--ease-apple);
   transform: translateX(-10px);
 }
 
