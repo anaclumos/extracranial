@@ -164,7 +164,6 @@ function HeroCard() {
               />
               에서 의료 LLM 플랫폼을 만듭니다.
               <br />
-              이전에는{' '}
               <InlineOrg
                 icon={orgs.baemin.icon}
                 isActive={activeOrg === 'baemin'}

@@ -52,7 +52,7 @@ export const funFacts: FunFactSnippet[] = [
   {
     id: 'bento.bio.favoriteGames',
     message:
-      'My favorite games are Ghost of Tsushima/Yotei, Death Stranding 1 & 2, Detroit: Become Human, Expedition 33, and Sanabi. Recently obsessed with Rhythm Heaven on Wii, DS, and Gameboy. I guess I love games with great music!',
+      'My favorite games are Ghost of Tsushima & Yotei, Death Stranding 1 & 2, Detroit: Become Human, Expedition 33, and Sanabi. Recently obsessed with Rhythm Heaven on Wii, DS, and Gameboy. I guess I love games with great music!',
   },
   {
     id: 'bento.bio.a11yI18n',

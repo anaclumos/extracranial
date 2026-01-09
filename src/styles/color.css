@@ -30,6 +30,7 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 5%);
   --navbar-glass-bg: rgba(255, 255, 255, 0.72);
+  --ifm-navbar-background-color: transparent;
 }
 
 [data-theme="dark"] {
@@ -52,4 +53,5 @@
 
   --docusaurus-highlighted-code-line-bg: rgb(255 255 255 / 10%);
   --navbar-glass-bg: rgba(38, 38, 40, 0.72);
+  --ifm-navbar-background-color: transparent;
 }
