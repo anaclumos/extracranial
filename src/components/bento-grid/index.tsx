@@ -15,6 +15,7 @@ interface HabitDefinition {
   title: string
   status: 'TODO' | 'ING' | 'SUCCESS' | 'FAILURE'
   sourceFile: string
+  slug?: string
 }
 
 type HabitLog = Record<string, string[]>
@@ -73,7 +74,6 @@ function BentoCard({
 function HeroCard() {
   return (
     <BentoCard className={cn(styles.card2x2, styles.heroCard)}>
-      <div aria-hidden="true" className={styles.heroGlow} />
       <h1 className={styles.heroTitle}>
         <Translate id="bento.hero.name">Sunghyun Cho</Translate>
       </h1>
@@ -211,31 +211,126 @@ function NowPlayingWidget() {
   )
 }
 
+const GITHUB_USERNAME = 'anaclumos'
+const GITHUB_WEEKS = 52
+const DAY_NAMES = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT']
+const GITHUB_LEVEL_COLORS = [
+  'var(--github-empty)',
+  '#9be9a8',
+  '#40c463',
+  '#30a14e',
+  '#216e39',
+]
+
+interface ContributionDay {
+  date: string
+  level: number
+  count: number
+}
+
+interface ContributionWeek {
+  days: (ContributionDay | null)[]
+  weekTotal: number
+}
+
 function GitHubGraphWidget() {
+  const [weeks, setWeeks] = useState<ContributionWeek[]>([])
+
+  useEffect(() => {
+    fetch(
+      `https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?y=last`
+    )
+      .then((res) => res.json())
+      .then((data: { contributions: ContributionDay[] }) => {
+        const contributions = data.contributions.slice(-GITHUB_WEEKS * 7)
+        const weekData: ContributionWeek[] = []
+
+        for (let w = 0; w < GITHUB_WEEKS; w++) {
+          const weekDays: (ContributionDay | null)[] = Array(7).fill(null)
+          let weekTotal = 0
+
+          for (let d = 0; d < 7; d++) {
+            const idx = w * 7 + d
+            const contrib = contributions[idx]
+            if (contrib) {
+              const dayOfWeek = new Date(contrib.date).getDay()
+              weekDays[dayOfWeek] = contrib
+              weekTotal += contrib.count
+            }
+          }
+          weekData.push({ days: weekDays, weekTotal })
+        }
+        setWeeks(weekData)
+      })
+      .catch(() => setWeeks([]))
+  }, [])
+
   return (
     <BentoCard
       className={cn(styles.card4x1, styles.githubGraphCard)}
       external
-      href="https://github.com/anaclumos"
+      href={`https://github.com/${GITHUB_USERNAME}`}
     >
-      <div className={styles.githubGraphHeader}>
+      <div className={styles.githubHeader}>
         <svg
           aria-hidden="true"
-          className={styles.githubGraphLogo}
+          className={styles.githubLogo}
           fill="currentColor"
           viewBox="0 0 24 24"
         >
           <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
         </svg>
-        <span className={styles.githubGraphLabel}>@anaclumos</span>
+        <span className={styles.githubLabel}>GitHub</span>
       </div>
-      <img
-        alt="GitHub contribution graph"
-        className={styles.githubGraphImage}
-        height={104}
-        src="https://ghchart.rshah.org/22c55e/anaclumos"
-        width={663}
-      />
+      <div className={styles.githubGrid}>
+        <div className={styles.githubGridRow}>
+          <div className={styles.githubDayCell} />
+          {weeks.map((week, weekIdx) => {
+            const hasContributions = week.weekTotal > 0
+            return (
+              <div
+                className={cn(
+                  styles.githubWeekHeader,
+                  hasContributions && styles.githubWeekHeaderActive
+                )}
+                key={weekIdx}
+                title={`Week ${weekIdx + 1}: ${week.weekTotal} contributions`}
+              >
+                {hasContributions ? week.weekTotal : ''}
+              </div>
+            )
+          })}
+        </div>
+        {DAY_NAMES.map((dayName, dayIdx) => (
+          <div className={styles.githubGridRow} key={dayName}>
+            <div className={styles.githubDayCell}>{dayName}</div>
+            {weeks.map((week, weekIdx) => {
+              const contrib = week.days[dayIdx]
+              if (!contrib) {
+                return (
+                  <div
+                    className={cn(styles.githubCell, styles.githubCellEmpty)}
+                    key={`${dayName}-${weekIdx}`}
+                  />
+                )
+              }
+              return (
+                <div
+                  className={cn(
+                    styles.githubCell,
+                    contrib.level === 0
+                      ? styles.githubCellEmpty
+                      : styles.githubCellActive
+                  )}
+                  key={contrib.date}
+                  style={{ background: GITHUB_LEVEL_COLORS[contrib.level] }}
+                  title={`${contrib.date}: ${contrib.count} contributions`}
+                />
+              )
+            })}
+          </div>
+        ))}
+      </div>
     </BentoCard>
   )
 }
@@ -260,6 +355,7 @@ function shuffleArray<T>(array: T[]): T[] {
 
 function BioCard() {
   const [snippet, setSnippet] = useState('')
+  const [isRefreshing, setIsRefreshing] = useState(false)
   const shuffledSnippets = useRef<string[]>([])
   const currentIndex = useRef(0)
 
@@ -271,6 +367,12 @@ function BioCard() {
     currentIndex.current =
       (currentIndex.current + 1) % shuffledSnippets.current.length
   }, [])
+
+  const handleRefresh = () => {
+    if (isRefreshing) return
+    setIsRefreshing(true)
+    setTimeout(refreshSnippet, 240)
+  }
 
   useEffect(() => {
     refreshSnippet()
@@ -286,11 +388,19 @@ function BioCard() {
       <span className={styles.bioLabel}>
         <Translate id="bento.bio.label">Fun Fact</Translate>
       </span>
-      <p className={styles.bioContent}>{snippet}</p>
+      <p
+        className={cn(
+          styles.bioContent,
+          isRefreshing && styles.bioContentRefreshing
+        )}
+        onAnimationEnd={() => setIsRefreshing(false)}
+      >
+        {snippet}
+      </p>
       <button
         aria-label={refreshLabel}
         className={styles.bioRefreshButton}
-        onClick={refreshSnippet}
+        onClick={handleRefresh}
         type="button"
       >
         <svg
@@ -339,7 +449,7 @@ function MapWidget() {
 
       map = new mapkit.Map(mapRef.current, {
         center: gangnamStation,
-        cameraDistance: 20_000,
+        cameraDistance: 12_000,
         mapType: mapkit.Map.MapTypes.Standard,
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: false,
@@ -387,24 +497,23 @@ function MapWidget() {
   )
 }
 
-const HABIT_WEEKS = 8
+const HABIT_DAYS = 52
 const MD_EXT_RE = /\.md$/
 const SPACE_RE = / /g
 const HABIT_COLORS = [
-  'var(--apple-green)',
   'var(--apple-blue)',
-  'var(--apple-orange)',
-  'var(--apple-pink)',
-  'var(--apple-purple)',
-  'var(--apple-teal)',
-  'var(--apple-red)',
-  'var(--apple-indigo)',
+  '#409cff',
+  '#66b0ff',
+  '#0062cc',
+  '#3392ff',
+  '#0077f0',
+  '#004999',
+  '#007aff',
 ]
 
-function generateDateRange(weeks: number): string[] {
+function generateDateRange(totalDays: number): string[] {
   const dates: string[] = []
   const today = new Date()
-  const totalDays = weeks * 7
 
   for (let i = totalDays - 1; i >= 0; i--) {
     const date = new Date(today)
@@ -425,7 +534,7 @@ function HabitTrackerWidget() {
     return null
   }
 
-  const dates = generateDateRange(HABIT_WEEKS)
+  const dates = generateDateRange(HABIT_DAYS)
   const completedDatesSet = new Map<string, Set<string>>()
 
   for (const habit of habits) {
@@ -460,7 +569,7 @@ function HabitTrackerWidget() {
           />
         </svg>
         <span className={styles.habitTrackerLabel}>
-          <Translate id="bento.habits.label">Building Habits</Translate>
+          <Translate id="bento.habits.label">Habits</Translate>
         </span>
       </div>
       <div className={styles.habitGrid}>
@@ -486,9 +595,9 @@ function HabitTrackerWidget() {
         </div>
         {habits.map((habit, habitIndex) => {
           const completedSet = completedDatesSet.get(habit.id)
-          const slugPath = habit.sourceFile
-            .replace(MD_EXT_RE, '')
-            .replace(SPACE_RE, '%20')
+          const slugPath = habit.slug
+            ? habit.slug.replace(/^\//, '')
+            : habit.sourceFile.replace(MD_EXT_RE, '').replace(SPACE_RE, '%20')
           const habitColor = HABIT_COLORS[habitIndex % HABIT_COLORS.length]
           return (
             <div className={styles.habitGridRow} key={habit.id}>

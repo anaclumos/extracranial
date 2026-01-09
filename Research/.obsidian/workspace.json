@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-08.md",
+                "file": "journals/2026-01-09.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-08"
+              "title": "2026-01-09"
+            }
+          },
+          {
+            "id": "3851c01b4eb2f08f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-09.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-09"
+            }
+          },
+          {
+            "id": "56fe8380d918f664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/TM과 R의 차이.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TM과 R의 차이"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "siw.ooo",
+                "query": "642AA0",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.50260543823242,
-    "collapsed": true
+    "width": 250.50260543823242
   },
   "right": {
     "id": "100954c9588fb2da",
@@ -186,22 +234,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6cc277ca3cee5e39",
+  "active": "56fe8380d918f664",
   "lastOpenFiles": [
+    "pages/TM과 R의 차이.md",
+    "journals/2026-01-09.md",
+    "pages/바잘제트 오버엔지니어링.md",
+    "journals/2026-01-08.md",
+    "templates/journal template.md",
+    "pages/조잡생각.md",
+    "journals/2023-06-21.md",
+    "journals/2026-01-07.md",
+    "pages/Swimming Habit.md",
+    "pages/Running Habit.md",
+    "pages/Journaling Habit.md",
+    "pages/84-24.md",
+    "pages/Landing Page for Developers.md",
     "pages/My Raycast Wrapped of 2025.md",
     "pages/My Raycast Wrapped of 2024.md",
     "pages/My Raycast Wrapped of 2023.md",
     "pages/My Raycast Wrapped of 2022.md",
     "pages/Raycast.md",
-    "journals/2026-01-08.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
     "assets/Pasted image 20260108161938.png",
     "assets/Pasted image 20260108161928.png",
     "pages/Project Mangrove.md",
-    "pages/바잘제트 오버엔지니어링.md",
-    "pages/조잡생각.md",
     "pages/Bazalgette Overengineering.md",
     "pages/OpenAI Grove.md",
     "pages/INCL.md",
@@ -209,21 +267,11 @@
     "pages/Undefined Symbol Vtable.md",
     "pages/2026년 탕아의 맥 복귀.md",
     "journals/2026-01-02.md",
-    "journals/2026-01-04.md",
-    "journals/2026-01-05.md",
-    "pages/The Get-Shit-Done Computer.md",
     "assets/8DD10B.jpeg",
     "assets/B21ABE.jpeg",
-    "pages/2022년의 선명함.md",
-    "templates/note template.md",
-    "templates/journal template.md",
-    "journals/2024-06-19.md",
     "assets/44949C.png",
-    "pages/은하대백과 기능.md",
     "assets/164E3A.png",
     "assets/2F9B59.png",
-    "pages/은하대백과 탐사.md",
-    "pages/Bento Grid.md",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",

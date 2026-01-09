@@ -538,6 +538,7 @@ interface HabitDefinition {
   title: string
   status: HabitStatus
   sourceFile: string
+  slug?: string
 }
 
 interface HabitLog {
@@ -597,12 +598,14 @@ async function buildHabitData(
       const habitId = habitMatch[1]
       const status = statusMatch[1] as HabitStatus
       const title = basename(file, '.md')
+      const slug = extractUid(content)
 
       habits.push({
         id: habitId,
         title,
         status,
         sourceFile: relative(pagesDir, file),
+        slug,
       })
 
       knownHabitIds.add(habitId)

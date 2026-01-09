@@ -494,6 +494,9 @@
   " years ago.": {
     "message": "년이 지났습니다."
   },
+  "bento.habits.label": {
+    "message": "습관"
+  },
   "bento.hero.name": {
     "message": "조성현"
   },
