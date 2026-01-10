@@ -2,7 +2,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
 import { useEffect, useRef } from 'react'
 import { MAPKIT_TOKEN } from '../../constants'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 export default function MapWidget({ className }: { className?: string }) {
@@ -69,11 +69,11 @@ export default function MapWidget({ className }: { className?: string }) {
   }, [i18n.currentLocale])
 
   return (
-    <BentoCard className={cn(className, styles.mapCard)}>
+    <BentoWidget className={cn(className, styles.mapWidget)}>
       <div className={styles.mapWrapper}>
         <div className={styles.mapImage} ref={mapRef} />
         <span className={styles.mapPulse} />
       </div>
-    </BentoCard>
+    </BentoWidget>
   )
 }

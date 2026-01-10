@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-export interface BentoCardProps {
+export interface BentoWidgetProps {
   className?: string
   children: ReactNode
   href?: string

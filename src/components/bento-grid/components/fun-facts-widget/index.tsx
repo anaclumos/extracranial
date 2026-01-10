@@ -3,17 +3,17 @@ import { cn } from '@site/src/util/cn'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { funFacts } from '../../fun-facts'
 import { shuffleArray } from '../../utils/helpers'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 const getBioSnippets = () =>
   funFacts.map((fact) => translate({ id: fact.id, message: fact.message }))
 
-interface BioCardProps {
+interface FunFactsWidgetProps {
   className?: string
 }
 
-export default function BioCard({ className }: BioCardProps) {
+export default function FunFactsWidget({ className }: FunFactsWidgetProps) {
   const [snippet, setSnippet] = useState('')
   const [isRefreshing, setIsRefreshing] = useState(false)
   const shuffledSnippets = useRef<string[]>([])
@@ -46,7 +46,7 @@ export default function BioCard({ className }: BioCardProps) {
   })
 
   return (
-    <BentoCard className={cn(styles.bioCard, className)}>
+    <BentoWidget className={cn(styles.funFactsWidget, className)}>
       <span className={styles.bioLabel}>
         <Translate id="bento.bio.label">Fun Fact</Translate>
       </span>
@@ -79,6 +79,6 @@ export default function BioCard({ className }: BioCardProps) {
           />
         </svg>
       </button>
-    </BentoCard>
+    </BentoWidget>
   )
 }

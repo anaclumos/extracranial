@@ -2,7 +2,7 @@ import { cn } from '@site/src/util/cn'
 import { useEffect, useState } from 'react'
 import { LASTFM_API_KEY, LASTFM_USERNAME } from '../../constants'
 import type { LastFmResponse, LastFmTrack } from '../../types'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 function SpotifyLogo() {
@@ -73,8 +73,8 @@ export default function NowPlayingWidget({ className }: NowPlayingWidgetProps) {
     ''
 
   return (
-    <BentoCard
-      className={cn(styles.nowPlayingCard, className)}
+    <BentoWidget
+      className={cn(styles.nowPlayingWidget, className)}
       external={!loading && !!track}
       href={!loading && track ? track.url : undefined}
     >
@@ -107,6 +107,6 @@ export default function NowPlayingWidget({ className }: NowPlayingWidgetProps) {
           </div>
         </div>
       )}
-    </BentoCard>
+    </BentoWidget>
   )
 }

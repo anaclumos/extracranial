@@ -1,10 +1,10 @@
-.cardLink {
+.widgetLink {
   text-decoration: none;
   color: inherit;
   display: contents;
 }
 
-.bentoCard {
+.bentoWidget {
   position: relative;
   overflow: hidden;
   background: var(--color-background-secondary);
@@ -21,25 +21,25 @@
   border: 1px solid var(--glass-border-subtle);
 }
 
-[data-theme="dark"] .bentoCard {
+[data-theme="dark"] .bentoWidget {
   background: linear-gradient(180deg, #252538 0%, #151520 100%);
   border: none;
 }
 
-.cardLink:hover .bentoCard,
-.bentoCard:hover {
+.widgetLink:hover .bentoWidget,
+.bentoWidget:hover {
   transform: scale(1.02);
   box-shadow: var(--shadow-hover);
   z-index: 1;
 }
 
-.cardLink:active .bentoCard,
-.bentoCard:active {
+.widgetLink:active .bentoWidget,
+.bentoWidget:active {
   transform: scale(0.98);
 }
 
-.cardLink:focus-visible .bentoCard,
-.bentoCard:focus-visible {
+.widgetLink:focus-visible .bentoWidget,
+.bentoWidget:focus-visible {
   outline: 4px solid var(--apple-blue);
   outline-offset: 2px;
 }
@@ -62,26 +62,26 @@
 }
 
 @media (max-width: 640px) {
-  .bentoCard {
+  .bentoWidget {
     --card-radius: 20px;
     padding: calc(var(--bento-padding) * 0.75);
   }
 }
 
 @media (max-width: 480px) {
-  .bentoCard {
+  .bentoWidget {
     --card-radius: 16px;
     padding: calc(var(--bento-padding) * 0.6);
   }
 
-  .cardLink:hover .bentoCard,
-  .bentoCard:hover {
+  .widgetLink:hover .bentoWidget,
+  .bentoWidget:hover {
     transform: none;
     box-shadow: var(--shadow-widget);
   }
 
-  .cardLink:active .bentoCard,
-  .bentoCard:active {
+  .widgetLink:active .bentoWidget,
+  .bentoWidget:active {
     transform: scale(0.98);
   }
 }

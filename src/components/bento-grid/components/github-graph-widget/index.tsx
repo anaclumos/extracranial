@@ -7,7 +7,7 @@ import {
   GITHUB_WEEKS,
 } from '../../constants'
 import type { ContributionDay, ContributionWeek } from '../../types'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 interface WidgetContributionWeek extends ContributionWeek {
@@ -52,8 +52,8 @@ export default function GitHubGraphWidget({
   }, [])
 
   return (
-    <BentoCard
-      className={cn(className, styles.githubGraphCard)}
+    <BentoWidget
+      className={cn(className, styles.githubGraphWidget)}
       external
       href={`https://github.com/${GITHUB_USERNAME}`}
     >
@@ -117,6 +117,6 @@ export default function GitHubGraphWidget({
           </div>
         ))}
       </div>
-    </BentoCard>
+    </BentoWidget>
   )
 }

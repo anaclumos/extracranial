@@ -3,7 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
 import { useState } from 'react'
 import { ORGANIZATIONS, type OrganizationKey } from '../../constants'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 interface InlineOrgProps {
@@ -35,11 +35,11 @@ function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
   )
 }
 
-interface HeroCardProps {
+interface HeroWidgetProps {
   className?: string
 }
 
-export default function HeroCard({ className }: HeroCardProps) {
+export default function HeroWidget({ className }: HeroWidgetProps) {
   const [activeOrg, setActiveOrg] = useState<string | null>(null)
   const { i18n } = useDocusaurusContext()
   const isKorean = i18n.currentLocale === 'ko'
@@ -52,7 +52,7 @@ export default function HeroCard({ className }: HeroCardProps) {
     isKorean ? ORGANIZATIONS[org].ko : ORGANIZATIONS[org].en
 
   return (
-    <BentoCard className={cn(styles.heroCard, className)}>
+    <BentoWidget className={cn(styles.heroWidget, className)}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
           <Translate id="bento.hero.name">Sunghyun Cho</Translate>
@@ -158,6 +158,6 @@ export default function HeroCard({ className }: HeroCardProps) {
           )}
         </p>
       </div>
-    </BentoCard>
+    </BentoWidget>
   )
 }

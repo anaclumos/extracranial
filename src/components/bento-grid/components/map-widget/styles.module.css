@@ -1,11 +1,11 @@
-.mapCard {
+.mapWidget {
   padding: 0;
   background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 100%);
   border: none;
   overflow: hidden;
 }
 
-[data-theme="dark"] .mapCard {
+[data-theme="dark"] .mapWidget {
   background: linear-gradient(180deg, #153a40 0%, #0a2328 100%);
 }
 

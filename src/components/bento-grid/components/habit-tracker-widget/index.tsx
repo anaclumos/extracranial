@@ -13,7 +13,7 @@ import {
 } from '../../constants'
 import type { HabitDefinition, HabitLog } from '../../types'
 import { generateDateRange } from '../../utils/helpers'
-import BentoCard from '../BentoCard'
+import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
 
 interface HabitTrackerWidgetProps {
@@ -51,7 +51,7 @@ export default function HabitTrackerWidget({
   })
 
   return (
-    <BentoCard className={cn(styles.habitTrackerCard, className)}>
+    <BentoWidget className={cn(styles.habitTrackerWidget, className)}>
       <div className={styles.habitTrackerHeader}>
         <svg
           aria-hidden="true"
@@ -154,6 +154,6 @@ export default function HabitTrackerWidget({
           )
         })}
       </div>
-    </BentoCard>
+    </BentoWidget>
   )
 }
