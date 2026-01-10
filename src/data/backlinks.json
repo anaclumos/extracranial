@@ -4576,7 +4576,6 @@
     "2022-10-18": "- [[Apple]] bought all of the advertising ...",
     "2023-06-05": "... [[Apple Vision Pro]] is that [[Apple]] never used the term \"Goggles\" ...",
     "2023-07-05": "... (23誠鉉)|Starfish]]. Signed an [[NDA]] with [[Apple]], can't say anything from now.",
-    "2026-01-09": "- [[Apple]] 스타일의 스프링 애니메이션 적용",
     "3D": "- [[USDZ]] for [[Apple]]",
     "AIs.txt": "Technically, [[Apple]]'s **App Tracking Transparency** does not ...",
     "AMP": "... to [[Facebook]] Instant Articles and [[Apple]] News. AMP is optimized for ...",
@@ -5183,7 +5182,6 @@
     "2023-02-18": "- [[Bento Grid]]",
     "2023-06-15": "- [[Bento Grid]]",
     "2023-11-20": "- [[Bento Grid]]",
-    "2026-01-09": "- [[Bento Grid]] 인라인 조직 뱃지 애니메이션 개선",
     "Aldehyde Landing Page 2023": "- [[Bento Grid]]"
   },
   "Bernoulli Distribution": {
@@ -5800,7 +5798,6 @@
   },
   "CSS": {
     "2023-01-23": "... seems like [[Wikipedia]] updated its [[CSS]]...",
-    "2026-01-10": "... 사이드바 배경이 투명하게 보이던 문제를 [[CSS]]에서 배경색을 지정해 수정.",
     "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
     "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
     "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
@@ -7054,7 +7051,6 @@
     "2023-04-19": "- [[Docusaurus]]",
     "2023-10-31": "I tried to update [[Docusaurus]] to 3.0. [[Project Heimdall|Heimdall]] updates ...",
     "2023-11-12": "Updated this blog to [[Docusaurus]] v3! Had to fix a ...",
-    "2026-01-10": "- 모바일 [[Docusaurus]] 사이드바 배경이 투명하게 보이던 문제를 ...",
     "Aldehyde Outage (January 23誠鉉)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
     "Better Docusaurus": "... I currently don't like about [[Docusaurus]]",
     "In search of my domain": "... from WordPress to Ghost to [[Docusaurus]], making several contributions and almost ...",
@@ -15194,6 +15190,9 @@
   "call option": {
     "Black-Scholes Model": "... Black-Scholes formula for a European [[call option]] $C$ (an option that can ...",
     "Hinge Fund": "... resort membership and put a [[call option]] on the resort stock. He ..."
+  },
+  "card.cho.sh": {
+    "2026-01-10": "[[card.cho.sh]]"
   },
   "case study": {
     "Project PIRI Initial Proposal": "... multimedia applications, offering a practical [[case study]] that encompasses the theoretical and ...",
