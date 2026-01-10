@@ -4,13 +4,13 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
-  background: linear-gradient(180deg, #e8e7f5 0%, #d5d4eb 100%);
+  background: linear-gradient(180deg, #edf7ee 0%, #d8ead8 100%);
   border: none;
-  color: #1c1c1e;
+  color: #1a2118;
 }
 
 [data-theme="dark"] .heroWidget {
-  background: linear-gradient(180deg, #2d2b5a 0%, #1a1840 100%);
+  background: linear-gradient(180deg, #233b28 0%, #112418 100%);
   color: white;
 }
 

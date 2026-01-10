@@ -23,15 +23,15 @@
   --duration-normal: 0.4s;
   --duration-slow: 0.5s;
 
-  --apple-blue: #007aff;
-  --apple-green: #34c759;
-  --apple-orange: #ff9500;
-  --apple-red: #ff3b30;
-  --apple-purple: #af52de;
-  --apple-pink: #ff2d55;
-  --apple-teal: #5ac8fa;
-  --apple-indigo: #5856d6;
-  --apple-gray: #8e8e93;
+  --nature-green: #80be7a;
+  --nature-moss: #4a6545;
+  --nature-amber: #c4a35a;
+  --nature-berry: #a65d57;
+  --nature-lavender: #8b7eb8;
+  --nature-rose: #c27a8a;
+  --nature-stream: #6ba3aa;
+  --nature-twilight: #5d6b8a;
+  --nature-stone: #7a7d72;
 
   --grid-cell-size: 18px;
   --grid-col-gap: 6px;

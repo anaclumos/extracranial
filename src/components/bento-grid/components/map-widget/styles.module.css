@@ -1,12 +1,12 @@
 .mapWidget {
   padding: 0;
-  background: linear-gradient(180deg, #e0f7fa 0%, #b2ebf2 100%);
+  background: linear-gradient(180deg, #e0f2f1 0%, #b2dfdb 100%);
   border: none;
   overflow: hidden;
 }
 
 [data-theme="dark"] .mapWidget {
-  background: linear-gradient(180deg, #153a40 0%, #0a2328 100%);
+  background: linear-gradient(180deg, #1a3835 0%, #0d1f1d 100%);
 }
 
 .mapWrapper {
@@ -34,10 +34,10 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: var(--apple-blue);
+  background: var(--nature-stream);
   box-shadow:
     0 0 0 3px #ffffff,
-    0 0 0 3px rgba(0, 122, 255, 0.3);
+    0 0 0 3px rgba(107, 163, 170, 0.3);
   animation: mapPulseAnim 2s ease-out infinite;
 }
 
@@ -45,17 +45,17 @@
   0% {
     box-shadow:
       0 0 0 3px #ffffff,
-      0 0 0 3px rgba(0, 122, 255, 0.7);
+      0 0 0 3px rgba(107, 163, 170, 0.7);
   }
   70% {
     box-shadow:
       0 0 0 3px #ffffff,
-      0 0 0 24px rgba(0, 122, 255, 0);
+      0 0 0 24px rgba(107, 163, 170, 0);
   }
   100% {
     box-shadow:
       0 0 0 3px #ffffff,
-      0 0 0 3px rgba(0, 122, 255, 0);
+      0 0 0 3px rgba(107, 163, 170, 0);
   }
 }
 

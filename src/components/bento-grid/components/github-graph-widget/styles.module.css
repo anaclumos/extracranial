@@ -1,12 +1,12 @@
 .githubGraphWidget {
   padding: 24px;
-  background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%);
+  background: linear-gradient(180deg, #f0f7ef 0%, #dceddd 100%);
   border: none;
   cursor: pointer;
 }
 
 [data-theme="dark"] .githubGraphWidget {
-  background: linear-gradient(180deg, #1a3025 0%, #101a16 100%);
+  background: linear-gradient(180deg, #2a4030 0%, #18261c 100%);
 }
 
 .githubHeader {
@@ -87,11 +87,11 @@
 }
 
 .githubWeekHeaderActive {
-  color: #216e39;
+  color: #3d4f38;
 }
 
 [data-theme="dark"] .githubWeekHeaderActive {
-  color: #9be9a8;
+  color: #80be7a;
 }
 
 .githubCell {
@@ -112,7 +112,7 @@
 }
 
 .githubCellActive {
-  box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
+  box-shadow: 0 0 8px rgba(128, 190, 122, 0.4);
 }
 
 @media (max-width: 640px) {

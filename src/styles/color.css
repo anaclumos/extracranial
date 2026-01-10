@@ -1,23 +1,23 @@
 :root {
-  /* Apple System Blue Scale */
-  --primary-color-50: #e5f2ff;
-  --primary-color-100: #cce4ff;
-  --primary-color-200: #99c9ff;
-  --primary-color-300: #66adff;
-  --primary-color-400: #3392ff;
-  --primary-color-500: #007aff;
-  --primary-color-600: #0062cc;
-  --primary-color-700: #004999;
-  --primary-color-800: #003166;
-  --primary-color-900: #001833;
+  /* Nature Green Scale (Base: #80be7a) */
+  --primary-color-50: #f2f9f1;
+  --primary-color-100: #e0f0df;
+  --primary-color-200: #c2e0c0;
+  --primary-color-300: #a3d1a0;
+  --primary-color-400: #91c78d;
+  --primary-color-500: #80be7a;
+  --primary-color-600: #6ba665;
+  --primary-color-700: #558c50;
+  --primary-color-800: #40733c;
+  --primary-color-900: #2b5928;
 
   /* Semantic Colors - Light Mode */
-  --color-text-primary: #1d1d1f;
-  --color-text-secondary: #86868b;
-  --color-text-tertiary: #a1a1a6;
+  --color-text-primary: #1a2118;
+  --color-text-secondary: #5c6b59;
+  --color-text-tertiary: #849680;
   --color-background: #ffffff;
-  --color-background-secondary: #f5f5f7;
-  --color-separator: rgba(0, 0, 0, 0.1);
+  --color-background-secondary: #f4f7f4;
+  --color-separator: rgba(61, 79, 56, 0.15);
 
   /* Docusaurus/Infima mappings */
   --ifm-color-primary: var(--primary-color-500);
@@ -28,7 +28,7 @@
   --ifm-color-primary-lighter: var(--primary-color-300);
   --ifm-color-primary-lightest: var(--primary-color-200);
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 5%);
+  --docusaurus-highlighted-code-line-bg: rgb(61 79 56 / 8%);
   --navbar-glass-bg: rgba(255, 255, 255, 0.72);
   --ifm-navbar-background-color: transparent;
   --ifm-background-color: var(--color-background);
@@ -36,24 +36,24 @@
 }
 
 [data-theme="dark"] {
-  /* Apple System Blue Scale - Dark Mode Adaptation */
-  --ifm-color-primary: #0a84ff;
-  --ifm-color-primary-dark: #0077f0;
-  --ifm-color-primary-darker: #006ae0;
-  --ifm-color-primary-darkest: #0050b3;
-  --ifm-color-primary-light: #409cff;
-  --ifm-color-primary-lighter: #66b0ff;
-  --ifm-color-primary-lightest: #8cc4ff;
+  /* Nature Green Scale - Dark Mode Adaptation */
+  --ifm-color-primary: #80be7a;
+  --ifm-color-primary-dark: #6ba665;
+  --ifm-color-primary-darker: #558c50;
+  --ifm-color-primary-darkest: #40733c;
+  --ifm-color-primary-light: #91c78d;
+  --ifm-color-primary-lighter: #a3d1a0;
+  --ifm-color-primary-lightest: #c2e0c0;
 
   /* Semantic Colors - Dark Mode */
-  --color-text-primary: #f5f5f7;
-  --color-text-secondary: #a1a1a6;
-  --color-text-tertiary: #8e8e93;
+  --color-text-primary: #f1f7f0;
+  --color-text-secondary: #a3b8a0;
+  --color-text-tertiary: #6e806b;
   --color-background: #000000;
-  --color-background-secondary: #1c1c1e;
-  --color-separator: rgba(255, 255, 255, 0.1);
+  --color-background-secondary: #232b20;
+  --color-separator: rgba(128, 190, 122, 0.15);
 
-  --docusaurus-highlighted-code-line-bg: rgb(255 255 255 / 10%);
-  --navbar-glass-bg: rgba(38, 38, 40, 0.72);
+  --docusaurus-highlighted-code-line-bg: rgb(128 190 122 / 10%);
+  --navbar-glass-bg: rgba(35, 43, 32, 0.72);
   --ifm-navbar-background-color: transparent;
 }
