@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-09.md",
+                "file": "journals/2026-01-10.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-09"
+              "title": "2026-01-10"
             }
           },
           {
-            "id": "56fe8380d918f664",
+            "id": "3c3f644b8ed95f82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/TM과 R의 차이.md",
+                "file": "journals/2026-01-10.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TM과 R의 차이"
+              "title": "2026-01-10"
             }
           }
         ],
@@ -234,11 +234,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56fe8380d918f664",
+  "active": "3c3f644b8ed95f82",
   "lastOpenFiles": [
+    "pages/card.cho.sh.md",
     "journals/2026-01-10.md",
-    "pages/TM과 R의 차이.md",
     "journals/2026-01-09.md",
+    "pages/Meta Theme Color.md",
+    "pages/TM과 R의 차이.md",
     "pages/바잘제트 오버엔지니어링.md",
     "journals/2026-01-08.md",
     "templates/journal template.md",
@@ -265,8 +267,6 @@
     "pages/OpenAI Grove.md",
     "pages/INCL.md",
     "journals/2026-01-06.md",
-    "pages/Undefined Symbol Vtable.md",
-    "pages/2026년 탕아의 맥 복귀.md",
     "assets/8DD10B.jpeg",
     "assets/B21ABE.jpeg",
     "assets/44949C.png",
