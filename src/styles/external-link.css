@@ -8,12 +8,8 @@ a:has(i)::before {
   content: none;
 }
 
-* {
-  --linkflags-color: var(--ifm-link-color);
-}
-
 article a[href^="http"]::before {
-  background-color: var(--linkflags-color);
+  background-color: var(--ifm-link-color);
   height: 0.8em;
   width: 0.8em;
   margin: 0 2pt 2pt;

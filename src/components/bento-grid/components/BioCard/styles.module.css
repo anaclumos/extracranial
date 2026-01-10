@@ -1,0 +1,98 @@
+.bioCard {
+  justify-content: flex-start;
+  background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%);
+  border: none;
+  --bio-line-clamp: 7;
+}
+
+[data-theme="dark"] .bioCard {
+  background: linear-gradient(180deg, #3d2815 0%, #2a1a0a 100%);
+}
+
+.bioLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 12px;
+}
+
+[data-theme="dark"] .bioLabel {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bioContent {
+  color: #1c1c1e;
+  margin: 0;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--bio-line-clamp);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+[data-theme="dark"] .bioContent {
+  color: #fff;
+}
+
+.bioRefreshButton {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 50%;
+  color: #1c1c1e;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+[data-theme="dark"] .bioRefreshButton {
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+
+.bioRefreshButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transform: rotate(180deg);
+}
+
+[data-theme="dark"] .bioRefreshButton:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.bioRefreshButton svg {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes bioBounce {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  60% {
+    opacity: 0;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.bioContentRefreshing {
+  animation: bioBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}

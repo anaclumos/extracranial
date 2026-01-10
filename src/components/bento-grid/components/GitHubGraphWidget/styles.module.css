@@ -1,0 +1,116 @@
+.githubGraphCard {
+  padding: 24px;
+  background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%);
+  border: none;
+  cursor: pointer;
+}
+
+[data-theme="dark"] .githubGraphCard {
+  background: linear-gradient(180deg, #1a3025 0%, #101a16 100%);
+}
+
+.githubHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.githubLogo {
+  width: 24px;
+  height: 24px;
+  color: #1c1c1e;
+}
+
+[data-theme="dark"] .githubLogo {
+  color: #fff;
+}
+
+.githubLabel {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+[data-theme="dark"] .githubLabel {
+  color: #fff;
+}
+
+.githubGrid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-row-gap);
+  align-items: center;
+}
+
+.githubGridRow {
+  display: flex;
+  gap: var(--grid-col-gap);
+  align-items: center;
+}
+
+.githubDayCell {
+  width: 56px;
+  flex-shrink: 0;
+  font-family: var(--font-family-monospace);
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  padding-right: 12px;
+}
+
+[data-theme="dark"] .githubDayCell {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.githubWeekHeader {
+  width: var(--grid-cell-size);
+  height: var(--grid-cell-size);
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+[data-theme="dark"] .githubWeekHeader {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.githubWeekHeader:hover {
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.githubWeekHeaderActive {
+  color: #216e39;
+}
+
+[data-theme="dark"] .githubWeekHeaderActive {
+  color: #9be9a8;
+}
+
+.githubCell {
+  width: var(--grid-cell-size);
+  height: var(--grid-cell-size);
+  flex-shrink: 0;
+  border-radius: 4px;
+  transition: all var(--duration-fast) var(--ease-spring);
+}
+
+.githubCell:hover {
+  transform: scale(1.3);
+  z-index: 10;
+}
+
+.githubCellEmpty {
+  background: var(--github-empty);
+}
+
+.githubCellActive {
+  box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
+}
