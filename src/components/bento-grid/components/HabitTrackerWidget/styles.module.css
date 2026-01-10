@@ -123,14 +123,35 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 640px) {
+  .habitIdCell {
+    width: 40px;
+    font-size: 10px;
+    padding-right: 8px;
+  }
+}
+
 @media (max-width: 480px) {
   .habitTrackerCard {
-    overflow-x: scroll;
+    padding: 16px;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
 
   .habitTrackerCard::-webkit-scrollbar {
+    display: none;
+  }
+
+  .habitTrackerHeader {
+    margin-bottom: 12px;
+  }
+
+  .habitGrid {
+    min-width: max-content;
+  }
+
+  .habitIdCell {
     display: none;
   }
 }

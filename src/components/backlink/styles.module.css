@@ -55,3 +55,24 @@
   font-size: 0.8rem;
   color: var(--color-text-subtle);
 }
+
+@media (max-width: 480px) {
+  .backlinkGridView {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .backlinkGridView {
+    grid-template-columns: 1fr;
+    gap: 0.375rem;
+  }
+
+  .backlinkMentionedFileName {
+    font-size: 0.9rem;
+  }
+
+  .backlinkItemText {
+    font-size: 0.75rem;
+  }
+}
