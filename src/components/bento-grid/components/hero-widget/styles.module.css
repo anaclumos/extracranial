@@ -9,11 +9,6 @@
   color: #1a2118;
 }
 
-[data-theme="dark"] .heroWidget {
-  background: linear-gradient(180deg, #233b28 0%, #112418 100%);
-  color: white;
-}
-
 .heroContent {
   width: 100%;
   height: 100%;
@@ -34,11 +29,6 @@
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
 }
 
-[data-theme="dark"] .heroTitle {
-  color: #fff;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-}
-
 .heroSubtitle {
   position: relative;
   z-index: 1;
@@ -49,10 +39,6 @@
   margin: 0;
   line-height: 2.2;
   max-width: 36ch;
-}
-
-[data-theme="dark"] .heroSubtitle {
-  color: rgba(255, 255, 255, 0.95);
 }
 
 .inlineOrg {
@@ -118,24 +104,6 @@
   transform: translateX(0);
 }
 
-[data-theme="dark"] .inlineOrg {
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-[data-theme="dark"] .inlineOrg:hover {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-[data-theme="dark"] .inlineOrgExpanded {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
-
-[data-theme="dark"] .inlineOrgLabel {
-  color: #fff;
-}
-
 @media (max-width: 1024px) {
   .heroTitle {
     font-size: 5rem;
@@ -156,5 +124,66 @@
 
   .heroTitle {
     font-size: 3rem;
+  }
+
+  .inlineOrg,
+  .inlineOrg:hover,
+  .inlineOrgExpanded {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    height: 32px;
+    max-width: 32px;
+    margin: 0 2px;
+  }
+
+  .inlineOrgIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .inlineOrgExpanded .inlineOrgLabel {
+    display: none;
+  }
+}
+
+[data-theme="dark"] .heroWidget {
+  background: linear-gradient(180deg, #233b28 0%, #112418 100%);
+  color: white;
+}
+
+[data-theme="dark"] .heroTitle {
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .heroSubtitle {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+[data-theme="dark"] .inlineOrg {
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .inlineOrg:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+[data-theme="dark"] .inlineOrgExpanded {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .inlineOrgLabel {
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  [data-theme="dark"] .inlineOrg,
+  [data-theme="dark"] .inlineOrg:hover,
+  [data-theme="dark"] .inlineOrgExpanded {
+    background: none;
+    box-shadow: none;
   }
 }
