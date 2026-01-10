@@ -285,6 +285,7 @@ tr:last-child td {
 
 .navbar-sidebar {
   height: 100dvh;
+  background-color: var(--color-background);
 }
 
 .math {
