@@ -1,11 +1,11 @@
-.nowPlayingCard {
+.nowPlayingWidget {
   padding: 24px;
   background: linear-gradient(135deg, #e3f9e8 0%, #c8f0d0 100%);
   border: none;
   cursor: pointer;
 }
 
-[data-theme="dark"] .nowPlayingCard {
+[data-theme="dark"] .nowPlayingWidget {
   background: linear-gradient(135deg, #1a3528 0%, #0f1f18 100%);
 }
 
@@ -51,7 +51,7 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
-.nowPlayingCard:hover .nowPlayingArtWrapper {
+.nowPlayingWidget:hover .nowPlayingArtWrapper {
   transform: scale(1.05) rotate(2deg);
 }
 
@@ -145,7 +145,7 @@
 }
 
 @media (max-width: 480px) {
-  .nowPlayingCard {
+  .nowPlayingWidget {
     aspect-ratio: auto;
     min-height: 180px;
     padding: 20px;

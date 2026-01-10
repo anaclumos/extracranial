@@ -1,11 +1,11 @@
-.githubGraphCard {
+.githubGraphWidget {
   padding: 24px;
   background: linear-gradient(180deg, #e8f5e9 0%, #c8e6c9 100%);
   border: none;
   cursor: pointer;
 }
 
-[data-theme="dark"] .githubGraphCard {
+[data-theme="dark"] .githubGraphWidget {
   background: linear-gradient(180deg, #1a3025 0%, #101a16 100%);
 }
 
@@ -116,7 +116,7 @@
 }
 
 @media (max-width: 640px) {
-  .githubGraphCard {
+  .githubGraphWidget {
     --grid-cell-size: 14px;
     --grid-col-gap: 4px;
     --grid-row-gap: 6px;
@@ -130,14 +130,14 @@
 }
 
 @media (max-width: 480px) {
-  .githubGraphCard {
+  .githubGraphWidget {
     padding: 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
 
-  .githubGraphCard::-webkit-scrollbar {
+  .githubGraphWidget::-webkit-scrollbar {
     display: none;
   }
 

@@ -1,10 +1,10 @@
-.habitTrackerCard {
+.habitTrackerWidget {
   padding: 24px;
   background: linear-gradient(180deg, #e8f4fc 0%, #d0e8f7 100%);
   border: none;
 }
 
-[data-theme="dark"] .habitTrackerCard {
+[data-theme="dark"] .habitTrackerWidget {
   background: linear-gradient(180deg, #1a2a40 0%, #0f1725 100%);
 }
 
@@ -132,14 +132,14 @@
 }
 
 @media (max-width: 480px) {
-  .habitTrackerCard {
+  .habitTrackerWidget {
     padding: 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
 
-  .habitTrackerCard::-webkit-scrollbar {
+  .habitTrackerWidget::-webkit-scrollbar {
     display: none;
   }
 

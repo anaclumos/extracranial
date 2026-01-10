@@ -2,19 +2,19 @@ import Link from '@docusaurus/Link'
 import { cn } from '@site/src/util/cn'
 import { Squircle } from 'corner-smoothing'
 import { CORNER_RADIUS, CORNER_SMOOTHING } from '../../constants'
-import type { BentoCardProps } from '../../types'
+import type { BentoWidgetProps } from '../../types'
 import styles from './styles.module.css'
 
-export default function BentoCard({
+export default function BentoWidget({
   className,
   children,
   href,
   external,
   animate = true,
-}: BentoCardProps) {
-  const cardContent = (
+}: BentoWidgetProps) {
+  const widgetContent = (
     <Squircle
-      className={cn(styles.bentoCard, animate && styles.animateIn, className)}
+      className={cn(styles.bentoWidget, animate && styles.animateIn, className)}
       cornerRadius={CORNER_RADIUS}
       cornerSmoothing={CORNER_SMOOTHING}
     >
@@ -26,21 +26,21 @@ export default function BentoCard({
     if (external) {
       return (
         <a
-          className={styles.cardLink}
+          className={styles.widgetLink}
           href={href}
           rel="noopener noreferrer"
           target="_blank"
         >
-          {cardContent}
+          {widgetContent}
         </a>
       )
     }
     return (
-      <Link className={styles.cardLink} to={href}>
-        {cardContent}
+      <Link className={styles.widgetLink} to={href}>
+        {widgetContent}
       </Link>
     )
   }
 
-  return cardContent
+  return widgetContent
 }

@@ -9,7 +9,7 @@
   color: #1c1c1e;
 }
 
-[data-theme="dark"] .heroCard {
+[data-theme="dark"] .heroWidget {
   background: linear-gradient(180deg, #2d2b5a 0%, #1a1840 100%);
   color: white;
 }
@@ -149,7 +149,7 @@
 }
 
 @media (max-width: 480px) {
-  .heroCard {
+  .heroWidget {
     aspect-ratio: 4 / 5;
     padding: 24px;
   }
