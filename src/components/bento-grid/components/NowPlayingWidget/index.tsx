@@ -72,45 +72,41 @@ export default function NowPlayingWidget({ className }: NowPlayingWidgetProps) {
     track?.image.find((img) => img.size === 'large')?.['#text'] ||
     ''
 
-  if (loading || !track) {
-    return (
-      <BentoCard className={cn(styles.nowPlayingCard, className)}>
-        <div className={styles.nowPlayingLoading}>
-          <SpotifyLogo />
-        </div>
-      </BentoCard>
-    )
-  }
-
   return (
     <BentoCard
       className={cn(styles.nowPlayingCard, className)}
-      external
-      href={track.url}
+      external={!loading && !!track}
+      href={!loading && track ? track.url : undefined}
     >
-      <div className={styles.nowPlayingGrid}>
-        <div className={styles.nowPlayingLogoCell}>
-          <div className={styles.nowPlayingLogoStack}>
-            <SpotifyLogo />
-            {isPlaying && <span className={styles.nowPlayingDot} />}
+      {loading || !track ? (
+        <div className={styles.nowPlayingLoading}>
+          <SpotifyLogo />
+        </div>
+      ) : (
+        <div className={styles.nowPlayingGrid}>
+          <div className={styles.nowPlayingLogoCell}>
+            <div className={styles.nowPlayingLogoStack}>
+              <SpotifyLogo />
+              {isPlaying && <span className={styles.nowPlayingDot} />}
+            </div>
+          </div>
+          <div className={styles.nowPlayingArtWrapper}>
+            {albumArt && (
+              <img
+                alt={`${track.album['#text']} album art`}
+                className={styles.nowPlayingArt}
+                height={300}
+                src={albumArt}
+                width={300}
+              />
+            )}
+          </div>
+          <div className={styles.nowPlayingInfo}>
+            <p className={styles.nowPlayingTitle}>{track.name}</p>
+            <p className={styles.nowPlayingArtist}>{track.artist['#text']}</p>
           </div>
         </div>
-        <div className={styles.nowPlayingArtWrapper}>
-          {albumArt && (
-            <img
-              alt={`${track.album['#text']} album art`}
-              className={styles.nowPlayingArt}
-              height={300}
-              src={albumArt}
-              width={300}
-            />
-          )}
-        </div>
-        <div className={styles.nowPlayingInfo}>
-          <p className={styles.nowPlayingTitle}>{track.name}</p>
-          <p className={styles.nowPlayingArtist}>{track.artist['#text']}</p>
-        </div>
-      </div>
+      )}
     </BentoCard>
   )
 }

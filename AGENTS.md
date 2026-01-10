@@ -2,7 +2,7 @@
 
 ## Daily Journal Updates
 
-Whenever you complete a task or make significant changes to this codebase, **write a summary to today's journal**.
+Whenever you complete a task or make significant changes to this codebase, **write a summary to today's journal**, under AGENTS section.
 
 ### Journal Location
 
