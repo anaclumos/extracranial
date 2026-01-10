@@ -22,7 +22,7 @@
 }
 
 [data-theme="dark"] .bentoWidget {
-  background: linear-gradient(180deg, #252538 0%, #151520 100%);
+  background: linear-gradient(180deg, #2b3a2e 0%, #1a241c 100%);
   border: none;
 }
 
@@ -40,7 +40,7 @@
 
 .widgetLink:focus-visible .bentoWidget,
 .bentoWidget:focus-visible {
-  outline: 4px solid var(--apple-blue);
+  outline: 4px solid var(--nature-green);
   outline-offset: 2px;
 }
 

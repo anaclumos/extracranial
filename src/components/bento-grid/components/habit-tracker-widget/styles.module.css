@@ -1,11 +1,11 @@
 .habitTrackerWidget {
   padding: 24px;
-  background: linear-gradient(180deg, #e8f4fc 0%, #d0e8f7 100%);
+  background: linear-gradient(180deg, #f1f8e9 0%, #dcedc8 100%);
   border: none;
 }
 
 [data-theme="dark"] .habitTrackerWidget {
-  background: linear-gradient(180deg, #1a2a40 0%, #0f1725 100%);
+  background: linear-gradient(180deg, #2e3b2f 0%, #1c261d 100%);
 }
 
 .habitTrackerHeader {
@@ -18,7 +18,7 @@
 .habitTrackerLogo {
   width: 24px;
   height: 24px;
-  color: var(--apple-blue);
+  color: var(--nature-green);
 }
 
 .habitTrackerLabel {
@@ -89,7 +89,7 @@
 }
 
 .habitDayHeaderAllDone {
-  color: var(--apple-blue);
+  color: var(--nature-green);
 }
 
 .habitCell {
@@ -107,8 +107,8 @@
 }
 
 .habitCellDone {
-  background: var(--apple-blue);
-  box-shadow: 0 0 8px rgba(0, 122, 255, 0.4);
+  background: var(--nature-green);
+  box-shadow: 0 0 8px rgba(128, 190, 122, 0.4);
 }
 
 .habitCellEmpty {

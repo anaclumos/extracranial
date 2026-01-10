@@ -1,12 +1,12 @@
 .nowPlayingWidget {
   padding: 24px;
-  background: linear-gradient(135deg, #e3f9e8 0%, #c8f0d0 100%);
+  background: linear-gradient(135deg, #f2f9f1 0%, #d5ebd4 100%);
   border: none;
   cursor: pointer;
 }
 
 [data-theme="dark"] .nowPlayingWidget {
-  background: linear-gradient(135deg, #1a3528 0%, #0f1f18 100%);
+  background: linear-gradient(135deg, #2b4530 0%, #1a2f20 100%);
 }
 
 .nowPlayingGrid {
@@ -84,10 +84,10 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--apple-green);
+  background: var(--nature-green);
   box-shadow:
     0 0 0 2px #ffffff,
-    0 0 8px var(--apple-green);
+    0 0 8px var(--nature-green);
   animation: nowPlayingPulse 2s ease-in-out infinite;
 }
 

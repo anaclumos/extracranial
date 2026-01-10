@@ -42,9 +42,19 @@
   --transition-slow: 0.5s var(--ease-apple);
 
   --color-border: var(--color-separator);
-  --color-border-muted: rgba(134, 134, 139, 0.1);
+  --color-border-muted: rgba(61, 79, 56, 0.1);
   --color-text-muted: var(--color-text-secondary);
   --color-text-subtle: var(--color-text-tertiary);
+}
+
+::placeholder {
+  color: #4a6545;
+  opacity: 0.7;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #4a6545;
 }
 
 * {

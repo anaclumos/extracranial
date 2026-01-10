@@ -1,12 +1,12 @@
 .funFactsWidget {
   justify-content: flex-start;
-  background: linear-gradient(180deg, #fff3e0 0%, #ffe0b2 100%);
+  background: linear-gradient(180deg, #fff8e1 0%, #faeabb 100%);
   border: none;
   --bio-line-clamp: 7;
 }
 
 [data-theme="dark"] .funFactsWidget {
-  background: linear-gradient(180deg, #3d2815 0%, #2a1a0a 100%);
+  background: linear-gradient(180deg, #5c4d3c 0%, #3e3226 100%);
 }
 
 .bioLabel {
