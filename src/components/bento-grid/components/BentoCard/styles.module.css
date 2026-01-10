@@ -61,6 +61,31 @@
   opacity: 0;
 }
 
+@media (max-width: 640px) {
+  .bentoCard {
+    --card-radius: 20px;
+    padding: calc(var(--bento-padding) * 0.75);
+  }
+}
+
+@media (max-width: 480px) {
+  .bentoCard {
+    --card-radius: 16px;
+    padding: calc(var(--bento-padding) * 0.6);
+  }
+
+  .cardLink:hover .bentoCard,
+  .bentoCard:hover {
+    transform: none;
+    box-shadow: var(--shadow-widget);
+  }
+
+  .cardLink:active .bentoCard,
+  .bentoCard:active {
+    transform: scale(0.98);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animateIn {
     animation: none;

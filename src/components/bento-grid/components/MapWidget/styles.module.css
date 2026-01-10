@@ -59,6 +59,13 @@
   }
 }
 
+@media (max-width: 480px) {
+  .mapPulse {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .mapPulse {
     animation: none;

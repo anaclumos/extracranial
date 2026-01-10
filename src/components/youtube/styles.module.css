@@ -9,3 +9,17 @@
   border-radius: var(--border-radius);
   border: 2px solid var(--color-border);
 }
+
+@media (max-width: 640px) {
+  .youtube {
+    max-height: 18rem;
+    margin: 0.75rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .youtube {
+    max-height: 14rem;
+    border-radius: calc(var(--border-radius) * 0.75);
+  }
+}
