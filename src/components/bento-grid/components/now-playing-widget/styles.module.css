@@ -146,9 +146,9 @@
 
 @media (max-width: 480px) {
   .nowPlayingWidget {
-    aspect-ratio: auto;
-    min-height: 180px;
-    padding: 20px;
+    aspect-ratio: auto !important;
+    min-height: auto;
+    padding: 16px;
   }
 
   .nowPlayingGrid {
