@@ -22,23 +22,18 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-<<<<<<< HEAD
-Sat Jan 10 15:02:59 KST 2026
-=======
-Sat Jan 10 11:20:26 AM KST 2026
->>>>>>> 2c3459642c698beb3f683ca6fb527ce96d72a209
+Sat Jan 10 16:40:04 KST 2026
 
 ## Stats
 
 ```
 ───────────────────────────────────────────────────────────────────────────────
-Language            Files       Lines    Blanks  Comments       Code Complexity
+Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
-<<<<<<< HEAD
 Markdown                  3080     78963    21347         0    57616          0
 TypeScript                  57      3909      428        33     3448        362
-JSON                        43     24418        0         0    24418          0
-CSS                         34      3164      469        14     2681          0
+JSON                        43     24394        0         0    24394          0
+CSS                         34      3411      510        15     2886          0
 SVG                         11        11        0         0       11          0
 YAML                         6        35        0         0       35          0
 TypeScript Typings           2        55        6         4       45          0
@@ -47,33 +42,12 @@ JSONC                        1        31        0         0       31          0
 JavaScript                   1      1130        1      1018      111         21
 Plain Text                   1         3        0         0        3          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3237    111720    22251      1069    88400        383
+Total                     3237    111943    22292      1070    88581        383
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $2,987,928
-Estimated Schedule Effort (organic) 20.85 months
-Estimated People Required (organic) 12.73
+Estimated Cost to Develop (organic) $2,994,352
+Estimated Schedule Effort (organic) 20.86 months
+Estimated People Required (organic) 12.75
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5571691 bytes, 5.572 megabytes (SI)
-=======
-Markdown            3,079      78,995    21,346         0     57,649          0
-TypeScript             57       3,909       378        16      3,515        218
-JSON                   43      24,425         0         0     24,425          0
-CSS                    34       3,409       510        15      2,884          0
-SVG                    11          11         0         0         11          0
-YAML                    6          35         0         0         35          0
-TypeScript Typ…         2          55         6         4         45          0
-INI                     1           1         0         0          1          0
-JSONC                   1          31         0         0         31          0
-JavaScript              1       1,130         5         5      1,120         28
-Plain Text              1           3         0         0          3          0
-───────────────────────────────────────────────────────────────────────────────
-Total               3,236     112,004    22,245        40     89,719        246
-───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,034,757
-Estimated Schedule Effort (organic) 20.97 months
-Estimated People Required (organic) 12.86
-───────────────────────────────────────────────────────────────────────────────
-Processed 5579629 bytes, 5.580 megabytes (SI)
->>>>>>> 2c3459642c698beb3f683ca6fb527ce96d72a209
+Processed 5574649 bytes, 5.575 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
