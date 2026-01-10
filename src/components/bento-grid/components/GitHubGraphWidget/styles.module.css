@@ -114,3 +114,38 @@
 .githubCellActive {
   box-shadow: 0 0 8px rgba(52, 199, 89, 0.4);
 }
+
+@media (max-width: 640px) {
+  .githubGraphCard {
+    --grid-cell-size: 14px;
+    --grid-col-gap: 4px;
+    --grid-row-gap: 6px;
+  }
+
+  .githubDayCell {
+    width: 40px;
+    font-size: 10px;
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .githubGraphCard {
+    padding: 16px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .githubGraphCard::-webkit-scrollbar {
+    display: none;
+  }
+
+  .githubGrid {
+    min-width: max-content;
+  }
+
+  .githubDayCell {
+    display: none;
+  }
+}

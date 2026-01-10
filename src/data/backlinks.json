@@ -4208,6 +4208,7 @@
     "2025-09-06": "- [[Accessaurus]]"
   },
   "Accessibility": {
+    "2026-01-10": "... 바의 터치 타겟 크기 개선 ([[Accessibility]]).",
     "Cartography": "8. [[Accessibility]] and usability: Creating digital maps ...",
     "Project PIRI Initial Proposal": "### Enhanced [[Accessibility]] and User Engagement",
     "Proposal of Research 2023-03-28": "## Enhancing Web [[Accessibility]]. Utilizing [[Generative AI]] to Generate ...",
@@ -5113,6 +5114,7 @@
   },
   "Backlink": {
     "2022-10-17": "**[[Backlink|Links to This Note]]** feature is complete.",
+    "2026-01-10": "- 300px 미만 작은 화면에서 [[Backlink]] 그리드가 넘치는 문제를 [[CSS]] 미디어 ...",
     "Andy Matuschak": "... concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
     "Backlinking for Aldehyde": "- **[[Backlink|Links to This Note]]** feature is complete on [[2022-10-17]]."
   },
@@ -5184,7 +5186,11 @@
     "2023-06-15": "- [[Bento Grid]]",
     "2023-11-20": "- [[Bento Grid]]",
     "2026-01-09": "- [[Bento Grid]] 인라인 조직 뱃지 애니메이션 개선",
+    "2026-01-10": "- [[Bento Grid]]의 `BioCard` 컴포넌트 모바일 반응형 디자인 ...",
     "Aldehyde Landing Page 2023": "- [[Bento Grid]]"
+  },
+  "BentoGrid": {
+    "2026-01-10": "- [[BentoGrid]]의 모바일 경험 개선: 작은 화면에서 ..."
   },
   "Bernoulli Distribution": {
     "2023-01-24": "- [[Bernoulli Distribution]]",
@@ -8462,6 +8468,7 @@
   "GitHub": {
     "2023-01-09": "- Can we use [[GitHub]]'s **subscribe** feature as a [[Newsletter]]?",
     "2023-02-16": "I got invited to [[GitHub]] Blocks!",
+    "2026-01-10": "- [[GitHub]] 기여 그래프 위젯의 모바일 UX ...",
     "AI replaces expensive jobs first": "- Like [[GitHub]] [[Copilot]] but for medical and ...",
     "AIs.txt": "Also, [[GitHub]] Copilot _ignores_ `LICENSE` or `COPYING.txt`,",
     "AI는 고가 노동부터 점령한다": "- 마치, 의료 법률계의 [[GitHub]] [[Copilot]] (2021년에 출시되어 이미 보급된 ...",
