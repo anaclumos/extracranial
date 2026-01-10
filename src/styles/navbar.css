@@ -4,61 +4,65 @@
   transition: color var(--transition-fast);
 }
 
-.navbar-github-link::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  display: flex;
-  transition: opacity var(--transition-fast);
-  background: url("/icons/github.svg") no-repeat center;
-  background-size: contain;
-}
-
-.navbar-github-link:hover::before {
-  opacity: 0.7;
-}
-
-[data-theme="dark"] .navbar-github-link::before {
-  background: url("/icons/github-dark.svg") no-repeat center;
-  background-size: contain;
-}
-
+.navbar-github-link::before,
 .navbar-linkedin-link::before {
   content: "";
   width: 20px;
   height: 20px;
   display: flex;
   transition: opacity var(--transition-fast);
-  background: url("/icons/linkedin.svg") no-repeat center;
   background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+.navbar-github-link:hover::before,
 .navbar-linkedin-link:hover::before {
   opacity: 0.7;
 }
 
+.navbar-github-link::before {
+  background-image: url("/icons/github.svg");
+}
+
+[data-theme="dark"] .navbar-github-link::before {
+  background-image: url("/icons/github-dark.svg");
+}
+
+.navbar-linkedin-link::before {
+  background-image: url("/icons/linkedin.svg");
+}
+
 [data-theme="dark"] .navbar-linkedin-link::before {
-  background: url("/icons/linkedin-dark.svg") no-repeat center;
-  background-size: contain;
+  background-image: url("/icons/linkedin-dark.svg");
 }
 
 /* Apple-style Frosted Glass Navbar */
 .navbar {
   background-color: var(--navbar-glass-bg);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(20px) saturate(180%);
   transition:
     background-color var(--transition-medium),
     border-color var(--transition-medium);
 }
 
-@supports (backdrop-filter: blur(1px)) {
-  .navbar {
-    backdrop-filter: blur(20px) saturate(180%);
+@media screen and (width >= 996px) {
+  .navbar__inner {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    max-width: var(--ifm-container-width-xxl);
   }
 }
 
-[data-theme="dark"] .navbar {
-  background-color: var(--navbar-glass-bg);
+.navbar__logo img {
+  filter: none;
+  border-radius: 0;
+}
+
+.navbar-sidebar {
+  height: 100dvh;
+  background-color: var(--color-background);
 }
 
 /* Mobile Hamburger Polish */

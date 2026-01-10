@@ -1,0 +1,180 @@
+.nowPlayingCard {
+  padding: 24px;
+  background: linear-gradient(135deg, #e3f9e8 0%, #c8f0d0 100%);
+  border: none;
+  cursor: pointer;
+}
+
+[data-theme="dark"] .nowPlayingCard {
+  background: linear-gradient(135deg, #1a3528 0%, #0f1f18 100%);
+}
+
+.nowPlayingGrid {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.nowPlayingLoading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.spotifyLogo {
+  width: 32px;
+  height: 32px;
+  color: #1c1c1e;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+[data-theme="dark"] .spotifyLogo {
+  color: #fff;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.nowPlayingArtWrapper {
+  position: relative;
+  width: 60%;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s var(--ease-spring);
+}
+
+[data-theme="dark"] .nowPlayingArtWrapper {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.nowPlayingCard:hover .nowPlayingArtWrapper {
+  transform: scale(1.05) rotate(2deg);
+}
+
+.nowPlayingArt {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.nowPlayingLogoCell {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+.nowPlayingLogoStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.nowPlayingDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--apple-green);
+  box-shadow:
+    0 0 0 2px #ffffff,
+    0 0 8px var(--apple-green);
+  animation: nowPlayingPulse 2s ease-in-out infinite;
+}
+
+@keyframes nowPlayingPulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+}
+
+.nowPlayingInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-top: 16px;
+}
+
+.nowPlayingTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #1c1c1e;
+  margin: 0 0 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[data-theme="dark"] .nowPlayingTitle {
+  color: #fff;
+}
+
+.nowPlayingArtist {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[data-theme="dark"] .nowPlayingArtist {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 640px) {
+  .nowPlayingArtWrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .nowPlayingCard {
+    aspect-ratio: auto;
+    min-height: 180px;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .nowPlayingArtWrapper {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  .nowPlayingInfo {
+    padding-top: 0;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .nowPlayingLogoCell {
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nowPlayingDot {
+    animation: none;
+  }
+}
