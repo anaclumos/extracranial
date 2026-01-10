@@ -273,3 +273,27 @@ tr:last-child td {
 .math {
   overflow-x: scroll;
 }
+
+/* Mobile Typography Scaling */
+@media (max-width: 640px) {
+  :root {
+    --ifm-h1-font-size: 2.25rem;
+    --ifm-h2-font-size: 1.75rem;
+    --ifm-h3-font-size: 1.5rem;
+    --ifm-h4-font-size: 1.25rem;
+    --ifm-h5-font-size: 1.1rem;
+    --ifm-h6-font-size: 1rem;
+    --ifm-body-font-size: 16px;
+
+    --ifm-spacing-horizontal: 1rem;
+    --ifm-spacing-vertical: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  :root {
+    --ifm-h1-font-size: 2rem;
+    --ifm-h2-font-size: 1.5rem;
+    --ifm-h3-font-size: 1.25rem;
+  }
+}

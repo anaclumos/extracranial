@@ -45,3 +45,23 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+@media (max-width: 640px) {
+  .heroContainer {
+    padding: 2.5rem 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContainer {
+    padding: 2rem 0.5rem;
+  }
+
+  .container {
+    padding: 0 0.75rem;
+  }
+
+  .list {
+    margin: 1.5rem 0;
+  }
+}

@@ -11,6 +11,12 @@
 
 @media (width <= 996px) {
   .docItemContainer {
-    padding: 0 0.3rem;
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .docItemContainer {
+    padding: 0 0.75rem;
   }
 }

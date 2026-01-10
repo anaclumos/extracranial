@@ -25,7 +25,7 @@ export default function BlogLayout(props: Props) {
             itemScope
             itemType="http://schema.org/Blog"
           >
-            <div style={{ maxWidth: '65ch' }}>{children}</div>
+            <div style={{ maxWidth: 'min(65ch, 100%)' }}>{children}</div>
           </main>
           {toc && <div className="col col--3">{toc}</div>}
         </div>
