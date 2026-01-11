@@ -27,7 +27,7 @@ const navbar = {
   title: 'cho.sh',
   logo: {
     alt: 'cho.sh logo',
-    src: '/img/favicon.svg',
+    src: '/icons/symbol.svg',
     width: 32,
     height: 32,
   },

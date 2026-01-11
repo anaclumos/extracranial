@@ -1,7 +1,6 @@
 ---
 lang: 'ko'
-slug: '{{hex}}'
+slug: '/1AB6AF'
 habit: 'ALCX'
 status: 'ING'
 ---
-

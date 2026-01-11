@@ -19,7 +19,7 @@ const config: Config = {
   onBrokenAnchors: 'warn',
   onDuplicateRoutes: 'warn',
   trailingSlash: false,
-  favicon: 'img/favicon.svg',
+  favicon: 'icons/symbol.svg',
 
   organizationName: 'anaclumos',
   projectName: 'extracranial',

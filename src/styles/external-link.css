@@ -22,5 +22,5 @@ article a[href^="http"]::before {
 
 article a[href*="cho.sh"]::before {
   content: "\00a0";
-  display: none;
+  mask-image: url("/icons/symbol.svg");
 }
