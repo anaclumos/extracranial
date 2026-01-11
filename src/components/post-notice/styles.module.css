@@ -13,22 +13,22 @@
   margin-left: auto;
   display: block;
   width: fit-content;
-}
 
-.searchGoogleButton:hover {
-  background-color: rgb(220 237 220);
-  text-decoration: none;
-}
+  &:hover {
+    background-color: rgb(220 237 220);
+    text-decoration: none;
+  }
 
-[data-theme="dark"] .searchGoogleButton {
-  background-color: rgb(61 79 56);
-  border-color: var(--color-border-muted);
-  box-shadow:
-    0 1px 3px 0 rgb(20 30 20 / 10%),
-    0 1px 2px 0 rgb(20 30 20 / 6%);
-}
+  [data-theme="dark"] & {
+    background-color: rgb(61 79 56);
+    border-color: var(--color-border-muted);
+    box-shadow:
+      0 1px 3px 0 rgb(20 30 20 / 10%),
+      0 1px 2px 0 rgb(20 30 20 / 6%);
 
-[data-theme="dark"] .searchGoogleButton:hover {
-  background-color: rgb(43 56 40);
-  text-decoration: none;
+    &:hover {
+      background-color: rgb(43 56 40);
+      text-decoration: none;
+    }
+  }
 }

@@ -37,13 +37,13 @@
   transition: all var(--transition-fast);
   text-decoration: none;
   border: 1px solid transparent;
-}
 
-.link:hover {
-  background-color: var(--color-background-secondary);
-  color: var(--color-text-primary);
-  text-decoration: none;
-  border-color: var(--color-separator);
+  &:hover {
+    background-color: var(--color-background-secondary);
+    color: var(--color-text-primary);
+    text-decoration: none;
+    border-color: var(--color-separator);
+  }
 }
 
 .linkTitle {
@@ -60,11 +60,11 @@
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-}
 
-.excerpt b {
-  color: var(--ifm-color-primary);
-  font-weight: 600;
+  & b {
+    color: var(--ifm-color-primary);
+    font-weight: 600;
+  }
 }
 
 .empty {

@@ -1,4 +1,6 @@
-.iconExternalLink::after {
-  content: "↗";
-  font-size: 0.8em;
+.iconExternalLink {
+  &::after {
+    content: "↗";
+    font-size: 0.8em;
+  }
 }

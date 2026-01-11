@@ -7,14 +7,12 @@
   padding: var(--padding);
   border-radius: var(--border-radius);
   transition: opacity var(--transition-fast);
-}
 
-.tableOfContents:hover {
-  opacity: 1;
-}
+  &:hover {
+    opacity: 1;
+  }
 
-@media (width <= 996px) {
-  .tableOfContents {
+  @media (width <= 996px) {
     display: none;
   }
 }

@@ -22,20 +22,18 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+
+  @media (max-width: 480px) {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 
 .dice {
   font-size: 4rem;
   animation: rotating 1s linear infinite;
-}
 
-@media (max-width: 480px) {
-  .diceButton {
-    width: 8rem;
-    height: 8rem;
-  }
-
-  .dice {
+  @media (max-width: 480px) {
     font-size: 3rem;
   }
 }

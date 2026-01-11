@@ -46,6 +46,24 @@
   --color-border-muted: rgba(61, 79, 56, 0.1);
   --color-text-muted: var(--color-text-secondary);
   --color-text-subtle: var(--color-text-tertiary);
+
+  @media (max-width: 640px) {
+    --ifm-h1-font-size: 2.25rem;
+    --ifm-h2-font-size: 1.75rem;
+    --ifm-h3-font-size: 1.5rem;
+    --ifm-h4-font-size: 1.25rem;
+    --ifm-h5-font-size: 1.1rem;
+    --ifm-h6-font-size: 1rem;
+    --ifm-body-font-size: 16px;
+    --ifm-spacing-horizontal: 1rem;
+    --ifm-spacing-vertical: 1rem;
+  }
+
+  @media (max-width: 375px) {
+    --ifm-h1-font-size: 2rem;
+    --ifm-h2-font-size: 1.5rem;
+    --ifm-h3-font-size: 1.25rem;
+  }
 }
 
 /* ===== Dark Mode Overrides ===== */
@@ -79,23 +97,23 @@ code {
 }
 
 /* ===== Table of Contents ===== */
-.table-of-contents__link--active {
-  color: var(--ifm-color-primary) !important;
-  font-weight: 500;
-}
-
 .table-of-contents__link {
   color: var(--color-text-secondary);
   padding: 0.375rem 0.75rem;
   border-radius: 8px;
   transition: all var(--transition-fast);
   font-size: 0.85rem;
-}
 
-.table-of-contents__link:hover {
-  color: var(--color-text-primary);
-  background-color: var(--color-background-secondary);
-  text-decoration: none;
+  &:hover {
+    color: var(--color-text-primary);
+    background-color: var(--color-background-secondary);
+    text-decoration: none;
+  }
+
+  &--active {
+    color: var(--ifm-color-primary) !important;
+    font-weight: 500;
+  }
 }
 
 /* ===== Pagination ===== */
@@ -104,13 +122,13 @@ code {
   border-radius: var(--border-radius);
   transition: all var(--transition-fast);
   background: var(--color-background-secondary);
-}
 
-.pagination-nav__link:hover {
-  border-color: var(--ifm-color-primary);
-  background-color: var(--color-background);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  &:hover {
+    border-color: var(--ifm-color-primary);
+    background-color: var(--color-background);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
 }
 
 .pagination-nav__sublabel {
@@ -130,27 +148,4 @@ code {
 /* ===== Math Blocks ===== */
 .math {
   overflow-x: scroll;
-}
-
-/* ===== Mobile Typography ===== */
-@media (max-width: 640px) {
-  :root {
-    --ifm-h1-font-size: 2.25rem;
-    --ifm-h2-font-size: 1.75rem;
-    --ifm-h3-font-size: 1.5rem;
-    --ifm-h4-font-size: 1.25rem;
-    --ifm-h5-font-size: 1.1rem;
-    --ifm-h6-font-size: 1rem;
-    --ifm-body-font-size: 16px;
-    --ifm-spacing-horizontal: 1rem;
-    --ifm-spacing-vertical: 1rem;
-  }
-}
-
-@media (max-width: 375px) {
-  :root {
-    --ifm-h1-font-size: 2rem;
-    --ifm-h2-font-size: 1.5rem;
-    --ifm-h3-font-size: 1.25rem;
-  }
 }

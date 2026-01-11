@@ -1,23 +1,26 @@
 @import url("icons/essential.css");
 
-a:has(img)::after,
-a:has(img)::before,
-a:has(i)::after,
-a:has(i)::before {
-  mask-image: none;
-  content: none;
+a:has(img),
+a:has(i) {
+  &::after,
+  &::before {
+    mask-image: none;
+    content: none;
+  }
 }
 
-article a[href^="http"]::before {
-  background-color: var(--ifm-link-color);
-  height: 0.8em;
-  width: 0.8em;
-  margin: 0 2pt 2pt;
-  display: inline-block;
-  vertical-align: middle;
-  mask-repeat: no-repeat;
-  mask-position: center;
-  mask-size: contain;
+article a[href^="http"] {
+  &::before {
+    background-color: var(--ifm-link-color);
+    height: 0.8em;
+    width: 0.8em;
+    margin: 0 2pt 2pt;
+    display: inline-block;
+    vertical-align: middle;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+  }
 }
 
 article a[href*="cho.sh"]::before {

@@ -2,10 +2,20 @@
   padding: 24px;
   background: linear-gradient(180deg, #f1f8e9 0%, #dcedc8 100%);
   border: none;
-}
 
-[data-theme="dark"] .habitTrackerWidget {
-  background: linear-gradient(180deg, #2e3b2f 0%, #1c261d 100%);
+  [data-theme="dark"] & {
+    background: linear-gradient(180deg, #2e3b2f 0%, #1c261d 100%);
+  }
+
+  @media (max-width: 480px) {
+    padding: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
 
 .habitTrackerHeader {
@@ -13,6 +23,10 @@
   align-items: center;
   gap: 12px;
   margin-bottom: 20px;
+
+  @media (max-width: 480px) {
+    margin-bottom: 12px;
+  }
 }
 
 .habitTrackerLogo {
@@ -25,10 +39,10 @@
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--color-text-primary);
-}
 
-[data-theme="dark"] .habitTrackerLabel {
-  color: #fff;
+  [data-theme="dark"] & {
+    color: #fff;
+  }
 }
 
 .habitGrid {
@@ -36,6 +50,10 @@
   flex-direction: column;
   gap: var(--grid-row-gap);
   align-items: center;
+
+  @media (max-width: 480px) {
+    min-width: max-content;
+  }
 }
 
 .habitGridRow {
@@ -55,14 +73,24 @@
   padding-right: 12px;
   text-decoration: none;
   transition: opacity var(--duration-fast) var(--ease-apple);
-}
 
-[data-theme="dark"] .habitIdCell {
-  color: rgba(255, 255, 255, 0.9);
-}
+  [data-theme="dark"] & {
+    color: rgba(255, 255, 255, 0.9);
+  }
 
-.habitIdCell:hover {
-  opacity: 0.7;
+  &:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 640px) {
+    width: 40px;
+    font-size: 10px;
+    padding-right: 8px;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
+  }
 }
 
 .habitDayHeader {
@@ -77,15 +105,15 @@
   justify-content: center;
   border-radius: 4px;
   text-decoration: none;
-}
 
-[data-theme="dark"] .habitDayHeader {
-  color: rgba(255, 255, 255, 0.6);
-}
+  [data-theme="dark"] & {
+    color: rgba(255, 255, 255, 0.6);
+  }
 
-.habitDayHeader:hover {
-  color: rgba(255, 255, 255, 0.8);
-  background: rgba(255, 255, 255, 0.1);
+  &:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+  }
 }
 
 .habitDayHeaderAllDone {
@@ -99,11 +127,11 @@
   border-radius: 4px;
   transition: all var(--duration-fast) var(--ease-spring);
   text-decoration: none;
-}
 
-.habitCell:hover {
-  transform: scale(1.3);
-  z-index: 10;
+  &:hover {
+    transform: scale(1.3);
+    z-index: 10;
+  }
 }
 
 .habitCellDone {
@@ -113,44 +141,12 @@
 
 .habitCellEmpty {
   background: rgba(0, 0, 0, 0.05);
-}
 
-[data-theme="dark"] .habitCellEmpty {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.habitCellEmpty:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-@media (max-width: 640px) {
-  .habitIdCell {
-    width: 40px;
-    font-size: 10px;
-    padding-right: 8px;
-  }
-}
-
-@media (max-width: 480px) {
-  .habitTrackerWidget {
-    padding: 16px;
-    overflow-x: auto;
-    scrollbar-width: none;
+  [data-theme="dark"] & {
+    background: rgba(255, 255, 255, 0.1);
   }
 
-  .habitTrackerWidget::-webkit-scrollbar {
-    display: none;
-  }
-
-  .habitTrackerHeader {
-    margin-bottom: 12px;
-  }
-
-  .habitGrid {
-    min-width: max-content;
-  }
-
-  .habitIdCell {
-    display: none;
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
   }
 }
