@@ -1,29 +1,14 @@
 :root {
-  --glass-bg: rgba(255, 255, 255, 0.65);
-  --glass-bg-elevated: rgba(255, 255, 255, 0.9);
-  --glass-border: rgba(255, 255, 255, 0.4);
   --glass-border-subtle: rgba(0, 0, 0, 0.05);
   --shadow-widget:
     0 2px 8px rgba(0, 0, 0, 0.04), 0 8px 24px rgba(0, 0, 0, 0.08);
   --shadow-hover:
     0 4px 16px rgba(0, 0, 0, 0.08), 0 16px 32px rgba(0, 0, 0, 0.12);
-  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.8);
   --bento-gap: 24px;
   --bento-padding: 32px;
   --card-radius: 24px;
-  --ease-out: cubic-bezier(0, 0, 0.2, 1);
-  --duration-fast: 0.2s;
-  --duration-normal: 0.4s;
-  --duration-slow: 0.5s;
   --nature-green: #80be7a;
-  --nature-moss: #4a6545;
-  --nature-amber: #c4a35a;
-  --nature-berry: #a65d57;
-  --nature-lavender: #8b7eb8;
-  --nature-rose: #c27a8a;
   --nature-stream: #6ba3aa;
-  --nature-twilight: #5d6b8a;
-  --nature-stone: #7a7d72;
   --grid-cell-size: 18px;
   --grid-col-gap: 6px;
   --grid-row-gap: 8px;
@@ -36,13 +21,9 @@
 }
 
 [data-theme="dark"] {
-  --glass-bg: rgba(30, 30, 30, 0.6);
-  --glass-bg-elevated: rgba(44, 44, 46, 0.8);
-  --glass-border: rgba(255, 255, 255, 0.1);
   --glass-border-subtle: rgba(255, 255, 255, 0.08);
   --shadow-widget: 0 2px 8px rgba(0, 0, 0, 0.2), 0 8px 24px rgba(0, 0, 0, 0.3);
   --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3), 0 16px 48px rgba(0, 0, 0, 0.4);
-  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   --github-empty: rgba(255, 255, 255, 0.1);
 }
 
@@ -71,43 +52,6 @@
   gap: var(--bento-gap);
   width: 100%;
   padding-bottom: 2rem;
-
-  & > :nth-child(1) {
-    --bento-stagger-delay: 0ms;
-  }
-  & > :nth-child(2) {
-    --bento-stagger-delay: 50ms;
-  }
-  & > :nth-child(3) {
-    --bento-stagger-delay: 100ms;
-  }
-  & > :nth-child(4) {
-    --bento-stagger-delay: 150ms;
-  }
-  & > :nth-child(5) {
-    --bento-stagger-delay: 200ms;
-  }
-  & > :nth-child(6) {
-    --bento-stagger-delay: 250ms;
-  }
-  & > :nth-child(7) {
-    --bento-stagger-delay: 300ms;
-  }
-  & > :nth-child(8) {
-    --bento-stagger-delay: 350ms;
-  }
-  & > :nth-child(9) {
-    --bento-stagger-delay: 400ms;
-  }
-  & > :nth-child(10) {
-    --bento-stagger-delay: 450ms;
-  }
-  & > :nth-child(11) {
-    --bento-stagger-delay: 500ms;
-  }
-  & > :nth-child(12) {
-    --bento-stagger-delay: 550ms;
-  }
 
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);

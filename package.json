@@ -13,7 +13,6 @@
     "@giscus/react": "^3.1.0",
     "clsx": "^2.1.1",
     "cobe": "^0.6.4",
-    "corner-smoothing": "^0.1.5",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "rehype-katex": "^7.0.1",

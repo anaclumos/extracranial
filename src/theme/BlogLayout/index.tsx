@@ -17,7 +17,7 @@ export default function BlogLayout(props: Props) {
 
   return (
     <Layout {...layoutProps}>
-      <div className={styles.blogLayout} style={{ margin: '2rem auto' }}>
+      <div className={styles.blogLayout}>
         <div className="row">
           <BlogSidebar sidebar={sidebar} />
           <main
@@ -25,7 +25,7 @@ export default function BlogLayout(props: Props) {
             itemScope
             itemType="http://schema.org/Blog"
           >
-            <div style={{ maxWidth: 'min(65ch, 100%)' }}>{children}</div>
+            <div className={styles.blogPostContent}>{children}</div>
           </main>
           {toc && <div className="col col--3">{toc}</div>}
         </div>

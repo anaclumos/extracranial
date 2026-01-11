@@ -10,11 +10,6 @@
   @media (max-width: 480px) {
     padding: 16px;
     overflow-x: auto;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
 }
 
@@ -38,7 +33,7 @@
 .habitTrackerLabel {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--color-text-primary);
+  color: var(--ifm-font-color-base);
 
   [data-theme="dark"] & {
     color: #fff;
@@ -72,14 +67,9 @@
   text-align: right;
   padding-right: 12px;
   text-decoration: none;
-  transition: opacity var(--duration-fast) var(--ease-apple);
 
   [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.9);
-  }
-
-  &:hover {
-    opacity: 0.7;
   }
 
   @media (max-width: 640px) {
@@ -109,11 +99,6 @@
   [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.6);
   }
-
-  &:hover {
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(255, 255, 255, 0.1);
-  }
 }
 
 .habitDayHeaderAllDone {
@@ -125,18 +110,11 @@
   height: var(--grid-cell-size);
   flex-shrink: 0;
   border-radius: 4px;
-  transition: all var(--duration-fast) var(--ease-spring);
   text-decoration: none;
-
-  &:hover {
-    transform: scale(1.3);
-    z-index: 10;
-  }
 }
 
 .habitCellDone {
   background: var(--nature-green);
-  box-shadow: 0 0 8px rgba(128, 190, 122, 0.4);
 }
 
 .habitCellEmpty {
@@ -144,9 +122,5 @@
 
   [data-theme="dark"] & {
     background: rgba(255, 255, 255, 0.1);
-  }
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.2);
   }
 }

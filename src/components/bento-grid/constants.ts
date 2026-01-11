@@ -1,6 +1,3 @@
-export const CORNER_RADIUS = 28
-export const CORNER_SMOOTHING = 0.6
-
 export const LASTFM_API_KEY = 'f38b247197f3dc409a6911356a204510'
 export const LASTFM_USERNAME = 'anaclumos'
 

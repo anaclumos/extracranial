@@ -9,38 +9,16 @@
   overflow: hidden;
   background: var(--color-background-secondary);
   border-radius: var(--card-radius);
+  corner-shape: squircle;
   box-shadow: var(--shadow-widget);
   padding: var(--bento-padding);
   display: flex;
   flex-direction: column;
-  transition:
-    transform var(--duration-normal) var(--ease-spring),
-    box-shadow var(--duration-normal) var(--ease-apple);
-  will-change: transform;
-  cursor: default;
   border: 1px solid var(--glass-border-subtle);
 
   [data-theme="dark"] & {
     background: linear-gradient(180deg, #2b3a2e 0%, #1a241c 100%);
     border: none;
-  }
-
-  .widgetLink:hover &,
-  &:hover {
-    transform: scale(1.02);
-    box-shadow: var(--shadow-hover);
-    z-index: 1;
-  }
-
-  .widgetLink:active &,
-  &:active {
-    transform: scale(0.98);
-  }
-
-  .widgetLink:focus-visible &,
-  &:focus-visible {
-    outline: 4px solid var(--nature-green);
-    outline-offset: 2px;
   }
 
   @media (max-width: 640px) {
@@ -51,38 +29,5 @@
   @media (max-width: 480px) {
     --card-radius: 16px;
     padding: calc(var(--bento-padding) * 0.6);
-
-    .widgetLink:hover &,
-    &:hover {
-      transform: none;
-      box-shadow: var(--shadow-widget);
-    }
-
-    .widgetLink:active &,
-    &:active {
-      transform: scale(0.98);
-    }
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px) scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
-}
-
-.animateIn {
-  animation: fadeInUp var(--duration-slow) var(--ease-out) forwards;
-  animation-delay: var(--bento-stagger-delay, 0ms);
-  opacity: 0;
-
-  @media (prefers-reduced-motion: reduce) {
-    animation: none;
-    opacity: 1;
   }
 }

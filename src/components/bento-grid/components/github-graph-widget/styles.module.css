@@ -17,11 +17,6 @@
   @media (max-width: 480px) {
     padding: 16px;
     overflow-x: auto;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      display: none;
-    }
   }
 }
 
@@ -45,7 +40,7 @@
 .githubLabel {
   font-size: 1.1rem;
   font-weight: 600;
-  color: var(--color-text-primary);
+  color: var(--ifm-font-color-base);
 
   [data-theme="dark"] & {
     color: #fff;
@@ -109,11 +104,6 @@
   [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.6);
   }
-
-  &:hover {
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(255, 255, 255, 0.1);
-  }
 }
 
 .githubWeekHeaderActive {
@@ -129,18 +119,8 @@
   height: var(--grid-cell-size);
   flex-shrink: 0;
   border-radius: 4px;
-  transition: all var(--duration-fast) var(--ease-spring);
-
-  &:hover {
-    transform: scale(1.3);
-    z-index: 10;
-  }
 }
 
 .githubCellEmpty {
   background: var(--github-empty);
-}
-
-.githubCellActive {
-  box-shadow: 0 0 8px rgba(128, 190, 122, 0.4);
 }
