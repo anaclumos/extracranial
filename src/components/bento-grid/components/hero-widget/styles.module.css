@@ -136,7 +136,7 @@
     border-radius: 0;
   }
 
-  .inlineOrgExpanded {
+  .inlineOrg.inlineOrgExpanded {
     background: none;
     box-shadow: none;
     padding: 0 8px 0 0;
@@ -186,7 +186,7 @@
 @media (max-width: 480px) {
   [data-theme="dark"] .inlineOrg,
   [data-theme="dark"] .inlineOrg:hover,
-  [data-theme="dark"] .inlineOrgExpanded {
+  [data-theme="dark"] .inlineOrg.inlineOrgExpanded {
     background: none;
     box-shadow: none;
     border-radius: 0;

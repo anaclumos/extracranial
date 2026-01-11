@@ -1,5 +1,19 @@
 [
   {
+    "id": "ALCX",
+    "title": "No Alcohol",
+    "status": "ING",
+    "sourceFile": "No Alcohol.md",
+    "slug": "/1AB6AF"
+  },
+  {
+    "id": "CRVX",
+    "title": "No Night Time Cravings",
+    "status": "ING",
+    "sourceFile": "No Night Time Cravings.md",
+    "slug": "/AF65FA"
+  },
+  {
     "id": "CJSG",
     "title": "조잡생각",
     "status": "ING",

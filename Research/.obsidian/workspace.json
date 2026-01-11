@@ -11,10 +11,24 @@
             "id": "07bf83d73466a2eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/Project Linguine.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Project Linguine"
             }
           }
         ]
@@ -173,6 +187,7 @@
   },
   "active": "07bf83d73466a2eb",
   "lastOpenFiles": [
+    "pages/ACL 60-60.md",
     "journals/2026-01-09.md",
     "pages/No Night Time Cravings.md",
     "pages/No Alcohol.md",
@@ -203,7 +218,6 @@
     "assets/Pasted image 20260108161946.png",
     "assets/Pasted image 20260108161938.png",
     "assets/Pasted image 20260108161928.png",
-    "pages/Project Mangrove.md",
     "assets/8DD10B.jpeg",
     "assets/B21ABE.jpeg",
     "assets/44949C.png",

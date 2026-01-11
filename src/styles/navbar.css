@@ -41,6 +41,8 @@
 
 .navbar-wallet-link::before {
   background-image: url("/icons/wallet.svg");
+  width: 28px;
+  height: 28px;
 }
 
 [data-theme="dark"] .navbar-wallet-link::before {

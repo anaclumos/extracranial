@@ -1,7 +1,6 @@
 ---
 lang: 'ko'
-slug: '{{hex}}'
+slug: '/AF65FA'
 habit: 'CRVX'
 status: 'ING'
 ---
-
