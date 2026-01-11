@@ -23,14 +23,14 @@ export const GITHUB_LEVEL_COLORS = [
 ]
 
 export const HABIT_COLORS = [
-  'var(--apple-blue)',
-  '#409cff',
-  '#66b0ff',
-  '#0062cc',
-  '#3392ff',
-  '#0077f0',
-  '#004999',
-  '#007aff',
+  'var(--nature-green)',
+  '#9be9a8',
+  '#40c463',
+  '#30a14e',
+  '#6ba665',
+  '#558c50',
+  '#a3d1a0',
+  '#91c78d',
 ]
 
 export const ORGANIZATIONS = {
