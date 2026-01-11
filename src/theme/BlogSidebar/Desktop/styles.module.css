@@ -1,13 +1,12 @@
 .sidebar {
-  max-height: var(--sidebar-max-height);
+  max-height: calc(100vh - var(--ifm-navbar-height) - 4rem);
   overflow-y: auto;
   position: sticky;
-  top: var(--sticky-top);
-  border-radius: var(--border-radius);
+  top: calc(var(--ifm-navbar-height) + 2rem);
   text-align: end;
-  padding: 1.75rem 2.5rem 1.75rem 1.75rem;
+  padding: 1.75rem;
   opacity: var(--unhovered-transparency);
-  transition: opacity var(--transition-fast);
+  transition: opacity 0.2s ease-in-out;
 
   &:hover {
     opacity: 1;
@@ -32,13 +31,9 @@
 .sidebarItem {
   padding: 0.5rem;
   border-radius: var(--border-radius);
-  transition:
-    filter var(--transition-fast),
-    background-color var(--transition-fast);
 
   &:hover {
     background-color: var(--ifm-menu-color-background-active);
-    filter: none;
   }
 }
 
@@ -46,17 +41,13 @@
   color: var(--ifm-font-color-base);
   filter: grayscale(100%);
   display: block;
-  transition: filter var(--transition-fast);
+  transition: filter 0.2s ease-in-out;
 
   &:hover {
     color: var(--ifm-font-color-base);
     filter: none;
     text-decoration: none;
   }
-}
-
-.sidebarItemLinkActive {
-  filter: none;
 }
 
 .sidebarItem > .sidebarItemLinkActive {

@@ -3,9 +3,4 @@
   overflow-x: auto;
   column-gap: 1rem;
   margin: 0.5rem 0;
-  scrollbar-width: none;
-
-  &::-webkit-scrollbar {
-    display: none;
-  }
 }

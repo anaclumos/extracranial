@@ -3,13 +3,13 @@
   height: 100%;
   padding: var(--ifm-global-spacing);
   margin-top: var(--ifm-spacing-vertical);
-  border-radius: var(--ifm-pagination-nav-border-radius);
+  border-radius: var(--border-radius);
   border: 2px solid var(--ifm-menu-color-background-active);
 }
 
 .backlinkTableH2 {
   font-size: 0.8rem;
-  color: var(--color-text-muted);
+  color: var(--ifm-color-emphasis-600);
 }
 
 .backlinkGridView {
@@ -28,15 +28,11 @@
   font-size: 1rem;
   padding: calc(var(--border-radius) / 4);
   padding-bottom: 0.5rem;
-
-  @media (max-width: 480px) {
-    font-size: 0.9rem;
-  }
 }
 
 .backlinkItem {
   border-radius: var(--border-radius);
-  transition: background-color var(--transition-fast);
+  transition: background-color 0.2s ease-in-out;
 
   &:hover {
     background-color: var(--ifm-menu-color-background-active);
@@ -52,12 +48,8 @@
 .backlinkItemText {
   font-size: 0.8rem;
   white-space: pre-wrap;
-  color: var(--color-text-subtle);
+  color: var(--ifm-color-emphasis-600);
   margin: 0;
-
-  @media (max-width: 480px) {
-    font-size: 0.75rem;
-  }
 }
 
 .highlight {
@@ -66,11 +58,5 @@
 
 .noBacklink {
   font-size: 0.8rem;
-  color: var(--color-text-subtle);
-}
-
-@media (max-width: 320px) {
-  .backlinkGridView {
-    gap: 0.375rem;
-  }
+  color: var(--ifm-color-emphasis-600);
 }

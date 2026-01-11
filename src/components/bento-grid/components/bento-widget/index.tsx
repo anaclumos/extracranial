@@ -1,7 +1,5 @@
 import Link from '@docusaurus/Link'
 import { cn } from '@site/src/util/cn'
-import { Squircle } from 'corner-smoothing'
-import { CORNER_RADIUS, CORNER_SMOOTHING } from '../../constants'
 import type { BentoWidgetProps } from '../../types'
 import styles from './styles.module.css'
 
@@ -13,13 +11,11 @@ export default function BentoWidget({
   animate = true,
 }: BentoWidgetProps) {
   const widgetContent = (
-    <Squircle
+    <div
       className={cn(styles.bentoWidget, animate && styles.animateIn, className)}
-      cornerRadius={CORNER_RADIUS}
-      cornerSmoothing={CORNER_SMOOTHING}
     >
       {children}
-    </Squircle>
+    </div>
   )
 
   if (href) {

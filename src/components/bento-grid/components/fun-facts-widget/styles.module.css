@@ -2,18 +2,9 @@
   justify-content: flex-start;
   background: linear-gradient(180deg, #fff8e1 0%, #faeabb 100%);
   border: none;
-  --bio-line-clamp: 7;
 
   [data-theme="dark"] & {
     background: linear-gradient(180deg, #5c4d3c 0%, #3e3226 100%);
-  }
-
-  @media (max-width: 640px) {
-    --bio-line-clamp: 5;
-  }
-
-  @media (max-width: 480px) {
-    --bio-line-clamp: 4;
   }
 }
 
@@ -35,7 +26,7 @@
   margin: 0;
   flex: 1;
   display: -webkit-box;
-  -webkit-line-clamp: var(--bio-line-clamp);
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 1.5rem;
@@ -48,11 +39,12 @@
 
   @media (max-width: 640px) {
     font-size: 1.25rem;
+    -webkit-line-clamp: 5;
   }
 
   @media (max-width: 480px) {
     font-size: 1.1rem;
-    line-height: 1.4;
+    -webkit-line-clamp: 4;
   }
 }
 
@@ -68,21 +60,10 @@
   border-radius: 50%;
   color: #1c1c1e;
   cursor: pointer;
-  backdrop-filter: blur(8px);
-  transition: all 0.2s ease;
 
   [data-theme="dark"] & {
     background: rgba(255, 255, 255, 0.25);
     color: #fff;
-  }
-
-  &:hover {
-    background: rgba(0, 0, 0, 0.1);
-    transform: rotate(180deg);
-
-    [data-theme="dark"] & {
-      background: rgba(255, 255, 255, 0.4);
-    }
   }
 
   & svg {
@@ -96,27 +77,4 @@
     width: 28px;
     height: 28px;
   }
-}
-
-@keyframes bioBounce {
-  0% {
-    opacity: 1;
-    transform: scale(1);
-  }
-  40% {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  60% {
-    opacity: 0;
-    transform: scale(1.05);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.bioContentRefreshing {
-  animation: bioBounce 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }

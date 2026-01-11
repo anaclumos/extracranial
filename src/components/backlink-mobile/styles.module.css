@@ -1,10 +1,10 @@
 .backlinkMobile {
   margin: 1.5rem 0;
   padding: 0;
-  background: var(--color-background-secondary);
-  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  border-radius: var(--border-radius);
   overflow: hidden;
-  border: 1px solid var(--color-separator);
+  border: 1px solid var(--ifm-menu-color-background-active);
 
   @media (min-width: 997px) {
     display: none;
@@ -18,7 +18,7 @@
   padding: 1rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-text-primary);
+  color: var(--ifm-font-color-base);
   cursor: pointer;
   user-select: none;
   list-style: none;
@@ -31,10 +31,10 @@
     content: "";
     width: 0.5rem;
     height: 0.5rem;
-    border-right: 2px solid var(--color-text-secondary);
-    border-bottom: 2px solid var(--color-text-secondary);
+    border-right: 2px solid var(--ifm-color-emphasis-600);
+    border-bottom: 2px solid var(--ifm-color-emphasis-600);
     transform: rotate(-45deg);
-    transition: transform 0.2s var(--ease-apple);
+    transition: transform 0.2s ease-in-out;
     margin-right: 0.25rem;
   }
 
@@ -60,7 +60,7 @@
 
 .content {
   padding: 0;
-  border-top: 1px solid var(--color-separator);
+  border-top: 1px solid var(--ifm-menu-color-background-active);
 }
 
 .list {
@@ -72,7 +72,7 @@
 .listItem {
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid var(--color-separator);
+  border-bottom: 1px solid var(--ifm-menu-color-background-active);
 
   &:last-child {
     border-bottom: none;
@@ -84,19 +84,12 @@
   flex-direction: column;
   gap: 0.25rem;
   padding: 1rem;
-  color: var(--color-text-primary);
+  color: var(--ifm-font-color-base);
   text-decoration: none;
-  transition: background-color 0.2s ease;
-  background-color: transparent;
 
   &:hover {
-    background-color: rgba(0, 0, 0, 0.03);
-    color: var(--color-text-primary);
+    background-color: var(--ifm-menu-color-background-active);
     text-decoration: none;
-
-    [data-theme="dark"] & {
-      background-color: rgba(255, 255, 255, 0.05);
-    }
   }
 }
 
@@ -108,7 +101,7 @@
 
 .excerpt {
   font-size: 0.8rem;
-  color: var(--color-text-secondary);
+  color: var(--ifm-color-emphasis-600);
   line-height: 1.4;
   overflow: hidden;
   display: -webkit-box;
@@ -123,7 +116,7 @@
 
 .empty {
   font-size: 0.85rem;
-  color: var(--color-text-secondary);
+  color: var(--ifm-color-emphasis-600);
   padding: 1rem;
   font-style: italic;
   text-align: center;

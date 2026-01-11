@@ -15,7 +15,6 @@
         "@giscus/react": "^3.1.0",
         "clsx": "^2.1.1",
         "cobe": "^0.6.4",
-        "corner-smoothing": "^0.1.5",
         "react": "^19.1.1",
         "react-dom": "^19.1.1",
         "rehype-katex": "^7.0.1",
@@ -1173,8 +1172,6 @@
 
     "core-util-is": ["core-util-is@1.0.3", "", {}, "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="],
 
-    "corner-smoothing": ["corner-smoothing@0.1.5", "", { "dependencies": { "figma-squircle": "^0.3.0" }, "peerDependencies": { "react": "*" } }, "sha512-29x4H3/8zZs5s8iwAh/UCaX+KQvqqRNWk6FRxFo37X8zH8xzzNeTE5HF6iH/Au7nd/bN1BoiLbcMli+tIeJl3Q=="],
-
     "cose-base": ["cose-base@1.0.3", "", { "dependencies": { "layout-base": "^1.0.0" } }, "sha512-s9whTXInMSgAp/NVXVNuVxVKzGH2qck3aQlVHxDCdAEPgtMKwc4Wq6/QKhgdEdgbLSi9rBTAcPoRa6JpiG4ksg=="],
 
     "cosmiconfig": ["cosmiconfig@8.3.6", "", { "dependencies": { "import-fresh": "^3.3.0", "js-yaml": "^4.1.0", "parse-json": "^5.2.0", "path-type": "^4.0.0" }, "peerDependencies": { "typescript": ">=4.9.5" }, "optionalPeers": ["typescript"] }, "sha512-kcZ6+W5QzcJ3P1Mt+83OUv/oHFqZHIx8DuxG6eZ5RGMERoLqp4BuGjhHLYGK+Kf5XVkQvqBSmAy/nGWN3qDgEA=="],
@@ -1460,8 +1457,6 @@
     "faye-websocket": ["faye-websocket@0.11.4", "", { "dependencies": { "websocket-driver": ">=0.5.1" } }, "sha512-CzbClwlXAuiRQAlUyfqPgvPoNKTckTPGfwZV4ZdAhVcP2lh9KUxJg2b5GkE7XbjKQ3YJnQ9z6D9ntLAlB+tP8g=="],
 
     "feed": ["feed@4.2.2", "", { "dependencies": { "xml-js": "^1.6.11" } }, "sha512-u5/sxGfiMfZNtJ3OvQpXcvotFpYkL0n9u9mM2vkui2nGo8b4wvDkJ8gAkYqbA8QpGyFCv3RK0Z+Iv+9veCS9bQ=="],
-
-    "figma-squircle": ["figma-squircle@0.3.1", "", {}, "sha512-cyb7fbNaJgM3XrMXRq/B4NPUILfbrSRHjqt+0/3OGBOejJKNLnFKTXSMSAjdqbw2bSo2Y2eCnYXvaRgshBnWQw=="],
 
     "figures": ["figures@3.2.0", "", { "dependencies": { "escape-string-regexp": "^1.0.5" } }, "sha512-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa+Jk4X+s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg=="],
 

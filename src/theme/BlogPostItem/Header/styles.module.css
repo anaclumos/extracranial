@@ -5,9 +5,4 @@
 
 .blogPostItemHeaderTitle {
   font-size: clamp(1.75rem, 5vw, 3rem);
-
-  @media (max-width: 480px) {
-    font-size: 1.75rem;
-    line-height: 1.2;
-  }
 }

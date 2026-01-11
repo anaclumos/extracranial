@@ -1,12 +1,12 @@
 .tableOfContents {
-  max-height: var(--sidebar-max-height);
+  max-height: calc(100vh - var(--ifm-navbar-height) - 4rem);
   overflow-y: auto;
   position: sticky;
-  top: var(--sticky-top);
-  opacity: var(--unhovered-transparency);
+  top: calc(var(--ifm-navbar-height) + 2rem);
   padding: var(--padding);
   border-radius: var(--border-radius);
-  transition: opacity var(--transition-fast);
+  opacity: var(--unhovered-transparency);
+  transition: opacity 0.2s ease-in-out;
 
   &:hover {
     opacity: 1;

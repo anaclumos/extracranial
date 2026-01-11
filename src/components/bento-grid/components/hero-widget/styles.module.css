@@ -23,19 +23,15 @@
 }
 
 .heroTitle {
-  position: relative;
-  z-index: 1;
   font-size: clamp(4.5rem, 8vw, 7rem);
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 0.95;
   margin: 0 0 16px 0;
   color: #1c1c1e;
-  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.05);
 
   [data-theme="dark"] & {
     color: #fff;
-    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
   }
 
   @media (max-width: 1024px) {
@@ -52,9 +48,6 @@
 }
 
 .heroSubtitle {
-  position: relative;
-  z-index: 1;
-  font-family: var(--ifm-font-family-base);
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 500;
   color: rgba(0, 0, 0, 0.75);
@@ -73,39 +66,21 @@
   height: 40px;
   max-width: 40px;
   padding: 0;
-  border-radius: 0;
   background: none;
   border: none;
   overflow: hidden;
-  transition:
-    max-width 0.35s var(--ease-apple),
-    padding 0.35s var(--ease-apple);
   vertical-align: middle;
   transform: translateY(-0.125em);
   cursor: pointer;
   margin: 0 4px;
   font: inherit;
-
-  &:hover {
-    background: none;
-  }
+  transition:
+    max-width 0.2s ease-in-out,
+    padding 0.2s ease-in-out;
 
   &.inlineOrgExpanded {
     max-width: 200px;
     padding: 0 8px 0 0;
-    background: none;
-  }
-
-  [data-theme="dark"] & {
-    background: none;
-
-    &:hover {
-      background: none;
-    }
-
-    &.inlineOrgExpanded {
-      background: none;
-    }
   }
 
   @media (max-width: 480px) {
@@ -129,7 +104,6 @@
   @media (max-width: 480px) {
     width: 28px;
     height: 28px;
-    border-radius: 0;
   }
 }
 
@@ -141,15 +115,12 @@
   color: #1c1c1e;
   white-space: nowrap;
   transition:
-    opacity 0.3s var(--ease-apple),
-    margin-left 0.35s var(--ease-apple),
-    transform 0.35s var(--ease-apple);
-  transform: translateX(-10px);
+    opacity 0.2s ease-in-out,
+    margin-left 0.2s ease-in-out;
 
   .inlineOrgExpanded & {
     opacity: 1;
     margin-left: 10px;
-    transform: translateX(0);
   }
 
   [data-theme="dark"] & {
