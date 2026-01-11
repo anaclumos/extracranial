@@ -4,52 +4,51 @@
   transition: color var(--transition-fast);
 }
 
-.navbar-github-link::before,
-.navbar-linkedin-link::before,
-.navbar-wallet-link::before {
-  content: "";
-  width: 20px;
-  height: 20px;
-  display: flex;
-  transition: opacity var(--transition-fast);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+.navbar-github-link,
+.navbar-linkedin-link,
+.navbar-wallet-link {
+  &::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: flex;
+    transition: opacity var(--transition-fast);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-.navbar-github-link:hover::before,
-.navbar-linkedin-link:hover::before,
-.navbar-wallet-link:hover::before {
-  opacity: 0.7;
+  &:hover::before {
+    opacity: 0.7;
+  }
 }
 
 .navbar-github-link::before {
   background-image: url("/icons/github.svg");
-}
 
-[data-theme="dark"] .navbar-github-link::before {
-  background-image: url("/icons/github-dark.svg");
+  [data-theme="dark"] & {
+    background-image: url("/icons/github-dark.svg");
+  }
 }
 
 .navbar-linkedin-link::before {
   background-image: url("/icons/linkedin.svg");
-}
 
-[data-theme="dark"] .navbar-linkedin-link::before {
-  background-image: url("/icons/linkedin-dark.svg");
+  [data-theme="dark"] & {
+    background-image: url("/icons/linkedin-dark.svg");
+  }
 }
 
 .navbar-wallet-link::before {
   background-image: url("/icons/wallet.svg");
   width: 28px;
   height: 28px;
+
+  [data-theme="dark"] & {
+    background-image: url("/icons/wallet-dark.svg");
+  }
 }
 
-[data-theme="dark"] .navbar-wallet-link::before {
-  background-image: url("/icons/wallet-dark.svg");
-}
-
-/* Apple-style Frosted Glass Navbar */
 .navbar {
   background-color: var(--navbar-glass-bg);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -59,8 +58,8 @@
     border-color var(--transition-medium);
 }
 
-@media screen and (width >= 996px) {
-  .navbar__inner {
+.navbar__inner {
+  @media screen and (width >= 996px) {
     margin: 0 auto;
     padding: 0 1.5rem;
     max-width: var(--ifm-container-width-xxl);
@@ -77,22 +76,19 @@
   background-color: var(--color-background);
 }
 
-/* Mobile Hamburger Polish */
 .navbar__toggle {
   border-radius: 8px;
   transition: background-color var(--transition-fast);
-}
 
-.navbar__toggle:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-}
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.05);
 
-[data-theme="dark"] .navbar__toggle:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+    [data-theme="dark"] & {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+  }
 
-@media (max-width: 996px) {
-  .navbar__toggle {
+  @media (max-width: 996px) {
     min-width: 44px;
     min-height: 44px;
     display: flex;

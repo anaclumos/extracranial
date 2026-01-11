@@ -17,6 +17,10 @@
   display: grid;
   gap: 0.5rem;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .backlinkMentionedFileName {
@@ -24,19 +28,25 @@
   font-size: 1rem;
   padding: calc(var(--border-radius) / 4);
   padding-bottom: 0.5rem;
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 }
 
 .backlinkItem {
   border-radius: var(--border-radius);
   transition: background-color var(--transition-fast);
+
+  &:hover {
+    background-color: var(--ifm-menu-color-background-active);
+  }
 }
 
-.backlinkItem:hover {
-  background-color: var(--ifm-menu-color-background-active);
-}
-
-.backlinkItemLink:hover {
-  text-decoration: none;
+.backlinkItemLink {
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .backlinkItemText {
@@ -44,6 +54,10 @@
   white-space: pre-wrap;
   color: var(--color-text-subtle);
   margin: 0;
+
+  @media (max-width: 480px) {
+    font-size: 0.75rem;
+  }
 }
 
 .highlight {
@@ -53,20 +67,6 @@
 .noBacklink {
   font-size: 0.8rem;
   color: var(--color-text-subtle);
-}
-
-@media (max-width: 480px) {
-  .backlinkGridView {
-    grid-template-columns: 1fr;
-  }
-
-  .backlinkMentionedFileName {
-    font-size: 0.9rem;
-  }
-
-  .backlinkItemText {
-    font-size: 0.75rem;
-  }
 }
 
 @media (max-width: 320px) {

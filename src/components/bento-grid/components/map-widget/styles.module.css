@@ -3,10 +3,10 @@
   background: linear-gradient(180deg, #e0f2f1 0%, #b2dfdb 100%);
   border: none;
   overflow: hidden;
-}
 
-[data-theme="dark"] .mapWidget {
-  background: linear-gradient(180deg, #1a3835 0%, #0d1f1d 100%);
+  [data-theme="dark"] & {
+    background: linear-gradient(180deg, #1a3835 0%, #0d1f1d 100%);
+  }
 }
 
 .mapWrapper {
@@ -24,21 +24,6 @@
   object-fit: cover;
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
-}
-
-.mapPulse {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: var(--nature-stream);
-  box-shadow:
-    0 0 0 3px #ffffff,
-    0 0 0 3px rgba(107, 163, 170, 0.3);
-  animation: mapPulseAnim 2s ease-out infinite;
 }
 
 @keyframes mapPulseAnim {
@@ -59,15 +44,26 @@
   }
 }
 
-@media (max-width: 480px) {
-  .mapPulse {
+.mapPulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--nature-stream);
+  box-shadow:
+    0 0 0 3px #ffffff,
+    0 0 0 3px rgba(107, 163, 170, 0.3);
+  animation: mapPulseAnim 2s ease-out infinite;
+
+  @media (max-width: 480px) {
     width: 20px;
     height: 20px;
   }
-}
 
-@media (prefers-reduced-motion: reduce) {
-  .mapPulse {
+  @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
 }
