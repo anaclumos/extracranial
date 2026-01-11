@@ -21,8 +21,8 @@ This post is AI Researched by GPT 5.2 Pro Extended Thinking
    - "상태 페이지 퍼센트 숨긴 것 아니냐"는 의심이 나오고, Neon 엔지니어가 "다운이 많아서 숨긴 게 아니라 계산이 틀려서 숨겼고, Snowflake처럼 재구성 중"이라고 답한다. 투명성을 강조하지만, 고위험 의사결정 관점에서는 "상태 지표가 신뢰를 잃은 전력이 있다"로 읽힌다.
      - [Neon GA 스레드(상태 페이지 계산/숨김 논쟁)](https://news.ycombinator.com/item?id=40040593)
 4. 인수 이후의 공급자 리스크(Neon 자체가 아니라 '소유주' 리스크)
-   - Databricks가 Neon을 인수했다는 스레드에서 "가격 올리거나 망가뜨릴 것" 같은 불신이 노골적으로 나온다. 과장 섞인 감정도 있지만, "장기적으로 제품 방향/가격/우선순위가 바뀔 수 있다"는 리스크 자체는 실재한다.
-     - [Databricks acquires Neon (HN)](https://news.ycombinator.com/item?id=43982777)
+   가 Neon을 인수했다는 스레드에서 "가격 올리거나 망가뜨릴 것" 같은 불신이 노골적으로 나온다. 과장 섞인 감정도 있지만, "장기적으로 제품 방향/가격/우선순위가 바뀔 수 있다"는 리스크 자체는 실재한다.
+   - [Databricks acquires Neon (HN)](https://news.ycombinator.com/item?id=43982777)
    - 같은 맥락에서 "Databricks가 bit.io를 인수했고 30일 내 DB를 종료했다"는 언급이 반복된다. 사실관계는 별개로, 고객들이 '인수→폐쇄/강제 마이그레이션' 시나리오를 실제로 떠올린다는 점이 리스크다.
      - [HN 코멘트(bit.io 30일 종료 언급)](https://news.ycombinator.com/item?id=43983253)
 
