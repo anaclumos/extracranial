@@ -52,7 +52,7 @@
 .githubDayCell {
   width: 56px;
   flex-shrink: 0;
-  font-family: var(--font-family-monospace);
+  font-family: var(--ifm-font-family-monospace);
   font-size: 12px;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.6);
@@ -133,7 +133,6 @@
   .githubGraphWidget {
     padding: 16px;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
   }
 
