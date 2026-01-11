@@ -40,7 +40,6 @@
 }
 
 .backlinkItemText {
-  font-family: var(--ifm-font-family-san-serif);
   font-size: 0.8rem;
   white-space: pre-wrap;
   color: var(--color-text-subtle);
@@ -60,13 +59,6 @@
   .backlinkGridView {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 320px) {
-  .backlinkGridView {
-    grid-template-columns: 1fr;
-    gap: 0.375rem;
-  }
 
   .backlinkMentionedFileName {
     font-size: 0.9rem;
@@ -74,5 +66,11 @@
 
   .backlinkItemText {
     font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .backlinkGridView {
+    gap: 0.375rem;
   }
 }

@@ -53,6 +53,12 @@ const navbar = {
       position: 'left' as const,
     },
     {
+      href: 'https://card.cho.sh/?place=cho.sh',
+      position: 'right' as const,
+      className: 'navbar-wallet-link',
+      'aria-label': 'Apple Wallet Card',
+    },
+    {
       href: 'https://github.com/anaclumos/extracranial',
       position: 'right' as const,
       className: 'navbar-github-link',
