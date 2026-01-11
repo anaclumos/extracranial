@@ -3,7 +3,7 @@ lang: 'ko'
 slug: '/1BAE48'
 ---
 
-이미 [[Neon|인수된 기업]]의 제품을 쓰는 것을 안 좋아하기도 해서, 최근 대부분의 프로젝트 및 앞으로 프로젝트를 PlanetScale DB로 옮기려고 했다. [영속적인 기업을 만들고자 하는 철학](https://planetscale.com/blog/planetscale-forever)이 마음에 들기도 했고. 아무튼 다음은 PlanetScale DB 하나로 많은 프로젝트를 호스팅하는 방법이다.
+이미 [[Neon|인수된 기업]]의 제품을 쓰는 것을 안 좋아하기도 해서, 최근 대부분의 프로젝트 및 앞으로 프로젝트를 PlanetScale DB로 옮기려고 했다. [영속적인 기업을 만들고자 하는 철학](https://planetscale.com/blog/planetscale-forever)이 마음에 들기도 했고, 장기적으로 [[Picking Postgres DB Provider in 2026|PlanetScale을 쓰는 것을 연습해야]]겠다고 생각하기도 했고. 아무튼 다음은 PlanetScale DB 하나로 많은 프로젝트를 호스팅하는 방법이다.
 
 ```typescript
 // src/db/schema.ts

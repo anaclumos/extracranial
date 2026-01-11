@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-11.md",
+                "file": "pages/Project Mangrove.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,59 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-11"
-            }
-          },
-          {
-            "id": "77e66cc5a812d1a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-11.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-11"
-            }
-          },
-          {
-            "id": "6d4ced296f61b669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Picking Postgres DB Provider in 2026.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Picking Postgres DB Provider in 2026"
+              "title": "Project Mangrove"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,11 +185,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d4ced296f61b669",
+  "active": "6d722a80acecab28",
   "lastOpenFiles": [
+    "journals/2026-01-12.md",
     "journals/2026-01-11.md",
-    "pages/Picking Postgres DB Provider in 2026.md",
     "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
+    "pages/Picking Postgres DB Provider in 2026.md",
     "templates/journal template.md",
     "templates/note template.md",
     "pages/Daily Dev.md",
@@ -262,7 +214,6 @@
     "pages/TM과 R의 차이.md",
     "pages/바잘제트 오버엔지니어링.md",
     "journals/2026-01-08.md",
-    "journals/2023-06-21.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
