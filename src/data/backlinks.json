@@ -5800,7 +5800,6 @@
   "CSS": {
     "2023-01-23": "... seems like [[Wikipedia]] updated its [[CSS]]...",
     "2026-01-10": "- [[Color Palette]] [[CSS]]",
-    "2026-01-11": "... CSS files to use modern [[CSS]] nesting syntax (native browser feature, ...",
     "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
     "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
     "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
@@ -9089,6 +9088,7 @@
     "2025-08-25": "[[Hypany]]",
     "2025-08-31": "[[Hypany]] 중 정말 오래 걸리는 Next.js ...",
     "2025-09-01": "- [[Hypany]]",
+    "2026-01-11": "- [[Hypany]]",
     "Inquiry for Hypany Template": "I am building [[Hypany]], an open-source tool for validating ...",
     "Project": "- [[Hypany]]"
   },
@@ -9167,7 +9167,8 @@
     "2023-05-06": "... 읽을 때마다 Jony [[Ive]]가 아니라 [[IVE]] 그룹이 생각난다."
   },
   "Icon Provider": {
-    "2024-06-21": "- [[Icon Provider]]"
+    "2024-06-21": "- [[Icon Provider]]",
+    "2026-01-11": "- [[Icon Provider]]"
   },
   "Ideas are worthless": {
     "2022-10-03": "- [[Ideas are worthless]]",
@@ -11443,6 +11444,9 @@
   },
   "Pasted image 20260108162007.png": {
     "My Raycast Wrapped of 2025": "![[Pasted image 20260108162007.png]]"
+  },
+  "Pasted image 20260111182245.png": {
+    "Hypany": "![[Pasted image 20260111182245.png]]"
   },
   "Pensieve": {
     "2022-11-07": "- [[Pensieve]]",
@@ -14517,7 +14521,6 @@
     "2022-12-28": "- **[[Front-end|Frontend]] web framework:** [[Next.js|NextJS]]/[[Vercel]] (Past: Ruby on Rails/Heroku)",
     "2023-01-27": "... [[Extracranial]] to [[Cloudflare Pages]] for [[Vercel]] for now...",
     "2023-04-10": "... this would cost $9,600 with [[Vercel]] and $2,017 in [[AWS]] CloudFront.",
-    "2026-01-11": "- Removed duplicate [[Vercel]] Analytics integration (was using both ...",
     "Aldehyde Outage (January 23誠鉉)": "## [[Vercel]] and [[Cloudflare]] Build Errors",
     "Edge Network": "- [[Vercel]] & ",
     "Letter to Mr. Matt Rickard on 2022-12-21": "... Identification]] [[BIMI]]) Just like what [[Vercel]] did to Heroku.",
@@ -16512,6 +16515,9 @@
   },
   "경제 개발의 길목에서": {
     "Readings": "- [x] [[경제 개발의 길목에서]]"
+  },
+  "계정 인수 시 주의할 점": {
+    "2026-01-11": "- [[계정 인수 시 주의할 점]]"
   },
   "고통에는 순응이 아니라 감작이 나타난다": {
     "2022-10-18": "- [[고통에는 순응이 아니라 감작이 나타난다]]",
