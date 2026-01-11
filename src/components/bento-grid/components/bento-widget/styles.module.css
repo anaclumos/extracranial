@@ -21,13 +21,13 @@
     border: none;
   }
 
-  @media (max-width: 640px) {
-    --card-radius: 20px;
+  @media (max-width: 40rem) {
+    --card-radius: 1.25rem;
     padding: calc(var(--bento-padding) * 0.75);
   }
 
-  @media (max-width: 480px) {
-    --card-radius: 16px;
+  @media (max-width: 30rem) {
+    --card-radius: 1rem;
     padding: calc(var(--bento-padding) * 0.6);
   }
 }

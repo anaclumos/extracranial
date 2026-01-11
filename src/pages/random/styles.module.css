@@ -22,7 +22,7 @@
   cursor: pointer;
   background-color: transparent;
 
-  @media (max-width: 480px) {
+  @media (max-width: 30rem) {
     width: 8rem;
     height: 8rem;
   }
@@ -32,7 +32,7 @@
   font-size: 4rem;
   animation: rotating 1s linear infinite;
 
-  @media (max-width: 480px) {
+  @media (max-width: 30rem) {
     font-size: 3rem;
   }
 }

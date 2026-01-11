@@ -4,13 +4,13 @@
     margin-top: 0;
   }
 
-  @media (width <= 996px) {
+  @media (width <= 62.25rem) {
     padding: 0 1rem;
   }
 }
 
 .docItemCol {
-  @media (width >= 997px) {
+  @media (width >= 62.3125rem) {
     max-width: 80% !important;
   }
 }
