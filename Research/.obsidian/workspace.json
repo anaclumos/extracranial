@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd126dc0cd089d4d",
+        "id": "8e19faad49ba48a2",
         "type": "tabs",
         "children": [
           {
-            "id": "c4366e11be2dd5b7",
+            "id": "82e2b45d814ca5af",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,20 +171,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c4366e11be2dd5b7",
+  "active": "82e2b45d814ca5af",
   "lastOpenFiles": [
     "journals/2026-01-11.md",
+    "pages/계정 인수 시 주의할 점.md",
+    "pages/No Night Time Cravings.md",
+    "pages/Project Mangrove.md",
+    "pages/No Alcohol.md",
+    "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
+    "pages/Neon.md",
     "pages/Hypany.md",
     "assets/Pasted image 20260111182245.png",
     "pages/Icon Provider.md",
-    "pages/계정 인수 시 주의할 점.md",
-    "pages/Project Mangrove.md",
     "pages/OpenAI Grove.md",
     "pages/Project Linguine.md",
     "pages/ACL 60-60.md",
     "journals/2026-01-09.md",
-    "pages/No Night Time Cravings.md",
-    "pages/No Alcohol.md",
     "templates/journal template.md",
     "pages/조잡생각.md",
     "templates/note template.md",
@@ -198,8 +200,6 @@
     "journals/2026-01-07.md",
     "pages/Swimming Habit.md",
     "pages/Running Habit.md",
-    "pages/Journaling Habit.md",
-    "pages/84-24.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
