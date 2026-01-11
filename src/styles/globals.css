@@ -23,7 +23,7 @@
   --unhovered-transparency: 30%;
   --padding: 1rem;
   --border-radius: 0.25rem;
-  --ifm-container-width-xxl: 1600px;
+  --ifm-container-width-xxl: 100rem;
 
   max-width: 100dvw;
 }
@@ -76,7 +76,7 @@ code {
   font-family: var(--font-family-monospace);
 }
 
-@media screen and (width >= 996px) {
+@media screen and (width >= 62.25rem) {
   .navbar__inner {
     margin: 0 auto;
     padding: 0 1rem;
@@ -201,8 +201,8 @@ table {
 .navbar__logo > img {
   filter: none;
   margin: 0;
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
 }
 
 [data-theme="dark"] img:hover {

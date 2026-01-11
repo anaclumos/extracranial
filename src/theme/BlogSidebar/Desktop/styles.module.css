@@ -12,7 +12,7 @@
     opacity: 1;
   }
 
-  @media (width <= 996px) {
+  @media (width <= 62.25rem) {
     display: none;
   }
 }

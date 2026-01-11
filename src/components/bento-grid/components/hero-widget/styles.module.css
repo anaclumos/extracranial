@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 40px;
+  padding: 2.5rem;
   background: linear-gradient(180deg, #edf7ee 0%, #d8ead8 100%);
   border: none;
   color: #1a2118;
@@ -27,22 +27,22 @@
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 0.95;
-  margin: 0 0 16px 0;
+  margin: 0 0 1rem 0;
   color: #1c1c1e;
 
   [data-theme="dark"] & {
     color: #fff;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 64rem) {
     font-size: 5rem;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 40rem) {
     font-size: 3.5rem;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 30rem) {
     font-size: 3rem;
   }
 }
@@ -63,8 +63,8 @@
 .inlineOrg {
   display: inline-flex;
   align-items: center;
-  height: 40px;
-  max-width: 40px;
+  height: 2.5rem;
+  max-width: 2.5rem;
   padding: 0;
   background: none;
   border: none;
@@ -72,38 +72,38 @@
   vertical-align: middle;
   transform: translateY(-0.125em);
   cursor: pointer;
-  margin: 0 4px;
+  margin: 0 0.25rem;
   font: inherit;
   transition:
     max-width 0.2s ease-in-out,
     padding 0.2s ease-in-out;
 
   &.inlineOrgExpanded {
-    max-width: 200px;
-    padding: 0 8px 0 0;
+    max-width: 12.5rem;
+    padding: 0 0.5rem 0 0;
   }
 
-  @media (max-width: 480px) {
-    height: 28px;
-    max-width: 28px;
-    margin: 0 2px;
+  @media (max-width: 30rem) {
+    height: 1.75rem;
+    max-width: 1.75rem;
+    margin: 0 0.125rem;
 
     &.inlineOrgExpanded {
-      max-width: 180px;
+      max-width: 11.25rem;
     }
   }
 }
 
 .inlineOrgIcon {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   object-fit: contain;
   border-radius: 50%;
   flex-shrink: 0;
 
-  @media (max-width: 480px) {
-    width: 28px;
-    height: 28px;
+  @media (max-width: 30rem) {
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }
 
@@ -120,7 +120,7 @@
 
   .inlineOrgExpanded & {
     opacity: 1;
-    margin-left: 10px;
+    margin-left: 0.625rem;
   }
 
   [data-theme="dark"] & {
@@ -129,8 +129,8 @@
 }
 
 .heroWidget {
-  @media (max-width: 480px) {
+  @media (max-width: 30rem) {
     aspect-ratio: 4 / 5;
-    padding: 24px;
+    padding: 1.5rem;
   }
 }

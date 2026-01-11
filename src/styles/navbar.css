@@ -3,8 +3,8 @@
 .navbar-wallet-link {
   &::before {
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     display: flex;
     background-size: contain;
     background-repeat: no-repeat;
@@ -30,8 +30,8 @@
 
 .navbar-wallet-link::before {
   background-image: url("/icons/wallet.svg");
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
 
   [data-theme="dark"] & {
     background-image: url("/icons/wallet-dark.svg");
@@ -40,5 +40,5 @@
 
 .navbar {
   background-color: var(--navbar-glass-bg);
-  backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: blur(1.25rem) saturate(180%);
 }

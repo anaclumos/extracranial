@@ -14,7 +14,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 
   [data-theme="dark"] & {
     color: rgba(255, 255, 255, 0.9);
@@ -37,12 +37,12 @@
     color: #fff;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 40rem) {
     font-size: 1.25rem;
     -webkit-line-clamp: 5;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 30rem) {
     font-size: 1.1rem;
     -webkit-line-clamp: 4;
   }
@@ -50,11 +50,11 @@
 
 .bioRefreshButton {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
-  width: 32px;
-  height: 32px;
-  padding: 6px;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.375rem;
   background: rgba(0, 0, 0, 0.05);
   border: none;
   border-radius: 50%;
@@ -71,10 +71,10 @@
     height: 100%;
   }
 
-  @media (max-width: 480px) {
-    bottom: 12px;
-    right: 12px;
-    width: 28px;
-    height: 28px;
+  @media (max-width: 30rem) {
+    bottom: 0.75rem;
+    right: 0.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
   }
 }
