@@ -268,7 +268,7 @@ async function processImages(filePath: string): Promise<void> {
   let txt = await readFile(filePath, 'utf-8')
 
   txt = txt.replace(/!\[\[([^\]]+?)\]\]/g, (_match, p1) => {
-    return `![${p1}](../assets/${p1})`
+    return `![${p1}](../assets/${encodeURIComponent(p1)})`
   })
 
   await writeFile(filePath, txt, 'utf-8')

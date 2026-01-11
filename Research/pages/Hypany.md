@@ -20,3 +20,7 @@ slug: '/465D96'
 - https://x.com/BreejeAnadkat/status/1920449257259123101
 - https://x.com/MarkKnd/status/1909999059231785322
 - https://x.com/him_uiux/status/1922258466460119234
+
+https://x.com/cactusui/status/1993679801467433072/photo/1
+
+![[Pasted image 20260111182245.png]]

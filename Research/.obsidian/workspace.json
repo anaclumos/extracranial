@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c31af89e9a0ea1a",
+        "id": "dd126dc0cd089d4d",
         "type": "tabs",
         "children": [
           {
-            "id": "07bf83d73466a2eb",
+            "id": "c4366e11be2dd5b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/Project Linguine.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Project Linguine"
+              "title": "New tab"
             }
           }
         ]
@@ -185,13 +171,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07bf83d73466a2eb",
+  "active": "c4366e11be2dd5b7",
   "lastOpenFiles": [
+    "journals/2026-01-11.md",
+    "pages/Hypany.md",
+    "assets/Pasted image 20260111182245.png",
+    "pages/Icon Provider.md",
+    "pages/계정 인수 시 주의할 점.md",
+    "pages/Project Mangrove.md",
+    "pages/OpenAI Grove.md",
+    "pages/Project Linguine.md",
     "pages/ACL 60-60.md",
     "journals/2026-01-09.md",
     "pages/No Night Time Cravings.md",
     "pages/No Alcohol.md",
-    "journals/2026-01-11.md",
     "templates/journal template.md",
     "pages/조잡생각.md",
     "templates/note template.md",
@@ -207,12 +200,6 @@
     "pages/Running Habit.md",
     "pages/Journaling Habit.md",
     "pages/84-24.md",
-    "pages/Landing Page for Developers.md",
-    "pages/My Raycast Wrapped of 2025.md",
-    "pages/My Raycast Wrapped of 2024.md",
-    "pages/My Raycast Wrapped of 2023.md",
-    "pages/My Raycast Wrapped of 2022.md",
-    "pages/Raycast.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
@@ -222,7 +209,6 @@
     "assets/B21ABE.jpeg",
     "assets/44949C.png",
     "assets/164E3A.png",
-    "assets/2F9B59.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
