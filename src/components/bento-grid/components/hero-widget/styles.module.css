@@ -72,80 +72,49 @@
   align-items: center;
   height: 40px;
   max-width: 40px;
-  padding: 4px;
-  border-radius: 9999px;
-  background: rgba(255, 255, 255, 0.4);
+  padding: 0;
+  border-radius: 0;
+  background: none;
   border: none;
   overflow: hidden;
   transition:
     max-width 0.35s var(--ease-apple),
-    padding 0.35s var(--ease-apple),
-    background 0.2s ease,
-    box-shadow 0.35s var(--ease-apple);
+    padding 0.35s var(--ease-apple);
   vertical-align: middle;
   transform: translateY(-0.125em);
   cursor: pointer;
   margin: 0 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   font: inherit;
 
   &:hover {
-    background: rgba(255, 255, 255, 0.6);
+    background: none;
   }
 
   &.inlineOrgExpanded {
     max-width: 200px;
-    padding: 4px 16px 4px 4px;
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0 8px 0 0;
+    background: none;
   }
 
   [data-theme="dark"] & {
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background: none;
 
     &:hover {
-      background: rgba(255, 255, 255, 0.15);
+      background: none;
     }
 
     &.inlineOrgExpanded {
-      background: rgba(255, 255, 255, 0.2);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      background: none;
     }
   }
 
   @media (max-width: 480px) {
-    background: none;
-    box-shadow: none;
-    padding: 0;
     height: 28px;
     max-width: 28px;
     margin: 0 2px;
-    border-radius: 0;
-
-    &:hover {
-      background: none;
-    }
 
     &.inlineOrgExpanded {
-      background: none;
-      box-shadow: none;
-      padding: 0 8px 0 0;
       max-width: 180px;
-      border-radius: 0;
-    }
-
-    [data-theme="dark"] & {
-      background: none;
-      box-shadow: none;
-      border-radius: 0;
-
-      &:hover,
-      &.inlineOrgExpanded {
-        background: none;
-        box-shadow: none;
-        border-radius: 0;
-      }
     }
   }
 }
