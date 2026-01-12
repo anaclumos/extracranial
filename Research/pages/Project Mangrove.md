@@ -5,18 +5,7 @@ slug: '/5EF28E'
 
 [[OpenAI Grove]] 가보자!
 
-What are you building?
-
-- Coscientist
-- The Knowledge Ark
-- Eidetium
-
-What have you built previously?
-
-Pagemate
-Extracranial
-Bing Chat for All Browsers
-
-What do you hope to gain from OpenAI Grove?
-
-Is there anything else you would like us to know?
+- [[Grove Essay 1 — What I am building]]
+- [[Grove Essay 2 — What I have built previously]]
+- [[Grove Essay 3 — What I hope to gain from OpenAI Grove]]
+- [[Grove Essay 4 — Anything else you should know]]
