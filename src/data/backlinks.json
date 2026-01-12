@@ -3722,6 +3722,9 @@
   "A0A843.jpg": {
     "Super Mario Wonder": "![[A0A843.jpg]]"
   },
+  "A0AC57.png": {
+    "Grammarly": "![[A0AC57.png]]"
+  },
   "A0B08E.png": {
     "Text-based Tools for Thought": "![[A0B08E.png]]"
   },
@@ -8787,6 +8790,22 @@
     "2023-05-02": "- [[Groupthink]]",
     "Antipreneur": "- [[Groupthink]]. 자신만 믿는 비전을 굳세게 미는 ..."
   },
+  "Grove Essay 1 — What I am building": {
+    "2026-01-12": "- [[Grove Essay 1 — What I am building]]",
+    "Project Mangrove": "- [[Grove Essay 1 — What I am building]]"
+  },
+  "Grove Essay 2 — What I have built previously": {
+    "2026-01-12": "- [[Grove Essay 2 — What I have built previously]]",
+    "Project Mangrove": "- [[Grove Essay 2 — What I have built previously]]"
+  },
+  "Grove Essay 3 — What I hope to gain from OpenAI Grove": {
+    "2026-01-12": "- [[Grove Essay 3 — What I hope to gain from OpenAI Grove]]",
+    "Project Mangrove": "- [[Grove Essay 3 — What I hope to gain from OpenAI Grove]]"
+  },
+  "Grove Essay 4 — Anything else you should know": {
+    "2026-01-12": "- [[Grove Essay 4 — Anything else you should know]]",
+    "Project Mangrove": "- [[Grove Essay 4 — Anything else you should know]]"
+  },
   "Guestbook": {
     "2022-10-15": "- [[Guestbook]]"
   },
@@ -9169,7 +9188,8 @@
   },
   "Icon Provider": {
     "2024-06-21": "- [[Icon Provider]]",
-    "2026-01-11": "- [[Icon Provider]]"
+    "2026-01-11": "- [[Icon Provider]]",
+    "2026-01-12": "- [[Icon Provider]]"
   },
   "Ideas are worthless": {
     "2022-10-03": "- [[Ideas are worthless]]",
@@ -13213,6 +13233,9 @@
   },
   "Sigma Alpha": {
     "Probability": "- [[Sigma Alpha]]"
+  },
+  "Sigma.js": {
+    "2026-01-12": "Implemented Obsidian-style graph view using [[Sigma.js]] with @react-sigma/core:"
   },
   "Sign in with Apple": {
     "2023-11-14": "- [[Sign in with Apple]]",

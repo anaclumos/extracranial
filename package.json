@@ -11,12 +11,17 @@
     "@docusaurus/theme-common": "^3.9.2",
     "@docusaurus/theme-mermaid": "^3.9.2",
     "@giscus/react": "^3.1.0",
+    "@react-sigma/core": "^5.0.6",
     "clsx": "^2.1.1",
     "cobe": "^0.6.4",
+    "graphology": "^0.26.0",
+    "graphology-layout-forceatlas2": "^0.10.1",
+    "graphology-types": "^0.24.8",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "rehype-katex": "^7.0.1",
-    "remark-math": "^6.0.0"
+    "remark-math": "^6.0.0",
+    "sigma": "^3.0.2"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.10",

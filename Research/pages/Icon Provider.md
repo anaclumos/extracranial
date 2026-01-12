@@ -9,3 +9,4 @@ slug: '/861603'
 - https://iconic.app/
 - https://lucide-animated.com/
 - https://hugeicons.com/
+- https://nucleoapp.com/

@@ -48,6 +48,11 @@ const navbar = {
       position: 'left' as const,
     },
     {
+      to: '/graph',
+      label: 'Graph',
+      position: 'left' as const,
+    },
+    {
       to: '/w/archive',
       label: 'Articles',
       position: 'left' as const,

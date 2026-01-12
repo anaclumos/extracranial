@@ -1,0 +1,237 @@
+'use client'
+
+import { useCallback, useState } from 'react'
+import styles from './styles.module.css'
+
+export interface GraphSettingsValues {
+  labelThreshold: number
+  linkThickness: number
+  centerForce: number
+  repelForce: number
+  linkForce: number
+  linkDistance: number
+}
+
+interface GraphSettingsProps {
+  values: GraphSettingsValues
+  onChange: (values: GraphSettingsValues) => void
+  onStartTimelapse: () => void
+  onStopTimelapse: () => void
+  isTimelapseRunning: boolean
+}
+
+const DEFAULT_VALUES: GraphSettingsValues = {
+  labelThreshold: 8,
+  linkThickness: 1.5,
+  centerForce: 0.0001,
+  repelForce: 50_000,
+  linkForce: 0.5,
+  linkDistance: 50,
+}
+
+export { DEFAULT_VALUES }
+
+export default function GraphSettings({
+  values,
+  onChange,
+  onStartTimelapse,
+  onStopTimelapse,
+  isTimelapseRunning,
+}: GraphSettingsProps) {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const handleChange = useCallback(
+    (key: keyof GraphSettingsValues, value: number) => {
+      onChange({ ...values, [key]: value })
+    },
+    [values, onChange]
+  )
+
+  const handleReset = useCallback(() => {
+    onChange(DEFAULT_VALUES)
+  }, [onChange])
+
+  return (
+    <div className={styles.settingsWrapper}>
+      <div className={styles.settingsButtons}>
+        <button
+          className={styles.settingsButton}
+          onClick={isTimelapseRunning ? onStopTimelapse : onStartTimelapse}
+          title={
+            isTimelapseRunning
+              ? 'Stop the timelapse animation'
+              : 'Watch the graph build up over time'
+          }
+          type="button"
+        >
+          {isTimelapseRunning ? (
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              height="18"
+              role="img"
+              viewBox="0 0 24 24"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect height="16" width="4" x="6" y="4" />
+              <rect height="16" width="4" x="14" y="4" />
+            </svg>
+          ) : (
+            <svg
+              aria-hidden="true"
+              fill="currentColor"
+              height="18"
+              role="img"
+              viewBox="0 0 24 24"
+              width="18"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polygon points="5,3 19,12 5,21" />
+            </svg>
+          )}
+        </button>
+        <button
+          className={styles.settingsButton}
+          data-active={isOpen}
+          onClick={() => setIsOpen(!isOpen)}
+          title="Adjust graph visualization settings"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            fill="none"
+            height="18"
+            role="img"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+        </button>
+      </div>
+
+      {isOpen && (
+        <div className={styles.settingsPanel}>
+          <div className={styles.settingsHeader}>
+            <span>Graph Settings</span>
+            <button
+              className={styles.resetButton}
+              onClick={handleReset}
+              title="Reset all settings to defaults"
+              type="button"
+            >
+              Reset
+            </button>
+          </div>
+
+          <div className={styles.settingItem}>
+            <label htmlFor="labelThreshold">
+              Label Threshold
+              <span className={styles.settingValue}>
+                {values.labelThreshold}
+              </span>
+            </label>
+            <input
+              id="labelThreshold"
+              max="30"
+              min="1"
+              onChange={(e) =>
+                handleChange('labelThreshold', Number(e.target.value))
+              }
+              step="1"
+              type="range"
+              value={values.labelThreshold}
+            />
+          </div>
+
+          <div className={styles.settingItem}>
+            <label htmlFor="linkThickness">
+              Link Thickness
+              <span className={styles.settingValue}>
+                {values.linkThickness.toFixed(1)}
+              </span>
+            </label>
+            <input
+              id="linkThickness"
+              max="5"
+              min="0.5"
+              onChange={(e) =>
+                handleChange('linkThickness', Number(e.target.value))
+              }
+              step="0.5"
+              type="range"
+              value={values.linkThickness}
+            />
+          </div>
+
+          <div className={styles.settingItem}>
+            <label htmlFor="centerForce">
+              Gravity
+              <span className={styles.settingValue}>
+                {values.centerForce.toFixed(4)}
+              </span>
+            </label>
+            <input
+              id="centerForce"
+              max="0.01"
+              min="0"
+              onChange={(e) =>
+                handleChange('centerForce', Number(e.target.value))
+              }
+              step="0.0005"
+              type="range"
+              value={values.centerForce}
+            />
+          </div>
+
+          <div className={styles.settingItem}>
+            <label htmlFor="repelForce">
+              Repulsion
+              <span className={styles.settingValue}>
+                {values.repelForce.toLocaleString()}
+              </span>
+            </label>
+            <input
+              id="repelForce"
+              max="100000"
+              min="1000"
+              onChange={(e) =>
+                handleChange('repelForce', Number(e.target.value))
+              }
+              step="1000"
+              type="range"
+              value={values.repelForce}
+            />
+          </div>
+
+          <div className={styles.settingItem}>
+            <label htmlFor="linkForce">
+              Edge Pull
+              <span className={styles.settingValue}>
+                {values.linkForce.toFixed(2)}
+              </span>
+            </label>
+            <input
+              id="linkForce"
+              max="1"
+              min="0"
+              onChange={(e) =>
+                handleChange('linkForce', Number(e.target.value))
+              }
+              step="0.05"
+              type="range"
+              value={values.linkForce}
+            />
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}
