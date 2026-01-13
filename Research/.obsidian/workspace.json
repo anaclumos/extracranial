@@ -4,20 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "cc69e3942ae5997b",
+        "id": "e75a3d97d7897758",
         "type": "tabs",
         "children": [
           {
-            "id": "dbc4044fc301c4cb",
+            "id": "f4ad087bb26a6150",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-13.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-01-13"
+            }
+          },
+          {
+            "id": "e081209778c5801f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-13.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-13"
+            }
+          },
+          {
+            "id": "5ecc46cef268515f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/OpenAI Grove.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "OpenAI Grove"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,14 +234,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbc4044fc301c4cb",
+  "active": "5ecc46cef268515f",
   "lastOpenFiles": [
+    "journals/2026-01-13.md",
+    "journals/2026-01-12.md",
+    "pages/Project Mangrove.md",
+    "pages/Grove Essay 2 — What I have built previously.md",
     "pages/Grove Essay 4 — Anything else you should know.md",
     "pages/Grove Essay 3 — What I hope to gain from OpenAI Grove.md",
-    "pages/Grove Essay 2 — What I have built previously.md",
+    "pages/OpenAI Grove.md",
     "pages/Grove Essay 1 — What I am building.md",
-    "pages/Project Mangrove.md",
-    "journals/2026-01-12.md",
     "pages/Untitled.md",
     "templates/note template.md",
     "pages/Icon Provider.md",
@@ -194,12 +259,10 @@
     "pages/Neon.md",
     "pages/Hypany.md",
     "assets/Pasted image 20260111182245.png",
-    "pages/OpenAI Grove.md",
     "pages/Project Linguine.md",
     "pages/ACL 60-60.md",
     "journals/2026-01-09.md",
     "pages/조잡생각.md",
-    "journals/2026-01-10.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
