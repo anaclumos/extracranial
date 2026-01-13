@@ -1971,6 +1971,7 @@
   "2026-01-10": {},
   "2026-01-11": {},
   "2026-01-12": {},
+  "2026-01-13": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -8790,22 +8791,6 @@
     "2023-05-02": "- [[Groupthink]]",
     "Antipreneur": "- [[Groupthink]]. 자신만 믿는 비전을 굳세게 미는 ..."
   },
-  "Grove Essay 1 — What I am building": {
-    "2026-01-12": "- [[Grove Essay 1 — What I am building]]",
-    "Project Mangrove": "- [[Grove Essay 1 — What I am building]]"
-  },
-  "Grove Essay 2 — What I have built previously": {
-    "2026-01-12": "- [[Grove Essay 2 — What I have built previously]]",
-    "Project Mangrove": "- [[Grove Essay 2 — What I have built previously]]"
-  },
-  "Grove Essay 3 — What I hope to gain from OpenAI Grove": {
-    "2026-01-12": "- [[Grove Essay 3 — What I hope to gain from OpenAI Grove]]",
-    "Project Mangrove": "- [[Grove Essay 3 — What I hope to gain from OpenAI Grove]]"
-  },
-  "Grove Essay 4 — Anything else you should know": {
-    "2026-01-12": "- [[Grove Essay 4 — Anything else you should know]]",
-    "Project Mangrove": "- [[Grove Essay 4 — Anything else you should know]]"
-  },
   "Guestbook": {
     "2022-10-15": "- [[Guestbook]]"
   },
@@ -11256,7 +11241,7 @@
   },
   "OpenAI Grove": {
     "2026-01-06": "[[OpenAI Grove]]",
-    "Project Mangrove": "[[OpenAI Grove]] 가보자!"
+    "2026-01-13": "[[OpenAI Grove]]"
   },
   "OpenAI enthroned as the Levis of Tech": {
     "2023-03-01": "- [[OpenAI enthroned as the Levis of Tech]]",
@@ -12255,8 +12240,7 @@
   },
   "Project Mangrove": {
     "2026-01-08": "- [[Project Mangrove]]",
-    "2026-01-11": "- [[Project Mangrove]]",
-    "2026-01-12": "- [[Project Mangrove]]"
+    "2026-01-11": "- [[Project Mangrove]]"
   },
   "Project MarkRight": {
     "2025-06-30": "- [[Project MarkRight]]",
@@ -13233,9 +13217,6 @@
   },
   "Sigma Alpha": {
     "Probability": "- [[Sigma Alpha]]"
-  },
-  "Sigma.js": {
-    "2026-01-12": "Implemented Obsidian-style graph view using [[Sigma.js]] with @react-sigma/core:"
   },
   "Sign in with Apple": {
     "2023-11-14": "- [[Sign in with Apple]]",
