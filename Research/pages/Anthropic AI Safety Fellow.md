@@ -25,7 +25,7 @@ My approach combines retrieval and operations. Use retrieval-augmented generatio
 
 This is safety work with concrete artifacts. It creates verifiability, transparency, and long-horizon resilience. It prevents small errors from compounding into systemic misinformation by detecting degradation early and enforcing corrective interventions.
 
-## (Optional) Relevant AI safety background (with links where possible)
+## Relevant AI safety background
 
 My background spans AI research and production engineering, with a consistent focus on robustness, trustworthiness, and alignment with human constraints.
 
