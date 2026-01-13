@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "61d6496662c5ddc0",
+        "id": "619571c33a2b4109",
         "type": "tabs",
         "children": [
           {
-            "id": "6b8c331f8de72376",
+            "id": "07ddfe074d480b37",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b8c331f8de72376",
+  "active": "07ddfe074d480b37",
   "lastOpenFiles": [
-    "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
+    "pages/Anthropic AI Safety Fellow.md",
     "pages/Absolute Mode.md",
     "pages/As We May Think.md",
     "pages/OpenAI Grove.md",
