@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e75a3d97d7897758",
+        "id": "0d12785aca1f11ff",
         "type": "tabs",
         "children": [
           {
-            "id": "f4ad087bb26a6150",
+            "id": "766bdd7104668a05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-13.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-01-13"
-            }
-          },
-          {
-            "id": "e081209778c5801f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-13.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-13"
-            }
-          },
-          {
-            "id": "5ecc46cef268515f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/OpenAI Grove.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "OpenAI Grove"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,15 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ecc46cef268515f",
+  "active": "766bdd7104668a05",
   "lastOpenFiles": [
+    "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
+    "pages/Absolute Mode.md",
+    "pages/As We May Think.md",
+    "pages/OpenAI Grove.md",
     "journals/2026-01-12.md",
     "pages/Project Mangrove.md",
     "pages/Grove Essay 2 — What I have built previously.md",
     "pages/Grove Essay 4 — Anything else you should know.md",
     "pages/Grove Essay 3 — What I hope to gain from OpenAI Grove.md",
-    "pages/OpenAI Grove.md",
     "pages/Grove Essay 1 — What I am building.md",
     "pages/Untitled.md",
     "templates/note template.md",
@@ -260,9 +200,6 @@
     "pages/Hypany.md",
     "assets/Pasted image 20260111182245.png",
     "pages/Project Linguine.md",
-    "pages/ACL 60-60.md",
-    "journals/2026-01-09.md",
-    "pages/조잡생각.md",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
     "assets/Pasted image 20260108161946.png",
