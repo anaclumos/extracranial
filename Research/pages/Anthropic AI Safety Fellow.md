@@ -31,7 +31,7 @@ My background spans AI research and production engineering, with a consistent fo
 
 At Lunit, a medical AI company, I led engineering work on an AI-Ops platform (INCL) to support reliable deployment of models in high-stakes clinical settings. That work forced rigor on monitoring, rollback, evaluation, and cost controls, and made safety and operational discipline non-negotiable.
 
-At Grammarly, I worked on NLP and saw how large language models are managed and evaluated for quality in a product environment. I also helped organize an internal AI and NLP study group to examine fairness, failure modes, and model behavior.
+At Grammarly, I worked on Experimentation Platform and saw how large language models are managed and evaluated for quality in a product environment.
 
 On the research side, I collaborated with Prof. Jose-Luis Ambite at USC ISI on vertical federated learning for privacy-preserving data integration. The goal was to enable cross-institution learning without centralizing sensitive data, aligning model development with privacy requirements by design.
 

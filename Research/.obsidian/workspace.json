@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0d12785aca1f11ff",
+        "id": "61d6496662c5ddc0",
         "type": "tabs",
         "children": [
           {
-            "id": "766bdd7104668a05",
+            "id": "6b8c331f8de72376",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "766bdd7104668a05",
+  "active": "6b8c331f8de72376",
   "lastOpenFiles": [
     "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
