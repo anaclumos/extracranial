@@ -4,20 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "240257d776a4c216",
+        "id": "7346332a19e1c19d",
         "type": "tabs",
         "children": [
           {
-            "id": "d8ecc90cca4c8e63",
+            "id": "ee7d16684c97c766",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-14.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-01-14"
+            }
+          },
+          {
+            "id": "62bc7cfb976e0142",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-14.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-14"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +210,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8ecc90cca4c8e63",
+  "active": "62bc7cfb976e0142",
   "lastOpenFiles": [
+    "pages/영어 설명충 박멸.md",
+    "journals/2026-01-14.md",
+    "pages/최애 MCP들.md",
     "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
     "pages/Project Linguine.md",
@@ -196,9 +238,6 @@
     "pages/Piano 20 Minutes.md",
     "pages/No Night Time Cravings.md",
     "pages/계정 인수 시 주의할 점.md",
-    "pages/No Alcohol.md",
-    "pages/Neon.md",
-    "pages/Hypany.md",
     "assets/Pasted image 20260111182245.png",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
