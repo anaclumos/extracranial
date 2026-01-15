@@ -1,7 +1,7 @@
 import Translate from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ORGANIZATIONS, type OrganizationKey } from '../../constants'
 import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
@@ -16,7 +16,9 @@ interface InlineOrgProps {
 function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
   return (
     <button
-      className={cn(styles.inlineOrg, isActive && styles.inlineOrgExpanded)}
+      aria-expanded={isActive}
+      aria-haspopup="true"
+      className={styles.inlineOrg}
       onClick={(e) => {
         e.stopPropagation()
         onClick()
@@ -30,7 +32,12 @@ function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
         src={icon}
         width={24}
       />
-      <span className={styles.inlineOrgLabel}>{name}</span>
+      {isActive && (
+        <span className={styles.inlineOrgPopover} role="tooltip">
+          <span className={styles.inlineOrgPopoverArrow} />
+          {name}
+        </span>
+      )}
     </button>
   )
 }
@@ -43,6 +50,15 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
   const [activeOrg, setActiveOrg] = useState<string | null>(null)
   const { i18n } = useDocusaurusContext()
   const isKorean = i18n.currentLocale === 'ko'
+
+  useEffect(() => {
+    if (!activeOrg) {
+      return
+    }
+    const handleClickOutside = () => setActiveOrg(null)
+    document.addEventListener('click', handleClickOutside)
+    return () => document.removeEventListener('click', handleClickOutside)
+  }, [activeOrg])
 
   const handleOrgClick = (name: string) => {
     setActiveOrg(activeOrg === name ? null : name)

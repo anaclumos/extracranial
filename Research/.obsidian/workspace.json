@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7346332a19e1c19d",
+        "id": "6db13b339ad91814",
         "type": "tabs",
         "children": [
           {
-            "id": "ee7d16684c97c766",
+            "id": "a375a9ad723bc040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-14.md",
+                "file": "pages/최애 MCP들.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-14"
-            }
-          },
-          {
-            "id": "62bc7cfb976e0142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-14.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-14"
+              "title": "최애 MCP들"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,10 +185,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "62bc7cfb976e0142",
+  "active": "a375a9ad723bc040",
   "lastOpenFiles": [
     "pages/영어 설명충 박멸.md",
     "journals/2026-01-14.md",
+    "journals/2026-01-15.md",
+    "pages/biome.jsonc.md",
     "pages/최애 MCP들.md",
     "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
@@ -236,8 +213,6 @@
     "templates/journal template.md",
     "pages/Daily Dev.md",
     "pages/Piano 20 Minutes.md",
-    "pages/No Night Time Cravings.md",
-    "pages/계정 인수 시 주의할 점.md",
     "assets/Pasted image 20260111182245.png",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",

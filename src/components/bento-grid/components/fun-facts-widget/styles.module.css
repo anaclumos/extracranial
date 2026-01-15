@@ -48,6 +48,22 @@
   }
 }
 
+@keyframes fadeRefresh {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bioContentRefreshing {
+  animation: fadeRefresh 0.48s ease-in-out;
+}
+
 .bioRefreshButton {
   position: absolute;
   bottom: 1rem;

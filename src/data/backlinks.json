@@ -1973,6 +1973,7 @@
   "2026-01-12": {},
   "2026-01-13": {},
   "2026-01-14": {},
+  "2026-01-15": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -15208,6 +15209,9 @@
     "0001 Two Sum": "...  - Perform [[binary search]] $O(\\log n)$",
     "0235 LCA of a Binary Search Tree": "Given a [[binary search]] tree (BST), find the lowest ...",
     "0278 First Bad Version": "When using [[binary search]], we must consider the case ..."
+  },
+  "biome.jsonc": {
+    "2026-01-14": "- [[biome.jsonc]]"
   },
   "blank=True vs null=True in Django": {
     "2025-05-13": "- [[blank=True vs null=True in Django]]"
