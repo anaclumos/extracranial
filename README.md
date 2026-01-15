@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Fri Jan 16 00:09:37 KST 2026
+Fri Jan 16 00:14:53 KST 2026
 
 ## Stats
 
@@ -31,9 +31,9 @@ Fri Jan 16 00:09:37 KST 2026
 Language                 Files     Lines   Blanks  Comments     Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown                  3096     80140    21770         0    58370          0
-TypeScript                  64      5219      559        33     4627        472
-JSON                        43     24608        0         0    24608          0
-CSS                         35      3239      475         5     2759          0
+TypeScript                  65      5279      564        33     4682        481
+JSON                        43     24610        0         0    24610          0
+CSS                         36      3269      478         5     2786          0
 SVG                         16       111        0        12       99          0
 YAML                         6        35        0         0       35          0
 TypeScript Typings           2        55        6         4       45          0
@@ -41,13 +41,14 @@ INI                          1         1        0         0        1          0
 JSONC                        1        31        0         0       31          0
 JavaScript                   1      1130        1      1018      111         21
 Plain Text                   1         3        0         0        3          0
+TOML                         1         2        0         0        2          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3266    114572    22811      1072    90689        493
+Total                     3269    114666    22819      1072    90775        502
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,069,217
-Estimated Schedule Effort (organic) 21.06 months
+Estimated Cost to Develop (organic) $3,072,273
+Estimated Schedule Effort (organic) 21.07 months
 Estimated People Required (organic) 12.95
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5721372 bytes, 5.721 megabytes (SI)
+Processed 5723508 bytes, 5.724 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```

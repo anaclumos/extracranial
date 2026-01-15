@@ -1,0 +1,2 @@
+[install.scopes]
+"motion-plus" = { token = "$MOTION_PLUS_TOKEN", url = "https://api.motion.dev/registry" }
