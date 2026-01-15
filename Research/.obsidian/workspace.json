@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/최애 MCP들.md",
+                "file": "journals/2026-01-15.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "최애 MCP들"
+              "title": "2026-01-15"
             }
           }
         ]
@@ -187,11 +187,16 @@
   },
   "active": "a375a9ad723bc040",
   "lastOpenFiles": [
+    "pages/How to fix your entire life in 1 day.md",
+    "pages/하루만에 삶을 바꾸는 방법.md",
+    "assets/Pasted image 20260115130405.png",
+    "assets/Pasted image 20260115130306.png",
+    "assets/Pasted image 20260115130142.png",
+    "journals/2026-01-15.md",
+    "pages/최애 MCP들.md",
     "pages/영어 설명충 박멸.md",
     "journals/2026-01-14.md",
-    "journals/2026-01-15.md",
     "pages/biome.jsonc.md",
-    "pages/최애 MCP들.md",
     "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
     "pages/Project Linguine.md",
@@ -211,8 +216,6 @@
     "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
     "pages/Picking Postgres DB Provider in 2026.md",
     "templates/journal template.md",
-    "pages/Daily Dev.md",
-    "pages/Piano 20 Minutes.md",
     "assets/Pasted image 20260111182245.png",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
@@ -220,9 +223,6 @@
     "assets/Pasted image 20260108161938.png",
     "assets/Pasted image 20260108161928.png",
     "assets/8DD10B.jpeg",
-    "assets/B21ABE.jpeg",
-    "assets/44949C.png",
-    "assets/164E3A.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
