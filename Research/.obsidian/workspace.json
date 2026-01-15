@@ -11,10 +11,24 @@
             "id": "b77b622e72e3ca50",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/하루만에 삶을 바꾸는 방법.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "하루만에 삶을 바꾸는 방법"
             }
           }
         ]
@@ -173,9 +187,10 @@
   },
   "active": "b77b622e72e3ca50",
   "lastOpenFiles": [
-    "journals/2026-01-15.md",
     "pages/How to fix your entire life in 1 day.md",
     "pages/하루만에 삶을 바꾸는 방법.md",
+    "journals/2026-01-16.md",
+    "journals/2026-01-15.md",
     "assets/Pasted image 20260115130405.png",
     "assets/Pasted image 20260115130306.png",
     "assets/Pasted image 20260115130142.png",
@@ -201,7 +216,6 @@
     "journals/2026-01-11.md",
     "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
     "pages/Picking Postgres DB Provider in 2026.md",
-    "templates/journal template.md",
     "assets/Pasted image 20260111182245.png",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
