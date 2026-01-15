@@ -500,9 +500,6 @@
   "bento.hero.name": {
     "message": "조성현"
   },
-  "bento.hero.subtitle": {
-    "message": "민사고와 USC를 졸업하고 루닛에서 의료AI 플랫폼을 만드는 조성현입니다. 이전에는 배달의민족, 당근, Grammarly를 거쳤습니다."
-  },
   "bento.bio.label": {
     "message": "재미있는 사실"
   },
@@ -679,5 +676,68 @@
   "theme.SearchModal.footer.backToSearchText": {
     "message": "검색으로 돌아가기",
     "description": "The back to search text for footer"
+  },
+  "graph.settings.title": {
+    "message": "그래프 설정"
+  },
+  "graph.settings.reset": {
+    "message": "초기화"
+  },
+  "graph.settings.labelThreshold": {
+    "message": "라벨 표시 임계값"
+  },
+  "graph.settings.linkThickness": {
+    "message": "연결선 두께"
+  },
+  "graph.settings.gravity": {
+    "message": "중력"
+  },
+  "graph.settings.repulsion": {
+    "message": "척력"
+  },
+  "graph.settings.edgePull": {
+    "message": "연결 인력"
+  },
+  "graph.settings.timelapse.start": {
+    "message": "그래프가 시간에 따라 생성되는 과정 보기"
+  },
+  "graph.settings.timelapse.stop": {
+    "message": "타임랩스 애니메이션 중지"
+  },
+  "graph.settings.button.title": {
+    "message": "그래프 시각화 설정 조절"
+  },
+  "graph.settings.reset.title": {
+    "message": "모든 설정을 기본값으로 초기화"
+  },
+  "graph.controls.zoomIn": {
+    "message": "확대"
+  },
+  "graph.controls.zoomIn.title": {
+    "message": "확대하여 자세히 보기"
+  },
+  "graph.controls.zoomOut": {
+    "message": "축소"
+  },
+  "graph.controls.zoomOut.title": {
+    "message": "축소하여 그래프 전체 보기"
+  },
+  "graph.controls.resetView": {
+    "message": "보기 초기화"
+  },
+  "graph.controls.resetView.title": {
+    "message": "전체 그래프가 보이도록 보기 초기화"
+  },
+  "graph.controls.focusSelected": {
+    "message": "선택 항목으로 이동"
+  },
+  "graph.controls.focusSelected.title": {
+    "message": "선택한 노드를 화면 중앙에 표시"
+  },
+  "graph.search.placeholder": {
+    "message": "노트 검색..."
+  },
+  "graph.search.title": {
+    "message": "노트 이름으로 검색하고 이동하기"
   }
 }

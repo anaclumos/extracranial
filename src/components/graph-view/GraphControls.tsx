@@ -1,5 +1,6 @@
 'use client'
 
+import { translate } from '@docusaurus/Translate'
 import { useSigma } from '@react-sigma/core'
 import { useCallback } from 'react'
 import styles from './styles.module.css'
@@ -43,10 +44,16 @@ export default function GraphControls({ selectedNode }: GraphControlsProps) {
   return (
     <div className={styles.controlsContainer}>
       <button
-        aria-label="Zoom In"
+        aria-label={translate({
+          id: 'graph.controls.zoomIn',
+          message: 'Zoom In',
+        })}
         className={styles.controlButton}
         onClick={handleZoomIn}
-        title="Zoom in to see more detail"
+        title={translate({
+          id: 'graph.controls.zoomIn.title',
+          message: 'Zoom in to see more detail',
+        })}
         type="button"
       >
         <svg
@@ -69,10 +76,16 @@ export default function GraphControls({ selectedNode }: GraphControlsProps) {
         </svg>
       </button>
       <button
-        aria-label="Zoom Out"
+        aria-label={translate({
+          id: 'graph.controls.zoomOut',
+          message: 'Zoom Out',
+        })}
         className={styles.controlButton}
         onClick={handleZoomOut}
-        title="Zoom out to see more of the graph"
+        title={translate({
+          id: 'graph.controls.zoomOut.title',
+          message: 'Zoom out to see more of the graph',
+        })}
         type="button"
       >
         <svg
@@ -94,10 +107,16 @@ export default function GraphControls({ selectedNode }: GraphControlsProps) {
         </svg>
       </button>
       <button
-        aria-label="Reset View"
+        aria-label={translate({
+          id: 'graph.controls.resetView',
+          message: 'Reset View',
+        })}
         className={styles.controlButton}
         onClick={handleReset}
-        title="Reset view to show the entire graph"
+        title={translate({
+          id: 'graph.controls.resetView.title',
+          message: 'Reset view to show the entire graph',
+        })}
         type="button"
       >
         <svg
@@ -119,10 +138,16 @@ export default function GraphControls({ selectedNode }: GraphControlsProps) {
       </button>
       {selectedNode && (
         <button
-          aria-label="Focus Selected"
+          aria-label={translate({
+            id: 'graph.controls.focusSelected',
+            message: 'Focus Selected',
+          })}
           className={styles.controlButton}
           onClick={handleFocusSelected}
-          title="Center view on the selected node"
+          title={translate({
+            id: 'graph.controls.focusSelected.title',
+            message: 'Center view on the selected node',
+          })}
           type="button"
         >
           <svg

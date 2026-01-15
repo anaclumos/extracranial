@@ -1,5 +1,6 @@
 'use client'
 
+import { translate } from '@docusaurus/Translate'
 import { useSigma } from '@react-sigma/core'
 import { useCallback, useMemo, useState } from 'react'
 import styles from './styles.module.css'
@@ -88,8 +89,14 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
         onChange={handleInputChange}
         onFocus={() => setIsOpen(true)}
         onKeyDown={handleKeyDown}
-        placeholder="Search notes..."
-        title="Search for notes by name and navigate to them"
+        placeholder={translate({
+          id: 'graph.search.placeholder',
+          message: 'Search notes...',
+        })}
+        title={translate({
+          id: 'graph.search.title',
+          message: 'Search for notes by name and navigate to them',
+        })}
         type="text"
         value={query}
       />
