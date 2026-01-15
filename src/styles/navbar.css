@@ -14,28 +14,28 @@
 
 .navbar-github-link::before {
   background-image: url("/icons/github.svg");
+}
 
-  [data-theme="dark"] & {
-    background-image: url("/icons/github-dark.svg");
-  }
+html[data-theme="dark"] .navbar-github-link::before {
+  background-image: url("/icons/github-dark.svg");
 }
 
 .navbar-linkedin-link::before {
   background-image: url("/icons/linkedin.svg");
+}
 
-  [data-theme="dark"] & {
-    background-image: url("/icons/linkedin-dark.svg");
-  }
+html[data-theme="dark"] .navbar-linkedin-link::before {
+  background-image: url("/icons/linkedin-dark.svg");
 }
 
 .navbar-wallet-link::before {
   background-image: url("/icons/wallet.svg");
   width: 1.75rem;
   height: 1.75rem;
+}
 
-  [data-theme="dark"] & {
-    background-image: url("/icons/wallet-dark.svg");
-  }
+html[data-theme="dark"] .navbar-wallet-link::before {
+  background-image: url("/icons/wallet-dark.svg");
 }
 
 .navbar {

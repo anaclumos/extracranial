@@ -1,5 +1,6 @@
 'use client'
 
+import Translate, { translate } from '@docusaurus/Translate'
 import { useCallback, useState } from 'react'
 import styles from './styles.module.css'
 
@@ -59,8 +60,14 @@ export default function GraphSettings({
           onClick={isTimelapseRunning ? onStopTimelapse : onStartTimelapse}
           title={
             isTimelapseRunning
-              ? 'Stop the timelapse animation'
-              : 'Watch the graph build up over time'
+              ? translate({
+                  id: 'graph.settings.timelapse.stop',
+                  message: 'Stop the timelapse animation',
+                })
+              : translate({
+                  id: 'graph.settings.timelapse.start',
+                  message: 'Watch the graph build up over time',
+                })
           }
           type="button"
         >
@@ -95,7 +102,10 @@ export default function GraphSettings({
           className={styles.settingsButton}
           data-active={isOpen}
           onClick={() => setIsOpen(!isOpen)}
-          title="Adjust graph visualization settings"
+          title={translate({
+            id: 'graph.settings.button.title',
+            message: 'Adjust graph visualization settings',
+          })}
           type="button"
         >
           <svg
@@ -120,20 +130,27 @@ export default function GraphSettings({
       {isOpen && (
         <div className={styles.settingsPanel}>
           <div className={styles.settingsHeader}>
-            <span>Graph Settings</span>
+            <span>
+              <Translate id="graph.settings.title">Graph Settings</Translate>
+            </span>
             <button
               className={styles.resetButton}
               onClick={handleReset}
-              title="Reset all settings to defaults"
+              title={translate({
+                id: 'graph.settings.reset.title',
+                message: 'Reset all settings to defaults',
+              })}
               type="button"
             >
-              Reset
+              <Translate id="graph.settings.reset">Reset</Translate>
             </button>
           </div>
 
           <div className={styles.settingItem}>
             <label htmlFor="labelThreshold">
-              Label Threshold
+              <Translate id="graph.settings.labelThreshold">
+                Label Threshold
+              </Translate>
               <span className={styles.settingValue}>
                 {values.labelThreshold}
               </span>
@@ -153,7 +170,9 @@ export default function GraphSettings({
 
           <div className={styles.settingItem}>
             <label htmlFor="linkThickness">
-              Link Thickness
+              <Translate id="graph.settings.linkThickness">
+                Link Thickness
+              </Translate>
               <span className={styles.settingValue}>
                 {values.linkThickness.toFixed(1)}
               </span>
@@ -173,7 +192,7 @@ export default function GraphSettings({
 
           <div className={styles.settingItem}>
             <label htmlFor="centerForce">
-              Gravity
+              <Translate id="graph.settings.gravity">Gravity</Translate>
               <span className={styles.settingValue}>
                 {values.centerForce.toFixed(4)}
               </span>
@@ -193,7 +212,7 @@ export default function GraphSettings({
 
           <div className={styles.settingItem}>
             <label htmlFor="repelForce">
-              Repulsion
+              <Translate id="graph.settings.repulsion">Repulsion</Translate>
               <span className={styles.settingValue}>
                 {values.repelForce.toLocaleString()}
               </span>
@@ -213,7 +232,7 @@ export default function GraphSettings({
 
           <div className={styles.settingItem}>
             <label htmlFor="linkForce">
-              Edge Pull
+              <Translate id="graph.settings.edgePull">Edge Pull</Translate>
               <span className={styles.settingValue}>
                 {values.linkForce.toFixed(2)}
               </span>
