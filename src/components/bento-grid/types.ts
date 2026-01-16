@@ -6,6 +6,7 @@ export interface BentoWidgetProps {
   href?: string
   external?: boolean
   animate?: boolean
+  ariaLabel?: string
 }
 
 export interface HabitDefinition {

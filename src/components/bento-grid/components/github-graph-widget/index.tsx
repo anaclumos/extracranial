@@ -53,6 +53,7 @@ export default function GitHubGraphWidget({
 
   return (
     <BentoWidget
+      ariaLabel="View GitHub profile"
       className={cn(className, styles.githubGraphWidget)}
       external
       href={`https://github.com/${GITHUB_USERNAME}`}
@@ -95,6 +96,7 @@ export default function GitHubGraphWidget({
               if (!contrib) {
                 return (
                   <div
+                    aria-hidden="true"
                     className={cn(styles.githubCell, styles.githubCellEmpty)}
                     key={`${dayName}-${week.id}`}
                   />

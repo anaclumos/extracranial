@@ -70,8 +70,15 @@
   transition: background-color 0.15s ease;
 }
 
-.searchResultItem:hover {
+.searchResultItem:hover,
+.searchResultItem[data-active="true"] {
   background: rgba(128, 190, 122, 0.15);
+}
+
+.searchResultItem:focus-visible {
+  background: rgba(128, 190, 122, 0.15);
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: -2px;
 }
 
 .controlsContainer {
@@ -104,6 +111,14 @@
   background: rgba(128, 190, 122, 0.15);
   border-color: var(--ifm-color-primary);
   color: var(--ifm-color-primary-dark);
+}
+
+.controlButton:focus-visible {
+  background: rgba(128, 190, 122, 0.15);
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-dark);
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
 }
 
 :global([data-theme="dark"]).controlButton:hover {
@@ -195,6 +210,14 @@
   color: var(--ifm-color-primary-dark);
 }
 
+.settingsButton:focus-visible {
+  background: rgba(128, 190, 122, 0.15);
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-dark);
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
 .settingsButton[data-active="true"] {
   background: rgba(128, 190, 122, 0.2);
   border-color: var(--ifm-color-primary);
@@ -251,6 +274,14 @@
   color: var(--ifm-color-primary-dark);
 }
 
+.resetButton:focus-visible {
+  background: rgba(128, 190, 122, 0.15);
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-dark);
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
 :global([data-theme="dark"]).resetButton:hover {
   color: var(--ifm-color-primary);
 }
@@ -287,6 +318,11 @@
   border-radius: 2px;
   outline: none;
   cursor: pointer;
+}
+
+.settingItem input[type="range"]:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 4px;
 }
 
 .settingItem input[type="range"]::-webkit-slider-thumb {

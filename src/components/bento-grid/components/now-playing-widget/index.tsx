@@ -74,6 +74,11 @@ export default function NowPlayingWidget({ className }: NowPlayingWidgetProps) {
 
   return (
     <BentoWidget
+      ariaLabel={
+        track
+          ? `Listen to ${track.name} by ${track.artist['#text']}`
+          : undefined
+      }
       className={cn(styles.nowPlayingWidget, className)}
       external={!loading && !!track}
       href={!loading && track ? track.url : undefined}

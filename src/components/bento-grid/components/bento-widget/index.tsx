@@ -9,6 +9,7 @@ export default function BentoWidget({
   href,
   external,
   animate = true,
+  ariaLabel,
 }: BentoWidgetProps) {
   const widgetContent = (
     <div
@@ -22,6 +23,7 @@ export default function BentoWidget({
     if (external) {
       return (
         <a
+          aria-label={ariaLabel ? `${ariaLabel} (opens in new tab)` : undefined}
           className={styles.widgetLink}
           href={href}
           rel="noopener noreferrer"
@@ -32,7 +34,7 @@ export default function BentoWidget({
       )
     }
     return (
-      <Link className={styles.widgetLink} to={href}>
+      <Link aria-label={ariaLabel} className={styles.widgetLink} to={href}>
         {widgetContent}
       </Link>
     )
