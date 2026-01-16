@@ -18,8 +18,8 @@ export default function MagneticPointer() {
         className={styles.glass}
         ref={glassRef}
         style={{
-          backdropFilter: `url(#${filterId}) blur(8px) brightness(1.1) saturate(1.2)`,
-          WebkitBackdropFilter: `url(#${filterId}) blur(8px) brightness(1.1) saturate(1.2)`,
+          backdropFilter: `url(#${filterId}) blur(2px) brightness(1.15) saturate(1.4)`,
+          WebkitBackdropFilter: `url(#${filterId}) blur(2px) brightness(1.15) saturate(1.4)`,
         }}
       >
         <motion.button className={styles.button} ref={ref} whileTap="pressed">
