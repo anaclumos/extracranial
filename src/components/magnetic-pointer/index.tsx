@@ -14,7 +14,12 @@ export default function MagneticPointer() {
       <div className={styles.glass}>
         <div className={styles.highlight} />
         <div className={styles.rimLight} />
-        <motion.button className={styles.button} ref={ref} whileTap="pressed">
+        <motion.button
+          aria-label="Go back to appearance settings"
+          className={styles.button}
+          ref={ref}
+          whileTap="pressed"
+        >
           <motion.span style={pull} variants={{ pressed: { scale: 0.95 } }}>
             <Chevron />
             Appearance

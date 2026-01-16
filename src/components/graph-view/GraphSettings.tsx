@@ -56,6 +56,17 @@ export default function GraphSettings({
     <div className={styles.settingsWrapper}>
       <div className={styles.settingsButtons}>
         <button
+          aria-label={
+            isTimelapseRunning
+              ? translate({
+                  id: 'graph.settings.timelapse.stop.label',
+                  message: 'Stop timelapse',
+                })
+              : translate({
+                  id: 'graph.settings.timelapse.start.label',
+                  message: 'Start timelapse',
+                })
+          }
           className={styles.settingsButton}
           onClick={isTimelapseRunning ? onStopTimelapse : onStartTimelapse}
           title={
@@ -99,6 +110,11 @@ export default function GraphSettings({
           )}
         </button>
         <button
+          aria-expanded={isOpen}
+          aria-label={translate({
+            id: 'graph.settings.button.label',
+            message: 'Graph settings',
+          })}
           className={styles.settingsButton}
           data-active={isOpen}
           onClick={() => setIsOpen(!isOpen)}

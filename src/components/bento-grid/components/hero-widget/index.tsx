@@ -33,8 +33,8 @@ function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
         width={24}
       />
       {isActive && (
-        <span className={styles.inlineOrgPopover} role="tooltip">
-          <span className={styles.inlineOrgPopoverArrow} />
+        <span className={styles.inlineOrgPopover} role="status">
+          <span aria-hidden="true" className={styles.inlineOrgPopoverArrow} />
           {name}
         </span>
       )}

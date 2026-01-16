@@ -2,7 +2,7 @@
 
 import { translate } from '@docusaurus/Translate'
 import { useSigma } from '@react-sigma/core'
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useId, useMemo, useRef, useState } from 'react'
 import styles from './styles.module.css'
 
 interface GraphSearchProps {
@@ -13,6 +13,9 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
   const sigma = useSigma()
   const [query, setQuery] = useState('')
   const [isOpen, setIsOpen] = useState(false)
+  const [activeIndex, setActiveIndex] = useState(-1)
+  const listboxId = useId()
+  const resultsRef = useRef<HTMLDivElement>(null)
 
   const results = useMemo(() => {
     if (!query.trim() || query.length < 2) {
@@ -44,6 +47,7 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
       onSelect(nodeId)
       setQuery('')
       setIsOpen(false)
+      setActiveIndex(-1)
 
       const nodePosition = sigma.getNodeDisplayData(nodeId)
       if (nodePosition) {
@@ -62,29 +66,67 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
     (e: React.ChangeEvent<HTMLInputElement>) => {
       setQuery(e.target.value)
       setIsOpen(true)
+      setActiveIndex(-1)
     },
     []
   )
 
   const handleKeyDown = useCallback(
     (e: React.KeyboardEvent<HTMLInputElement>) => {
-      if (e.key === 'Enter' && results.length > 0) {
-        const firstResult = results[0]
-        if (firstResult) {
-          handleSelect(firstResult.id)
+      if (!isOpen || results.length === 0) {
+        if (e.key === 'Escape') {
+          setIsOpen(false)
+          setQuery('')
         }
+        return
       }
-      if (e.key === 'Escape') {
-        setIsOpen(false)
-        setQuery('')
+
+      switch (e.key) {
+        case 'ArrowDown':
+          e.preventDefault()
+          setActiveIndex((prev) =>
+            prev < results.length - 1 ? prev + 1 : prev
+          )
+          break
+        case 'ArrowUp':
+          e.preventDefault()
+          setActiveIndex((prev) => (prev > 0 ? prev - 1 : -1))
+          break
+        case 'Enter': {
+          e.preventDefault()
+          const selectedResult = results[activeIndex] ?? results[0]
+          if (selectedResult) {
+            handleSelect(selectedResult.id)
+          }
+          break
+        }
+        case 'Escape':
+          setIsOpen(false)
+          setQuery('')
+          setActiveIndex(-1)
+          break
+        default:
+          break
       }
     },
-    [results, handleSelect]
+    [isOpen, results, activeIndex, handleSelect]
   )
+
+  const getOptionId = (index: number) => `${listboxId}-option-${index}`
 
   return (
     <div className={styles.searchContainer}>
       <input
+        aria-activedescendant={
+          activeIndex >= 0 ? getOptionId(activeIndex) : undefined
+        }
+        aria-autocomplete="list"
+        aria-controls={isOpen && results.length > 0 ? listboxId : undefined}
+        aria-expanded={isOpen && results.length > 0}
+        aria-label={translate({
+          id: 'graph.search.label',
+          message: 'Search notes',
+        })}
         className={styles.searchInput}
         onChange={handleInputChange}
         onFocus={() => setIsOpen(true)}
@@ -93,6 +135,7 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
           id: 'graph.search.placeholder',
           message: 'Search notes...',
         })}
+        role="combobox"
         title={translate({
           id: 'graph.search.title',
           message: 'Search for notes by name and navigate to them',
@@ -101,19 +144,33 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
         value={query}
       />
       {isOpen && results.length > 0 && (
-        <ul className={styles.searchResults}>
-          {results.map((result) => (
-            <li key={result.id}>
-              <button
-                className={styles.searchResultItem}
-                onClick={() => handleSelect(result.id)}
-                type="button"
-              >
-                {result.label}
-              </button>
-            </li>
+        <div
+          aria-label={translate({
+            id: 'graph.search.results.label',
+            message: 'Search results',
+          })}
+          className={styles.searchResults}
+          id={listboxId}
+          ref={resultsRef}
+          role="listbox"
+        >
+          {results.map((result, index) => (
+            <button
+              aria-selected={index === activeIndex}
+              className={styles.searchResultItem}
+              data-active={index === activeIndex}
+              id={getOptionId(index)}
+              key={result.id}
+              onClick={() => handleSelect(result.id)}
+              onMouseEnter={() => setActiveIndex(index)}
+              role="option"
+              tabIndex={-1}
+              type="button"
+            >
+              {result.label}
+            </button>
           ))}
-        </ul>
+        </div>
       )}
     </div>
   )

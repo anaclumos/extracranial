@@ -1,3 +1,4 @@
+import { translate } from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
 import { useEffect, useRef } from 'react'
@@ -70,9 +71,16 @@ export default function MapWidget({ className }: { className?: string }) {
 
   return (
     <BentoWidget className={cn(className, styles.mapWidget)}>
-      <div className={styles.mapWrapper}>
+      <div
+        aria-label={translate({
+          id: 'bento.map.label',
+          message: 'Map showing location near Gangnam Station, Seoul',
+        })}
+        className={styles.mapWrapper}
+        role="img"
+      >
         <div className={styles.mapImage} ref={mapRef} />
-        <span className={styles.mapPulse} />
+        <span aria-hidden="true" className={styles.mapPulse} />
       </div>
     </BentoWidget>
   )
