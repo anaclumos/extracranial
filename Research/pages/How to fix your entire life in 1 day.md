@@ -3,7 +3,7 @@ lang: 'en'
 slug: '/98FA2B'
 ---
 
-[[How to fix your entire life in 1 day]] by [DAN KOE](https://x.com/thedankoe)
+By [DAN KOE](https://x.com/thedankoe)
 
 ![[Pasted image 20260115130142.png]]
 
