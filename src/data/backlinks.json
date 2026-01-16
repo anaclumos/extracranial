@@ -5811,6 +5811,7 @@
   "CSS": {
     "2023-01-23": "... seems like [[Wikipedia]] updated its [[CSS]]...",
     "2026-01-10": "- [[Color Palette]] [[CSS]]",
+    "2026-01-16": "... Pointer에 liquid glass 스타일을 추가하고 [[CSS]]로 글래스 쉘을 구성함.",
     "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
     "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
     "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
@@ -9089,8 +9090,7 @@
   },
   "How to fix your entire life in 1 day": {
     "2026-01-15": "- [[How to fix your entire life in 1 day]]",
-    "2026-01-16": "- [[How to fix your entire life in 1 day]]",
-    "How to fix your entire life in 1 day": "[[How to fix your entire life in 1 day]] by [DAN KOE](https://x.com/thedankoe)"
+    "2026-01-16": "- [[How to fix your entire life in 1 day]]"
   },
   "Hugging Face": {},
   "Humane Ai Pin": {
@@ -12918,6 +12918,7 @@
   },
   "SVG": {
     "2023-12-13": "- [[SVG]]",
+    "2026-01-16": "- [[SVG]] 필터 기반 [[Shader]] 변위를 적용해 ...",
     "CSS": "... (including XML dialects such as [[SVG]], MathML, or XHTML). CSS is ...",
     "Open Graph Image as a Service": "... convert [[HTML]] and [[CSS]] to [[SVG]]",
     "Show me your Laptop": "[[Old Someday]] [[Project]]. And embeddable [[SVG]] card that lets you add ...",
@@ -13180,6 +13181,7 @@
     "2024-10-14": "- [[Shadcn Skeleton Random Delay]]"
   },
   "Shader": {
+    "2026-01-16": "- [[SVG]] 필터 기반 [[Shader]] 변위를 적용해 Magnetic Pointer에 liquid ...",
     "HLSL": "- High-Level [[Shader]] Language.",
     "Use Apple GPU on PyTorch": "... [[Apple]] [[GPU]] Acceleration ([[Metal]] Performance [[Shader]]) on [[PyTorch]]"
   },
@@ -17788,9 +17790,6 @@
     "2024-01-30": "- [[하늘땅사람 지원 문서]]",
     "하늘땅사람": "- [[하늘땅사람 지원 문서]]",
     "하늘땅사람 개발 기록": "- [[하늘땅사람 지원 문서]]"
-  },
-  "하루 만에 인생 전체를 고치는 법": {
-    "하루만에 삶을 바꾸는 방법": "[[하루 만에 인생 전체를 고치는 법]] — [DAN KOE](https://x.com/thedankoe)"
   },
   "하루만에 삶을 바꾸는 방법": {
     "2026-01-15": "- [[하루만에 삶을 바꾸는 방법]]",

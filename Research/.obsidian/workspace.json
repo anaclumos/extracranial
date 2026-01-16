@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "843b6ec1cf06310b",
+        "id": "ff173c160daa34e7",
         "type": "tabs",
         "children": [
           {
-            "id": "b77b622e72e3ca50",
+            "id": "4ee52d7fa4d986e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/하루만에 삶을 바꾸는 방법.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "하루만에 삶을 바꾸는 방법"
+              "title": "New tab"
             }
           }
         ]
@@ -185,10 +171,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b77b622e72e3ca50",
+  "active": "4ee52d7fa4d986e6",
   "lastOpenFiles": [
-    "pages/How to fix your entire life in 1 day.md",
     "pages/하루만에 삶을 바꾸는 방법.md",
+    "pages/How to fix your entire life in 1 day.md",
     "journals/2026-01-16.md",
     "journals/2026-01-15.md",
     "assets/Pasted image 20260115130405.png",
