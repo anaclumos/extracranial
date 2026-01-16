@@ -60,7 +60,6 @@ function LiquidGlassFilter({ filterId, targetRef }: LiquidGlassFilterProps) {
   const filterRef = useRef<SVGFilterElement>(null)
   const feImageRef = useRef<SVGFEImageElement>(null)
   const feDisplacementRef = useRef<SVGFEDisplacementMapElement>(null)
-  const canvasRef = useRef<HTMLCanvasElement | null>(null)
 
   useEffect(() => {
     const element = targetRef.current
@@ -73,8 +72,6 @@ function LiquidGlassFilter({ filterId, targetRef }: LiquidGlassFilterProps) {
     if (!context) {
       return
     }
-
-    canvasRef.current = canvas
 
     const smoothStep = (a: number, b: number, t: number) => {
       const clamped = Math.max(0, Math.min(1, (t - a) / (b - a)))
