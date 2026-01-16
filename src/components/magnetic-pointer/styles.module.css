@@ -2,6 +2,17 @@
   position: relative;
 }
 
+.glass {
+  border-radius: 999px;
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.18),
+    inset 0 0 24px rgba(255, 255, 255, 0.35);
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button {
   background: none;
   padding: 8px;
@@ -26,5 +37,13 @@
 }
 
 .cursor {
+  pointer-events: none;
+}
+
+.filter {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
   pointer-events: none;
 }
