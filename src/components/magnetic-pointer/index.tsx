@@ -36,10 +36,10 @@ export default function MagneticPointer() {
         }}
         variants={{
           default: {
-            backgroundColor: zone === 'overlay' ? '#eee' : '#7e7e7e',
+            backgroundColor: zone === 'overlay' ? '#eee' : '#333',
           },
           pointer: {
-            backgroundColor: zone === 'overlay' ? '#fff' : '#ddd',
+            backgroundColor: zone === 'overlay' ? '#fff' : '#666',
           },
         }}
       />
