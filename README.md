@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Sat Jan 17 17:46:18 KST 2026
+Sat Jan 17 18:17:35 KST 2026
 
 ## Stats
 
@@ -33,22 +33,22 @@ Language                 Files     Lines   Blanks  Comments     Code Complexity
 Markdown                  3100     80839    21922         0    58917          0
 TypeScript                  66      5440      570        43     4827        511
 JSON                        43     24864        0         0    24864          0
-CSS                         36      3383      490        14     2879          0
+CSS                         36      3380      490        11     2879          0
 SVG                         16       111        0        12       99          0
 YAML                         6        35        0         0       35          0
 TypeScript Typings           2        55        6         4       45          0
 INI                          1         1        0         0        1          0
-JSONC                        1        31        0         0       31          0
+JSONC                        1        43        0         0       43          0
 JavaScript                   1      1130        1      1018      111         21
 Plain Text                   1         3        0         0        3          0
 TOML                         1         2        0         0        2          0
 ───────────────────────────────────────────────────────────────────────────────
-Total                     3274    115894    22989      1091    91814        532
+Total                     3274    115903    22989      1088    91826        532
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,109,207
+Estimated Cost to Develop (organic) $3,109,633
 Estimated Schedule Effort (organic) 21.17 months
 Estimated People Required (organic) 13.05
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5935682 bytes, 5.936 megabytes (SI)
+Processed 5935866 bytes, 5.936 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```
