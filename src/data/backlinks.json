@@ -1,4 +1,235 @@
 {
+  "1": {
+    "Coscientist Stack": "... entities and edges represent typed relationships**[[1]](https://shilpathota.medium.com/understanding-knowledge-graphs-for-agentic-ai-7162d018387b). Making every content piece a ..."
+  },
+  "2": {
+    "Coscientist Stack": "... of nodes and an edges table[[2]](https://shilpathota.medium.com/understanding-knowledge-graphs-for-agentic-ai-7162d018387b%23:~:text=,offs) without needing a separate DB."
+  },
+  "3": {
+    "Coscientist Stack": "... similar to ProseMirror's linear version counter[[3]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=changes%2520in%2520a%2520different%2520order,will%2520produce%2520the%2520same%2520document). This version is essentially the ..."
+  },
+  "4": {
+    "Coscientist Stack": "... to the server as a snapshot[[4]](https://github.com/get-convex/prosemirror-sync%23:~:text=*%2520Server,side,%2520enabling%2520easy%2520AI%2520interoperation)[[5]](https://github.com/get-convex/prosemirror-sync%23:~:text=const%2520prosemirrorSync%2520=%2520new%2520ProsemirrorSync\\(components,//). This means we snapshot only ..."
+  },
+  "5": {
+    "Coscientist Stack": "... to the server as a snapshot[[4]](https://github.com/get-convex/prosemirror-sync%23:~:text=*%2520Server,side,%2520enabling%2520easy%2520AI%2520interoperation)[[5]](https://github.com/get-convex/prosemirror-sync%23:~:text=const%2520prosemirrorSync%2520=%2520new%2520ProsemirrorSync\\(components,//). This means we snapshot only ..."
+  },
+  "6": {
+    "Coscientist Stack": "... a long chain of old steps[[6]](https://github.com/get-convex/prosemirror-sync%23:~:text=Configuring%2520the%2520snapshot%2520debounce%2520interval)."
+  },
+  "7": {
+    "Coscientist Stack": "... API for deleting old snapshots/steps safely[[7]](https://github.com/get-convex/prosemirror-sync%23:~:text=*%2520Server,for%2520old%2520snapshots%2520&%2520steps), which we will leverage or ..."
+  },
+  "8": {
+    "Coscientist Stack": "... linear history as ProseMirror's algorithm expects[[8]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=Like%2520OT,%2520ProseMirror%2520uses%2520a,will%2520produce%2520the%2520same%2520document). If we only saved infrequent ..."
+  },
+  "9": {
+    "Coscientist Stack": "... into one commit on the backend[[9]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=The%2520gist%2520is%2520that%2520we,them%2520back%2520to%2520the%2520clients). We plan to **batch consecutive ..."
+  },
+  "10": {
+    "Coscientist Stack": "... and step handling with a debounce[[10]](https://github.com/get-convex/prosemirror-sync%23:~:text=,side,%2520enabling%2520easy%2520AI%2520interoperation)[[11]](https://github.com/get-convex/prosemirror-sync%23:~:text=Configuring%2520the%2520snapshot%2520debounce%2520interval). By following this model, we ..."
+  },
+  "11": {
+    "Coscientist Stack": "... and step handling with a debounce[[10]](https://github.com/get-convex/prosemirror-sync%23:~:text=,side,%2520enabling%2520easy%2520AI%2520interoperation)[[11]](https://github.com/get-convex/prosemirror-sync%23:~:text=Configuring%2520the%2520snapshot%2520debounce%2520interval). By following this model, we ..."
+  },
+  "12": {
+    "Coscientist Stack": "... and simpler given a centralized server[[12]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=The%2520design%2520decisions%2520that%2520make,be%2520interesting%2520to%2520work%2520on). We do note CRDT as ..."
+  },
+  "13": {
+    "Coscientist Stack": "... support divergent branches in real-time collab)[[13]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=changes%2520on%2520top%2520of%2520them,,before%2520retrying%2520the%2520push)."
+  },
+  "14": {
+    "Coscientist Stack": "... a Yjs-specific Convex component if available[[14]](https://github.com/get-convex/prosemirror-sync%23:~:text=,and%2520doesn't%2520have%2520local%2520changes). This would let multiple servers ..."
+  },
+  "15": {
+    "Coscientist Stack": "... someone else's edit got in first)[[15]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=During%2520sessions%2520with%2520a%2520high,and%2520the%2520client%2520backlogs%2520clear). The protocol design must balance ..."
+  },
+  "16": {
+    "Coscientist Stack": "... top of the latest document state[[16]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=By%2520using%2520a%2520central%2520server,,them,%2520before%2520retrying%2520the%2520push). After rebasing locally (which uses ..."
+  },
+  "17": {
+    "Coscientist Stack": "... the step to the new content[[17]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=Position%2520Mapping)), the client resends the step. ..."
+  },
+  "18": {
+    "Coscientist Stack": "... one batch to the server periodically[[18]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=ProseMirror,at%2520which%2520point%2520they%2520must). We will ensure this is ..."
+  },
+  "19": {
+    "Coscientist Stack": "... offset) to account for A's insert[[19]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=1,front%2520of%2520the%2520change's%2520offset)[[17]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=Position%2520Mapping). This ensures consistency."
+  },
+  "20": {
+    "Coscientist Stack": "... easy to implement and reason about\"[[20]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=But%2520you%2520can%2520save%2520oh,their%2520Google%2520Docs%25E2%2580%2594a%2520centralized%2520system). We have a single server ..."
+  },
+  "21": {
+    "Coscientist Stack": "... client retries and thereby improve throughput[[21]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=There%2520are%2520a%2520number%2520of,a%2520lot%2520of%2520extra%2520complexity)[[22]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=Can%2520we%2520eliminate%2520the%2520need,work%2520closer%2520to%2520the%2520database). This rationale is to improve ..."
+  },
+  "22": {
+    "Coscientist Stack": "... client retries and thereby improve throughput[[21]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=There%2520are%2520a%2520number%2520of,a%2520lot%2520of%2520extra%2520complexity)[[22]](https://stepwisehq.com/blog/2023-07-25-prosemirror-collab-performance/%23:~:text=Can%2520we%2520eliminate%2520the%2520need,work%2520closer%2520to%2520the%2520database). This rationale is to improve ..."
+  },
+  "23": {
+    "Coscientist Stack": "... with its **WebSocket reactivity and caching**[[23]](https://stack.convex.dev/presence-with-convex%23:~:text=Convex%2520helped%2520make%2520this%2520much,WebSocket%2520reactivity%2520and%2520caching%2520scalability)[[24]](https://stack.convex.dev/presence-with-convex%23:~:text=Caching). We will monitor performance, and ..."
+  },
+  "24": {
+    "Coscientist Stack": "... with its **WebSocket reactivity and caching**[[23]](https://stack.convex.dev/presence-with-convex%23:~:text=Convex%2520helped%2520make%2520this%2520much,WebSocket%2520reactivity%2520and%2520caching%2520scalability)[[24]](https://stack.convex.dev/presence-with-convex%23:~:text=Caching). We will monitor performance, and ..."
+  },
+  "25": {
+    "Coscientist Stack": "... concurrency (only last editor triggers snapshot)[[11]](https://github.com/get-convex/prosemirror-sync%23:~:text=Configuring%2520the%2520snapshot%2520debounce%2520interval)[[25]](https://github.com/get-convex/prosemirror-sync%23:~:text=There%2520can%2520be%2520races,%2520but,and%2520are%2520safe%2520to%2520apply). We need to ensure our ..."
+  },
+  "26": {
+    "Coscientist Stack": "... consistent ordering of operations across sites[[26]](https://marijnhaverbeke.nl/blog/collaborative-editing.html%23:~:text=And%2520I%2520don't%2520actually%2520believe,have%2520not%2520actually%2520tried%2520this). For example, a primary Convex ..."
+  },
+  "27": {
+    "Coscientist Stack": "... ability to treat different connections appropriately[[27]](https://shilpathota.medium.com/understanding-knowledge-graphs-for-agentic-ai-7162d018387b%23:~:text=,specific%2520information). Knowledge graphs benefit from **rich ..."
+  },
+  "28": {
+    "Coscientist Stack": "... centrality once a graph is built[[28]](https://shilpathota.medium.com/understanding-knowledge-graphs-for-agentic-ai-7162d018387b%23:~:text=We%2520have%2520directed%2520graphs%2520where,the%2520shortest%2520routes%2520between%2520nodes), which could be interesting for ..."
+  },
+  "29": {
+    "Coscientist Stack": "... creating download URLs with access checks[[29]](https://www.convex.dev/components/files-control%23:~:text=Convex%2520Files%2520Control)[[30]](https://www.convex.dev/components/files-control%23:~:text=*%2520Two,for%2520presigned%2520or%2520HTTP%2520uploads)."
+  },
+  "30": {
+    "Coscientist Stack": "... creating download URLs with access checks[[29]](https://www.convex.dev/components/files-control%23:~:text=Convex%2520Files%2520Control)[[30]](https://www.convex.dev/components/files-control%23:~:text=*%2520Two,for%2520presigned%2520or%2520HTTP%2520uploads)."
+  },
+  "31": {
+    "Coscientist Stack": "... one-time **pre-signed URL** and an uploadToken[[31]](https://www.convex.dev/components/files-control%23:~:text=//%2520Client,)."
+  },
+  "32": {
+    "Coscientist Stack": "... Convex returns a storageId if successful[[32]](https://www.convex.dev/components/files-control%23:~:text=const%2520,json)."
+  },
+  "33": {
+    "Coscientist Stack": "... and storageId to confirm the upload[[33]](https://www.convex.dev/components/files-control%23:~:text=const%2520result%2520=%2520await%2520finalizeUpload\\(,1000,). In our wrapper, at this ..."
+  },
+  "34": {
+    "Coscientist Stack": "... uploader's user ID is given access[[34]](https://www.convex.dev/components/files-control%23:~:text=const%2520,). The Files Control component handles ..."
+  },
+  "35": {
+    "Coscientist Stack": "... access key on the file record[[35]](https://www.convex.dev/components/files-control%23:~:text=const%2520result%2520=%2520await%2520ctx,)."
+  },
+  "36": {
+    "Coscientist Stack": "... will likely enable the download route[[36]](https://www.convex.dev/components/files-control%23:~:text=A%2520Convex%2520component%2520for%2520secure,plus%2520a%2520React%2520upload%2520hook)[[37]](https://www.convex.dev/components/files-control%23:~:text=//%2520convex/http.ts%2520import%2520,generated/api) and use Convex's built-in auth ..."
+  },
+  "37": {
+    "Coscientist Stack": "... will likely enable the download route[[36]](https://www.convex.dev/components/files-control%23:~:text=A%2520Convex%2520component%2520for%2520secure,plus%2520a%2520React%2520upload%2520hook)[[37]](https://www.convex.dev/components/files-control%23:~:text=//%2520convex/http.ts%2520import%2520,generated/api) and use Convex's built-in auth ..."
+  },
+  "38": {
+    "Coscientist Stack": "... to ensure only authorized requests succeed[[38]](https://www.convex.dev/components/files-control%23:~:text=checkUploadRequest:%2520async%2520\\(ctx\\)%2520=,Type%2522:%2520%2522application/json%2522%2520%257D,%2520%257D\\);)[[39]](https://www.convex.dev/components/files-control%23:~:text=//%2520Optional:%2520provide%2520accessKey%2520for,)."
+  },
+  "39": {
+    "Coscientist Stack": "... to ensure only authorized requests succeed[[38]](https://www.convex.dev/components/files-control%23:~:text=checkUploadRequest:%2520async%2520\\(ctx\\)%2520=,Type%2522:%2520%2522application/json%2522%2520%257D,%2520%257D\\);)[[39]](https://www.convex.dev/components/files-control%23:~:text=//%2520Optional:%2520provide%2520accessKey%2520for,)."
+  },
+  "40": {
+    "Coscientist Stack": "... to create time-limited URLs on demand[[40]](https://www.convex.dev/components/files-control%23:~:text=import%2520,control). For example, when displaying an ..."
+  },
+  "41": {
+    "Coscientist Stack": "... won't work without being logged in)[[41]](https://www.convex.dev/components/files-control%23:~:text=)."
+  },
+  "42": {
+    "Coscientist Stack": "... remove access keys for a file[[42]](https://www.convex.dev/components/files-control%23:~:text=Access%2520keys%2520are%2520normalized%2520,empty%2520value). We will integrate this with ..."
+  },
+  "43": {
+    "Coscientist Stack": "... hasAccessKey check can verify they're allowed[[43]](https://www.convex.dev/components/files-control%23:~:text=Access%2520keys%2520are%2520normalized%2520,empty%2520value)."
+  },
+  "44": {
+    "Coscientist Stack": "... expired files and unused upload tokens[[44]](https://www.convex.dev/components/files-control%23:~:text=Cleanup). We will schedule this (the ..."
+  },
+  "45": {
+    "Coscientist Stack": "... to clean expired uploads and grants)[[45]](https://www.convex.dev/components/files-control%23:~:text=Use%2520,it%2520in%2520a%2520cron%2520job). We'll ensure to set appropriate ..."
+  },
+  "46": {
+    "Coscientist Stack": "... your own file record after finalizeUpload[[46]](https://www.convex.dev/components/files-control%23:~:text=). We'll do that: e.g., create ..."
+  },
+  "47": {
+    "Coscientist Stack": "... on file URLs, preventing unauthorized downloads[[36]](https://www.convex.dev/components/files-control%23:~:text=A%2520Convex%2520component%2520for%2520secure,plus%2520a%2520React%2520upload%2520hook)[[47]](https://www.convex.dev/components/files-control%23:~:text=Access%2520keys%2520are%2520not%2520placed,consumeDownloadGrantForUrl). It generates one-time tokens and ..."
+  },
+  "48": {
+    "Coscientist Stack": "... via the provided API if needed[[48]](https://www.convex.dev/components/files-control%23:~:text=Set%2520,to%2520return%2520an%2520access%2520key)[[49]](https://www.convex.dev/components/files-control%23:~:text=const%2520grant%2520=%2520await%2520ctx,passphrase%2522%2520%257D,). - **Development Speed:** It's much ..."
+  },
+  "49": {
+    "Coscientist Stack": "... via the provided API if needed[[48]](https://www.convex.dev/components/files-control%23:~:text=Set%2520,to%2520return%2520an%2520access%2520key)[[49]](https://www.convex.dev/components/files-control%23:~:text=const%2520grant%2520=%2520await%2520ctx,passphrase%2522%2520%257D,). - **Development Speed:** It's much ..."
+  },
+  "50": {
+    "Coscientist Stack": "... upload which simplifies the frontend integration[[50]](https://www.convex.dev/components/files-control%23:~:text=React%2520hook)[[51]](https://www.convex.dev/components/files-control%23:~:text=//%2520Presigned%2520await%2520uploadFile\\(,). - **Consistency with Convex:** By ..."
+  },
+  "51": {
+    "Coscientist Stack": "... upload which simplifies the frontend integration[[50]](https://www.convex.dev/components/files-control%23:~:text=React%2520hook)[[51]](https://www.convex.dev/components/files-control%23:~:text=//%2520Presigned%2520await%2520uploadFile\\(,). - **Consistency with Convex:** By ..."
+  },
+  "52": {
+    "Coscientist Stack": "... upload, secure download, access key management[[36]](https://www.convex.dev/components/files-control%23:~:text=A%2520Convex%2520component%2520for%2520secure,plus%2520a%2520React%2520upload%2520hook)[[52]](https://www.convex.dev/components/files-control%23:~:text=Access%2520control%2520&%2520queries). Adopting it follows the \"convention\" ..."
+  },
+  "53": {
+    "Coscientist Stack": "... the user's identity.subject (unique user ID)[[53]](https://www.convex.dev/components/files-control%23:~:text=handler:%2520async%2520\\(ctx,%2520args\\)%2520=,Unauthorized)[[54]](https://www.convex.dev/components/files-control%23:~:text=,Unauthorized). We must ensure every file ..."
+  },
+  "54": {
+    "Coscientist Stack": "... the user's identity.subject (unique user ID)[[53]](https://www.convex.dev/components/files-control%23:~:text=handler:%2520async%2520\\(ctx,%2520args\\)%2520=,Unauthorized)[[54]](https://www.convex.dev/components/files-control%23:~:text=,Unauthorized). We must ensure every file ..."
+  },
+  "55": {
+    "Coscientist Stack": "... specifying a filename param for content-disposition[[55]](https://www.convex.dev/components/files-control%23:~:text=)). We should do that so ..."
+  },
+  "56": {
+    "Coscientist Stack": "... as keys, not just user IDs[[56]](https://www.convex.dev/components/files-control%23:~:text=Access%2520keys%2520are%2520normalized%2520,empty%2520value)). For now, user IDs suffice."
+  },
+  "57": {
+    "Coscientist Stack": "... the file as accessible without auth)[[57]](https://www.convex.dev/components/files-control%23:~:text=Shareable%2520links). We would use shareableLink: true ..."
+  },
+  "58": {
+    "Coscientist Stack": "... automatically become visible after a timestamp[[58]](https://jumpcloud.com/it-index/what-is-time-based-access-control%23:~:text=Time,based%2520on%2520predefined%2520time%2520constraints)."
+  },
+  "59": {
+    "Coscientist Stack": "... can do hourly or daily checks[[59]](https://www.convex.dev/components/files-control%23:~:text=import%2520,generated/api), but not sure about to-the-minute ..."
+  },
+  "60": {
+    "Coscientist Stack": "... Control handles expiry for download grants[[60]](https://www.convex.dev/components/files-control%23:~:text=storageId,%2520maxUses:%25201,%2520expiresAt:%2520Date,)."
+  },
+  "61": {
+    "Coscientist Stack": "... sense of collaboration and social connection[[61]](https://stack.convex.dev/presence-with-convex%23:~:text=Presence,%2520as%2520we%25E2%2580%2599ll%2520use%2520the,in%2520a%2520Google%2520Doc,%2520etc). Features typically include: a list ..."
+  },
+  "62": {
+    "Coscientist Stack": "... to signal they are still present[[62]](https://stack.convex.dev/presence-with-convex%23:~:text=A%2520common%2520way%2520to%2520detect,resources%2520your%2520app%2520will%2520consume). We can optimize by piggybacking ..."
+  },
+  "63": {
+    "Coscientist Stack": "... updates whenever any presence record changes[[63]](https://stack.convex.dev/presence-with-convex%23:~:text=Reactivity). This means when someone new ..."
+  },
+  "64": {
+    "Coscientist Stack": "... is complex** because of concurrent edits[[64]](https://stack.convex.dev/presence-with-convex%23:~:text=Text%2520cursors%2520are%2520an%2520important,it%2520at%2520that%2520for%2520now). We may limit exact cursors ..."
+  },
+  "65": {
+    "Coscientist Stack": "... move in DB due to choppiness[[65]](https://stack.convex.dev/presence-with-convex%23:~:text=For%2520mouse%2520cursors,%2520the%2520challenge,where%2520the%2520cursor%2520is%2520moving) and ephemeral nature[[66]](https://stack.convex.dev/presence-with-convex%23:~:text=Sharing%2520mouse%2520cursor%2520positions%2520are,the%2520data%2520is%2520especially%2520ephemeral)."
+  },
+  "66": {
+    "Coscientist Stack": "... due to choppiness[[65]](https://stack.convex.dev/presence-with-convex%23:~:text=For%2520mouse%2520cursors,%2520the%2520challenge,where%2520the%2520cursor%2520is%2520moving) and ephemeral nature[[66]](https://stack.convex.dev/presence-with-convex%23:~:text=Sharing%2520mouse%2520cursor%2520positions%2520are,the%2520data%2520is%2520especially%2520ephemeral)."
+  },
+  "67": {
+    "Coscientist Stack": "... by join time to avoid shuffling)[[67]](https://stack.convex.dev/presence-with-convex%23:~:text=A%2520%25E2%2580%259Cfacepile%25E2%2580%259D%2520is%2520a%2520popular,in%2520mind%2520when%2520building%2520them). Each user in presence can ..."
+  },
+  "68": {
+    "Coscientist Stack": "... if one is already in flight)[[68]](https://stack.convex.dev/presence-with-convex%23:~:text=Presence%2520performance) to manage load. We can ..."
+  },
+  "69": {
+    "Coscientist Stack": "... you might overwrite each other blindly[[69]](https://stack.convex.dev/presence-with-convex%23:~:text=someone%2520is%2520composing%2520a%2520message,in%2520a%2520Google%2520Doc,%2520etc). It turns a static wiki ..."
+  },
+  "70": {
+    "Coscientist Stack": "... influenced by Convex's own example utilities[[70]](https://stack.convex.dev/presence-with-convex%23:~:text=To%2520make%2520it%2520easy%2520to,in%2520rooms%2520they%25E2%2580%2599re%2520allowed%2520in). They even provided a hook ..."
+  },
+  "71": {
+    "Coscientist Stack": "... and merging state per user easily[[71]](https://stack.convex.dev/presence-with-convex%23:~:text=The%2520main%2520difference%2520is%2520that,will%2520have%2520the%2520latest%2520values). That pattern ensures that, for ..."
+  },
+  "72": {
+    "Coscientist Stack": "... the app in sync in realtime[[72]](https://vercel.com/docs/integrations%23:~:text=Convex), which is one of the ..."
+  },
+  "73": {
+    "Coscientist Stack": "... multi-agent workflow) that Vercel is promoting[[73]](https://vercel.com/docs/ai-gateway/framework-integrations/mastra%23:~:text=Mastra%2520is%2520a%2520framework%2520for,model%2520management%2520and%2520routing%2520capabilities). In the future, we plan ..."
+  },
+  "74": {
+    "Coscientist Stack": "... suggests an orchestrator for multi-step tasks[[74]](https://stack.convex.dev/presence-with-convex%23:~:text=AI%2520Agents%2520with%2520Built). For example, if we integrate ..."
+  },
+  "75": {
+    "Coscientist Stack": "... reliable. Mastra being a Vercel-integrated framework[[75]](https://vercel.com/docs/ai-sdk%23:~:text=AI%2520SDK%2520,servers%2520%25C2%25B7%2520Vercel%2520MCP) means it likely runs on ..."
+  },
+  "76": {
+    "Coscientist Stack": "... mention of vector search in marketing[[76]](https://stack.convex.dev/presence-with-convex%23:~:text=Build%2520in%2520minutes,%2520scale%2520forever))."
+  },
+  "77": {
+    "Coscientist Stack": "... components e.g. an AI memory component[[77]](https://stack.convex.dev/presence-with-convex%23:~:text=Deployment), vector search, etc.). Only if ..."
+  },
   " -f bun.lockb ": {
     "supernpm": "...  if [[ -f bun.lockb ]]; then"
   },
@@ -1975,6 +2206,7 @@
   "2026-01-14": {},
   "2026-01-15": {},
   "2026-01-16": {},
+  "2026-01-17": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -5216,6 +5448,9 @@
     "Project Sillok": "- [[Better Aldehyde]]",
     "블록 기반 링킹": "[[Better Aldehyde]]"
   },
+  "Better Auth Organizational Schema": {
+    "2026-01-17": "- [[Better Auth Organizational Schema]]"
+  },
   "Better Docusaurus": {
     "2022-07-11": "- [[Better Docusaurus]]",
     "2022-07-12": "- [[Better Docusaurus]]",
@@ -6411,7 +6646,11 @@
     "2025-06-03": "- [[Coroutine]]"
   },
   "Coscientist": {
-    "2025-05-29": "- [[Coscientist]]"
+    "2025-05-29": "- [[Coscientist]]",
+    "2026-01-17": "- [[Coscientist]]"
+  },
+  "Coscientist Stack": {
+    "2026-01-17": "- [[Coscientist Stack]]"
   },
   "Cosmic noises of life": {
     "2022-10-12": "- [[Cosmic noises of life]]"
@@ -9107,7 +9346,8 @@
     "2025-09-01": "- [[Hypany]]",
     "2026-01-11": "- [[Hypany]]",
     "Inquiry for Hypany Template": "I am building [[Hypany]], an open-source tool for validating ...",
-    "Project": "- [[Hypany]]"
+    "Project": "- [[Hypany]]",
+    "elevatorpitch.com": "[[Hypany]]"
   },
   "Hypany Interview with Dohu": {
     "2025-09-01": "- [[Hypany Interview with Dohu]]",
@@ -13189,6 +13429,9 @@
     "2022-06-26": "- Let's not explore [[ShadowRealm]] and `iframe` [[Sandbox]] for now.",
     "Realm Shim": "... of the [Realm API Proposal](https://github.com/tc39/proposal-realms/#ecmascript-spec-proposal-for-realms-api) ([[ShadowRealm]])"
   },
+  "Shameless Plug": {
+    "2026-01-17": "- [[Shameless Plug]]"
+  },
   "SharedArrayBuffer": {
     "2022-06-22": "...  - [[WorkerDOM]] will harness [[SharedArrayBuffer]].",
     "2022-06-26": "- Explore [[SharedArrayBuffer]], Atomic, and [[WorkerDOM]]'s Binary [[DOM]] ...",
@@ -13405,6 +13648,7 @@
   "Someday": {
     "2025-02-26": "- [[Someday]]",
     "2025-06-20": "- [[Someday]]",
+    "2026-01-17": "- [[Someday]]",
     "Action Required SaaS": "[[Someday]] [[Project]]. It's a [[Newsletter]] but ...",
     "Aldehyde SaaS": "[[Someday]] [[Project]]. It's this [[Aldehyde]].",
     "Alter": "- [[Someday]] [[Project]]",

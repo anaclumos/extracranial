@@ -76,6 +76,17 @@ code {
   font-family: var(--font-family-monospace);
 }
 
+/* Text Selection Styling */
+::selection {
+  background-color: var(--primary-color-300);
+  color: var(--color-text-primary);
+}
+
+::-moz-selection {
+  background-color: var(--primary-color-300);
+  color: var(--color-text-primary);
+}
+
 @media screen and (width >= 62.25rem) {
   .navbar__inner {
     margin: 0 auto;
@@ -99,6 +110,16 @@ code {
 
 [data-theme="dark"] * {
   --ifm-background-color: #121212 !important;
+}
+
+[data-theme="dark"] ::selection {
+  background-color: var(--primary-color-700);
+  color: var(--color-text-primary);
+}
+
+[data-theme="dark"] ::-moz-selection {
+  background-color: var(--primary-color-700);
+  color: var(--color-text-primary);
 }
 
 .table-of-contents__link--active {
