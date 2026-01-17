@@ -15,12 +15,9 @@
   /* Outer edge shadow - very subtle */
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.06),
-    /* Depth shadow */
-    0 4px 12px rgba(0, 0, 0, 0.08),
-    /* Inner rim highlight - top */
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    /* Inner rim shadow - bottom */
-    inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+    /* Depth shadow */ 0 4px 12px rgba(0, 0, 0, 0.08),
+    /* Inner rim highlight - top */ inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    /* Inner rim shadow - bottom */ inset 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
 /* Main specular highlight - top reflection like light on water surface */
