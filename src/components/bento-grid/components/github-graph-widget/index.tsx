@@ -22,11 +22,17 @@ export default function GitHubGraphWidget({
   const [weeks, setWeeks] = useState<WidgetContributionWeek[]>([])
 
   useEffect(() => {
-    fetch(
-      `https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?y=last`
-    )
-      .then((res) => res.json())
-      .then((data: { contributions: ContributionDay[] }) => {
+    const controller = new AbortController()
+    const fetchContributions = async () => {
+      try {
+        const response = await fetch(
+          `https://github-contributions-api.jogruber.de/v4/${GITHUB_USERNAME}?y=last`,
+          { signal: controller.signal }
+        )
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`)
+        }
+        const data: { contributions: ContributionDay[] } = await response.json()
         const contributions = data.contributions.slice(-GITHUB_WEEKS * 7)
         const weekData: WidgetContributionWeek[] = []
 
@@ -47,8 +53,16 @@ export default function GitHubGraphWidget({
           weekData.push({ days: weekDays, weekTotal, id: weekId })
         }
         setWeeks(weekData)
-      })
-      .catch(() => setWeeks([]))
+      } catch (error) {
+        if (controller.signal.aborted) {
+          return
+        }
+        setWeeks([])
+      }
+    }
+
+    fetchContributions()
+    return () => controller.abort()
   }, [])
 
   return (

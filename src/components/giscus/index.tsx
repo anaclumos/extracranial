@@ -1,11 +1,13 @@
+import BrowserOnly from '@docusaurus/BrowserOnly'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
-import Giscus from '@giscus/react'
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 import styles from './styles.module.css'
 
 interface GiscusCommentsProps {
   term?: string
 }
+
+const Giscus = lazy(() => import('@giscus/react'))
 
 function getInitialTheme(): 'dark' | 'light' {
   if (typeof window === 'undefined') {
@@ -25,9 +27,13 @@ export default function GiscusComments({ term }: GiscusCommentsProps) {
   const [theme, setTheme] = useState<'dark' | 'light'>(getInitialTheme)
 
   useEffect(() => {
-    const currentTheme = document.documentElement.getAttribute('data-theme')
-    if (currentTheme) {
-      setTheme(currentTheme === 'dark' ? 'dark' : 'light')
+    const updateTheme = () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme')
+      if (!currentTheme) {
+        return
+      }
+      const nextTheme = currentTheme === 'dark' ? 'dark' : 'light'
+      setTheme((prev) => (prev === nextTheme ? prev : nextTheme))
     }
 
     const themeObserver = new MutationObserver((mutations) => {
@@ -36,12 +42,12 @@ export default function GiscusComments({ term }: GiscusCommentsProps) {
           mutation.type === 'attributes' &&
           mutation.attributeName === 'data-theme'
         ) {
-          const newTheme = document.documentElement.getAttribute('data-theme')
-          setTheme(newTheme === 'dark' ? 'dark' : 'light')
+          updateTheme()
         }
       }
     })
 
+    updateTheme()
     themeObserver.observe(document.documentElement, {
       attributes: true,
       attributeFilter: ['data-theme'],
@@ -50,24 +56,36 @@ export default function GiscusComments({ term }: GiscusCommentsProps) {
     return () => themeObserver.disconnect()
   }, [])
 
+  const fallback = (
+    <div aria-live="polite" className={styles.loading} role="status">
+      {'Loading comments\u2026'}
+    </div>
+  )
+
   return (
     <div className={styles.giscus}>
-      <Giscus
-        category="General"
-        categoryId="DIC_kwDOHh2XA84CPxJo"
-        emitMetadata="0"
-        id="comments"
-        inputPosition="top"
-        lang={i18n.currentLocale}
-        loading="lazy"
-        mapping={term ? 'specific' : 'pathname'}
-        reactionsEnabled="1"
-        repo="anaclumos/extracranial-comments"
-        repoId="R_kgDOHh2XAw"
-        strict="0"
-        term={term}
-        theme={theme}
-      />
+      <BrowserOnly fallback={fallback}>
+        {() => (
+          <Suspense fallback={fallback}>
+            <Giscus
+              category="General"
+              categoryId="DIC_kwDOHh2XA84CPxJo"
+              emitMetadata="0"
+              id="comments"
+              inputPosition="top"
+              lang={i18n.currentLocale}
+              loading="lazy"
+              mapping={term ? 'specific' : 'pathname'}
+              reactionsEnabled="1"
+              repo="anaclumos/extracranial-comments"
+              repoId="R_kgDOHh2XAw"
+              strict="0"
+              term={term}
+              theme={theme}
+            />
+          </Suspense>
+        )}
+      </BrowserOnly>
     </div>
   )
 }

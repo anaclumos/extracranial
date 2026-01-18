@@ -172,9 +172,11 @@ export default function GraphSettings({
               </span>
             </label>
             <input
+              autoComplete="off"
               id="labelThreshold"
               max="30"
               min="1"
+              name="labelThreshold"
               onChange={(e) =>
                 handleChange('labelThreshold', Number(e.target.value))
               }
@@ -194,9 +196,11 @@ export default function GraphSettings({
               </span>
             </label>
             <input
+              autoComplete="off"
               id="linkThickness"
               max="5"
               min="0.5"
+              name="linkThickness"
               onChange={(e) =>
                 handleChange('linkThickness', Number(e.target.value))
               }
@@ -214,9 +218,11 @@ export default function GraphSettings({
               </span>
             </label>
             <input
+              autoComplete="off"
               id="centerForce"
               max="0.01"
               min="0"
+              name="centerForce"
               onChange={(e) =>
                 handleChange('centerForce', Number(e.target.value))
               }
@@ -234,9 +240,11 @@ export default function GraphSettings({
               </span>
             </label>
             <input
+              autoComplete="off"
               id="repelForce"
               max="100000"
               min="1000"
+              name="repelForce"
               onChange={(e) =>
                 handleChange('repelForce', Number(e.target.value))
               }
@@ -254,9 +262,11 @@ export default function GraphSettings({
               </span>
             </label>
             <input
+              autoComplete="off"
               id="linkForce"
               max="1"
               min="0"
+              name="linkForce"
               onChange={(e) =>
                 handleChange('linkForce', Number(e.target.value))
               }

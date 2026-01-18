@@ -4,6 +4,7 @@ import habitLogData from '@site/src/data/habit-log.json'
 import habitsData from '@site/src/data/habits.json'
 import journalDates from '@site/src/data/journals.json'
 import { cn } from '@site/src/util/cn'
+import { useMemo } from 'react'
 import {
   HABIT_COLORS,
   HABIT_DAYS,
@@ -23,32 +24,39 @@ interface HabitTrackerWidgetProps {
 export default function HabitTrackerWidget({
   className,
 }: HabitTrackerWidgetProps) {
-  const habits = (habitsData as HabitDefinition[]).filter(
-    (h) => h.status === 'ING'
+  const habits = useMemo(
+    () => (habitsData as HabitDefinition[]).filter((h) => h.status === 'ING'),
+    []
   )
   const habitLog = habitLogData as HabitLog
-  const existingJournals = new Set(journalDates as string[])
+  const existingJournals = useMemo(() => new Set(journalDates as string[]), [])
 
   if (habits.length === 0) {
     return null
   }
 
-  const dates = generateDateRange(HABIT_DAYS)
-  const completedDatesSet = new Map<string, Set<string>>()
+  const dates = useMemo(() => generateDateRange(HABIT_DAYS), [])
+  const completedDatesSet = useMemo(() => {
+    const completed = new Map<string, Set<string>>()
 
-  for (const habit of habits) {
-    completedDatesSet.set(habit.id, new Set(habitLog[habit.id] ?? []))
-  }
-
-  const dailyCompletionCount = dates.map((date) => {
-    let count = 0
     for (const habit of habits) {
-      if (completedDatesSet.get(habit.id)?.has(date)) {
-        count++
-      }
+      completed.set(habit.id, new Set(habitLog[habit.id] ?? []))
     }
-    return count
-  })
+
+    return completed
+  }, [habits, habitLog])
+
+  const dailyCompletionCount = useMemo(() => {
+    return dates.map((date) => {
+      let count = 0
+      for (const habit of habits) {
+        if (completedDatesSet.get(habit.id)?.has(date)) {
+          count++
+        }
+      }
+      return count
+    })
+  }, [dates, habits, completedDatesSet])
 
   return (
     <BentoWidget className={cn(styles.habitTrackerWidget, className)}>

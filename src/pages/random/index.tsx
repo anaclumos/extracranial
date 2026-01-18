@@ -2,7 +2,66 @@ import BrowserOnly from '@docusaurus/BrowserOnly'
 import Head from '@docusaurus/Head'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
+import { useCallback, useEffect, useState } from 'react'
 import styles from './styles.module.css'
+
+function RandomContent() {
+  const [randomUrl, setRandomUrl] = useState<string | null>(null)
+  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
+
+  const fetchRandomUrl = useCallback(async (signal?: AbortSignal) => {
+    try {
+      setStatus('loading')
+      const response = await fetch('/sitemap.xml', { signal })
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`)
+      }
+      const text = await response.text()
+      const parser = new DOMParser()
+      const xml = parser.parseFromString(text, 'text/xml')
+      const urls = Array.from(xml.querySelectorAll('urlset > url > loc'))
+      const randomElement = urls[Math.floor(Math.random() * urls.length)]
+      const nextUrl = randomElement?.textContent ?? '/'
+      setRandomUrl(nextUrl)
+      setStatus('ready')
+      return nextUrl
+    } catch (error) {
+      if (signal?.aborted) {
+        return null
+      }
+      console.error('Failed to fetch sitemap:', error)
+      setStatus('error')
+      return null
+    }
+  }, [])
+
+  useEffect(() => {
+    const controller = new AbortController()
+    fetchRandomUrl(controller.signal).then((nextUrl) => {
+      if (nextUrl) {
+        window.location.assign(nextUrl)
+      }
+    })
+    return () => controller.abort()
+  }, [fetchRandomUrl])
+
+  return (
+    <div className={styles.container}>
+      <a
+        aria-label="Navigate to a random page"
+        className={styles.diceButton}
+        href={randomUrl ?? '/'}
+      >
+        <div aria-hidden="true" className={styles.dice}>
+          🎲
+        </div>
+      </a>
+      {status === 'error' && (
+        <p className={styles.error}>Failed to load sitemap. Try again.</p>
+      )}
+    </div>
+  )
+}
 
 const RandomUrl = () => {
   const { siteConfig } = useDocusaurusContext()
@@ -21,39 +80,8 @@ const RandomUrl = () => {
         />
       </Head>
       <main>
-        <BrowserOnly>
-          {() => {
-            let urls: Element[]
-            let randomUrl: string
-            fetch('/sitemap.xml')
-              .then((res) => res.text())
-              .then((text) => {
-                const parser = new DOMParser()
-                const xml = parser.parseFromString(text, 'text/xml')
-                urls = Array.from(xml.querySelectorAll('urlset > url > loc'))
-                const randomElement =
-                  urls[Math.floor(Math.random() * urls.length)]
-                randomUrl = randomElement?.textContent ?? '/'
-
-                window.location.href = randomUrl
-              })
-            return (
-              <div className={styles.container}>
-                <button
-                  aria-label="Navigate to a random page"
-                  className={styles.diceButton}
-                  onClick={() => {
-                    window.location.href = randomUrl
-                  }}
-                  type="button"
-                >
-                  <div aria-hidden="true" className={styles.dice}>
-                    🎲
-                  </div>
-                </button>
-              </div>
-            )
-          }}
+        <BrowserOnly fallback={<div className={styles.container} />}>
+          {() => <RandomContent />}
         </BrowserOnly>
       </main>
     </Layout>

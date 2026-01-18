@@ -1,3 +1,9 @@
 .giscus {
   margin-top: 2rem;
 }
+
+.loading {
+  padding: 0.75rem 0;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+}
