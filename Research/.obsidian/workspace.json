@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f26d9a6f9a32fbc1",
+        "id": "53cc9b9c0d242a5a",
         "type": "tabs",
         "children": [
           {
-            "id": "e43db151ae80f74c",
+            "id": "0ab7bbedeeb9d640",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-19.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-01-19"
             }
           }
         ]
@@ -171,8 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e43db151ae80f74c",
+  "active": "0ab7bbedeeb9d640",
   "lastOpenFiles": [
+    "journals/2026-01-19.md",
+    "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
+    "journals/2026-01-18.md",
+    "pages/Goongoom.md",
+    "pages/React God.md",
     "journals/2026-01-17.md",
     "pages/supernpm.md",
     "pages/Someday.md",
@@ -197,11 +216,6 @@
     "pages/biome.jsonc.md",
     "pages/Anthropic AI Safety Fellow.md",
     "journals/2026-01-13.md",
-    "pages/Project Linguine.md",
-    "pages/Untitled.md",
-    "pages/Absolute Mode.md",
-    "pages/As We May Think.md",
-    "pages/OpenAI Grove.md",
     "assets/Pasted image 20260111182245.png",
     "assets/Pasted image 20260108162007.png",
     "assets/Pasted image 20260108161954.png",
