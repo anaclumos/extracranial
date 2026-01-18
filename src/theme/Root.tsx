@@ -18,22 +18,14 @@ function GlobalCursor() {
         borderRadius: 10,
         mixBlendMode: zone === 'overlay' ? 'difference' : 'normal',
         pointerEvents: 'none',
-        // NO backdrop-filter, NO blur - fully transparent
-        // Rim border (edge intensity 0.01 → subtle)
         border: `1px solid rgba(255, 255, 255, ${EDGE_OPACITY})`,
-        // Multi-layer effects based on liquid-glass parameters
         boxShadow: [
-          // Rim highlight - top (rim intensity 0.05)
           `inset 0 1px 0 rgba(255, 255, 255, ${RIM_OPACITY})`,
-          // Rim shadow - bottom
           `inset 0 -1px 0 rgba(0, 0, 0, ${EDGE_OPACITY})`,
-          // Corner boost highlights (corner boost 0.02)
           `inset 1px 1px 2px rgba(255, 255, 255, ${CORNER_BOOST})`,
           `inset -1px -1px 2px rgba(0, 0, 0, ${CORNER_BOOST * 0.5})`,
-          // Outer depth shadow (no blur spread)
           `0 1px 3px rgba(0, 0, 0, ${EDGE_OPACITY})`,
         ].join(', '),
-        // Tint gradient (tint opacity 0.2) - simulates glass surface light variation
         background:
           zone === 'overlay'
             ? `linear-gradient(180deg, rgba(255,255,255,${TINT_OPACITY}) 0%, rgba(255,255,255,${TINT_OPACITY * 0.15}) 50%, rgba(200,200,200,${TINT_OPACITY * 0.5}) 100%)`
