@@ -2,7 +2,7 @@
 
 import { translate } from '@docusaurus/Translate'
 import { useSigma } from '@react-sigma/core'
-import { useCallback, useId, useMemo, useRef, useState } from 'react'
+import { useCallback, useDeferredValue, useId, useMemo, useState } from 'react'
 import styles from './styles.module.css'
 
 interface GraphSearchProps {
@@ -15,15 +15,15 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [activeIndex, setActiveIndex] = useState(-1)
   const listboxId = useId()
-  const resultsRef = useRef<HTMLDivElement>(null)
+  const deferredQuery = useDeferredValue(query)
 
   const results = useMemo(() => {
-    if (!query.trim() || query.length < 2) {
+    if (!deferredQuery.trim() || deferredQuery.length < 2) {
       return []
     }
 
     const graph = sigma.getGraph()
-    const lowerQuery = query.toLowerCase()
+    const lowerQuery = deferredQuery.toLowerCase()
 
     return graph
       .nodes()
@@ -127,13 +127,15 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
           id: 'graph.search.label',
           message: 'Search notes',
         })}
+        autoComplete="off"
         className={styles.searchInput}
+        name="graph-search"
         onChange={handleInputChange}
         onFocus={() => setIsOpen(true)}
         onKeyDown={handleKeyDown}
         placeholder={translate({
           id: 'graph.search.placeholder',
-          message: 'Search notes...',
+          message: 'Search notes\u2026 (e.g. "graph")',
         })}
         role="combobox"
         title={translate({
@@ -151,7 +153,6 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
           })}
           className={styles.searchResults}
           id={listboxId}
-          ref={resultsRef}
           role="listbox"
         >
           {results.map((result, index) => (

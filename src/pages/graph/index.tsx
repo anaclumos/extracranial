@@ -41,7 +41,11 @@ function GraphContent({ darkMode }: { darkMode: boolean }) {
   return (
     <>
       <Suspense
-        fallback={<div className={styles.loading}>Loading graph...</div>}
+        fallback={
+          <div aria-live="polite" className={styles.loading} role="status">
+            {'Loading graph\u2026'}
+          </div>
+        }
       >
         <GraphView
           darkMode={darkMode}
@@ -65,7 +69,13 @@ function GraphPageInner() {
 
   return (
     <main className={styles.graphPage}>
-      <BrowserOnly fallback={<div className={styles.loading}>Loading...</div>}>
+      <BrowserOnly
+        fallback={
+          <div aria-live="polite" className={styles.loading} role="status">
+            {'Loading\u2026'}
+          </div>
+        }
+      >
         {() => <GraphContent darkMode={darkMode} />}
       </BrowserOnly>
     </main>

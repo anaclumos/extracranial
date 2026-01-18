@@ -18,6 +18,7 @@ function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
     <button
       aria-expanded={isActive}
       aria-haspopup="true"
+      aria-label={name}
       className={styles.inlineOrg}
       onClick={(e) => {
         e.stopPropagation()

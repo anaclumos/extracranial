@@ -2208,6 +2208,7 @@
   "2026-01-16": {},
   "2026-01-17": {},
   "2026-01-18": {},
+  "2026-01-19": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -4450,6 +4451,7 @@
     "2025-09-06": "- [[Accessaurus]]"
   },
   "Accessibility": {
+    "2026-01-18": "- 웹 UI 가이드라인 기준으로 [[Accessibility]] 점검을 수행하고 [[Backlink]]/[[Bento Grid]]/그래프 UI의 ...",
     "Cartography": "8. [[Accessibility]] and usability: Creating digital maps ...",
     "Project PIRI Initial Proposal": "### Enhanced [[Accessibility]] and User Engagement",
     "Proposal of Research 2023-03-28": "## Enhancing Web [[Accessibility]]. Utilizing [[Generative AI]] to Generate ...",
@@ -5357,6 +5359,7 @@
   },
   "Backlink": {
     "2022-10-17": "**[[Backlink|Links to This Note]]** feature is complete.",
+    "2026-01-18": "- [[Backlink]] 모바일/사이드바/본문에서 링크 목록과 발췌 계산을 ...",
     "Andy Matuschak": "... concepts, such as [[Sliding Panes]], [[Backlink|links to this note]], and [[Atomic Notes]].",
     "Backlinking for Aldehyde": "- **[[Backlink|Links to This Note]]** feature is complete on [[2022-10-17]]."
   },
@@ -5427,6 +5430,7 @@
     "2023-02-18": "- [[Bento Grid]]",
     "2023-06-15": "- [[Bento Grid]]",
     "2023-11-20": "- [[Bento Grid]]",
+    "2026-01-18": "- [[Bento Grid]]에서 Map/GitHub 위젯을 [[Dynamic Import]] + ...",
     "Aldehyde Landing Page 2023": "- [[Bento Grid]]"
   },
   "Bernoulli Distribution": {
@@ -6143,6 +6147,7 @@
   },
   "Canvas (HTML5)": {
     "2023-08-10": "... found a noticeable drop in [[Canvas (HTML5)|canvas]] performance. It was very weird ...",
+    "2026-01-18": "... aria-live/role 상태, 그래프 입력 name/autocomplete, [[Canvas (HTML5)]] 키보드 조작, 랜덤 페이지 이동을 ...",
     "Stories Behind Satori": "- [[Canvas (HTML5)|Canvas]]-based solutions lacked dynamic behaviors (e.g., ..."
   },
   "Captivating Products": {
@@ -7370,7 +7375,8 @@
     "Person 542AD7": "Felt like I was the [[Dumbest Person in the Room]]."
   },
   "Dynamic Import": {
-    "2024-07-08": "[[Dynamic Import]]"
+    "2024-07-08": "[[Dynamic Import]]",
+    "2026-01-18": "- [[Bento Grid]]에서 Map/GitHub 위젯을 [[Dynamic Import]] + BrowserOnly로 지연 로딩하고 SSR ..."
   },
   "Dynamic Island": {
     "2022-09-30": "### [[Dynamic Island]] Concepts for Desktops",
@@ -12779,6 +12785,7 @@
     "2022-08-04": "[[React]] Flip Toolkit List Shuffle를 띄우는 ...",
     "2022-09-10": "- [[React]] components library with native dark ...",
     "2023-03-18": "- [[React]]",
+    "2026-01-18": "- [[React]] 컴포넌트의 Shuffle 순서를 마운트 기준으로 ...",
     "Developing Review Notes for Obsidian": "### [[React]] 전환",
     "Dioxus": "... written in [[Rust]], inspired by [[React]].",
     "Front-end": "- [[React]]",
@@ -13392,6 +13399,7 @@
     "2023-11-14": "- [[Sequential GitHub Action Jobs]]"
   },
   "Server-side Rendering": {
+    "2026-01-18": "... fetch를 `useEffect`로 분리하고 abort 처리로 [[Server-side Rendering]] 렌더 안정성을 개선함.",
     "Create React App": "... due to its lack of [[Server-side Rendering]], it is now discouraged to ...",
     "React": "... whose flagship feature is not [[Server-side Rendering|SSR]], but rather the abstraction of ...",
     "배달의민족 FE 개발자가 일하는 법 Q&A": "... 해도 PHP를 주로 사용했다. 전부 [[Server-side Rendering|서버 사이드 렌더링]]이었다. 그때는 이것이 당연했다. [[Back-end|백엔드]]는 자바를 ..."

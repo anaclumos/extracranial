@@ -141,3 +141,46 @@
     min-height: 12.5rem;
   }
 }
+
+.loadingCard {
+  border-radius: var(--card-radius);
+  border: 1px solid var(--glass-border-subtle);
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.04) 0%,
+    rgba(0, 0, 0, 0.08) 50%,
+    rgba(0, 0, 0, 0.04) 100%
+  );
+  box-shadow: var(--shadow-widget);
+  position: relative;
+  overflow: hidden;
+}
+
+[data-theme="dark"] .loadingCard {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.12) 50%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+}
+
+.loadingCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.35),
+    transparent
+  );
+  transform: translateX(-100%);
+  animation: bento-loading 1.6s infinite;
+}
+
+@keyframes bento-loading {
+  to {
+    transform: translateX(100%);
+  }
+}

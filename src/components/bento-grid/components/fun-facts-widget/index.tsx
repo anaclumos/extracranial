@@ -18,6 +18,7 @@ export default function FunFactsWidget({ className }: FunFactsWidgetProps) {
   const [isRefreshing, setIsRefreshing] = useState(false)
   const shuffledSnippets = useRef<string[]>([])
   const currentIndex = useRef(0)
+  const refreshTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const refreshSnippet = useCallback(() => {
     if (shuffledSnippets.current.length === 0) {
@@ -28,17 +29,28 @@ export default function FunFactsWidget({ className }: FunFactsWidgetProps) {
       (currentIndex.current + 1) % shuffledSnippets.current.length
   }, [])
 
-  const handleRefresh = () => {
+  const handleRefresh = useCallback(() => {
     if (isRefreshing) {
       return
     }
     setIsRefreshing(true)
-    setTimeout(refreshSnippet, 240)
-  }
+    if (refreshTimeoutRef.current) {
+      clearTimeout(refreshTimeoutRef.current)
+    }
+    refreshTimeoutRef.current = setTimeout(refreshSnippet, 240)
+  }, [isRefreshing, refreshSnippet])
 
   useEffect(() => {
     refreshSnippet()
   }, [refreshSnippet])
+
+  useEffect(() => {
+    return () => {
+      if (refreshTimeoutRef.current) {
+        clearTimeout(refreshTimeoutRef.current)
+      }
+    }
+  }, [])
 
   const refreshLabel = translate({
     id: 'bento.bio.refreshLabel',

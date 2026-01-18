@@ -1,5 +1,5 @@
 import { cn } from '@site/src/util/cn'
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { LASTFM_API_KEY, LASTFM_USERNAME } from '../../constants'
 import type { LastFmResponse, LastFmTrack } from '../../types'
 import BentoWidget from '../bento-widget'
@@ -67,10 +67,13 @@ export default function NowPlayingWidget({ className }: NowPlayingWidgetProps) {
     }
   }, [])
 
-  const albumArt =
-    track?.image.find((img) => img.size === 'extralarge')?.['#text'] ||
-    track?.image.find((img) => img.size === 'large')?.['#text'] ||
-    ''
+  const albumArt = useMemo(() => {
+    return (
+      track?.image.find((img) => img.size === 'extralarge')?.['#text'] ||
+      track?.image.find((img) => img.size === 'large')?.['#text'] ||
+      ''
+    )
+  }, [track])
 
   return (
     <BentoWidget

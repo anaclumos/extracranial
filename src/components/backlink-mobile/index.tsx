@@ -2,6 +2,7 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import backlinks from '@site/src/data/backlinks.json'
 import filenames from '@site/src/data/filenames.json'
+import { useMemo } from 'react'
 import styles from './styles.module.css'
 
 interface BacklinkMobileProps {
@@ -10,6 +11,11 @@ interface BacklinkMobileProps {
 
 type BacklinksData = Record<string, Record<string, string>>
 type FilenamesData = Record<string, string>
+type BacklinkEntry = {
+  title: string
+  link: string
+  excerpt?: string
+}
 
 const typedBacklinks = backlinks as BacklinksData
 const typedFilenames = filenames as FilenamesData
@@ -66,32 +72,42 @@ function processExcerpt(text: string, title: string): string {
   }
 
   if (truncated) {
-    result = `${result}...`
+    result = `${result}\u2026`
   }
 
   return result
 }
 
 export default function BacklinkMobile({ documentTitle }: BacklinkMobileProps) {
-  const documentTitleEncoded = documentTitle.normalize('NFC')
+  const documentTitleEncoded = useMemo(
+    () => documentTitle.normalize('NFC'),
+    [documentTitle]
+  )
   const backlinkItems = typedBacklinks[documentTitleEncoded]
 
-  const backlinkEntries = backlinkItems
-    ? Object.keys(backlinkItems)
-        .sort()
-        .reverse()
-        .map((backlink) => {
-          const backlinkTitle = backlink.normalize('NFC')
-          const filenameEntry = typedFilenames[backlinkTitle]
-          if (!filenameEntry) {
-            return null
-          }
-          const link = filenameEntry.replace('/', '')
-          const content = backlinkItems[backlink]
-          return { title: backlinkTitle, link, content }
-        })
-        .filter(Boolean)
-    : []
+  const backlinkEntries = useMemo(() => {
+    if (!backlinkItems) {
+      return []
+    }
+
+    const entries: BacklinkEntry[] = []
+    const keys = Object.keys(backlinkItems).sort().reverse()
+    for (const backlink of keys) {
+      const backlinkTitle = backlink.normalize('NFC')
+      const filenameEntry = typedFilenames[backlinkTitle]
+      if (!filenameEntry) {
+        continue
+      }
+      const link = filenameEntry.replace('/', '')
+      const content = backlinkItems[backlink]
+      const excerpt = content
+        ? processExcerpt(content, documentTitleEncoded)
+        : undefined
+      entries.push({ title: backlinkTitle, link, excerpt })
+    }
+
+    return entries
+  }, [backlinkItems, documentTitleEncoded])
 
   const backlinkCount = backlinkEntries.length
 
@@ -110,31 +126,24 @@ export default function BacklinkMobile({ documentTitle }: BacklinkMobileProps) {
       <div className={styles.content}>
         <ul className={styles.list}>
           {backlinkEntries.length > 0 ? (
-            backlinkEntries.map((entry) =>
-              entry ? (
-                <li className={styles.listItem} key={entry.title}>
-                  <Link className={styles.link} to={entry.link}>
-                    <span className={styles.linkTitle}>{entry.title}</span>
-                    {entry.content && (
-                      <span
-                        className={styles.excerpt}
-                        dangerouslySetInnerHTML={{
-                          __html: processExcerpt(
-                            entry.content,
-                            documentTitleEncoded
-                          ),
-                        }}
-                      />
-                    )}
-                  </Link>
-                </li>
-              ) : null
-            )
+            backlinkEntries.map((entry) => (
+              <li className={styles.listItem} key={entry.title}>
+                <Link className={styles.link} to={entry.link}>
+                  <span className={styles.linkTitle}>{entry.title}</span>
+                  {entry.excerpt && (
+                    <span
+                      className={styles.excerpt}
+                      dangerouslySetInnerHTML={{ __html: entry.excerpt }}
+                    />
+                  )}
+                </Link>
+              </li>
+            ))
           ) : (
             <li className={styles.empty}>
               {translate({
                 id: 'backlink.mobile.empty',
-                message: 'Nothing here yet...',
+                message: 'Nothing here yet\u2026',
                 description: 'The message when there is no backlink on mobile',
               })}
             </li>

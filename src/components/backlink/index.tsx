@@ -2,6 +2,7 @@ import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
 import backlinks from '@site/src/data/backlinks.json'
 import filenames from '@site/src/data/filenames.json'
+import { useMemo } from 'react'
 import styles from './styles.module.css'
 
 interface BacklinkProps {
@@ -10,6 +11,11 @@ interface BacklinkProps {
 
 type BacklinksData = Record<string, Record<string, string>>
 type FilenamesData = Record<string, string>
+type BacklinkEntry = {
+  title: string
+  link: string
+  content: string
+}
 
 const typedBacklinks = backlinks as BacklinksData
 const typedFilenames = filenames as FilenamesData
@@ -69,9 +75,35 @@ function processBacklinkItem(text: string, title: string) {
 }
 
 export default function Backlink({ documentTitle }: BacklinkProps) {
-  const documentTitleEncoded = documentTitle.normalize('NFC')
+  const documentTitleEncoded = useMemo(
+    () => documentTitle.normalize('NFC'),
+    [documentTitle]
+  )
   const backlinkItems = typedBacklinks[documentTitleEncoded]
   const title = documentTitleEncoded
+
+  const backlinkEntries = useMemo(() => {
+    if (!backlinkItems) {
+      return []
+    }
+
+    const entries: BacklinkEntry[] = []
+    const keys = Object.keys(backlinkItems).sort().reverse()
+    for (const backlink of keys) {
+      const backlinkTitle = backlink.normalize('NFC')
+      const filenameEntry = typedFilenames[backlinkTitle]
+      const backlinkContent = backlinkItems[backlink]
+
+      if (!(filenameEntry && backlinkContent)) {
+        continue
+      }
+
+      const link = filenameEntry.replace('/', '')
+      entries.push({ title: backlinkTitle, link, content: backlinkContent })
+    }
+
+    return entries
+  }, [backlinkItems])
 
   return (
     <div className={styles.backlinkTable}>
@@ -83,40 +115,26 @@ export default function Backlink({ documentTitle }: BacklinkProps) {
         })}
       </h3>
       <div className={styles.backlinkGridView}>
-        {(backlinkItems &&
-          Object.keys(backlinkItems)
-            .sort()
-            .reverse()
-            .map((backlink) => {
-              const backlinkTitle = backlink.normalize('NFC')
-              const filenameEntry = typedFilenames[backlinkTitle]
-              if (!filenameEntry) {
-                return null
-              }
-              const link = filenameEntry.replace('/', '')
-              const backlinkContent = backlinkItems[backlink]
-              if (!backlinkContent) {
-                return null
-              }
-              return (
-                <Link
-                  className={styles.backlinkItemLink}
-                  key={backlink}
-                  to={link}
-                >
-                  <div className={styles.backlinkItem}>
-                    <h4 className={styles.backlinkMentionedFileName}>
-                      {backlinkTitle}
-                    </h4>
-                    {processBacklinkItem(backlinkContent, title)}
-                  </div>
-                </Link>
-              )
-            })) || (
+        {backlinkEntries.length > 0 ? (
+          backlinkEntries.map((entry) => (
+            <Link
+              className={styles.backlinkItemLink}
+              key={entry.title}
+              to={entry.link}
+            >
+              <div className={styles.backlinkItem}>
+                <h4 className={styles.backlinkMentionedFileName}>
+                  {entry.title}
+                </h4>
+                {processBacklinkItem(entry.content, title)}
+              </div>
+            </Link>
+          ))
+        ) : (
           <p className={styles.noBacklink}>
             {translate({
               id: 'backlink.noBacklink',
-              message: 'Nothing here yet...',
+              message: 'Nothing here yet\u2026',
               description: 'The message when there is no backlink',
             })}
           </p>

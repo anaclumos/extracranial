@@ -28,6 +28,11 @@
   }
 }
 
+.diceButton:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
 .dice {
   font-size: 4rem;
   animation: rotating 1s linear infinite;
@@ -35,4 +40,11 @@
   @media (max-width: 30rem) {
     font-size: 3rem;
   }
+}
+
+.error {
+  margin-top: 1rem;
+  color: var(--ifm-color-danger);
+  font-size: 0.95rem;
+  text-align: center;
 }

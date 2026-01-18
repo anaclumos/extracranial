@@ -1,7 +1,7 @@
 'use client'
 
 import createGlobe from 'cobe'
-import { useEffect, useRef } from 'react'
+import { type KeyboardEvent, useEffect, useRef } from 'react'
 import styles from './index.module.css'
 
 interface Props {
@@ -110,6 +110,38 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
     pointerDown.current = false
   }
 
+  const handleKeyDown = (event: KeyboardEvent<HTMLCanvasElement>) => {
+    const step = Math.PI / 18
+    switch (event.key) {
+      case 'ArrowLeft':
+        event.preventDefault()
+        targetPhi.current -= step
+        break
+      case 'ArrowRight':
+        event.preventDefault()
+        targetPhi.current += step
+        break
+      case 'ArrowUp':
+        event.preventDefault()
+        targetTheta.current = clamp(
+          targetTheta.current - step,
+          -Math.PI / 2,
+          Math.PI / 2
+        )
+        break
+      case 'ArrowDown':
+        event.preventDefault()
+        targetTheta.current = clamp(
+          targetTheta.current + step,
+          -Math.PI / 2,
+          Math.PI / 2
+        )
+        break
+      default:
+        break
+    }
+  }
+
   const handleCityClick = (lat: number, lng: number) => {
     ;[targetPhi.current, targetTheta.current] = toAngles(lat, lng)
   }
@@ -126,13 +158,20 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
         <div className={styles.cardContent}>
           <div className={styles.canvasWrapper}>
             <canvas
+              aria-label={
+                lang === 'ko'
+                  ? '화살표 키로 지구본을 회전하세요'
+                  : 'Use arrow keys to rotate the globe'
+              }
               className={styles.canvas}
+              onKeyDown={handleKeyDown}
               onPointerDown={(e) => handlePointerDown(e.clientX, e.clientY)}
               onPointerLeave={handlePointerUp}
               onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
               onPointerUp={handlePointerUp}
               ref={canvasRef}
               style={{ opacity: 0 }}
+              tabIndex={0}
             />
           </div>
         </div>

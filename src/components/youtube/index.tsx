@@ -15,6 +15,7 @@ export default function YouTube({
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         className={styles.youtube}
+        loading="lazy"
         src={`https://www.youtube.com/embed/${id}`}
         title={title}
       />
