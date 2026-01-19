@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
+                "file": "pages/Goongoom.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가"
+              "title": "Goongoom"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "5b01a7f5e904436d",
   "lastOpenFiles": [
-    "pages/Untitled.md",
     "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
+    "pages/Untitled.md",
     "journals/2026-01-20.md",
     "pages/CSS Inject.md",
     "journals/2026-01-19.md",

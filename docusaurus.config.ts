@@ -72,6 +72,16 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'robots',
+        content: 'index, follow',
+      },
+    },
+  ],
+
   stylesheets: [
     {
       href: `${CDN_BASE}/npm/katex@latest/dist/katex.min.css`,
