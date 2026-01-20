@@ -34,9 +34,28 @@
   border-radius: 50%;
   background: var(--nature-stream);
   box-shadow: 0 0 0 3px #ffffff;
+  animation: mapPulse 2s infinite;
 
   @media (max-width: 30rem) {
     width: 1.25rem;
     height: 1.25rem;
+  }
+}
+
+@keyframes mapPulse {
+  0% {
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 0 rgba(255, 255, 255, 0.7);
+  }
+  70% {
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow:
+      0 0 0 3px #ffffff,
+      0 0 0 0 rgba(255, 255, 255, 0);
   }
 }

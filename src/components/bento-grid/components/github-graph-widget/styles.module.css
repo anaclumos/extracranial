@@ -1,5 +1,4 @@
 .githubGraphWidget {
-  padding: 1.5rem;
   background: linear-gradient(180deg, #f0f7ef 0%, #dceddd 100%);
   border: none;
   cursor: pointer;
@@ -15,7 +14,6 @@
   }
 
   @media (max-width: 30rem) {
-    padding: 1rem;
     overflow-x: auto;
   }
 }

@@ -1,5 +1,4 @@
 .nowPlayingWidget {
-  padding: 1.5rem;
   background: linear-gradient(135deg, #f2f9f1 0%, #d5ebd4 100%);
   border: none;
   cursor: pointer;
@@ -11,7 +10,6 @@
   @media (max-width: 30rem) {
     aspect-ratio: auto !important;
     min-height: auto;
-    padding: 1rem;
   }
 }
 
@@ -88,8 +86,9 @@
   justify-content: flex-end;
 
   @media (max-width: 30rem) {
-    top: 1.25rem;
-    right: 1.25rem;
+    position: static;
+    order: 2;
+    margin-left: auto;
   }
 }
 

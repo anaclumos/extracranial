@@ -1,5 +1,4 @@
 .habitTrackerWidget {
-  padding: 1.5rem;
   background: linear-gradient(180deg, #f1f8e9 0%, #dcedc8 100%);
   border: none;
 
@@ -8,7 +7,6 @@
   }
 
   @media (max-width: 30rem) {
-    padding: 1rem;
     overflow-x: auto;
   }
 }
