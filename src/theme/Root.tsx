@@ -1,3 +1,4 @@
+import { useColorMode } from '@docusaurus/theme-common'
 import { Cursor, useCursorState } from 'motion-plus/react'
 import type { ReactNode } from 'react'
 
@@ -10,6 +11,13 @@ const CORNER_BOOST = 0.2 // 0.02 * 10
 
 function GlobalCursor() {
   const { zone } = useCursorState()
+  const { colorMode } = useColorMode()
+  const isDark = colorMode === 'dark'
+  const edgeColor = isDark ? '255, 255, 255' : '26, 33, 24'
+  const tintColor = isDark ? '255, 255, 255' : '26, 33, 24'
+  const tintOpacity = isDark ? TINT_OPACITY : 0.35
+  const overlayBottom = isDark ? '200, 200, 200' : tintColor
+  const normalBottom = isDark ? '180, 180, 180' : tintColor
 
   return (
     <Cursor
@@ -18,7 +26,7 @@ function GlobalCursor() {
         borderRadius: 10,
         mixBlendMode: zone === 'overlay' ? 'difference' : 'normal',
         pointerEvents: 'none',
-        border: `1px solid rgba(255, 255, 255, ${EDGE_OPACITY})`,
+        border: `1px solid rgba(${edgeColor}, ${EDGE_OPACITY})`,
         boxShadow: [
           `inset 0 1px 0 rgba(255, 255, 255, ${RIM_OPACITY})`,
           `inset 0 -1px 0 rgba(0, 0, 0, ${EDGE_OPACITY})`,
@@ -28,8 +36,8 @@ function GlobalCursor() {
         ].join(', '),
         background:
           zone === 'overlay'
-            ? `linear-gradient(180deg, rgba(255,255,255,${TINT_OPACITY}) 0%, rgba(255,255,255,${TINT_OPACITY * 0.15}) 50%, rgba(200,200,200,${TINT_OPACITY * 0.5}) 100%)`
-            : `linear-gradient(180deg, rgba(255,255,255,${TINT_OPACITY}) 0%, rgba(255,255,255,${TINT_OPACITY * 0.15}) 50%, rgba(180,180,180,${TINT_OPACITY * 0.5}) 100%)`,
+            ? `linear-gradient(180deg, rgba(${tintColor}, ${tintOpacity}) 0%, rgba(${tintColor}, ${tintOpacity * 0.15}) 50%, rgba(${overlayBottom}, ${tintOpacity * 0.5}) 100%)`
+            : `linear-gradient(180deg, rgba(${tintColor}, ${tintOpacity}) 0%, rgba(${tintColor}, ${tintOpacity * 0.15}) 50%, rgba(${normalBottom}, ${tintOpacity * 0.5}) 100%)`,
       }}
       variants={{
         default: {

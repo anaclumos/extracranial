@@ -191,7 +191,7 @@
     "Pieter Levels": "- [[10x Technopreneurs|10x Technopreneur]]"
   },
   "10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가": {
-    "2026-01-20": "[[10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가]]"
+    "2026-01-20": "- [[10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가]]"
   },
   "114B61.png": {
     "Master Detail": "![[114B61.png]]"
@@ -5825,6 +5825,7 @@
     "2023-01-23": "... seems like [[Wikipedia]] updated its [[CSS]]...",
     "2026-01-10": "- [[Color Palette]] [[CSS]]",
     "2026-01-16": "... Pointer에 liquid glass 스타일을 추가하고 [[CSS]]로 글래스 쉘을 구성함.",
+    "2026-01-20": "- [[CSS]] Improved text caret visibility in ...",
     "Apple Newsroom 서체 따라하기": "... 기간 나에게 딱 맞는 폰트 [[CSS]]를 찾아왔다. 이 글에서는 드디어 찾은 ...",
     "Boring Technologies": "... languages seen as less rigorous. [[CSS]] is dropped in favor of ...",
     "Chrome": "... of web technologies, including HTML5, [[CSS]], and [[JavaScript]]. In addition, it ...",
@@ -6111,6 +6112,9 @@
   },
   "Clean Energy": {
     "2023-01-13": "- [[Clean Energy]]"
+  },
+  "Clerk Passkey Nudge": {
+    "2026-01-20": "- [[Clerk Passkey Nudge]]"
   },
   "Clock skew detected": {
     "Internetworking": "- [[Clock skew detected]]"
