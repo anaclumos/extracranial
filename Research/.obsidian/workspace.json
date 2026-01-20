@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9b075d6601840e4c",
+        "id": "cb91806d51a3dc10",
         "type": "tabs",
         "children": [
           {
-            "id": "0d2014c14b5ff1ea",
+            "id": "52b4141afd022af9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-20.md",
+                "file": "journals/2026-01-21.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-20"
+              "title": "2026-01-21"
+            }
+          },
+          {
+            "id": "a16b9e19e716fb2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-21.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-21"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +210,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d2014c14b5ff1ea",
+  "active": "a16b9e19e716fb2a",
   "lastOpenFiles": [
+    "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
+    "journals/2026-01-20.md",
+    "journals/2026-01-21.md",
+    "pages/infisical.md",
     "pages/Project Starfinder.md",
     "pages/Clerk Passkey Nudge.md",
-    "journals/2026-01-20.md",
     "pages/Goongoom.md",
-    "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
     "pages/Untitled.md",
     "pages/CSS Inject.md",
     "journals/2026-01-19.md",
@@ -211,8 +238,6 @@
     "pages/Someday.md",
     "pages/gimme.md",
     "pages/Generative Open Graph.md",
-    "pages/Agentic Fleets.md",
-    "pages/elevatorpitch.com.md",
     "assets/Pasted image 20260115130405.png",
     "assets/Pasted image 20260115130306.png",
     "assets/Pasted image 20260115130142.png",
