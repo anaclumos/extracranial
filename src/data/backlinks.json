@@ -7086,6 +7086,7 @@
     "2023-10-31": "I tried to update [[Docusaurus]] to 3.0. [[Project Heimdall|Heimdall]] updates ...",
     "2023-11-12": "Updated this blog to [[Docusaurus]] v3! Had to fix a ...",
     "2026-01-15": "- Added [[Docusaurus]] Translate API to Graph components",
+    "2026-01-20": "- [[Docusaurus]] 빌드에서 `GlobalCursor` 컬러 모드 컨텍스트 ...",
     "Aldehyde Outage (January 23誠鉉)": "## [[Docusaurus]] 2.3.0 `useSyncExternalStore` Bug",
     "Better Docusaurus": "... I currently don't like about [[Docusaurus]]",
     "In search of my domain": "... from WordPress to Ghost to [[Docusaurus]], making several contributions and almost ...",
@@ -10993,6 +10994,7 @@
   },
   "Not-So-Procrastinating Lazy Loading": {},
   "Nota": {
+    "2026-01-20": "- [[Nota]]",
     "Letter to the Heptabase Team on 2022-10-11": "... runs on heavily customized [[Obsidian]], [[Nota]], and [[Docusaurus]], serving as my ..."
   },
   "Notion": {
