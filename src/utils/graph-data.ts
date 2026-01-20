@@ -1,22 +1,6 @@
 import Graph from 'graphology'
 import type { SerializedGraph } from 'graphology-types'
 
-export interface GraphNode {
-  id: string
-  slug: string
-  size: number
-  label: string
-  color: string
-  x: number
-  y: number
-  group?: string
-}
-
-export interface GraphEdge {
-  source: string
-  target: string
-}
-
 export interface BacklinksData {
   [target: string]: {
     [source: string]: string
@@ -135,56 +119,6 @@ export function buildGraphData(
   }
 
   return graph.export()
-}
-
-export function getLocalGraph(
-  fullGraph: SerializedGraph,
-  focusNodeId: string,
-  depth = 2
-): SerializedGraph {
-  const graph = Graph.from(fullGraph)
-  const localGraph = new Graph({ type: 'directed', allowSelfLoops: false })
-
-  if (!graph.hasNode(focusNodeId)) {
-    return localGraph.export()
-  }
-
-  const includedNodes = new Set<string>([focusNodeId])
-  let frontier = [focusNodeId]
-
-  for (let d = 0; d < depth; d++) {
-    const nextFrontier: string[] = []
-    for (const nodeId of frontier) {
-      const neighbors = [
-        ...graph.outNeighbors(nodeId),
-        ...graph.inNeighbors(nodeId),
-      ]
-      for (const neighbor of neighbors) {
-        if (!includedNodes.has(neighbor)) {
-          includedNodes.add(neighbor)
-          nextFrontier.push(neighbor)
-        }
-      }
-    }
-    frontier = nextFrontier
-  }
-
-  for (const nodeId of includedNodes) {
-    const attrs = graph.getNodeAttributes(nodeId)
-    localGraph.addNode(nodeId, {
-      ...attrs,
-      color: nodeId === focusNodeId ? '#f97316' : attrs.color,
-      size: nodeId === focusNodeId ? attrs.size * 1.5 : attrs.size,
-    })
-  }
-
-  graph.forEachEdge((_edge, attrs, source, target) => {
-    if (includedNodes.has(source) && includedNodes.has(target)) {
-      localGraph.addEdge(source, target, attrs)
-    }
-  })
-
-  return localGraph.export()
 }
 
 export function getGraphStats(graphData: SerializedGraph) {

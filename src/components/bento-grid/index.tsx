@@ -13,13 +13,14 @@ function LoadingCard({
   className,
   label,
 }: {
-  className: string
+  className?: string
   label: string
 }) {
   return (
-    <div
+    <output
       aria-busy="true"
       aria-label={label}
+      aria-live="polite"
       className={[styles.loadingCard, className].filter(Boolean).join(' ')}
     />
   )

@@ -1,4 +1,4 @@
-export interface FunFactSnippet {
+interface FunFactSnippet {
   id: string
   message: string
 }

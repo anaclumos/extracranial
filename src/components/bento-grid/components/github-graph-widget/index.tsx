@@ -14,6 +14,32 @@ interface WidgetContributionWeek extends ContributionWeek {
   id: string
 }
 
+function buildWeekData(
+  contributions: ContributionDay[]
+): WidgetContributionWeek[] {
+  const weekData: WidgetContributionWeek[] = []
+
+  for (let weekIndex = 0; weekIndex < GITHUB_WEEKS; weekIndex++) {
+    const weekDays: (ContributionDay | null)[] = new Array(7).fill(null)
+    let weekTotal = 0
+
+    for (let dayIndex = 0; dayIndex < 7; dayIndex++) {
+      const contribution = contributions[weekIndex * 7 + dayIndex]
+      if (!contribution) {
+        continue
+      }
+      const dayOfWeek = new Date(contribution.date).getDay()
+      weekDays[dayOfWeek] = contribution
+      weekTotal += contribution.count
+    }
+
+    const weekId = weekDays.find((day) => day)?.date ?? `week-${weekIndex}`
+    weekData.push({ days: weekDays, weekTotal, id: weekId })
+  }
+
+  return weekData
+}
+
 export default function GitHubGraphWidget({
   className,
 }: {
@@ -34,26 +60,8 @@ export default function GitHubGraphWidget({
         }
         const data: { contributions: ContributionDay[] } = await response.json()
         const contributions = data.contributions.slice(-GITHUB_WEEKS * 7)
-        const weekData: WidgetContributionWeek[] = []
-
-        for (let w = 0; w < GITHUB_WEEKS; w++) {
-          const weekDays: (ContributionDay | null)[] = new Array(7).fill(null)
-          let weekTotal = 0
-
-          for (let d = 0; d < 7; d++) {
-            const idx = w * 7 + d
-            const contrib = contributions[idx]
-            if (contrib) {
-              const dayOfWeek = new Date(contrib.date).getDay()
-              weekDays[dayOfWeek] = contrib
-              weekTotal += contrib.count
-            }
-          }
-          const weekId = weekDays.find((d) => d)?.date ?? `week-${w}`
-          weekData.push({ days: weekDays, weekTotal, id: weekId })
-        }
-        setWeeks(weekData)
-      } catch (error) {
+        setWeeks(buildWeekData(contributions))
+      } catch (_error) {
         if (controller.signal.aborted) {
           return
         }
