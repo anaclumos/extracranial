@@ -71,6 +71,12 @@ textarea {
   font-family: var(--font-family-sans-serif);
 }
 
+input,
+textarea,
+[contenteditable] {
+  caret-color: var(--color-text-primary);
+}
+
 pre,
 code {
   font-family: var(--font-family-monospace);

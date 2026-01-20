@@ -28,11 +28,11 @@ slug: '/A8BC4B'
 
 ## 기술 & 인프라
 
-- **프레임워크** — Next.js 15(App Router), Bun
+- **프레임워크** — Next.js 16(App Router), Bun, Next-Faster Optimizations
 - **인증, 웨이트리스트** — Clerk
-- **API 레이어** — tRPC 11 + React Query, `/api/trpc`
-- **데이터 레이어** — Drizzle ORM + Neon 서버리스 Postgres + pgvector
+- **데이터 레이어** — Drizzle ORM + Neon 서버리스 PlanetScale Postgres + PGVector
 - **AI 플랫폼** — OpenAI Embeddings(기본 `text-embedding-3-small`), 실패 시 키워드 검색으로 폴백
+- **Image/Video Hostings** — Cloudflare R2 with MPEG Streaming (metadata at the front of the file)
 
 ## 경쟁 환경 & 차별화
 
