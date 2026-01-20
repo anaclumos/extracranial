@@ -44,7 +44,7 @@
 
   @media (max-width: 30rem) {
     font-size: 1.1rem;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: unset;
   }
 }
 
