@@ -44,8 +44,3 @@ export interface ContributionWeek {
   days: (ContributionDay | null)[]
   weekTotal: number
 }
-
-export interface FunFactSnippet {
-  id: string
-  message: string
-}

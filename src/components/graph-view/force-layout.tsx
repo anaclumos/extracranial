@@ -3,7 +3,7 @@
 import { useSigma } from '@react-sigma/core'
 import FA2Layout from 'graphology-layout-forceatlas2/worker'
 import { useEffect, useRef } from 'react'
-import type { GraphSettingsValues } from './GraphSettings'
+import type { GraphSettingsValues } from './graph-settings'
 
 interface ForceLayoutProps {
   settings: GraphSettingsValues

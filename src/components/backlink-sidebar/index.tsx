@@ -11,7 +11,7 @@ interface BacklinkSidebarProps {
 
 type BacklinksData = Record<string, Record<string, string>>
 type FilenamesData = Record<string, string>
-type BacklinkEntry = {
+interface BacklinkEntry {
   title: string
   link: string
   excerpt?: string

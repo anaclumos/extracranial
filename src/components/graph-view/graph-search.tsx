@@ -18,12 +18,13 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
   const deferredQuery = useDeferredValue(query)
 
   const results = useMemo(() => {
-    if (!deferredQuery.trim() || deferredQuery.length < 2) {
+    const trimmedQuery = deferredQuery.trim()
+    if (!trimmedQuery || trimmedQuery.length < 2) {
       return []
     }
 
     const graph = sigma.getGraph()
-    const lowerQuery = deferredQuery.toLowerCase()
+    const lowerQuery = trimmedQuery.toLowerCase()
 
     return graph
       .nodes()
@@ -40,7 +41,7 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
           label: (attrs.label as string) || nodeId,
         }
       })
-  }, [sigma, query])
+  }, [sigma, deferredQuery])
 
   const handleSelect = useCallback(
     (nodeId: string) => {

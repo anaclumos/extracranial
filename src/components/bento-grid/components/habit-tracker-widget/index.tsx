@@ -31,10 +31,6 @@ export default function HabitTrackerWidget({
   const habitLog = habitLogData as HabitLog
   const existingJournals = useMemo(() => new Set(journalDates as string[]), [])
 
-  if (habits.length === 0) {
-    return null
-  }
-
   const dates = useMemo(() => generateDateRange(HABIT_DAYS), [])
   const completedDatesSet = useMemo(() => {
     const completed = new Map<string, Set<string>>()
@@ -57,6 +53,10 @@ export default function HabitTrackerWidget({
       return count
     })
   }, [dates, habits, completedDatesSet])
+
+  if (habits.length === 0) {
+    return null
+  }
 
   return (
     <BentoWidget className={cn(styles.habitTrackerWidget, className)}>

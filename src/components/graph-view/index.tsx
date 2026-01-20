@@ -5,14 +5,14 @@ import { SigmaContainer, useLoadGraph, useSigma } from '@react-sigma/core'
 import Graph from 'graphology'
 import type { SerializedGraph } from 'graphology-types'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import ForceLayout from './ForceLayout'
-import GraphControls from './GraphControls'
-import GraphEvents from './GraphEvents'
-import GraphSearch from './GraphSearch'
+import ForceLayout from './force-layout'
+import GraphControls from './graph-controls'
+import GraphEvents from './graph-events'
+import GraphSearch from './graph-search'
 import GraphSettings, {
   DEFAULT_VALUES,
   type GraphSettingsValues,
-} from './GraphSettings'
+} from './graph-settings'
 import styles from './styles.module.css'
 
 const LABEL_FONT =

@@ -47,14 +47,11 @@ function RandomContent() {
 
   return (
     <div className={styles.container}>
-      <a
-        aria-label="Navigate to a random page"
-        className={styles.diceButton}
-        href={randomUrl ?? '/'}
-      >
+      <a className={styles.diceButton} href={randomUrl ?? '/'}>
         <div aria-hidden="true" className={styles.dice}>
           🎲
         </div>
+        <span className={styles.srOnly}>Navigate to a random page</span>
       </a>
       {status === 'error' && (
         <p className={styles.error}>Failed to load sitemap. Try again.</p>

@@ -57,9 +57,9 @@ export default function GiscusComments({ term }: GiscusCommentsProps) {
   }, [])
 
   const fallback = (
-    <div aria-live="polite" className={styles.loading} role="status">
-      {'Loading comments\u2026'}
-    </div>
+    <output aria-live="polite" className={styles.loading}>
+      {'Loading comments…'}
+    </output>
   )
 
   return (
