@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-01-21.md",
+                "file": "pages/infisical.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-01-21"
+              "title": "infisical"
             }
           }
         ],
@@ -212,9 +212,9 @@
   },
   "active": "a16b9e19e716fb2a",
   "lastOpenFiles": [
+    "journals/2026-01-21.md",
     "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
     "journals/2026-01-20.md",
-    "journals/2026-01-21.md",
     "pages/infisical.md",
     "pages/Project Starfinder.md",
     "pages/Clerk Passkey Nudge.md",
