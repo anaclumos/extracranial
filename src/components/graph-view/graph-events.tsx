@@ -1,7 +1,7 @@
 'use client'
 
 import { useRegisterEvents, useSigma } from '@react-sigma/core'
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 interface GraphEventsProps {
   onNodeClick?: (nodeId: string, attrs: { slug?: string }) => void
@@ -16,6 +16,7 @@ export default function GraphEvents({
   const registerEvents = useRegisterEvents()
   const graph = sigma.getGraph()
   const [hoveredNode, setHoveredNode] = useState<string | null>(null)
+  const cursorModifiedRef = useRef(false)
 
   const handleClickNode = useCallback(
     (event: { node: string }) => {
@@ -30,12 +31,23 @@ export default function GraphEvents({
 
   const handleEnterNode = useCallback((event: { node: string }) => {
     document.body.style.cursor = 'pointer'
+    cursorModifiedRef.current = true
     setHoveredNode(event.node)
   }, [])
 
   const handleLeaveNode = useCallback(() => {
     document.body.style.cursor = 'default'
+    cursorModifiedRef.current = false
     setHoveredNode(null)
+  }, [])
+
+  // Cleanup cursor on unmount to prevent memory leak
+  useEffect(() => {
+    return () => {
+      if (cursorModifiedRef.current) {
+        document.body.style.cursor = 'default'
+      }
+    }
   }, [])
 
   useEffect(() => {

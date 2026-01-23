@@ -113,7 +113,12 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
     [isOpen, results, activeIndex, handleSelect]
   )
 
-  const getOptionId = (index: number) => `${listboxId}-option-${index}`
+  const handleFocus = useCallback(() => setIsOpen(true), [])
+
+  const getOptionId = useCallback(
+    (index: number) => `${listboxId}-option-${index}`,
+    [listboxId]
+  )
 
   return (
     <div className={styles.searchContainer}>
@@ -132,7 +137,7 @@ export default function GraphSearch({ onSelect }: GraphSearchProps) {
         className={styles.searchInput}
         name="graph-search"
         onChange={handleInputChange}
-        onFocus={() => setIsOpen(true)}
+        onFocus={handleFocus}
         onKeyDown={handleKeyDown}
         placeholder={translate({
           id: 'graph.search.placeholder',

@@ -1,6 +1,13 @@
+import type { CSSProperties } from 'react'
+
 interface SpotifyProps {
   url: string
   title?: string
+}
+
+const IFRAME_STYLE: CSSProperties = {
+  width: '100%',
+  borderRadius: '0.75rem',
 }
 
 export default function Spotify({
@@ -14,7 +21,7 @@ export default function Spotify({
       height="160"
       loading="lazy"
       src={url}
-      style={{ width: '100%', borderRadius: '0.75rem' }}
+      style={IFRAME_STYLE}
       title={title}
     />
   )
