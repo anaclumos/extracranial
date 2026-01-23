@@ -1,4 +1,5 @@
 import { cn } from '@site/src/util/cn'
+import type { CSSProperties } from 'react'
 import { useEffect, useState } from 'react'
 import {
   DAY_NAMES,
@@ -9,6 +10,10 @@ import {
 import type { ContributionDay, ContributionWeek } from '../../types'
 import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
+
+const LEVEL_STYLES: CSSProperties[] = GITHUB_LEVEL_COLORS.map((color) => ({
+  background: color,
+}))
 
 interface WidgetContributionWeek extends ContributionWeek {
   id: string
@@ -133,7 +138,7 @@ export default function GitHubGraphWidget({
                       : styles.githubCellActive
                   )}
                   key={contrib.date}
-                  style={{ background: GITHUB_LEVEL_COLORS[contrib.level] }}
+                  style={LEVEL_STYLES[contrib.level]}
                   title={`${contrib.date}: ${contrib.count} contributions`}
                 />
               )

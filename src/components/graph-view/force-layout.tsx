@@ -28,9 +28,6 @@ function getFA2Settings(settings: GraphSettingsValues) {
 export default function ForceLayout({ settings, isRunning }: ForceLayoutProps) {
   const sigma = useSigma()
   const layoutRef = useRef<FA2Layout | null>(null)
-  const settingsRef = useRef(settings)
-
-  settingsRef.current = settings
 
   useEffect(() => {
     if (layoutRef.current) {
@@ -48,7 +45,7 @@ export default function ForceLayout({ settings, isRunning }: ForceLayoutProps) {
     }
 
     layoutRef.current = new FA2Layout(graph, {
-      settings: getFA2Settings(settingsRef.current),
+      settings: getFA2Settings(settings),
     })
 
     layoutRef.current.start()
@@ -59,20 +56,7 @@ export default function ForceLayout({ settings, isRunning }: ForceLayoutProps) {
         layoutRef.current = null
       }
     }
-  }, [sigma, isRunning])
-
-  useEffect(() => {
-    if (layoutRef.current && isRunning) {
-      layoutRef.current.kill()
-
-      const graph = sigma.getGraph()
-      layoutRef.current = new FA2Layout(graph, {
-        settings: getFA2Settings(settings),
-      })
-
-      layoutRef.current.start()
-    }
-  }, [sigma, settings, isRunning])
+  }, [sigma, isRunning, settings])
 
   return null
 }

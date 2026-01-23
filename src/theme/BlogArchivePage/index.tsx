@@ -3,6 +3,8 @@ import { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import type { ArchiveBlogPost, Props } from '@theme/BlogArchivePage'
 import Layout from '@theme/Layout'
+import type { CSSProperties } from 'react'
+import { memo, useMemo } from 'react'
 import styles from './styles.module.css'
 
 const t = {
@@ -24,12 +26,14 @@ const yearSuffix = translate({
   description: 'The suffix of a year in a blog archive',
 })
 
+const POST_ITEM_STYLE: CSSProperties = { textWrap: 'balance' }
+
 interface YearProp {
   year: string
   posts: ArchiveBlogPost[]
 }
 
-function Year({ year, posts }: YearProp) {
+const Year = memo(function Year({ year, posts }: YearProp) {
   return (
     <>
       <h3>
@@ -40,13 +44,13 @@ function Year({ year, posts }: YearProp) {
       <ul className={styles.list}>
         {posts.map((post) => (
           <Link key={post.metadata.permalink} to={post.metadata.permalink}>
-            <li style={{ textWrap: 'balance' }}>{post.metadata.title}</li>
+            <li style={POST_ITEM_STYLE}>{post.metadata.title}</li>
           </Link>
         ))}
       </ul>
     </>
   )
-}
+})
 
 function YearsSection({ years }: { years: YearProp[] }) {
   return (
@@ -88,7 +92,10 @@ export default function BlogArchive({ archive }: Props) {
     message: 'All posts that I wrote.',
     description: 'The page & hero description of the blog archive page',
   })
-  const years = listPostsByYears(archive.blogPosts)
+  const years = useMemo(
+    () => listPostsByYears(archive.blogPosts),
+    [archive.blogPosts]
+  )
   return (
     <>
       <PageMetadata description={description} title={title} />

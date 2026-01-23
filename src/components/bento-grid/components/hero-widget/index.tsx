@@ -1,7 +1,7 @@
 import Translate from '@docusaurus/Translate'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import { cn } from '@site/src/util/cn'
-import { useEffect, useState } from 'react'
+import { memo, useCallback, useEffect, useState } from 'react'
 import { ORGANIZATIONS, type OrganizationKey } from '../../constants'
 import BentoWidget from '../bento-widget'
 import styles from './styles.module.css'
@@ -13,17 +13,27 @@ interface InlineOrgProps {
   onClick: () => void
 }
 
-function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
+const InlineOrg = memo(function InlineOrg({
+  name,
+  icon,
+  isActive,
+  onClick,
+}: InlineOrgProps) {
+  const handleClick = useCallback(
+    (e: React.MouseEvent) => {
+      e.stopPropagation()
+      onClick()
+    },
+    [onClick]
+  )
+
   return (
     <button
       aria-expanded={isActive}
       aria-haspopup="true"
       aria-label={name}
       className={styles.inlineOrg}
-      onClick={(e) => {
-        e.stopPropagation()
-        onClick()
-      }}
+      onClick={handleClick}
       type="button"
     >
       <img
@@ -41,7 +51,7 @@ function InlineOrg({ name, icon, isActive, onClick }: InlineOrgProps) {
       )}
     </button>
   )
-}
+})
 
 interface HeroWidgetProps {
   className?: string
@@ -61,9 +71,34 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
     return () => document.removeEventListener('click', handleClickOutside)
   }, [activeOrg])
 
-  const handleOrgClick = (name: string) => {
-    setActiveOrg(activeOrg === name ? null : name)
-  }
+  const handleOrgClick = useCallback((name: string) => {
+    setActiveOrg((prev) => (prev === name ? null : name))
+  }, [])
+
+  const handleKmlaClick = useCallback(
+    () => handleOrgClick('kmla'),
+    [handleOrgClick]
+  )
+  const handleUscClick = useCallback(
+    () => handleOrgClick('usc'),
+    [handleOrgClick]
+  )
+  const handleLunitClick = useCallback(
+    () => handleOrgClick('lunit'),
+    [handleOrgClick]
+  )
+  const handleBaeminClick = useCallback(
+    () => handleOrgClick('baemin'),
+    [handleOrgClick]
+  )
+  const handleKarrotClick = useCallback(
+    () => handleOrgClick('karrot'),
+    [handleOrgClick]
+  )
+  const handleGrammarlyClick = useCallback(
+    () => handleOrgClick('grammarly'),
+    [handleOrgClick]
+  )
 
   const getName = (org: OrganizationKey) =>
     isKorean ? ORGANIZATIONS[org].ko : ORGANIZATIONS[org].en
@@ -81,14 +116,14 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.kmla.icon}
                 isActive={activeOrg === 'kmla'}
                 name={getName('kmla')}
-                onClick={() => handleOrgClick('kmla')}
+                onClick={handleKmlaClick}
               />
               와{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.usc.icon}
                 isActive={activeOrg === 'usc'}
                 name={getName('usc')}
-                onClick={() => handleOrgClick('usc')}
+                onClick={handleUscClick}
               />
               를 졸업하고,
               <br />
@@ -96,7 +131,7 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.lunit.icon}
                 isActive={activeOrg === 'lunit'}
                 name={getName('lunit')}
-                onClick={() => handleOrgClick('lunit')}
+                onClick={handleLunitClick}
               />
               에서 의료 LLM 플랫폼을 만듭니다.
               <br />
@@ -104,21 +139,21 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.baemin.icon}
                 isActive={activeOrg === 'baemin'}
                 name={getName('baemin')}
-                onClick={() => handleOrgClick('baemin')}
+                onClick={handleBaeminClick}
               />
               ,{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.karrot.icon}
                 isActive={activeOrg === 'karrot'}
                 name={getName('karrot')}
-                onClick={() => handleOrgClick('karrot')}
+                onClick={handleKarrotClick}
               />
               ,{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.grammarly.icon}
                 isActive={activeOrg === 'grammarly'}
                 name={getName('grammarly')}
-                onClick={() => handleOrgClick('grammarly')}
+                onClick={handleGrammarlyClick}
               />
               를 거쳤습니다.
             </>
@@ -129,14 +164,14 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.kmla.icon}
                 isActive={activeOrg === 'kmla'}
                 name={getName('kmla')}
-                onClick={() => handleOrgClick('kmla')}
+                onClick={handleKmlaClick}
               />{' '}
               and{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.usc.icon}
                 isActive={activeOrg === 'usc'}
                 name={getName('usc')}
-                onClick={() => handleOrgClick('usc')}
+                onClick={handleUscClick}
               />
               .
               <br />
@@ -145,7 +180,7 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.lunit.icon}
                 isActive={activeOrg === 'lunit'}
                 name={getName('lunit')}
-                onClick={() => handleOrgClick('lunit')}
+                onClick={handleLunitClick}
               />
               .
               <br />
@@ -154,21 +189,21 @@ export default function HeroWidget({ className }: HeroWidgetProps) {
                 icon={ORGANIZATIONS.baemin.icon}
                 isActive={activeOrg === 'baemin'}
                 name={getName('baemin')}
-                onClick={() => handleOrgClick('baemin')}
+                onClick={handleBaeminClick}
               />
               ,{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.karrot.icon}
                 isActive={activeOrg === 'karrot'}
                 name={getName('karrot')}
-                onClick={() => handleOrgClick('karrot')}
+                onClick={handleKarrotClick}
               />
               , and{' '}
               <InlineOrg
                 icon={ORGANIZATIONS.grammarly.icon}
                 isActive={activeOrg === 'grammarly'}
                 name={getName('grammarly')}
-                onClick={() => handleOrgClick('grammarly')}
+                onClick={handleGrammarlyClick}
               />
               .
             </>

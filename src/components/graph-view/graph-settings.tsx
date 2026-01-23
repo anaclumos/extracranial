@@ -41,6 +41,8 @@ export default function GraphSettings({
 }: GraphSettingsProps) {
   const [isOpen, setIsOpen] = useState(false)
 
+  const toggleOpen = useCallback(() => setIsOpen((prev) => !prev), [])
+
   const handleChange = useCallback(
     (key: keyof GraphSettingsValues, value: number) => {
       onChange({ ...values, [key]: value })
@@ -117,7 +119,7 @@ export default function GraphSettings({
           })}
           className={styles.settingsButton}
           data-active={isOpen}
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={toggleOpen}
           title={translate({
             id: 'graph.settings.button.title',
             message: 'Adjust graph visualization settings',

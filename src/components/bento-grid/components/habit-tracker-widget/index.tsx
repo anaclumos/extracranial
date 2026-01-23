@@ -4,6 +4,7 @@ import habitLogData from '@site/src/data/habit-log.json'
 import habitsData from '@site/src/data/habits.json'
 import journalDates from '@site/src/data/journals.json'
 import { cn } from '@site/src/util/cn'
+import type { CSSProperties } from 'react'
 import { useMemo } from 'react'
 import {
   HABIT_COLORS,
@@ -53,6 +54,17 @@ export default function HabitTrackerWidget({
       return count
     })
   }, [dates, habits, completedDatesSet])
+
+  const habitStyles = useMemo(() => {
+    const colorStyles = new Map<number, CSSProperties>()
+    const bgStyles = new Map<number, CSSProperties>()
+    for (let i = 0; i < habits.length; i++) {
+      const color = HABIT_COLORS[i % HABIT_COLORS.length]
+      colorStyles.set(i, { color })
+      bgStyles.set(i, { background: color })
+    }
+    return { colorStyles, bgStyles }
+  }, [habits.length])
 
   if (habits.length === 0) {
     return null
@@ -118,12 +130,13 @@ export default function HabitTrackerWidget({
           const slugPath = habit.slug
             ? habit.slug.replace(LEADING_SLASH_RE, '')
             : habit.sourceFile.replace(MD_EXT_RE, '').replace(SPACE_RE, '%20')
-          const habitColor = HABIT_COLORS[habitIndex % HABIT_COLORS.length]
+          const colorStyle = habitStyles.colorStyles.get(habitIndex)
+          const bgStyle = habitStyles.bgStyles.get(habitIndex)
           return (
             <div className={styles.habitGridRow} key={habit.id}>
               <Link
                 className={styles.habitIdCell}
-                style={{ color: habitColor }}
+                style={colorStyle}
                 title={habit.title}
                 to={`/r/${slugPath}`}
               >
@@ -136,16 +149,13 @@ export default function HabitTrackerWidget({
                   styles.habitCell,
                   isCompleted ? styles.habitCellDone : styles.habitCellEmpty
                 )
-                const style = isCompleted
-                  ? { background: habitColor }
-                  : undefined
                 const title = `${habit.id} - ${date}: ${isCompleted ? 'Done' : 'Not done'}`
 
                 return hasJournal ? (
                   <Link
                     className={cellClassName}
                     key={`${habit.id}-${date}`}
-                    style={style}
+                    style={isCompleted ? bgStyle : undefined}
                     title={title}
                     to={`/r/${date}`}
                   />
@@ -153,7 +163,7 @@ export default function HabitTrackerWidget({
                   <span
                     className={cellClassName}
                     key={`${habit.id}-${date}`}
-                    style={style}
+                    style={isCompleted ? bgStyle : undefined}
                     title={title}
                   />
                 )
