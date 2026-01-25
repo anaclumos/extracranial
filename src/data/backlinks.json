@@ -1987,6 +1987,7 @@
   "2026-01-22": {},
   "2026-01-23": {},
   "2026-01-24": {},
+  "2026-01-25": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -4576,6 +4577,9 @@
   "App Clips": {
     "Explode": "- [[App Clips]] integration so that the receiver ..."
   },
+  "App Icon Inspirations": {
+    "2026-01-24": "- [[App Icon Inspirations]]"
+  },
   "App Intents": {
     "WWDC23": "- [[App Intents]] → Can be used as ..."
   },
@@ -6042,7 +6046,7 @@
     "Towards Ambient Computing": "... then, as we all know, [[ChatGPT]] came along.",
     "Unsemantic": "... lived for a while 😁 [[ChatGPT]] is very unsemantic",
     "Wolfram Alpha": "## Wolfram's [[ChatGPT]] prompt",
-    "iOS Icon Design": "- [[ChatGPT]] [[Prompt]]",
+    "iOS App Icon Design": "- [[ChatGPT]] [[Prompt]]",
     "기술 발전의 속도": "그런데 고작 3개월도 되지 않아 [[ChatGPT]]가 등장하며... 모든 것을 뒤바꾸어 놓았다. ...",
     "앰비언트 컴퓨팅을 향해": "... 없었기 때문이다. 그리고 모두가 알다시피 [[ChatGPT]]가 등장했다.",
     "초대장의 시대": "... 전혀 들지 못한다. 예를 들어, [[ChatGPT]]가 초대장이 필요했는가? 완전 아니다."
@@ -10698,6 +10702,10 @@
     "Finance": "- [[Mutual Fund]]",
     "Index Fund": "These are like [[Mutual Fund|mutual funds]], but they're managed by a ..."
   },
+  "My AGENTS.md": {
+    "2026-01-24": "- [[My AGENTS.md]]",
+    "2026-01-25": "- [[My AGENTS.md]]"
+  },
   "My Raycast Wrapped of 2022": {
     "2022-12-17": "- [[My Raycast Wrapped of 2022]]",
     "My Raycast Wrapped of 2023": "- [[My Raycast Wrapped of 2022]]"
@@ -11512,6 +11520,27 @@
   "Pasted image 20260115130405.png": {
     "How to fix your entire life in 1 day": "![[Pasted image 20260115130405.png]]",
     "하루만에 삶을 바꾸는 방법": "![[Pasted image 20260115130405.png]]"
+  },
+  "Pasted image 20260124231256.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231256.png]]"
+  },
+  "Pasted image 20260124231300.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231300.png]]"
+  },
+  "Pasted image 20260124231305.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231305.png]]"
+  },
+  "Pasted image 20260124231309.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231309.png]]"
+  },
+  "Pasted image 20260124231315.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231315.png]]"
+  },
+  "Pasted image 20260124231318.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231318.png]]"
+  },
+  "Pasted image 20260124231322.png": {
+    "App Icon Inspirations": "![[Pasted image 20260124231322.png]]"
   },
   "Pensieve": {
     "2022-11-07": "- [[Pensieve]]",
@@ -12364,7 +12393,7 @@
   },
   "Project Starfish": {},
   "Prompt": {
-    "iOS Icon Design": "- [[ChatGPT]] [[Prompt]]"
+    "iOS App Icon Design": "- [[ChatGPT]] [[Prompt]]"
   },
   "Prompt Engineering": {
     "2022-09-03": "- [[Prompt Engineering]]",
@@ -15817,8 +15846,10 @@
     "라즈베리 파이로 스마트 오디오 시스템 만들기": "AirPlay를 지원하는 [[iOS]] / [[iOS|iPadOS]] 기기를 사용하는 경우 컨트롤 센터에서 ...",
     "하늘땅사람 업데이트 기록": "- [[iOS]] 15에서도 하늘땅사람 키보드를 사용할 수 ..."
   },
-  "iOS Icon Design": {
-    "2025-08-11": "[[iOS Icon Design]]"
+  "iOS App Icon Design": {
+    "2025-08-11": "[[iOS App Icon Design]]",
+    "2026-01-24": "- [[iOS App Icon Design]]",
+    "2026-01-25": "- [[iOS App Icon Design]]"
   },
   "iOS Style Toggle in CSS": {
     "2022-10-12": "...  - [x] Archived [[iOS Style Toggle in CSS]]"
@@ -17898,7 +17929,7 @@
     "개성은 쟁취하는 것": "- [[한국의 입시와 거짓된 명예]]"
   },
   "한국의 테크 생태계": {
-    "2026-01-24": "[[한국의 테크 생태계]]"
+    "2026-01-24": "- [[한국의 테크 생태계]]"
   },
   "한국인": {
     "2022-07-05": "... 수학자로서는 최초 수상이다. 이전까지 [[한민족|한국계]]나 [[한국인]]이 이 상을 받은 적은 없었다.",
