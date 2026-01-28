@@ -22,7 +22,7 @@ everything I know! [Dive down the rabbit hole now](https://cho.sh/random)!
 
 ## Last updated
 
-Thu Jan 29 03:13:17 KST 2026
+Thu Jan 29 03:57:02 KST 2026
 
 ## Stats
 
@@ -32,7 +32,7 @@ Language            Files       Lines    Blanks  Comments       Code Complexity
 ───────────────────────────────────────────────────────────────────────────────
 Markdown            3,122      80,677    21,862         0     58,815          0
 TypeScript             66       5,689       551        15      5,123        350
-JSON                   43      24,832         0         0     24,832          0
+JSON                   43      24,783         0         0     24,783          0
 CSS                    35       3,386       494         6      2,886          0
 SVG                    16         111         0        12         99          0
 YAML                    6          35         0         0         35          0
@@ -43,12 +43,12 @@ JavaScript              1       1,130         5         5      1,120         28
 Plain Text              1           3         0         0          3          0
 TOML                    1           2         0         0          2          0
 ───────────────────────────────────────────────────────────────────────────────
-Total               3,295     115,964    22,918        42     93,004        378
+Total               3,295     115,915    22,918        42     92,955        378
 ───────────────────────────────────────────────────────────────────────────────
-Estimated Cost to Develop (organic) $3,151,534
+Estimated Cost to Develop (organic) $3,149,790
 Estimated Schedule Effort (organic) 21.27 months
 Estimated People Required (organic) 13.16
 ───────────────────────────────────────────────────────────────────────────────
-Processed 5773699 bytes, 5.774 megabytes (SI)
+Processed 5772161 bytes, 5.772 megabytes (SI)
 ───────────────────────────────────────────────────────────────────────────────
 ```

@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ec93ccc085dca9c7",
+        "id": "8665f7d363339b42",
         "type": "tabs",
         "children": [
           {
-            "id": "35de830ca03225d0",
+            "id": "8df17bcaf0374c39",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templates/journal template.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "journal template"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "annealing",
+                "query": "status: 'ING'",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,10 +185,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35de830ca03225d0",
+  "active": "8df17bcaf0374c39",
   "lastOpenFiles": [
-    "journals/2026-01-28.md",
     "journals/2026-01-29.md",
+    "pages/조잡생각.md",
+    "journals/2026-01-28.md",
+    "pages/CSS Inject.md",
     "pages/토스체.md",
     "pages/iOS App Icon Design.md",
     "pages/biome.jsonc.md",
@@ -199,8 +215,6 @@
     "journals/2023-06-14.md",
     "journals/2024-08-17.md",
     "journals/2026-01-25.md",
-    "pages/Apple.md",
-    "pages/finished.dev.md",
     "assets/Pasted image 20260124231256.png",
     "assets/Pasted image 20260124231322.png",
     "assets/Pasted image 20260124231318.png",

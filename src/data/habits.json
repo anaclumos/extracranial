@@ -2,28 +2,28 @@
   {
     "id": "ALCX",
     "title": "No Alcohol",
-    "status": "ING",
+    "status": "FAILURE",
     "sourceFile": "No Alcohol.md",
     "slug": "/1AB6AF"
   },
   {
     "id": "CRVX",
     "title": "No Night Time Cravings",
-    "status": "ING",
+    "status": "FAILURE",
     "sourceFile": "No Night Time Cravings.md",
     "slug": "/AF65FA"
   },
   {
     "id": "PN20",
     "title": "Piano 20 Minutes",
-    "status": "ING",
+    "status": "FAILURE",
     "sourceFile": "Piano 20 Minutes.md",
     "slug": "/465178"
   },
   {
     "id": "CJSG",
     "title": "조잡생각",
-    "status": "ING",
+    "status": "FAILURE",
     "sourceFile": "조잡생각.md",
     "slug": "/849E66"
   }
