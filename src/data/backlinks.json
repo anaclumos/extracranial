@@ -1988,6 +1988,9 @@
   "2026-01-23": {},
   "2026-01-24": {},
   "2026-01-25": {},
+  "2026-01-26": {},
+  "2026-01-27": {},
+  "2026-01-28": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -2296,6 +2299,7 @@
     "야광봉 (14誠鉉)": "![[315260.jpg]]"
   },
   "315C50.png": {
+    "2026-01-26": "![[315C50.png]]",
     "불가사리": "![[315C50.png]]"
   },
   "317954.png": {
@@ -4516,7 +4520,11 @@
     "Wayfinding with AI Pin": "- Built [[Animation|animations]] to work alongside the potential ..."
   },
   "Anthropic AI Safety Fellow": {
-    "2026-01-13": "- [[Anthropic AI Safety Fellow]]"
+    "2026-01-13": "- [[Anthropic AI Safety Fellow]]",
+    "2026-01-28": "- [[Anthropic AI Safety Fellow]]"
+  },
+  "Anthropic AI Safety Fellowship(Anthropic Fellows Program) 레퍼런스 체크 단계 관련 공유 및 CoE 미션 연계 설명": {
+    "2026-01-28": "- [[Anthropic AI Safety Fellowship(Anthropic Fellows Program) 레퍼런스 체크 단계 관련 공유 및 CoE 미션 연계 설명]]"
   },
   "Anti": {
     "2023-05-10": "- [[Anti]]",
@@ -8657,7 +8665,8 @@
   },
   "Goongoom": {
     "2022-10-27": "### [[Goongoom]] is officially dead",
-    "2026-01-18": "[[Goongoom]]"
+    "2026-01-18": "[[Goongoom]]",
+    "2026-01-26": "- [[Goongoom]]"
   },
   "Governance Model": {
     "2024-04-26": "- [[Governance Model]]",
@@ -15300,7 +15309,8 @@
     "0278 First Bad Version": "When using [[binary search]], we must consider the case ..."
   },
   "biome.jsonc": {
-    "2026-01-14": "- [[biome.jsonc]]"
+    "2026-01-14": "- [[biome.jsonc]]",
+    "2026-01-28": "- [[biome.jsonc]]"
   },
   "blank=True vs null=True in Django": {
     "2025-05-13": "- [[blank=True vs null=True in Django]]"
@@ -15631,6 +15641,9 @@
     "Monte Carlo Algorithm": "... Used in varied fields like [[finance]], physics, game theory, and [[graphics]], ...",
     "Web3": "... \"invest\" into the \"future of [[finance]]\", the \"future of the web\", ..."
   },
+  "finished.dev": {
+    "2026-01-26": "- [[finished.dev]]"
+  },
   "firefox": {
     "Love Firefox": "i love [[firefox]]"
   },
@@ -15849,7 +15862,9 @@
   "iOS App Icon Design": {
     "2025-08-11": "[[iOS App Icon Design]]",
     "2026-01-24": "- [[iOS App Icon Design]]",
-    "2026-01-25": "- [[iOS App Icon Design]]"
+    "2026-01-25": "- [[iOS App Icon Design]]",
+    "2026-01-26": "- [[iOS App Icon Design]]",
+    "2026-01-28": "- [[iOS App Icon Design]]"
   },
   "iOS Style Toggle in CSS": {
     "2022-10-12": "...  - [x] Archived [[iOS Style Toggle in CSS]]"

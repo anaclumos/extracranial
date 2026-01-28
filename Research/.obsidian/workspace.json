@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bb2d52ff1aa04642",
+        "id": "17a51b57dd9a9550",
         "type": "tabs",
         "children": [
           {
-            "id": "ea14e34fff935392",
+            "id": "24a79909f2882d79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/My AGENTS.md.md",
+                "file": "journals/2026-01-28.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "My AGENTS.md"
+              "title": "2026-01-28"
+            }
+          },
+          {
+            "id": "e4d5433f397e3965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-01-28.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-28"
+            }
+          },
+          {
+            "id": "20c3deb6ab805603",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pages/토스체.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "토스체"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -63,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "t",
+                "query": "annealing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -185,44 +234,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea14e34fff935392",
+  "active": "20c3deb6ab805603",
   "lastOpenFiles": [
-    "journals/2026-01-25.md",
-    "pages/Squircled App Icon Generator.md",
     "pages/iOS App Icon Design.md",
-    "pages/My AGENTS.md.md",
-    "journals/2026-01-24.md",
-    "pages/Prettier.md",
-    "pages/토스체.md",
-    "assets/Pasted image 20260124231256.png",
+    "journals/2026-01-28.md",
+    "pages/biome.jsonc.md",
+    "pages/Simulated Annealing for Designs.md",
+    "journals/2022-11-11.md",
+    "pages/Bubbly Solutions.md",
+    "pages/Anthropic AI Safety Fellowship(Anthropic Fellows Program) 레퍼런스 체크 단계 관련 공유 및 CoE 미션 연계 설명.md",
+    "journals/2026-01-27.md",
+    "pages/Untitled.md",
+    "pages/Anthropic AI Safety Fellow.md",
+    "pages/Anthropic AI.md",
+    "Untitled.canvas",
     "pages/App Icon Inspirations.md",
+    "pages/Menu Bar Spacing.md",
+    "pages/My AGENTS.md.md",
+    "assets/315C50.png",
+    "journals/2026-01-26.md",
+    "pages/불가사리.md",
+    "pages/誠鉉.md",
+    "pages/내가 만든.md",
+    "pages/불가사리 (23誠鉉).md",
+    "journals/2023-06-14.md",
+    "journals/2024-08-17.md",
+    "journals/2026-01-25.md",
+    "pages/Apple.md",
+    "pages/finished.dev.md",
+    "pages/Goongoom.md",
+    "pages/Squircled App Icon Generator.md",
+    "assets/Pasted image 20260124231256.png",
     "assets/Pasted image 20260124231322.png",
     "assets/Pasted image 20260124231318.png",
     "assets/Pasted image 20260124231315.png",
     "assets/Pasted image 20260124231309.png",
     "assets/Pasted image 20260124231305.png",
     "assets/Pasted image 20260124231300.png",
-    "journals/2026-01-23.md",
-    "pages/infisical.md",
-    "pages/한국의 테크 생태계.md",
-    "pages/조잡생각.md",
-    "journals/2026-01-22.md",
-    "journals/2026-01-21.md",
-    "pages/10년 뒤 어떤 문제를 해결하는 사람이 되어 있고 싶은가.md",
-    "pages/영어 설명충 박멸.md",
-    "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
-    "pages/Toss.md",
-    "pages/biome.jsonc.md",
-    "pages/Biome.md",
-    "journals/2026-01-20.md",
-    "pages/Project Starfinder.md",
-    "pages/Clerk Passkey Nudge.md",
-    "pages/Goongoom.md",
-    "pages/Untitled.md",
-    "pages/CSS Inject.md",
     "assets/Pasted image 20260115130405.png",
     "assets/Pasted image 20260115130306.png",
-    "assets/Pasted image 20260115130142.png",
     "assets/Screen Recording 2024-07-03 at 10.30.25 PM.mov",
     "assets/CB8F15.heic",
     "assets/F80E81.heic",
@@ -232,7 +282,6 @@
     "assets/3D8883.heic",
     "assets/EBE739.heic",
     "assets/2F65C9.png.sb-df3ed59d-Bmok2d",
-    "assets/FDD149.mp4",
-    "Untitled.canvas"
+    "assets/FDD149.mp4"
   ]
 }
