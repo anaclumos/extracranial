@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "17a51b57dd9a9550",
+        "id": "ec93ccc085dca9c7",
         "type": "tabs",
         "children": [
           {
-            "id": "24a79909f2882d79",
+            "id": "35de830ca03225d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-28.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-01-28"
-            }
-          },
-          {
-            "id": "e4d5433f397e3965",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-01-28.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-01-28"
-            }
-          },
-          {
-            "id": "20c3deb6ab805603",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pages/토스체.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "토스체"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -234,10 +171,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20c3deb6ab805603",
+  "active": "35de830ca03225d0",
   "lastOpenFiles": [
-    "pages/iOS App Icon Design.md",
     "journals/2026-01-28.md",
+    "journals/2026-01-29.md",
+    "pages/토스체.md",
+    "pages/iOS App Icon Design.md",
     "pages/biome.jsonc.md",
     "pages/Simulated Annealing for Designs.md",
     "journals/2022-11-11.md",
@@ -262,8 +201,6 @@
     "journals/2026-01-25.md",
     "pages/Apple.md",
     "pages/finished.dev.md",
-    "pages/Goongoom.md",
-    "pages/Squircled App Icon Generator.md",
     "assets/Pasted image 20260124231256.png",
     "assets/Pasted image 20260124231322.png",
     "assets/Pasted image 20260124231318.png",
