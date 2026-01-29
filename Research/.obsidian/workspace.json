@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8665f7d363339b42",
+        "id": "e4eb00beaa1ddfee",
         "type": "tabs",
         "children": [
           {
-            "id": "8df17bcaf0374c39",
+            "id": "75bc1ede37040a63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/journal template.md",
+                "file": "journals/2026-01-29.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "journal template"
+              "title": "2026-01-29"
             }
           }
         ]
@@ -185,15 +185,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8df17bcaf0374c39",
+  "active": "75bc1ede37040a63",
   "lastOpenFiles": [
+    "pages/biome.jsonc.md",
+    "pages/OpenCode Trigger MCP OAuth.md",
     "journals/2026-01-29.md",
+    "pages/디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월).md",
+    "pages/두그열.md",
+    "templates/journal template.md",
     "pages/조잡생각.md",
     "journals/2026-01-28.md",
     "pages/CSS Inject.md",
     "pages/토스체.md",
     "pages/iOS App Icon Design.md",
-    "pages/biome.jsonc.md",
     "pages/Simulated Annealing for Designs.md",
     "journals/2022-11-11.md",
     "pages/Bubbly Solutions.md",
@@ -211,10 +215,6 @@
     "pages/불가사리.md",
     "pages/誠鉉.md",
     "pages/내가 만든.md",
-    "pages/불가사리 (23誠鉉).md",
-    "journals/2023-06-14.md",
-    "journals/2024-08-17.md",
-    "journals/2026-01-25.md",
     "assets/Pasted image 20260124231256.png",
     "assets/Pasted image 20260124231322.png",
     "assets/Pasted image 20260124231318.png",
