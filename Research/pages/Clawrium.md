@@ -1,6 +1,4 @@
 ---
 lang: 'ko'
-slug: '/76DCE9'
+slug: '/678E5E'
 ---
-
-
