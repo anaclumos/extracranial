@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "f01a9ca8a2296343",
+        "id": "bbf1eae92aacee28",
         "type": "tabs",
         "children": [
           {
-            "id": "c62ff907d10f6525",
+            "id": "044ae8573130c0a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "pages/성현산스.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "성현산스"
             }
           }
         ]
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "status: 'ING'",
+                "query": "english",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,12 +185,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c62ff907d10f6525",
+  "active": "044ae8573130c0a7",
   "lastOpenFiles": [
+    "journals/2026-02-11.md",
+    "pages/성현산스.md",
+    "journals/2026-02-09.md",
+    "journals/2026-02-08.md",
+    "pages/Harding (Font).md",
+    "journals/2022-09-25.md",
+    "pages/Compress Voice Transcripts.md",
+    "journals/2026-02-06.md",
+    "pages/Clawrium.md",
+    "pages/Bagoss.md",
+    "pages/Font.md",
+    "pages/Vocab.md",
+    "pages/alacrity.md",
     "journals/2026-02-04.md",
+    "pages/Anthropic AI Safety Fellow General Coding Assessment.md",
+    "journals/2026-02-05.md",
     "pages/세상의 확산.md",
     "pages/Open Core Models.md",
-    "pages/Anthropic AI Safety Fellow General Coding Assessment.md",
     "journals/2026-02-03.md",
     "pages/OpenClaw.md",
     "journals/2026-02-02.md",
@@ -185,20 +213,6 @@
     "pages/My AGENTS.md.md",
     "journals/2026-01-31.md",
     "pages/biome.jsonc.md",
-    "pages/디지털 브레인과 개발에 대한 질문 편지 (24誠鉉 2월).md",
-    "pages/두그열.md",
-    "templates/journal template.md",
-    "pages/조잡생각.md",
-    "journals/2026-01-28.md",
-    "pages/CSS Inject.md",
-    "pages/토스체.md",
-    "pages/iOS App Icon Design.md",
-    "pages/Simulated Annealing for Designs.md",
-    "journals/2022-11-11.md",
-    "pages/Bubbly Solutions.md",
-    "pages/Anthropic AI Safety Fellowship(Anthropic Fellows Program) 레퍼런스 체크 단계 관련 공유 및 CoE 미션 연계 설명.md",
-    "journals/2026-01-27.md",
-    "pages/Untitled.md",
     "Untitled.canvas",
     "assets/315C50.png",
     "assets/Pasted image 20260124231256.png",

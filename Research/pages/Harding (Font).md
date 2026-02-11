@@ -16,6 +16,8 @@ slug: '/93A9A5'
 
 Ivar-Headline?
 
+ABC Arizona Serif
+
 Calena
 
 [Alegreya - Google Fonts](https://fonts.google.com/specimen/Alegreya)

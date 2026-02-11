@@ -82,6 +82,14 @@ const config: Config = {
     },
   ],
 
+  scripts: [
+    {
+      src: 'https://cdn.visitors.now/v.js',
+      'data-token': '0aec60f4-d616-4cfd-a683-a528b405803d',
+      async: true,
+    },
+  ],
+
   stylesheets: [
     {
       href: `${CDN_BASE}/npm/katex@latest/dist/katex.min.css`,

@@ -1996,6 +1996,10 @@
   "2026-02-04": {
     "세상의 확산": "기술낙관론자 조성현의 [[조잡생각]] [[2026-02-04]]"
   },
+  "2026-02-05": {},
+  "2026-02-06": {},
+  "2026-02-08": {},
+  "2026-02-09": {},
   "2026년 탕아의 맥 복귀": {
     "2026-01-05": "- [[2026년 탕아의 맥 복귀]]"
   },
@@ -4528,9 +4532,6 @@
     "2026-01-13": "- [[Anthropic AI Safety Fellow]]",
     "2026-01-28": "- [[Anthropic AI Safety Fellow]]"
   },
-  "Anthropic AI Safety Fellow General Coding Assessment": {
-    "2026-02-04": "- [[Anthropic AI Safety Fellow General Coding Assessment]]"
-  },
   "Anti": {
     "2023-05-10": "- [[Anti]]",
     "Antifragile": "[[Anti]]fragile is a concept introduced by ...",
@@ -5165,6 +5166,9 @@
   },
   "Bad Interview Experience with Replo": {
     "2023-05-29": "- [[Bad Interview Experience with Replo]]"
+  },
+  "Bagoss": {
+    "2026-02-08": "- [[Bagoss]]"
   },
   "Bas Ording": {},
   "Base Frame Pointer": {
@@ -6133,6 +6137,10 @@
   "Classic Blogs": {
     "Medium": "Medium is a [[Classic Blogs]] service. There's also a premium ...",
     "Tools for Thought": "- [[Classic Blogs]]. just make a post and ..."
+  },
+  "Clawrium": {
+    "2026-02-06": "[[Clawrium]]",
+    "2026-02-08": "- [[Clawrium]]"
   },
   "Clean Energy": {
     "2023-01-13": "- [[Clean Energy]]"
@@ -8246,6 +8254,7 @@
     "2022-08-01": "... Just realized that this enables [[Font]] [[Font Features|Ligature]] Settings.",
     "2024-10-06": "- [[Font]]",
     "Apple Newsroom 서체 따라하기": "... may not make the Apple [[Font]] available over a network where ...",
+    "Bagoss": "[[Font]]",
     "CalliFontia": "... [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].",
     "Font Features": "... to enhance legibilities of a [[Font]].",
     "Grotesque": "... are usually horizontal, and the [[Font|typeface]] frequently has a spurred \"G\" ...",
@@ -14777,6 +14786,7 @@
     "Simian과 심미안": "**[[Simian]]**이라는 영어 [[Vocab|단어]]는 [[Simian|원숭이]], [[Simian|유인원]]을 뜻한다.",
     "Swift String 조작은 왜 그 모양인가": "... 서기소 묶음(Extended grapheme clusters)\"이 있는 [[Vocab|단어]]가 포함된다. Integer를 사용하면 각 문자열의 ...",
     "Vicarious": "[[Vocab]]",
+    "alacrity": "[[Vocab]]",
     "armada": "[[Vocab]]",
     "demure": "[[Vocab]]",
     "pun": "[[Vocab]]",
@@ -15204,6 +15214,9 @@
     "AI and Ecommerce": "[[ai]] and [[e-commerce]]",
     "Geohot-Twitter Mayhem": "... famous [[hacker]] and founder of Comma.[[ai]]. [[Elon Musk]] hired him to ...",
     "프로젝트 어덕행덕": "- 교차편집 [[ai]]의 본 목적은 단순하게 음악 방송들만 ..."
+  },
+  "alacrity": {
+    "2026-02-06": "[[alacrity]]"
   },
   "already.dev": {
     "2025-01-21": "- [[already.dev]]"
@@ -16295,6 +16308,9 @@
   "ruby": {
     "Higher-Level Languages and Their Speeds": "- Let's be clear: [[ruby]] is slow. The garbage collector, ..."
   },
+  "sans.cho.sh": {
+    "성현산스": "[[sans.cho.sh]]"
+  },
   "scheduler": {
     "Preemptive Multitasking": "... executing process and invokes a [[scheduler]] to determine which process should ...",
     "Threads": "... be managed independently by a [[scheduler]], typically a part of the ..."
@@ -17314,6 +17330,9 @@
   "선진국과 주민등록번호": {
     "Login.gov": "물론 [[선진국과 주민등록번호]]에서 알 수 있듯이 완벽한 중앙통제형 ...",
     "국가와 민족": "- [[선진국과 주민등록번호]]"
+  },
+  "성현산스": {
+    "2026-02-09": "[[성현산스]]"
   },
   "성현적 발상": {
     "2024-04-26": "- [[성현적 발상]]",
