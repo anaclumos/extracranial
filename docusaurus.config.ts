@@ -98,13 +98,7 @@ const config: Config = {
       crossorigin: 'anonymous',
       as: 'style',
     },
-    {
-      href: `${CDN_BASE}/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-gov-dynamic-subset.min.css`,
-      type: 'text/css',
-      rel: 'stylesheet',
-      crossorigin: 'anonymous',
-      as: 'style',
-    },
+
     {
       href: `${CDN_BASE}/npm/@fontsource/iosevka@latest/index.css`,
       type: 'text/css',

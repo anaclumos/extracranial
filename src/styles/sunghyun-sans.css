@@ -1,0 +1,184 @@
+/* Sunghyun Sans — https://github.com/anaclumos/sunghyun-sans */
+/* Std (Latin, Cyrillic, Greek, Vietnamese) */
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Thin.woff2")
+    format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-ExtraLight.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Light.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSans-Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* KR (Korean) — unicode-range scoped */
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Thin.woff2")
+    format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-ExtraLight.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Light.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Medium.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-SemiBold.woff2")
+    format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-ExtraBold.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR";
+  src: url("https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@main/site/public/fonts/SunghyunSansKR-Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range:
+    U+AC00-D7AF, U+1100-11FF, U+3130-318F, U+A960-A97F, U+D7B0-D7FF;
+}
