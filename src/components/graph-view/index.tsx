@@ -16,7 +16,7 @@ import GraphSettings, {
 import styles from './styles.module.css'
 
 const LABEL_FONT =
-  '"Pretendard GOV Variable", system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif'
+  '"Sunghyun Sans", "Sunghyun Sans KR", system-ui, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif'
 
 const COLORS = {
   light: {
