@@ -9,10 +9,10 @@ slug: '/1BAE48'
 // src/db/schema.ts
 import { pgSchema, text, timestamp, uuid } from 'drizzle-orm/pg-core'
 
-// 프로젝트 전용 스키마 정의 ("public" 아님)
+// Define a schema for the project (not Postgres's default public)
 export const myProject = pgSchema('my_project')
 
-// 모든 테이블은 이 스키마 아래에 생성
+// Create all tables under this schema
 export const users = myProject.table('users', {
   id: uuid('id').defaultRandom().primaryKey(),
   name: text('name').notNull(),
@@ -33,9 +33,9 @@ export default defineConfig({
   dbCredentials: {
     url: process.env.DATABASE_URL!,
   },
-  // 중요: 해당 프로젝트의 스키마만 대상으로 격리
+  // Isolate the schema with the project codename
   schemaFilter: ['my_project'],
-  // 중요: 마이그레이션을 공유 "drizzle" 스키마가 아닌 프로젝트 스키마에 저장
+  // Save the migration to the schema of the project codename
   migrations: {
     schema: 'my_project',
     table: '__drizzle_migrations',
@@ -49,9 +49,4 @@ import { drizzle } from 'drizzle-orm/node-postgres'
 import * as schema from './schema'
 
 export const db = drizzle(process.env.DATABASE_URL!, { schema })
-```
-
-```bash
-pnpm drizzle-kit generate
-pnpm drizzle-kit migrate
 ```
