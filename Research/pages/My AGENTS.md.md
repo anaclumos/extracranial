@@ -3,10 +3,12 @@ lang: 'en'
 slug: '/DFE522'
 ---
 
-- Always work in Git Worktree.
-- Ignore all LSP errors.
-- Always use CLI to install stuff, so that you install the latest one.
-- Use `env.ts` file with Zod to get type-safe environment variables.
-- Never use setStates inside useEffects.
-- Never use any `vh`, `h-screen`, etc. Use `h-full` with `flex-1`. Never use `vw`.
-- Never use arbitrary tailwind values (the ones with brackets). Always use Tailwind default defined values.
+- use bun.
+- use shadcn; never reinvent a component.
+- never use em-dash.
+- you have infinite exa, grep, context7 quota. always search.
+- use cli to install stuff, so that you get the latest versions.
+- use env.ts with zod and t3-oss/env so that we get type-safe env vars.
+- never use set states inside use effects.
+- never use vh, h-screen, tec. use h-full with flex-1. never use vw, as well.
+- never use arbitrary tailwind values (ones with brackets) always use tailwind default values.
