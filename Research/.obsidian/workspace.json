@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "74340f397d159d21",
+        "id": "eecbaa3be6104dcd",
         "type": "tabs",
         "children": [
           {
-            "id": "a1b522d162b3e72b",
+            "id": "0f44e83912e165d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-02-23.md",
+                "file": "pages/잡스와 생존 편향 (19誠鉉).md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-02-23"
-            }
-          },
-          {
-            "id": "70ed443b4063ba9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "journals/2026-02-23.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2026-02-23"
+              "title": "잡스와 생존 편향 (19誠鉉)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Replace",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,9 +184,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "70ed443b4063ba9d",
+  "active": "0f44e83912e165d5",
   "lastOpenFiles": [
-    "pages/My AGENTS.md.md",
+    "pages/AGENTS.md.md",
+    "journals/2026-03-04.md",
+    "pages/Kyber Matrix.md",
+    "pages/Prettier.md",
+    "journals/2026-03-02.md",
+    "pages/OpenCode Trigger MCP OAuth.md",
+    "pages/Untitled.base",
+    "journals/2026-02-24.md",
+    "journals/2026-02-25.md",
+    "pages/Absolute Mode.md",
     "journals/2026-02-23.md",
     "journals/2026-02-12.md",
     "pages/토스체.md",
@@ -230,14 +213,6 @@
     "journals/2026-02-08.md",
     "pages/Harding (Font).md",
     "journals/2022-09-25.md",
-    "pages/Compress Voice Transcripts.md",
-    "journals/2026-02-06.md",
-    "pages/Clawrium.md",
-    "pages/Bagoss.md",
-    "pages/Font.md",
-    "pages/Vocab.md",
-    "pages/alacrity.md",
-    "journals/2026-02-04.md",
     "Untitled.canvas",
     "assets/315C50.png",
     "assets/Pasted image 20260124231256.png",
@@ -257,7 +232,6 @@
     "assets/380540.heic",
     "assets/3D8883.heic",
     "assets/EBE739.heic",
-    "assets/2F65C9.png.sb-df3ed59d-Bmok2d",
-    "assets/FDD149.mp4"
+    "assets/2F65C9.png.sb-df3ed59d-Bmok2d"
   ]
 }
