@@ -53,7 +53,7 @@
     "ready": "bun preprocess.ts",
     "save": "bun ready && bun run readme && bun run format && git add . && git commit -m \"$(git diff --cached -- . ':!README.md' ':!src/data/*.json' | head -c 200000 | claude -p 'Write a git commit message for these changes. Use lowercase, imperative mood, max 50 chars. Output only the message, no quotes.')\" && git push",
     "start": "docusaurus serve",
-    "prepare": "lefthook install"
+    "prepare": "if [ -e .git ]; then lefthook install; fi"
   },
   "trustedDependencies": [
     "@swc/core",
