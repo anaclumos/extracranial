@@ -15369,9 +15369,6 @@
     "Black-Scholes Model": "... Black-Scholes formula for a European [[call option]] $C$ (an option that can ...",
     "Hinge Fund": "... resort membership and put a [[call option]] on the resort stock. He ..."
   },
-  "card.cho.sh": {
-    "2026-01-10": "[[card.cho.sh]]"
-  },
   "case study": {
     "Project PIRI Initial Proposal": "... multimedia applications, offering a practical [[case study]] that encompasses the theoretical and ...",
     "SVB Debacle": "... will look like the WaMu [[case study]]."
@@ -16591,6 +16588,9 @@
   },
   "von Neumann architecture": {
     "Programmable Vaccines": "... vaccines are like computers before [[von Neumann architecture]]. i.e., you manually \"wire\" to ..."
+  },
+  "wallet.cho.sh": {
+    "2026-01-10": "[[wallet.cho.sh]]"
   },
   "web Browser": {
     "2022-06-12": "... intended to be implemented in [[web Browser|web browsers]]. Web IDL is an IDL ...",

@@ -58,7 +58,7 @@ const navbar = {
       position: 'left' as const,
     },
     {
-      href: 'https://card.cho.sh/?place=cho.sh',
+      href: 'https://wallet.cho.sh/?place=cho.sh',
       position: 'right' as const,
       className: 'navbar-wallet-link',
       'aria-label': 'Apple Wallet Card',
