@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "title": "cho.sh",
+    "description": "Extracranial 아카이브를 Coscientist식 인터페이스로 읽는 웹앱."
+  },
+  "header": {
+    "brand": "cho.sh",
+    "brandWithLibrary": "cho.sh 라이브러리",
+    "joinWaitlist": "대기자 명단 합류",
+    "enterLab": "내 연구실 입장",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "모든 노트",
+    "noteCount": "노트 {count}개",
+    "currentlyOpen": "현재 {position}번째에 열려 있음",
+    "blogOnly": "블로그",
+    "blogOnlyToggle": "블로그 글만 보기"
+  },
+  "notePane": {
+    "expand": "작업 공간 확장",
+    "expandNote": "{title} 탐색",
+    "closeNote": "{title} 닫기",
+    "closePane": "패널 {index} 닫기",
+    "editOnGitHub": "GitHub에서 편집"
+  },
+  "mobileCarousel": {
+    "goToNote": "{position}번 노트로 이동: {title}"
+  },
+  "backlinks": {
+    "singular": "{count}개의 노트가 여기로 연결됨",
+    "plural": "{count}개의 노트가 여기로 연결됨"
+  },
+  "theme": {
+    "toggle": "테마 변경",
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템"
+  },
+  "navigation": {
+    "previous": "이전",
+    "next": "다음",
+    "goToPreviousPage": "이전 페이지로 이동",
+    "goToNextPage": "다음 페이지로 이동",
+    "morePages": "더 많은 페이지",
+    "pagination": "페이지네이션",
+    "breadcrumb": "탐색 경로",
+    "more": "더보기"
+  },
+  "sidebar": {
+    "title": "사이드바",
+    "description": "연구로 바로 가는 빠른 접근",
+    "toggle": "사이드바 토글"
+  },
+  "common": {
+    "close": "닫기",
+    "remove": "삭제",
+    "loading": "연구를 불러오는 중...",
+    "opensInNewTab": "새 탭에서 열림"
+  },
+  "languageSwitcher": {
+    "label": "언어",
+    "selectLanguage": "언어 선택"
+  },
+  "landing": {
+    "hero": {
+      "title": "cho.sh를\n살아있는 그래프로 읽다",
+      "subtitle": "Coscientist의 인터페이스, Extracranial의 아카이브.",
+      "description": "리서치 노트와 블로그 글을 hex ID 중심으로 하나의 읽기 표면에 통합합니다.",
+      "readManifesto": "라이브러리 열기",
+      "emailPlaceholder": "이메일 입력",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "아카이브 시스템",
+      "heading": "리서치와 에세이를 위한 하나의 읽기 표면",
+      "dialecticalGraph": {
+        "title": "Hex 중심 노트",
+        "description": "문서 제목이 바뀌어도 frontmatter slug를 기준 ID로 사용하므로 링크가 안정적으로 유지됩니다."
+      },
+      "rebuttalFirst": {
+        "title": "통합 아카이브",
+        "description": "Research 페이지와 블로그 포스트를 하나의 노트 시스템으로 합쳐 프리뷰, 백링크, 패널 탐색을 공유합니다."
+      },
+      "multilingual": {
+        "title": "언어별 폴백",
+        "description": "가능한 경우 영어와 한국어 문서를 같은 ID로 묶고, 번역이 없으면 자연스럽게 다른 언어 버전으로 폴백합니다."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "읽기 방식",
+      "heading": "긴 아카이브를 위한 패널 스택 탐색",
+      "description": "한 노트에서 시작해 연결된 노트로 가지를 치고, 문맥을 잃지 않은 채 여러 문서를 동시에 읽습니다.",
+      "steps": {
+        "propose": "열기",
+        "critique": "분기",
+        "rank": "비교",
+        "refine": "추적"
+      }
+    },
+    "forWho": {
+      "heading": "연결을 따라 읽는 사람들을 위해",
+      "audiences": {
+        "scientists": "연결된 노트를 따라 탐색하는 연구자",
+        "engineers": "맥락을 유지한 채 오래된 글을 다시 읽는 엔지니어",
+        "analysts": "블로그 글과 연구 페이지를 함께 비교하려는 독자",
+        "teams": "선형 아카이브보다 연결된 패널을 선호하는 사람들"
+      }
+    },
+    "cta": {
+      "heading": "아카이브는 이미 존재합니다.\n이 앱은 읽는 방식을 바꿉니다.",
+      "readManifesto": "라이브러리 열기",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "라이브러리",
+      "hq": "Extracranial",
+      "github": "GitHub",
+      "copyright": "© {year} cho.sh"
+    }
+  }
+}

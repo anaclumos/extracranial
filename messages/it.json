@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Tokens ≠ Conoscenza",
+    "description": "Infrastruttura di Potenziamento Cognitivo per una Ricerca Migliore."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Manifesto Coscientist",
+    "joinWaitlist": "Unisciti alla Lista d'Attesa",
+    "enterLab": "Entra nel Mio Lab",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Tutte le Note",
+    "noteCount": "{count} Note",
+    "currentlyOpen": "Attualmente Aperta alla Posizione {position}"
+  },
+  "notePane": {
+    "expand": "Espandi lo Spazio di Lavoro",
+    "expandNote": "Esplora {title}",
+    "closeNote": "Chiudi {title}",
+    "closePane": "Chiudi Pannello {index}",
+    "editOnGitHub": "Modifica su GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Vai alla Nota {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Note Collegano Qui",
+    "plural": "{count} Note Collegano Qui"
+  },
+  "theme": {
+    "toggle": "Cambia Tema",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
+  },
+  "navigation": {
+    "previous": "Precedente",
+    "next": "Successivo",
+    "goToPreviousPage": "Vai alla Pagina Precedente",
+    "goToNextPage": "Vai alla Pagina Successiva",
+    "morePages": "Più Pagine",
+    "pagination": "Paginazione",
+    "breadcrumb": "Percorso di Navigazione",
+    "more": "Altro"
+  },
+  "sidebar": {
+    "title": "Barra Laterale",
+    "description": "Accesso Rapido Diretto alla Ricerca",
+    "toggle": "Attiva/Disattiva Barra Laterale"
+  },
+  "common": {
+    "close": "Chiudi",
+    "remove": "Rimuovi",
+    "loading": "Caricamento della Ricerca...",
+    "opensInNewTab": "Si Apre in una Nuova Scheda"
+  },
+  "languageSwitcher": {
+    "label": "Lingua",
+    "selectLanguage": "Seleziona Lingua"
+  },
+  "landing": {
+    "hero": {
+      "title": "Ricerca alla Velocità\ndel Pensiero",
+      "subtitle": "Una Piattaforma di Ricerca che Pensa da Sola.",
+      "description": "Infrastruttura di Potenziamento Cognitivo per una Ricerca Migliore.",
+      "readManifesto": "Leggi il Manifesto",
+      "emailPlaceholder": "Inserisci la tua email",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Architettura Fondamentale",
+      "heading": "Diversa Fin dall'Inizio, per Scelta",
+      "dialecticalGraph": {
+        "title": "Grafo Dialettico",
+        "description": "Le entità di ricerca non sono collegate da semplici link, ma da affermazioni e relazioni. Ogni frase può essere tracciata matematicamente fino alle sue prove."
+      },
+      "rebuttalFirst": {
+        "title": "Confutazione Prima",
+        "description": "Non adula come le altre IA. Anzi, attacca senza sosta le falle."
+      },
+      "multilingual": {
+        "title": "Multilingue Nativa",
+        "description": "Articoli in inglese. Ipotesi in coreano. Dataset in giapponese. Un unico grafo di ricerca unificato."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Come Funziona",
+      "heading": "Architettura di Dibattito Multi‑Agente",
+      "description": "L'IA multi‑agente dibatte internamente. Vedi solo gli argomenti che sopravvivono fino alla fine.",
+      "steps": {
+        "propose": "Proporre",
+        "critique": "Criticare",
+        "rank": "Classificare",
+        "refine": "Raffinare"
+      }
+    },
+    "forWho": {
+      "heading": "Per Ricercatori che Ottengono Risultati",
+      "audiences": {
+        "scientists": "Scienziati che Gestiscono Pipeline Sperimentali",
+        "engineers": "Ingegneri che Costruiscono sui Lavori più Recenti",
+        "analysts": "Analisti che Integrano Letteratura Interdisciplinare",
+        "teams": "Team che Necessitano Percorsi di Conoscenza Riproducibili"
+      }
+    },
+    "cta": {
+      "heading": "L'Enciclopedia Galattica di Asimov Era Finzione.\nMa La Stiamo Costruendo nella Realtà.",
+      "readManifesto": "Leggi il Manifesto",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifesto",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

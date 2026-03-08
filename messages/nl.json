@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Tokens ≠ Kennis",
+    "description": "Cognitieve Augmentatie‑Infrastructuur voor Beter Onderzoek."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist‑Manifest",
+    "joinWaitlist": "Sluit je Aan bij de Wachtlijst",
+    "enterLab": "Naar Mijn Lab",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Alle Notities",
+    "noteCount": "{count} Notities",
+    "currentlyOpen": "Momenteel Geopend op Positie {position}"
+  },
+  "notePane": {
+    "expand": "Werkruimte Uitbreiden",
+    "expandNote": "Verken {title}",
+    "closeNote": "Sluit {title}",
+    "closePane": "Sluit Paneel {index}",
+    "editOnGitHub": "Bewerken op GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Ga naar Notitie {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Notities Linken Hierheen",
+    "plural": "{count} Notities Linken Hierheen"
+  },
+  "theme": {
+    "toggle": "Thema Wijzigen",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem"
+  },
+  "navigation": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "goToPreviousPage": "Ga naar Vorige Pagina",
+    "goToNextPage": "Ga naar Volgende Pagina",
+    "morePages": "Meer Pagina's",
+    "pagination": "Paginering",
+    "breadcrumb": "Broodkruimelpad",
+    "more": "Meer"
+  },
+  "sidebar": {
+    "title": "Zijbalk",
+    "description": "Snelle Toegang Direct naar Onderzoek",
+    "toggle": "Zijbalk Schakelen"
+  },
+  "common": {
+    "close": "Sluiten",
+    "remove": "Verwijderen",
+    "loading": "Onderzoek Laden...",
+    "opensInNewTab": "Opent in een Nieuw Tabblad"
+  },
+  "languageSwitcher": {
+    "label": "Taal",
+    "selectLanguage": "Taal Kiezen"
+  },
+  "landing": {
+    "hero": {
+      "title": "Onderzoek met de Snelheid\nvan Denken",
+      "subtitle": "Een Onderzoeksplatform dat Zelf Denkt.",
+      "description": "Cognitieve Augmentatie‑Infrastructuur voor Beter Onderzoek.",
+      "readManifesto": "Lees het Manifest",
+      "emailPlaceholder": "Voer uw e-mail in",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Kernarchitectuur",
+      "heading": "Vanaf het Begin Anders, Met Opzet",
+      "dialecticalGraph": {
+        "title": "Dialectische Grafiek",
+        "description": "Onderzoeksentiteiten zijn niet met simpele links verbonden, maar met beweringen en relaties. Elke zin is wiskundig te herleiden tot zijn bewijs."
+      },
+      "rebuttalFirst": {
+        "title": "Weerlegging Eerst",
+        "description": "Het vleit niet zoals andere AI. In plaats daarvan valt het onophoudelijk de gaten aan."
+      },
+      "multilingual": {
+        "title": "Meertalig Native",
+        "description": "Engelse papers. Koreaanse hypothesen. Japanse datasets. Eén geïntegreerde onderzoeksgrafiek."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Hoe het Werkt",
+      "heading": "Multi‑Agent Debatarchitectuur",
+      "description": "Multi‑agent AI debatteert intern. Je ziet alleen de argumenten die tot het einde overleven.",
+      "steps": {
+        "propose": "Voorstellen",
+        "critique": "Bekritiseren",
+        "rank": "Rangschikken",
+        "refine": "Verfijnen"
+      }
+    },
+    "forWho": {
+      "heading": "Voor Onderzoekers die Resultaten Leveren",
+      "audiences": {
+        "scientists": "Wetenschappers die Experimentele Pipelines Draaien",
+        "engineers": "Ingenieurs die Bouwen op de Nieuwste Papers",
+        "analysts": "Analisten die Interdisciplinaire Literatuur Integreren",
+        "teams": "Teams die Reproduceerbare Kennispaden Nodig Hebben"
+      }
+    },
+    "cta": {
+      "heading": "Asimovs Encyclopedia Galactica Was Fictie.\nMaar We Bouwen het in de Realiteit.",
+      "readManifesto": "Lees het Manifest",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifest",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

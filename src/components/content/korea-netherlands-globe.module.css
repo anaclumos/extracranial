@@ -1,0 +1,100 @@
+.container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 42rem;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgb(0 0 0 / 12%);
+  background-color: rgb(255 255 255 / 92%);
+  box-shadow:
+    0 1px 3px rgb(0 0 0 / 10%),
+    0 1px 2px rgb(0 0 0 / 10%);
+}
+
+.darkCard {
+  border-color: rgb(255 255 255 / 12%);
+  background-color: rgb(23 23 23 / 92%);
+  box-shadow:
+    0 1px 3px rgb(0 0 0 / 30%),
+    0 1px 2px rgb(0 0 0 / 30%);
+}
+
+.canvasWrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.canvas {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  cursor: grab;
+  transition: opacity 0.5s ease;
+  contain: layout style paint;
+}
+
+.canvas:active {
+  cursor: grabbing;
+}
+
+.buttonGroup {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid rgb(0 0 0 / 10%);
+  background-color: rgb(255 255 255 / 92%);
+  color: rgb(38 38 38);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.darkButton {
+  border-color: rgb(255 255 255 / 14%);
+  background-color: rgb(23 23 23 / 92%);
+  color: rgb(245 245 245);
+}
+
+.button:hover {
+  background-color: rgb(0 0 0 / 6%);
+}
+
+.darkButton:hover {
+  background-color: rgb(255 255 255 / 8%);
+}
+
+.button:focus-visible {
+  outline: 2px solid rgb(37 99 235);
+  outline-offset: 2px;
+}
+
+.emoji {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.label {
+  font-size: 0.875rem;
+}

@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Tokens ≠ Wissen",
+    "description": "Kognitive Augmentationsinfrastruktur für Bessere Forschung."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist-Manifest",
+    "joinWaitlist": "Zur Warteliste",
+    "enterLab": "Mein Labor Betreten",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Alle Notizen",
+    "noteCount": "{count} Notizen",
+    "currentlyOpen": "Derzeit auf Position {position} Geöffnet"
+  },
+  "notePane": {
+    "expand": "Arbeitsbereich Erweitern",
+    "expandNote": "{title} Erkunden",
+    "closeNote": "{title} Schließen",
+    "closePane": "Panel {index} Schließen",
+    "editOnGitHub": "Auf GitHub Bearbeiten"
+  },
+  "mobileCarousel": {
+    "goToNote": "Zu Notiz {position} Wechseln: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Notizen Verweisen Hierher",
+    "plural": "{count} Notizen Verweisen Hierher"
+  },
+  "theme": {
+    "toggle": "Design Wechseln",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "navigation": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "goToPreviousPage": "Zur Vorherigen Seite",
+    "goToNextPage": "Zur Nächsten Seite",
+    "morePages": "Weitere Seiten",
+    "pagination": "Paginierung",
+    "breadcrumb": "Navigationspfad",
+    "more": "Mehr"
+  },
+  "sidebar": {
+    "title": "Seitenleiste",
+    "description": "Schneller Zugriff Direkt Zur Forschung",
+    "toggle": "Seitenleiste Umschalten"
+  },
+  "common": {
+    "close": "Schließen",
+    "remove": "Entfernen",
+    "loading": "Forschung Wird Geladen...",
+    "opensInNewTab": "Öffnet in Einem Neuen Tab"
+  },
+  "languageSwitcher": {
+    "label": "Sprache",
+    "selectLanguage": "Sprache Auswählen"
+  },
+  "landing": {
+    "hero": {
+      "title": "Forschen mit der Geschwindigkeit\ndes Denkens",
+      "subtitle": "Eine Forschungsplattform, Die Selbst Denkt.",
+      "description": "Kognitive Augmentationsinfrastruktur für Bessere Forschung.",
+      "readManifesto": "Manifest Lesen",
+      "emailPlaceholder": "E-Mail eingeben",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Kernarchitektur",
+      "heading": "Von Anfang an Anders, Mit Absicht",
+      "dialecticalGraph": {
+        "title": "Dialektischer Graph",
+        "description": "Forschungsentitäten sind nicht durch einfache Links, sondern durch Behauptungen und Beziehungen verbunden. Jeder Satz lässt sich mathematisch auf seine Evidenz zurückführen."
+      },
+      "rebuttalFirst": {
+        "title": "Widerlegung Zuerst",
+        "description": "Keine Schmeichelei wie andere KI. Stattdessen greift sie die Lücken unermüdlich an."
+      },
+      "multilingual": {
+        "title": "Mehrsprachig Nativ",
+        "description": "Englische Papers. Koreanische Hypothesen. Japanische Datensätze. Ein einheitlicher Forschungsgraph."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "So Funktioniert Es",
+      "heading": "Multi-Agenten-Debattenarchitektur",
+      "description": "Mehrere KI-Agenten debattieren intern. Du siehst nur die Argumente, die bis zum Ende überleben.",
+      "steps": {
+        "propose": "Vorschlagen",
+        "critique": "Kritisieren",
+        "rank": "Rang",
+        "refine": "Verfeinern"
+      }
+    },
+    "forWho": {
+      "heading": "Für Forschende, Die Ergebnisse Liefern",
+      "audiences": {
+        "scientists": "Wissenschaftler, Die Experimentelle Pipelines Betreiben",
+        "engineers": "Ingenieure, Die Auf Den Neuesten Papers Aufbauen",
+        "analysts": "Analysten, Die Fachübergreifende Literatur Integrieren",
+        "teams": "Teams, Die Reproduzierbare Wissenspfade Brauchen"
+      }
+    },
+    "cta": {
+      "heading": "Asimovs Enzyklopädie Galactica War Fiktion.\nAber Wir Bauen Sie in der Realität.",
+      "readManifesto": "Manifest Lesen",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifest",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

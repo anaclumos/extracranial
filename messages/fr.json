@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist : Tokens ≠ Connaissance",
+    "description": "Infrastructure d’Augmentation Cognitive pour une Meilleure Recherche."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Manifeste Coscientist",
+    "joinWaitlist": "Rejoindre la Liste d'Attente",
+    "enterLab": "Accéder à Mon Labo",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Toutes les Notes",
+    "noteCount": "{count} Notes",
+    "currentlyOpen": "Ouverte Actuellement à la Position {position}"
+  },
+  "notePane": {
+    "expand": "Étendre l’Espace de Travail",
+    "expandNote": "Explorer {title}",
+    "closeNote": "Fermer {title}",
+    "closePane": "Fermer le Panneau {index}",
+    "editOnGitHub": "Modifier sur GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Aller à la Note {position} : {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Notes Pointent Ici",
+    "plural": "{count} Notes Pointent Ici"
+  },
+  "theme": {
+    "toggle": "Changer de Thème",
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "navigation": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "goToPreviousPage": "Aller à la Page Précédente",
+    "goToNextPage": "Aller à la Page Suivante",
+    "morePages": "Plus de Pages",
+    "pagination": "Pagination",
+    "breadcrumb": "Fil d’Ariane",
+    "more": "Plus"
+  },
+  "sidebar": {
+    "title": "Barre Latérale",
+    "description": "Accès Rapide Direct à la Recherche",
+    "toggle": "Basculer la Barre Latérale"
+  },
+  "common": {
+    "close": "Fermer",
+    "remove": "Supprimer",
+    "loading": "Chargement de la Recherche...",
+    "opensInNewTab": "S’ouvre dans un Nouvel Onglet"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "selectLanguage": "Choisir la Langue"
+  },
+  "landing": {
+    "hero": {
+      "title": "Rechercher à la Vitesse\nde la Pensée",
+      "subtitle": "Une Plateforme de Recherche qui Pense par Elle‑Même.",
+      "description": "Infrastructure d’Augmentation Cognitive pour une Meilleure Recherche.",
+      "readManifesto": "Lire le Manifeste",
+      "emailPlaceholder": "Entrez votre email",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Architecture Fondamentale",
+      "heading": "Différent Dès le Départ, Par Design",
+      "dialecticalGraph": {
+        "title": "Graphe Dialectique",
+        "description": "Les entités de recherche sont reliées non par de simples liens, mais par des assertions et des relations. Chaque phrase peut être retracée mathématiquement à sa preuve."
+      },
+      "rebuttalFirst": {
+        "title": "Réfutation d’Abord",
+        "description": "Elle ne flatte pas comme les autres IA. Au contraire, elle attaque sans relâche les failles."
+      },
+      "multilingual": {
+        "title": "Nativement Multilingue",
+        "description": "Articles en anglais. Hypothèses en coréen. Jeux de données en japonais. Un seul graphe de recherche unifié."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Fonctionnement",
+      "heading": "Architecture de Débat Multi‑Agents",
+      "description": "L’IA multi‑agents débat en interne. Vous ne voyez que les arguments qui survivent jusqu’au bout.",
+      "steps": {
+        "propose": "Proposer",
+        "critique": "Critiquer",
+        "rank": "Classer",
+        "refine": "Affiner"
+      }
+    },
+    "forWho": {
+      "heading": "Pour les Chercheurs qui Livrent des Résultats",
+      "audiences": {
+        "scientists": "Scientifiques qui Gèrent des Pipelines Expérimentaux",
+        "engineers": "Ingénieurs qui S’Appuient sur les Articles les Plus Récents",
+        "analysts": "Analystes qui Intègrent une Littérature Interdisciplinaire",
+        "teams": "Équipes qui Ont Besoin de Parcours de Connaissances Reproductibles"
+      }
+    },
+    "cta": {
+      "heading": "L’Encyclopédie Galactique d’Asimov Était une Fiction.\nMais Nous la Construisons dans la Réalité.",
+      "readManifesto": "Lire le Manifeste",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifeste",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

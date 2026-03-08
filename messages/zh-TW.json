@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist：Token ≠ 知識",
+    "description": "更好研究的認知增強基礎設施。"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist 宣言",
+    "joinWaitlist": "加入候補名單",
+    "enterLab": "進入我的實驗室",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "所有筆記",
+    "noteCount": "{count} 則筆記",
+    "currentlyOpen": "目前在第 {position} 個開啟"
+  },
+  "notePane": {
+    "expand": "擴展工作空間",
+    "expandNote": "探索 {title}",
+    "closeNote": "關閉 {title}",
+    "closePane": "關閉面板 {index}",
+    "editOnGitHub": "在 GitHub 編輯"
+  },
+  "mobileCarousel": {
+    "goToNote": "前往第 {position} 則筆記：{title}"
+  },
+  "backlinks": {
+    "singular": "{count} 則筆記連結到此處",
+    "plural": "{count} 則筆記連結到此處"
+  },
+  "theme": {
+    "toggle": "切換主題",
+    "light": "淺色",
+    "dark": "深色",
+    "system": "系統"
+  },
+  "navigation": {
+    "previous": "上一頁",
+    "next": "下一頁",
+    "goToPreviousPage": "前往上一頁",
+    "goToNextPage": "前往下一頁",
+    "morePages": "更多頁面",
+    "pagination": "分頁",
+    "breadcrumb": "麵包屑",
+    "more": "更多"
+  },
+  "sidebar": {
+    "title": "側邊欄",
+    "description": "直達研究的快速入口",
+    "toggle": "切換側邊欄"
+  },
+  "common": {
+    "close": "關閉",
+    "remove": "移除",
+    "loading": "正在載入研究...",
+    "opensInNewTab": "在新分頁開啟"
+  },
+  "languageSwitcher": {
+    "label": "語言",
+    "selectLanguage": "選擇語言"
+  },
+  "landing": {
+    "hero": {
+      "title": "以思考的\n速度研究",
+      "subtitle": "一個會自行思考的研究平台。",
+      "description": "更好研究的認知增強基礎設施。",
+      "readManifesto": "閱讀宣言",
+      "emailPlaceholder": "輸入您的電子郵件",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "核心架構",
+      "heading": "從一開始就不同，刻意為之",
+      "dialecticalGraph": {
+        "title": "辯證圖譜",
+        "description": "研究實體不是透過簡單連結，而是透過主張與關係相連。每個句子都可以從數學上追溯到其證據。"
+      },
+      "rebuttalFirst": {
+        "title": "先反駁",
+        "description": "它不像其他 AI 那樣奉承，反而不斷攻擊漏洞。"
+      },
+      "multilingual": {
+        "title": "原生多語",
+        "description": "英文論文。韓文假設。日文資料集。一個統一的研究圖譜。"
+      }
+    },
+    "pipeline": {
+      "eyebrow": "運作方式",
+      "heading": "多代理辯論架構",
+      "description": "多代理 AI 在內部辯論。你只看到堅持到最後的論證。",
+      "steps": {
+        "propose": "提出",
+        "critique": "批評",
+        "rank": "排序",
+        "refine": "精煉"
+      }
+    },
+    "forWho": {
+      "heading": "為產出成果的研究者",
+      "audiences": {
+        "scientists": "運行實驗管線的科學家",
+        "engineers": "基於最新論文構建的工程師",
+        "analysts": "整合跨學科文獻的分析師",
+        "teams": "需要可重現知識路徑的團隊"
+      }
+    },
+    "cta": {
+      "heading": "阿西莫夫的《銀河百科全書》是虛構的。\n但我們正在把它建成現實。",
+      "readManifesto": "閱讀宣言",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "宣言",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}
