@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { routing } from "@/i18n/routing"
 
 export async function generateMetadata({
   params,
@@ -7,7 +8,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, slug } = await params
   const rootSlug = slug?.[0] ?? "000000"
-  const url = `/${locale}/library${rootSlug === "000000" ? "" : `/${rootSlug}`}`
+  const localePrefix = locale === routing.defaultLocale ? "" : `/${locale}`
+  const url = `${localePrefix}/${rootSlug}`
 
   return {
     alternates: {

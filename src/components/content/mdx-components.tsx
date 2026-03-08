@@ -10,6 +10,7 @@ import { Streamdown, type AllowedTags, type Components } from "streamdown"
 import { useTheme } from "next-themes"
 import {
   Children,
+  Fragment,
   cloneElement,
   isValidElement,
   type ReactElement,
@@ -37,6 +38,7 @@ interface TabItemProps {
   children: ReactNode
   default?: boolean | string
   label?: string
+  source?: string
   value?: string
 }
 
@@ -283,11 +285,33 @@ function TabItem({ children }: TabItemProps) {
   return <>{children}</>
 }
 
+function decodeMarkdownSource(source?: string): string | undefined {
+  if (!source) {
+    return undefined
+  }
+
+  try {
+    if (typeof window === "undefined" && typeof Buffer !== "undefined") {
+      return Buffer.from(source, "base64").toString("utf8")
+    }
+
+    const binary = atob(source)
+    const bytes = Uint8Array.from(binary, (character) =>
+      character.charCodeAt(0)
+    )
+    return new TextDecoder().decode(bytes)
+  } catch {
+    return source
+  }
+}
+
 function Tabs({
   children,
+  renderMarkdown,
 }: {
   children: ReactNode
   groupid?: string
+  renderMarkdown: (value: ReactNode) => ReactNode
 }) {
   const items = Children.toArray(children).filter(
     isValidElement
@@ -320,11 +344,17 @@ function Tabs({
         ))}
       </div>
       <div className="p-4">
-        {items.map((item) =>
-          item.props.value === activeValue ? (
-            <div key={item.props.value}>{item.props.children}</div>
-          ) : null
-        )}
+        {items.map((item) => {
+          if (item.props.value !== activeValue) {
+            return null
+          }
+
+          const panelContent =
+            decodeMarkdownSource(
+              typeof item.props.source === "string" ? item.props.source : undefined
+            ) ?? item.props.children
+          return <div key={item.props.value}>{renderMarkdown(panelContent)}</div>
+        })}
       </div>
     </div>
   )
@@ -540,8 +570,64 @@ function toReactNode(value: unknown): ReactNode {
   return value as ReactNode
 }
 
+function extractMarkdownSource(value: ReactNode): string | null {
+  const parts: string[] = []
+
+  const visit = (node: ReactNode): boolean => {
+    if (node == null || typeof node === "boolean") {
+      return true
+    }
+
+    if (typeof node === "string" || typeof node === "number") {
+      parts.push(String(node))
+      return true
+    }
+
+    if (Array.isArray(node)) {
+      return node.every(visit)
+    }
+
+    if (
+      isValidElement<{ children?: ReactNode }>(node) &&
+      node.type === Fragment
+    ) {
+      return visit(node.props.children)
+    }
+
+    return false
+  }
+
+  if (!visit(value)) {
+    return null
+  }
+
+  return parts.join("")
+}
+
+const streamdownPlugins = { cjk, code, math, mermaid }
+
 function createComponents(onLinkClick: (slug: string) => void): Components {
-  return {
+  let components = {} as Components
+
+  const renderMarkdown = (value: ReactNode) => {
+    const source = extractMarkdownSource(value)
+    if (!source) {
+      return value
+    }
+
+    return (
+      <Streamdown
+        allowedTags={allowedTags}
+        components={components}
+        mode="static"
+        plugins={streamdownPlugins}
+      >
+        {source}
+      </Streamdown>
+    )
+  }
+
+  components = {
     a: (props) => <NoteAnchor {...props} onLinkClick={onLinkClick} />,
     admonition: (props) => (
       <Admonition
@@ -580,13 +666,17 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
           props.default === "true"
         }
         label={typeof props.label === "string" ? props.label : undefined}
+        source={typeof props.source === "string" ? props.source : undefined}
         value={typeof props.value === "string" ? props.value : undefined}
       >
         {toReactNode(props.children)}
       </TabItem>
     ),
     tabs: (props) => (
-      <Tabs groupid={typeof props.groupid === "string" ? props.groupid : undefined}>
+      <Tabs
+        groupid={typeof props.groupid === "string" ? props.groupid : undefined}
+        renderMarkdown={renderMarkdown}
+      >
         {toReactNode(props.children)}
       </Tabs>
     ),
@@ -600,6 +690,8 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
       />
     ),
   }
+
+  return components
 }
 
 const allowedTags = {
@@ -610,7 +702,7 @@ const allowedTags = {
   koreanetherlandsglobe: ["lang"],
   shuffle: [],
   spotifysong: ["title", "url"],
-  tabitem: ["default", "label", "value"],
+  tabitem: ["default", "label", "source", "value"],
   tabs: ["groupid"],
   wip: ["state"],
   youtube: ["id", "title"],
@@ -625,7 +717,7 @@ export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
       className="prose-note md:px-4 md:py-3"
       components={components}
       mode="static"
-      plugins={{ cjk, code, math, mermaid }}
+      plugins={streamdownPlugins}
     >
       {source}
     </Streamdown>

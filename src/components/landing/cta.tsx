@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
+import { buildNoteHref } from "@/lib/note-links"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container } from "./primitives/layout"
 import { Subheading } from "./primitives/typography"
@@ -51,7 +52,7 @@ export function CTA() {
           variants={itemVariants}
         >
           <div className="flex items-center gap-3">
-            <Button render={<Link href="/library" />} size="lg">
+            <Button render={<Link href={buildNoteHref("000000")} />} size="lg">
               {t("readManifesto")}{" "}
               <HugeiconsIcon
                 className="ml-1"

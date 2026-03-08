@@ -15,6 +15,7 @@ export interface NoteFrontmatter {
   sourceHash?: string
   translatedAt?: string
   createdAt?: string
+  last_updated?: string
   updatedAt?: string
   [key: string]: unknown // Allow additional fields
 }

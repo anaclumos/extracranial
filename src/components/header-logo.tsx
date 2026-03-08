@@ -1,5 +1,6 @@
 "use client"
 
+import { routing } from "@/i18n/routing"
 import { Logo } from "@/components/brand/logo"
 import { Link, usePathname } from "@/i18n/navigation"
 
@@ -10,6 +11,14 @@ interface HeaderLogoProps {
 
 export function HeaderLogo({ brand, brandWithManifesto }: HeaderLogoProps) {
   const pathname = usePathname()
+  const segments = pathname.split("/").filter(Boolean)
+  const isNotePath =
+    (segments.length === 1 &&
+      !routing.locales.includes(segments[0] as (typeof routing.locales)[number]) &&
+      /^(?:[A-F0-9]{6}|\d{4}-\d{2}-\d{2})$/i.test(segments[0] ?? "")) ||
+    (segments.length === 2 &&
+      routing.locales.includes(segments[0] as (typeof routing.locales)[number]) &&
+      /^(?:[A-F0-9]{6}|\d{4}-\d{2}-\d{2})$/i.test(segments[1] ?? ""))
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (pathname === "/") {
@@ -18,7 +27,7 @@ export function HeaderLogo({ brand, brandWithManifesto }: HeaderLogoProps) {
     }
   }
 
-  const title = pathname.includes("/library") ? brandWithManifesto : brand
+  const title = isNotePath ? brandWithManifesto : brand
 
   return (
     <Link

@@ -12,8 +12,8 @@ import {
 } from "./stores/note-stack-parsers"
 
 export function useNoteStack(rootSlug: string) {
-  const buildLibraryPath = useCallback((slug: string) => {
-    return slug === "000000" ? "/library" : `/library/${slug}`
+  const buildNotePath = useCallback((slug: string) => {
+    return `/${slug}`
   }, [])
 
   const router = useRouter()
@@ -43,20 +43,20 @@ export function useNoteStack(rootSlug: string) {
 
       if (newStack.length === 1) {
         const newRootSlug = newStack[0]
-        router.push(buildLibraryPath(newRootSlug))
+        router.push(buildNotePath(newRootSlug))
       } else {
         const newRootSlug = newStack[0]
         const additionalSlugs = newStack.slice(1)
 
         if (newRootSlug !== rootSlug) {
-          const basePath = buildLibraryPath(newRootSlug)
+          const basePath = buildNotePath(newRootSlug)
           router.push(`${basePath}?stack=${additionalSlugs.join(",")}`)
         } else {
           setUrlState({ stack: additionalSlugs, focus: null })
         }
       }
     },
-    [buildLibraryPath, router, rootSlug, setUrlState]
+    [buildNotePath, router, rootSlug, setUrlState]
   )
 
   const popNote = useCallback(() => {
@@ -93,7 +93,7 @@ export function useNoteStack(rootSlug: string) {
   const setStack = useCallback(
     (newStack: string[], focusIdx?: number) => {
       if (newStack.length === 0) {
-        router.push("/library")
+        router.push("/000000")
         return
       }
 
@@ -105,7 +105,7 @@ export function useNoteStack(rootSlug: string) {
           : null
 
       if (newRootSlug !== rootSlug) {
-        const basePath = buildLibraryPath(newRootSlug)
+        const basePath = buildNotePath(newRootSlug)
         const params: string[] = []
         if (additionalSlugs.length > 0) {
           params.push(`stack=${additionalSlugs.join(",")}`)
@@ -120,7 +120,7 @@ export function useNoteStack(rootSlug: string) {
         setUrlState({ stack: additionalSlugs, focus: newFocus })
       }
     },
-    [buildLibraryPath, router, rootSlug, setUrlState]
+    [buildNotePath, router, rootSlug, setUrlState]
   )
 
   const goBack = useCallback(() => {

@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
+    "sync:last-updated": "bun run scripts/sync-last-updated.ts",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
