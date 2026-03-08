@@ -4,6 +4,7 @@ import Link from "next/link"
 import { useLocale, useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
+import { buildNoteHref } from "@/lib/note-links"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container } from "./primitives/layout"
 
@@ -14,7 +15,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   const links = [
-    { label: t("manifesto"), href: "/library" },
+    { label: t("manifesto"), href: buildNoteHref("000000") },
     {
       label: t("hq"),
       href: `https://cho.sh/${hqLocale}`,

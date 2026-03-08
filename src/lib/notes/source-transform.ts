@@ -211,6 +211,16 @@ function rewriteMarkdownLinks(
   )
 }
 
+function rewriteTabItemContent(segment: string): string {
+  return segment.replace(
+    /<tabitem\b([^>]*)>([\s\S]*?)<\/tabitem>/g,
+    (_, attributes: string, content: string) => {
+      const encodedContent = Buffer.from(content.trim(), "utf8").toString("base64")
+      return `<tabitem${attributes} source=${JSON.stringify(encodedContent)}></tabitem>`
+    }
+  )
+}
+
 export function preprocessNoteSource(
   note: SourceNote,
   titleLookup: Map<string, string>
@@ -225,7 +235,8 @@ export function preprocessNoteSource(
     const withWikiImages = rewriteWikiImages(withAdmonitions, note)
     const withMarkdownImages = rewriteMarkdownImages(withWikiImages, note)
     const withWikiLinks = rewriteWikiLinks(withMarkdownImages, titleLookup)
-    return rewriteMarkdownLinks(withWikiLinks, titleLookup)
+    const withMarkdownLinks = rewriteMarkdownLinks(withWikiLinks, titleLookup)
+    return rewriteTabItemContent(withMarkdownLinks)
   }).trim()
 }
 

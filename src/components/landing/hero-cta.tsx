@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { reducedMotionTransition, springSubtle } from "@/lib/animations"
+import { buildNoteHref } from "@/lib/note-links"
 
 export function HeroCTA() {
   const t = useTranslations("landing.hero")
@@ -25,7 +26,7 @@ export function HeroCTA() {
           : { ...springSubtle, delay: 0.1 }
       }
     >
-      <Button render={<Link href="/library" />} size="lg">
+      <Button render={<Link href={buildNoteHref("000000")} />} size="lg">
         {t("readManifesto")}{" "}
         <HugeiconsIcon
           className="ml-1"

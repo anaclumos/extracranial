@@ -1,8 +1,6 @@
 import "server-only"
 
-import { execFile } from "node:child_process"
 import fs from "node:fs/promises"
-import { promisify } from "node:util"
 import path from "node:path"
 import matter from "gray-matter"
 import { cache } from "react"
@@ -10,14 +8,13 @@ import type { NoteKind } from "@/lib/types"
 import { normalizeNoteSlug } from "../note-links"
 
 const EXTRACRANIAL_ROOT = process.cwd()
-const RESEARCH_ROOT = path.join(EXTRACRANIAL_ROOT, "Research")
-const POSTS_ROOT = path.join(RESEARCH_ROOT, "posts")
-const RESEARCH_ASSETS_ROOT = path.join(RESEARCH_ROOT, "assets")
+const LIBRARY_ROOT = path.join(EXTRACRANIAL_ROOT, "library")
+const POSTS_ROOT = path.join(LIBRARY_ROOT, "posts")
+const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets")
 
 const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"])
 const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"])
 const POSTS_LOCALES = new Set(["en", "ko"])
-const execFileAsync = promisify(execFile)
 
 export interface SourceNote {
   aliases: string[]
@@ -110,6 +107,21 @@ function parseDate(value: unknown): string | undefined {
   return undefined
 }
 
+function parseTimestamp(value: unknown): number | undefined {
+  if (typeof value === "string" && value.trim()) {
+    const parsed = Date.parse(value)
+    if (!Number.isNaN(parsed)) {
+      return Math.floor(parsed / 1000)
+    }
+  }
+
+  if (value instanceof Date && !Number.isNaN(value.getTime())) {
+    return Math.floor(value.getTime() / 1000)
+  }
+
+  return undefined
+}
+
 async function collectMarkdownFiles(root: string): Promise<string[]> {
   const entries = await fs.readdir(root, { withFileTypes: true })
   const files: string[] = []
@@ -133,50 +145,6 @@ async function collectMarkdownFiles(root: string): Promise<string[]> {
   return files
 }
 
-async function getGitTimestampsByPath(): Promise<Map<string, number>> {
-  const { stdout } = await execFileAsync(
-    "git",
-    [
-      "-C",
-      EXTRACRANIAL_ROOT,
-      "log",
-      "--name-only",
-      "--format=__COMMIT__ %ct",
-      "--",
-      "Research",
-    ],
-    {
-      maxBuffer: 16 * 1024 * 1024,
-    }
-  )
-
-  const timestampsByPath = new Map<string, number>()
-  let currentTimestamp: number | null = null
-
-  for (const line of stdout.split("\n")) {
-    if (!line.trim()) {
-      continue
-    }
-
-    if (line.startsWith("__COMMIT__ ")) {
-      const rawTimestamp = line.slice("__COMMIT__ ".length).trim()
-      const parsedTimestamp = Number.parseInt(rawTimestamp, 10)
-      currentTimestamp = Number.isFinite(parsedTimestamp) ? parsedTimestamp : null
-      continue
-    }
-
-    if (currentTimestamp === null || timestampsByPath.has(line)) {
-      continue
-    }
-
-    timestampsByPath.set(path.join(EXTRACRANIAL_ROOT, line), currentTimestamp)
-  }
-
-  return timestampsByPath
-}
-
-const getCachedGitTimestampsByPath = cache(getGitTimestampsByPath)
-
 async function readSourceNote(filePath: string): Promise<SourceNote | null> {
   const fileContents = await fs.readFile(filePath, "utf8")
   const { data, content } = matter(fileContents)
@@ -196,7 +164,8 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     editUrl: buildEditUrl(filePath),
     filePath,
     kind: inferKind(filePath),
-    lastEditedAt: undefined,
+    lastEditedAt:
+      parseTimestamp(data.last_updated) ?? parseTimestamp(data.updatedAt),
     locale: inferLocale(filePath, data.lang),
     slug,
     title:
@@ -223,21 +192,19 @@ function registerLookup(
 
 export const getContentIndex = cache(async (): Promise<ContentIndex> => {
   const [researchFiles, postFiles] = await Promise.all([
-    collectMarkdownFiles(RESEARCH_ROOT),
+    collectMarkdownFiles(LIBRARY_ROOT),
     collectMarkdownFiles(POSTS_ROOT),
   ])
-  const timestampsByPath = await getCachedGitTimestampsByPath()
+  const allFiles = [...researchFiles, ...postFiles]
 
   const notesBySlug = new Map<string, Map<string, SourceNote>>()
   const titleLookup = new Map<string, string>()
 
-  for (const filePath of [...researchFiles, ...postFiles]) {
+  for (const filePath of allFiles) {
     const note = await readSourceNote(filePath)
     if (!note) {
       continue
     }
-
-    note.lastEditedAt = timestampsByPath.get(filePath)
 
     const localeNotes = notesBySlug.get(note.slug) ?? new Map<string, SourceNote>()
     localeNotes.set(note.locale, note)
@@ -372,7 +339,7 @@ export async function resolveAssetPathForNote(
   }
 
   const fallbackCandidate = path.join(
-    RESEARCH_ASSETS_ROOT,
+    LIBRARY_ASSETS_ROOT,
     path.basename(relativeAssetPath)
   )
   if (await fileExists(fallbackCandidate)) {
