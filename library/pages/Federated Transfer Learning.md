@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/F5DA51'
 aliases: ['FTL']
+last_modified: 2026-01-03
 ---
 
 Federated Transfer Learning (FTL) is a technique that can be applied when two datasets differ in their samples and [[feature]] space.

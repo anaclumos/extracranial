@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/24592D'
+last_modified: 2024-12-27
 ---
 
 <blockquote class="twitter-tweet">

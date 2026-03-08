@@ -3,6 +3,7 @@ lang: 'en'
 slug: '/1DEEA3'
 aliases: ['PIRI']
 title: 'Project PIRI 🪈: Performant & Interoperable Rendering Infrastructure'
+last_modified: 2024-12-27
 ---
 
 ## [[2024-03-04]]

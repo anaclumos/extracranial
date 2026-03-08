@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/FA14AF'
 aliases: ['마이크로소프트', 'MS']
+last_modified: 2023-03-01
 ---
 
 ### [Microsoft in talks to acquire a 49% stake in ChatGPT owner OpenAI](https://watcher.guru/news/microsoft-plans-to-acquire-a-49-stake-in-chatgpt-owner-openai)

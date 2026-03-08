@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7B2DAB'
+last_modified: 2025-04-29
 ---
 
 ${H_k}$ is a partition means

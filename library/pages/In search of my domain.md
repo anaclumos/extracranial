@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2CC3CE'
+last_modified: 2025-09-04
 ---
 
 Choosing domain names is always challenging.

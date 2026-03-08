@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C5F92B'
+last_modified: 2023-02-23
 ---
 
 - [[한민족|Korean]] writing service [[Brunch]] violates [[Apple]]'s Terms of Use by using [[San Francisco|SF Pro]] as a [[Web Typography|Webfont]].

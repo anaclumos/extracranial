@@ -10,6 +10,7 @@ aliases:
     'Pyrrhus et Cinéas',
     'Pyrrhus et Cinéas',
   ]
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

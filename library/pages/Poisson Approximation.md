@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3FBE18'
+last_modified: 2023-06-15
 ---
 
 $P (\lambda) = {{e^{-\lambda} \lambda^x} \over x!}$

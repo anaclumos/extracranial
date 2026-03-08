@@ -2,6 +2,7 @@
 lang: 'ko'
 slug: '/C8761B'
 aliases: ['개부심']
+last_modified: 2024-12-27
 ---
 
 <blockquote class="twitter-tweet">

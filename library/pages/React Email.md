@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/ABA1BD'
+last_modified: 2023-02-28
 ---
 
 Seems like instead of making [[Mail|emails]] interactive like [[AMP Email]]

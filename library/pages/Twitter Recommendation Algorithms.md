@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B128EE'
+last_modified: 2025-04-29
 ---
 
 ## [Twitter's Recommendation Algorithm](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm) ([GitHub](https://github.com/twitter/the-algorithm))

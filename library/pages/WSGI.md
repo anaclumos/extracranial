@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E4E1CE'
+last_modified: 2025-04-29
 ---
 
 WSGI (Web Server Gateway Interface) is a specification that describes how a web server communicates with web applications in Python. In the context of Django, WSGI serves as the interface between the Django application and the web server. Here's a brief overview of what WSGI does in Django:

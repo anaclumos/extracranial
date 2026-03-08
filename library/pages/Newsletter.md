@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/4841D1'
 aliases: ['뉴스레터', 'Newsletters']
+last_modified: 2023-04-20
 ---
 
 - [[Substack]], Newneek을 필두로 엄청난 뉴스레터 성장

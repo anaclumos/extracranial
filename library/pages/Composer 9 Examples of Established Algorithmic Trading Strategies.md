@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/815DD3'
+last_modified: 2025-04-29
 ---
 
 https://www.composer.trade/learn/examples-of-best-algorithmic-strategies

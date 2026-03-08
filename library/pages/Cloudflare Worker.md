@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/5D7C1C'
 aliases: ['Cloudflare Workers']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

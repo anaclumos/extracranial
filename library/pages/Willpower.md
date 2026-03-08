@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/121E0E'
+last_modified: 2025-09-04
 ---
 
 Our scarcest resource is willpower...

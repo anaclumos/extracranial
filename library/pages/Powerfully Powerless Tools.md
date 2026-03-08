@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E06055'
+last_modified: 2025-09-04
 ---
 
 Some tools must choose to be dumbed down. [[PKM]] tools are one example.

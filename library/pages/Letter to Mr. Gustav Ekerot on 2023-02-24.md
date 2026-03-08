@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8AAC37'
+last_modified: 2025-09-04
 ---
 
 - [[Mail|Letter]] to Mr. Gustav Ekerot on [[2023-02-24]]

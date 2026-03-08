@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F44F14'
+last_modified: 2025-04-29
 ---
 
 [dotfiles/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist at master · mcandre/dotfiles](https://github.com/mcandre/dotfiles/blob/master/setenv.MOZ_DISABLE_SAFE_MODE_KEY.plist)

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2DBC4A'
+last_modified: 2024-12-27
 ---
 
 An [[alternative]] to [[Texts (Service)]]. A better approach with [[iMessage]], given that it logs into a server computer. But more than that...

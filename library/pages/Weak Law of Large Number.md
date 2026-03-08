@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/60C374'
+last_modified: 2023-06-23
 ---
 
 - Expectation of the Sample Mean: $\mathbb{E}[\overline{X^n}]$

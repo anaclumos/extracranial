@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/78F836'
 aliases: ['Interactive Instructions']
+last_modified: 2025-09-04
 ---
 
 ### [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)

@@ -8,6 +8,7 @@ aliases:
   - economics
   - 경제학
   - 경제학자
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

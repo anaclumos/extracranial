@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/60283C'
+last_modified: 2025-09-04
 ---
 
 Groupthink in a startup context refers to the phenomenon where team members prioritize consensus and harmony over critical thinking and independent decision-making. This leads to a lack of diverse opinions, stifling creativity and potentially resulting in poor strategic choices. It can be detrimental to a startup's success, as innovation and adaptability are often critical factors for growth and survival in competitive markets.

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/463E59'
+last_modified: 2023-02-24
 ---
 
 - [Trying Cloudflare Pages: Best Server Tech Since cgi-bin - Perf and other stuff](https://taras.glek.net/post/cloudflare-pages-kind-of-amazing/)

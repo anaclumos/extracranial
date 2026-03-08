@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/8FC894'
 aliases: ['그냥 고치면 좋겠다']
+last_modified: 2024-03-06
 ---
 
 I don't care about the cause.

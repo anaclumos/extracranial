@@ -19,6 +19,7 @@ aliases:
     'hyperintelligent',
     '석학',
   ]
+last_modified: 2023-08-03
 ---
 
 ![[C25819.png]]

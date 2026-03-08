@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/16A069'
+last_modified: 2023-06-12
 ---
 
 ## [ChatGPT broke the EU plan to regulate AI](https://www.politico.eu/article/eu-plan-regulate-chatgpt-openai-artificial-intelligence-act/)

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BB07BF'
+last_modified: 2023-11-12
 ---
 
 When navigating to www.amazon.com, the client asks

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2862B4'
+last_modified: 2025-09-04
 ---
 
 ![Source: European Space Agency](../assets/BAC983.png)

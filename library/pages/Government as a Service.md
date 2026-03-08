@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4DDF86'
+last_modified: 2024-05-02
 ---
 
 - [[성현적 발상]]

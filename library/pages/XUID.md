@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C04815'
+last_modified: 2023-07-23
 ---
 
 Same as UUID, but what if it uses 36-based randomized alphanumerics (A-Z, 0-9)?

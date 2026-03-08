@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/37D058'
+last_modified: 2025-02-26
 ---
 
 [[Old Someday]] [[Project]]. Creating a "[Quoridor](https://en.wikipedia.org/wiki/Quoridor)" game and its corresponding [[AI]] system.

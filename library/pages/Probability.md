@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/40982F'
+last_modified: 2023-04-28
 ---
 
 - $P(H|E)$ → [[Bayes Theorem]]

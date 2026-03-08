@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/217628'
+last_modified: 2025-04-29
 ---
 
 Salvador Dali, the famous surrealist painter, developed a unique technique for accessing his subconscious mind and enhancing his creativity, which is often referred to as the "sleep spoon method" or "slumber with a key." Here's a brief explanation of this method:

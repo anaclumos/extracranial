@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/EC30D8'
 aliases: ['Symbol']
+last_modified: 2025-09-04
 ---
 
 - [[Undefined Symbol Vtable]]

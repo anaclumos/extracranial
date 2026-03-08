@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/6BA6AF'
+last_modified: 2025-09-04
 ---
 
 - A spacial understanding of hierarchy

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/861603'
+last_modified: 2026-01-12
 ---
 
 - [IconBrew - Open source icons for everyone](https://iconbrew.com/)

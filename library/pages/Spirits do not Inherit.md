@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/602050'
+last_modified: 2025-09-04
 ---
 
 We lack independent egos - that's what a 14-year-old thought while studying for his middle school memorization course. Even though I tried to persuade myself -- memorizing things so they would stay in her head for the rest of her life and be used in the future -- I still couldn't quite understand why this was necessary. Then one day, I had an idea.

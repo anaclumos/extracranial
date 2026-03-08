@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B80EAF'
+last_modified: 2026-01-01
 ---
 
 ## Idea

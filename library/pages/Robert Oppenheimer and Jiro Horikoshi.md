@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/63C775'
+last_modified: 2026-01-03
 ---
 
 Both [[Jiro Horikoshi]] and [[J. Robert Oppenheimer]] were influential figures during World War II, making significant contributions to aeronautical engineering and theoretical physics. They developed technologies that significantly impacted the course of the war and subsequent peace but also grappled with moral implications.

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/4FEFA9'
 aliases: ['Vocabulary', '단어', '어휘', '단어들', '어휘들', '사자성어', '고사성어', '영단어']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

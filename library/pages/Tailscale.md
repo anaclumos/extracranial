@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C7F303'
+last_modified: 2025-04-29
 ---
 
 > Tailscale makes networking easy. Tailscale lets you easily manage access to private resources, quickly SSH into devices on your network, and work securely from anywhere in the world. [Tailscale · Best VPN Service for Secure Networks](https://tailscale.com/)

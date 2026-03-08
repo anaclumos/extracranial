@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4F56FE'
+last_modified: 2026-01-08
 ---
 
 - [[My Raycast Wrapped of 2022]]

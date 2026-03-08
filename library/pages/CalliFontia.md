@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/3B14B7'
+last_modified: 2025-09-04
 ---
 
 [[Old Someday]] [[Project]]. [[Apple]] Pencil Handwriting → [[Font]].

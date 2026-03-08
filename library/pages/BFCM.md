@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1A0DF6'
+last_modified: 2025-04-29
 ---
 
 Means Black Friday Cyber Monday. Stripe and Shopify showcased the [[Transactional Globe]]

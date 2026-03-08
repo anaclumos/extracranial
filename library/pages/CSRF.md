@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C388D9'
+last_modified: 2025-04-29
 ---
 
 Cross-Site Request Forgery, commonly known as CSRF, is a web security vulnerability that can have serious consequences for both users and websites. To understand CSRF, we need to explore how websites handle user authentication and how attackers can exploit this process.

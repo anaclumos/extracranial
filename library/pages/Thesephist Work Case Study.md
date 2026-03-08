@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/31A35D'
+last_modified: 2023-05-24
 ---
 
 ### [[Search in a Latent Space]]

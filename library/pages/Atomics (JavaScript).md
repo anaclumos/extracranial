@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D7EA90'
+last_modified: 2023-06-06
 ---
 
 - [[SharedArrayBuffer]]를 이용해 [[Web Worker]] 사이 메모리를 동기화하기 위해 사용됨.

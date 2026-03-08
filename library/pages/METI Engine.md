@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B17497'
+last_modified: 2025-09-04
 ---
 
 METI stands for "Messaging Extraterrestrial Intelligence." It is an approach to actively transmitting messages from Earth to possible extraterrestrial civilizations hoping to make contact. METI is sometimes referred to as "active SETI" (Search for Extraterrestrial Intelligence), in contrast to the more traditional "passive" SETI, which involves listening for signals from space that might be indicative of intelligent life.

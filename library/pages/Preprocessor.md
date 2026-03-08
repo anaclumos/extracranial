@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/6F8BD8'
+last_modified: 2025-09-04
 ---
 
 In [[Graphics]], preprocessors are the directives to tell the compiler before turning them into codes.

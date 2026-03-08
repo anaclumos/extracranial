@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/39BFED'
+last_modified: 2025-04-29
 ---
 
 - [[Engine Equation]] [[엔진 방정식]]

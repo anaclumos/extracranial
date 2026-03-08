@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/DDE8E8'
+last_modified: 2026-01-01
 ---
 
 [iOS Style Toggle in CSS](https://gist.github.com/anaclumos/c12c51fc768f009b1d659d1ab46752d2)

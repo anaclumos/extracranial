@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9C8B9F'
+last_modified: 2025-04-29
 ---
 
 [[Metaverse]]

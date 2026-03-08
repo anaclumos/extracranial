@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7FD8B9'
+last_modified: 2024-02-13
 ---
 
 - [[효과적 가속주의]]

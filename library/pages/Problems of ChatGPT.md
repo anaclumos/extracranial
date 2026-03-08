@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3F9499'
+last_modified: 2023-02-21
 ---
 
 ### [Abstracts written by ChatGPT fool scientists](https://www.nature.com/articles/d41586-023-00056-7)

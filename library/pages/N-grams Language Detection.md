@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/62319B'
+last_modified: 2025-09-04
 ---
 
 Using [[N-gram]] to detect [[language]] involves analyzing the frequency and occurrence patterns of sequences of letters or words ([[N-gram|N-grams]]) within a text and comparing these patterns against known profiles for different languages. This method is based on the observation that different languages have distinctive [[N-gram]] patterns. Here's a general approach to how this can be done:

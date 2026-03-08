@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: /A4A7B2
+last_modified: 2026-01-01
 ---
 
 I may call it... neobubble trend?

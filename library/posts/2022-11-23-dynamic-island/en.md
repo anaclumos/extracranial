@@ -3,6 +3,7 @@ date: 2022-11-23
 description: 'This is how I recreated Dynamic Island on the Web.'
 slug: '/9F7F85'
 title: 'Recreating the Dynamic Island'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

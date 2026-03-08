@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3C3C5B'
+last_modified: 2024-12-27
 ---
 
 ### [eBPF File Watching](https://matt-rickard.ghost.io/ebpf-file-watching/?ref=Matt+Rickard-newsletter)

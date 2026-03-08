@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/CB6043'
+last_modified: 2026-01-01
 ---
 
 - [[Lesser Known Trick]]

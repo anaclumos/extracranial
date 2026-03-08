@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B56933'
+last_modified: 2025-04-29
 ---
 
 Prior $h(\sigma) \sim \text{Beta}(\alpha, \beta)$

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/78366E'
 aliases: ['티켓 바운티 모델']
+last_modified: 2025-09-04
 ---
 
 - What if we pay devs with the number of tickets they get done?

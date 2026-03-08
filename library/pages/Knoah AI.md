@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/9E841A'
+last_modified: 2026-01-01
 ---
 
 import YouTube from '@site/src/components/youtube';

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1F25A6'
+last_modified: 2023-05-11
 ---
 
 - get ideas from your life

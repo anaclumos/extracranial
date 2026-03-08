@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E4EE12'
+last_modified: 2025-04-29
 ---
 
 - Peter the Great is credited with modernizing Russia and transforming it into a European power, often associated with Westernization.

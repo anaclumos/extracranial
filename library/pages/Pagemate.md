@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4F0B05'
+last_modified: 2025-09-04
 ---
 
 인기투표상 (Side Track, People's Choice Award) 수상

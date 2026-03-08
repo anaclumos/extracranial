@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C066BC'
+last_modified: 2026-01-08
 ---
 
 - [[Raycast]]

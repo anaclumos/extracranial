@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BC04B6'
+last_modified: 2026-01-03
 ---
 
 - Does [[Financial Technology|FinTech]] increase Justice in this world?

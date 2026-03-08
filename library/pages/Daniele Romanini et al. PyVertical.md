@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B00FD7'
+last_modified: 2023-09-14
 ---
 
 The paper introduces the PyVertical framework for [[vertical federated learning]] using split neural networks (SplitNNs). This framework facilitates training neural networks on vertically distributed data across multiple owners, ensuring that raw data remains on the owner's device. This vertical partitioning means that different entities own different [[Feature|features]] of the same dataset. Private Set Intersection (PSI) identifies and links common data points across these datasets without compromising privacy. To validate the effectiveness of PyVertical, the authors trained a split neural network on the MNIST dataset, with the data samples being split across two different owners and a third party (data scientist) overseeing the training.

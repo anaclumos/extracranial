@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/F4B53F'
+last_modified: 2026-01-01
 ---
 
 | 원문                                                                                                                                                             | 1번                                                                                                                                                | 2번                                                                                                                              | 3번                                                                                                                    |

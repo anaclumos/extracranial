@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/67EF93'
+last_modified: 2024-02-21
 ---
 
 OpenAI is an [[AI]] research and deployment company that aims to ensure that artificial general intelligence (AGI) benefits all of humanity.

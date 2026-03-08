@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/34FBA7'
 aliases: ['미국 이기기', '미국 극복', '미국을 이길']
+last_modified: 2026-01-03
 ---
 
 import Tabs from '@theme/Tabs'

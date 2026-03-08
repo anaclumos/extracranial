@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/749C99'
+last_modified: 2025-09-04
 ---
 
 A few days ago, I found people were sharing a website listing the apps they pinned to their dock -- [dockhunt.com](https://dockhunt.com/). So I also added my dock to the website, thinking it is an excellent concept. But not so later, I got an interesting inquiry.

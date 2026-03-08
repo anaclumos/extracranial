@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/1A870B'
+last_modified: 2025-09-01
 ---
 
 ### 전달하고 싶은 가치

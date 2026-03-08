@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FDAC72'
+last_modified: 2025-04-29
 ---
 
 $x \in A \subset \Omega \in \alpha \subset 2^{\Omega}$

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9E4E7C'
+last_modified: 2024-06-28
 ---
 
 ## [[WebExtension|Extension]] Ideas for [[Obsidian]]

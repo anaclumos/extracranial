@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/EEECE7'
+last_modified: 2024-12-27
 ---
 
 Short essay on [[2023-07-05]]:

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E0D970'
+last_modified: 2025-09-04
 ---
 
 [[르네상스]]

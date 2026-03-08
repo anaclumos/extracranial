@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8EA625'
+last_modified: 2025-09-04
 ---
 
 How faster would it get over time when you drop a random ball? Well -- some AP Physics 1 level easy piece of cake. You have Newton's laws of motion, $F=ma$, and the force of the acting body due to gravity is $F={GMm \over r^2}$, so $a=g={GM \over r^2}$. Easy peasy.

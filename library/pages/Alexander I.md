@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/63F0C0'
+last_modified: 2025-04-29
 ---
 
 - Alexander I's reign is often associated with the Napoleonic Wars and the Congress of Vienna.

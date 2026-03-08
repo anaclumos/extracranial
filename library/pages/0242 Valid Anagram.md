@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C1FF2B'
+last_modified: 2022-10-13
 ---
 
 Solved at: [[2022-09-04]]

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/563122'
+last_modified: 2025-04-29
 ---
 
 [[CS576 Multimedia Design]]

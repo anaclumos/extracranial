@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/BD1F4B'
 aliases: ['블라인드 병']
+last_modified: 2023-09-08
 ---
 
 Blind Illness refers to the mental illness of those who want fame and romanticized glory with their company titles.

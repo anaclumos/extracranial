@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/240593'
+last_modified: 2025-09-04
 ---
 
 [Swift에서 String을 조작하는 것은 예상보다 엄청 복잡하다.](https://www.quora.com/Why-is-string-manipulation-so-difficult-in-Swift). 몇 가지 공통된 불만사항들:

@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/954D00'
+last_modified: 2026-01-13
 ---
 
 ## Essay 1 — What I am building

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/FC8E1E'
 aliases: ['Features']
+last_modified: 2025-09-04
 ---
 
 In [[ML|machine learning]], a **feature** is an individual data point, measurable property, or characteristic of an observed phenomenon. Features represent the data in a form amenable to [[ML|machine learning]]. Essentially, they are the variables or attributes the algorithm uses to make predictions or decisions. For example, suppose you are building a [[ML|machine-learning]] model to predict the price of houses. In that case, features include the number of bedrooms, the square footage of the living space, the neighborhood crime rate, the distance to the nearest [[public transport]] station, and so on.

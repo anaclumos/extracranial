@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/A752BB'
+last_modified: 2025-12-31
 ---
 
 :::warning

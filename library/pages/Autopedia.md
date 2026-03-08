@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/670379'
+last_modified: 2025-02-26
 ---
 
 [[Old Someday]]

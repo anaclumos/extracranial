@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E6431A'
+last_modified: 2026-01-03
 ---
 
 A universal chat is a single, centralized chat service or platform that every internet user is part of, much like a ubiquitous social media network or [[Mail|email]] service. It facilitates communication among all its users without them needing to be on separate platforms or use different applications.

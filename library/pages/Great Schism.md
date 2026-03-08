@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/310D62'
+last_modified: 2025-09-04
 ---
 
 - Constantinople and Rome had differences between church and state.

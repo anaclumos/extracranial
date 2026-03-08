@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C60376'
+last_modified: 2025-09-04
 ---
 
 - [activepieces/activepieces: Your friendliest open source AI automation tool ✨ Workflow automation tool 200+ integration / Enterprise automation tool / Zapier Alternative](https://github.com/activepieces/activepieces)

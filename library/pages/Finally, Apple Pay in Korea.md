@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D8A164'
+last_modified: 2025-09-04
 ---
 
 After a decade of waiting, [[Apple]] Pay has expanded to [[대한민국|Korea]]. [[대한민국|Korea]] remained the only developed nation country that did not support [[Apple]] Pay. Why did it take so long?

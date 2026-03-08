@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D976F5'
+last_modified: 2025-05-07
 ---
 
 - [[Block Screenshots in iOS]]

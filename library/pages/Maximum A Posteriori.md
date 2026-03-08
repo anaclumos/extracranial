@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/F32805'
 aliases: ['MAP']
+last_modified: 2025-04-29
 ---
 
 ## Maximum A Posteriori (MAP) Estimation

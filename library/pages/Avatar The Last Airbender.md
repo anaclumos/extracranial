@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/6D0BFC'
 title: 'Avatar: The Last Airbender'
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

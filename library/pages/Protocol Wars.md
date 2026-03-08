@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/6CC3EF'
+last_modified: 2026-01-03
 ---
 
 ### [Why Do Protocols Win?](https://matt-rickard.com/why-do-protocols-win)

@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/218EC0'
+last_modified: 2026-01-09
 ---
 
 [[조잡생각]]

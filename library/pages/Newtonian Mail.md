@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8FD98A'
+last_modified: 2023-03-05
 ---
 
 Isaac Newton communicated with his peers through the [[mail]]. He was a prolific [[Mail|letter]] writer and corresponded with numerous scientists and [[Superbrain|intellectuals]]. Newton's [[Mail|letters]] were often highly technical and discussed his scientific research and findings. In addition, he used notes to exchange ideas and collaborate with other scientists, including Robert Boyle, Christiaan Huygens, and Gottfried Wilhelm Leibniz. [[Mail|Mails]] were Newton's [[Tools for Thought]].

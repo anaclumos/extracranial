@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BF0101'
+last_modified: 2025-01-16
 ---
 
 es-toolkit is a drop-in replacement tool for lodash.

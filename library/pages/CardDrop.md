@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9A28CD'
+last_modified: 2025-04-29
 ---
 
 Business Card Drop. Just like NameDrop, but works as a link

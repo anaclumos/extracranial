@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3E1771'
+last_modified: 2025-04-29
 ---
 
 - They usually suck at building interfaces

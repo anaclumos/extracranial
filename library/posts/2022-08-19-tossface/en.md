@@ -3,6 +3,7 @@ title: 'Reviving Korean Emojis'
 date: 2022-08-19
 description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean Ones. They are now back.'
 slug: '/92B47B'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

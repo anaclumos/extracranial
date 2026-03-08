@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/78ED4E'
+last_modified: 2023-04-19
 ---
 
 Cloud Native generations of software engineers refer to those developers who are familiar with and prefer cloud-native development practices and technologies. They have grown up in an era where [[cloud computing]] is the norm and take for granted the benefits that [[cloud computing]] offers, such as scalability, flexibility, and cost-effectiveness.

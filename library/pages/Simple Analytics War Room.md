@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C567BF'
+last_modified: 2024-02-21
 ---
 
 ### [How to hack Hacker News (and consistently hit the front page)](https://www.indiehackers.com/post/how-to-hack-hacker-news-and-consistently-hit-the-front-page-56b4a04e12)

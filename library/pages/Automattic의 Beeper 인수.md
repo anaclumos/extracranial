@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/11C24B'
+last_modified: 2025-05-11
 ---
 
 Beeper가 Automattic에 인수됐다.

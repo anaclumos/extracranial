@@ -2,6 +2,7 @@
 title: 'First week at Karrot'
 date: 2022-05-27
 slug: '/98410A'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

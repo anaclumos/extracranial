@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/6DA4E7'
 aliases: ['Maps', 'Map']
+last_modified: 2024-02-21
 ---
 
 Cartography is the art, science, and technology of making and using maps. It involves representing geographical information in a visual, understandable, and interpretable format. Maps have been essential for navigation, exploration, and communication since ancient times. Some critical aspects of cartography include:

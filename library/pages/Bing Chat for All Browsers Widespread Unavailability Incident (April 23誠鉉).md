@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AB7939'
+last_modified: 2024-12-27
 ---
 
 [No longer working on Chrome (gives "Open in Microsoft Edge" window) · Issue #74 · anaclumos/bing-chat-for-all-browsers](https://github.com/anaclumos/bing-chat-for-all-browsers/issues/74)

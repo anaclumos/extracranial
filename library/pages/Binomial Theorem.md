@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B9D8EC'
+last_modified: 2025-09-04
 ---
 
 $(p + q)^n = \sum\limits_{k=0}^n {n \choose k} p^k q^{n-k}$

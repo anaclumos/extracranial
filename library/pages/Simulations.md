@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5C9D52'
+last_modified: 2025-04-29
 ---
 
 - Simulation Coding problem is when you do the work as-is, as given on the problem.

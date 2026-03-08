@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A22BF7'
+last_modified: 2022-12-05
 ---
 
 What if stale [[HTML]] elements can have some neat features?

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5B207A'
+last_modified: 2026-01-08
 ---
 
 - [[My Raycast Wrapped of 2023]]

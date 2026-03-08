@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/83CC2D'
+last_modified: 2025-04-29
 ---
 
 ## 전략

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/A8B9E5'
 aliases: ['Feature Flags']
+last_modified: 2023-06-15
 ---
 
 - guard rails when releasing new things.

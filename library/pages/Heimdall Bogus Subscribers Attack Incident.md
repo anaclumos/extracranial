@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E2CDEB'
+last_modified: 2024-07-31
 ---
 
 - Happened from [[2023-07-30]]-[[2023-08-01]], or something like that

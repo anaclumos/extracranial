@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D3A03E'
+last_modified: 2023-10-31
 ---
 
 ### [The Quest for Netflix on Asahi Linux](https://www.da.vidbuchanan.co.uk/blog/netflix-on-asahi.html)

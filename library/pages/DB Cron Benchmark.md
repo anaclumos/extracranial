@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9D0248'
+last_modified: 2025-02-26
 ---
 
 This is my go-to prompt for benchmarking whether an AI is smart or not.

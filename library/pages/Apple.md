@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/B44343'
 aliases: ['애플']
+last_modified: 2023-07-05
 ---
 
 - [Apple](https://apple.com)

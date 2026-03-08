@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/829DE7'
+last_modified: 2025-05-11
 ---
 
 ```dataview

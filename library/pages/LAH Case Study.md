@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/FAF64D'
+last_modified: 2025-05-11
 ---
 
 ![[784BE1.png]]

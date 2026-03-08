@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/BE71F7'
 aliases: ['bootstrapping', '부트스트랩', '부트스트래핑']
+last_modified: 2026-01-03
 ---
 
 > Startups can begin with resources they can reasonably manage. A harmful mindset treats startups like they must follow a predetermined path, like attending college and securing a job.

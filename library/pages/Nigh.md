@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/875DD9'
+last_modified: 2023-04-09
 ---
 
 > (archaic, poetic) near, close by.

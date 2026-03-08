@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E6617C'
+last_modified: 2022-12-18
 ---
 
 > Intentionally maximizes the change of hash collision to detect similar images. Used by [[Google]]'s Search by Image feature or [[Apple]]'s CSAM. [Perceptual Hashing](https://matt-rickard.com/perceptual-hashing)

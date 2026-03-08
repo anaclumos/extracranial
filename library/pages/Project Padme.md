@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A98ACB'
+last_modified: 2023-06-27
 ---
 
 Build an **interaction effects calculator** for [[Manakin]].

@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/F5B82E'
+last_modified: 2026-01-08
 ---
 
 - [[Raycast]]

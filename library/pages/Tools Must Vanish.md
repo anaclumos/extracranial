@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/46CE89'
 aliases: ['vanish']
+last_modified: 2025-09-04
 ---
 
 - [[Powerfully Powerless Tools]]

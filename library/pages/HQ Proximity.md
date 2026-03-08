@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F77EE6'
+last_modified: 2025-09-04
 ---
 
 ### [Be Where Your Business Is](https://steveblank.com/2023/01/10/be-where-your-business-is/)

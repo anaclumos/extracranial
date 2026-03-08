@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/598CA9'
+last_modified: 2023-02-06
 ---
 
 - A mathematic coding question is when

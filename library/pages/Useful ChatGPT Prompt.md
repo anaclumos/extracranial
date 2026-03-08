@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/10ECE0'
+last_modified: 2023-11-16
 ---
 
 ## Write Immaculate Math Solutions

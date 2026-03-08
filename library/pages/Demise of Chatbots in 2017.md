@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7D82EB'
+last_modified: 2025-09-04
 ---
 
 - In 2017, I saw too many Chatbot [[AI]] startups. Then in 2018, they suddenly disappeared.

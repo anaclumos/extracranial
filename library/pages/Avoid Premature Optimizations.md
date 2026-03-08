@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/37067D'
+last_modified: 2026-01-03
 ---
 
 - Premature optimization refers to optimizing a software system's performance or resource usage too early in development before the system's requirements and design are fully understood.

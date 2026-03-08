@@ -14,6 +14,7 @@ aliases:
     'video editing applications',
     'Video editing softwares',
   ]
+last_modified: 2025-04-29
 ---
 
 Video editing software is a computer program or app that allows users to make adjustments to video files. Video editing software can be used for many purposes, including filmmaking, audio commentary, and general editing of video content. When editing is finished, the user exports the sequence as a video file. Some popular video editing software programs include iMovie, [[Final Cut Pro]], [[Adobe Premiere Pro]], and [[Adobe After Effects]].

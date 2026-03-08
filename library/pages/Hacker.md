@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/719A17'
+last_modified: 2025-04-29
 ---
 
 ### [5 Years of Indie Hacking](https://allisonseboldt.com/5-years-of-indie-hacking/)

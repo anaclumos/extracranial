@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D6835E'
+last_modified: 2025-04-29
 ---
 
 ## [Kids who grew up with search engines could change STEM education forever](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z)

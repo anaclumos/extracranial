@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/C97E38'
 aliases: ['Apple Login', '애플 로그인', 'Apple 로그인', 'Apple ID Login', 'Apple로 로그인']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

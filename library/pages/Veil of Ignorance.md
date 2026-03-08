@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/276D4D'
+last_modified: 2024-05-02
 ---
 
 The "veil of ignorance" is a thought experiment introduced by [[American]] philosopher John Rawls in his 1971 book, "A Theory of Justice." The concept is a method of determining the morality of a particular issue (e.g., wealth distribution, affirmative action) based on the following thought experiment. Suppose you were placed behind a veil of ignorance that wiped out all your knowledge about your personal characteristics and social and historical facts. You don't know anything about your gender, race, nationality, individual tastes, or personal identity. You cannot learn about the specific society you live in, its political or [[Economy|economic]] system, or its level of technological sophistication.

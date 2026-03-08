@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9705B1'
+last_modified: 2023-11-10
 ---
 
 > Boring Report is an app that aims to remove sensationalism from the news, making it boring to read. In today's world, catchy headlines and articles often distract readers from the facts and relevant information.

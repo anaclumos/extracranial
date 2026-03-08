@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B1F73D'
+last_modified: 2025-09-04
 ---
 
 I got blocked from Vercel under "violating fair use" with two projects: [[lovearc.net]] and [[hn.cho.sh]].

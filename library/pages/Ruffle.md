@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B324D5'
+last_modified: 2023-04-19
 ---
 
 ## [Still Have A Use For Adobe Flash? Ruffle Is Working To Emulate It In Rust Safely](https://www.phoronix.com/news/Ruffle-Adobe-Flash-Rust)

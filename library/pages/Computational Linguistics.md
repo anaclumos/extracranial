@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1FDFA5'
+last_modified: 2023-10-31
 ---
 
 Computational linguistics combines linguistics, [[computer science]], and [[AI|artificial intelligence]] to develop algorithms, models, and systems that can process and analyze human [[language]]. It involves applying computational methods to [[language]] study, including developing [[Natural Language Processing]] ([[Natural Language Processing|NLP]]) technologies, machine translation, speech recognition, and text analysis.

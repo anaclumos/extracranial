@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BFEB0D'
+last_modified: 2024-12-27
 ---
 
 Gall's Law is a software engineering principle stating that

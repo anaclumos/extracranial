@@ -11,6 +11,7 @@ aliases:
     'iMessage 앱',
     'iMessage 익스텐션',
   ]
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

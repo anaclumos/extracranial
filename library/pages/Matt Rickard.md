@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/F637CF'
 aliases: ['matt-rickard', 'Rickard']
+last_modified: 2023-07-03
 ---
 
 - [[Programmable Web]]

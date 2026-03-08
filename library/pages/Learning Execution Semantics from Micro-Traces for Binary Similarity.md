@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/664F0C'
+last_modified: 2024-01-15
 ---
 
 - Attended [[CS Colloquium]] on [[2023-03-28]].

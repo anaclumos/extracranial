@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A4D2AC'
+last_modified: 2025-04-29
 ---
 
 ## [Typst: Compose papers faster](https://typst.app/)

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D326AB'
+last_modified: 2024-12-27
 ---
 
 Why isn't there a namecard → LLM → Contact file (.vcf) app?

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: /D8A76E
 aliases: ['메멕스']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

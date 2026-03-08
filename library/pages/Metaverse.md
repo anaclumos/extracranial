@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/D38E36'
 aliases: ['메타버스']
+last_modified: 2024-07-05
 ---
 
 Universe about Universe

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4CFF9A'
+last_modified: 2025-04-08
 ---
 
 A small [[done]] project I've done over the weekend

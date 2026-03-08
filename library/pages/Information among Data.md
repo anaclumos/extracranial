@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/B03E94'
 aliases: ['데이터 중 정보']
+last_modified: 2023-10-04
 ---
 
 - Data: Simple 0s and 1s.

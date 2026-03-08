@@ -2,6 +2,7 @@
 title: 'RSS로 한 번에 백업하기'
 date: 2020-04-21
 slug: '/21E029'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

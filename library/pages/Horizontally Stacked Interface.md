@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F415A9'
+last_modified: 2023-08-28
 ---
 
 Two types.

@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/8447EC'
+last_modified: 2025-04-29
 ---
 
 - 인도 어원

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/52F47B'
+last_modified: 2023-07-19
 ---
 
 ### [What explains recent tech layoffs, and why should we be worried?](https://news.stanford.edu/2022/12/05/explains-recent-tech-layoffs-worried/)

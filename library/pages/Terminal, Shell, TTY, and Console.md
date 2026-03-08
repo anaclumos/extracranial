@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1D8266'
+last_modified: 2025-05-19
 ---
 
 - A terminal is a text input/output environment. Historically, it was a physical device (keyboard + display). Today, it refers to software emulators (e.g., GNOME Terminal, Windows Terminal) that let users interact with a shell.

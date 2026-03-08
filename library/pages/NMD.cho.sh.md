@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/671D08'
+last_modified: 2024-12-27
 ---
 
 Mobile-Desktop optimized **Master Detail View** (Like iPhone-iPad)

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/17B32D'
+last_modified: 2025-09-04
 ---
 
 ### [In Lebanon, Solar Power Booms - SAPIENS](https://www.sapiens.org/culture/lebanon-solar-power/)

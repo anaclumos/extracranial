@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A51A6A'
+last_modified: 2023-08-28
 ---
 
 - [[WebAssembly]] is like [[Assembly]], except that

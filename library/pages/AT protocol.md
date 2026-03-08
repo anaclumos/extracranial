@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/DC5F10'
 aliases: ['atproto', 'Authenticated Transfer Protocol', 'AT 프로토콜']
+last_modified: 2023-08-15
 ---
 
 The Authenticated Transfer Protocol (AT Protocol or atproto) is a distributed social application framework that enables large-scale federation. It addresses some of the limitations and challenges associated with current social networking technologies and aims to offer better scalability, user choice, data portability, and more robust data security.

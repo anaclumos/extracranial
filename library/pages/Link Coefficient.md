@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AC990C'
+last_modified: 2023-06-02
 ---
 
 Given a [[database]], how interconnected is the [[database]]?

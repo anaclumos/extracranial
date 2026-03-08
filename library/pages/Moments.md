@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/708AFC'
+last_modified: 2025-04-29
 ---
 
 $\mathbb{E}[aX+b] = a\mathbb{E}[X] + b$

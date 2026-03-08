@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/420297'
+last_modified: 2023-07-23
 ---
 
 Parquet is an open-source file format for storing data in columns. Parquet files are smaller than CSV files, and they can be read and written much faster. Parquet files also support nested data structures, which makes them ideal for storing complex data.

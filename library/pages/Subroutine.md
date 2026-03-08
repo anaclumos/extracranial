@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8F3373'
+last_modified: 2025-06-03
 ---
 
 - A named, reusable block of sequential instructions with a single entry point and a single exit point.

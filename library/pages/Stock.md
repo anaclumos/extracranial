@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/5979E0'
 aliases: ['주식', '스톡', '주가', 'Stock Price', 'Stocks']
+last_modified: 2026-01-01
 ---
 
 - Owning a stock means you own a small piece of a company. The more stocks you own, the bigger your piece of the company. If a company sells more stocks, each stock is worth a smaller percentage of the company.

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: /B32F9A
+last_modified: 2026-01-01
 ---
 
 > Ladies and gentlemen, I pleased to announce my latest app:

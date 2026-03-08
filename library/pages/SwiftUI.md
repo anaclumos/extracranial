@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F65967'
+last_modified: 2023-02-02
 ---
 
 - Declarative Framework made with [[Swift]]

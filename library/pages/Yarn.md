@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C9816C'
+last_modified: 2023-08-28
 ---
 
 Yarn is another package manager for JavaScript that [[Facebook]] developed as a more efficient and reliable [[alternative]] to [[npm]]. It was released in 2016, several years after [[npm]].

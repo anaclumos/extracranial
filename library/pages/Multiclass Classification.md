@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7AA207'
+last_modified: 2025-09-04
 ---
 
 | Reduction | Gist                                                   | Training Time             | Prediction Time         | Remark                                |

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/502A78'
+last_modified: 2025-09-04
 ---
 
 - [[Case Study]]

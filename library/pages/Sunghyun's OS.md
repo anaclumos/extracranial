@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D992C2'
+last_modified: 2025-05-13
 ---
 
 After using Pantheon and NixOS for a while, I don't like the design and the feel. It just doesn't feel Mac. But I still want to escape the [[Apple]] ecosystem -- [[Linux Device that keenly follows MacBook]]

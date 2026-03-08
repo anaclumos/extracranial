@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/CD501A'
+last_modified: 2026-01-03
 ---
 
 A reply to [Software Rewrites](https://matt-rickard.com/software-rewrites).

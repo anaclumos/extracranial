@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A659E3'
+last_modified: 2023-07-25
 ---
 
 Definitive Healthcare, an AI health company, has faced several challenges in managing and optimizing large-scale data. They shared their experiences and the solutions they found in a recent presentation.

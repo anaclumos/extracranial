@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BA4019'
+last_modified: 2023-02-02
 ---
 
 The general process of a [[graphics]] [[engine]] follows:

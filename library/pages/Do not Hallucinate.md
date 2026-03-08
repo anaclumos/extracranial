@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FD941B'
+last_modified: 2025-09-04
 ---
 
 [[Useful ChatGPT Prompt]]

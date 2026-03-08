@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/DD1F17'
 aliases: ['토스']
+last_modified: 2026-01-03
 ---
 
 - [[Financial Technology|FinTech]] [[Unicorn]] of [[대한민국|Korea]].

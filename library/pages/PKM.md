@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/E9DD55'
 aliases: ['Personal Knowledge Management']
+last_modified: 2023-04-19
 ---
 
 - Usually, Nonlinear, spider-web-like notes

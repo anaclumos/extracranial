@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/14A712'
+last_modified: 2025-09-04
 ---
 
 [[Apache]] Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications. Developed by the [[Apache|Apache Software Foundation]], Kafka was initially developed at LinkedIn and became a part of the [[Apache]] project in 2011. Kafka is designed to handle real-time data feeds with low latency and high efficiency. It is beneficial for tracking service calls (like clicks or page views on a website) or tracking IoT sensor data.
