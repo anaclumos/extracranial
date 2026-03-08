@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Token ≠ ความรู้",
+    "description": "โครงสร้างพื้นฐานการเสริมพลังการรู้คิดเพื่อการวิจัยที่ดีขึ้น"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "แถลงการณ์ Coscientist",
+    "joinWaitlist": "เข้าร่วมรายชื่อรอ",
+    "enterLab": "เข้าสู่ห้องปฏิบัติการ",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "โน้ตทั้งหมด",
+    "noteCount": "โน้ต {count} รายการ",
+    "currentlyOpen": "ขณะนี้เปิดอยู่ที่ตำแหน่ง {position}"
+  },
+  "notePane": {
+    "expand": "ขยายพื้นที่ทำงาน",
+    "expandNote": "สำรวจ {title}",
+    "closeNote": "ปิด {title}",
+    "closePane": "ปิดแผง {index}",
+    "editOnGitHub": "แก้ไขบน GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "ไปยังโน้ต {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "โน้ต {count} รายการลิงก์มาที่นี่",
+    "plural": "โน้ต {count} รายการลิงก์มาที่นี่"
+  },
+  "theme": {
+    "toggle": "เปลี่ยนธีม",
+    "light": "สว่าง",
+    "dark": "มืด",
+    "system": "ระบบ"
+  },
+  "navigation": {
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "goToPreviousPage": "ไปยังหน้าก่อนหน้า",
+    "goToNextPage": "ไปยังหน้าถัดไป",
+    "morePages": "หน้าเพิ่มเติม",
+    "pagination": "การแบ่งหน้า",
+    "breadcrumb": "เส้นทางนำทาง",
+    "more": "เพิ่มเติม"
+  },
+  "sidebar": {
+    "title": "แถบด้านข้าง",
+    "description": "เข้าถึงงานวิจัยได้อย่างรวดเร็วโดยตรง",
+    "toggle": "สลับแถบด้านข้าง"
+  },
+  "common": {
+    "close": "ปิด",
+    "remove": "ลบ",
+    "loading": "กำลังโหลดงานวิจัย...",
+    "opensInNewTab": "เปิดในแท็บใหม่"
+  },
+  "languageSwitcher": {
+    "label": "ภาษา",
+    "selectLanguage": "เลือกภาษา"
+  },
+  "landing": {
+    "hero": {
+      "title": "วิจัยด้วยความเร็ว\nของความคิด",
+      "subtitle": "แพลตฟอร์มวิจัยที่คิดได้ด้วยตัวเอง",
+      "description": "โครงสร้างพื้นฐานการเสริมพลังการรู้คิดเพื่อการวิจัยที่ดีขึ้น",
+      "readManifesto": "อ่านแถลงการณ์",
+      "emailPlaceholder": "กรอกอีเมลของคุณ",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "สถาปัตยกรรมหลัก",
+      "heading": "ต่างตั้งแต่ต้น อย่างตั้งใจ",
+      "dialecticalGraph": {
+        "title": "กราฟวิภาษวิธี",
+        "description": "เอนทิตีการวิจัยไม่ได้เชื่อมกันด้วยลิงก์ธรรมดา แต่เชื่อมด้วยข้ออ้างและความสัมพันธ์ ทุกประโยคสามารถติดตามย้อนกลับไปยังหลักฐานได้ด้วยคณิตศาสตร์"
+      },
+      "rebuttalFirst": {
+        "title": "โต้แย้งก่อน",
+        "description": "ไม่ประจบเหมือน AI อื่น ๆ กลับกันคือโจมตีช่องโหว่อย่างต่อเนื่อง"
+      },
+      "multilingual": {
+        "title": "หลายภาษาแบบเนทีฟ",
+        "description": "บทความภาษาอังกฤษ สมมติฐานภาษาเกาหลี ชุดข้อมูลภาษาญี่ปุ่น กราฟงานวิจัยแบบบูรณาการหนึ่งเดียว"
+      }
+    },
+    "pipeline": {
+      "eyebrow": "ทำงานอย่างไร",
+      "heading": "สถาปัตยกรรมการถกเถียงหลายเอเจนต์",
+      "description": "AI หลายเอเจนต์ถกเถียงกันภายใน คุณเห็นเฉพาะข้อโต้แย้งที่อยู่จนถึงท้ายที่สุด",
+      "steps": {
+        "propose": "เสนอ",
+        "critique": "วิจารณ์",
+        "rank": "จัดอันดับ",
+        "refine": "ขัดเกลา"
+      }
+    },
+    "forWho": {
+      "heading": "สำหรับนักวิจัยที่สร้างผลลัพธ์",
+      "audiences": {
+        "scientists": "นักวิทยาศาสตร์ที่เดินระบบท่อการทดลอง",
+        "engineers": "วิศวกรที่สร้างจากบทความล่าสุด",
+        "analysts": "นักวิเคราะห์ที่ผสานวรรณกรรมข้ามสาขา",
+        "teams": "ทีมที่ต้องการเส้นทางความรู้ที่ทำซ้ำได้"
+      }
+    },
+    "cta": {
+      "heading": "สารานุกรมกาแลคติกาของอาซิมอฟเป็นเรื่องแต่ง\nแต่เรากำลังสร้างให้เป็นจริง",
+      "readManifesto": "อ่านแถลงการณ์",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "แถลงการณ์",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

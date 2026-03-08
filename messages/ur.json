@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: ٹوکن ≠ علم",
+    "description": "بہتر تحقیق کے لیے ادراکی تقویت کا انفراسٹرکچر۔"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist منشور",
+    "joinWaitlist": "ویٹ لسٹ میں شامل ہوں",
+    "enterLab": "میری لیب میں داخل ہوں",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "تمام نوٹس",
+    "noteCount": "{count} نوٹس",
+    "currentlyOpen": "فی الحال پوزیشن {position} پر کھلا ہے"
+  },
+  "notePane": {
+    "expand": "ورک اسپیس پھیلائیں",
+    "expandNote": "{title} دریافت کریں",
+    "closeNote": "{title} بند کریں",
+    "closePane": "پینل {index} بند کریں",
+    "editOnGitHub": "GitHub پر ترمیم کریں"
+  },
+  "mobileCarousel": {
+    "goToNote": "نوٹ {position} پر جائیں: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} نوٹس یہاں منسلک ہیں",
+    "plural": "{count} نوٹس یہاں منسلک ہیں"
+  },
+  "theme": {
+    "toggle": "تھیم تبدیل کریں",
+    "light": "لائٹ",
+    "dark": "ڈارک",
+    "system": "سسٹم"
+  },
+  "navigation": {
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "goToPreviousPage": "پچھلے صفحے پر جائیں",
+    "goToNextPage": "اگلے صفحے پر جائیں",
+    "morePages": "مزید صفحات",
+    "pagination": "پیجینیشن",
+    "breadcrumb": "نیویگیشن راستہ",
+    "more": "مزید"
+  },
+  "sidebar": {
+    "title": "سائیڈبار",
+    "description": "تحقیق تک سیدھی تیز رسائی",
+    "toggle": "سائیڈبار ٹوگل کریں"
+  },
+  "common": {
+    "close": "بند کریں",
+    "remove": "ہٹائیں",
+    "loading": "تحقیق لوڈ ہو رہی ہے...",
+    "opensInNewTab": "نئی ٹیب میں کھلتا ہے"
+  },
+  "languageSwitcher": {
+    "label": "زبان",
+    "selectLanguage": "زبان منتخب کریں"
+  },
+  "landing": {
+    "hero": {
+      "title": "سوچ کی رفتار\nسے تحقیق",
+      "subtitle": "ایک تحقیقی پلیٹ فارم جو خود سوچتا ہے۔",
+      "description": "بہتر تحقیق کے لیے ادراکی تقویت کا انفراسٹرکچر۔",
+      "readManifesto": "منشور پڑھیں",
+      "emailPlaceholder": "اپنا ای میل درج کریں",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "مرکزی معماری",
+      "heading": "شروع سے مختلف، دانستہ",
+      "dialecticalGraph": {
+        "title": "جدلیاتی گراف",
+        "description": "تحقیقی اکائیاں سادہ لنکس سے نہیں بلکہ دعووں اور تعلقات سے جڑی ہیں۔ ہر جملہ ریاضیاتی طور پر اس کے ثبوت تک ٹریس کیا جا سکتا ہے۔"
+      },
+      "rebuttalFirst": {
+        "title": "ردِ دلیل پہلے",
+        "description": "یہ دوسرے AI کی طرح خوشامد نہیں کرتا۔ بلکہ خلا کو مسلسل نشانہ بناتا ہے۔"
+      },
+      "multilingual": {
+        "title": "فطری کثیر لسانی",
+        "description": "انگریزی مقالے۔ کورین مفروضے۔ جاپانی ڈیٹاسیٹس۔ ایک متحد تحقیقی گراف۔"
+      }
+    },
+    "pipeline": {
+      "eyebrow": "یہ کیسے کام کرتا ہے",
+      "heading": "کثیر ایجنٹ مباحثہ معماری",
+      "description": "کثیر ایجنٹ AI اندرونی طور پر بحث کرتا ہے۔ آپ صرف وہ دلائل دیکھتے ہیں جو آخر تک باقی رہتے ہیں۔",
+      "steps": {
+        "propose": "تجویز",
+        "critique": "تنقید",
+        "rank": "درجہ بندی",
+        "refine": "اصلاح"
+      }
+    },
+    "forWho": {
+      "heading": "ان محققین کے لیے جو نتائج دیتے ہیں",
+      "audiences": {
+        "scientists": "تجربی پائپ لائنیں چلانے والے سائنس دان",
+        "engineers": "تازہ ترین مقالوں پر تعمیر کرنے والے انجینئرز",
+        "analysts": "بین الشعبہ ادب کو یکجا کرنے والے تجزیہ کار",
+        "teams": "ایسی ٹیمیں جنہیں قابلِ تکرار علم کے راستے درکار ہوں"
+      }
+    },
+    "cta": {
+      "heading": "آسیموف کی انسائیکلوپیڈیا گیلکٹیکا افسانہ تھی۔\nلیکن ہم اسے حقیقت میں بنا رہے ہیں۔",
+      "readManifesto": "منشور پڑھیں",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "منشور",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

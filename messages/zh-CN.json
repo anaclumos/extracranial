@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist：Token ≠ 知识",
+    "description": "更好研究的认知增强基础设施。"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist 宣言",
+    "joinWaitlist": "加入候补名单",
+    "enterLab": "进入我的实验室",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "全部笔记",
+    "noteCount": "{count} 条笔记",
+    "currentlyOpen": "当前在第 {position} 个打开"
+  },
+  "notePane": {
+    "expand": "扩展工作空间",
+    "expandNote": "探索 {title}",
+    "closeNote": "关闭 {title}",
+    "closePane": "关闭面板 {index}",
+    "editOnGitHub": "在 GitHub 上编辑"
+  },
+  "mobileCarousel": {
+    "goToNote": "跳转到第 {position} 条笔记：{title}"
+  },
+  "backlinks": {
+    "singular": "{count} 条笔记链接到此处",
+    "plural": "{count} 条笔记链接到此处"
+  },
+  "theme": {
+    "toggle": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统"
+  },
+  "navigation": {
+    "previous": "上一页",
+    "next": "下一页",
+    "goToPreviousPage": "转到上一页",
+    "goToNextPage": "转到下一页",
+    "morePages": "更多页面",
+    "pagination": "分页",
+    "breadcrumb": "面包屑",
+    "more": "更多"
+  },
+  "sidebar": {
+    "title": "侧边栏",
+    "description": "直达研究的快速入口",
+    "toggle": "切换侧边栏"
+  },
+  "common": {
+    "close": "关闭",
+    "remove": "移除",
+    "loading": "正在加载研究...",
+    "opensInNewTab": "在新标签页打开"
+  },
+  "languageSwitcher": {
+    "label": "语言",
+    "selectLanguage": "选择语言"
+  },
+  "landing": {
+    "hero": {
+      "title": "以思考的\n速度研究",
+      "subtitle": "一个会自我思考的研究平台。",
+      "description": "更好研究的认知增强基础设施。",
+      "readManifesto": "阅读宣言",
+      "emailPlaceholder": "输入您的邮箱",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "核心架构",
+      "heading": "从一开始就不同，刻意为之",
+      "dialecticalGraph": {
+        "title": "辩证图谱",
+        "description": "研究实体不是通过简单链接，而是通过主张与关系相连。每个句子都可以从数学上追溯到其证据。"
+      },
+      "rebuttalFirst": {
+        "title": "先反驳",
+        "description": "它不像其他 AI 那样奉承，反而不断攻击漏洞。"
+      },
+      "multilingual": {
+        "title": "原生多语言",
+        "description": "英文论文。韩文假设。日文数据集。一个统一的研究图谱。"
+      }
+    },
+    "pipeline": {
+      "eyebrow": "工作方式",
+      "heading": "多代理辩论架构",
+      "description": "多代理 AI 在内部辩论。你只看到坚持到最后的论证。",
+      "steps": {
+        "propose": "提出",
+        "critique": "批评",
+        "rank": "排序",
+        "refine": "精炼"
+      }
+    },
+    "forWho": {
+      "heading": "为产出成果的研究者而生",
+      "audiences": {
+        "scientists": "运营实验流水线的科学家",
+        "engineers": "基于最新论文构建的工程师",
+        "analysts": "整合跨学科文献的分析师",
+        "teams": "需要可复现知识路径的团队"
+      }
+    },
+    "cta": {
+      "heading": "阿西莫夫的《银河百科全书》是虚构的。\n但我们正在把它建成现实。",
+      "readManifesto": "阅读宣言",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "宣言",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

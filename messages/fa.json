@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: توکن‌ها ≠ دانش",
+    "description": "زیرساخت تقویت شناختی برای پژوهش بهتر."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "مانیفست Coscientist",
+    "joinWaitlist": "به فهرست انتظار بپیوندید",
+    "enterLab": "ورود به آزمایشگاه من",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "همه یادداشت‌ها",
+    "noteCount": "{count} یادداشت",
+    "currentlyOpen": "اکنون در جایگاه {position} باز است"
+  },
+  "notePane": {
+    "expand": "گسترش فضای کار",
+    "expandNote": "کاوش {title}",
+    "closeNote": "بستن {title}",
+    "closePane": "بستن پنل {index}",
+    "editOnGitHub": "ویرایش در GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "رفتن به یادداشت {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} یادداشت به اینجا پیوند می‌دهند",
+    "plural": "{count} یادداشت به اینجا پیوند می‌دهند"
+  },
+  "theme": {
+    "toggle": "تغییر تم",
+    "light": "روشن",
+    "dark": "تیره",
+    "system": "سیستم"
+  },
+  "navigation": {
+    "previous": "قبلی",
+    "next": "بعدی",
+    "goToPreviousPage": "رفتن به صفحه قبلی",
+    "goToNextPage": "رفتن به صفحه بعدی",
+    "morePages": "صفحات بیشتر",
+    "pagination": "صفحه‌بندی",
+    "breadcrumb": "مسیر ناوبری",
+    "more": "بیشتر"
+  },
+  "sidebar": {
+    "title": "نوار کناری",
+    "description": "دسترسی سریع مستقیم به پژوهش",
+    "toggle": "تغییر نوار کناری"
+  },
+  "common": {
+    "close": "بستن",
+    "remove": "حذف",
+    "loading": "در حال بارگذاری پژوهش...",
+    "opensInNewTab": "در یک تب جدید باز می‌شود"
+  },
+  "languageSwitcher": {
+    "label": "زبان",
+    "selectLanguage": "انتخاب زبان"
+  },
+  "landing": {
+    "hero": {
+      "title": "پژوهش با\nسرعت فکر",
+      "subtitle": "یک پلتفرم پژوهشی که خودش می‌اندیشد.",
+      "description": "زیرساخت تقویت شناختی برای پژوهش بهتر.",
+      "readManifesto": "خواندن مانیفست",
+      "emailPlaceholder": "ایمیل خود را وارد کنید",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "معماری هسته‌ای",
+      "heading": "از ابتدا متفاوت، با قصد",
+      "dialecticalGraph": {
+        "title": "گراف دیالکتیکی",
+        "description": "نهادهای پژوهشی نه با لینک‌های ساده، بلکه با ادعاها و روابط متصل می‌شوند. هر جمله را می‌توان به‌صورت ریاضی تا شواهدش پیگیری کرد."
+      },
+      "rebuttalFirst": {
+        "title": "نخست ردیه",
+        "description": "مثل سایر هوش‌های مصنوعی چاپلوسی نمی‌کند. در عوض بی‌وقفه به شکاف‌ها حمله می‌کند."
+      },
+      "multilingual": {
+        "title": "چندزبانه بومی",
+        "description": "مقالات انگلیسی. فرضیه‌های کره‌ای. مجموعه‌داده‌های ژاپنی. یک گراف پژوهشی یکپارچه."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "چگونه کار می‌کند",
+      "heading": "معماری مناظرهٔ چندعاملی",
+      "description": "هوش مصنوعی چندعاملی درون خود مناظره می‌کند. فقط استدلال‌هایی را می‌بینید که تا پایان باقی می‌مانند.",
+      "steps": {
+        "propose": "پیشنهاد",
+        "critique": "نقد",
+        "rank": "رتبه‌بندی",
+        "refine": "اصلاح"
+      }
+    },
+    "forWho": {
+      "heading": "برای پژوهشگرانی که نتیجه می‌سازند",
+      "audiences": {
+        "scientists": "دانشمندانی که پایپلاین‌های آزمایشی را اجرا می‌کنند",
+        "engineers": "مهندسانی که بر پایه تازه‌ترین مقالات می‌سازند",
+        "analysts": "تحلیلگرانی که ادبیات میان‌رشته‌ای را یکپارچه می‌کنند",
+        "teams": "تیم‌هایی که به مسیرهای دانش قابل بازتولید نیاز دارند"
+      }
+    },
+    "cta": {
+      "heading": "دائره‌المعارف گالاکتیکای آسیموف داستانی بود.\nاما ما آن را در واقعیت می‌سازیم.",
+      "readManifesto": "خواندن مانیفست",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "مانیفست",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

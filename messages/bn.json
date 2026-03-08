@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: টোকেন ≠ জ্ঞান",
+    "description": "ভাল গবেষণার জন্য কগনিটিভ অগমেন্টেশন অবকাঠামো।"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Coscientist ঘোষণাপত্র",
+    "joinWaitlist": "ওয়েটলিস্টে যোগ দিন",
+    "enterLab": "আমার ল্যাবে প্রবেশ করুন",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "সব নোট",
+    "noteCount": "{count} টি নোট",
+    "currentlyOpen": "বর্তমানে {position} নম্বর অবস্থানে খোলা"
+  },
+  "notePane": {
+    "expand": "ওয়ার্কস্পেস প্রসারিত করুন",
+    "expandNote": "{title} অন্বেষণ করুন",
+    "closeNote": "{title} বন্ধ করুন",
+    "closePane": "প্যানেল {index} বন্ধ করুন",
+    "editOnGitHub": "GitHub-এ সম্পাদনা করুন"
+  },
+  "mobileCarousel": {
+    "goToNote": "নোট {position}-এ যান: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} টি নোট এখানে যুক্ত",
+    "plural": "{count} টি নোট এখানে যুক্ত"
+  },
+  "theme": {
+    "toggle": "থিম পরিবর্তন করুন",
+    "light": "হালকা",
+    "dark": "গাঢ়",
+    "system": "সিস্টেম"
+  },
+  "navigation": {
+    "previous": "পূর্ববর্তী",
+    "next": "পরবর্তী",
+    "goToPreviousPage": "পূর্ববর্তী পৃষ্ঠায় যান",
+    "goToNextPage": "পরবর্তী পৃষ্ঠায় যান",
+    "morePages": "আরও পৃষ্ঠা",
+    "pagination": "পেজিনেশন",
+    "breadcrumb": "নেভিগেশন পথ",
+    "more": "আরও"
+  },
+  "sidebar": {
+    "title": "সাইডবার",
+    "description": "গবেষণায় সরাসরি দ্রুত প্রবেশ",
+    "toggle": "সাইডবার টগল করুন"
+  },
+  "common": {
+    "close": "বন্ধ করুন",
+    "remove": "সরান",
+    "loading": "গবেষণা লোড হচ্ছে...",
+    "opensInNewTab": "নতুন ট্যাবে খোলে"
+  },
+  "languageSwitcher": {
+    "label": "ভাষা",
+    "selectLanguage": "ভাষা নির্বাচন করুন"
+  },
+  "landing": {
+    "hero": {
+      "title": "চিন্তার গতিতে\nগবেষণা",
+      "subtitle": "নিজে চিন্তা করে এমন একটি গবেষণা প্ল্যাটফর্ম।",
+      "description": "ভাল গবেষণার জন্য কগনিটিভ অগমেন্টেশন অবকাঠামো।",
+      "readManifesto": "ঘোষণাপত্র পড়ুন",
+      "emailPlaceholder": "আপনার ইমেল লিখুন",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "মূল স্থাপত্য",
+      "heading": "শুরু থেকেই আলাদা, ইচ্ছাকৃত",
+      "dialecticalGraph": {
+        "title": "দ্বন্দ্বমূলক গ্রাফ",
+        "description": "গবেষণা সত্তাগুলো সাধারণ লিংক নয়, বরং দাবী ও সম্পর্ক দিয়ে যুক্ত। প্রতিটি বাক্যকে গাণিতিকভাবে তার প্রমাণ পর্যন্ত খুঁজে পাওয়া যায়।"
+      },
+      "rebuttalFirst": {
+        "title": "প্রথমে খণ্ডন",
+        "description": "অন্যান্য AI-এর মতো তোষামোদ করে না। বরং ফাঁকগুলোকে নিরন্তর আক্রমণ করে।"
+      },
+      "multilingual": {
+        "title": "স্বাভাবিক বহুভাষিক",
+        "description": "ইংরেজি পেপার। কোরিয়ান অনুমান। জাপানি ডেটাসেট। একক একীভূত গবেষণা গ্রাফ।"
+      }
+    },
+    "pipeline": {
+      "eyebrow": "কিভাবে কাজ করে",
+      "heading": "মাল্টি‑এজেন্ট বিতর্ক স্থাপত্য",
+      "description": "মাল্টি‑এজেন্ট AI ভেতরে বিতর্ক করে। আপনি কেবল শেষ পর্যন্ত টিকে থাকা যুক্তিগুলো দেখেন।",
+      "steps": {
+        "propose": "প্রস্তাব",
+        "critique": "সমালোচনা",
+        "rank": "র‌্যাঙ্ক",
+        "refine": "পরিমার্জন"
+      }
+    },
+    "forWho": {
+      "heading": "ফল দেয় এমন গবেষকদের জন্য",
+      "audiences": {
+        "scientists": "পরীক্ষামূলক পাইপলাইন পরিচালনাকারী বিজ্ঞানীরা",
+        "engineers": "সর্বশেষ পেপারের ভিত্তিতে নির্মাণকারী প্রকৌশলীরা",
+        "analysts": "বহুবিধ ক্ষেত্রের সাহিত্য একীভূতকারী বিশ্লেষকরা",
+        "teams": "পুনরুৎপাদনযোগ্য জ্ঞানপথ দরকার এমন টিম"
+      }
+    },
+    "cta": {
+      "heading": "আসিমভের এনসাইক্লোপিডিয়া গ্যালাক্টিকা ছিল কল্পকাহিনি।\nকিন্তু আমরা এটিকে বাস্তবে নির্মাণ করছি।",
+      "readManifesto": "ঘোষণাপত্র পড়ুন",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "ঘোষণাপত্র",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

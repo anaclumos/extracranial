@@ -1,0 +1,298 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@source "../../node_modules/streamdown/dist/*.js";
+@source "../../node_modules/@streamdown/code/dist/*.js";
+@source "../../node_modules/@streamdown/math/dist/*.js";
+@source "../../node_modules/@streamdown/mermaid/dist/*.js";
+@source "../../node_modules/@streamdown/cjk/dist/*.js";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  color-scheme: light;
+
+  --pane-spine-width: 2.5rem;
+  --pane-min-width: 20rem;
+
+  /* Z-index scale */
+  --z-base: 0;
+  --z-pane: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-popover: 500;
+  --z-toast: 600;
+
+  /* Colors */
+  --background: var(--color-white);
+  --foreground: var(--color-neutral-800);
+  --accent: --alpha(var(--color-black) / 4%);
+  --accent-foreground: var(--color-neutral-800);
+  --border: --alpha(var(--color-black) / 8%);
+  --card: var(--color-white);
+  --card-foreground: var(--color-neutral-800);
+  --destructive: var(--color-red-500);
+  --destructive-foreground: var(--color-red-700);
+  --info: var(--color-blue-500);
+  --info-foreground: var(--color-blue-700);
+  --input: --alpha(var(--color-black) / 10%);
+  --muted: --alpha(var(--color-black) / 4%);
+  --muted-foreground: color-mix(
+    in srgb,
+    var(--color-neutral-500) 90%,
+    var(--color-black)
+  );
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-neutral-800);
+  --primary: var(--color-neutral-800);
+  --primary-foreground: var(--color-neutral-50);
+  --ring: var(--color-neutral-400);
+  --secondary: --alpha(var(--color-black) / 4%);
+  --secondary-foreground: var(--color-neutral-800);
+  --success: var(--color-emerald-500);
+  --success-foreground: var(--color-emerald-700);
+  --warning: var(--color-amber-500);
+  --warning-foreground: var(--color-amber-700);
+  --link: var(--color-blue-600);
+  --link-visited: var(--color-blue-800);
+}
+
+@theme inline {
+  --width-pane-spine: var(--pane-spine-width);
+  --width-pane-min: var(--pane-min-width);
+  --z-base: var(--z-base);
+  --z-pane: var(--z-pane);
+  --z-dropdown: var(--z-dropdown);
+  --z-sticky: var(--z-sticky);
+  --z-overlay: var(--z-overlay);
+  --z-modal: var(--z-modal);
+  --z-popover: var(--z-popover);
+  --z-toast: var(--z-toast);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-link: var(--link);
+  --color-link-visited: var(--link-visited);
+  --font-sans:
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro", "Segoe UI",
+    Roboto, "Pretendard Variable", Pretendard, "Pretendard JP", sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --animate-skeleton: skeleton 2s -1s infinite linear;
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning: var(--warning);
+  --color-success-foreground: var(--success-foreground);
+  --color-success: var(--success);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-ring: var(--ring);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-input: var(--input);
+  --color-info-foreground: var(--info-foreground);
+  --color-info: var(--info);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-destructive: var(--destructive);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  @keyframes skeleton {
+    to {
+      background-position: -200% 0;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-smooth {
+    scroll-behavior: auto;
+  }
+}
+
+* {
+  corner-shape: squircle;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overscroll-behavior-x: none;
+}
+
+.dark {
+  color-scheme: dark;
+
+  --accent: --alpha(var(--color-white) / 4%);
+  --accent-foreground: var(--color-neutral-100);
+  --background: #0a0a0a;
+  --border: --alpha(var(--color-white) / 10%);
+  --card: #0a0a0a;
+  --card-foreground: var(--color-neutral-100);
+  --destructive: color-mix(
+    in srgb,
+    var(--color-red-500) 90%,
+    var(--color-white)
+  );
+  --destructive-foreground: var(--color-red-400);
+  --foreground: var(--color-neutral-100);
+  --info: var(--color-blue-500);
+  --info-foreground: var(--color-blue-400);
+  --input: --alpha(var(--color-white) / 8%);
+  --muted: --alpha(var(--color-white) / 4%);
+  --muted-foreground: #a1a1aa;
+  --popover: #0a0a0a;
+  --popover-foreground: var(--color-neutral-100);
+  --primary: var(--color-neutral-100);
+  --primary-foreground: var(--color-neutral-800);
+  --ring: var(--color-neutral-500);
+  --secondary: --alpha(var(--color-white) / 4%);
+  --secondary-foreground: var(--color-neutral-100);
+  --success: var(--color-emerald-500);
+  --success-foreground: var(--color-emerald-400);
+  --warning: var(--color-amber-500);
+  --warning-foreground: var(--color-amber-400);
+  --link: var(--color-blue-400);
+  --link-visited: var(--color-blue-300);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-balance;
+  }
+}
+
+@layer components {
+  .prose-note {
+    @apply max-w-prose;
+
+    & h1 {
+      @apply text-[1.75rem] font-semibold leading-tight mb-6 text-foreground text-balance tracking-tight;
+      @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-400;
+    }
+    & h2 {
+      @apply text-[1.375rem] font-medium mt-8 mb-4 text-foreground text-balance tracking-tight;
+    }
+    & h3 {
+      @apply text-lg font-medium mt-6 mb-3 text-foreground text-balance tracking-tight;
+    }
+    & p {
+      @apply text-base leading-[1.8] mb-6 text-foreground/80;
+    }
+    & ul,
+    & ol {
+      @apply mb-6 pl-6 text-foreground/80;
+    }
+    & ul {
+      list-style: disc;
+    }
+    & ol {
+      list-style: decimal;
+    }
+    & li > ul,
+    & li > ol {
+      @apply mt-3 mb-3;
+    }
+    & li > ul {
+      list-style: circle;
+    }
+    & li > ol {
+      list-style: lower-alpha;
+    }
+    & li {
+      @apply text-base leading-[1.8] mb-3;
+    }
+    & strong {
+      @apply font-semibold text-foreground;
+    }
+    & em {
+      @apply italic;
+    }
+    & code {
+      @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono text-foreground;
+    }
+    & pre {
+      @apply bg-muted p-4 rounded-lg overflow-x-auto mb-6 border border-border/50;
+    }
+    & code {
+      @apply bg-transparent p-0 text-foreground;
+    }
+    & blockquote {
+      @apply border-l-2 border-primary/20 pl-4 ml-0 mb-6 text-foreground/70 italic;
+    }
+    & a {
+      @apply text-link no-underline border-b border-transparent transition-all duration-200;
+    }
+    & a:hover {
+      @apply border-link opacity-80;
+    }
+    & a:visited {
+      @apply text-link-visited;
+    }
+    & hr {
+      @apply my-8 border-0 border-t border-border;
+    }
+    & details {
+      @apply mb-6 rounded-lg border border-border/60 px-4 pt-3 pb-1;
+    }
+    & summary {
+      @apply cursor-pointer font-medium text-foreground;
+    }
+    & figure {
+      @apply my-6 flex flex-col overflow-hidden rounded-xl;
+    }
+    & figcaption {
+      @apply mt-2 text-center text-muted-foreground text-sm;
+    }
+    & img {
+      @apply mx-auto rounded-xl;
+      max-height: 50rem;
+      width: auto;
+    }
+    & iframe,
+    & video {
+      @apply block w-full rounded-xl;
+      max-width: 100%;
+    }
+    & table {
+      @apply my-6 w-full border-collapse overflow-x-auto text-sm;
+      display: block;
+    }
+    & thead {
+      @apply border-border border-b;
+    }
+    & th,
+    & td {
+      @apply px-3 py-2 text-left align-top;
+    }
+    & tbody tr {
+      @apply border-border/50 border-b;
+    }
+  }
+
+  .magnetic-cursor {
+    pointer-events: none;
+    z-index: var(--z-toast);
+  }
+
+  .dark .magnetic-cursor {
+    mix-blend-mode: screen !important;
+  }
+}

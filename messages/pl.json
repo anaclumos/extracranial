@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Tokeny ≠ Wiedza",
+    "description": "Infrastruktura Wzmocnienia Poznawczego dla Lepszych Badań."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Manifest Coscientist",
+    "joinWaitlist": "Dołącz do Listy Oczekujących",
+    "enterLab": "Wejdź do Mojego Laboratorium",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Wszystkie Notatki",
+    "noteCount": "{count} Notatek",
+    "currentlyOpen": "Obecnie Otwarta na Pozycji {position}"
+  },
+  "notePane": {
+    "expand": "Rozwiń Przestrzeń Roboczą",
+    "expandNote": "Odkrywaj {title}",
+    "closeNote": "Zamknij {title}",
+    "closePane": "Zamknij Panel {index}",
+    "editOnGitHub": "Edytuj na GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Przejdź do Notatki {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Notatek Prowadzi Tutaj",
+    "plural": "{count} Notatek Prowadzi Tutaj"
+  },
+  "theme": {
+    "toggle": "Zmień Motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "System"
+  },
+  "navigation": {
+    "previous": "Poprzedni",
+    "next": "Następny",
+    "goToPreviousPage": "Przejdź do Poprzedniej Strony",
+    "goToNextPage": "Przejdź do Następnej Strony",
+    "morePages": "Więcej Stron",
+    "pagination": "Paginacja",
+    "breadcrumb": "Ścieżka Nawigacji",
+    "more": "Więcej"
+  },
+  "sidebar": {
+    "title": "Pasek Boczny",
+    "description": "Szybki Dostęp Bezpośrednio do Badań",
+    "toggle": "Przełącz Pasek Boczny"
+  },
+  "common": {
+    "close": "Zamknij",
+    "remove": "Usuń",
+    "loading": "Ładowanie Badań...",
+    "opensInNewTab": "Otwiera się w Nowej Karcie"
+  },
+  "languageSwitcher": {
+    "label": "Język",
+    "selectLanguage": "Wybierz Język"
+  },
+  "landing": {
+    "hero": {
+      "title": "Badania z Prędkością\nMyśli",
+      "subtitle": "Platforma Badawcza, Która Myśli Sama.",
+      "description": "Infrastruktura Wzmocnienia Poznawczego dla Lepszych Badań.",
+      "readManifesto": "Przeczytaj Manifest",
+      "emailPlaceholder": "Wpisz swój email",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Architektura Rdzeniowa",
+      "heading": "Inne od Początku, z Premedytacją",
+      "dialecticalGraph": {
+        "title": "Graf Dialektyczny",
+        "description": "Byty badawcze są połączone nie prostymi linkami, lecz twierdzeniami i relacjami. Każde zdanie można matematycznie prześledzić do jego dowodów."
+      },
+      "rebuttalFirst": {
+        "title": "Najpierw Kontrargumenty",
+        "description": "Nie schlebia jak inne SI. Zamiast tego bezustannie atakuje luki."
+      },
+      "multilingual": {
+        "title": "Natywnie Wielojęzyczna",
+        "description": "Angielskie prace. Koreańskie hipotezy. Japońskie zbiory danych. Jeden spójny graf badań."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Jak to Działa",
+      "heading": "Architektura Debaty Wieloagentowej",
+      "description": "Wieloagentowa SI debatuje wewnętrznie. Widzisz tylko argumenty, które przetrwają do końca.",
+      "steps": {
+        "propose": "Proponuj",
+        "critique": "Krytykuj",
+        "rank": "Ranguj",
+        "refine": "Dopracuj"
+      }
+    },
+    "forWho": {
+      "heading": "Dla Badaczy, Którzy Dowożą Wyniki",
+      "audiences": {
+        "scientists": "Naukowcy Prowadzący Eksperymentalne Pipeline’y",
+        "engineers": "Inżynierowie Budujący na Najnowszych Pracach",
+        "analysts": "Analitycy Integrujący Literaturę Interdyscyplinarną",
+        "teams": "Zespoły Potrzebujące Odtwarzalnych Ścieżek Wiedzy"
+      }
+    },
+    "cta": {
+      "heading": "Encyklopedia Galactica Asimova Była Fikcją.\nAle Budujemy ją w Rzeczywistości.",
+      "readManifesto": "Przeczytaj Manifest",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifest",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

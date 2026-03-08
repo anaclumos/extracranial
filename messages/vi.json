@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Token ≠ Tri thức",
+    "description": "Hạ tầng Tăng cường Nhận thức cho Nghiên cứu Tốt hơn."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Tuyên ngôn Coscientist",
+    "joinWaitlist": "Tham gia Danh sách chờ",
+    "enterLab": "Vào Phòng thí nghiệm",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Tất cả Ghi chú",
+    "noteCount": "{count} Ghi chú",
+    "currentlyOpen": "Hiện Đang Mở ở Vị trí {position}"
+  },
+  "notePane": {
+    "expand": "Mở rộng Không gian Làm việc",
+    "expandNote": "Khám phá {title}",
+    "closeNote": "Đóng {title}",
+    "closePane": "Đóng Bảng {index}",
+    "editOnGitHub": "Chỉnh sửa trên GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Đi tới Ghi chú {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Ghi chú Liên kết Tới đây",
+    "plural": "{count} Ghi chú Liên kết Tới đây"
+  },
+  "theme": {
+    "toggle": "Đổi Chủ đề",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "navigation": {
+    "previous": "Trước",
+    "next": "Sau",
+    "goToPreviousPage": "Đi đến Trang Trước",
+    "goToNextPage": "Đi đến Trang Sau",
+    "morePages": "Nhiều Trang hơn",
+    "pagination": "Phân trang",
+    "breadcrumb": "Đường dẫn",
+    "more": "Thêm"
+  },
+  "sidebar": {
+    "title": "Thanh bên",
+    "description": "Truy cập Nhanh Trực tiếp tới Nghiên cứu",
+    "toggle": "Bật/tắt Thanh bên"
+  },
+  "common": {
+    "close": "Đóng",
+    "remove": "Xóa",
+    "loading": "Đang Tải Nghiên cứu...",
+    "opensInNewTab": "Mở trong Tab mới"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "selectLanguage": "Chọn Ngôn ngữ"
+  },
+  "landing": {
+    "hero": {
+      "title": "Nghiên Cứu Với Tốc Độ\ncủa Suy Nghĩ",
+      "subtitle": "Một Nền tảng Nghiên cứu Tự Suy nghĩ.",
+      "description": "Hạ tầng Tăng cường Nhận thức cho Nghiên cứu Tốt hơn.",
+      "readManifesto": "Đọc Tuyên ngôn",
+      "emailPlaceholder": "Nhập email của bạn",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Kiến trúc Cốt lõi",
+      "heading": "Khác biệt Ngay từ Đầu, Có Chủ đích",
+      "dialecticalGraph": {
+        "title": "Đồ thị Biện chứng",
+        "description": "Các thực thể nghiên cứu không được nối bằng liên kết đơn giản mà bằng các khẳng định và quan hệ. Mỗi câu có thể được truy vết bằng toán học tới bằng chứng của nó."
+      },
+      "rebuttalFirst": {
+        "title": "Phản biện Trước",
+        "description": "Không nịnh như các AI khác. Thay vào đó, liên tục tấn công các lỗ hổng."
+      },
+      "multilingual": {
+        "title": "Đa ngôn ngữ Bản địa",
+        "description": "Bài báo tiếng Anh. Giả thuyết tiếng Hàn. Bộ dữ liệu tiếng Nhật. Một đồ thị nghiên cứu thống nhất."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Cách Hoạt động",
+      "heading": "Kiến trúc Tranh luận Đa tác nhân",
+      "description": "AI đa tác nhân tranh luận nội bộ. Bạn chỉ thấy các lập luận sống sót đến cuối.",
+      "steps": {
+        "propose": "Đề xuất",
+        "critique": "Phê bình",
+        "rank": "Xếp hạng",
+        "refine": "Tinh lọc"
+      }
+    },
+    "forWho": {
+      "heading": "Dành cho Những nhà nghiên cứu Tạo ra Kết quả",
+      "audiences": {
+        "scientists": "Các nhà khoa học Vận hành Pipeline Thí nghiệm",
+        "engineers": "Kỹ sư Xây dựng dựa trên các Bài báo Mới nhất",
+        "analysts": "Nhà phân tích Tổng hợp Tài liệu Liên ngành",
+        "teams": "Các nhóm Cần Lộ trình Tri thức Có thể Tái tạo"
+      }
+    },
+    "cta": {
+      "heading": "Bách khoa toàn thư Galactica của Asimov là hư cấu.\nNhưng Chúng Tôi Đang Xây Dựng Nó Trong Thực Tế.",
+      "readManifesto": "Đọc Tuyên ngôn",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Tuyên ngôn",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}

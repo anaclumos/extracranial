@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "title": "Coscientist: Token ≠ Pengetahuan",
+    "description": "Infrastruktur Augmentasi Kognitif untuk Riset yang Lebih Baik."
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Manifesto Coscientist",
+    "joinWaitlist": "Bergabung ke Daftar Tunggu",
+    "enterLab": "Masuk ke Lab Saya",
+    "github": "GitHub",
+    "twitter": "Twitter"
+  },
+  "allNotes": {
+    "title": "Semua Catatan",
+    "noteCount": "{count} Catatan",
+    "currentlyOpen": "Saat Ini Terbuka di Posisi {position}"
+  },
+  "notePane": {
+    "expand": "Perluas Ruang Kerja",
+    "expandNote": "Jelajahi {title}",
+    "closeNote": "Tutup {title}",
+    "closePane": "Tutup Panel {index}",
+    "editOnGitHub": "Edit di GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Ke Catatan {position}: {title}"
+  },
+  "backlinks": {
+    "singular": "{count} Catatan Tertaut ke Sini",
+    "plural": "{count} Catatan Tertaut ke Sini"
+  },
+  "theme": {
+    "toggle": "Ganti Tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem"
+  },
+  "navigation": {
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "goToPreviousPage": "Ke Halaman Sebelumnya",
+    "goToNextPage": "Ke Halaman Berikutnya",
+    "morePages": "Lebih Banyak Halaman",
+    "pagination": "Paginasi",
+    "breadcrumb": "Jejak Navigasi",
+    "more": "Lainnya"
+  },
+  "sidebar": {
+    "title": "Bilah Sisi",
+    "description": "Akses Cepat Langsung ke Riset",
+    "toggle": "Alihkan Bilah Sisi"
+  },
+  "common": {
+    "close": "Tutup",
+    "remove": "Hapus",
+    "loading": "Memuat Riset...",
+    "opensInNewTab": "Buka di Tab Baru"
+  },
+  "languageSwitcher": {
+    "label": "Bahasa",
+    "selectLanguage": "Pilih Bahasa"
+  },
+  "landing": {
+    "hero": {
+      "title": "Riset dengan Kecepatan\nPikiran",
+      "subtitle": "Platform Riset yang Berpikir Sendiri.",
+      "description": "Infrastruktur Augmentasi Kognitif untuk Riset yang Lebih Baik.",
+      "readManifesto": "Baca Manifesto",
+      "emailPlaceholder": "Masukkan email Anda",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Arsitektur Inti",
+      "heading": "Berbeda Sejak Awal, dengan Sengaja",
+      "dialecticalGraph": {
+        "title": "Graf Dialektis",
+        "description": "Entitas riset tidak terhubung dengan tautan sederhana, melainkan oleh klaim dan relasi. Setiap kalimat dapat dilacak secara matematis ke buktinya."
+      },
+      "rebuttalFirst": {
+        "title": "Sanggahan Dulu",
+        "description": "Tidak menjilat seperti AI lain. Sebaliknya, terus menyerang celah."
+      },
+      "multilingual": {
+        "title": "Multibahasa Native",
+        "description": "Makalah bahasa Inggris. Hipotesis bahasa Korea. Dataset bahasa Jepang. Satu graf riset terpadu."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Cara Kerja",
+      "heading": "Arsitektur Debat Multi-Agen",
+      "description": "AI multi-agen berdebat secara internal. Anda hanya melihat argumen yang bertahan sampai akhir.",
+      "steps": {
+        "propose": "Usulkan",
+        "critique": "Kritik",
+        "rank": "Peringkat",
+        "refine": "Perhalus"
+      }
+    },
+    "forWho": {
+      "heading": "Untuk Peneliti yang Menghasilkan",
+      "audiences": {
+        "scientists": "Ilmuwan yang Menjalankan Pipeline Eksperimen",
+        "engineers": "Insinyur yang Membangun Berdasarkan Makalah Terbaru",
+        "analysts": "Analis yang Mengintegrasikan Literatur Lintas-Disiplin",
+        "teams": "Tim yang Membutuhkan Jalur Pengetahuan yang Dapat Direproduksi"
+      }
+    },
+    "cta": {
+      "heading": "Encyclopedia Galactica karya Asimov adalah fiksi.\nNamun Kami Membangunnya di Dunia Nyata.",
+      "readManifesto": "Baca Manifesto",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Manifesto",
+      "hq": "HQ",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist"
+    }
+  }
+}
