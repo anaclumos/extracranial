@@ -6,7 +6,7 @@ interface NoteMeta {
   title: string
   description?: string
   date?: string
-  lastEditedAt?: number
+  lastModified?: number
   kind: NoteKind
   locale: string
   editUrl?: string
@@ -37,7 +37,7 @@ export interface NoteSummary {
   description?: string
   excerpt?: string
   date?: string
-  lastEditedAt?: number
+  lastModified?: number
   kind: NoteKind
 }
 

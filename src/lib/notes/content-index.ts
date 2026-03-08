@@ -25,7 +25,7 @@ export interface SourceNote {
   editUrl?: string
   filePath: string
   kind: NoteKind
-  lastEditedAt?: number
+  lastModified?: number
   locale: string
   slug: string
   title: string
@@ -164,8 +164,8 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     editUrl: buildEditUrl(filePath),
     filePath,
     kind: inferKind(filePath),
-    lastEditedAt:
-      parseTimestamp(data.last_updated) ?? parseTimestamp(data.updatedAt),
+    lastModified:
+      parseTimestamp(data.last_modified) ?? parseTimestamp(data.updatedAt),
     locale: inferLocale(filePath, data.lang),
     slug,
     title:
