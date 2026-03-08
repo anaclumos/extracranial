@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1B55AE'
+last_modified: 2022-12-18
 ---
 
 - Creator of [[Magician]]

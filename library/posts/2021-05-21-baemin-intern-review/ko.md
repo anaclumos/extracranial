@@ -2,6 +2,7 @@
 title: '우아한테크캠프 3기 후기'
 date: 2021-05-21
 slug: '/E2CAE4'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

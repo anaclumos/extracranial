@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B8F089'
+last_modified: 2025-04-29
 ---
 
 - UDP (User Datagram Protocol) uses datagram sockets.

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A06AB5'
+last_modified: 2023-11-10
 ---
 
 - Inspired by [[Rauno]]

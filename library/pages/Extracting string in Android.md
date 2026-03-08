@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8CFE3A'
+last_modified: 2022-10-13
 ---
 
 The file `strings.xml` is located at `res/values/strings.xml`.

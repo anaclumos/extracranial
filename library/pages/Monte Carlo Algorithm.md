@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/1ECA5C'
 aliases: ['Monte Carlo Algorithms', '몬테카를로 알고리즘', '몬테 카를로 알고리즘']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

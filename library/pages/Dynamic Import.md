@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8FC823'
+last_modified: 2025-04-29
 ---
 
 | Technology                                                                                                      | My Explanation                                                                       | Spec                         |

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AD6030'
+last_modified: 2025-04-29
 ---
 
 - [[Digital Addiction]]

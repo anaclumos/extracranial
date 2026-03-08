@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BEBEB8'
+last_modified: 2023-03-07
 ---
 
 Variance is a statistical measure that describes how spread-out or dispersed a data set is around its mean or expected value. It measures the average deviation of each data point from the mean.

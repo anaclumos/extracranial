@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7764B0'
+last_modified: 2025-05-11
 ---
 
 `.ssh/allowed_signers`

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/9B00D1'
 aliases: ['파이어폭스', '불여우', 'FF', '🔥🦊', '❤🔥']
+last_modified: 2023-07-06
 ---
 
 ## Some quick hacks

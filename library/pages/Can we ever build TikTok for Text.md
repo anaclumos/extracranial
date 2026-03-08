@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/157EC6'
+last_modified: 2024-02-13
 ---
 
 A month ago, Kevin Systrom and Mike Krieger, the co-founders of [[Instagram]], launched a new app called [[Artifact]]. [[Artifact]] is a personalized news feed app that uses [[ML|machine learning]] to understand users' interests and offer a feed of popular articles from a curated list of publishers. The app is described as a **TikTok for text**, where users tap on articles that interest them, and [[Artifact]] will serve similar posts and stories in the future. There have been other attempts to create personalized news feeds, including Google's Home feed, [[Facebook]]'s Suggested for You, and Apple's News app. Even I also [[곰단|tried once]]. However, none has been as successful as TikTok in creating an engaging and addictive user experience.

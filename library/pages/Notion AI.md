@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/7041E5'
+last_modified: 2024-10-06
 ---
 
 [[Notion]]'s [[Generative Intelligence]]

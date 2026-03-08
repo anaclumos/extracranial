@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2EEEE4'
+last_modified: 2022-12-09
 ---
 
 $d_\text{nodal}$ is the sum of:

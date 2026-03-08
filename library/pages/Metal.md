@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2BDFBF'
+last_modified: 2024-02-21
 ---
 
 Apple's Metal is a low-level, low-overhead [[API]] ([[API|Application Programming Interface]]) that supports hardware-accelerated graphics on Apple platforms.

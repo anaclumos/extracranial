@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B03760'
+last_modified: 2024-04-14
 ---
 
 Habit formation is a powerful tool that can help us achieve our goals and improve our overall well-being. Over the next 64 days, I must identify the habits I want to build, create a plan for making them stick, and hold each other accountable as I work toward making these habits a permanent part of our lives.

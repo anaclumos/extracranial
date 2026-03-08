@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/721DB0'
+last_modified: 2025-12-31
 ---
 
 Finding Boring Product ideas

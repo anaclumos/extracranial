@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/CFE8F7'
+last_modified: 2025-08-06
 ---
 
 There is a bug in NixOS.

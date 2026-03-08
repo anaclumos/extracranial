@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/67EB29'
+last_modified: 2026-03-07
 ---
 
 1. Rule of Meritocracy

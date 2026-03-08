@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FDF7F6'
+last_modified: 2025-05-07
 ---
 
 1. Open Command Palette (`Ctrl + Shift + P`) → **Preferences: Open Settings (UI)**.

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/341AD9'
+last_modified: 2025-09-04
 ---
 
 An approach for startups. Aggregate all data into one place--the [[Super App]] approach.

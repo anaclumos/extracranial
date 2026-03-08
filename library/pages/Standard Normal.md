@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D6927C'
+last_modified: 2023-03-07
 ---
 
 In [[statistics]], the term "standard normal" usually refers to a specific type of normal distribution, also known as the standard normal distribution or the [[Gaussian]] distribution with mean 0 and [[variance]] 1. The symbol $Z$ denotes it.

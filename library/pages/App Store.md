@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/F17D84'
 aliases: ['앱스토어', '앱 스토어', 'AppStore']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

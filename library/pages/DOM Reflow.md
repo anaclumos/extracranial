@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/0F6587'
+last_modified: 2022-12-05
 ---
 
 ### [What is DOM reflow? - Stack Overflow](https://stackoverflow.com/questions/27637184/what-is-dom-reflow)

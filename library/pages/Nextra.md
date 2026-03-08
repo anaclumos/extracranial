@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B0E6E0'
+last_modified: 2022-12-18
 ---
 
 - Static Site Generator

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BC2ADE'
+last_modified: 2025-06-18
 ---
 
 # NixOS: Certificate Verify Failed. Unable to Get Local Issuer Certificate

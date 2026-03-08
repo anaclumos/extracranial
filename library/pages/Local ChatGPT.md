@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/56AB8C'
+last_modified: 2023-07-10
 ---
 
 ### [Large language models have their Stable Diffusion moment](https://simonwillison.net/2023/Mar/11/llama/)

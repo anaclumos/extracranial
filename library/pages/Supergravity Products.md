@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/BB903F'
 aliases: ['Boring Products']
+last_modified: 2025-09-04
 ---
 
 - Do one thing, but exceptionally well

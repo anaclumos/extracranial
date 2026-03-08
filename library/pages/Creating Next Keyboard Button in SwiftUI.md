@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5B4DDF'
+last_modified: 2025-04-29
 ---
 
 Creating Next Keyboard Button in [[SwiftUI]]

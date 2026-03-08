@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/FD1704'
+last_modified: 2026-01-29
 ---
 
 ```

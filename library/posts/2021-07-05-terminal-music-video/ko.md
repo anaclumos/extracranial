@@ -2,6 +2,7 @@
 title: '점자로 보는 뮤직 비디오'
 date: 2021-07-05
 slug: '/AF848F'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

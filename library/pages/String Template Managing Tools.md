@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/03E6F6'
+last_modified: 2025-04-29
 ---
 
 - [hegelai/prompttools: Open-source tools for prompt testing and experimentation, with support for both LLMs (e.g. OpenAI, LLaMA) and vector databases (e.g. Chroma, Weaviate, LanceDB).](https://github.com/hegelai/prompttools)

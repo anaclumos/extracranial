@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F97506'
+last_modified: 2025-09-04
 ---
 
 So this is my story with my last Master's class team project.

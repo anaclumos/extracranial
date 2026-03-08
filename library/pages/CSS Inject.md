@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/6F4A43'
+last_modified: 2026-01-01
 ---
 
 ```css

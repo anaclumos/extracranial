@@ -2,6 +2,7 @@
 title: '당근 인턴 일주일 후기'
 date: 2022-05-27
 slug: '/98410A'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

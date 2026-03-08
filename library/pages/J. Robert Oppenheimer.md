@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/A3D632'
 aliases: ['American Prometheus', '오펜하이머', 'Oppenheimer']
+last_modified: 2025-04-29
 ---
 
 ## [[American]] Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer

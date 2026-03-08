@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A8E7F9'
+last_modified: 2025-12-30
 ---
 
 ## Wolfram's [[ChatGPT]] prompt

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/89C19F'
+last_modified: 2023-03-24
 ---
 
 [[Lesser Known Trick]]. It's a symlink. [[How does File Alias work]]?

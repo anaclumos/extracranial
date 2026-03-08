@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/E74A5B'
+last_modified: 2025-04-29
 ---
 
 - 과거 관찰로 현재의 연속적인 변수(Variable)를 추출하는 것. 예) 가격

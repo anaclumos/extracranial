@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4C1190'
+last_modified: 2025-09-04
 ---
 
 ## [This is a story about how I lost $10,000,000 by doing something stupid.](https://twitter.com/awilkinson/status/1376985854229504007)

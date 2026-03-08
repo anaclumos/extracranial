@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/9078DC'
+last_modified: 2023-06-26
 ---
 
 - Interviewed on [[2023-06-23]]

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AC5983'
+last_modified: 2023-08-02
 ---
 
 - VP9 and HEVC are video compression standards that aim to reduce the file size and bandwidth of 4K videos.

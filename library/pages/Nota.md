@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/CA3C27'
+last_modified: 2023-07-25
 ---
 
 [Nota - Pro notes app designed for local Markdown files.](https://nota.md/)

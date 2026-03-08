@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C18AE1'
+last_modified: 2023-06-27
 ---
 
 On [[2023-06-27]], our team at [[Grammarly]] found a bug where a lot of React components started not working. After investigating for a while, we figured that it came from the recent change where we checked an error with

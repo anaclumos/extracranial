@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AA40D1'
+last_modified: 2025-04-29
 ---
 
 - [Build internal tools without limitations | Plasmic](https://www.plasmic.app/use-cases/internal-tools)

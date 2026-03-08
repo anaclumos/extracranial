@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/2DE1AB'
 newsletter: '2023-03-19'
+last_modified: 2025-04-29
 ---
 
 Many alarm clocks, including the iPhone, have a default snooze time of 9 minutes. Why?

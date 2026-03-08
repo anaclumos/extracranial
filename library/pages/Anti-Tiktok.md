@@ -2,6 +2,7 @@
 lang: 'ko'
 slug: '/8E435E'
 aliases: ['antiktok', '반틱톡', '안티틱톡', '안틱톡']
+last_modified: 2023-08-07
 ---
 
 [[anti]]-tiktok

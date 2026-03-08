@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2EEFB7'
+last_modified: 2026-01-01
 ---
 
 - Should service diminish their costs periodically?

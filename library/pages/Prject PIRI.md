@@ -3,6 +3,7 @@ lang: 'en'
 slug: /69794B
 aliases: ['PIRI']
 title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
+last_modified: 2026-01-01
 ---
 
 import Admonition from '@theme/Admonition';

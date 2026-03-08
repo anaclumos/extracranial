@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9CCB70'
+last_modified: 2026-01-03
 ---
 
 Real estate differentiates wealthy people from rich people. During the [[Economy|economic]] boom of the 1980s, [[일본|Japanese]] corporations and investors had a lot of cash and sought investment opportunities outside [[일본|Japan]]. Real estate markets in global cities such as [[New York City|New York]], London, and Paris were seen as attractive due to their potential for high returns and as a hedge against currency fluctuations and inflation. This foreign real estate played a significant role in [[일본|Japan]]'s eventual recovery from its financial crisis. In the 2000s, as the [[일본|Japanese]] [[economy]] recovered and the yen appreciated against the [[United States|US]] dollar, [[일본|Japanese]] investors reinvested in foreign real estate, particularly in the [[United States|US]] and Europe, for diversification and higher returns. Like this, real estates are a game changer for overcoming deflation. **But what is the new Real Estate in the modern tech space**?

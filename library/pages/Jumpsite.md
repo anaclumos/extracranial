@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/58407C'
+last_modified: 2025-09-04
 ---
 
 Jumpsite Service, or Web Linking Network Service, is a collective term for a [[Social Network Service]] mainly consisting of links to outside content.

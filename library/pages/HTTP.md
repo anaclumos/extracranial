@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/407AD6'
+last_modified: 2023-07-25
 ---
 
 - Each line of the HTTP header should end in `\r\n` (`<CR><LF>`)

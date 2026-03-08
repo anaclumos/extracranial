@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C25E5F'
+last_modified: 2024-04-29
 ---
 
 - [Contentlayer](https://www.contentlayer.dev/)

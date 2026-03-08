@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/56AB5C'
 aliases: ['영적 성장', '영적 부', '영혼의 부', 'Spiritual Wealth']
+last_modified: 2025-04-29
 ---
 
 Spiritual development refers to the process of personal growth and self-discovery focused on developing a deeper understanding of one's relationship with the world and the meaning and purpose of life. It is an inner journey of exploration and self-reflection that can lead to greater awareness, insight, and a sense of inner peace.

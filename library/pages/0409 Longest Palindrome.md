@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2CCD0C'
+last_modified: 2023-05-31
 ---
 
 Solved at: [[2023-01-28]]

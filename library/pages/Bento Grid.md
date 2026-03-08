@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A18D7B'
+last_modified: 2025-09-04
 ---
 
 [[Design Trend]]

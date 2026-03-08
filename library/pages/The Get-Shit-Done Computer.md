@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5714DA'
+last_modified: 2026-01-05
 ---
 
 I've tried 3 months hard, to use my Framework Computer.

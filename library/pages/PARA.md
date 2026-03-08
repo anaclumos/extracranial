@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B4364B'
+last_modified: 2022-10-17
 ---
 
 - PARA is a second-brain framework, mentioned in [[Building a Second Brain]]

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/A28FE0'
 aliases: ['Extension', 'Web Extension', '익스텐션', '웹익스텐션']
+last_modified: 2023-06-06
 ---
 
 A web extension is a software module that adds functionality to a [[web browser]]. It's a type of [[Web Browser|browser]] extension that can modify or enhance the functionality of a web [[Web Browser|browser]] by adding new features, tools, and user interfaces.

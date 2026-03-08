@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9CFFE3'
+last_modified: 2022-10-18
 ---
 
 - A specific [[Tools for Thought]] with handwriting.

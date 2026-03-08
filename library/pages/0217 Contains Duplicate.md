@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C2CD47'
+last_modified: 2023-01-29
 ---
 
 Solved at: [[2023-01-29]]

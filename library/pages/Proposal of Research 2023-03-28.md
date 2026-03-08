@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F54015'
+last_modified: 2024-02-21
 ---
 
 ## Investigating Authority Systems to Mitigate [[Prompt Injection]] Attacks in [[Generative AI|Generative Text AI]] Models

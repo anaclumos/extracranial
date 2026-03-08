@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D8CCF4'
+last_modified: 2026-01-03
 ---
 
 - [[태백산맥 계획]]

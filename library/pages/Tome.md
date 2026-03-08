@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/DD9E67'
+last_modified: 2023-11-10
 ---
 
 [Tome - The AI-powered storytelling format](https://beta.tome.app/)

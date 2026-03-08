@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/19902C'
+last_modified: 2025-09-04
 ---
 
 Potential [[Project]] of [[University of Southern California|USC]] CSCI 576 Multimedia Systems Design

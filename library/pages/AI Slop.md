@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F33662'
+last_modified: 2023-07-17
 ---
 
 ### [Drowning in AI-Generated Garbage: the silent war we are fighting](https://ploum.net/2022-12-05-drowning-in-ai-generated-garbage.html)

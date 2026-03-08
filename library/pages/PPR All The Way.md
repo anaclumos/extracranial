@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B47990'
+last_modified: 2024-12-27
 ---
 
 I was too confused with PPR and how it was better than Streaming SSR. The below image made me understand -- now I think PPR is the GOAT

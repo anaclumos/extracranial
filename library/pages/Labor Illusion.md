@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5A88E8'
+last_modified: 2025-09-04
 ---
 
 Labor Illusion in UX is the phenomenon where visibly demonstrating (even artificially) the effort or process behind a service increases users' perceived value and satisfaction. The idea is that when users see or sense that work is being done on their behalf--even if it's artificial or takes only a fraction of a second in reality--they perceive the result as more valuable or credible.

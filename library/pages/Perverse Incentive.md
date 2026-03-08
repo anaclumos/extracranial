@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/3C98AC'
 aliases: ['코브라 효과', 'Cobra Effect']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

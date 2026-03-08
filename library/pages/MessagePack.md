@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/319EA4'
+last_modified: 2022-11-29
 ---
 
 - Compact Data Exchange Format like [[CBOR]].

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/35B23B'
+last_modified: 2025-09-04
 ---
 
 [[OpenAI]] has launched its [[ChatGPT]] [[API]] service, powered by the GPT-3.5-turbo [[AI]] model. The model is available for $0.002 per 1,000 tokens and can be used for non-chat applications. Early adopters of the [[ChatGPT]] [[API]] include Shopify, Instacart, Quizlet, and Snap. This is another cornerstone moment for software. **The [[AI-native]]-era gold rush has just begun**.

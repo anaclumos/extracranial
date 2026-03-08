@@ -2,6 +2,7 @@
 title: 'Creating Calendar in JavaScript'
 date: 2020-11-14
 slug: '/F522B3'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

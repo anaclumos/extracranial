@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FA1348'
+last_modified: 2025-04-29
 ---
 
 > In concurrent computing, deadlock is any situation in which no member of some group of entities can proceed because each waits for another member, including itself, to take action, such as sending a message or, more commonly, releasing a lock. Deadlocks are a common problem in multiprocessing systems, parallel computing, and distributed systems. In these contexts, systems often use software or hardware locks to arbitrate shared resources and implement process synchronization. [Deadlock](https://en.wikipedia.org/wiki/Deadlock)

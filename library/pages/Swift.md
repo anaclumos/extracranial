@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2EAC56'
+last_modified: 2025-09-04
 ---
 
 - Programming Language for [[Apple]] platforms

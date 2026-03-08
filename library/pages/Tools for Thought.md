@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/872B83'
 aliases: ['사고 도구']
+last_modified: 2023-08-28
 ---
 
 ## Types

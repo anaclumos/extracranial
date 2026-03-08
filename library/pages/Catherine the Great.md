@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/673E8F'
+last_modified: 2025-04-29
 ---
 
 - Catherine patronized the arts, sciences, and literature and helped shape Russian culture and society.

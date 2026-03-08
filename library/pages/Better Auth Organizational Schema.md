@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/6AB59D'
+last_modified: 2026-01-17
 ---
 
 ```mermaid

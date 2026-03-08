@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/ED64DE'
+last_modified: 2025-09-04
 ---
 
 - Computer Scientist. Research on the _future of personal computing_ Quote:

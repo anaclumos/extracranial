@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/322744'
+last_modified: 2025-09-04
 ---
 
 - Jobs did not want Apple to wither, like Disney.

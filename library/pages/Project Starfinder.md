@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/A8BC4B'
+last_modified: 2026-01-20
 ---
 
 ## 요약

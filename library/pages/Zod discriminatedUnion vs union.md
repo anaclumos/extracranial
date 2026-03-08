@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/59104C'
+last_modified: 2025-09-04
 ---
 
 ## Definition

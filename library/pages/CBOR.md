@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/0A756A'
+last_modified: 2025-09-04
 ---
 
 - Compact Data Exchange Format like [[MessagePack]].

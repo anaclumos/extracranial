@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E2BE36'
+last_modified: 2023-02-21
 ---
 
 |                    | Cache                     | [[Virtual Memory]] |

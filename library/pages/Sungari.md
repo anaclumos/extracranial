@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/EC9167'
+last_modified: 2023-08-28
 ---
 
 [Sungari](https://gitlab.grammarly.io/data/data-ingestion) is a Schema Managed Data Ingestion at [[Grammarly]]. The old system at [[GNAR]] had several significant issues, including low scalability, poor stability, a mix of events in every Kinesis shard, and the use of JSON serialization/deserialization that consumed high amounts of CPU time and caused inconsistencies. The Sungari pipeline addresses these problems:

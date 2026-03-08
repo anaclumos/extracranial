@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/C495CA'
 aliases: ['automate', '자동화']
+last_modified: 2024-02-21
 ---
 
 ## [Trigger.dev - Effortless automation built for developers](https://trigger.dev/)

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/652993'
 title: "Occam's Norelco"
+last_modified: 2026-01-03
 ---
 
 [[SIWOOO]]

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/D5B2D5'
+last_modified: 2025-04-29
 ---
 
 ## [Pathway](https://www.pathway.md/)

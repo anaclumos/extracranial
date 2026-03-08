@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F7EB9E'
+last_modified: 2024-08-23
 ---
 
 Listmonk is a free and open-source [[Mail|email]] marketing tool that allows you to send [[Newsletter|newsletters]], promotional [[Mail|emails]], and transactional [[Mail|emails]]. It's a self-hosted [[newsletter]] and mailing list manager that's fast, feature-rich, and packed into a single binary.

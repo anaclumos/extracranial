@@ -2,6 +2,7 @@
 title: 'Welcome'
 lang: 'en'
 slug: '/000000'
+last_modified: 2026-01-02
 ---
 
 I grew up reading [The Encyclopedia of Absolute and Relative Knowledge](https://en.wikipedia.org/wiki/L%27Encyclop%C3%A9die_du_savoir_relatif_et_absolu) and envisioned a _single source of truth_ just like it that integrated my projects and research. In [[As We May Think]], [[Vannevar Bush]], a legendary scientist, describes [[Memex]] as

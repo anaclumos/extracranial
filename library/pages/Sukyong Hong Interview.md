@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1F823B'
+last_modified: 2025-06-16
 ---
 
 - LLM = Self Attention Decoders

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8071BF'
+last_modified: 2025-04-29
 ---
 
 $P \& Q \rightarrow P$

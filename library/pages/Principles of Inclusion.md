@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F2D184'
+last_modified: 2023-01-13
 ---
 
 - Higher level (closer to [[CPU]]) always contains a subset of lower level (closer to memory)

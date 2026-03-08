@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4332D0'
+last_modified: 2025-04-08
 ---
 
 An unfortunate dope technology that has been stained by a bad use-case (stealing licensed products)

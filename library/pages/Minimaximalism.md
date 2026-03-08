@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5B5595'
+last_modified: 2022-10-13
 ---
 
 It's minimalism, but those minimal tools should be maximized.

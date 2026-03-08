@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/5E71CF'
 aliases: ['워커돔']
+last_modified: 2023-07-06
 ---
 
 [[Google]]'s take on providing [[DOM]] access to [[Web Worker]] [[Threads]].

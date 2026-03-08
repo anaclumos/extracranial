@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/641188'
+last_modified: 2023-10-04
 ---
 
 ## [ChatGPT Is a Blurry JPEG of the Web](https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web).

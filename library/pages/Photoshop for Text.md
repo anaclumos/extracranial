@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/AE916E'
+last_modified: 2025-09-04
 ---
 
 ### [Photoshop for text](https://stephanango.com/photoshop-for-text) -- [[Stephan Ango]]

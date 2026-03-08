@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/99B6EE'
+last_modified: 2025-04-29
 ---
 
 ## Jony Ive

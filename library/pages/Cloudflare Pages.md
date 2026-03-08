@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/52985A'
+last_modified: 2025-01-16
 ---
 
 - [[Cloudflare]] [[Edge]] [[Front-end]]

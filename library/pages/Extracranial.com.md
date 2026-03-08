@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3F08DE'
+last_modified: 2025-07-01
 ---
 
 [[Aldehyde SaaS|The time has come.]]

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BF5BDA'
+last_modified: 2023-08-02
 ---
 
 Safari is a [[web browser]] developed by [[Apple]] Inc. It was first released in 2003 as the default [[Web Browser|browser]] for [[Apple]]'s [[macOS]] operating system and later became available for [[iOS]] devices. Safari is also open for Windows, but the most recent version was released in 2012.

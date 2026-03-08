@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/944C88'
+last_modified: 2025-04-29
 ---
 
 In 2021, I found that the color of [[Apple Music]]'s Lyrics view gets washed out after each [[iOS]] update.

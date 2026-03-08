@@ -9,6 +9,7 @@ aliases:
     '라스베이거스 알고리즘',
     '라스 베이거즈 알고리즘',
   ]
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

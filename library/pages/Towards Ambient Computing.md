@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/ECF81E'
+last_modified: 2025-09-04
 ---
 
 ## History of Eidetic Memory Devices

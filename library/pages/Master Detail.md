@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/43DF80'
+last_modified: 2026-01-01
 ---
 
 [Master-detail interface](https://en.wikipedia.org/wiki/Master%E2%80%93detail_interface)

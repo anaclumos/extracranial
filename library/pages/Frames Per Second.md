@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/A31691'
 aliases: ['Frames Per Second']
+last_modified: 2026-01-03
 ---
 
 ## [why 23.976 and not 24 fps?? - AC's & DIT's - Cinematography.com](https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454)

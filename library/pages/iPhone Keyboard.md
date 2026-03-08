@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/2B6360'
+last_modified: 2025-04-29
 ---
 
 - https://juliendorra.github.io/blob-keyboard-simulator/blob-keyboard-simulator.html

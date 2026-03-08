@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C7113C'
+last_modified: 2025-09-04
 ---
 
 - Original Text: [How to Build Software like an SRE](https://www.willett.io/posts/precepts/)

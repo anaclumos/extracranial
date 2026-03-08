@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/981439'
+last_modified: 2026-01-12
 ---
 
 This post is AI Researched by GPT 5.2 Pro Extended Thinking

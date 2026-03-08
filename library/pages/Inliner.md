@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/EE1ECD'
+last_modified: 2026-01-01
 ---
 
 ## Definition

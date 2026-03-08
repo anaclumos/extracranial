@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BA45A9'
+last_modified: 2023-04-27
 ---
 
 ## Logic Table

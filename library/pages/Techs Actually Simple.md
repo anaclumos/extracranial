@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/1E19E0'
+last_modified: 2023-04-19
 ---
 
 ### [It's Just a Tarball](https://matt-rickard.ghost.io/its-just-a-tarball/)

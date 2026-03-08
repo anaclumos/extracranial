@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B532ED'
+last_modified: 2023-09-10
 ---
 
 The [[Gaussian]] [[distribution]], also known as the normal [[distribution]], is a continuous [[probability]] [[distribution]] commonly used in statistical analysis. It is defined by the mean (μ) and the standard deviation (σ).

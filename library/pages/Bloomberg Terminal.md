@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FCCA11'
+last_modified: 2023-10-31
 ---
 
 - [OpenBB-finance/OpenBBTerminal: Investment Research for Everyone, Anywhere.](https://github.com/OpenBB-finance/OpenBBTerminal)

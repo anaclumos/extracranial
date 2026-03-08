@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/BC5754'
 aliases: ['Hash Maps', 'HashMap', 'HashMaps', '해시맵', '해시 맵']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

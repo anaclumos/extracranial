@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/F1DB3F'
+last_modified: 2026-01-15
 ---
 
 - atlassian: 회사에서 컨플루언스 지라 쓴다면 필수

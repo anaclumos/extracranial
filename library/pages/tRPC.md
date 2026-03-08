@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C6CFE9'
+last_modified: 2024-02-21
 ---
 
 [trpc/trpc: 🧙♀ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.](https://github.com/trpc/trpc)

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/B28568'
 aliases: ['Threads']
+last_modified: 2023-08-04
 ---
 
 Thoughts on [[2023-07-12]]

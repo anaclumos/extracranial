@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/E8FE44'
 aliases: ['self-driving']
+last_modified: 2026-01-03
 ---
 
 ### [Newly Released Video Of Thanksgiving Day Tesla Full Self-Driving Crash Demonstrates The Fundamental Problem Of Semi-Automated Driving Systems - The Autopian](https://www.theautopian.com/newly-released-video-of-thanksgiving-day-tesla-full-self-driving-crash-demonstrates-the-fundamental-problem-of-semi-automated-driving-systems/)

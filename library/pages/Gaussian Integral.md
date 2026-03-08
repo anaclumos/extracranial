@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/977C5C'
+last_modified: 2023-03-07
 ---
 
 The [[Gaussian]] integral is the integral of the function $e^{-x^2}$ over the entire real line, and it is given by:

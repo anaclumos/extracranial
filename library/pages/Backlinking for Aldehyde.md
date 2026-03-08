@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B1DFF3'
+last_modified: 2024-08-01
 ---
 
 - `[https://cho.sh/3d](/3d)`

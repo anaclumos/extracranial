@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/9CC34D'
+last_modified: 2026-01-20
 ---
 
 You can create a custom UI component that prompts users to add a passkey. Use the `user.createPasskey()` method from Clerk's SDK:

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A58E60'
+last_modified: 2025-07-09
 ---
 
 [Friend](https://www.friend.com/)

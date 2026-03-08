@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/451356'
 aliases: ['신블록경제', '블록경제']
+last_modified: 2024-03-06
 ---
 
 [[Neo]] Block [[Economy]]

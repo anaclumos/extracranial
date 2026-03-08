@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4AA0F0'
+last_modified: 2023-09-26
 ---
 
 [[Problem]]. I [[love software]], but I am sometimes too addicted to tech!

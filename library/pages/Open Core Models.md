@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/E9D235'
+last_modified: 2025-01-30
 ---
 
 - [useplunk/plunk: The Open-Source Email Platform](https://github.com/useplunk/plunk)

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F94020'
+last_modified: 2025-04-29
 ---
 
 $x \in A \subset \Omega$

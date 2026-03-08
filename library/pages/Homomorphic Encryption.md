@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3624C1'
+last_modified: 2024-01-15
 ---
 
 Homomorphic encryption is a specialized form that allows computations on encrypted data without requiring decryption. The computation result is also encrypted and can be decrypted to reveal the correct output. This enables secure data analysis and manipulation in encrypted form, protecting the data from unauthorized access even during computation.

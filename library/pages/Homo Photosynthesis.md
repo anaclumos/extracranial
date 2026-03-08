@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/D7EC42'
 aliases: ['광합성 인간']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

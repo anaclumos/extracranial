@@ -3,6 +3,7 @@ title: '웹 표준 미니앱의 어려움'
 date: 2022-09-14
 description: '당근 인턴 기간 내내 함께 했던 브레인이라는 것의 기술적인 배경과 진척도에 대해'
 slug: '/A370F3'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

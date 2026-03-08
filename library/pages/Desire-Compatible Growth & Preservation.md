@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/B3E3F8'
 aliases: ['욕망과 호환되는 발전과 보존']
+last_modified: 2023-02-16
 ---
 
 Desire-Compatible Growth & Desire-Compatible Preservation

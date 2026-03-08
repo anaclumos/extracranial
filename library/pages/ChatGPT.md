@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/85E9E7'
+last_modified: 2025-09-04
 ---
 
 ## [Introducing ChatGPT Plus](https://openai.com/blog/chatgpt-plus/)

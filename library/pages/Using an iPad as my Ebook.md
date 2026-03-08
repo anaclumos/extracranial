@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/FCD1D6'
+last_modified: 2025-09-04
 ---
 
 The search never ended to find the perfect [[ebook]]. Refer to this [[Hacker News]] thread

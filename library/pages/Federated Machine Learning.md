@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/7A2A8B'
 aliases: ['Federated Learning', 'Federative Training', 'FL', 'FML']
+last_modified: 2025-05-11
 ---
 
 ```

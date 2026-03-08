@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/6D8C92'
+last_modified: 2025-12-31
 ---
 
 ![[BC77D9.png]]

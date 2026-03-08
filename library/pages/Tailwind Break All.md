@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/68C1FD'
+last_modified: 2025-04-29
 ---
 
 Tailwind's `break-word` actually corresponds to `overflow-wrap: break-word` in CSS, which prevents underscore breaks. Therefore, add custom CSS `[word-break: break-word]` (breaks if overflow, still prioritizing breakable words) for description list elements used in table-like grids

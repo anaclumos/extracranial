@@ -2,6 +2,7 @@
 lang: 'ko'
 slug: '/E16E88'
 aliases: ['메트로펑크', '씨티펑크', '시티펑크', '어반펑크', 'CityPunk', 'UrbanPunk']
+last_modified: 2026-01-01
 ---
 
 [[성현적 발상]]

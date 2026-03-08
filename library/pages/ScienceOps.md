@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/2DE01B'
+last_modified: 2025-04-29
 ---
 
 [[성현적 발상]]

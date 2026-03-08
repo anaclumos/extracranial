@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A33FA6'
+last_modified: 2026-01-01
 ---
 
 [[Zenly]], a popular Gen-Z location-sharing social app, shut down two days ago. So how did this French [[Small yet Powerful|hidden champion]] flourish and vanish? And what can we learn from it?

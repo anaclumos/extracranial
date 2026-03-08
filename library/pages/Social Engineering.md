@@ -4,6 +4,7 @@ slug: '/D8D0CC'
 aliases:
   - 소셜 엔지니어링
   - Socially Engineer
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

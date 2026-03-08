@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4E8A6D'
+last_modified: 2023-08-28
 ---
 
 - Packet Switching → No Reservation Restaurant.

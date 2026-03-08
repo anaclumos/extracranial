@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/931FEC'
+last_modified: 2025-04-29
 ---
 
 1. It was co-founded by Matt Mullenweg, who is also the co-founder of the open-source blogging platform WordPress.

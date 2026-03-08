@@ -2,6 +2,7 @@
 title: 'Woowa Tech Camp 3rd Review'
 date: 2021-05-21
 slug: '/E2CAE4'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

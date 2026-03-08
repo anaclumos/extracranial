@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/59C7E5'
+last_modified: 2023-07-25
 ---
 
 - [[Alternative]] approach to [[Monolithic Model]]

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/9DC5BA'
 aliases: ['헤임달', 'Heimdall']
+last_modified: 2026-01-01
 ---
 
 ![[F7BA33.png]]

@@ -3,6 +3,7 @@ title: 'Web Standard Mini App Problems'
 date: 2022-09-14
 description: 'I worked as a full-time Mini App researcher intern at Karrot 🇰🇷🦄. This is what I found.'
 slug: '/A370F3'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

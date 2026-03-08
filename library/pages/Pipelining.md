@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/62F01F'
+last_modified: 2025-04-29
 ---
 
 - split combinational logic into smaller steps

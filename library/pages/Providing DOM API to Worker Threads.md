@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C3CCC9'
+last_modified: 2026-01-01
 ---
 
 ## Objective

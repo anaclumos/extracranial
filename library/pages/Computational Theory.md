@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/ACDD73'
 aliases: ['계산 이론', '컴퓨터 이론']
+last_modified: 2026-01-01
 ---
 
 import Tabs from '@theme/Tabs'

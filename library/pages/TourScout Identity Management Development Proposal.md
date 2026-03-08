@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/598D73'
+last_modified: 2026-01-01
 ---
 
 As TourScout continues to chart new territories in the travel industry, our identity management system will play a pivotal role in ensuring a seamless and secure user experience. In this proposal, we outline the critical aspects of our identity management system, covering both Authentication ("Who are you? Or are you an alien in disguise?") and Authorization ("What can you do? And no, you can't teleport!"). We've chosen Supabase as our platform—it supports various authentication methods, including email, Google, Apple, and Facebook sign-in. In addition, our proposed architecture leverages JWT (JSON Web Tokens) and a serverless design.

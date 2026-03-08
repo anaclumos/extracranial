@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/803226'
+last_modified: 2023-03-01
 ---
 
 - An experimental [[tools for thought]] for capturing the context of information.

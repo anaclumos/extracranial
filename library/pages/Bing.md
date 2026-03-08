@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/BB645A'
+last_modified: 2023-04-19
 ---
 
 Bing is a web search [[engine]] developed by [[Microsoft]] that helps you find trusted search results fast, collect [[Microsoft]] Rewards points, track topics and trending stories that matter to you, and take control of your privacy. Bing is gaining popularity because it has recently introduced a new feature that allows you to chat with Bing, ask real questions, and get complete answers). The same [[OpenAI]] technology behind [[ChatGPT]] powers this feature.

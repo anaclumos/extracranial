@@ -3,6 +3,7 @@ lang: 'en'
 slug: /A7AEDC
 aliases:
   - 버니바 부시
+last_modified: 2026-01-03
 ---
 
 import Tabs from '@theme/Tabs'

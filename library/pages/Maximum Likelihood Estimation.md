@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/7F10BC'
 aliases: ['MLE']
+last_modified: 2025-09-04
 ---
 
 $f(\mathbb{D} | \theta)$

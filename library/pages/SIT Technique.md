@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/F0F7B3'
+last_modified: 2025-04-29
 ---
 
 $\mathbb{E}_x[X] = \mathbb{E}_y [\mathbb{E}[X|Y]]$

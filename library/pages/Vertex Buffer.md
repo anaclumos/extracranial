@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A01101'
+last_modified: 2025-05-11
 ---
 
 - [[Graphics]]. How to pass instructions from [[CPU]] to [[GPU]].

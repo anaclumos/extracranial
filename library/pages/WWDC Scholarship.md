@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/BE38B2'
+last_modified: 2025-05-11
 ---
 
 ## [애플 WWDC가 뽑은 한국인 장학생, 조성현](https://n.news.naver.com/mnews/article/293/0000022478?sid=105)

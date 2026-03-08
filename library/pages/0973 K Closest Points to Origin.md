@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/B693C4'
+last_modified: 2025-04-29
 ---
 
 Solved at: [[2023-01-30]]

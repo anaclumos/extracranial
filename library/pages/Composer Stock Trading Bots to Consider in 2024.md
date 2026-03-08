@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/C126D4'
+last_modified: 2025-04-29
 ---
 
 https://www.composer.trade/learn/best-stock-trading-bots

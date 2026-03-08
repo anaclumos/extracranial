@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/812334'
+last_modified: 2023-08-28
 ---
 
 - [prose.sh](https://prose.sh/): a blog platform for hackers in terminal

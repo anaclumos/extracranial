@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/C669C9'
+last_modified: 2025-12-31
 ---
 
 :::warning

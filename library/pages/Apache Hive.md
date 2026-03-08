@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/4C029E'
 aliases: ['Hive', '하이브']
+last_modified: 2025-04-29
 ---
 
 Not to be confused with [[HYBE]]

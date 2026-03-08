@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/2F562A'
 aliases: ['토스페이스']
+last_modified: 2023-08-04
 ---
 
 - [[Emoji]] [[Font]] by [[Toss]]

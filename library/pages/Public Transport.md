@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/E295D3'
 aliases: ['대중교통', '대중 교통']
+last_modified: 2025-04-29
 ---
 
 ### [49-Euro-Ticket Deutschlandticket for buses and trains](https://www.deutschland.de/en/topic/life/49-euro-ticket-deutschlandticket-for-buses-and-trains)

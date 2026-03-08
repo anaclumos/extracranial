@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9CF884'
+last_modified: 2023-06-23
 ---
 
 An interaction effect in user experiments or statistical analysis refers to a situation where the impact of one variable on an outcome depends on the level of another variable. Related: [[Independence]]. Interaction can be examined in different types of models, such as in regression analysis or analysis of [[variance]] (ANOVA), but the basic idea is the same.

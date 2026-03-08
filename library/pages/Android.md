@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/061F3C'
+last_modified: 2022-10-18
 ---
 
 - [[Extracting string in Android]]

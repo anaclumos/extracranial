@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/CEEF6C'
+last_modified: 2025-09-04
 ---
 
 [[LavaLab]] Cohort of Spring 2023.

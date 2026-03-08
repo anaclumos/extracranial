@@ -3,6 +3,7 @@ title: '갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키
 date: 2023-01-25
 description: '⌨️ 갤럭시 천지인을 그리워하는 아이폰 유저들을 위한 키보드'
 slug: '/D7DE14'
+last_modified: 2026-03-08
 ---
 
 <!-- truncate -->

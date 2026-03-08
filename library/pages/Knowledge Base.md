@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/DF0D9A'
+last_modified: 2025-09-04
 ---
 
 ## [HelpKit - Build your Knowledge Base with the ease of Notion](https://www.helpkit.so/)

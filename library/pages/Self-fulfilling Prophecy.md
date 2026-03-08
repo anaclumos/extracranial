@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/3CC233'
+last_modified: 2025-04-29
 ---
 
 A self-fulfilling prophecy is a prediction or expectation that directly or indirectly causes itself to become true due to the belief and behavior of the person holding the expectation. In other words, a person's belief influences their actions in a way that tends to make the belief come true.

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/EEDB6C'
 aliases: ['Matrix']
+last_modified: 2023-08-04
 ---
 
 I always wanted to create a social group for my core audience, but Discord was too sassy...

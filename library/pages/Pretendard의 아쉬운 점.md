@@ -1,6 +1,7 @@
 ---
 lang: 'ko'
 slug: '/3A9FCD'
+last_modified: 2023-11-10
 ---
 
 ## 한글과 영문의 크기 격차

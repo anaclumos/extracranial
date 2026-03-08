@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/5A03F7'
+last_modified: 2022-11-11
 ---
 
 - [[Next.js]]

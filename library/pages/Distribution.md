@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9A8AF0'
+last_modified: 2025-04-29
 ---
 
 If $X \sim N(0,1)$, then $\mathbb{Z} = X^2 \sim \mathcal{X}^2(1)$

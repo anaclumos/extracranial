@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/4FF1D0'
+last_modified: 2025-04-29
 ---
 
 [Why I prefer rST to markdown • Buttondown](https://buttondown.email/hillelwayne/archive/why-i-prefer-rst-to-markdown/)

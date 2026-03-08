@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/9AA043'
+last_modified: 2025-09-04
 ---
 
 [String Manipulation is notoriously tricky in Swift](https://www.quora.com/Why-is-string-manipulation-so-difficult-in-Swift). Some common complaints:

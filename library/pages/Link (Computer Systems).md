@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/FC49CE'
 aliases: ['Linker']
+last_modified: 2023-07-06
 ---
 
 - in object code, all referenced memories are left empty `0`.

@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/8BF18A'
+last_modified: 2025-04-29
 ---
 
 [My YC app: Dropbox - Throw away your USB drive](https://news.ycombinator.com/item?id=8863)

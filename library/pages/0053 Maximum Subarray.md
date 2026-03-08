@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/A06B20'
+last_modified: 2023-04-27
 ---
 
 Solved at: [[2022-09-05]]

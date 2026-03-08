@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/8A9CFC'
 title: "Parallel Computing's Upper Limit"
+last_modified: 2026-01-03
 ---
 
 [[SIWOOO]]

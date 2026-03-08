@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/26D2AB'
+last_modified: 2024-02-21
 ---
 
 In computer programming, **[[Shim|shimming]]** is a method of transparently intercepting, modifying, and redirecting the [[API]] calls. A smooth [[shim]] is hardly noticeable; imagine Mission Impossible, where you ordered food at a restaurant, but actually, Ethan Hunt intercepted your call, cooked, and delivered your food.

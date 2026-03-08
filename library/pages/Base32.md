@@ -1,6 +1,7 @@
 ---
 lang: 'en'
 slug: '/62F568'
+last_modified: 2025-01-18
 ---
 
 Base32 is a way to represent binary data in a text format using a restricted set of 32 alphanumeric characters, typically the uppercase letters A through Z and the digits 2 through 7. Defined in [RFC 4648](https://datatracker.ietf.org/doc/html/rfc4648), it encodes every 5 bits of data into one character, which makes it easy to handle in systems that work best with human-readable text, such as QR codes, DNS, or secret keys in TOTP (Time-based One-Time Password) applications.

@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/8AE8DF'
 aliases: ['프리텐다드']
+last_modified: 2023-07-25
 ---
 
 ![[C42C4E.png]]

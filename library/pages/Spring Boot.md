@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/3E8C4D'
 aliases: ['스프링부트', '스프링 부트']
+last_modified: 2023-08-28
 ---
 
 Spring Boot is a module of the Spring Framework, a popular enterprise-level [[Java]] framework that provides comprehensive infrastructure support for developing [[Java]] applications. Spring Boot simplifies the process of setting up and developing Spring applications. It is designed to get you up and running as quickly as possible, with minimal upfront configuration of Spring. It achieves this through several key features:

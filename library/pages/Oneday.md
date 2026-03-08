@@ -2,6 +2,7 @@
 lang: 'en'
 slug: '/1F2C2C'
 aliases: ['훗날']
+last_modified: 2025-09-04
 ---
 
 1. Ideas that are not technically feasible
