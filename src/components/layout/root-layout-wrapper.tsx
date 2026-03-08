@@ -19,6 +19,17 @@ export function RootLayoutWrapper({
       lang={locale}
       suppressHydrationWarning
     >
+      <head>
+        <link
+          crossOrigin=""
+          href="https://cdn.jsdelivr.net"
+          rel="preconnect"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@v1.0.0/dist/web/css/sunghyun-sans-kr-dynamic-subset.min.css"
+          rel="stylesheet"
+        />
+      </head>
       <body className={cn("flex h-full flex-col font-sans antialiased")}>
         {children}
       </body>

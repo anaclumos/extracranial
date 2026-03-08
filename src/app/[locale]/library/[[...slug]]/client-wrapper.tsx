@@ -61,14 +61,14 @@ export async function ClientWrapper({
       excerpt: note.excerpt,
       date: note.date,
       kind: note.kind,
-      lastEditedAt: note.lastEditedAt,
+      lastModified: note.lastModified,
     })
   )
   const collator = new Intl.Collator(locale)
   noteSummaries.sort((a, b) => {
-    const editedDelta = (b.lastEditedAt ?? 0) - (a.lastEditedAt ?? 0)
-    if (editedDelta !== 0) {
-      return editedDelta
+    const modifiedDelta = (b.lastModified ?? 0) - (a.lastModified ?? 0)
+    if (modifiedDelta !== 0) {
+      return modifiedDelta
     }
     return collator.compare(b.title, a.title)
   })

@@ -75,8 +75,10 @@
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
   --font-sans:
-    ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro", "Segoe UI",
-    Roboto, "Pretendard Variable", Pretendard, "Pretendard JP", sans-serif;
+    "Sunghyun Sans KR", ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "SF Pro", "Segoe UI", Roboto, "Pretendard Variable", Pretendard,
+    "Pretendard JP", sans-serif;
+  --font-heading: var(--font-sans);
   --font-mono:
     ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --animate-skeleton: skeleton 2s -1s infinite linear;

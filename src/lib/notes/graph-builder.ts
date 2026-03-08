@@ -18,7 +18,7 @@ async function buildNoteGraphUncached(locale: string): Promise<{
       date: note.date,
       excerpt: generateExcerpt(note.content, 180),
       kind: note.kind,
-      lastEditedAt: note.lastEditedAt,
+      lastModified: note.lastModified,
       slug: note.slug,
       title: note.title,
       description: note.description,
