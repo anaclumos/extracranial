@@ -15,6 +15,11 @@ const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets")
 const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"])
 const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"])
 const POSTS_LOCALES = new Set(["en", "ko"])
+const BLOG_CACHE_LIFE = {
+  stale: 300,
+  revalidate: 86400,
+  expire: 604800,
+} as const
 
 export interface SourceNote {
   aliases: string[]
@@ -192,14 +197,10 @@ function registerLookup(
 
 export async function getContentIndex(): Promise<ContentIndex> {
   "use cache"
-  cacheLife("blog")
+  cacheLife(BLOG_CACHE_LIFE)
   cacheTag("content-index")
 
-  const [researchFiles, postFiles] = await Promise.all([
-    collectMarkdownFiles(LIBRARY_ROOT),
-    collectMarkdownFiles(POSTS_ROOT),
-  ])
-  const allFiles = [...researchFiles, ...postFiles]
+  const allFiles = await collectMarkdownFiles(LIBRARY_ROOT)
 
   const notesBySlug = new Map<string, Map<string, SourceNote>>()
   const titleLookup = new Map<string, string>()
@@ -248,7 +249,7 @@ export async function getSourceNoteBySlug(
   locale: string
 ): Promise<SourceNote | null> {
   "use cache"
-  cacheLife("blog")
+  cacheLife(BLOG_CACHE_LIFE)
   cacheTag(`source-note-${slug}`, `locale-${locale}`)
 
   const { notesBySlug } = await getContentIndex()

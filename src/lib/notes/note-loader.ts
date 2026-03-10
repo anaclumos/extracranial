@@ -1,8 +1,11 @@
 import "server-only"
 
 import type { Note, NoteGraphNode } from "@/lib/types"
-import { getContentIndex } from "./content-index"
-import { getAllNoteSlugs, getSourceNoteBySlug } from "./file-io"
+import {
+  getAllNoteSlugs,
+  getContentIndex,
+  getSourceNoteBySlug,
+} from "./content-index"
 import { parseMarkdown } from "./markdown-parser"
 import { extractOutboundLinks } from "./source-transform"
 
@@ -62,7 +65,7 @@ async function loadNoteGraphNode(
 export async function loadAllNoteGraphNodes(
   locale = "en"
 ): Promise<NoteGraphNode[]> {
-  const slugs = await getAllNoteSlugs(locale)
+  const slugs = await getAllNoteSlugs()
   const notes = await Promise.all(
     slugs.map((slug) => loadNoteGraphNode(slug, locale))
   )

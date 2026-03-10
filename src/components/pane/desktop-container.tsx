@@ -1,11 +1,15 @@
 "use client"
 
-import { type ReactNode, useMemo, useRef } from "react"
+import {
+  type ReactNode,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import { cn } from "@/lib/utils"
-import { useCollapseDetection } from "./collapse-detector"
 import { PaneCollapseContext } from "./pane-collapse-context"
-import { useScrollManager } from "./scroll-manager"
-import { useResizeObserver, useScrollListener } from "./use-desktop-effects"
 
 interface DesktopContainerProps {
   children: ReactNode
@@ -19,19 +23,182 @@ export function DesktopContainer({
   scrollToPaneRef,
 }: DesktopContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
-  const { registerPaneRef, scrollToPane } = useScrollManager(
-    focusIndex,
-    scrollToPaneRef
+  const paneRefs = useRef(new Map<number, HTMLElement>())
+  const focusIndexRef = useRef(focusIndex)
+  const collapseThresholdRef = useRef(0)
+  const [collapsedIndices, setCollapsedIndices] = useState<Set<number>>(
+    new Set()
   )
-  const { collapsedIndices, updateCollapseThreshold, updateCollapsedIndices } =
-    useCollapseDetection(containerRef, false)
 
-  useResizeObserver(
-    containerRef,
-    updateCollapseThreshold,
-    updateCollapsedIndices
+  focusIndexRef.current = focusIndex
+
+  const getScrollBehavior = useCallback(() => {
+    if (typeof window === "undefined") {
+      return "smooth" as const
+    }
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches
+      ? "auto"
+      : "smooth"
+  }, [])
+
+  const scrollPaneIntoViewIfFocused = useCallback(
+    (index: number, element: HTMLElement) => {
+      if (index !== focusIndexRef.current) {
+        return
+      }
+      requestAnimationFrame(() => {
+        element.scrollIntoView({
+          behavior: getScrollBehavior(),
+          block: "nearest",
+          inline: "center",
+        })
+      })
+    },
+    [getScrollBehavior]
   )
-  useScrollListener(containerRef, updateCollapsedIndices)
+
+  const registerPaneRef = useCallback(
+    (index: number, element: HTMLElement | null) => {
+      if (element) {
+        paneRefs.current.set(index, element)
+        scrollPaneIntoViewIfFocused(index, element)
+        return
+      }
+      paneRefs.current.delete(index)
+    },
+    [scrollPaneIntoViewIfFocused]
+  )
+
+  const scrollToPane = useCallback(
+    (index: number) => {
+      const targetPane = paneRefs.current.get(index)
+      if (!targetPane) {
+        return
+      }
+      targetPane.scrollIntoView({
+        behavior: getScrollBehavior(),
+        block: "nearest",
+        inline: "center",
+      })
+      targetPane.focus()
+    },
+    [getScrollBehavior]
+  )
+
+  const updateCollapseThreshold = useCallback(() => {
+    const container = containerRef.current
+    if (!container) {
+      return
+    }
+
+    const firstPane = container.querySelector("[data-pane]") as HTMLElement | null
+    if (!firstPane) {
+      return
+    }
+
+    const paneWidth = firstPane.offsetWidth
+    const rootStyles = getComputedStyle(document.documentElement)
+    const rootFontSize = Number.parseFloat(rootStyles.fontSize) || 16
+    const spineWidthRem =
+      Number.parseFloat(rootStyles.getPropertyValue("--pane-spine-width")) ||
+      2.5
+
+    collapseThresholdRef.current = Math.max(0, paneWidth - spineWidthRem * rootFontSize)
+  }, [])
+
+  const updateCollapsedIndices = useCallback(() => {
+    const container = containerRef.current
+    if (!container) {
+      return
+    }
+
+    const collapseThreshold = collapseThresholdRef.current
+    if (collapseThreshold <= 0) {
+      setCollapsedIndices((prev) => (prev.size === 0 ? prev : new Set()))
+      return
+    }
+
+    const next = new Set<number>()
+    let index = 0
+    while ((index + 1) * collapseThreshold <= container.scrollLeft) {
+      next.add(index)
+      index += 1
+    }
+
+    setCollapsedIndices((prev) => {
+      if (prev.size !== next.size) {
+        return next
+      }
+      for (const value of next) {
+        if (!prev.has(value)) {
+          return next
+        }
+      }
+      return prev
+    })
+  }, [])
+
+  useEffect(() => {
+    if (!scrollToPaneRef) {
+      return
+    }
+    scrollToPaneRef.current = scrollToPane
+    return () => {
+      scrollToPaneRef.current = null
+    }
+  }, [scrollToPane, scrollToPaneRef])
+
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) {
+      return
+    }
+
+    updateCollapseThreshold()
+    const frameId = requestAnimationFrame(updateCollapsedIndices)
+
+    if (typeof ResizeObserver === "undefined") {
+      const handleResize = () => {
+        updateCollapseThreshold()
+        updateCollapsedIndices()
+      }
+      window.addEventListener("resize", handleResize)
+      return () => {
+        cancelAnimationFrame(frameId)
+        window.removeEventListener("resize", handleResize)
+      }
+    }
+
+    const observer = new ResizeObserver(() => {
+      updateCollapseThreshold()
+      updateCollapsedIndices()
+    })
+    observer.observe(container)
+
+    const firstPane = container.querySelector("[data-pane]")
+    if (firstPane) {
+      observer.observe(firstPane)
+    }
+
+    return () => {
+      cancelAnimationFrame(frameId)
+      observer.disconnect()
+    }
+  }, [updateCollapseThreshold, updateCollapsedIndices])
+
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) {
+      return
+    }
+
+    container.addEventListener("scroll", updateCollapsedIndices, {
+      passive: true,
+    })
+    return () => {
+      container.removeEventListener("scroll", updateCollapsedIndices)
+    }
+  }, [updateCollapsedIndices])
 
   const contextValue = useMemo(
     () => ({ collapsedIndices, registerPaneRef, scrollToPane }),

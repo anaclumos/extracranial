@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation"
+import { NotesPageClient } from "@/components/client/index"
 import { getNoteBySlug } from "@/lib/notes"
 import { buildFullStack, parseStackString } from "@/lib/stores/stack-utils"
 import type { BacklinkInfo, NotePaneData, NoteSummary } from "@/lib/types"
-import { NotesPageClient } from "./client"
 
 interface ClientWrapperProps {
   noteGraphPromise: Promise<{
@@ -64,6 +64,7 @@ export async function ClientWrapper({
       lastModified: note.lastModified,
     })
   )
+
   const collator = new Intl.Collator(locale)
   noteSummaries.sort((a, b) => {
     const aTime = a.date ? new Date(a.date).getTime() / 1000 : (a.lastModified ?? 0)

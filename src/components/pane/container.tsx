@@ -1,12 +1,17 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import type { ReactNode } from "react"
 import { useIsMobile } from "@/hooks/use-mobile"
 import type { NotePaneData } from "@/lib/types"
 import { useMobileData } from "../client/mobile-orchestrator"
 import { useNoteStackContext } from "../client/note-stack-provider"
 import { DesktopContainer } from "./desktop-container"
-import { MobileContainer } from "./mobile-container"
+
+const MobilePaneCarousel = dynamic(
+  () => import("../mobile/pane-carousel").then((mod) => mod.MobilePaneCarousel),
+  { ssr: false }
+)
 
 interface PaneContainerProps {
   children: ReactNode
@@ -24,7 +29,14 @@ export function PaneContainer({
   const mobileData = useMobileData({ paneNotes })
 
   if (isMobile) {
-    return <MobileContainer focusIndex={focusIndex} mobileData={mobileData} />
+    return (
+      <MobilePaneCarousel
+        focusIndex={focusIndex}
+        onClose={mobileData.onClose}
+        onLinkClick={mobileData.onLinkClick}
+        panes={mobileData.panes}
+      />
+    )
   }
 
   return (

@@ -1,7 +1,7 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 import { NextResponse } from "next/server"
-import { resolveAssetPathForNote } from "@/lib/notes/file-io"
+import { resolveAssetPathForNote } from "@/lib/notes/content-index"
 
 const CONTENT_TYPES: Record<string, string> = {
   ".avif": "image/avif",

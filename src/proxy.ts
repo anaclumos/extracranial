@@ -26,25 +26,7 @@ function getVisibleNotePath(slug: string, locale?: string) {
 
 function getInternalLibraryPath(slug: string, locale?: string) {
   const normalizedLocale = locale ?? routing.defaultLocale
-  return `/${normalizedLocale}/library/${slug}`
-}
-
-function isDirectNoteSlugPath(pathname: string) {
-  const segments = pathname.split("/").filter(Boolean)
-  if (segments.length !== 1) {
-    return false
-  }
-
-  const [segment] = segments
-  if (!segment) {
-    return false
-  }
-
-  if (isLocaleSegment(segment)) {
-    return false
-  }
-
-  return DIRECT_NOTE_SLUG_REGEX.test(segment)
+  return `/${normalizedLocale}/${slug}`
 }
 
 function getCanonicalNoteRedirectPath(pathname: string): string | null {
@@ -107,29 +89,6 @@ function getCanonicalNoteRedirectPath(pathname: string): string | null {
 
   return getVisibleNotePath(slug, locale)
 }
-
-function getDirectNoteRewritePath(pathname: string): string | null {
-  const segments = pathname.split("/").filter(Boolean)
-
-  if (segments.length === 1) {
-    const [slug] = segments
-    if (!(slug && !isLocaleSegment(slug) && DIRECT_NOTE_SLUG_REGEX.test(slug))) {
-      return null
-    }
-    return getInternalLibraryPath(slug)
-  }
-
-  if (segments.length === 2) {
-    const [locale, slug] = segments
-    if (!(locale && slug && isLocaleSegment(locale) && DIRECT_NOTE_SLUG_REGEX.test(slug))) {
-      return null
-    }
-    return getInternalLibraryPath(slug, locale)
-  }
-
-  return null
-}
-
 export default function proxy(request: NextRequest) {
   const canonicalRedirectPath = getCanonicalNoteRedirectPath(
     request.nextUrl.pathname
@@ -138,13 +97,6 @@ export default function proxy(request: NextRequest) {
     const url = request.nextUrl.clone()
     url.pathname = canonicalRedirectPath
     return NextResponse.redirect(url)
-  }
-
-  const directNoteRewritePath = getDirectNoteRewritePath(request.nextUrl.pathname)
-  if (directNoteRewritePath) {
-    const url = request.nextUrl.clone()
-    url.pathname = directNoteRewritePath
-    return NextResponse.rewrite(url)
   }
 
   return handleI18nRouting(request)
