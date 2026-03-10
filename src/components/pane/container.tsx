@@ -1,22 +1,22 @@
-"use client"
+"use client";
 
-import dynamic from "next/dynamic"
-import type { ReactNode } from "react"
-import { useIsMobile } from "@/hooks/use-mobile"
-import type { NotePaneData } from "@/lib/types"
-import { useMobileData } from "../client/mobile-orchestrator"
-import { useNoteStackContext } from "../client/note-stack-provider"
-import { DesktopContainer } from "./desktop-container"
+import { lazy, type MutableRefObject, type ReactNode, Suspense } from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
+import type { NotePaneData } from "@/lib/types";
+import { useMobileData } from "../client/mobile-orchestrator";
+import { useNoteStackContext } from "../client/note-stack-provider";
+import { DesktopContainer } from "./desktop-container";
 
-const MobilePaneCarousel = dynamic(
-  () => import("../mobile/pane-carousel").then((mod) => mod.MobilePaneCarousel),
-  { ssr: false }
-)
+const MobilePaneCarousel = lazy(() =>
+  import("../mobile/pane-carousel").then((mod) => ({
+    default: mod.MobilePaneCarousel,
+  }))
+);
 
 interface PaneContainerProps {
-  children: ReactNode
-  scrollToPaneRef?: React.MutableRefObject<((index: number) => void) | null>
-  paneNotes: NotePaneData[]
+  children: ReactNode;
+  paneNotes: NotePaneData[];
+  scrollToPaneRef?: MutableRefObject<((index: number) => void) | null>;
 }
 
 export function PaneContainer({
@@ -24,24 +24,26 @@ export function PaneContainer({
   scrollToPaneRef,
   paneNotes,
 }: PaneContainerProps) {
-  const isMobile = useIsMobile()
-  const { focusIndex } = useNoteStackContext()
-  const mobileData = useMobileData({ paneNotes })
+  const isMobile = useIsMobile();
+  const { focusIndex } = useNoteStackContext();
+  const mobileData = useMobileData({ paneNotes });
 
   if (isMobile) {
     return (
-      <MobilePaneCarousel
-        focusIndex={focusIndex}
-        onClose={mobileData.onClose}
-        onLinkClick={mobileData.onLinkClick}
-        panes={mobileData.panes}
-      />
-    )
+      <Suspense fallback={null}>
+        <MobilePaneCarousel
+          focusIndex={focusIndex}
+          onClose={mobileData.onClose}
+          onLinkClick={mobileData.onLinkClick}
+          panes={mobileData.panes}
+        />
+      </Suspense>
+    );
   }
 
   return (
     <DesktopContainer focusIndex={focusIndex} scrollToPaneRef={scrollToPaneRef}>
       {children}
     </DesktopContainer>
-  )
+  );
 }

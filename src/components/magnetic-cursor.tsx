@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import { Cursor, useCursorState } from "motion-plus/react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
+import { Cursor, useCursorState } from "motion-plus/react";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 export function MagneticCursor() {
-  const prefersReducedMotion = useReducedMotion()
-  const { zone } = useCursorState()
+  const prefersReducedMotion = useReducedMotion();
+  const { zone } = useCursorState();
 
   if (prefersReducedMotion) {
-    return null
+    return null;
   }
 
-  const isOverlay = zone === "overlay"
+  const isOverlay = zone === "overlay";
 
   return (
     <Cursor
@@ -30,5 +30,5 @@ export function MagneticCursor() {
         },
       }}
     />
-  )
+  );
 }

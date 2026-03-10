@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { memo, useCallback } from "react"
-import { buildNoteHref } from "@/lib/note-links"
-import type { NoteSummary } from "@/lib/types"
-import { cn } from "@/lib/utils"
-import { PreviewLink } from "../preview-link"
+import { memo, useCallback } from "react";
+import { buildNoteHref } from "@/lib/note-links";
+import type { NoteSummary } from "@/lib/types";
+import { cn } from "@/lib/utils";
+import { PreviewLink } from "../preview-link";
 
 interface NoteItemProps {
-  note: NoteSummary
-  stackPosition?: number
-  onNoteClick: (slug: string) => void
-  currentlyOpenLabel: (position: number) => string
+  currentlyOpenLabel: (position: number) => string;
+  note: NoteSummary;
+  onNoteClick: (slug: string) => void;
+  stackPosition?: number;
 }
 
 export const NoteItem = memo(function NoteItem({
@@ -19,15 +19,15 @@ export const NoteItem = memo(function NoteItem({
   onNoteClick,
   currentlyOpenLabel,
 }: NoteItemProps) {
-  const isInStack = stackPosition !== undefined
+  const isInStack = stackPosition !== undefined;
 
   const handleClick = useCallback(
     (e: React.MouseEvent) => {
-      e.preventDefault()
-      onNoteClick(note.slug)
+      e.preventDefault();
+      onNoteClick(note.slug);
     },
     [onNoteClick, note.slug]
-  )
+  );
 
   return (
     <li>
@@ -62,5 +62,5 @@ export const NoteItem = memo(function NoteItem({
         </span>
       </PreviewLink>
     </li>
-  )
-})
+  );
+});

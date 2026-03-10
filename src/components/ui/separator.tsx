@@ -1,6 +1,6 @@
-import { Separator as SeparatorPrimitive } from "@base-ui/react/separator"
+import { Separator as SeparatorPrimitive } from "@base-ui/react/separator";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function Separator({
   className,
@@ -17,7 +17,7 @@ function Separator({
       orientation={orientation}
       {...props}
     />
-  )
+  );
 }
 
-export { Separator }
+export { Separator };

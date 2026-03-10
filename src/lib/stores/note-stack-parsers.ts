@@ -1,31 +1,56 @@
-"use client"
-
-import { createParser, parseAsInteger } from "nuqs"
 import {
   parseStackString as parseStack,
   serializeStackArray as serializeStack,
-} from "./stack-utils"
+} from "./stack-utils";
 
-export {
-  buildFullStack,
-  getFocusIndex,
-  parseStackString,
-  popFromStack,
-  pushToStack,
-  serializeStackArray,
-} from "./stack-utils"
+const parseStackString = parseStack;
+const serializeStackArray = serializeStack;
 
-const parseStackString = parseStack
-const serializeStackArray = serializeStack
+export interface NoteStackUrlState {
+  focus: number | null;
+  stack: string[];
+}
 
-export const stackParser = createParser({
-  parse: parseStackString,
-  serialize: serializeStackArray,
-}).withDefault([])
+function parseFocusValue(value: unknown): number | null {
+  if (typeof value === "number" && Number.isInteger(value)) {
+    return value;
+  }
 
-export const focusParser = parseAsInteger
+  if (typeof value === "string") {
+    const parsed = Number.parseInt(value, 10);
+    return Number.isNaN(parsed) ? null : parsed;
+  }
 
-export const noteStackParsers = {
-  stack: stackParser,
-  focus: focusParser,
+  return null;
+}
+
+export function parseNoteStackSearch(
+  search: Record<string, unknown>
+): NoteStackUrlState {
+  const stack = parseStackString(
+    typeof search.stack === "string" ? search.stack : null
+  );
+
+  return {
+    stack,
+    focus: parseFocusValue(search.focus),
+  };
+}
+
+export function toNoteStackSearchParams(
+  stack: string[],
+  focus: number | null
+): { stack?: string; focus?: number } {
+  const next: { stack?: string; focus?: number } = {};
+  const serializedStack = serializeStackArray(stack);
+
+  if (serializedStack) {
+    next.stack = serializedStack;
+  }
+
+  if (focus !== null) {
+    next.focus = focus;
+  }
+
+  return next;
 }

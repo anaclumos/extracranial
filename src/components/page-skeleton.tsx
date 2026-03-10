@@ -1,4 +1,4 @@
-import { PaneSkeleton } from "@/components/pane/pane-skeleton"
+import { PaneSkeleton } from "@/components/pane/pane-skeleton";
 
 export function PageSkeleton() {
   return (
@@ -6,5 +6,5 @@ export function PageSkeleton() {
       <PaneSkeleton />
       <PaneSkeleton collapsed />
     </div>
-  )
+  );
 }

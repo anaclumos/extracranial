@@ -1,53 +1,63 @@
-"use client"
+"use client";
 
-import { ArrowUpLeft01Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { useTranslations } from "next-intl"
-import { memo, useCallback, useMemo } from "react"
-import type { BacklinkInfo } from "@/lib/types"
-import { cn } from "@/lib/utils"
+import { ArrowUpLeft01Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { memo, useCallback, useMemo } from "react";
+import { useTranslations } from "@/i18n/provider";
+import type { BacklinkInfo } from "@/lib/types";
+import { cn } from "@/lib/utils";
 
 interface BacklinksSectionProps {
-  backlinks: BacklinkInfo[]
-  onBacklinkClick: (slug: string) => void
+  backlinks: BacklinkInfo[];
+  onBacklinkClick: (slug: string) => void;
 }
 
 const ExcerptWithBold = memo(function ExcerptWithBold({
   text,
 }: {
-  text: string
+  text: string;
 }) {
-  const parts = useMemo(() => text.split(/(\*\*[^*]+\*\*)/g), [text])
+  const parts = useMemo(() => {
+    const counts = new Map<string, number>();
+
+    return text.split(/(\*\*[^*]+\*\*)/g).map((part) => {
+      const count = (counts.get(part) ?? 0) + 1;
+      counts.set(part, count);
+
+      return {
+        key: `${part}-${count}`,
+        part,
+      };
+    });
+  }, [text]);
+
   return (
     <>
-      {parts.map((part, i) =>
+      {parts.map(({ part, key }) =>
         part.startsWith("**") && part.endsWith("**") ? (
-          <strong
-            className="font-medium text-foreground"
-            key={`bold-${i}-${part.slice(2, 12)}`}
-          >
+          <strong className="font-medium text-foreground" key={`bold-${key}`}>
             {part.slice(2, -2)}
           </strong>
         ) : (
-          <span key={`text-${i}-${part.slice(0, 10)}`}>{part}</span>
+          <span key={`text-${key}`}>{part}</span>
         )
       )}
     </>
-  )
-})
+  );
+});
 
 const BacklinkItem = memo(function BacklinkItem({
   backlink,
   onClick,
   isFirst,
 }: {
-  backlink: BacklinkInfo
-  onClick: (slug: string) => void
-  isFirst: boolean
+  backlink: BacklinkInfo;
+  onClick: (slug: string) => void;
+  isFirst: boolean;
 }) {
   const handleClick = useCallback(() => {
-    onClick(backlink.slug)
-  }, [onClick, backlink.slug])
+    onClick(backlink.slug);
+  }, [onClick, backlink.slug]);
 
   return (
     <li className={cn(!isFirst && "border-border/50 border-t")}>
@@ -70,20 +80,20 @@ const BacklinkItem = memo(function BacklinkItem({
         )}
       </button>
     </li>
-  )
-})
+  );
+});
 
 export const BacklinksSection = memo(function BacklinksSection({
   backlinks,
   onBacklinkClick,
 }: BacklinksSectionProps) {
-  const t = useTranslations("backlinks")
+  const t = useTranslations("backlinks");
 
   if (backlinks.length === 0) {
-    return null
+    return null;
   }
 
-  const translationKey = backlinks.length === 1 ? "singular" : "plural"
+  const translationKey = backlinks.length === 1 ? "singular" : "plural";
 
   return (
     <section>
@@ -102,5 +112,5 @@ export const BacklinksSection = memo(function BacklinksSection({
         ))}
       </ul>
     </section>
-  )
-})
+  );
+});

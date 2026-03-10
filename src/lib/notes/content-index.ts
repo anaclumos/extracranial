@@ -1,170 +1,156 @@
-import "server-only"
+import fs from "node:fs/promises";
+import path from "node:path";
+import matter from "gray-matter";
+import type { NoteKind } from "@/lib/types";
+import { normalizeNoteSlug } from "../note-links";
+import type { SourceNote } from "./types";
 
-import fs from "node:fs/promises"
-import path from "node:path"
-import matter from "gray-matter"
-import { cacheLife, cacheTag } from "next/cache"
-import type { NoteKind } from "@/lib/types"
-import { normalizeNoteSlug } from "../note-links"
+export type { SourceNote } from "./types";
 
-const EXTRACRANIAL_ROOT = process.cwd()
-const LIBRARY_ROOT = path.join(EXTRACRANIAL_ROOT, "library")
-const POSTS_ROOT = path.join(LIBRARY_ROOT, "posts")
-const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets")
+const EXTRACRANIAL_ROOT = process.cwd();
+const LIBRARY_ROOT = path.join(EXTRACRANIAL_ROOT, "library");
+const POSTS_ROOT = path.join(LIBRARY_ROOT, "posts");
+const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets");
 
-const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"])
-const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"])
-const POSTS_LOCALES = new Set(["en", "ko"])
-const BLOG_CACHE_LIFE = {
-  stale: 300,
-  revalidate: 86400,
-  expire: 604800,
-} as const
-
-export interface SourceNote {
-  aliases: string[]
-  content: string
-  date?: string
-  description?: string
-  dirPath: string
-  editUrl?: string
-  filePath: string
-  kind: NoteKind
-  lastModified?: number
-  locale: string
-  slug: string
-  title: string
-}
+const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"]);
+const MARKDOWN_SUFFIX_RE = /\.(md|mdx)$/i;
+const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"]);
+const POSTS_LOCALES = new Set(["en", "ko"]);
 
 interface ContentIndex {
-  notesBySlug: Map<string, Map<string, SourceNote>>
-  titleLookup: Map<string, string>
+  notesBySlug: Map<string, Map<string, SourceNote>>;
+  titleLookup: Map<string, string>;
 }
 
+let contentIndexCache: Promise<ContentIndex> | null = null;
+
 function normalizeLookupKey(value: string): string {
-  return value.normalize("NFC").trim().toLowerCase()
+  return value.normalize("NFC").trim().toLowerCase();
 }
 
 function toSlug(value: unknown, fallback: string): string {
   if (typeof value === "string" && value.trim()) {
-    return normalizeNoteSlug(value)
+    return normalizeNoteSlug(value);
   }
-  return normalizeNoteSlug(fallback)
+  return normalizeNoteSlug(fallback);
 }
 
 function parseAliases(value: unknown): string[] {
   if (Array.isArray(value)) {
-    return value.filter((entry): entry is string => typeof entry === "string")
+    return value.filter((entry): entry is string => typeof entry === "string");
   }
 
   if (typeof value === "string" && value.trim()) {
-    return [value]
+    return [value];
   }
 
-  return []
+  return [];
 }
 
 function inferKind(filePath: string): NoteKind {
   if (filePath.startsWith(POSTS_ROOT)) {
-    return "blog"
+    return "blog";
   }
 
   if (filePath.includes(`${path.sep}journals${path.sep}`)) {
-    return "journal"
+    return "journal";
   }
 
-  return "research"
+  return "research";
 }
 
 function inferLocale(filePath: string, frontmatterLang: unknown): string {
   if (filePath.startsWith(POSTS_ROOT)) {
-    const baseName = path.basename(filePath, path.extname(filePath))
+    const baseName = path.basename(filePath, path.extname(filePath));
     if (POSTS_LOCALES.has(baseName)) {
-      return baseName
+      return baseName;
     }
   }
 
   if (typeof frontmatterLang === "string" && frontmatterLang.trim()) {
-    return frontmatterLang
+    return frontmatterLang;
   }
 
-  return "en"
+  return "en";
 }
 
 function buildEditUrl(filePath: string): string | undefined {
-  const relativePath = path.relative(EXTRACRANIAL_ROOT, filePath).split(path.sep)
+  const relativePath = path
+    .relative(EXTRACRANIAL_ROOT, filePath)
+    .split(path.sep);
   if (relativePath.length === 0) {
-    return undefined
+    return undefined;
   }
 
-  return `https://github.com/anaclumos/extracranial/tree/main/${relativePath.join("/")}`
+  return `https://github.com/anaclumos/extracranial/tree/main/${relativePath.join("/")}`;
 }
 
 function parseDate(value: unknown): string | undefined {
   if (typeof value === "string" && value.trim()) {
-    return value
+    return value;
   }
 
   if (value instanceof Date && !Number.isNaN(value.getTime())) {
-    return value.toISOString().split("T")[0]
+    return value.toISOString().split("T")[0];
   }
 
-  return undefined
+  return undefined;
 }
 
 function parseTimestamp(value: unknown): number | undefined {
   if (typeof value === "string" && value.trim()) {
-    const parsed = Date.parse(value)
+    const parsed = Date.parse(value);
     if (!Number.isNaN(parsed)) {
-      return Math.floor(parsed / 1000)
+      return Math.floor(parsed / 1000);
     }
   }
 
   if (value instanceof Date && !Number.isNaN(value.getTime())) {
-    return Math.floor(value.getTime() / 1000)
+    return Math.floor(value.getTime() / 1000);
   }
 
-  return undefined
+  return undefined;
 }
 
 async function collectMarkdownFiles(root: string): Promise<string[]> {
-  const entries = await fs.readdir(root, { withFileTypes: true })
-  const files: string[] = []
+  const entries = await fs.readdir(root, { withFileTypes: true });
+  const files: string[] = [];
 
   for (const entry of entries) {
-    const fullPath = path.join(root, entry.name)
+    const fullPath = path.join(root, entry.name);
 
     if (entry.isDirectory()) {
       if (SKIPPED_DIRECTORIES.has(entry.name)) {
-        continue
+        continue;
       }
-      files.push(...(await collectMarkdownFiles(fullPath)))
-      continue
+      files.push(...(await collectMarkdownFiles(fullPath)));
+      continue;
     }
 
     if (MARKDOWN_EXTENSIONS.has(path.extname(entry.name))) {
-      files.push(fullPath)
+      files.push(fullPath);
     }
   }
 
-  return files
+  return files;
 }
 
 async function readSourceNote(filePath: string): Promise<SourceNote | null> {
-  const fileContents = await fs.readFile(filePath, "utf8")
-  const { data, content } = matter(fileContents)
-  const fallbackSlug = path.basename(filePath, path.extname(filePath))
-  const slug = toSlug(data.slug, fallbackSlug)
+  const fileContents = await fs.readFile(filePath, "utf8");
+  const { data, content } = matter(fileContents);
+  const fallbackSlug = path.basename(filePath, path.extname(filePath));
+  const slug = toSlug(data.slug, fallbackSlug);
 
   if (!slug) {
-    return null
+    return null;
   }
 
   return {
     aliases: parseAliases(data.aliases),
     content,
     date: parseDate(data.date),
-    description: typeof data.description === "string" ? data.description : undefined,
+    description:
+      typeof data.description === "string" ? data.description : undefined,
     dirPath: path.dirname(filePath),
     editUrl: buildEditUrl(filePath),
     filePath,
@@ -177,7 +163,7 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
       typeof data.title === "string" && data.title.trim()
         ? data.title
         : path.basename(filePath, path.extname(filePath)),
-  }
+  };
 }
 
 function registerLookup(
@@ -186,49 +172,60 @@ function registerLookup(
   slug: string
 ) {
   if (!label) {
-    return
+    return;
   }
 
-  const key = normalizeLookupKey(label)
+  const key = normalizeLookupKey(label);
   if (key && !lookup.has(key)) {
-    lookup.set(key, slug)
+    lookup.set(key, slug);
   }
 }
 
-export async function getContentIndex(): Promise<ContentIndex> {
-  "use cache"
-  cacheLife(BLOG_CACHE_LIFE)
-  cacheTag("content-index")
+async function buildContentIndex(): Promise<ContentIndex> {
+  const allFiles = await collectMarkdownFiles(LIBRARY_ROOT);
 
-  const allFiles = await collectMarkdownFiles(LIBRARY_ROOT)
-
-  const notesBySlug = new Map<string, Map<string, SourceNote>>()
-  const titleLookup = new Map<string, string>()
+  const notesBySlug = new Map<string, Map<string, SourceNote>>();
+  const titleLookup = new Map<string, string>();
 
   for (const filePath of allFiles) {
-    const note = await readSourceNote(filePath)
+    const note = await readSourceNote(filePath);
     if (!note) {
-      continue
+      continue;
     }
 
-    const localeNotes = notesBySlug.get(note.slug) ?? new Map<string, SourceNote>()
-    localeNotes.set(note.locale, note)
-    notesBySlug.set(note.slug, localeNotes)
+    const localeNotes =
+      notesBySlug.get(note.slug) ?? new Map<string, SourceNote>();
+    localeNotes.set(note.locale, note);
+    notesBySlug.set(note.slug, localeNotes);
 
-    registerLookup(titleLookup, note.slug, note.slug)
-    registerLookup(titleLookup, note.title, note.slug)
+    registerLookup(titleLookup, note.slug, note.slug);
+    registerLookup(titleLookup, note.title, note.slug);
     registerLookup(
       titleLookup,
       path.basename(note.filePath, path.extname(note.filePath)),
       note.slug
-    )
+    );
 
     for (const alias of note.aliases) {
-      registerLookup(titleLookup, alias, note.slug)
+      registerLookup(titleLookup, alias, note.slug);
     }
   }
 
-  return { notesBySlug, titleLookup }
+  return { notesBySlug, titleLookup };
+}
+
+export function getContentIndex(): Promise<ContentIndex> {
+  if (!contentIndexCache) {
+    contentIndexCache = buildContentIndex().catch((error: unknown) => {
+      contentIndexCache = null;
+
+      throw new Error("Failed to initialize content index cache", {
+        cause: error,
+      });
+    });
+  }
+
+  return contentIndexCache;
 }
 
 export function pickNoteForLocale(
@@ -241,90 +238,88 @@ export function pickNoteForLocale(
     variants.get("ko") ??
     variants.values().next().value ??
     null
-  )
+  );
 }
 
 export async function getSourceNoteBySlug(
   slug: string,
   locale: string
 ): Promise<SourceNote | null> {
-  "use cache"
-  cacheLife(BLOG_CACHE_LIFE)
-  cacheTag(`source-note-${slug}`, `locale-${locale}`)
-
-  const { notesBySlug } = await getContentIndex()
-  const variants = notesBySlug.get(slug)
+  const { notesBySlug } = await getContentIndex();
+  const variants = notesBySlug.get(slug);
   if (!variants) {
-    return null
+    return null;
   }
-  return pickNoteForLocale(variants, locale)
+  return pickNoteForLocale(variants, locale);
 }
 
 export async function getSourceNoteBySlugAnyLocale(
   slug: string
 ): Promise<SourceNote | null> {
-  const { notesBySlug } = await getContentIndex()
-  const variants = notesBySlug.get(slug)
+  const { notesBySlug } = await getContentIndex();
+  const variants = notesBySlug.get(slug);
   if (!variants) {
-    return null
+    return null;
   }
-  return pickNoteForLocale(variants, "en")
+  return pickNoteForLocale(variants, "en");
 }
 
 export async function getAllNoteSlugs(): Promise<string[]> {
-  const { notesBySlug } = await getContentIndex()
-  return Array.from(notesBySlug.keys()).sort()
+  const { notesBySlug } = await getContentIndex();
+  return Array.from(notesBySlug.keys()).sort();
 }
 
 export async function getLatestJournalSlug(
   locale: string,
   maxDate?: string
 ): Promise<string | null> {
-  const { notesBySlug } = await getContentIndex()
-  let latestSlug: string | null = null
-  let latestDate = ""
+  const { notesBySlug } = await getContentIndex();
+  let latestSlug: string | null = null;
+  let latestDate = "";
 
   for (const [slug, variants] of notesBySlug.entries()) {
-    const note = pickNoteForLocale(variants, locale)
+    const note = pickNoteForLocale(variants, locale);
     if (!(note && note.kind === "journal" && note.date)) {
-      continue
+      continue;
     }
 
     if (maxDate && note.date > maxDate) {
-      continue
+      continue;
     }
 
     if (note.date > latestDate) {
-      latestDate = note.date
-      latestSlug = slug
+      latestDate = note.date;
+      latestSlug = slug;
     }
   }
 
-  return latestSlug
+  return latestSlug;
 }
 
-export async function resolveLookupSlug(reference: string): Promise<string | null> {
-  const { titleLookup, notesBySlug } = await getContentIndex()
-  const trimmed = reference.trim()
+export async function resolveLookupSlug(
+  reference: string
+): Promise<string | null> {
+  const { titleLookup, notesBySlug } = await getContentIndex();
+  const trimmed = reference.trim();
   if (!trimmed) {
-    return null
+    return null;
   }
 
-  const directSlug = normalizeNoteSlug(trimmed)
+  const directSlug = normalizeNoteSlug(trimmed);
   if (directSlug && notesBySlug.has(directSlug)) {
-    return directSlug
+    return directSlug;
   }
 
-  const withoutExtension = trimmed.replace(/\.(md|mdx)$/i, "")
-  return titleLookup.get(normalizeLookupKey(withoutExtension)) ?? null
+  const withoutExtension = trimmed.replace(MARKDOWN_SUFFIX_RE, "");
+  return titleLookup.get(normalizeLookupKey(withoutExtension)) ?? null;
 }
 
 async function fileExists(filePath: string): Promise<boolean> {
   try {
-    const stats = await fs.stat(filePath)
-    return stats.isFile()
+    const stats = await fs.stat(filePath);
+    return stats.isFile();
   } catch {
-    return false
+    return false;
   }
 }
 
@@ -332,29 +327,29 @@ export async function resolveAssetPathForNote(
   slug: string,
   requestedPath: string[]
 ): Promise<string | null> {
-  const note = await getSourceNoteBySlugAnyLocale(slug)
+  const note = await getSourceNoteBySlugAnyLocale(slug);
   if (!note) {
-    return null
+    return null;
   }
 
   const relativeAssetPath = requestedPath
     .map((segment) => decodeURIComponent(segment))
-    .join("/")
-  const localCandidate = path.resolve(note.dirPath, relativeAssetPath)
+    .join("/");
+  const localCandidate = path.resolve(note.dirPath, relativeAssetPath);
   if (
     localCandidate.startsWith(note.dirPath) &&
     (await fileExists(localCandidate))
   ) {
-    return localCandidate
+    return localCandidate;
   }
 
   const fallbackCandidate = path.join(
     LIBRARY_ASSETS_ROOT,
     path.basename(relativeAssetPath)
-  )
+  );
   if (await fileExists(fallbackCandidate)) {
-    return fallbackCandidate
+    return fallbackCandidate;
   }
 
-  return null
+  return null;
 }
