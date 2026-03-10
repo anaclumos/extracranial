@@ -98,16 +98,11 @@ export function DesktopContainer({
       return;
     }
 
-    const paneWidth = firstPane.offsetWidth;
-    const rootStyles = getComputedStyle(document.documentElement);
-    const rootFontSize = Number.parseFloat(rootStyles.fontSize) || 16;
-    const spineWidthRem =
-      Number.parseFloat(rootStyles.getPropertyValue("--pane-spine-width")) ||
-      2.5;
-
+    // --pane-spine-width: 2.5rem, root font-size: 16px = 40px
+    const SPINE_WIDTH_PX = 40;
     collapseThresholdRef.current = Math.max(
       0,
-      paneWidth - spineWidthRem * rootFontSize
+      firstPane.offsetWidth - SPINE_WIDTH_PX
     );
   }, []);
 

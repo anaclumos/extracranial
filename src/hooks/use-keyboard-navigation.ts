@@ -1,9 +1,6 @@
 "use client";
 
 import { useCallback, useEffect } from "react";
-import type { KeyHandlerContext } from "@/lib/keyboard/key-handlers";
-import { isTextInput } from "@/lib/keyboard/key-handlers";
-import { keyboardShortcuts } from "@/lib/keyboard/keyboard-config";
 
 interface KeyboardNavigationProps {
   focusIndex: number;
@@ -14,14 +11,29 @@ interface KeyboardNavigationProps {
   stackLength: number;
 }
 
+function isTextInput(target: EventTarget | null): boolean {
+  if (!(target instanceof HTMLElement)) {
+    return false;
+  }
+
+  return (
+    target instanceof HTMLInputElement ||
+    target instanceof HTMLTextAreaElement ||
+    target instanceof HTMLSelectElement ||
+    target.isContentEditable
+  );
+}
+
 export function useKeyboardNavigation({
   stackLength,
   focusIndex,
-  maxFocusIndex,
+  maxFocusIndex: maxFocusIndexProp,
   onFocusChange,
   onPopStack,
   onScrollToPane,
 }: KeyboardNavigationProps) {
+  const maxFocusIndex = maxFocusIndexProp ?? stackLength;
+
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) {
@@ -32,18 +44,41 @@ export function useKeyboardNavigation({
         return;
       }
 
-      const handler = keyboardShortcuts[e.key];
-      if (handler) {
-        e.preventDefault();
-        const ctx: KeyHandlerContext = {
-          focusIndex,
-          stackLength,
-          maxFocusIndex: maxFocusIndex ?? stackLength,
-          onFocusChange,
-          onPopStack,
-          onScrollToPane,
-        };
-        handler(ctx);
+      const upperBound = Math.max(0, maxFocusIndex - 1);
+
+      switch (e.key) {
+        case "ArrowLeft":
+          if (focusIndex > 0) {
+            e.preventDefault();
+            onFocusChange(focusIndex - 1);
+            onScrollToPane(focusIndex - 1);
+          }
+          break;
+        case "ArrowRight":
+          if (focusIndex < upperBound) {
+            e.preventDefault();
+            onFocusChange(focusIndex + 1);
+            onScrollToPane(focusIndex + 1);
+          }
+          break;
+        case "Escape":
+          if (stackLength > 1) {
+            e.preventDefault();
+            onPopStack();
+          }
+          break;
+        case "Home":
+          e.preventDefault();
+          onFocusChange(0);
+          onScrollToPane(0);
+          break;
+        case "End":
+          e.preventDefault();
+          onFocusChange(upperBound);
+          onScrollToPane(upperBound);
+          break;
+        default:
+          break;
       }
     },
     [

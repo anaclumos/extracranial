@@ -5,7 +5,6 @@ import { memo, useCallback, useMemo } from "react";
 import { AllNotesList } from "@/components/notes-list/all-notes-list";
 import { NotePane } from "@/components/pane/note-pane";
 import { PaneSkeleton } from "@/components/pane/pane-skeleton";
-import { useSetKeyboardFocusIndex } from "@/lib/stores/pane-ui-store";
 import type { NotePaneData, NoteSummary } from "@/lib/types";
 import { useNoteStackContext } from "./note-stack-provider";
 
@@ -20,7 +19,6 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
 }: PaneOrchestratorProps) {
   const { stack, isPending, pushNote, focusPane, setStack } =
     useNoteStackContext();
-  const setKeyboardFocusIndex = useSetKeyboardFocusIndex();
 
   const panesData = useMemo(() => {
     const paneDataMap = new Map<string, NotePaneData>();
@@ -56,12 +54,11 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
 
   const handleExpandPane = useCallback(
     (index: number) => {
-      setKeyboardFocusIndex(index);
       if (index < stack.length) {
         focusPane(index);
       }
     },
-    [focusPane, stack.length, setKeyboardFocusIndex]
+    [focusPane, stack.length]
   );
 
   const handleAllNotesClick = useCallback(

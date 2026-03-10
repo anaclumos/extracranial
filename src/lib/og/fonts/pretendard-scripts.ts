@@ -77,10 +77,7 @@ async function fetchFont(url: string): Promise<ArrayBuffer> {
   return response.arrayBuffer();
 }
 
-export function getPretendardForScript(
-  script: Script,
-  _text?: string
-): Promise<ArrayBuffer> {
+export function getPretendardForScript(script: Script): Promise<ArrayBuffer> {
   const cached = fontCache.get(script);
   if (cached) {
     return cached;

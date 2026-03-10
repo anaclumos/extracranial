@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "start": "bun dist/server/server.js",
-    "preview": "vite preview",
+    "dev": "bun --bun vite dev",
+    "build": "bun --bun vite build",
+    "start": "bun run server.ts",
+    "preview": "bun --bun vite preview",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
     "sync:last-modified": "bun run scripts/sync-last-modified.ts",
@@ -47,6 +47,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.5",
     "@tailwindcss/vite": "^4",
+    "@types/bun": "^1.3.10",
     "@types/mdast": "^4.0.4",
     "@types/node": "^25.4.0",
     "@types/react": "^19",
