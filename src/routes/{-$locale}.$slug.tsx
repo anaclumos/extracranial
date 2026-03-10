@@ -1,12 +1,10 @@
 import { createFileRoute, notFound, redirect } from "@tanstack/react-router";
-import { NotesPageClient } from "@/components/client/index";
 import { defaultLocale, isLocale } from "@/i18n/routing";
 import {
   isDirectNoteSlug,
   throwCanonicalNoteRedirect,
 } from "@/lib/canonical-note-redirect";
 import { getNoteRouteLoaderData } from "@/lib/notes/note-route-data.functions";
-import { IndexComponent } from "./{-$locale}.index";
 
 export const Route = createFileRoute("/{-$locale}/$slug")({
   beforeLoad: ({ params, search }) => {
@@ -105,21 +103,4 @@ export const Route = createFileRoute("/{-$locale}/$slug")({
       ],
     };
   },
-  component: NoteRoutePage,
 });
-
-function NoteRoutePage() {
-  const data = Route.useLoaderData();
-
-  if (data.isLocaleIndex) {
-    return <IndexComponent />;
-  }
-
-  return (
-    <NotesPageClient
-      noteSummaries={data.noteSummaries}
-      paneNotes={data.paneNotes}
-      rootSlug={data.rootSlug}
-    />
-  );
-}
