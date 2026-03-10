@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { mergeProps } from "@base-ui/react/merge-props"
-import { useRender } from "@base-ui/react/use-render"
-import { cva, type VariantProps } from "class-variance-authority"
-import type * as React from "react"
-import { Separator } from "@/components/ui/separator"
-import { cn } from "@/lib/utils"
+import { mergeProps } from "@base-ui/react/merge-props";
+import { useRender } from "@base-ui/react/use-render";
+import { cva, type VariantProps } from "class-variance-authority";
+import type * as React from "react";
+import { Separator } from "@/components/ui/separator";
+import { cn } from "@/lib/utils";
 
 const groupVariants = cva(
   "flex w-fit *:focus-visible:z-1 has-[>[data-slot=group]]:gap-2 *:has-focus-visible:z-1 dark:*:[[data-slot=button]:hover~[data-slot=separator]:not([data-slot]:hover~[data-slot=separator]~[data-slot=separator]),[data-slot][data-pressed]~[data-slot=separator]:not([data-slot][data-pressed]~[data-slot=separator]~[data-slot=separator])]:before:bg-input/64 dark:*:[[data-slot=separator]:has(~[data-slot=button]:hover):not(:has(~[data-slot=separator]~[data-slot]:hover)),[data-slot=separator]:has(~[data-slot][data-pressed]):not(:has(~[data-slot=separator]~[data-slot][data-pressed]))]:before:bg-input/64",
@@ -22,7 +22,7 @@ const groupVariants = cva(
       },
     },
   }
-)
+);
 
 function Group({
   className,
@@ -30,9 +30,9 @@ function Group({
   children,
   ...props
 }: {
-  className?: string
-  orientation?: VariantProps<typeof groupVariants>["orientation"]
-  children: React.ReactNode
+  className?: string;
+  orientation?: VariantProps<typeof groupVariants>["orientation"];
+  children: React.ReactNode;
 } & React.ComponentProps<"fieldset">) {
   return (
     <fieldset
@@ -47,7 +47,7 @@ function Group({
     >
       {children}
     </fieldset>
-  )
+  );
 }
 
 function GroupText({
@@ -61,12 +61,12 @@ function GroupText({
       className
     ),
     "data-slot": "group-text",
-  }
+  };
   return useRender({
     defaultTagName: "div",
     props: mergeProps(defaultProps, props),
     render,
-  })
+  });
 }
 
 function GroupSeparator({
@@ -74,7 +74,7 @@ function GroupSeparator({
   orientation = "vertical",
   ...props
 }: {
-  className?: string
+  className?: string;
 } & React.ComponentProps<typeof Separator>) {
   return (
     <Separator
@@ -85,7 +85,7 @@ function GroupSeparator({
       orientation={orientation}
       {...props}
     />
-  )
+  );
 }
 
 export {
@@ -96,4 +96,4 @@ export {
   GroupSeparator,
   GroupSeparator as ButtonGroupSeparator,
   groupVariants,
-}
+};

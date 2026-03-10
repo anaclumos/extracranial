@@ -1,26 +1,64 @@
-"use client"
+"use client";
 
-import { useTranslations } from "next-intl"
-import { memo } from "react"
-import { BacklinksSection } from "@/components/backlinks-section"
-import { MdxNoteContent } from "@/components/content/mdx-components"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import type { BacklinkInfo, SerializedNoteContent } from "@/lib/types"
+import { Component, memo, type ReactNode } from "react";
+import { BacklinksSection } from "@/components/backlinks-section";
+import { MdxNoteContent } from "@/components/content/mdx-components";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { useTranslations } from "@/i18n/provider";
+import type { BacklinkInfo, SerializedNoteContent } from "@/lib/types";
 
 interface PaneBodyProps {
-  title: string
-  description?: string
-  serializedContent: SerializedNoteContent
-  backlinks: BacklinkInfo[]
-  editUrl?: string
-  onLinkClick: (slug: string) => void
+  backlinks: BacklinkInfo[];
+  description?: string;
+  editUrl?: string;
+  onLinkClick: (slug: string) => void;
+  serializedContent: SerializedNoteContent;
+  title: string;
+}
+
+interface NoteContentBoundaryProps {
+  children: ReactNode;
+}
+
+interface NoteContentBoundaryState {
+  hasError: boolean;
+}
+
+class NoteContentBoundary extends Component<
+  NoteContentBoundaryProps,
+  NoteContentBoundaryState
+> {
+  state: NoteContentBoundaryState = { hasError: false };
+
+  static getDerivedStateFromError(): NoteContentBoundaryState {
+    return { hasError: true };
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="px-4 py-3 text-muted-foreground text-sm">
+          Some rich content failed to render in this note. The rest of the page
+          remains available.
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
 }
 
 export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
-  const { title, description, serializedContent, backlinks, onLinkClick, editUrl } =
-    props
-  const t = useTranslations("notePane")
-  const tCommon = useTranslations("common")
+  const {
+    title,
+    description,
+    serializedContent,
+    backlinks,
+    onLinkClick,
+    editUrl,
+  } = props;
+  const t = useTranslations("notePane");
+  const tCommon = useTranslations("common");
 
   return (
     <ScrollArea className="relative z-0 h-full">
@@ -37,7 +75,12 @@ export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
         </header>
 
         <div className="flex-1">
-          <MdxNoteContent onLinkClick={onLinkClick} source={serializedContent} />
+          <NoteContentBoundary>
+            <MdxNoteContent
+              onLinkClick={onLinkClick}
+              source={serializedContent}
+            />
+          </NoteContentBoundary>
         </div>
 
         {backlinks.length > 0 && (
@@ -64,5 +107,5 @@ export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
         )}
       </div>
     </ScrollArea>
-  )
-})
+  );
+});

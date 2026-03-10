@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import { create } from "zustand"
-import { subscribeWithSelector } from "zustand/middleware"
+import { create } from "zustand";
+import { subscribeWithSelector } from "zustand/middleware";
 
 interface PaneUIState {
-  keyboardFocusIndex: number
-  setKeyboardFocusIndex: (index: number) => void
+  keyboardFocusIndex: number;
 
-  scrollToPane: (index: number) => void
-  setScrollToPaneHandler: (handler: (index: number) => void) => void
+  scrollToPane: (index: number) => void;
+  setKeyboardFocusIndex: (index: number) => void;
+  setScrollToPaneHandler: (handler: (index: number) => void) => void;
 }
 
-let scrollToPaneHandler: ((index: number) => void) | null = null
+let scrollToPaneHandler: ((index: number) => void) | null = null;
 
 export const usePaneUIStore = create<PaneUIState>()(
   subscribeWithSelector((set) => ({
@@ -19,19 +19,19 @@ export const usePaneUIStore = create<PaneUIState>()(
     setKeyboardFocusIndex: (index) => set({ keyboardFocusIndex: index }),
 
     scrollToPane: (index) => {
-      scrollToPaneHandler?.(index)
+      scrollToPaneHandler?.(index);
     },
     setScrollToPaneHandler: (handler) => {
-      scrollToPaneHandler = handler
+      scrollToPaneHandler = handler;
     },
   }))
-)
+);
 
 export const useKeyboardFocusIndex = () =>
-  usePaneUIStore((state) => state.keyboardFocusIndex)
+  usePaneUIStore((state) => state.keyboardFocusIndex);
 
 export const useSetKeyboardFocusIndex = () =>
-  usePaneUIStore((state) => state.setKeyboardFocusIndex)
+  usePaneUIStore((state) => state.setKeyboardFocusIndex);
 
 export const useScrollToPane = () =>
-  usePaneUIStore((state) => state.scrollToPane)
+  usePaneUIStore((state) => state.scrollToPane);

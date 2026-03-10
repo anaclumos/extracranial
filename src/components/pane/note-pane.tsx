@@ -1,38 +1,44 @@
-"use client"
+"use client";
 
-import { Cancel01Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { AnimatePresence, motion } from "motion/react"
-import { useTranslations } from "next-intl"
-import { type CSSProperties, memo, useCallback, useEffect, useRef } from "react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
+import { Cancel01Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { AnimatePresence, motion } from "motion/react";
+import {
+  type CSSProperties,
+  memo,
+  useCallback,
+  useEffect,
+  useRef,
+} from "react";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import { useTranslations } from "@/i18n/provider";
 import {
   closeButtonVariants,
   paneContentVariants,
   paneVariants,
   reducedMotionTransition,
+  spineVariants,
   springQuick,
   springSubtle,
-  spineVariants,
-} from "@/lib/animations"
-import type { BacklinkInfo, NotePaneData } from "@/lib/types"
-import { cn } from "@/lib/utils"
-import { PaneBackground } from "./pane-background"
-import { PaneBody } from "./pane-body"
-import { usePaneCollapse } from "./pane-collapse-context"
-import { PaneSpine } from "./pane-spine"
+} from "@/lib/animations";
+import type { BacklinkInfo, NotePaneData } from "@/lib/types";
+import { cn } from "@/lib/utils";
+import { PaneBackground } from "./pane-background";
+import { PaneBody } from "./pane-body";
+import { usePaneCollapse } from "./pane-collapse-context";
+import { PaneSpine } from "./pane-spine";
 
 interface NotePaneProps {
-  title: string
-  description?: string
-  serializedContent: NotePaneData["serializedContent"]
-  index: number
-  isClosable?: boolean
-  backlinks: BacklinkInfo[]
-  editUrl?: string
-  onLinkClick: (slug: string, fromIndex: number) => void
-  onExpand: (index: number) => void
-  onClose: (index: number) => void
+  backlinks: BacklinkInfo[];
+  description?: string;
+  editUrl?: string;
+  index: number;
+  isClosable?: boolean;
+  onClose: (index: number) => void;
+  onExpand: (index: number) => void;
+  onLinkClick: (slug: string, fromIndex: number) => void;
+  serializedContent: NotePaneData["serializedContent"];
+  title: string;
 }
 
 export const NotePane = memo(function NotePane({
@@ -47,38 +53,38 @@ export const NotePane = memo(function NotePane({
   onExpand,
   onClose,
 }: NotePaneProps) {
-  const { collapsedIndices, registerPaneRef } = usePaneCollapse()
-  const isCollapsed = collapsedIndices.has(index)
-  const prefersReducedMotion = useReducedMotion()
-  const t = useTranslations("notePane")
-  const paneRef = useRef<HTMLElement>(null)
+  const { collapsedIndices, registerPaneRef } = usePaneCollapse();
+  const isCollapsed = collapsedIndices.has(index);
+  const prefersReducedMotion = useReducedMotion();
+  const t = useTranslations("notePane");
+  const paneRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
-    registerPaneRef(index, paneRef.current)
-    return () => registerPaneRef(index, null)
-  }, [index, registerPaneRef])
+    registerPaneRef(index, paneRef.current);
+    return () => registerPaneRef(index, null);
+  }, [index, registerPaneRef]);
 
   const handleLinkClick = useCallback(
     (linkSlug: string) => {
-      onLinkClick(linkSlug, index)
+      onLinkClick(linkSlug, index);
     },
     [onLinkClick, index]
-  )
+  );
 
   const handleExpand = useCallback(() => {
-    onExpand(index)
-  }, [onExpand, index])
+    onExpand(index);
+  }, [onExpand, index]);
 
   const handleClose = useCallback(() => {
-    onClose(index)
-  }, [onClose, index])
+    onClose(index);
+  }, [onClose, index]);
 
   const transition = prefersReducedMotion
     ? reducedMotionTransition
-    : springSubtle
+    : springSubtle;
   const quickTransition = prefersReducedMotion
     ? reducedMotionTransition
-    : springQuick
+    : springQuick;
 
   return (
     <motion.article
@@ -96,10 +102,12 @@ export const NotePane = memo(function NotePane({
       initial={prefersReducedMotion ? false : "initial"}
       layout
       ref={paneRef}
-      style={{
-        "--pane-left-offset": `calc(${index} * var(--pane-spine-width))`,
-        zIndex: `calc(var(--z-pane) + ${index})`,
-      } as CSSProperties}
+      style={
+        {
+          "--pane-left-offset": `calc(${index} * var(--pane-spine-width))`,
+          zIndex: `calc(var(--z-pane) + ${index})`,
+        } as CSSProperties
+      }
       tabIndex={-1}
       transition={transition}
       variants={paneVariants}
@@ -170,8 +178,8 @@ export const NotePane = memo(function NotePane({
               exit="exit"
               initial="initial"
               onClick={(event) => {
-                event.stopPropagation()
-                handleClose()
+                event.stopPropagation();
+                handleClose();
               }}
               transition={quickTransition}
               type="button"
@@ -183,5 +191,5 @@ export const NotePane = memo(function NotePane({
         </AnimatePresence>
       </motion.div>
     </motion.article>
-  )
-})
+  );
+});

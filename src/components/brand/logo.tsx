@@ -1,9 +1,9 @@
-import type { CSSProperties } from "react"
+import type { CSSProperties } from "react";
 
 interface LogoProps {
-  className?: string
-  size?: number
-  style?: CSSProperties
+  className?: string;
+  size?: number;
+  style?: CSSProperties;
 }
 
 /**
@@ -51,5 +51,5 @@ export function Logo({ className, size = 20, style }: LogoProps) {
         y="6"
       />
     </svg>
-  )
+  );
 }

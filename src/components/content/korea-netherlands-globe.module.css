@@ -1,24 +1,24 @@
 .container {
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   max-width: 42rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .card {
   overflow: hidden;
-  border-radius: 1rem;
-  border: 1px solid rgb(0 0 0 / 12%);
   background-color: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(0 0 0 / 12%);
+  border-radius: 1rem;
   box-shadow:
     0 1px 3px rgb(0 0 0 / 10%),
     0 1px 2px rgb(0 0 0 / 10%);
 }
 
 .darkCard {
-  border-color: rgb(255 255 255 / 12%);
   background-color: rgb(23 23 23 / 92%);
+  border-color: rgb(255 255 255 / 12%);
   box-shadow:
     0 1px 3px rgb(0 0 0 / 30%),
     0 1px 2px rgb(0 0 0 / 30%);
@@ -33,11 +33,11 @@
 .canvas {
   position: absolute;
   inset: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
+  contain: layout style paint;
   cursor: grab;
   transition: opacity 0.5s ease;
-  contain: layout style paint;
 }
 
 .canvas:active {
@@ -45,36 +45,36 @@
 }
 
 .buttonGroup {
-  margin-top: 1.5rem;
   display: flex;
-  justify-content: center;
-  gap: 0.75rem;
   flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .button {
   display: inline-flex;
+  gap: 0.5rem;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  white-space: nowrap;
-  border-radius: 999px;
+  padding: 0.5rem 1rem;
   font-size: 0.875rem;
   font-weight: 500;
-  border: 1px solid rgb(0 0 0 / 10%);
-  background-color: rgb(255 255 255 / 92%);
   color: rgb(38 38 38);
-  padding: 0.5rem 1rem;
+  white-space: nowrap;
   cursor: pointer;
+  background-color: rgb(255 255 255 / 92%);
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: 999px;
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease;
 }
 
 .darkButton {
-  border-color: rgb(255 255 255 / 14%);
-  background-color: rgb(23 23 23 / 92%);
   color: rgb(245 245 245);
+  background-color: rgb(23 23 23 / 92%);
+  border-color: rgb(255 255 255 / 14%);
 }
 
 .button:hover {

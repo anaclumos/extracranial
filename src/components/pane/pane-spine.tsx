@@ -1,11 +1,11 @@
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 interface PaneSpineProps {
-  index: number
-  title: string
-  description?: string
-  showIndex?: boolean
-  className?: string
+  className?: string;
+  description?: string;
+  index: number;
+  showIndex?: boolean;
+  title: string;
 }
 
 export function PaneSpine({
@@ -56,5 +56,5 @@ export function PaneSpine({
         </div>
       </div>
     </div>
-  )
+  );
 }

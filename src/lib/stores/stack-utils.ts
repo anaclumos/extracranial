@@ -1,31 +1,31 @@
 /**
  * Server-safe stack string utilities.
  * These functions can be used in both server and client components.
- * For client-side nuqs parser integration, see note-stack-parsers.ts
+ * For route search-state integration, see note-stack-parsers.ts
  */
 
 export function parseStackString(value: string | null | undefined): string[] {
   if (!value) {
-    return []
+    return [];
   }
   return value
     .split(",")
     .map((s) => s.trim())
-    .filter((s) => s.length > 0)
+    .filter((s) => s.length > 0);
 }
 
 export function serializeStackArray(value: string[]): string {
   if (!value || value.length === 0) {
-    return ""
+    return "";
   }
-  return value.join(",")
+  return value.join(",");
 }
 
 export function buildFullStack(
   rootSlug: string,
   additionalSlugs: string[]
 ): string[] {
-  return [rootSlug, ...additionalSlugs]
+  return [rootSlug, ...additionalSlugs];
 }
 
 export function getFocusIndex(
@@ -33,9 +33,9 @@ export function getFocusIndex(
   stackLength: number
 ): number {
   if (focus === null) {
-    return Math.max(0, stackLength - 1)
+    return Math.max(0, stackLength - 1);
   }
-  return Math.min(Math.max(0, focus), stackLength - 1)
+  return Math.min(Math.max(0, focus), stackLength - 1);
 }
 
 export function pushToStack(
@@ -44,15 +44,15 @@ export function pushToStack(
   fromIndex: number
 ): string[] {
   if (currentStack.length === 0) {
-    return [newSlug]
+    return [newSlug];
   }
-  const safeIndex = Math.min(Math.max(fromIndex, 0), currentStack.length - 1)
-  return [...currentStack.slice(0, safeIndex + 1), newSlug]
+  const safeIndex = Math.min(Math.max(fromIndex, 0), currentStack.length - 1);
+  return [...currentStack.slice(0, safeIndex + 1), newSlug];
 }
 
 export function popFromStack(currentStack: string[]): string[] {
   if (currentStack.length <= 1) {
-    return currentStack
+    return currentStack;
   }
-  return currentStack.slice(0, -1)
+  return currentStack.slice(0, -1);
 }

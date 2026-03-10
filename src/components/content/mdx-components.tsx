@@ -1,17 +1,15 @@
-"use client"
+"use client";
 
-import { ArrowUpRight01Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { cjk } from "@streamdown/cjk"
-import { code } from "@streamdown/code"
-import { math } from "@streamdown/math"
-import { mermaid } from "@streamdown/mermaid"
-import { Streamdown, type AllowedTags, type Components } from "streamdown"
-import { useTheme } from "next-themes"
+import { ArrowUpRight01Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { cjk } from "@streamdown/cjk";
+import { code } from "@streamdown/code";
+import { math } from "@streamdown/math";
+import { mermaid } from "@streamdown/mermaid";
 import {
   Children,
-  Fragment,
   cloneElement,
+  Fragment,
   isValidElement,
   type ReactElement,
   type ReactNode,
@@ -19,27 +17,33 @@ import {
   useMemo,
   useRef,
   useState,
-} from "react"
-import { buildNoteHref, isExternalHref, normalizeNoteSlug } from "@/lib/note-links"
-import { cn } from "@/lib/utils"
-import { PreviewLink } from "../preview-link"
-import styles from "./korea-netherlands-globe.module.css"
+} from "react";
+import { type AllowedTags, type Components, Streamdown } from "streamdown";
+import {
+  buildNoteHref,
+  isExternalHref,
+  normalizeNoteSlug,
+} from "@/lib/note-links";
+import { useShellTheme } from "@/lib/shell-theme";
+import { cn } from "@/lib/utils";
+import { PreviewLink } from "../preview-link";
+import styles from "./korea-netherlands-globe.module.css";
 
 interface NoteContentProps {
-  source: string
-  onLinkClick: (slug: string) => void
+  onLinkClick: (slug: string) => void;
+  source: string;
 }
 
 interface ListElementProps {
-  children?: ReactNode
+  children?: ReactNode;
 }
 
 interface TabItemProps {
-  children: ReactNode
-  default?: boolean | string
-  label?: string
-  source?: string
-  value?: string
+  children: ReactNode;
+  default?: boolean | string;
+  label?: string;
+  source?: string;
+  value?: string;
 }
 
 function NoteAnchor({
@@ -49,8 +53,8 @@ function NoteAnchor({
   onLinkClick,
   ...props
 }: React.AnchorHTMLAttributes<HTMLAnchorElement> & {
-  node?: unknown
-  onLinkClick: (slug: string) => void
+  node?: unknown;
+  onLinkClick: (slug: string) => void;
 }) {
   if (isExternalHref(href)) {
     return (
@@ -64,29 +68,29 @@ function NoteAnchor({
           strokeWidth={1.5}
         />
       </a>
-    )
+    );
   }
 
-  const slug = normalizeNoteSlug(href)
-  if (!slug || !onLinkClick) {
+  const slug = normalizeNoteSlug(href);
+  if (!(slug && onLinkClick)) {
     return (
       <a {...props} href={href}>
         {children}
       </a>
-    )
+    );
   }
 
   return (
     <PreviewLink
       href={buildNoteHref(slug)}
       onClick={(event) => {
-        event.preventDefault()
-        onLinkClick(slug)
+        event.preventDefault();
+        onLinkClick(slug);
       }}
     >
       {children}
     </PreviewLink>
-  )
+  );
 }
 
 function Admonition({
@@ -95,10 +99,10 @@ function Admonition({
   title,
   type = "info",
 }: {
-  children: ReactNode
-  icon?: string
-  title?: string
-  type?: "caution" | "danger" | "info" | "note" | "tip" | "warning"
+  children: ReactNode;
+  icon?: string;
+  title?: string;
+  type?: "caution" | "danger" | "info" | "note" | "tip" | "warning";
 }) {
   const toneClassName =
     {
@@ -111,7 +115,7 @@ function Admonition({
       tip: "border-success/25 bg-success/6 text-success-foreground dark:bg-success/12",
       warning:
         "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
-    }[type] ?? "border-border bg-muted/50 text-foreground"
+    }[type] ?? "border-border bg-muted/50 text-foreground";
 
   return (
     <aside className={cn("my-6 rounded-2xl border px-5 py-4", toneClassName)}>
@@ -123,22 +127,22 @@ function Admonition({
       )}
       <div className="text-sm/7">{children}</div>
     </aside>
-  )
+  );
 }
 
 function DisplayFlex({ children }: { children: ReactNode }) {
-  return <div className="my-4 flex gap-4 overflow-x-auto">{children}</div>
+  return <div className="my-4 flex gap-4 overflow-x-auto">{children}</div>;
 }
 
 function YouTube({
   id,
   title = "YouTube video player",
 }: {
-  id?: string
-  title?: string
+  id?: string;
+  title?: string;
 }) {
   if (!id) {
-    return null
+    return null;
   }
 
   return (
@@ -152,18 +156,18 @@ function YouTube({
         title={title}
       />
     </figure>
-  )
+  );
 }
 
 function AppleMusicSong({
   title = "Apple Music player",
   url,
 }: {
-  title?: string
-  url?: string
+  title?: string;
+  url?: string;
 }) {
   if (!url) {
-    return null
+    return null;
   }
 
   return (
@@ -176,18 +180,18 @@ function AppleMusicSong({
       src={url}
       title={title}
     />
-  )
+  );
 }
 
 function SpotifySong({
   title = "Spotify music player",
   url,
 }: {
-  title?: string
-  url?: string
+  title?: string;
+  url?: string;
 }) {
   if (!url) {
-    return null
+    return null;
   }
 
   return (
@@ -200,7 +204,7 @@ function SpotifySong({
       src={url}
       title={title}
     />
-  )
+  );
 }
 
 function WIP({ state }: { state?: "translating" | string }) {
@@ -214,94 +218,96 @@ function WIP({ state }: { state?: "translating" | string }) {
         </p>
       )}
     </Admonition>
-  )
+  );
 }
 
 function BrowserOnly({
   children,
 }: {
-  children: ReactNode | (() => ReactNode)
+  children: ReactNode | (() => ReactNode);
 }) {
-  const [mounted, setMounted] = useState(false)
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   if (!mounted) {
-    return null
+    return null;
   }
 
-  return <>{typeof children === "function" ? children() : children}</>
+  return <>{typeof children === "function" ? children() : children}</>;
 }
 
 function shuffleNodes(nodes: ReactNode[]): ReactNode[] {
-  const shuffled = [...nodes]
+  const shuffled = [...nodes];
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
-    const swapIndex = Math.floor(Math.random() * (index + 1))
-    const currentNode = shuffled[index]
-    const swapNode = shuffled[swapIndex]
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    const currentNode = shuffled[index];
+    const swapNode = shuffled[swapIndex];
     if (currentNode === undefined || swapNode === undefined) {
-      continue
+      continue;
     }
-    shuffled[index] = swapNode
-    shuffled[swapIndex] = currentNode
+    shuffled[index] = swapNode;
+    shuffled[swapIndex] = currentNode;
   }
-  return shuffled
+  return shuffled;
 }
 
 function Shuffle({ children }: { children: ReactNode }) {
-  const childArray = Children.toArray(children)
+  const childArray = Children.toArray(children);
   const listElement =
     childArray.length === 1 && isValidElement(childArray[0])
       ? (childArray[0] as ReactElement<ListElementProps>)
-      : null
+      : null;
   const items = listElement
     ? Children.toArray(listElement.props.children)
-    : childArray
+    : childArray;
 
-  const signatureRef = useRef("")
-  const shuffledRef = useRef<ReactNode[]>([])
+  const signatureRef = useRef("");
+  const shuffledRef = useRef<ReactNode[]>([]);
 
   const signature = items
     .map((item, index) =>
-      isValidElement(item) && item.key != null ? String(item.key) : `item-${index}`
+      isValidElement(item) && item.key != null
+        ? String(item.key)
+        : `item-${index}`
     )
-    .join("|")
+    .join("|");
 
   if (signatureRef.current !== signature) {
-    signatureRef.current = signature
-    shuffledRef.current = shuffleNodes(items)
+    signatureRef.current = signature;
+    shuffledRef.current = shuffleNodes(items);
   }
 
   if (listElement) {
-    return cloneElement(listElement, undefined, shuffledRef.current)
+    return cloneElement(listElement, undefined, shuffledRef.current);
   }
 
-  return <ul>{shuffledRef.current}</ul>
+  return <ul>{shuffledRef.current}</ul>;
 }
 
 function TabItem({ children }: TabItemProps) {
-  return <>{children}</>
+  return <>{children}</>;
 }
 
 function decodeMarkdownSource(source?: string): string | undefined {
   if (!source) {
-    return undefined
+    return undefined;
   }
 
   try {
     if (typeof window === "undefined" && typeof Buffer !== "undefined") {
-      return Buffer.from(source, "base64").toString("utf8")
+      return Buffer.from(source, "base64").toString("utf8");
     }
 
-    const binary = atob(source)
+    const binary = atob(source);
     const bytes = Uint8Array.from(binary, (character) =>
       character.charCodeAt(0)
-    )
-    return new TextDecoder().decode(bytes)
+    );
+    return new TextDecoder().decode(bytes);
   } catch {
-    return source
+    return source;
   }
 }
 
@@ -309,19 +315,22 @@ function Tabs({
   children,
   renderMarkdown,
 }: {
-  children: ReactNode
-  groupid?: string
-  renderMarkdown: (value: ReactNode) => ReactNode
+  children: ReactNode;
+  groupid?: string;
+  renderMarkdown: (value: ReactNode) => ReactNode;
 }) {
   const items = Children.toArray(children).filter(
     isValidElement
-  ) as ReactElement<TabItemProps>[]
+  ) as ReactElement<TabItemProps>[];
   const defaultValue =
-    items.find((item) => item.props.default)?.props.value ?? items[0]?.props.value
-  const [activeValue, setActiveValue] = useState<string | undefined>(defaultValue)
+    items.find((item) => item.props.default)?.props.value ??
+    items[0]?.props.value;
+  const [activeValue, setActiveValue] = useState<string | undefined>(
+    defaultValue
+  );
 
   if (items.length === 0) {
-    return null
+    return null;
   }
 
   return (
@@ -346,101 +355,116 @@ function Tabs({
       <div className="p-4">
         {items.map((item) => {
           if (item.props.value !== activeValue) {
-            return null
+            return null;
           }
 
           const panelContent =
             decodeMarkdownSource(
-              typeof item.props.source === "string" ? item.props.source : undefined
-            ) ?? item.props.children
-          return <div key={item.props.value}>{renderMarkdown(panelContent)}</div>
+              typeof item.props.source === "string"
+                ? item.props.source
+                : undefined
+            ) ?? item.props.children;
+          return (
+            <div key={item.props.value}>{renderMarkdown(panelContent)}</div>
+          );
         })}
       </div>
     </div>
-  )
+  );
 }
 
-function KoreaNetherlandsGlobe({ lang = "en" }: { lang?: "en" | "ko" | string }) {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
-  const { resolvedTheme } = useTheme()
-  const isDark = resolvedTheme === "dark"
+function KoreaNetherlandsGlobe({
+  lang = "en",
+}: {
+  lang?: "en" | "ko" | string;
+}) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const { theme } = useShellTheme();
+  const isDark =
+    theme === "dark" ||
+    (theme === "system" &&
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches);
 
   useEffect(() => {
-    let isDisposed = false
-    let globeDestroy: (() => void) | null = null
+    let isDisposed = false;
+    let globeDestroy: (() => void) | null = null;
 
     const setupGlobe = async () => {
-      const { default: createGlobe } = await import("cobe")
+      const { default: createGlobe } = await import("cobe");
       if (!(canvasRef.current && !isDisposed)) {
-        return
+        return;
       }
 
-      let width = canvasRef.current.offsetWidth
-      let phi = 0
-      let theta = 0.3
-      let targetPhi = 0
-      let targetTheta = 0.3
-      let pointerDown = false
-      let startX = 0
-      let startY = 0
-      let startPhi = 0
-      let startTheta = 0
+      let width = canvasRef.current.offsetWidth;
+      let phi = 0;
+      let theta = 0.3;
+      let targetPhi = 0;
+      let targetTheta = 0.3;
+      let pointerDown = false;
+      let startX = 0;
+      let startY = 0;
+      let startPhi = 0;
+      let startTheta = 0;
 
       const clamp = (value: number, min: number, max: number) =>
-        Math.min(Math.max(value, min), max)
+        Math.min(Math.max(value, min), max);
 
-      const toAngles = (latitude: number, longitude: number): [number, number] => [
+      const toAngles = (
+        latitude: number,
+        longitude: number
+      ): [number, number] => [
         Math.PI - ((longitude * Math.PI) / 180 - Math.PI / 2),
         (latitude * Math.PI) / 180,
-      ]
+      ];
 
       const onResize = () => {
-        width = canvasRef.current?.offsetWidth ?? width
-      }
+        width = canvasRef.current?.offsetWidth ?? width;
+      };
 
       const onPointerMove = (event: PointerEvent) => {
         if (!pointerDown) {
-          return
+          return;
         }
 
-        const deltaX = event.clientX - startX
-        const deltaY = event.clientY - startY
-        const safeWidth = width || 1
-        targetPhi = startPhi + (deltaX / safeWidth) * Math.PI * 2
+        const deltaX = event.clientX - startX;
+        const deltaY = event.clientY - startY;
+        const safeWidth = width || 1;
+        targetPhi = startPhi + (deltaX / safeWidth) * Math.PI * 2;
         targetTheta = clamp(
           startTheta + (deltaY / safeWidth) * Math.PI,
           -Math.PI / 2,
           Math.PI / 2
-        )
-      }
+        );
+      };
 
       const handlePointerUp = () => {
-        pointerDown = false
-      }
+        pointerDown = false;
+      };
 
       const handleKeyDown = (event: KeyboardEvent) => {
-        const step = Math.PI / 18
+        const step = Math.PI / 18;
         switch (event.key) {
           case "ArrowLeft":
-            event.preventDefault()
-            targetPhi -= step
-            break
+            event.preventDefault();
+            targetPhi -= step;
+            break;
           case "ArrowRight":
-            event.preventDefault()
-            targetPhi += step
-            break
+            event.preventDefault();
+            targetPhi += step;
+            break;
           case "ArrowUp":
-            event.preventDefault()
-            targetTheta = clamp(targetTheta - step, -Math.PI / 2, Math.PI / 2)
-            break
+            event.preventDefault();
+            targetTheta = clamp(targetTheta - step, -Math.PI / 2, Math.PI / 2);
+            break;
           case "ArrowDown":
-            event.preventDefault()
-            targetTheta = clamp(targetTheta + step, -Math.PI / 2, Math.PI / 2)
-            break
+            event.preventDefault();
+            targetTheta = clamp(targetTheta + step, -Math.PI / 2, Math.PI / 2);
+            break;
           default:
-            break
+            break;
         }
-      }
+      };
 
       const globe = createGlobe(canvasRef.current, {
         baseColor: isDark ? [0.12, 0.18, 0.14] : [0.72, 0.83, 0.77],
@@ -457,74 +481,79 @@ function KoreaNetherlandsGlobe({ lang = "en" }: { lang?: "en" | "ko" | string })
           { location: [52.3676, 4.9041], size: 0.08 },
         ],
         onRender: (state) => {
-          phi = phi * 0.9 + targetPhi * 0.1
-          theta = theta * 0.9 + targetTheta * 0.1
-          state.phi = phi
-          state.theta = theta
-          state.width = width * 2
-          state.height = width * 2
+          phi = phi * 0.9 + targetPhi * 0.1;
+          theta = theta * 0.9 + targetTheta * 0.1;
+          state.phi = phi;
+          state.theta = theta;
+          state.width = width * 2;
+          state.height = width * 2;
         },
         phi: 0,
         theta: 0.3,
         width: width * 2,
-      })
+      });
 
       const handlePointerDown = (event: PointerEvent) => {
-        pointerDown = true
-        startX = event.clientX
-        startY = event.clientY
-        startPhi = targetPhi
-        startTheta = targetTheta
-      }
+        pointerDown = true;
+        startX = event.clientX;
+        startY = event.clientY;
+        startPhi = targetPhi;
+        startTheta = targetTheta;
+      };
 
-      canvasRef.current.addEventListener("pointerdown", handlePointerDown)
-      canvasRef.current.addEventListener("pointermove", onPointerMove)
-      canvasRef.current.addEventListener("pointerup", handlePointerUp)
-      canvasRef.current.addEventListener("pointerleave", handlePointerUp)
-      canvasRef.current.addEventListener("keydown", handleKeyDown)
-      window.addEventListener("resize", onResize)
+      canvasRef.current.addEventListener("pointerdown", handlePointerDown);
+      canvasRef.current.addEventListener("pointermove", onPointerMove);
+      canvasRef.current.addEventListener("pointerup", handlePointerUp);
+      canvasRef.current.addEventListener("pointerleave", handlePointerUp);
+      canvasRef.current.addEventListener("keydown", handleKeyDown);
+      window.addEventListener("resize", onResize);
 
-      canvasRef.current.style.opacity = "1"
+      canvasRef.current.style.opacity = "1";
 
       globeDestroy = () => {
-        globe.destroy()
-        window.removeEventListener("resize", onResize)
-        canvasRef.current?.removeEventListener("pointerdown", handlePointerDown)
-        canvasRef.current?.removeEventListener("pointermove", onPointerMove)
-        canvasRef.current?.removeEventListener("pointerup", handlePointerUp)
-        canvasRef.current?.removeEventListener("pointerleave", handlePointerUp)
-        canvasRef.current?.removeEventListener("keydown", handleKeyDown)
-      }
+        globe.destroy();
+        window.removeEventListener("resize", onResize);
+        canvasRef.current?.removeEventListener(
+          "pointerdown",
+          handlePointerDown
+        );
+        canvasRef.current?.removeEventListener("pointermove", onPointerMove);
+        canvasRef.current?.removeEventListener("pointerup", handlePointerUp);
+        canvasRef.current?.removeEventListener("pointerleave", handlePointerUp);
+        canvasRef.current?.removeEventListener("keydown", handleKeyDown);
+      };
 
       const handleCityClick = (latitude: number, longitude: number) => {
-        ;[targetPhi, targetTheta] = toAngles(latitude, longitude)
-      }
+        [targetPhi, targetTheta] = toAngles(latitude, longitude);
+      };
 
-      ;(canvasRef.current as HTMLCanvasElement & {
-        __focusCity?: (latitude: number, longitude: number) => void
-      }).__focusCity = handleCityClick
-    }
+      (
+        canvasRef.current as HTMLCanvasElement & {
+          __focusCity?: (latitude: number, longitude: number) => void;
+        }
+      ).__focusCity = handleCityClick;
+    };
 
-    setupGlobe()
+    setupGlobe();
 
     return () => {
-      isDisposed = true
-      globeDestroy?.()
-    }
-  }, [isDark])
+      isDisposed = true;
+      globeDestroy?.();
+    };
+  }, [isDark]);
 
   const labels = {
     netherlands:
       lang === "ko" ? "네덜란드 · 암스테르담" : "Netherlands · Amsterdam",
     korea: lang === "ko" ? "대한민국 · 서울" : "South Korea · Seoul",
-  }
+  };
 
   const focusCity = (latitude: number, longitude: number) => {
     const canvas = canvasRef.current as HTMLCanvasElement & {
-      __focusCity?: (latitude: number, longitude: number) => void
-    }
-    canvas.__focusCity?.(latitude, longitude)
-  }
+      __focusCity?: (latitude: number, longitude: number) => void;
+    };
+    canvas.__focusCity?.(latitude, longitude);
+  };
 
   return (
     <div className={styles.container}>
@@ -563,56 +592,56 @@ function KoreaNetherlandsGlobe({ lang = "en" }: { lang?: "en" | "ko" | string })
         </button>
       </div>
     </div>
-  )
+  );
 }
 
 function toReactNode(value: unknown): ReactNode {
-  return value as ReactNode
+  return value as ReactNode;
 }
 
 function extractMarkdownSource(value: ReactNode): string | null {
-  const parts: string[] = []
+  const parts: string[] = [];
 
   const visit = (node: ReactNode): boolean => {
     if (node == null || typeof node === "boolean") {
-      return true
+      return true;
     }
 
     if (typeof node === "string" || typeof node === "number") {
-      parts.push(String(node))
-      return true
+      parts.push(String(node));
+      return true;
     }
 
     if (Array.isArray(node)) {
-      return node.every(visit)
+      return node.every(visit);
     }
 
     if (
       isValidElement<{ children?: ReactNode }>(node) &&
       node.type === Fragment
     ) {
-      return visit(node.props.children)
+      return visit(node.props.children);
     }
 
-    return false
-  }
+    return false;
+  };
 
   if (!visit(value)) {
-    return null
+    return null;
   }
 
-  return parts.join("")
+  return parts.join("");
 }
 
-const streamdownPlugins = { cjk, code, math, mermaid }
+const streamdownPlugins = { cjk, code, math, mermaid };
 
 function createComponents(onLinkClick: (slug: string) => void): Components {
-  let components = {} as Components
+  let components = {} as Components;
 
   const renderMarkdown = (value: ReactNode) => {
-    const source = extractMarkdownSource(value)
+    const source = extractMarkdownSource(value);
     if (!source) {
-      return value
+      return value;
     }
 
     return (
@@ -624,8 +653,8 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
       >
         {source}
       </Streamdown>
-    )
-  }
+    );
+  };
 
   components = {
     a: (props) => <NoteAnchor {...props} onLinkClick={onLinkClick} />,
@@ -633,7 +662,7 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
       <Admonition
         icon={typeof props.icon === "string" ? props.icon : undefined}
         title={typeof props.title === "string" ? props.title : undefined}
-        type={typeof props.type === "string" ? props.type as never : "info"}
+        type={typeof props.type === "string" ? (props.type as never) : "info"}
       >
         {toReactNode(props.children)}
       </Admonition>
@@ -644,8 +673,12 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
         url={typeof props.url === "string" ? props.url : undefined}
       />
     ),
-    browseronly: (props) => <BrowserOnly>{toReactNode(props.children)}</BrowserOnly>,
-    displayflex: (props) => <DisplayFlex>{toReactNode(props.children)}</DisplayFlex>,
+    browseronly: (props) => (
+      <BrowserOnly>{toReactNode(props.children)}</BrowserOnly>
+    ),
+    displayflex: (props) => (
+      <DisplayFlex>{toReactNode(props.children)}</DisplayFlex>
+    ),
     koreanetherlandsglobe: (props) => (
       <KoreaNetherlandsGlobe
         lang={typeof props.lang === "string" ? props.lang : "en"}
@@ -689,9 +722,9 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
         title={typeof props.title === "string" ? props.title : undefined}
       />
     ),
-  }
+  };
 
-  return components
+  return components;
 }
 
 const allowedTags = {
@@ -706,10 +739,13 @@ const allowedTags = {
   tabs: ["groupid"],
   wip: ["state"],
   youtube: ["id", "title"],
-} satisfies AllowedTags
+} satisfies AllowedTags;
 
 export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
-  const components = useMemo(() => createComponents(onLinkClick), [onLinkClick])
+  const components = useMemo(
+    () => createComponents(onLinkClick),
+    [onLinkClick]
+  );
 
   return (
     <Streamdown
@@ -721,5 +757,5 @@ export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
     >
       {source}
     </Streamdown>
-  )
+  );
 }

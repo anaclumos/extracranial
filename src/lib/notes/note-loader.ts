@@ -1,25 +1,23 @@
-import "server-only"
-
-import type { Note, NoteGraphNode } from "@/lib/types"
+import type { Note, NoteGraphNode } from "@/lib/types";
 import {
   getAllNoteSlugs,
   getContentIndex,
   getSourceNoteBySlug,
-} from "./content-index"
-import { parseMarkdown } from "./markdown-parser"
-import { extractOutboundLinks } from "./source-transform"
+} from "./content-index";
+import { parseMarkdown } from "./markdown-parser";
+import { extractOutboundLinks } from "./source-transform";
 
 export async function loadNote(
   slug: string,
   locale = "en"
 ): Promise<Note | null> {
-  const sourceNote = await getSourceNoteBySlug(slug, locale)
+  const sourceNote = await getSourceNoteBySlug(slug, locale);
   if (!sourceNote) {
-    return null
+    return null;
   }
 
   const { content, data, excerpt, serializedContent } =
-    await parseMarkdown(sourceNote)
+    await parseMarkdown(sourceNote);
 
   return {
     slug,
@@ -33,20 +31,20 @@ export async function loadNote(
     serializedContent,
     excerpt,
     title: data.title || sourceNote.title || slug,
-  }
+  };
 }
 
 async function loadNoteGraphNode(
   slug: string,
   locale = "en"
 ): Promise<NoteGraphNode | null> {
-  const sourceNote = await getSourceNoteBySlug(slug, locale)
+  const sourceNote = await getSourceNoteBySlug(slug, locale);
   if (!sourceNote) {
-    return null
+    return null;
   }
 
-  const { titleLookup } = await getContentIndex()
-  const outboundLinks = extractOutboundLinks(sourceNote, titleLookup)
+  const { titleLookup } = await getContentIndex();
+  const outboundLinks = extractOutboundLinks(sourceNote, titleLookup);
 
   return {
     slug,
@@ -59,15 +57,15 @@ async function loadNoteGraphNode(
     content: sourceNote.content,
     outboundLinks,
     title: sourceNote.title || slug,
-  }
+  };
 }
 
 export async function loadAllNoteGraphNodes(
   locale = "en"
 ): Promise<NoteGraphNode[]> {
-  const slugs = await getAllNoteSlugs()
+  const slugs = await getAllNoteSlugs();
   const notes = await Promise.all(
     slugs.map((slug) => loadNoteGraphNode(slug, locale))
-  )
-  return notes.filter((note): note is NoteGraphNode => note !== null)
+  );
+  return notes.filter((note): note is NoteGraphNode => note !== null);
 }
