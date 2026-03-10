@@ -9,6 +9,7 @@ import {
 } from "@tanstack/react-router";
 import { EscapeInAppBrowser } from "eiab/react";
 import { type ReactNode, Suspense } from "react";
+import { PreloadErrorRecovery } from "@/components/client/preload-error-recovery";
 import { MagneticCursorLazy } from "@/components/magnetic-cursor-lazy";
 import { ShellHeader } from "@/components/shell-header";
 import { I18nProvider } from "@/i18n/provider";
@@ -121,6 +122,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
       </head>
       <body className={cn("flex h-full flex-col font-sans antialiased")}>
         <Suspense>
+          <PreloadErrorRecovery />
           <EscapeInAppBrowser />
           <MagneticCursorLazy />
           {children}
@@ -134,6 +136,9 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
 function RootErrorComponent({ error, reset }: ErrorComponentProps) {
   const message =
     error instanceof Error ? error.message : "Unknown application error";
+  const isDynamicImportFetchError = message.includes(
+    "Failed to fetch dynamically imported module"
+  );
 
   return (
     <>
@@ -144,13 +149,23 @@ function RootErrorComponent({ error, reset }: ErrorComponentProps) {
       </header>
       <ShellStatusView
         action={
-          <button
-            className="inline-flex items-center justify-center rounded-md border border-foreground/30 bg-transparent px-3 py-2 font-medium text-sm transition-colors hover:bg-foreground/10"
-            onClick={() => reset()}
-            type="button"
-          >
-            Try again
-          </button>
+          isDynamicImportFetchError ? (
+            <button
+              className="inline-flex items-center justify-center rounded-md border border-foreground/30 bg-transparent px-3 py-2 font-medium text-sm transition-colors hover:bg-foreground/10"
+              onClick={() => window.location.reload()}
+              type="button"
+            >
+              Reload page
+            </button>
+          ) : (
+            <button
+              className="inline-flex items-center justify-center rounded-md border border-foreground/30 bg-transparent px-3 py-2 font-medium text-sm transition-colors hover:bg-foreground/10"
+              onClick={() => reset()}
+              type="button"
+            >
+              Try again
+            </button>
+          )
         }
         description="The page failed to load. Try again, or go back to the home page."
         detail={message}

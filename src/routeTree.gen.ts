@@ -44,7 +44,9 @@ const Char123LocaleChar125SlugRoute =
     id: '/$slug',
     path: '/$slug',
     getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
+  } as any).lazy(() =>
+    import('./routes/{-$locale}.$slug.lazy').then((d) => d.Route),
+  )
 const ApiOgRoute = ApiOgRouteImport.update({
   id: '/api/og',
   path: '/api/og',

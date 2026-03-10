@@ -3,9 +3,7 @@
 import { ArrowUpRight01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { cjk } from "@streamdown/cjk";
-import { code } from "@streamdown/code";
 import { math } from "@streamdown/math";
-import { mermaid } from "@streamdown/mermaid";
 import {
   Children,
   cloneElement,
@@ -13,12 +11,18 @@ import {
   isValidElement,
   type ReactElement,
   type ReactNode,
+  startTransition,
   useEffect,
   useMemo,
   useRef,
   useState,
 } from "react";
-import { type AllowedTags, type Components, Streamdown } from "streamdown";
+import {
+  type AllowedTags,
+  type Components,
+  type PluginConfig,
+  Streamdown,
+} from "streamdown";
 import {
   buildNoteHref,
   isExternalHref,
@@ -44,6 +48,97 @@ interface TabItemProps {
   label?: string;
   source?: string;
   value?: string;
+}
+
+const codeFenceWithLanguageRe =
+  /(^|\n)```(?!mermaid\b)([A-Za-z0-9_+.-]+)(?:\s|$)/m;
+const mermaidFenceRe = /(^|\n)```mermaid(?:\s|$)/m;
+
+let codePluginPromise: Promise<NonNullable<PluginConfig["code"]>> | null = null;
+let mermaidPluginPromise: Promise<NonNullable<PluginConfig["mermaid"]>> | null =
+  null;
+
+function loadCodePlugin() {
+  if (!codePluginPromise) {
+    codePluginPromise = import("@/lib/streamdown/code-plugin").then(
+      (module) => module.codePlugin
+    );
+  }
+
+  return codePluginPromise;
+}
+
+function loadMermaidPlugin() {
+  if (!mermaidPluginPromise) {
+    mermaidPluginPromise = import("@/lib/streamdown/mermaid-plugin").then(
+      (module) => module.mermaidPlugin
+    );
+  }
+
+  return mermaidPluginPromise;
+}
+
+function useStreamdownPlugins(source: string): PluginConfig {
+  const [optionalPlugins, setOptionalPlugins] = useState<
+    Pick<PluginConfig, "code" | "mermaid">
+  >({});
+
+  const needsCodePlugin = useMemo(
+    () => codeFenceWithLanguageRe.test(source),
+    [source]
+  );
+  const needsMermaidPlugin = useMemo(
+    () => mermaidFenceRe.test(source),
+    [source]
+  );
+
+  useEffect(() => {
+    let cancelled = false;
+    const loaders: Promise<Partial<Pick<PluginConfig, "code" | "mermaid">>>[] =
+      [];
+
+    if (needsCodePlugin && !optionalPlugins.code) {
+      loaders.push(
+        loadCodePlugin().then((codePlugin) => ({ code: codePlugin }))
+      );
+    }
+
+    if (needsMermaidPlugin && !optionalPlugins.mermaid) {
+      loaders.push(
+        loadMermaidPlugin().then((mermaidPlugin) => ({
+          mermaid: mermaidPlugin,
+        }))
+      );
+    }
+
+    if (loaders.length === 0) {
+      return;
+    }
+
+    Promise.all(loaders).then((loadedPlugins) => {
+      if (cancelled) {
+        return;
+      }
+
+      startTransition(() => {
+        setOptionalPlugins((currentPlugins) => ({
+          ...currentPlugins,
+          ...Object.assign({}, ...loadedPlugins),
+        }));
+      });
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [
+    needsCodePlugin,
+    needsMermaidPlugin,
+    optionalPlugins.code,
+    optionalPlugins.mermaid,
+  ]);
+
+  return useMemo(() => ({ cjk, math, ...optionalPlugins }), [optionalPlugins]);
 }
 
 function NoteAnchor({
@@ -629,9 +724,10 @@ function extractMarkdownSource(value: ReactNode): string | null {
   return parts.join("");
 }
 
-const streamdownPlugins = { cjk, code, math, mermaid };
-
-function createComponents(onLinkClick: (slug: string) => void): Components {
+function createComponents(
+  onLinkClick: (slug: string) => void,
+  plugins: PluginConfig
+): Components {
   let components = {} as Components;
 
   const renderMarkdown = (value: ReactNode) => {
@@ -645,7 +741,7 @@ function createComponents(onLinkClick: (slug: string) => void): Components {
         allowedTags={allowedTags}
         components={components}
         mode="static"
-        plugins={streamdownPlugins}
+        plugins={plugins}
       >
         {source}
       </Streamdown>
@@ -738,9 +834,10 @@ const allowedTags = {
 } satisfies AllowedTags;
 
 export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
+  const plugins = useStreamdownPlugins(source);
   const components = useMemo(
-    () => createComponents(onLinkClick),
-    [onLinkClick]
+    () => createComponents(onLinkClick, plugins),
+    [onLinkClick, plugins]
   );
 
   return (
@@ -749,7 +846,7 @@ export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
       className="prose-note md:px-4 md:py-3"
       components={components}
       mode="static"
-      plugins={streamdownPlugins}
+      plugins={plugins}
     >
       {source}
     </Streamdown>
