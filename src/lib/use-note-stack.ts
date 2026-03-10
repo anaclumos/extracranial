@@ -1,7 +1,7 @@
 "use client"
 
 import { useQueryStates } from "nuqs"
-import { useCallback, useMemo, useRef } from "react"
+import { useCallback, useMemo, useRef, useTransition } from "react"
 import { useRouter } from "@/i18n/navigation"
 import {
   buildFullStack,
@@ -17,6 +17,7 @@ export function useNoteStack(rootSlug: string) {
   }, [])
 
   const router = useRouter()
+  const [isPending, startTransition] = useTransition()
   const [urlState, setUrlState] = useQueryStates(noteStackParsers, {
     history: "replace",
     shallow: false,
@@ -43,20 +44,24 @@ export function useNoteStack(rootSlug: string) {
 
       if (newStack.length === 1) {
         const newRootSlug = newStack[0]
-        router.push(buildNotePath(newRootSlug))
+        startTransition(() => {
+          router.push(buildNotePath(newRootSlug))
+        })
       } else {
         const newRootSlug = newStack[0]
         const additionalSlugs = newStack.slice(1)
 
         if (newRootSlug !== rootSlug) {
           const basePath = buildNotePath(newRootSlug)
-          router.push(`${basePath}?stack=${additionalSlugs.join(",")}`)
+          startTransition(() => {
+            router.push(`${basePath}?stack=${additionalSlugs.join(",")}`)
+          })
         } else {
           setUrlState({ stack: additionalSlugs, focus: null })
         }
       }
     },
-    [buildNotePath, router, rootSlug, setUrlState]
+    [buildNotePath, router, rootSlug, setUrlState, startTransition]
   )
 
   const popNote = useCallback(() => {
@@ -93,7 +98,9 @@ export function useNoteStack(rootSlug: string) {
   const setStack = useCallback(
     (newStack: string[], focusIdx?: number) => {
       if (newStack.length === 0) {
-        router.push("/000000")
+        startTransition(() => {
+          router.push("/000000")
+        })
         return
       }
 
@@ -113,14 +120,16 @@ export function useNoteStack(rootSlug: string) {
         if (newFocus !== null) {
           params.push(`focus=${newFocus}`)
         }
-        router.push(
-          params.length > 0 ? `${basePath}?${params.join("&")}` : basePath
-        )
+        startTransition(() => {
+          router.push(
+            params.length > 0 ? `${basePath}?${params.join("&")}` : basePath
+          )
+        })
       } else {
         setUrlState({ stack: additionalSlugs, focus: newFocus })
       }
     },
-    [buildNotePath, router, rootSlug, setUrlState]
+    [buildNotePath, router, rootSlug, setUrlState, startTransition]
   )
 
   const goBack = useCallback(() => {
@@ -131,12 +140,13 @@ export function useNoteStack(rootSlug: string) {
     () => ({
       stack,
       focusIndex,
+      isPending,
       pushNote,
       popNote,
       focusPane,
       setStack,
       goBack,
     }),
-    [stack, focusIndex, pushNote, popNote, focusPane, setStack, goBack]
+    [stack, focusIndex, isPending, pushNote, popNote, focusPane, setStack, goBack]
   )
 }
