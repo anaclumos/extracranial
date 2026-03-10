@@ -4,6 +4,7 @@ import { AnimatePresence, LayoutGroup } from "motion/react"
 import { memo, useCallback, useMemo } from "react"
 import { AllNotesList } from "@/components/notes-list/all-notes-list"
 import { NotePane } from "@/components/pane/note-pane"
+import { PaneSkeleton } from "@/components/pane/pane-skeleton"
 import { useSetKeyboardFocusIndex } from "@/lib/stores/pane-ui-store"
 import type { NotePaneData, NoteSummary } from "@/lib/types"
 import { useNoteStackContext } from "./note-stack-provider"
@@ -17,7 +18,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   paneNotes,
   noteSummaries,
 }: PaneOrchestratorProps) {
-  const { stack, pushNote, focusPane, setStack } = useNoteStackContext()
+  const { stack, isPending, pushNote, focusPane, setStack } = useNoteStackContext()
   const setKeyboardFocusIndex = useSetKeyboardFocusIndex()
 
   const panesData = useMemo(() => {
@@ -90,6 +91,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
             title={pane.title}
           />
         ))}
+        {isPending && <PaneSkeleton key="pending-skeleton" />}
         <AllNotesList
           currentStack={stack}
           index={panesData.length}

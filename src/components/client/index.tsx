@@ -1,8 +1,8 @@
 "use client"
 
-import { Suspense, useEffect, useMemo, useRef } from "react"
+import { Suspense, useEffect, useRef } from "react"
+import { PageSkeleton } from "@/components/page-skeleton"
 import { PaneContainer } from "@/components/pane/container"
-import { Spinner } from "@/components/ui/spinner"
 import { usePaneUIStore } from "@/lib/stores/pane-ui-store"
 import type { NotePaneData, NoteSummary } from "@/lib/types"
 import { KeyboardHandler } from "./keyboard-handler"
@@ -47,13 +47,7 @@ function NotesContent({
 
 export function NotesPageClient(props: NotesPageClientProps) {
   return (
-    <Suspense
-      fallback={
-        <div className="flex flex-1 items-center justify-center bg-muted">
-          <Spinner size="lg" />
-        </div>
-      }
-    >
+    <Suspense fallback={<PageSkeleton />}>
       <NotesContent {...props} />
     </Suspense>
   )
