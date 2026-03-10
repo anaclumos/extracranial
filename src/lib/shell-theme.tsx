@@ -5,6 +5,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 type Theme = "light" | "dark" | "system";
 
@@ -17,58 +18,56 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 const STORAGE_KEY = "coscientist-theme";
 
-function getSystemTheme(): "light" | "dark" {
+function resolveStoredTheme(): Theme {
   if (typeof window === "undefined") {
-    return "light";
+    return "system";
   }
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
+
+  const storedTheme = localStorage.getItem(STORAGE_KEY);
+  return storedTheme === "light" ||
+    storedTheme === "dark" ||
+    storedTheme === "system"
+    ? storedTheme
+    : "system";
 }
 
-function getEffectiveTheme(theme: Theme): "light" | "dark" {
-  if (theme === "system") {
-    return getSystemTheme();
-  }
-  return theme;
-}
-
-function applyTheme(theme: Theme) {
-  const effective = getEffectiveTheme(theme);
+function applyTheme(theme: "light" | "dark") {
   const html = document.documentElement;
-  if (effective === "dark") {
+  if (theme === "dark") {
     html.classList.add("dark");
   } else {
     html.classList.remove("dark");
   }
 }
 
+function resolveEffectiveTheme(
+  theme: Theme,
+  prefersDarkTheme: boolean
+): "light" | "dark" {
+  if (theme === "system") {
+    return prefersDarkTheme ? "dark" : "light";
+  }
+
+  return theme;
+}
+
 export function ShellThemeProvider({ children }: { children: ReactNode }) {
+  const prefersDarkTheme = useMediaQuery("(prefers-color-scheme: dark)");
   const [theme, setThemeState] = useState<Theme>("system");
 
   useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY) as Theme | null;
-    const initial = stored || "system";
-    setThemeState(initial);
-    applyTheme(initial);
+    setThemeState(resolveStoredTheme());
   }, []);
 
   useEffect(() => {
-    const mql = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleChange = () => {
-      if (theme === "system") {
-        applyTheme("system");
-      }
-    };
-
-    mql.addEventListener("change", handleChange);
-    return () => mql.removeEventListener("change", handleChange);
-  }, [theme]);
+    applyTheme(resolveEffectiveTheme(theme, prefersDarkTheme));
+  }, [theme, prefersDarkTheme]);
 
   const setTheme = (newTheme: Theme) => {
     setThemeState(newTheme);
-    localStorage.setItem(STORAGE_KEY, newTheme);
-    applyTheme(newTheme);
+    if (typeof window !== "undefined") {
+      localStorage.setItem(STORAGE_KEY, newTheme);
+    }
   };
 
   return (
@@ -84,4 +83,11 @@ export function useShellTheme() {
     throw new Error("useShellTheme must be used within ShellThemeProvider");
   }
   return context;
+}
+
+export function useResolvedShellTheme(): "light" | "dark" {
+  const { theme } = useShellTheme();
+  const prefersDarkTheme = useMediaQuery("(prefers-color-scheme: dark)");
+
+  return resolveEffectiveTheme(theme, prefersDarkTheme);
 }

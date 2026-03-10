@@ -24,7 +24,7 @@ import {
   isExternalHref,
   normalizeNoteSlug,
 } from "@/lib/note-links";
-import { useShellTheme } from "@/lib/shell-theme";
+import { useResolvedShellTheme } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
 import { PreviewLink } from "../preview-link";
 import styles from "./korea-netherlands-globe.module.css";
@@ -379,12 +379,8 @@ function KoreaNetherlandsGlobe({
   lang?: "en" | "ko" | string;
 }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const { theme } = useShellTheme();
-  const isDark =
-    theme === "dark" ||
-    (theme === "system" &&
-      typeof window !== "undefined" &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches);
+  const resolvedTheme = useResolvedShellTheme();
+  const isDark = resolvedTheme === "dark";
 
   useEffect(() => {
     let isDisposed = false;
