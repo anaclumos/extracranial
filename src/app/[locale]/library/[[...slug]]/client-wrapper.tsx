@@ -66,9 +66,11 @@ export async function ClientWrapper({
   )
   const collator = new Intl.Collator(locale)
   noteSummaries.sort((a, b) => {
-    const modifiedDelta = (b.lastModified ?? 0) - (a.lastModified ?? 0)
-    if (modifiedDelta !== 0) {
-      return modifiedDelta
+    const aTime = a.date ? new Date(a.date).getTime() / 1000 : (a.lastModified ?? 0)
+    const bTime = b.date ? new Date(b.date).getTime() / 1000 : (b.lastModified ?? 0)
+    const delta = bTime - aTime
+    if (delta !== 0) {
+      return delta
     }
     return collator.compare(b.title, a.title)
   })

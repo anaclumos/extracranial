@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de2f598574eab9b0",
+        "id": "9eb11f9cf6f0b085",
         "type": "tabs",
         "children": [
           {
-            "id": "e02cb7cdcec38c54",
+            "id": "aaefb90aab954207",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,7 +170,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e02cb7cdcec38c54",
+  "active": "aaefb90aab954207",
   "lastOpenFiles": [
     "pages/AGENTS.md.md",
     "pages/잡스와 생존 편향 (19誠鉉).md",
