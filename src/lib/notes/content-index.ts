@@ -3,9 +3,24 @@ import path from "node:path";
 import matter from "gray-matter";
 import type { NoteKind } from "@/lib/types";
 import { normalizeNoteSlug } from "../note-links";
-import type { SourceNote } from "./types";
 
-export type { SourceNote } from "./types";
+export interface SourceNoteBase {
+  content: string;
+  slug: string;
+}
+
+export interface SourceNote extends SourceNoteBase {
+  aliases: string[];
+  date?: string;
+  description?: string;
+  dirPath: string;
+  editUrl?: string;
+  filePath: string;
+  kind: NoteKind;
+  lastModified?: number;
+  locale: string;
+  title: string;
+}
 
 const EXTRACRANIAL_ROOT = process.cwd();
 const LIBRARY_ROOT = path.join(EXTRACRANIAL_ROOT, "library");
@@ -115,6 +130,7 @@ function parseTimestamp(value: unknown): number | undefined {
 async function collectMarkdownFiles(root: string): Promise<string[]> {
   const entries = await fs.readdir(root, { withFileTypes: true });
   const files: string[] = [];
+  const subdirPromises: Promise<string[]>[] = [];
 
   for (const entry of entries) {
     const fullPath = path.join(root, entry.name);
@@ -123,7 +139,7 @@ async function collectMarkdownFiles(root: string): Promise<string[]> {
       if (SKIPPED_DIRECTORIES.has(entry.name)) {
         continue;
       }
-      files.push(...(await collectMarkdownFiles(fullPath)));
+      subdirPromises.push(collectMarkdownFiles(fullPath));
       continue;
     }
 
@@ -132,7 +148,8 @@ async function collectMarkdownFiles(root: string): Promise<string[]> {
     }
   }
 
-  return files;
+  const subdirResults = await Promise.all(subdirPromises);
+  return files.concat(...subdirResults);
 }
 
 async function readSourceNote(filePath: string): Promise<SourceNote | null> {
@@ -187,27 +204,32 @@ async function buildContentIndex(): Promise<ContentIndex> {
   const notesBySlug = new Map<string, Map<string, SourceNote>>();
   const titleLookup = new Map<string, string>();
 
-  for (const filePath of allFiles) {
-    const note = await readSourceNote(filePath);
-    if (!note) {
-      continue;
-    }
+  const BATCH = 32;
+  for (let i = 0; i < allFiles.length; i += BATCH) {
+    const batch = allFiles.slice(i, i + BATCH);
+    const notes = await Promise.all(batch.map(readSourceNote));
 
-    const localeNotes =
-      notesBySlug.get(note.slug) ?? new Map<string, SourceNote>();
-    localeNotes.set(note.locale, note);
-    notesBySlug.set(note.slug, localeNotes);
+    for (const note of notes) {
+      if (!note) {
+        continue;
+      }
 
-    registerLookup(titleLookup, note.slug, note.slug);
-    registerLookup(titleLookup, note.title, note.slug);
-    registerLookup(
-      titleLookup,
-      path.basename(note.filePath, path.extname(note.filePath)),
-      note.slug
-    );
+      const localeNotes =
+        notesBySlug.get(note.slug) ?? new Map<string, SourceNote>();
+      localeNotes.set(note.locale, note);
+      notesBySlug.set(note.slug, localeNotes);
 
-    for (const alias of note.aliases) {
-      registerLookup(titleLookup, alias, note.slug);
+      registerLookup(titleLookup, note.slug, note.slug);
+      registerLookup(titleLookup, note.title, note.slug);
+      registerLookup(
+        titleLookup,
+        path.basename(note.filePath, path.extname(note.filePath)),
+        note.slug
+      );
+
+      for (const alias of note.aliases) {
+        registerLookup(titleLookup, alias, note.slug);
+      }
     }
   }
 

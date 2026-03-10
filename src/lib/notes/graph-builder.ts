@@ -2,18 +2,23 @@ import type { BacklinkInfo, NoteSummary } from "@/lib/types";
 import { loadAllNoteGraphNodes } from "./note-loader";
 import { generateExcerpt } from "./source-transform";
 
-async function buildNoteGraphUncached(locale: string): Promise<{
-  notes: Map<string, NoteSummary>;
+interface NoteGraph {
   backlinks: Map<string, BacklinkInfo[]>;
-}> {
+  notes: Map<string, NoteSummary>;
+}
+
+const graphCache = new Map<string, Promise<NoteGraph>>();
+
+async function buildNoteGraphUncached(locale: string): Promise<NoteGraph> {
   const allNotes = await loadAllNoteGraphNodes(locale);
   const notes = new Map<string, NoteSummary>();
   const backlinks = new Map<string, BacklinkInfo[]>();
 
   for (const note of allNotes) {
+    const excerpt = generateExcerpt(note.content, 180);
     notes.set(note.slug, {
       date: note.date,
-      excerpt: generateExcerpt(note.content, 180),
+      excerpt,
       kind: note.kind,
       lastModified: note.lastModified,
       slug: note.slug,
@@ -24,15 +29,14 @@ async function buildNoteGraphUncached(locale: string): Promise<{
   }
 
   for (const note of allNotes) {
+    const sourceExcerpt = notes.get(note.slug)?.excerpt;
     for (const targetSlug of note.outboundLinks) {
       if (notes.has(targetSlug)) {
-        const targetBacklinks = backlinks.get(targetSlug) || [];
-        targetBacklinks.push({
+        backlinks.get(targetSlug)?.push({
           slug: note.slug,
           title: note.title,
-          excerpt: generateExcerpt(note.content, 180),
+          excerpt: sourceExcerpt,
         });
-        backlinks.set(targetSlug, targetBacklinks);
       }
     }
   }
@@ -40,9 +44,15 @@ async function buildNoteGraphUncached(locale: string): Promise<{
   return { notes, backlinks };
 }
 
-export function buildNoteGraph(locale = "en"): Promise<{
-  notes: Map<string, NoteSummary>;
-  backlinks: Map<string, BacklinkInfo[]>;
-}> {
-  return buildNoteGraphUncached(locale);
+export function buildNoteGraph(locale = "en"): Promise<NoteGraph> {
+  const cached = graphCache.get(locale);
+  if (cached) {
+    return cached;
+  }
+  const promise = buildNoteGraphUncached(locale).catch((error: unknown) => {
+    graphCache.delete(locale);
+    throw error;
+  });
+  graphCache.set(locale, promise);
+  return promise;
 }

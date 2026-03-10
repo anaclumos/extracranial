@@ -1,11 +1,30 @@
-import type { Note, NoteGraphNode } from "@/lib/types";
+import type { Note, NoteGraphNode, SerializedNoteContent } from "@/lib/types";
 import {
   getAllNoteSlugs,
   getContentIndex,
   getSourceNoteBySlug,
+  type SourceNote,
 } from "./content-index";
-import { parseMarkdown } from "./markdown-parser";
-import { extractOutboundLinks } from "./source-transform";
+import {
+  extractOutboundLinks,
+  generateExcerpt,
+  preprocessNoteSource,
+} from "./source-transform";
+
+async function parseAndSerialize(note: SourceNote) {
+  const { titleLookup } = await getContentIndex();
+  const serializedContent = preprocessNoteSource(
+    note,
+    titleLookup
+  ) as SerializedNoteContent;
+
+  return {
+    content: note.content,
+    excerpt: generateExcerpt(note.content),
+    outboundLinks: extractOutboundLinks(note, titleLookup),
+    serializedContent,
+  };
+}
 
 export async function loadNote(
   slug: string,
@@ -16,13 +35,13 @@ export async function loadNote(
     return null;
   }
 
-  const { content, data, excerpt, serializedContent } =
-    await parseMarkdown(sourceNote);
+  const { content, excerpt, serializedContent } =
+    await parseAndSerialize(sourceNote);
 
   return {
     slug,
     date: sourceNote.date,
-    description: data.description,
+    description: sourceNote.description,
     editUrl: sourceNote.editUrl,
     kind: sourceNote.kind,
     lastModified: sourceNote.lastModified,
@@ -30,7 +49,7 @@ export async function loadNote(
     content,
     serializedContent,
     excerpt,
-    title: data.title || sourceNote.title || slug,
+    title: sourceNote.title || slug,
   };
 }
 

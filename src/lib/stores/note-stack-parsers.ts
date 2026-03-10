@@ -1,10 +1,4 @@
-import {
-  parseStackString as parseStack,
-  serializeStackArray as serializeStack,
-} from "./stack-utils";
-
-const parseStackString = parseStack;
-const serializeStackArray = serializeStack;
+import { parseStackString, serializeStackArray } from "./stack-utils";
 
 export interface NoteStackUrlState {
   focus: number | null;

@@ -73,17 +73,14 @@ function getScriptForLocale(locale: string): Script {
   return LOCALE_SCRIPT_MAP[locale] || "latin";
 }
 
-async function getLocaleFallbackFont(
-  locale: string,
-  text?: string
-): Promise<OGFont | null> {
+async function getLocaleFallbackFont(locale: string): Promise<OGFont | null> {
   const script = getScriptForLocale(locale);
 
   if (script === "latin") {
     return null;
   }
 
-  const data = await getPretendardForScript(script, text);
+  const data = await getPretendardForScript(script);
 
   return {
     name: getScriptFontName(script),
@@ -94,10 +91,7 @@ async function getLocaleFallbackFont(
   };
 }
 
-export async function getFontsForLocale(
-  locale: string,
-  text?: string
-): Promise<OGFont[]> {
+export async function getFontsForLocale(locale: string): Promise<OGFont[]> {
   const fonts: OGFont[] = [];
 
   const primaryData = await getPretendard();
@@ -108,7 +102,7 @@ export async function getFontsForLocale(
     style: "normal",
   });
 
-  const fallback = await getLocaleFallbackFont(locale, text);
+  const fallback = await getLocaleFallbackFont(locale);
   if (fallback) {
     fonts.push(fallback);
   }

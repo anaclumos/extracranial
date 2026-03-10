@@ -1,5 +1,5 @@
 import { buildNoteHref, normalizeNoteSlug } from "../note-links";
-import type { SourceNoteBase } from "./types";
+import type { SourceNoteBase } from "./content-index";
 
 const CODE_BLOCK_RE = /```[\s\S]*?```/g;
 const MARKDOWN_IMAGE_RE = /!\[([^\]]*)]\(([^)\s]+)([^)]*)\)/g;
@@ -75,6 +75,10 @@ const CUSTOM_SELF_CLOSING_TAGS = [
   "youtube",
 ] as const;
 
+const SELF_CLOSING_TAG_REGEXES = CUSTOM_SELF_CLOSING_TAGS.map(
+  (tag) => [new RegExp(`<${tag}([^>]*)/>`, "g"), tag] as const
+);
+
 function rewriteAdmonitions(segment: string): string {
   const lines = segment.split("\n");
   const output: string[] = [];
@@ -127,9 +131,10 @@ function normalizeCustomTags(segment: string): string {
     );
   }
 
-  for (const tagName of CUSTOM_SELF_CLOSING_TAGS) {
+  for (const [regex, tagName] of SELF_CLOSING_TAG_REGEXES) {
+    regex.lastIndex = 0;
     normalizedSegment = normalizedSegment.replace(
-      new RegExp(`<${tagName}([^>]*)/>`, "g"),
+      regex,
       `<${tagName}$1></${tagName}>`
     );
   }
@@ -258,15 +263,16 @@ export function preprocessNoteSource(
   }).trim();
 }
 
+function stripCodeBlocks(content: string): string {
+  return content.replace(CODE_BLOCK_RE, "");
+}
+
 export function extractOutboundLinks(
   note: SourceNoteBase,
   titleLookup: Map<string, string>
 ): string[] {
   const links = new Set<string>();
-  const transformed = transformOutsideCodeBlocks(
-    note.content,
-    (segment) => segment
-  );
+  const transformed = stripCodeBlocks(note.content);
 
   for (const match of transformed.matchAll(WIKI_LINK_RE)) {
     const target = match[1];

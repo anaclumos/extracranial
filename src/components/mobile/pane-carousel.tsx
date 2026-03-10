@@ -83,28 +83,14 @@ function usePaneTransforms({
   progress: MotionValue<number>;
   prefersReducedMotion: boolean;
 }) {
-  const x = useTransform(
-    progress,
-    (value) => calculatePaneTransform(index, value, prefersReducedMotion).x
+  const all = useTransform(progress, (value) =>
+    calculatePaneTransform(index, value, prefersReducedMotion)
   );
-  const rotateY = useTransform(
-    progress,
-    (value) =>
-      calculatePaneTransform(index, value, prefersReducedMotion).rotateY
-  );
-  const scale = useTransform(
-    progress,
-    (value) => calculatePaneTransform(index, value, prefersReducedMotion).scale
-  );
-  const opacity = useTransform(
-    progress,
-    (value) =>
-      calculatePaneTransform(index, value, prefersReducedMotion).opacity
-  );
-  const zIndex = useTransform(
-    progress,
-    (value) => calculatePaneTransform(index, value, prefersReducedMotion).zIndex
-  );
+  const x = useTransform(all, (t) => t.x);
+  const rotateY = useTransform(all, (t) => t.rotateY);
+  const scale = useTransform(all, (t) => t.scale);
+  const opacity = useTransform(all, (t) => t.opacity);
+  const zIndex = useTransform(all, (t) => t.zIndex);
 
   return { x, rotateY, scale, opacity, zIndex };
 }
