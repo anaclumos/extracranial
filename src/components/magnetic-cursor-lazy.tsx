@@ -1,30 +1,14 @@
 import { lazy, Suspense, useEffect, useState } from "react";
+import { useMediaQuery } from "@/hooks/use-media-query";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 const MagneticCursor = lazy(() =>
   import("./magnetic-cursor").then((mod) => ({ default: mod.MagneticCursor }))
 );
 
-function useFinePointer() {
-  const [isFinePointer, setIsFinePointer] = useState(false);
-
-  useEffect(() => {
-    const mql = window.matchMedia("(pointer: fine)");
-    const onChange = (event: MediaQueryListEvent) => {
-      setIsFinePointer(event.matches);
-    };
-
-    setIsFinePointer(mql.matches);
-    mql.addEventListener("change", onChange);
-    return () => mql.removeEventListener("change", onChange);
-  }, []);
-
-  return isFinePointer;
-}
-
 export function MagneticCursorLazy() {
   const prefersReducedMotion = useReducedMotion();
-  const isFinePointer = useFinePointer();
+  const isFinePointer = useMediaQuery("(pointer: fine)");
   const [isEnabled, setIsEnabled] = useState(false);
 
   useEffect(() => {

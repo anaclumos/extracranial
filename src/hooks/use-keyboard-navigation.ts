@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect } from "react";
+import { useEffect, useEffectEvent } from "react";
 
 interface KeyboardNavigationProps {
   focusIndex: number;
@@ -34,65 +34,64 @@ export function useKeyboardNavigation({
 }: KeyboardNavigationProps) {
   const maxFocusIndex = maxFocusIndexProp ?? stackLength;
 
-  const handleKeyDown = useCallback(
-    (e: KeyboardEvent) => {
-      if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) {
-        return;
-      }
+  const handleKeyDown = useEffectEvent((event: KeyboardEvent) => {
+    if (
+      event.defaultPrevented ||
+      event.metaKey ||
+      event.ctrlKey ||
+      event.altKey
+    ) {
+      return;
+    }
 
-      if (isTextInput(e.target)) {
-        return;
-      }
+    if (isTextInput(event.target)) {
+      return;
+    }
 
-      const upperBound = Math.max(0, maxFocusIndex - 1);
+    const upperBound = Math.max(0, maxFocusIndex - 1);
 
-      switch (e.key) {
-        case "ArrowLeft":
-          if (focusIndex > 0) {
-            e.preventDefault();
-            onFocusChange(focusIndex - 1);
-            onScrollToPane(focusIndex - 1);
-          }
-          break;
-        case "ArrowRight":
-          if (focusIndex < upperBound) {
-            e.preventDefault();
-            onFocusChange(focusIndex + 1);
-            onScrollToPane(focusIndex + 1);
-          }
-          break;
-        case "Escape":
-          if (stackLength > 1) {
-            e.preventDefault();
-            onPopStack();
-          }
-          break;
-        case "Home":
-          e.preventDefault();
-          onFocusChange(0);
-          onScrollToPane(0);
-          break;
-        case "End":
-          e.preventDefault();
-          onFocusChange(upperBound);
-          onScrollToPane(upperBound);
-          break;
-        default:
-          break;
-      }
-    },
-    [
-      focusIndex,
-      stackLength,
-      maxFocusIndex,
-      onFocusChange,
-      onPopStack,
-      onScrollToPane,
-    ]
-  );
+    switch (event.key) {
+      case "ArrowLeft":
+        if (focusIndex > 0) {
+          event.preventDefault();
+          onFocusChange(focusIndex - 1);
+          onScrollToPane(focusIndex - 1);
+        }
+        break;
+      case "ArrowRight":
+        if (focusIndex < upperBound) {
+          event.preventDefault();
+          onFocusChange(focusIndex + 1);
+          onScrollToPane(focusIndex + 1);
+        }
+        break;
+      case "Escape":
+        if (stackLength > 1) {
+          event.preventDefault();
+          onPopStack();
+        }
+        break;
+      case "Home":
+        event.preventDefault();
+        onFocusChange(0);
+        onScrollToPane(0);
+        break;
+      case "End":
+        event.preventDefault();
+        onFocusChange(upperBound);
+        onScrollToPane(upperBound);
+        break;
+      default:
+        break;
+    }
+  });
 
   useEffect(() => {
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [handleKeyDown]);
+    const onKeyDown = (event: KeyboardEvent) => {
+      handleKeyDown(event);
+    };
+
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, []);
 }

@@ -11,6 +11,13 @@ import {
   preprocessNoteSource,
 } from "./source-transform";
 
+const noteCache = new Map<string, Promise<Note | null>>();
+const noteGraphNodeCache = new Map<string, Promise<NoteGraphNode | null>>();
+
+function getNoteCacheKey(slug: string, locale: string) {
+  return `${locale}:${slug}`;
+}
+
 async function parseAndSerialize(note: SourceNote) {
   const { titleLookup } = await getContentIndex();
   const serializedContent = preprocessNoteSource(
@@ -26,7 +33,23 @@ async function parseAndSerialize(note: SourceNote) {
   };
 }
 
-export async function loadNote(
+export function loadNote(slug: string, locale = "en"): Promise<Note | null> {
+  const cacheKey = getNoteCacheKey(slug, locale);
+  const cachedNote = noteCache.get(cacheKey);
+  if (cachedNote) {
+    return cachedNote;
+  }
+
+  const notePromise = loadNoteUncached(slug, locale).catch((error: unknown) => {
+    noteCache.delete(cacheKey);
+    throw error;
+  });
+
+  noteCache.set(cacheKey, notePromise);
+  return notePromise;
+}
+
+async function loadNoteUncached(
   slug: string,
   locale = "en"
 ): Promise<Note | null> {
@@ -53,7 +76,28 @@ export async function loadNote(
   };
 }
 
-async function loadNoteGraphNode(
+function loadNoteGraphNode(
+  slug: string,
+  locale = "en"
+): Promise<NoteGraphNode | null> {
+  const cacheKey = getNoteCacheKey(slug, locale);
+  const cachedNoteGraphNode = noteGraphNodeCache.get(cacheKey);
+  if (cachedNoteGraphNode) {
+    return cachedNoteGraphNode;
+  }
+
+  const noteGraphNodePromise = loadNoteGraphNodeUncached(slug, locale).catch(
+    (error: unknown) => {
+      noteGraphNodeCache.delete(cacheKey);
+      throw error;
+    }
+  );
+
+  noteGraphNodeCache.set(cacheKey, noteGraphNodePromise);
+  return noteGraphNodePromise;
+}
+
+async function loadNoteGraphNodeUncached(
   slug: string,
   locale = "en"
 ): Promise<NoteGraphNode | null> {

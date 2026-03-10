@@ -1,33 +1,12 @@
 import { createFileRoute, notFound, redirect } from "@tanstack/react-router";
-import { createServerFn } from "@tanstack/react-start";
 import { NotesPageClient } from "@/components/client/index";
 import { defaultLocale, isLocale } from "@/i18n/routing";
 import {
   isDirectNoteSlug,
   throwCanonicalNoteRedirect,
 } from "@/lib/canonical-note-redirect";
+import { getNoteRouteLoaderData } from "@/lib/notes/note-route-data.functions";
 import { IndexComponent } from "./{-$locale}.index";
-
-const getNoteRouteLoaderData = createServerFn({ method: "GET" })
-  .inputValidator(
-    (input: { rootSlug: string; locale: string; stack?: string }) => input
-  )
-  .handler(async ({ data }) => {
-    const { buildNoteRouteData } = await import("@/lib/notes/note-route-data");
-
-    const routeData = await buildNoteRouteData({
-      rootSlug: data.rootSlug,
-      locale: data.locale,
-      search: { stack: data.stack },
-    });
-
-    return {
-      rootNote: routeData.rootNote,
-      rootNoteExists: routeData.rootNoteExists,
-      noteSummaries: routeData.noteSummaries,
-      paneNotes: routeData.paneNotes,
-    };
-  });
 
 export const Route = createFileRoute("/{-$locale}/$slug")({
   beforeLoad: ({ params, search }) => {
