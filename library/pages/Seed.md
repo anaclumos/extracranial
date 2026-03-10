@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C21D14'
-last_modified: 2023-04-19
+slug: /C21D14
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 - Seed Funding

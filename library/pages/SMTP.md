@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F9877E'
-last_modified: 2023-02-28
+slug: /F9877E
+last_modified: 2023-02-28T00:00:00.000Z
 ---
 
 - Uses TCP

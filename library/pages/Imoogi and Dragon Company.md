@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/858CBA'
-last_modified: 2023-02-23
+slug: /858CBA
+last_modified: 2023-02-23T00:00:00.000Z
 ---
 
 The word **[[Unicorn]] Company** gives the company too much of a _magical_ sentiment as if it was _destined_ to be successful. Maybe it should be Carp 🐟 → Imoogi 🐍 → Dragon 🐉 company, as in [[한민족|Korean]] folklore.

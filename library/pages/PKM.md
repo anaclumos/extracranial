@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/E9DD55'
-aliases: ['Personal Knowledge Management']
-last_modified: 2023-04-19
+slug: /E9DD55
+aliases:
+  - Personal Knowledge Management
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 - Usually, Nonlinear, spider-web-like notes

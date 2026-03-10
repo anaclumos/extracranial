@@ -1,8 +1,11 @@
 ---
-lang: 'en'
-slug: '/2388E2'
-aliases: ['안티프래질', '오히려 좋아', '오히려좋아', '위기를 기회로']
-last_modified: 2023-05-10
+slug: /2388E2
+aliases:
+  - 안티프래질
+  - 오히려 좋아
+  - 오히려좋아
+  - 위기를 기회로
+last_modified: 2023-05-10T00:00:00.000Z
 ---
 
 [[Anti]]fragile is a concept introduced by Nassim Nicholas Taleb in his book "Antifragile: Things That Gain from Disorder". It refers to systems or entities that survive stressors or shocks, thrives, and become stronger. The opposite of antifragility is fragility, where a system becomes weaker or more vulnerable under stress. Antifragility applies to many areas, such as economies, ecosystems, and human physiology.

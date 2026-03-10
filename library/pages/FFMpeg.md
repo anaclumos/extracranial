@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2794D5'
-last_modified: 2023-02-02
+slug: /2794D5
+last_modified: 2023-02-02T00:00:00.000Z
 ---
 
 - [FFmpeg - Ultimate Guide](https://img.ly/blog/ultimate-guide-to-ffmpeg/)

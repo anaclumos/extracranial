@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1B7CFB'
-last_modified: 2025-05-11
+slug: /1B7CFB
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 ## Task given

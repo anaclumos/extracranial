@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9D4B52'
-last_modified: 2023-07-19
+slug: /9D4B52
+last_modified: 2023-07-19T00:00:00.000Z
 ---
 
 - Long story short, you can model the market with [[Standard Normal]].

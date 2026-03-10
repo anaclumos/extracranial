@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FD6394'
-last_modified: 2023-05-03
+slug: /FD6394
+last_modified: 2023-05-03T00:00:00.000Z
 ---
 
 Habbo Hotel is an online community aimed at teens and young adults. It is owned and operated by Sulake, a Finnish company. You can create and customize your avatar, chat with friends, and participate in various activities and games. Habbo Hotel has expanded to nine online communities (or "hotels"), with users from more than 150 countries. Habbo Hotel is also one of the most popular virtual worlds, with millions of active users worldwide.

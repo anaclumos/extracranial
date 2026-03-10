@@ -1,6 +1,5 @@
 ---
-lang: 'en'
-slug: '/{{title}}'
+slug: '/{{hex}}'
 ---
 
 import Admonition from '@theme/Admonition';

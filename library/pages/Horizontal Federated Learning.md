@@ -1,8 +1,11 @@
 ---
-lang: 'en'
-slug: '/A2C433'
-aliases: ['Sample-based Federated Learning', 'Horizontal FL', 'Sample-based FL', 'HFL']
-last_modified: 2026-01-01
+slug: /A2C433
+aliases:
+  - Sample-based Federated Learning
+  - Horizontal FL
+  - Sample-based FL
+  - HFL
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 Horizontal [[Federated Machine Learning|Federated Learning]], or sample-based [[Federated Machine Learning|federated learning]], is a type of [[Federated Machine Learning|Federated Learning]] where multiple parties collaborate to train a shared [[ML|machine learning]] model without directly exchanging their raw data. In Horizontal [[Federated Machine Learning|Federated Learning]], different parties possess different samples (or data points) but share the same [[feature]] set.

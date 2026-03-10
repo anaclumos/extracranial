@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8AFCA7'
-last_modified: 2025-01-18
+slug: /8AFCA7
+last_modified: 2025-01-18T00:00:00.000Z
 ---
 
 ![[7681FE.gif]]

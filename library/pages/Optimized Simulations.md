@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/82E962'
-last_modified: 2022-12-10
+slug: /82E962
+last_modified: 2022-12-10T00:00:00.000Z
 ---
 
 - Optimized [[Simulations]] programming problem is when you have to conduct a [[Simulations]] according to the provided conditions.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/385E54'
-last_modified: 2026-01-01
+slug: /385E54
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 Here's the flow we force on readers today:

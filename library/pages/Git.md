@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/8E65E2'
-aliases: ['깃']
-last_modified: 2023-09-19
+slug: /8E65E2
+aliases:
+  - 깃
+last_modified: 2023-09-19T00:00:00.000Z
 ---
 
 - [Git Notes: git's coolest, most unloved feature](https://tylercipriani.com/blog/2022/11/19/git-notes-gits-coolest-most-unloved-feature/)

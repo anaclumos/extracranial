@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/C822DB'
-aliases: ['Redwood']
-last_modified: 2024-02-21
+slug: /C822DB
+aliases:
+  - Redwood
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 RedwoodJS is a full-stack, open-source [[JavaScript]] framework for building web applications. It was launched in 2020 by Tom Preston-Werner, a [[GitHub]] co-founder. Redwood uses a unique combination of established technologies:

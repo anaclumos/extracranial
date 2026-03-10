@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/323AA7'
-last_modified: 2025-04-29
+slug: /323AA7
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 If i.i.d. $x_1, \cdots x_n$ and $\sigma_x^2 < \infty$ then:

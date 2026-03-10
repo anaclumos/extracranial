@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/38128E'
-last_modified: 2025-06-18
+slug: /38128E
+last_modified: 2025-06-18T00:00:00.000Z
 ---
 
 Not end-to-end testing.

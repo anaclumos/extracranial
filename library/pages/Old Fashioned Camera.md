@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C46EC1'
-last_modified: 2025-02-26
+slug: /C46EC1
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 [[Old Someday]] [[Project]]. iPhone 4 시절 그 구진 감성의 카메라.

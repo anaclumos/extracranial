@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4C8DAE'
-last_modified: 2023-04-21
+slug: /4C8DAE
+last_modified: 2023-04-21T00:00:00.000Z
 ---
 
 Solved at: [[2022-11-28]]

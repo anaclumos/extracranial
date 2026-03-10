@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/480F6A'
-last_modified: 2023-06-15
+slug: /480F6A
+last_modified: 2023-06-15T00:00:00.000Z
 ---
 
 In [[statistics]], a normal table, also known as a [[standard normal]] table or a z-table, is a table that provides probabilities associated with the [[standard normal]] [[distribution]]. The table lists values of the [[standard normal]] [[distribution]]'s cumulative [[distribution]] function (CDF) for different values of the standardized variable Z.

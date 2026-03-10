@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/121FBA'
-aliases: ['리디']
-last_modified: 2023-08-28
+slug: /121FBA
+aliases:
+  - 리디
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 Ridi is a [[대한민국|Korean]] [[Unicorn]] specializing in [[eBook]] [[distribution]], online contents & intellectual properties. [Reference](https://www.forbes.com/sites/catherinewang/2022/03/02/korean-webcomic-platform-ridi-hits-unicorn-status-with-gic-led-round/?sh=e0259024b7d3)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/172E82'
-last_modified: 2023-04-10
+slug: /172E82
+last_modified: 2023-04-10T00:00:00.000Z
 ---
 
 - is a `ViewGroup`

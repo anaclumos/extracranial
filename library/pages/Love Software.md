@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3BC853'
-last_modified: 2024-07-22
+slug: /3BC853
+last_modified: 2024-07-22T00:00:00.000Z
 ---
 
 collections of exquisite software that i happily paid for premium

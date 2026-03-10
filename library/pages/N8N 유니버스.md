@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/EF2CD1'
-last_modified: 2025-12-31
+slug: /EF2CD1
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 "N8N으로 모든 것을 다 자동화해보자" 모임

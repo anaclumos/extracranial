@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/78F836'
-aliases: ['Interactive Instructions']
-last_modified: 2025-09-04
+slug: /78F836
+aliases:
+  - Interactive Instructions
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ### [Inside Framer's Magic Motion](https://www.nan.fyi/magic-motion)

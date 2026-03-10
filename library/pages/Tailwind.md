@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A331BF'
-last_modified: 2025-09-04
+slug: /A331BF
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > Rapidly build modern websites without ever leaving your [[HTML]]. A utility-first [[CSS]] framework packed with classes like flex, pt-4, text-center, and rotate-90 that can be composed to build any design directly in your markup. [Tailwind CSS](https://tailwindcss.com/)

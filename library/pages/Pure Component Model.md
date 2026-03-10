@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/59C7E5'
-last_modified: 2023-07-25
+slug: /59C7E5
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 - [[Alternative]] approach to [[Monolithic Model]]

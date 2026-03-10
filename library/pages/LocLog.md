@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4C571C'
-last_modified: 2024-02-13
+slug: /4C571C
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 [[Someday]] [[Project]].

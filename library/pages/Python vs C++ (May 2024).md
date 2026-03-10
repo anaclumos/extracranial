@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F97506'
-last_modified: 2025-09-04
+slug: /F97506
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 So this is my story with my last Master's class team project.

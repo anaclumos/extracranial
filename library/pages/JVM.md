@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/53ECD5'
-aliases: ['Java Virtual Machine']
-last_modified: 2025-04-29
+slug: /53ECD5
+aliases:
+  - Java Virtual Machine
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 JVM stands for Java Virtual Machine. It's a virtual machine or runtime environment that allows [[Java]] programs to run on multiple devices and operating systems. The JVM interprets [[Java]] bytecode to run as a program, providing a runtime environment to execute this process. It's an integral part of the [[Java]] Runtime Environment (JRE).

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C1CF90'
-last_modified: 2023-07-13
+slug: /C1CF90
+last_modified: 2023-07-13T00:00:00.000Z
 ---
 
 [[Project]] Linguine is an initiative to define a deterministic list (i.e., the **_Linguine Recipe_**) to cover all linguistic [[Sprachraum]]. That is,

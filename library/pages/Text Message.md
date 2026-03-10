@@ -1,9 +1,17 @@
 ---
-lang: 'en'
-slug: '/10DC63'
+slug: /10DC63
 aliases:
-  ['SMS', 'Texts', '문자', '문자 메시지', '메시지', '문자메시지', '문자 메세지', '메세지,', 'Messages', 'Message']
-last_modified: 2026-01-01
+  - SMS
+  - Texts
+  - 문자
+  - 문자 메시지
+  - 메시지
+  - 문자메시지
+  - 문자 메세지
+  - '메세지,'
+  - Messages
+  - Message
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 A text message is an electronic message sent from one cell phone to another over a cellular network.

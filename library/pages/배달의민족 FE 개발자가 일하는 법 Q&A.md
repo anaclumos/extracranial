@@ -1,6 +1,6 @@
 ---
-slug: '/4836FE'
-last_modified: 2024-08-23
+slug: /4836FE
+last_modified: 2024-08-23T00:00:00.000Z
 ---
 
 [[2020-07-20]]

@@ -1,8 +1,8 @@
 ---
-title: '민사고 간편결제 제작기'
-date: 2019-10-10
-slug: '/3955DC'
-last_modified: 2026-03-08
+title: 민사고 간편결제 제작기
+date: 2019-10-10T00:00:00.000Z
+slug: /7DBB98
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

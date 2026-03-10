@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CABA29'
-last_modified: 2024-08-02
+slug: /CABA29
+last_modified: 2024-08-02T00:00:00.000Z
 ---
 
 - Financial Independence, Retire Early

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/68DFA7'
-last_modified: 2023-01-23
+slug: /68DFA7
+last_modified: 2023-01-23T00:00:00.000Z
 ---
 
 In [[Probability]],

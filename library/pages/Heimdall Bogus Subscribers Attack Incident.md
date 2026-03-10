@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E2CDEB'
-last_modified: 2024-07-31
+slug: /E2CDEB
+last_modified: 2024-07-31T00:00:00.000Z
 ---
 
 - Happened from [[2023-07-30]]-[[2023-08-01]], or something like that

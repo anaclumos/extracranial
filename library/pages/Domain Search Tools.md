@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BE325F'
-last_modified: 2023-02-12
+slug: /BE325F
+last_modified: 2023-02-12T00:00:00.000Z
 ---
 
 ## [Domain Name Search](https://instantdomainsearch.com/)

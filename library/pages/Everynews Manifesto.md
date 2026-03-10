@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7C0094'
-last_modified: 2025-05-03
+slug: /7C0094
+last_modified: 2025-05-03T00:00:00.000Z
 ---
 
 Tried to be more human and personal

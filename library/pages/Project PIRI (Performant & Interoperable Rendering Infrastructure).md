@@ -1,9 +1,9 @@
 ---
-lang: 'en'
-slug: '/1DEEA3'
-aliases: ['PIRI']
-title: 'Project PIRI 🪈: Performant & Interoperable Rendering Infrastructure'
-last_modified: 2024-12-27
+slug: /1DEEA3
+aliases:
+  - PIRI
+title: "Project PIRI \U0001FA88: Performant & Interoperable Rendering Infrastructure"
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 ## [[2024-03-04]]

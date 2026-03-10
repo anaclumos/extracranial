@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/643812'
-last_modified: 2023-04-19
+slug: /643812
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 Instead of "semanticizing" the web, we must create an unsemantic [[AI]] (i.e., rigorous.)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C59A99'
-last_modified: 2024-02-21
+slug: /C59A99
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 ## Summarizations from [[hn.cho.sh]]

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/3F3FFF'
-last_modified: 2025-05-11
+slug: /3F3FFF
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 [[민사고]]에서 배운 것 중 가장 신기했던 것이다.

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/7E5BF0'
-last_modified: 2025-02-26
+slug: /7E5BF0
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 [WebGPU](https://gpuweb.github.io/gpuweb/)는 렌더링 및 계산 작업 등을 처리하는 Direct3D 12, Metal, Vulkan과 같은 현대 [[GPU]] 기능에 접근할 수 있는 [[API]]이다.

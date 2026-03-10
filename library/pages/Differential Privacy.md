@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AB7503'
-last_modified: 2023-08-28
+slug: /AB7503
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 - [Differential Privacy Overview](https://www.apple.com/privacy/docs/Differential_Privacy_Overview.pdf)

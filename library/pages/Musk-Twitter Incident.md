@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F7B0F0'
-last_modified: 2025-09-04
+slug: /F7B0F0
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > [Buying Twitter is an accelerant to creating X, the everything app](https://twitter.com/elonmusk/status/1577428272056389633)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/480BAE'
-last_modified: 2025-04-29
+slug: /480BAE
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Many indiepreneurs and founders tout the importance of being antifragile Turning the tides, and distilling opportunity from danger.

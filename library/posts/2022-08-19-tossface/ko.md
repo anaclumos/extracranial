@@ -1,9 +1,9 @@
 ---
-title: '대한민국 이모지 되찾기'
-date: 2022-08-19
-description: '사라진 토스페이스를 PUA 영역으로 되돌리기'
-slug: '/92B47B'
-last_modified: 2026-03-08
+title: 대한민국 이모지 되찾기
+date: 2022-08-19T00:00:00.000Z
+description: 사라진 토스페이스를 PUA 영역으로 되돌리기
+slug: /A0E241
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

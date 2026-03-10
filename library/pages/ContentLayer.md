@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C25E5F'
-last_modified: 2024-04-29
+slug: /C25E5F
+last_modified: 2024-04-29T00:00:00.000Z
 ---
 
 - [Contentlayer](https://www.contentlayer.dev/)

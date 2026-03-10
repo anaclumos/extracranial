@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4AA0F0'
-last_modified: 2023-09-26
+slug: /4AA0F0
+last_modified: 2023-09-26T00:00:00.000Z
 ---
 
 [[Problem]]. I [[love software]], but I am sometimes too addicted to tech!

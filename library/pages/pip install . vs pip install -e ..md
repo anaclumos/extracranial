@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/27B944'
-last_modified: 2025-05-09
+slug: /27B944
+last_modified: 2025-05-09T00:00:00.000Z
 ---
 
 ## `pip install .`

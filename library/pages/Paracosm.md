@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AB0F3F'
-last_modified: 2022-12-21
+slug: /AB0F3F
+last_modified: 2022-12-21T00:00:00.000Z
 ---
 
 ![[301024.png]]

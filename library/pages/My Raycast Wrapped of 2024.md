@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5B207A'
-last_modified: 2026-01-08
+slug: /5B207A
+last_modified: 2026-01-08T00:00:00.000Z
 ---
 
 - [[My Raycast Wrapped of 2023]]

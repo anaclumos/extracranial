@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/13A8BD'
-last_modified: 2025-04-29
+slug: /13A8BD
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[37C899.png]]

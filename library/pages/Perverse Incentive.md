@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/3C98AC'
-aliases: ['코브라 효과', 'Cobra Effect']
-last_modified: 2026-01-01
+slug: /3C98AC
+aliases:
+  - 코브라 효과
+  - Cobra Effect
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

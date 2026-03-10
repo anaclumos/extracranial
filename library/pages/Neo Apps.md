@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6A70B3'
-last_modified: 2023-11-20
+slug: /6A70B3
+last_modified: 2023-11-20T00:00:00.000Z
 ---
 
 The earth of [[macOS]] Applications is changing. [[Neo]] Apps.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/55E308'
-last_modified: 2023-08-28
+slug: /55E308
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 - Finding [[Information among Data]].

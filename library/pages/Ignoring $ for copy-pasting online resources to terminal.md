@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/558CF5'
-last_modified: 2023-02-10
+slug: /558CF5
+last_modified: 2023-02-10T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]].

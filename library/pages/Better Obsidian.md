@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9E4E7C'
-last_modified: 2024-06-28
+slug: /9E4E7C
+last_modified: 2024-06-28T00:00:00.000Z
 ---
 
 ## [[WebExtension|Extension]] Ideas for [[Obsidian]]

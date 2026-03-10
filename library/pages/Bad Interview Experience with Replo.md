@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4E6AB4'
-last_modified: 2025-09-04
+slug: /4E6AB4
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Replo is a company that specializes in no-code Shopify experiences.

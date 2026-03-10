@@ -1,6 +1,5 @@
 ---
-lang: 'en'
-slug: '/F3CB2F'
+slug: '/{{hex}}'
 ---
 
 Solved at: [[{{date:YYYY-MM-DD}}]]

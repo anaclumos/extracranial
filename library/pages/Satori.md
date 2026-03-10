@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1E9E39'
-last_modified: 2023-05-30
+slug: /1E9E39
+last_modified: 2023-05-30T00:00:00.000Z
 ---
 
 <figure>

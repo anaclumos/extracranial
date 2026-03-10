@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C3F42B'
-last_modified: 2022-11-04
+slug: /C3F42B
+last_modified: 2022-11-04T00:00:00.000Z
 ---
 
 - [[Computer Systems]]

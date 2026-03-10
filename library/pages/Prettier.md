@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/659436'
-last_modified: 2023-11-11
+slug: /659436
+last_modified: 2023-11-11T00:00:00.000Z
 ---
 
 ```json

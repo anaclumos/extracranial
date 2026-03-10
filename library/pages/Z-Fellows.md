@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BB2B76'
-last_modified: 2023-07-03
+slug: /BB2B76
+last_modified: 2023-07-03T00:00:00.000Z
 ---
 
 - [Z Fellows. Get Fast-Tracked into Silicon Valley.](https://www.zfellows.com/)

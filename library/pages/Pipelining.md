@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/62F01F'
-last_modified: 2025-04-29
+slug: /62F01F
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - split combinational logic into smaller steps

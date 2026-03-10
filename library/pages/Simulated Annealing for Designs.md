@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BE23FD'
-last_modified: 2024-08-23
+slug: /BE23FD
+last_modified: 2024-08-23T00:00:00.000Z
 ---
 
 ### [Good Design](https://shud.in/posts/good-design)

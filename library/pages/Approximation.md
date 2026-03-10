@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F36EED'
-last_modified: 2023-01-24
+slug: /F36EED
+last_modified: 2023-01-24T00:00:00.000Z
 ---
 
 In [[Probability]],

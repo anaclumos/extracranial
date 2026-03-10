@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BCB482'
-last_modified: 2024-01-15
+slug: /BCB482
+last_modified: 2024-01-15T00:00:00.000Z
 ---
 
 > Can In-house out-beat Open Competition?

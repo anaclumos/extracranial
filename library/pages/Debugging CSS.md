@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FC7EAD'
-last_modified: 2023-06-30
+slug: /FC7EAD
+last_modified: 2023-06-30T00:00:00.000Z
 ---
 
 ```

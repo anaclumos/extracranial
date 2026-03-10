@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/BB903F'
-aliases: ['Boring Products']
-last_modified: 2025-09-04
+slug: /BB903F
+aliases:
+  - Boring Products
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - Do one thing, but exceptionally well

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3F44BF'
-last_modified: 2022-12-08
+slug: /3F44BF
+last_modified: 2022-12-08T00:00:00.000Z
 ---
 
 ![[412774.png]]

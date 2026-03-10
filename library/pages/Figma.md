@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4CBA7C'
-last_modified: 2023-08-02
+slug: /4CBA7C
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 - [Figma](https://www.figma.com/)

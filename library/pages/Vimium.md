@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B83561'
-last_modified: 2024-12-18
+slug: /B83561
+last_modified: 2024-12-18T00:00:00.000Z
 ---
 
 - `F` to show all link hints

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A5523E'
-last_modified: 2026-01-01
+slug: /A5523E
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 [[Written 100% By A Human]]

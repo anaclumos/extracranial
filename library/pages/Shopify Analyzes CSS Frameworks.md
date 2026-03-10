@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D7DF81'
-last_modified: 2025-12-31
+slug: /D7DF81
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 - [Solution analysis for Polaris Foundations](https://docs.google.com/spreadsheets/d/1rxrRTlbNWiLVu-Q5IK7xh5O1FmWcjyAS2XN7jiPrhYM/edit#gid=0)

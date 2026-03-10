@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/646F3A'
-last_modified: 2022-10-13
+slug: /646F3A
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 Solved at: [[2022-07-14]] and [[2022-07-26]]

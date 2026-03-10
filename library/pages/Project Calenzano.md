@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DFC453'
-last_modified: 2024-03-07
+slug: /DFC453
+last_modified: 2024-03-07T00:00:00.000Z
 ---
 
 [[Subproject]] of [[Project Florence]]

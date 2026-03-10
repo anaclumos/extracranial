@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/85E9E7'
-last_modified: 2025-09-04
+slug: /85E9E7
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [Introducing ChatGPT Plus](https://openai.com/blog/chatgpt-plus/)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4DC268'
-last_modified: 2022-11-03
+slug: /4DC268
+last_modified: 2022-11-03T00:00:00.000Z
 ---
 
 - [[Simple DirectMedia Layer|SDL]]

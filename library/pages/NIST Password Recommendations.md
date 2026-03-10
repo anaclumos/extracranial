@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D967B3'
-last_modified: 2025-04-29
+slug: /D967B3
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 https://mastodon.social/@LukaszOlejnik/113193089731407165

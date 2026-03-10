@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C62BBE'
-last_modified: 2025-09-04
+slug: /C62BBE
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[Case Study]] of [[Humane Ai Pin]]

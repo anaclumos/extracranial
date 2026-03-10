@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/908740'
-last_modified: 2023-10-31
+slug: /908740
+last_modified: 2023-10-31T00:00:00.000Z
 ---
 
 Solved at: [[2022-09-25]]

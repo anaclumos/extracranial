@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/75FEFD'
-last_modified: 2025-09-04
+slug: /75FEFD
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > Petersburg was founded on tears and corpses.

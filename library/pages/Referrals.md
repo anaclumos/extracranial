@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/22E0E2'
-last_modified: 2025-04-29
+slug: /22E0E2
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Some of my referral codes that will make you ① skip the waiting line or ② give you some discount!

@@ -1,7 +1,5 @@
 "use client";
 
-import { buildLocalePathname } from "@/i18n/navigation";
-import { useLocale } from "@/i18n/provider";
 import {
   buildNoteHref,
   isExternalHref,
@@ -15,11 +13,8 @@ interface PreviewLinkProps {
 }
 
 export function PreviewLink({ href, children, onClick }: PreviewLinkProps) {
-  const locale = useLocale();
   const slug = isExternalHref(href) ? "" : normalizeNoteSlug(href);
-  const resolvedHref = slug
-    ? buildLocalePathname(buildNoteHref(slug), locale)
-    : href;
+  const resolvedHref = slug ? buildNoteHref(slug) : href;
 
   return (
     <a href={resolvedHref} onClick={onClick}>

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C04815'
-last_modified: 2023-07-23
+slug: /C04815
+last_modified: 2023-07-23T00:00:00.000Z
 ---
 
 Same as UUID, but what if it uses 36-based randomized alphanumerics (A-Z, 0-9)?

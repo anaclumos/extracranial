@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B229D8'
-last_modified: 2025-04-29
+slug: /B229D8
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 In linguistics, the term "Sprachraum" is derived from the German words "Sprache," meaning "language," and "Raum," meaning "space" or "area." A Sprachraum refers to a geographical region where a particular language or group of closely related languages is spoken by a majority or significant portion of the population. This concept helps to identify and study the distribution and spread of languages and their dialects across different regions.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/75CB18'
-last_modified: 2025-09-04
+slug: /75CB18
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## For 2024

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D3384C'
-last_modified: 2025-09-04
+slug: /D3384C
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [keystonejs/keystone](https://github.com/keystonejs/keystone): The most powerful [[headless]] [[CMS]] for Node.js -- built with GraphQL and React

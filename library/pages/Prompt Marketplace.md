@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A2EC9E'
-last_modified: 2023-07-19
+slug: /A2EC9E
+last_modified: 2023-07-19T00:00:00.000Z
 ---
 
 Examples include [PromptBase](https://promptbase.com/).

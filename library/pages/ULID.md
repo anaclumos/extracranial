@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A63CAF'
-last_modified: 2025-09-04
+slug: /A63CAF
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 A ULID (Universally Unique Lexicographically Sortable Identifier) is a 128-bit identifier that encodes a timestamp and a randomness component into a 26-character, [[base32]] string. Its design ensures both global uniqueness and monotonic sort-ability--newer ULIDs will always sort after older ones.

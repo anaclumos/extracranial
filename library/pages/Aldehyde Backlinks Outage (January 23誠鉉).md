@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DF5A6E'
-last_modified: 2023-08-07
+slug: /DF5A6E
+last_modified: 2023-08-07T00:00:00.000Z
 ---
 
 Backlinks were not working for [[한국어|Korean]] Pages.

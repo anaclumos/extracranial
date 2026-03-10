@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/48E5E3'
-last_modified: 2023-04-19
+slug: /48E5E3
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 ```

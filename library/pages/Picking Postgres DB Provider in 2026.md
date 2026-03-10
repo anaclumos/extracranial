@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/981439'
-last_modified: 2026-01-12
+slug: /981439
+last_modified: 2026-01-12T00:00:00.000Z
 ---
 
 This post is AI Researched by GPT 5.2 Pro Extended Thinking

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/C7A645'
-last_modified: 2024-01-15
+slug: /C7A645
+last_modified: 2024-01-15T00:00:00.000Z
 ---
 
 ## [네이버가 구글과 싸우는 법 - 검색엔진 연구자의 관점](https://lifidea.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84%EA%B0%80-%EA%B5%AC%EA%B8%80%EA%B3%BC-%EC%8B%B8%EC%9A%B0%EB%8A%94-%EB%B2%95-%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84-%EC%97%B0%EA%B5%AC%EC%9E%90%EC%9D%98-%EA%B4%80%EC%A0%90)

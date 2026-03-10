@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E322F3'
-last_modified: 2023-02-24
+slug: /E322F3
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 ![[49BF36.png]]

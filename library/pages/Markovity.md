@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D2988F'
-last_modified: 2023-01-24
+slug: /D2988F
+last_modified: 2023-01-24T00:00:00.000Z
 ---
 
 In [[Probability]],

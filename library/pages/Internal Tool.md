@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AA40D1'
-last_modified: 2025-04-29
+slug: /AA40D1
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [Build internal tools without limitations | Plasmic](https://www.plasmic.app/use-cases/internal-tools)

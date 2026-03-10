@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3E4C5F'
-last_modified: 2023-04-19
+slug: /3E4C5F
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 - The closer to this bullet, the higher level it is.

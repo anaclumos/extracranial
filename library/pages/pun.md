@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/172764'
-last_modified: 2024-06-28
+slug: /172764
+last_modified: 2024-06-28T00:00:00.000Z
 ---
 
 [[Vocab]]

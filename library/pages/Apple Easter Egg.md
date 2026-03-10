@@ -1,6 +1,6 @@
 ---
-slug: '/4512BD'
-last_modified: 2023-08-02
+slug: /4512BD
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 [[2020-01-20]]

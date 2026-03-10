@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8929A3'
-last_modified: 2024-12-27
+slug: /8929A3
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 [Happy Hues - Curated colors in context.](https://www.happyhues.co/)

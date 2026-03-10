@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7E47EC'
-last_modified: 2023-04-19
+slug: /7E47EC
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 Use [[redirect]] operators

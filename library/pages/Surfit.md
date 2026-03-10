@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5E26FF'
-last_modified: 2022-11-29
+slug: /5E26FF
+last_modified: 2022-11-29T00:00:00.000Z
 ---
 
 ![[2A5C23.png]]

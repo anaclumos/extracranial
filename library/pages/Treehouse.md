@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/35A779'
-last_modified: 2023-02-03
+slug: /35A779
+last_modified: 2023-02-03T00:00:00.000Z
 ---
 
 Dating back to 2012-, Treehouse was the first attempt to run a [[DOM]] within a [[Web Worker]]. Later affected [[WorkerDOM]] and [[Brane]].

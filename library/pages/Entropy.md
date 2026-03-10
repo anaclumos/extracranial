@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/A796F1'
-aliases: ['information density']
-last_modified: 2025-09-04
+slug: /A796F1
+aliases:
+  - information density
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > In information theory, the entropy of a random variable is the average level of "information", "surprise", or "uncertainty" inherent to the variable's possible outcomes. Given a discrete random variable $X$, which takes values in the alphabet $\mathcal{X}$ and is distributed according to $p: \mathcal{X}\to[0, 1]$:

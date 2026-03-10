@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5E7F4B'
-last_modified: 2025-09-04
+slug: /5E7F4B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [[Mathematics under The Library of Babel]]

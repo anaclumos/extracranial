@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7CBCE6'
-last_modified: 2025-09-04
+slug: /7CBCE6
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > Chris Lattner of LLVM and Swift fame just announced a new programming language for [[ML]] that is high-performance and backward compatible with Python (works with Python libraries). It could be a game-changer. [pic.twitter.com/QO6lAxN0ZN](https://t.co/QO6lAxN0ZN)

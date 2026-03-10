@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/46ED3F'
-last_modified: 2022-10-13
+slug: /46ED3F
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 - Your deltaTime calculation is incorrect.

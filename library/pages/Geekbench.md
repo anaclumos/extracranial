@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2E9E1D'
-last_modified: 2025-05-19
+slug: /2E9E1D
+last_modified: 2025-05-19T00:00:00.000Z
 ---
 
 - https://browser.geekbench.com/v6/compute/3726131

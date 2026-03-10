@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8CFE3A'
-last_modified: 2022-10-13
+slug: /8CFE3A
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 The file `strings.xml` is located at `res/values/strings.xml`.

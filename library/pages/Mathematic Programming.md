@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/598CA9'
-last_modified: 2023-02-06
+slug: /598CA9
+last_modified: 2023-02-06T00:00:00.000Z
 ---
 
 - A mathematic coding question is when

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1A570D'
-last_modified: 2023-07-25
+slug: /1A570D
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 Not to be confused with [[Threads (Service)]]

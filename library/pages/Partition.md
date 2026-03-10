@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7B2DAB'
-last_modified: 2025-04-29
+slug: /7B2DAB
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ${H_k}$ is a partition means

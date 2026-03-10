@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/46AF52'
-last_modified: 2026-01-01
+slug: /46AF52
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ### ['저작권 vs 초상권'...선수-팬 사이 온라인 설전](https://n.news.naver.com/sports/kfootball/article/311/0001459883)

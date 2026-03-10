@@ -1,6 +1,6 @@
 ---
-slug: '/AD9D50'
-last_modified: 2023-08-04
+slug: /AD9D50
+last_modified: 2023-08-04T00:00:00.000Z
 ---
 
 [[2019-11-09]]

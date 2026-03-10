@@ -1,9 +1,9 @@
 ---
-title: "Bringing Samsung's Korean Keyboard Experience to iPhones"
-date: 2023-01-25
-description: "⌨️ Bringing Samsung's Korean Keyboard Experience to iPhones"
-slug: '/D7DE14'
-last_modified: 2026-03-08
+title: Bringing Samsung's Korean Keyboard Experience to iPhones
+date: 2023-01-25T00:00:00.000Z
+description: ⌨️ Bringing Samsung's Korean Keyboard Experience to iPhones
+slug: /D7DE14
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

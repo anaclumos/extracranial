@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E06DDE'
-last_modified: 2023-08-28
+slug: /E06DDE
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 Recently, the creator of juchamatjib.com and hellynee.com built both websites within 48 hours using the following tech stack, with speed being the primary criterion for selecting the technologies:

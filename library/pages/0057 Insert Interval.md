@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F2D0A8'
-last_modified: 2023-01-29
+slug: /F2D0A8
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-28]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5CC699'
-last_modified: 2024-02-21
+slug: /5CC699
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 > by [Shu](https://twitter.com/shuding_/status/1579607964549513217)

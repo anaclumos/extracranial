@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E313CA'
-last_modified: 2026-01-01
+slug: /E313CA
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

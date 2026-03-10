@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4FF1D0'
-last_modified: 2025-04-29
+slug: /4FF1D0
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 [Why I prefer rST to markdown • Buttondown](https://buttondown.email/hillelwayne/archive/why-i-prefer-rst-to-markdown/)

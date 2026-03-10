@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/54DE0E'
-last_modified: 2025-09-04
+slug: /54DE0E
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ### [Apple's Feedback Mechanism is Broken -- Liss is More](https://www.caseyliss.com/2022/6/20/feedback-is-broken-stop-trying-to-make-radar-happen)

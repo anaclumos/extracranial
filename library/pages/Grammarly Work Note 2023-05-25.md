@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B6CED2'
-last_modified: 2025-05-11
+slug: /B6CED2
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

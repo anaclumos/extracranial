@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/99EDAB'
-last_modified: 2023-04-25
+slug: /99EDAB
+last_modified: 2023-04-25T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-28]]

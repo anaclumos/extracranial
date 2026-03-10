@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3FCE0F'
-last_modified: 2023-10-31
+slug: /3FCE0F
+last_modified: 2023-10-31T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-29]]

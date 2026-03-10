@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CFE8F7'
-last_modified: 2025-08-06
+slug: /CFE8F7
+last_modified: 2025-08-06T00:00:00.000Z
 ---
 
 There is a bug in NixOS.

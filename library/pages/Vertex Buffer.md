@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A01101'
-last_modified: 2025-05-11
+slug: /A01101
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 - [[Graphics]]. How to pass instructions from [[CPU]] to [[GPU]].

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D5B2D5'
-last_modified: 2025-04-29
+slug: /D5B2D5
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ## [Pathway](https://www.pathway.md/)

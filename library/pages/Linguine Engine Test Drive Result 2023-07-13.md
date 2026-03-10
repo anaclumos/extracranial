@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6AF7F7'
-last_modified: 2024-08-02
+slug: /6AF7F7
+last_modified: 2024-08-02T00:00:00.000Z
 ---
 
 | Provider | Linguine | Translation                                                                                                                                                                                 |

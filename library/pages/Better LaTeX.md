@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A4D2AC'
-last_modified: 2025-04-29
+slug: /A4D2AC
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ## [Typst: Compose papers faster](https://typst.app/)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/43A592'
-last_modified: 2022-12-17
+slug: /43A592
+last_modified: 2022-12-17T00:00:00.000Z
 ---
 
 If you get...

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/465D96'
-last_modified: 2026-01-11
+slug: /465D96
+last_modified: 2026-01-11T00:00:00.000Z
 ---
 
 ## [[2025-09-01]]

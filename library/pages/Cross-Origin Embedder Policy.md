@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/D189D6'
-last_modified: 2023-02-21
+slug: /D189D6
+last_modified: 2023-02-21T00:00:00.000Z
 ---
 
 - See [Cross-Origin-Embedder-Policy - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)

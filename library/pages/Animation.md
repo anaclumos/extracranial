@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/1760EA'
-aliases: ['Animations']
-last_modified: 2024-09-11
+slug: /1760EA
+aliases:
+  - Animations
+last_modified: 2024-09-11T00:00:00.000Z
 ---
 
 ```

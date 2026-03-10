@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/207767'
-last_modified: 2025-08-06
+slug: /207767
+last_modified: 2025-08-06T00:00:00.000Z
 ---
 
 - Don't shout at the crops

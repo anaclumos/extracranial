@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5EBFA8'
-last_modified: 2023-09-10
+slug: /5EBFA8
+last_modified: 2023-09-10T00:00:00.000Z
 ---
 
 - [[Memex]] is more than a [[Memex]]

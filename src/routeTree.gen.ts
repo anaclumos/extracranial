@@ -9,85 +9,26 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as Char123LocaleChar125RouteImport } from './routes/{-$locale}'
-import { Route as Char123LocaleChar125IndexRouteImport } from './routes/{-$locale}.index'
-import { Route as Char123LocaleChar125LibraryRouteImport } from './routes/{-$locale}.library'
-import { Route as Char123LocaleChar125SlugRouteImport } from './routes/{-$locale}.$slug'
+import { Route as SlugRouteImport } from './routes/$slug'
+import { Route as IndexRouteImport } from './routes/index'
 import { Route as ApiOgRouteImport } from './routes/api.og'
-import { Route as Char123LocaleChar125WSlugRouteImport } from './routes/{-$locale}.w.$slug'
-import { Route as Char123LocaleChar125ResearchSlugRouteImport } from './routes/{-$locale}.research.$slug'
-import { Route as Char123LocaleChar125RSlugRouteImport } from './routes/{-$locale}.r.$slug'
-import { Route as Char123LocaleChar125PagesSlugRouteImport } from './routes/{-$locale}.pages.$slug'
-import { Route as Char123LocaleChar125JournalsSlugRouteImport } from './routes/{-$locale}.journals.$slug'
-import { Route as Char123LocaleChar125BlogSlugRouteImport } from './routes/{-$locale}.blog.$slug'
 import { Route as ApiContentAssetsIdSplatRouteImport } from './routes/api.content-assets.$id.$'
 
-const Char123LocaleChar125Route = Char123LocaleChar125RouteImport.update({
-  id: '/{-$locale}',
-  path: '/{-$locale}',
+const SlugRoute = SlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any).lazy(() => import('./routes/$slug.lazy').then((d) => d.Route))
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Char123LocaleChar125IndexRoute =
-  Char123LocaleChar125IndexRouteImport.update({
-    id: '/',
-    path: '/',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125LibraryRoute =
-  Char123LocaleChar125LibraryRouteImport.update({
-    id: '/library',
-    path: '/library',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125SlugRoute =
-  Char123LocaleChar125SlugRouteImport.update({
-    id: '/$slug',
-    path: '/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any).lazy(() =>
-    import('./routes/{-$locale}.$slug.lazy').then((d) => d.Route),
-  )
 const ApiOgRoute = ApiOgRouteImport.update({
   id: '/api/og',
   path: '/api/og',
   getParentRoute: () => rootRouteImport,
 } as any)
-const Char123LocaleChar125WSlugRoute =
-  Char123LocaleChar125WSlugRouteImport.update({
-    id: '/w/$slug',
-    path: '/w/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125ResearchSlugRoute =
-  Char123LocaleChar125ResearchSlugRouteImport.update({
-    id: '/research/$slug',
-    path: '/research/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125RSlugRoute =
-  Char123LocaleChar125RSlugRouteImport.update({
-    id: '/r/$slug',
-    path: '/r/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125PagesSlugRoute =
-  Char123LocaleChar125PagesSlugRouteImport.update({
-    id: '/pages/$slug',
-    path: '/pages/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125JournalsSlugRoute =
-  Char123LocaleChar125JournalsSlugRouteImport.update({
-    id: '/journals/$slug',
-    path: '/journals/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
-const Char123LocaleChar125BlogSlugRoute =
-  Char123LocaleChar125BlogSlugRouteImport.update({
-    id: '/blog/$slug',
-    path: '/blog/$slug',
-    getParentRoute: () => Char123LocaleChar125Route,
-  } as any)
 const ApiContentAssetsIdSplatRoute = ApiContentAssetsIdSplatRouteImport.update({
   id: '/api/content-assets/$id/$',
   path: '/api/content-assets/$id/$',
@@ -95,126 +36,54 @@ const ApiContentAssetsIdSplatRoute = ApiContentAssetsIdSplatRouteImport.update({
 } as any)
 
 export interface FileRoutesByFullPath {
-  '/{-$locale}': typeof Char123LocaleChar125RouteWithChildren
+  '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
   '/api/og': typeof ApiOgRoute
-  '/{-$locale}/$slug': typeof Char123LocaleChar125SlugRoute
-  '/{-$locale}/library': typeof Char123LocaleChar125LibraryRoute
-  '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
-  '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/journals/$slug': typeof Char123LocaleChar125JournalsSlugRoute
-  '/{-$locale}/pages/$slug': typeof Char123LocaleChar125PagesSlugRoute
-  '/{-$locale}/r/$slug': typeof Char123LocaleChar125RSlugRoute
-  '/{-$locale}/research/$slug': typeof Char123LocaleChar125ResearchSlugRoute
-  '/{-$locale}/w/$slug': typeof Char123LocaleChar125WSlugRoute
   '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
   '/api/og': typeof ApiOgRoute
-  '/{-$locale}/$slug': typeof Char123LocaleChar125SlugRoute
-  '/{-$locale}/library': typeof Char123LocaleChar125LibraryRoute
-  '/{-$locale}': typeof Char123LocaleChar125IndexRoute
-  '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/journals/$slug': typeof Char123LocaleChar125JournalsSlugRoute
-  '/{-$locale}/pages/$slug': typeof Char123LocaleChar125PagesSlugRoute
-  '/{-$locale}/r/$slug': typeof Char123LocaleChar125RSlugRoute
-  '/{-$locale}/research/$slug': typeof Char123LocaleChar125ResearchSlugRoute
-  '/{-$locale}/w/$slug': typeof Char123LocaleChar125WSlugRoute
   '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/{-$locale}': typeof Char123LocaleChar125RouteWithChildren
+  '/': typeof IndexRoute
+  '/$slug': typeof SlugRoute
   '/api/og': typeof ApiOgRoute
-  '/{-$locale}/$slug': typeof Char123LocaleChar125SlugRoute
-  '/{-$locale}/library': typeof Char123LocaleChar125LibraryRoute
-  '/{-$locale}/': typeof Char123LocaleChar125IndexRoute
-  '/{-$locale}/blog/$slug': typeof Char123LocaleChar125BlogSlugRoute
-  '/{-$locale}/journals/$slug': typeof Char123LocaleChar125JournalsSlugRoute
-  '/{-$locale}/pages/$slug': typeof Char123LocaleChar125PagesSlugRoute
-  '/{-$locale}/r/$slug': typeof Char123LocaleChar125RSlugRoute
-  '/{-$locale}/research/$slug': typeof Char123LocaleChar125ResearchSlugRoute
-  '/{-$locale}/w/$slug': typeof Char123LocaleChar125WSlugRoute
   '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/{-$locale}'
-    | '/api/og'
-    | '/{-$locale}/$slug'
-    | '/{-$locale}/library'
-    | '/{-$locale}/'
-    | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/journals/$slug'
-    | '/{-$locale}/pages/$slug'
-    | '/{-$locale}/r/$slug'
-    | '/{-$locale}/research/$slug'
-    | '/{-$locale}/w/$slug'
-    | '/api/content-assets/$id/$'
+  fullPaths: '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    | '/api/og'
-    | '/{-$locale}/$slug'
-    | '/{-$locale}/library'
-    | '/{-$locale}'
-    | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/journals/$slug'
-    | '/{-$locale}/pages/$slug'
-    | '/{-$locale}/r/$slug'
-    | '/{-$locale}/research/$slug'
-    | '/{-$locale}/w/$slug'
-    | '/api/content-assets/$id/$'
-  id:
-    | '__root__'
-    | '/{-$locale}'
-    | '/api/og'
-    | '/{-$locale}/$slug'
-    | '/{-$locale}/library'
-    | '/{-$locale}/'
-    | '/{-$locale}/blog/$slug'
-    | '/{-$locale}/journals/$slug'
-    | '/{-$locale}/pages/$slug'
-    | '/{-$locale}/r/$slug'
-    | '/{-$locale}/research/$slug'
-    | '/{-$locale}/w/$slug'
-    | '/api/content-assets/$id/$'
+  to: '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
+  id: '__root__' | '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  Char123LocaleChar125Route: typeof Char123LocaleChar125RouteWithChildren
+  IndexRoute: typeof IndexRoute
+  SlugRoute: typeof SlugRoute
   ApiOgRoute: typeof ApiOgRoute
   ApiContentAssetsIdSplatRoute: typeof ApiContentAssetsIdSplatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/{-$locale}': {
-      id: '/{-$locale}'
-      path: '/{-$locale}'
-      fullPath: '/{-$locale}'
-      preLoaderRoute: typeof Char123LocaleChar125RouteImport
+    '/$slug': {
+      id: '/$slug'
+      path: '/$slug'
+      fullPath: '/$slug'
+      preLoaderRoute: typeof SlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/{-$locale}/': {
-      id: '/{-$locale}/'
+    '/': {
+      id: '/'
       path: '/'
-      fullPath: '/{-$locale}/'
-      preLoaderRoute: typeof Char123LocaleChar125IndexRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/library': {
-      id: '/{-$locale}/library'
-      path: '/library'
-      fullPath: '/{-$locale}/library'
-      preLoaderRoute: typeof Char123LocaleChar125LibraryRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/$slug': {
-      id: '/{-$locale}/$slug'
-      path: '/$slug'
-      fullPath: '/{-$locale}/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125SlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
     }
     '/api/og': {
       id: '/api/og'
@@ -222,48 +91,6 @@ declare module '@tanstack/react-router' {
       fullPath: '/api/og'
       preLoaderRoute: typeof ApiOgRouteImport
       parentRoute: typeof rootRouteImport
-    }
-    '/{-$locale}/w/$slug': {
-      id: '/{-$locale}/w/$slug'
-      path: '/w/$slug'
-      fullPath: '/{-$locale}/w/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125WSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/research/$slug': {
-      id: '/{-$locale}/research/$slug'
-      path: '/research/$slug'
-      fullPath: '/{-$locale}/research/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125ResearchSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/r/$slug': {
-      id: '/{-$locale}/r/$slug'
-      path: '/r/$slug'
-      fullPath: '/{-$locale}/r/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125RSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/pages/$slug': {
-      id: '/{-$locale}/pages/$slug'
-      path: '/pages/$slug'
-      fullPath: '/{-$locale}/pages/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125PagesSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/journals/$slug': {
-      id: '/{-$locale}/journals/$slug'
-      path: '/journals/$slug'
-      fullPath: '/{-$locale}/journals/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125JournalsSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
-    }
-    '/{-$locale}/blog/$slug': {
-      id: '/{-$locale}/blog/$slug'
-      path: '/blog/$slug'
-      fullPath: '/{-$locale}/blog/$slug'
-      preLoaderRoute: typeof Char123LocaleChar125BlogSlugRouteImport
-      parentRoute: typeof Char123LocaleChar125Route
     }
     '/api/content-assets/$id/$': {
       id: '/api/content-assets/$id/$'
@@ -275,35 +102,9 @@ declare module '@tanstack/react-router' {
   }
 }
 
-interface Char123LocaleChar125RouteChildren {
-  Char123LocaleChar125SlugRoute: typeof Char123LocaleChar125SlugRoute
-  Char123LocaleChar125LibraryRoute: typeof Char123LocaleChar125LibraryRoute
-  Char123LocaleChar125IndexRoute: typeof Char123LocaleChar125IndexRoute
-  Char123LocaleChar125BlogSlugRoute: typeof Char123LocaleChar125BlogSlugRoute
-  Char123LocaleChar125JournalsSlugRoute: typeof Char123LocaleChar125JournalsSlugRoute
-  Char123LocaleChar125PagesSlugRoute: typeof Char123LocaleChar125PagesSlugRoute
-  Char123LocaleChar125RSlugRoute: typeof Char123LocaleChar125RSlugRoute
-  Char123LocaleChar125ResearchSlugRoute: typeof Char123LocaleChar125ResearchSlugRoute
-  Char123LocaleChar125WSlugRoute: typeof Char123LocaleChar125WSlugRoute
-}
-
-const Char123LocaleChar125RouteChildren: Char123LocaleChar125RouteChildren = {
-  Char123LocaleChar125SlugRoute: Char123LocaleChar125SlugRoute,
-  Char123LocaleChar125LibraryRoute: Char123LocaleChar125LibraryRoute,
-  Char123LocaleChar125IndexRoute: Char123LocaleChar125IndexRoute,
-  Char123LocaleChar125BlogSlugRoute: Char123LocaleChar125BlogSlugRoute,
-  Char123LocaleChar125JournalsSlugRoute: Char123LocaleChar125JournalsSlugRoute,
-  Char123LocaleChar125PagesSlugRoute: Char123LocaleChar125PagesSlugRoute,
-  Char123LocaleChar125RSlugRoute: Char123LocaleChar125RSlugRoute,
-  Char123LocaleChar125ResearchSlugRoute: Char123LocaleChar125ResearchSlugRoute,
-  Char123LocaleChar125WSlugRoute: Char123LocaleChar125WSlugRoute,
-}
-
-const Char123LocaleChar125RouteWithChildren =
-  Char123LocaleChar125Route._addFileChildren(Char123LocaleChar125RouteChildren)
-
 const rootRouteChildren: RootRouteChildren = {
-  Char123LocaleChar125Route: Char123LocaleChar125RouteWithChildren,
+  IndexRoute: IndexRoute,
+  SlugRoute: SlugRoute,
   ApiOgRoute: ApiOgRoute,
   ApiContentAssetsIdSplatRoute: ApiContentAssetsIdSplatRoute,
 }

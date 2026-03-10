@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/838556'
-last_modified: 2023-01-29
+slug: /838556
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-29]]

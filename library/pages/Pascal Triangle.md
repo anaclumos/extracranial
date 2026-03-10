@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FFE63F'
-last_modified: 2023-01-24
+slug: /FFE63F
+last_modified: 2023-01-24T00:00:00.000Z
 ---
 
 In [[Probability]],

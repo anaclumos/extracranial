@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B4B12B'
-last_modified: 2023-08-15
+slug: /B4B12B
+last_modified: 2023-08-15T00:00:00.000Z
 ---
 
 ## [[2022-11-24]]

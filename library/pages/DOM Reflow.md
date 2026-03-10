@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/0F6587'
-last_modified: 2022-12-05
+slug: /0F6587
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 ### [What is DOM reflow? - Stack Overflow](https://stackoverflow.com/questions/27637184/what-is-dom-reflow)

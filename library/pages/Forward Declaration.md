@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E0B48F'
-last_modified: 2023-01-25
+slug: /E0B48F
+last_modified: 2023-01-25T00:00:00.000Z
 ---
 
 ## Abstract

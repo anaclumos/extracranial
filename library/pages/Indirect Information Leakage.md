@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5398EC'
-last_modified: 2023-08-28
+slug: /5398EC
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 [[Federated Machine Learning|Federated Learning]] is a [[ML|machine learning]] approach where a model is trained across multiple decentralized devices (or servers) holding local data samples without exchanging them. Each device computes a local model update, and only this update is sent to a centralized server, where it is aggregated to construct an improved global model. [[Federated Machine Learning|Federated learning]] aims to achieve good model performance while preserving data privacy. However, [[Federated Machine Learning|federated learning]] is not immune to privacy risks, including "Indirect Information Leakage."

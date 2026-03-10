@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/431ACD'
-last_modified: 2025-04-29
+slug: /431ACD
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Like v0 use shadcn as its UI kit,

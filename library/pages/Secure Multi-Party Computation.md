@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/C9987D'
-aliases: ['SMPC', 'SMC', 'Secure Multi-Party Computations']
-last_modified: 2025-04-29
+slug: /C9987D
+aliases:
+  - SMPC
+  - SMC
+  - Secure Multi-Party Computations
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Secure Multi-Party Computation (SMC) is a cryptography subfield that allows parties to jointly compute a function over their inputs while keeping those inputs private. In simpler terms, multiple parties can collaborate to compute some result without revealing their data to each other. The result is derived so that, ideally, no particular party can determine any information about the others' private inputs.

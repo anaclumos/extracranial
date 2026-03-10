@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7E6CDB'
-last_modified: 2025-08-16
+slug: /7E6CDB
+last_modified: 2025-08-16T00:00:00.000Z
 ---
 
 ```

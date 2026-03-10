@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B03A6A'
-last_modified: 2026-01-01
+slug: /B03A6A
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ### [Ethereum RPC as a Service](https://matt-rickard.ghost.io/rpc-as-a-service/)

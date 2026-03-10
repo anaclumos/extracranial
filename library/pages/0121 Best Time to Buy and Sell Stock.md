@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/22C295'
-last_modified: 2023-07-19
+slug: /22C295
+last_modified: 2023-07-19T00:00:00.000Z
 ---
 
 Solved at: [[2022-07-13]]

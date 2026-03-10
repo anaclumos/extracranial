@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/C41F19'
-aliases: ['Font Feature', 'font-feature-settings', 'Ligature']
-last_modified: 2025-05-11
+slug: /C41F19
+aliases:
+  - Font Feature
+  - font-feature-settings
+  - Ligature
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 > [Font features](https://www.w3.org/TR/css-fonts-3/#font-rend-props) are a way to enable advanced text styles and effects as designed by the [[font]] author. A [[font]] may support several features: some examples include different kinds of ligatures, tabular numbers, or small caps. Because the designer explicitly created forms for these variants in the [[font]] file, using [[font features]] is the highest quality way of achieving these effects. [CSS Font Features](https://webkit.org/blog/5735/css-font-features/#:~:text=Font%20features%20are%20a%20way,tabular%20numbers%2C%20or%20small%20caps.)

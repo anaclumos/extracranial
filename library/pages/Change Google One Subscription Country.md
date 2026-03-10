@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A61DD4'
-last_modified: 2025-04-29
+slug: /A61DD4
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - Cancel

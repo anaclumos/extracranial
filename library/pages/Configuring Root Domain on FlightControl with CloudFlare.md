@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/76B5DB'
-last_modified: 2024-02-13
+slug: /76B5DB
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 Instead of `ALIAS -> Root Domain`, setup `CNAME -> Root Domain` on [[Cloudflare]]. [CNAME flattening · Cloudflare DNS docs](https://developers.cloudflare.com/dns/cname-flattening/) [[FlightControl]]

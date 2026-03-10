@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E5D877'
-last_modified: 2025-02-26
+slug: /E5D877
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 "

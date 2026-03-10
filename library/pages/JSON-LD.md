@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4C3304'
-last_modified: 2025-04-29
+slug: /4C3304
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 > JSON-LD is a method of encoding linked data using [[JSON]]. One goal for JSON-LD was to require as little effort as possible from developers to transform their existing JSON to JSON-LD. JSON-LD allows data to be serialized in a way that is similar to traditional [[JSON]]. [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)

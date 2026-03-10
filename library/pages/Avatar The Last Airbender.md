@@ -1,8 +1,7 @@
 ---
-lang: 'en'
-slug: '/6D0BFC'
+slug: /6D0BFC
 title: 'Avatar: The Last Airbender'
-last_modified: 2026-01-01
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

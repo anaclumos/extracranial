@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/291111'
-last_modified: 2022-10-13
+slug: /291111
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 Solved at: [[2022-09-25]]

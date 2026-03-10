@@ -1,8 +1,8 @@
 ---
-title: '동영상 압축과 유체이탈'
-date: 2019-11-06
-slug: '/6B6D29'
-last_modified: 2026-03-08
+title: 동영상 압축과 유체이탈
+date: 2019-11-06T00:00:00.000Z
+slug: /645582
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

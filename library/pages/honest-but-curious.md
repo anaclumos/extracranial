@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6E3015'
-last_modified: 2025-04-29
+slug: /6E3015
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 The term "honest-but-curious" is a security model often considered in the context of [[Federated Machine Learning|Federated Learning]] ([[Federated Machine Learning|FL]]) and cryptographic protocols like [[Secure Multi-Party Computation]] ([[Secure Multi-Party Computation|SMPC]]). In this model, participants are assumed to follow the protocol rules. Still, they are also curious to learn additional information about other participants' private data if they can do so within the confines of those rules.

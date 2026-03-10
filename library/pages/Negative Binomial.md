@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/51577A'
-last_modified: 2023-02-02
+slug: /51577A
+last_modified: 2023-02-02T00:00:00.000Z
 ---
 
 $r \geq 2$

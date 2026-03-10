@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1D2A14'
-last_modified: 2025-04-29
+slug: /1D2A14
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 | BCP 47                                         | DeepL                 | Google                             | Bing                           |

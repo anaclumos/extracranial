@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E93EEC'
-last_modified: 2025-09-04
+slug: /E93EEC
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - **`null=True`**

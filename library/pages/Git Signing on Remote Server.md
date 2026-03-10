@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7764B0'
-last_modified: 2025-05-11
+slug: /7764B0
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 `.ssh/allowed_signers`

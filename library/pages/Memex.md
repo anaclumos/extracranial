@@ -1,8 +1,8 @@
 ---
-lang: 'en'
 slug: /D8A76E
-aliases: ['메멕스']
-last_modified: 2026-01-01
+aliases:
+  - 메멕스
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

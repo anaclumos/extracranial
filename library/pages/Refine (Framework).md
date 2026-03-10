@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/64D26D'
-last_modified: 2024-02-21
+slug: /64D26D
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 ## [refinedev/refine](https://github.com/refinedev/refine): Build your React-based CRUD applications, without constraints.

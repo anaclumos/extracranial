@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4F0781'
-last_modified: 2025-09-04
+slug: /4F0781
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [Curve fitting for charts: better visualizations for Vercel Analytics - Vercel](https://vercel.com/blog/curve-fitting-for-charts-better-visualizations-for-vercel-analytics)

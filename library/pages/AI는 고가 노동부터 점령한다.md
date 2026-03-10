@@ -1,7 +1,6 @@
 ---
-slug: '/0FF73F'
-lang: 'ko'
-last_modified: 2025-09-04
+slug: /0FF73F
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[2021-08-11]]에 작성한 에세이이다.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2EEEE4'
-last_modified: 2022-12-09
+slug: /2EEEE4
+last_modified: 2022-12-09T00:00:00.000Z
 ---
 
 $d_\text{nodal}$ is the sum of:

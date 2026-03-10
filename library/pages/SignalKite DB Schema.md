@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C542CD'
-last_modified: 2025-02-05
+slug: /C542CD
+last_modified: 2025-02-05T00:00:00.000Z
 ---
 
 ```mermaid

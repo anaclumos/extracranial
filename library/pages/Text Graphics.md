@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5FB613'
-last_modified: 2023-05-26
+slug: /5FB613
+last_modified: 2023-05-26T00:00:00.000Z
 ---
 
 - [textshader](https://textshader.com/)

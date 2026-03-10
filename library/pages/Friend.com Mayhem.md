@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A58E60'
-last_modified: 2025-07-09
+slug: /A58E60
+last_modified: 2025-07-09T00:00:00.000Z
 ---
 
 [Friend](https://www.friend.com/)

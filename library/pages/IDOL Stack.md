@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/959D0A'
-last_modified: 2025-09-04
+slug: /959D0A
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [[K-Pop|Idol]] -- _Indie Developers' Opinionated Libraries_

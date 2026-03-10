@@ -1,8 +1,8 @@
 ---
-title: 'YouTube Comment Language Filter'
-date: 2020-05-11
-slug: '/4BB66F'
-last_modified: 2026-03-08
+title: YouTube Comment Language Filter
+date: 2020-05-11T00:00:00.000Z
+slug: /4BB66F
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

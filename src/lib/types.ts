@@ -7,7 +7,6 @@ interface NoteMeta {
   editUrl?: string;
   kind: NoteKind;
   lastModified?: number;
-  locale: string;
   slug: string;
   title: string;
 }

@@ -1,16 +1,13 @@
 ---
-lang: 'en'
-slug: '/8D9BEE'
+slug: /8D9BEE
 aliases:
-  [
-    '피로스와 시네아스',
-    'Pyrrhic victory',
-    '피로스의 승리',
-    'Pyrrhus and Cinéas',
-    'Pyrrhus et Cinéas',
-    'Pyrrhus et Cinéas',
-  ]
-last_modified: 2026-01-01
+  - 피로스와 시네아스
+  - Pyrrhic victory
+  - 피로스의 승리
+  - Pyrrhus and Cinéas
+  - Pyrrhus et Cinéas
+  - Pyrrhus et Cinéas
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

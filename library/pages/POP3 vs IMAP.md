@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7C11AF'
-last_modified: 2023-02-28
+slug: /7C11AF
+last_modified: 2023-02-28T00:00:00.000Z
 ---
 
 ## Post Office Protocol

@@ -1,8 +1,13 @@
 ---
-lang: 'en'
-slug: '/48E3B3'
-aliases: ['미시경제', '미시 경제', '미경', '미시경제학', '미시 경제학', '미시']
-last_modified: 2026-01-01
+slug: /48E3B3
+aliases:
+  - 미시경제
+  - 미시 경제
+  - 미경
+  - 미시경제학
+  - 미시 경제학
+  - 미시
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

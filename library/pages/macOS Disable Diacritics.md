@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F7AD20'
-last_modified: 2025-04-29
+slug: /F7AD20
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ```

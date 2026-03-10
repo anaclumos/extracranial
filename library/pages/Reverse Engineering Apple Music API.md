@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/62764C'
-last_modified: 2024-02-21
+slug: /62764C
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 As a part of [[Dynamic Island on the Web]], I reverse-engineered [[Apple Music API]] to get the undocumented Personal Token.

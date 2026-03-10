@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FFFD6F'
-last_modified: 2023-11-30
+slug: /FFFD6F
+last_modified: 2023-11-30T00:00:00.000Z
 ---
 
 TL;DR:

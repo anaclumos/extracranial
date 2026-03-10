@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6CB52C'
-last_modified: 2025-04-29
+slug: /6CB52C
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 [[Design Trend]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1EF3C1'
-last_modified: 2023-11-12
+slug: /1EF3C1
+last_modified: 2023-11-12T00:00:00.000Z
 ---
 
 - Configuring [[Jest]] for [[React Native]]

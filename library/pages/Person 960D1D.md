@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/960D1D'
-last_modified: 2025-04-29
+slug: /960D1D
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [[2023-03-03]]

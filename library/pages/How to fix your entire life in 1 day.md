@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/98FA2B'
-last_modified: 2026-01-16
+slug: /98FA2B
+last_modified: 2026-01-16T00:00:00.000Z
 ---
 
 By [DAN KOE](https://x.com/thedankoe)

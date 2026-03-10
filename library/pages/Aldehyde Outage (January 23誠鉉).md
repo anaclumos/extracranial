@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AB70E4'
-last_modified: 2025-09-04
+slug: /AB70E4
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Multiple issues are combined.

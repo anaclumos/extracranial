@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6C8C05'
-last_modified: 2025-09-04
+slug: /6C8C05
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Very impressive. Surely [[Ted Chiang]] is a genius. I especially liked **The Truth of Fact, the Truth of Feeling**.

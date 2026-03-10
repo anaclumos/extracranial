@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/66D559'
-last_modified: 2022-10-16
+slug: /66D559
+last_modified: 2022-10-16T00:00:00.000Z
 ---
 
 ### [Deno Deploy](https://deno.com/deploy)

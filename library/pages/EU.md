@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/112DCF'
-aliases: ['European Union', '유럽연합', '유럽 연합']
-last_modified: 2023-09-10
+slug: /112DCF
+aliases:
+  - European Union
+  - 유럽연합
+  - 유럽 연합
+last_modified: 2023-09-10T00:00:00.000Z
 ---
 
 EU stands for the European Union, a political and [[Economy|economic]] union of 27 member states located primarily in Europe. The EU was established on November 1, 1993, by signing the Maastricht Treaty. The association has its governance system with a European Commission, European Parliament, and a Council of the European Union.

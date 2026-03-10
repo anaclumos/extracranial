@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/451E1C'
-last_modified: 2026-01-01
+slug: /451E1C
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ## Articles

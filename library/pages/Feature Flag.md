@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/A8B9E5'
-aliases: ['Feature Flags']
-last_modified: 2023-06-15
+slug: /A8B9E5
+aliases:
+  - Feature Flags
+last_modified: 2023-06-15T00:00:00.000Z
 ---
 
 - guard rails when releasing new things.

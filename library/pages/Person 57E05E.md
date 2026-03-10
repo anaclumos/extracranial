@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
 slug: /57E05E
-last_modified: 2025-05-11
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 - Interviewed on [[2024-04-12]]

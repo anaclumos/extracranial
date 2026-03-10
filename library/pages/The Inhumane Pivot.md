@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/990A99'
-last_modified: 2026-01-03
+slug: /990A99
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 [[SIWOOO]]

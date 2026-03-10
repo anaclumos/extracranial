@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C6AD2F'
-last_modified: 2024-04-09
+slug: /C6AD2F
+last_modified: 2024-04-09T00:00:00.000Z
 ---
 
 At what specific point does the historical **Middle Ages** end? This is one of the topics that fascinated middle school student Sunghyun Cho (yeah, that's me). Let's look at the similarities between the [[Renaissance]] view of the Middle Ages and the modern view of the [[Renaissance]].

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F0B75B'
-last_modified: 2025-04-29
+slug: /F0B75B
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ### [GitHub's Missing Package Manager](https://matt-rickard.com/githubs-missing-package-manager/)

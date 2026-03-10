@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4EF9FC'
-last_modified: 2026-01-03
+slug: /4EF9FC
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 ### [Not just SVB. There have been 562 bank failures since 2000.](https://yarn.pranshum.com/banks)

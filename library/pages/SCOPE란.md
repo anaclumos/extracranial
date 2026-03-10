@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/AB1FB0'
-last_modified: 2025-05-27
+slug: /AB1FB0
+last_modified: 2025-05-27T00:00:00.000Z
 ---
 
 ## 돌연변이와 암 위험

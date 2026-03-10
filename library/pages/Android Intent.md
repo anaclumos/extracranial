@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C02643'
-last_modified: 2025-04-29
+slug: /C02643
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 In [[Android]] development, the `<intent-filter>` element in the AndroidManifest.xml file is used to specify the types of intents that a particular activity, service, or broadcast receiver can respond to. An `Intent` in [[Android]] is a messaging object that requests an action from another component. Intents can be explicit, specifying the part to start by name, or implicit, specifying the type of action to perform (and allowing the system to find an appropriate component to handle that action).

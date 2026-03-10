@@ -1,8 +1,11 @@
 ---
-lang: 'en'
-slug: '/4130FD'
-aliases: ['AI native', 'AI 네이티브', 'AI-natives', 'AI natives']
-last_modified: 2023-07-21
+slug: /4130FD
+aliases:
+  - AI native
+  - AI 네이티브
+  - AI-natives
+  - AI natives
+last_modified: 2023-07-21T00:00:00.000Z
 ---
 
 Especially with the emergence of [[ChatGPT]].

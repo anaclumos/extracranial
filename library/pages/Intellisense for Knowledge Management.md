@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/74CAF4'
-last_modified: 2023-03-01
+slug: /74CAF4
+last_modified: 2023-03-01T00:00:00.000Z
 ---
 
 - [[Intellisense]] but for Knowledge Management

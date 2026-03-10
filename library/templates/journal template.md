@@ -1,5 +1,4 @@
 ---
 date: '{{title}}'
-lang: 'ko'
-slug: '/{{title}}'
+slug: '/{{hex}}'
 ---

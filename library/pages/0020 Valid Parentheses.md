@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F5650C'
-last_modified: 2023-08-07
+slug: /F5650C
+last_modified: 2023-08-07T00:00:00.000Z
 ---
 
 Solved at: [[2022-07-10]]

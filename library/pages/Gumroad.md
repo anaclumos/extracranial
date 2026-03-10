@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1EFF7B'
-last_modified: 2025-09-04
+slug: /1EFF7B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [Reflecting on My Failure to Build a Billion-Dollar Company](https://sahillavingia.com/reflecting)

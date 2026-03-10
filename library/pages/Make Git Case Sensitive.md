@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1F9E2C'
-last_modified: 2023-05-31
+slug: /1F9E2C
+last_modified: 2023-05-31T00:00:00.000Z
 ---
 
 Make [[Git]] [[Case-Sensitivity|Case Sensitive]]

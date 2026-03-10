@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/24A042'
-last_modified: 2025-02-26
+slug: /24A042
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 [[Old Someday]] [[Project]]. You write an [[Mail|email]] in [[Markdown]]. Before sending, select one [[CSS]]. Then... it sends as a beautiful and clean [[HTML]] [[Mail|email]]!

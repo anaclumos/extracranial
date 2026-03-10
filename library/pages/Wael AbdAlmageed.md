@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7DD62C'
-last_modified: 2025-04-29
+slug: /7DD62C
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [[Researcher]] at [[University of Southern California]]

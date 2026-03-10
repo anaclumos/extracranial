@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F65967'
-last_modified: 2023-02-02
+slug: /F65967
+last_modified: 2023-02-02T00:00:00.000Z
 ---
 
 - Declarative Framework made with [[Swift]]

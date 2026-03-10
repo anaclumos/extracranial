@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/33F0DF'
-last_modified: 2023-05-26
+slug: /33F0DF
+last_modified: 2023-05-26T00:00:00.000Z
 ---
 
 "Plain Text" JSON

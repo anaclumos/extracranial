@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DDC33D'
-last_modified: 2025-09-04
+slug: /DDC33D
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [[Alternative|Alternatives]]

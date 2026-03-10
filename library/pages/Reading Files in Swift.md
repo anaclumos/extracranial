@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5DE846'
-last_modified: 2023-01-29
+slug: /5DE846
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Reading Files in [[Swift]]

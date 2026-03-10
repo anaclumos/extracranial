@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/850F83'
-last_modified: 2025-04-29
+slug: /850F83
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - Stands for **Denial of Service**

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E4817A'
-last_modified: 2026-01-01
+slug: /E4817A
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 This is a [[metapage]] for all the media I've seen, starting from Feb 2023. Just like [[Readings]]

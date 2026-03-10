@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C72FA0'
-last_modified: 2025-02-16
+slug: /C72FA0
+last_modified: 2025-02-16T00:00:00.000Z
 ---
 
 ## 2017.30

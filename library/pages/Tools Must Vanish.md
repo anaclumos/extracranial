@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/46CE89'
-aliases: ['vanish']
-last_modified: 2025-09-04
+slug: /46CE89
+aliases:
+  - vanish
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [[Powerfully Powerless Tools]]

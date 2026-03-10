@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AF4344'
-last_modified: 2023-04-19
+slug: /AF4344
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 > This is the v1.5 stable diffusion model with no modifications, just fine-tuned on images of spectrograms paired with text. Audio processing happens downstream of the model.

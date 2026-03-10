@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8C1A00'
-last_modified: 2025-09-04
+slug: /8C1A00
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 People overestimate their short-term abilities but underestimate their long-term ones, imagining they cannot improve much more. But at the same time, people believe their future selves will have everything figured out and can solve their current problems and challenges. **So why do we have two very conflicting imaginations**?

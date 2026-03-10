@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B1DFF3'
-last_modified: 2024-08-01
+slug: /B1DFF3
+last_modified: 2024-08-01T00:00:00.000Z
 ---
 
 - `[https://cho.sh/3d](/3d)`

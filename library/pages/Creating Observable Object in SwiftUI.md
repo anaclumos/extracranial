@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A62819'
-last_modified: 2023-01-29
+slug: /A62819
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Creating Observable Object in [[SwiftUI]]

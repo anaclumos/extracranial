@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9AF47D'
-last_modified: 2022-12-05
+slug: /9AF47D
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 ## Structs

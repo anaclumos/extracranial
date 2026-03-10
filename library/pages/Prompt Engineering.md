@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6246E7'
-last_modified: 2023-02-03
+slug: /6246E7
+last_modified: 2023-02-03T00:00:00.000Z
 ---
 
 - [How I Used DALL·E 2 to Generate The Logo for OctoSQL](https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F267E4'
-last_modified: 2024-08-23
+slug: /F267E4
+last_modified: 2024-08-23T00:00:00.000Z
 ---
 
 Master Master Detail is when Master is nested a lot. Naturally it results in less area for the detail. To mitigate that, we introduced foldable masters and master replacing the grandmaster, but it's not intuitive or fluid to use.

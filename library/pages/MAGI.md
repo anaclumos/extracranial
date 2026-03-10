@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/6D8C92'
-last_modified: 2025-12-31
+slug: /6D8C92
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 ![[BC77D9.png]]

@@ -1,17 +1,14 @@
 ---
-lang: 'en'
-slug: '/A8398E'
+slug: /A8398E
 aliases:
-  [
-    'iMessage Extension',
-    'iMessage Extensions',
-    'iMessage Apps',
-    '아이메시지 앱',
-    '아이메시지 익스텐션',
-    'iMessage 앱',
-    'iMessage 익스텐션',
-  ]
-last_modified: 2026-01-01
+  - iMessage Extension
+  - iMessage Extensions
+  - iMessage Apps
+  - 아이메시지 앱
+  - 아이메시지 익스텐션
+  - iMessage 앱
+  - iMessage 익스텐션
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

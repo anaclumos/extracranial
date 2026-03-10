@@ -1,7 +1,6 @@
 ---
-lang: 'en'
 slug: /431D6C
-last_modified: 2024-02-13
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 - Interviewed on [[2024-02-07]]

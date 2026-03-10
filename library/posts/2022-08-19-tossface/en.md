@@ -1,9 +1,11 @@
 ---
-title: 'Reviving Korean Emojis'
-date: 2022-08-19
-description: 'A Korean Unicorn Once Replaced All Japanese Emojis with Korean Ones. They are now back.'
-slug: '/92B47B'
-last_modified: 2026-03-08
+title: Reviving Korean Emojis
+date: 2022-08-19T00:00:00.000Z
+description: >-
+  A Korean Unicorn Once Replaced All Japanese Emojis with Korean Ones. They are
+  now back.
+slug: /DC2D42
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

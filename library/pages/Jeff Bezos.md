@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/F6BE94'
-aliases: ['Bezos', '베조스', '제프 베조스']
-last_modified: 2026-01-01
+slug: /F6BE94
+aliases:
+  - Bezos
+  - 베조스
+  - 제프 베조스
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 Jeff Bezos is an [[American]] entrepreneur, media proprietor, and investor. He is the founder, executive chairman, and former president and CEO of [[Amazon]], the world's largest [[e-commerce]] and [[cloud computing]] company. He also owns The Washington Post and founded the space exploration company Blue Origin.

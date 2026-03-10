@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/69BE1E'
-last_modified: 2025-04-29
+slug: /69BE1E
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[8766D6.png]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
 slug: /EA9F85
-last_modified: 2026-01-08
+last_modified: 2026-01-08T00:00:00.000Z
 ---
 
 CLI

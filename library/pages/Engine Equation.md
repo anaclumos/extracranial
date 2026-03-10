@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1AA7D6'
-last_modified: 2025-09-04
+slug: /1AA7D6
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 In thermodynamics, an [[engine]] is a machine that converts one or more forms of energy into mechanical force or motion. In a software context, **[[engine]]** becomes vaguer. It is simply the core component of a complex software system. For example, if some element is used for more than two programs, you can pack that component into a reusable library and call it the [[engine]] (sort of.) But can we define the [[engine]] better?

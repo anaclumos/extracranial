@@ -1,8 +1,11 @@
 ---
-lang: 'en'
-slug: '/1B4264'
-aliases: ['작지만 강력한', '소수정예', '강소', 'Hidden Champion']
-last_modified: 2025-09-04
+slug: /1B4264
+aliases:
+  - 작지만 강력한
+  - 소수정예
+  - 강소
+  - Hidden Champion
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## ...Startup

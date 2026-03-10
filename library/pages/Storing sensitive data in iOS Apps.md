@@ -1,6 +1,6 @@
 ---
-slug: '/30CC03'
-last_modified: 2025-06-24
+slug: /30CC03
+last_modified: 2025-06-24T00:00:00.000Z
 ---
 
 [[2022-04-26]]

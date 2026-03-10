@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/68ADE3'
-last_modified: 2023-02-24
+slug: /68ADE3
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 In [[Probability]],

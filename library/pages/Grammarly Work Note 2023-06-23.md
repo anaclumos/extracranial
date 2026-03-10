@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/166744'
-last_modified: 2023-06-23
+slug: /166744
+last_modified: 2023-06-23T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

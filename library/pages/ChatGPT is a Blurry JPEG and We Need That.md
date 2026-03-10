@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AC83DD'
-last_modified: 2025-09-04
+slug: /AC83DD
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[Blurry JPEG]] is a thought-provoking article by science fiction legend Ted Chang. Ted makes an interesting analogy between large-scale language models ([[LLM|LLMs]]) like [[ChatGPT]] and lossy compression algorithms like blurry JPEG images. Ted argues that [[LLM|LLMs]] provide only a superficial understanding of a topic and can ultimately hinder the pursuit of proper knowledge. **I disagree with the conclusion of this article.** We need to recognize that even blurry images have value for learning and knowledge acquisition because taking data from the real world and processing it is very time-consuming. Sometimes we need less detailed but more efficient representations to facilitate faster understanding and progress.

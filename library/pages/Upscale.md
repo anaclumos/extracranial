@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/35F4C8'
-last_modified: 2024-12-27
+slug: /35F4C8
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 <blockquote class="twitter-tweet">

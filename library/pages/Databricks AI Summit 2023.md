@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B97F69'
-last_modified: 2025-04-29
+slug: /B97F69
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [[Databricks AI Summit 2023 Databricks Session]]

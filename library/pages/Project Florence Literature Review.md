@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/EF3C79'
-last_modified: 2023-10-04
+slug: /EF3C79
+last_modified: 2023-10-04T00:00:00.000Z
 ---
 
 - [x] [[Qiang Yang et al. Federated Machine Learning Concept and Applications]]

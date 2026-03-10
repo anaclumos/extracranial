@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/F1C717'
-aliases: ['SF', 'SF Pro']
-last_modified: 2022-12-06
+slug: /F1C717
+aliases:
+  - SF
+  - SF Pro
+last_modified: 2022-12-06T00:00:00.000Z
 ---
 
 - [[Font]] by [[Apple]]

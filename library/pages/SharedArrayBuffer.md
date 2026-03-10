@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/58CA40'
-aliases: ['SAB', 'Shared Array Buffer']
-last_modified: 2023-07-06
+slug: /58CA40
+aliases:
+  - SAB
+  - Shared Array Buffer
+last_modified: 2023-07-06T00:00:00.000Z
 ---
 
 - [SharedArrayBuffer - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer)

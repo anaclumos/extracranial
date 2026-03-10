@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/778E93'
-last_modified: 2024-12-18
+slug: /778E93
+last_modified: 2024-12-18T00:00:00.000Z
 ---
 
 ## Prompt

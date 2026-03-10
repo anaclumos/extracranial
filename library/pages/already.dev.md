@@ -1,7 +1,6 @@
 ---
-lang: 'en'
 slug: /40D50A
-last_modified: 2025-02-26
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 [[Old Someday]] [[Project]]

@@ -7,10 +7,10 @@ interface NoteGraph {
   notes: Map<string, NoteSummary>;
 }
 
-const graphCache = new Map<string, Promise<NoteGraph>>();
+let graphCache: Promise<NoteGraph> | null = null;
 
-async function buildNoteGraphUncached(locale: string): Promise<NoteGraph> {
-  const allNotes = await loadAllNoteGraphNodes(locale);
+async function buildNoteGraphUncached(): Promise<NoteGraph> {
+  const allNotes = await loadAllNoteGraphNodes();
   const notes = new Map<string, NoteSummary>();
   const backlinks = new Map<string, BacklinkInfo[]>();
 
@@ -44,15 +44,14 @@ async function buildNoteGraphUncached(locale: string): Promise<NoteGraph> {
   return { notes, backlinks };
 }
 
-export function buildNoteGraph(locale = "en"): Promise<NoteGraph> {
-  const cached = graphCache.get(locale);
-  if (cached) {
-    return cached;
+export function buildNoteGraph(): Promise<NoteGraph> {
+  if (graphCache) {
+    return graphCache;
   }
-  const promise = buildNoteGraphUncached(locale).catch((error: unknown) => {
-    graphCache.delete(locale);
+  const promise = buildNoteGraphUncached().catch((error: unknown) => {
+    graphCache = null;
     throw error;
   });
-  graphCache.set(locale, promise);
+  graphCache = promise;
   return promise;
 }

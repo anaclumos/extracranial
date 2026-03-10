@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/197951'
-last_modified: 2026-01-03
+slug: /197951
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 <blockquote class="twitter-tweet">

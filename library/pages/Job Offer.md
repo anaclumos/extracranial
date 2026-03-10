@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C409AB'
-last_modified: 2025-09-04
+slug: /C409AB
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [Ten Rules for Negotiating a Job Offer](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)

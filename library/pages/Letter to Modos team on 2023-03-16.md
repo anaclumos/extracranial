@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9E7D2B'
-last_modified: 2023-07-25
+slug: /9E7D2B
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 ## A Love [[Mail|Letter]] to Modos: The E-Ink Laptop Revolutionizing Focus

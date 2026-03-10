@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2A19DD'
-last_modified: 2026-01-03
+slug: /2A19DD
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 ## What happened?

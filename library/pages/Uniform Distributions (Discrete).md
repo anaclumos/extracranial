@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9E0CB3'
-last_modified: 2025-04-29
+slug: /9E0CB3
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 In [[Probability]],

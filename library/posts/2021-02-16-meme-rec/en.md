@@ -1,8 +1,8 @@
 ---
-title: 'Building a Meme Rec App'
-date: 2021-02-16
-slug: '/7BF6C2'
-last_modified: 2026-03-08
+title: Building a Meme Rec App
+date: 2021-02-16T00:00:00.000Z
+slug: /7BF6C2
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

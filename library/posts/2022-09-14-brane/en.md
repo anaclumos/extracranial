@@ -1,9 +1,9 @@
 ---
-title: 'Web Standard Mini App Problems'
-date: 2022-09-14
-description: 'I worked as a full-time Mini App researcher intern at Karrot 🇰🇷🦄. This is what I found.'
-slug: '/A370F3'
-last_modified: 2026-03-08
+title: Web Standard Mini App Problems
+date: 2022-09-14T00:00:00.000Z
+description: "I worked as a full-time Mini App researcher intern at Karrot \U0001F1F0\U0001F1F7\U0001F984. This is what I found."
+slug: /A370F3
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

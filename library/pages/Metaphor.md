@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/F5954B'
-aliases: ['메타포']
-last_modified: 2025-04-29
+slug: /F5954B
+aliases:
+  - 메타포
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 "meta," meaning "over, across," and "phor," derived from "pherein," which means "to carry" or "to bear."

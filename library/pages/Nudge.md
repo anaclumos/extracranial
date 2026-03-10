@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DD7F2D'
-last_modified: 2026-01-01
+slug: /DD7F2D
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ![[2A7F74.png]]

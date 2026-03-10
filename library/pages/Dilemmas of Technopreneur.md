@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D18E6B'
-last_modified: 2025-09-04
+slug: /D18E6B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > If you are in a competitive [[Venture Capital|VC]]-funded space, it's foolish to compete without raising money. Don't bring a knife to a gun fight. [Andrew Wilkinson (@awilkinson)](https://twitter.com/awilkinson)

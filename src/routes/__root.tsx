@@ -5,7 +5,6 @@ import {
   Link,
   Outlet,
   Scripts,
-  useRouterState,
 } from "@tanstack/react-router";
 import { EscapeInAppBrowser } from "eiab/react";
 import { type ReactNode, Suspense } from "react";
@@ -13,7 +12,6 @@ import { PreloadErrorRecovery } from "@/components/client/preload-error-recovery
 import { MagneticCursorLazy } from "@/components/magnetic-cursor-lazy";
 import { ShellHeader } from "@/components/shell-header";
 import { I18nProvider } from "@/i18n/provider";
-import { getDirection, getLocaleFromPathname } from "@/i18n/routing";
 import { ShellThemeProvider } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
 import appCss from "../app/globals.css?url";
@@ -104,19 +102,8 @@ function RootComponent() {
 }
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
-  const pathname = useRouterState({
-    select: (state) => state.location.pathname,
-  });
-  const locale = getLocaleFromPathname(pathname);
-  const direction = getDirection(locale);
-
   return (
-    <html
-      className="h-full"
-      dir={direction}
-      lang={locale}
-      suppressHydrationWarning
-    >
+    <html className="h-full" dir="ltr" lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
       </head>
@@ -181,8 +168,7 @@ function RootNotFoundComponent() {
       action={
         <Link
           className="inline-flex items-center justify-center rounded-md border border-foreground/30 bg-transparent px-3 py-2 font-medium text-sm transition-colors hover:bg-foreground/10"
-          params={{ locale: undefined }}
-          to="/{-$locale}"
+          to="/"
         >
           Go home
         </Link>

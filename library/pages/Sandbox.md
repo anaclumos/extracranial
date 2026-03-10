@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E6DB5B'
-last_modified: 2023-07-25
+slug: /E6DB5B
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 ## sandbox attribute in iframe

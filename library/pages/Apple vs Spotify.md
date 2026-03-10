@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8EEF5A'
-last_modified: 2024-12-27
+slug: /8EEF5A
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 ## 2024

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CAD10C'
-last_modified: 2024-02-21
+slug: /CAD10C
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 HEEx stands for HTML + Embedded Elixir. It is a templating language used in the Phoenix web framework, which combines the power of Elixir with the simplicity of HTML. HEEx is an [[alternative]] to traditional HTML templates and provides a way to create reusable components using Elixir functions.

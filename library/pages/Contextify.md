@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E4EDA8'
-last_modified: 2024-07-17
+slug: /E4EDA8
+last_modified: 2024-07-17T00:00:00.000Z
 ---
 
 Useful when providing context to LLMs.

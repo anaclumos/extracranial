@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4492F2'
-last_modified: 2025-04-29
+slug: /4492F2
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[EF81EE.png]]

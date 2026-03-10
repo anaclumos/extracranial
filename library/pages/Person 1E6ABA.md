@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1E6ABA'
-last_modified: 2026-01-01
+slug: /1E6ABA
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Admonition from '@theme/Admonition';

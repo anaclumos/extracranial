@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D518B0'
-last_modified: 2023-02-09
+slug: /D518B0
+last_modified: 2023-02-09T00:00:00.000Z
 ---
 
 - [[Project]]

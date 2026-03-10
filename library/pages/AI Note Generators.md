@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DFDAE9'
-last_modified: 2025-09-04
+slug: /DFDAE9
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [[Rewind]] and [[Limitless AI]]

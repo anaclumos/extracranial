@@ -1,8 +1,7 @@
 ---
-lang: 'ko'
-slug: '/E769E5'
-title: 'ChatGPT보다 내가 나은데?'
-last_modified: 2025-04-29
+slug: /E769E5
+title: ChatGPT보다 내가 나은데?
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 [[2023-09-05]]의 생각이다.

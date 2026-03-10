@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A8D05E'
-last_modified: 2026-01-01
+slug: /A8D05E
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 This is a [[Metapage|meta-page]] that collects my to-read lists.

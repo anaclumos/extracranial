@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CC8297'
-last_modified: 2024-05-30
+slug: /CC8297
+last_modified: 2024-05-30T00:00:00.000Z
 ---
 
 - Interviewed on [[2022-09-13]]

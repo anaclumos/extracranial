@@ -1,9 +1,12 @@
 ---
-lang: 'en'
-slug: '/885578'
+slug: /885578
 aliases:
-  ['Passive Blitzsclaing', 'Active Blitzscaling', '블리츠스케일링', '패시브 블리츠스케일링', '액티브 블리츠스케일링']
-last_modified: 2026-01-01
+  - Passive Blitzsclaing
+  - Active Blitzscaling
+  - 블리츠스케일링
+  - 패시브 블리츠스케일링
+  - 액티브 블리츠스케일링
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 > Blitzscaling is what you do when you need to grow. It's the science and art of rapidly building out a company to serve a large and usually global market to become the first mover at scale. - [Blitzscaling](https://hbr.org/2016/04/blitzscaling)

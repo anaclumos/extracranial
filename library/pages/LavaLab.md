@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2055D6'
-last_modified: 2023-08-25
+slug: /2055D6
+last_modified: 2023-08-25T00:00:00.000Z
 ---
 
 - [Lavalab](https://usclavalab.org/)

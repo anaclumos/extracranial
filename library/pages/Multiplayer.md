@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D38676'
-last_modified: 2023-08-15
+slug: /D38676
+last_modified: 2023-08-15T00:00:00.000Z
 ---
 
 - [Reflect: High-performance sync for multiplayer web apps](https://reflect.net/)

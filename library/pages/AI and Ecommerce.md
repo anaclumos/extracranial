@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2D6C2E'
-last_modified: 2024-02-21
+slug: /2D6C2E
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 [[ai]] and [[e-commerce]]

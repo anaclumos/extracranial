@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/9078DC'
-last_modified: 2023-06-26
+slug: /9078DC
+last_modified: 2023-06-26T00:00:00.000Z
 ---
 
 - Interviewed on [[2023-06-23]]

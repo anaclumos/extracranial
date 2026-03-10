@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/90CAE6'
-last_modified: 2022-11-04
+slug: /90CAE6
+last_modified: 2022-11-04T00:00:00.000Z
 ---
 
 - While with logical operators, it is possible to check if a value exists or not, if a block can be anywhere, we need to search everywhere.

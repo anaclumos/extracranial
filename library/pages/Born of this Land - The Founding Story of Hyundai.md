@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9BA15D'
-last_modified: 2026-01-03
+slug: /9BA15D
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 Below is the book **Born of this Land** by Jung Joo-young. I've read the book and am just summarizing it for reference. I hope it helps you too.

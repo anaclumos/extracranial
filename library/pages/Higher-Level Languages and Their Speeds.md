@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7D1B84'
-last_modified: 2023-08-28
+slug: /7D1B84
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 - [[Python]]

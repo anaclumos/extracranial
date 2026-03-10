@@ -1,8 +1,8 @@
 ---
-title: 'The Computer Latency Calendar'
-date: 2022-04-19
-slug: '/DDA06F'
-last_modified: 2026-03-08
+title: The Computer Latency Calendar
+date: 2022-04-19T00:00:00.000Z
+slug: /DDA06F
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

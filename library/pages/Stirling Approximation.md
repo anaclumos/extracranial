@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BC8DA5'
-last_modified: 2023-02-24
+slug: /BC8DA5
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 ## Example

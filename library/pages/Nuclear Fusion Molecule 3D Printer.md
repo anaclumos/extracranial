@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/214F64'
-aliases: ['핵융합 분자프린터', '핵융합 분자 프린터']
-last_modified: 2026-01-01
+slug: /214F64
+aliases:
+  - 핵융합 분자프린터
+  - 핵융합 분자 프린터
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

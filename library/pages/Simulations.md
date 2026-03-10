@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5C9D52'
-last_modified: 2025-04-29
+slug: /5C9D52
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - Simulation Coding problem is when you do the work as-is, as given on the problem.

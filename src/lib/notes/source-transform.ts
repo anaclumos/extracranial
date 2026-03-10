@@ -5,7 +5,7 @@ const CODE_BLOCK_RE = /```[\s\S]*?```/g;
 const MARKDOWN_IMAGE_RE = /!\[([^\]]*)]\(([^)\s]+)([^)]*)\)/g;
 const MARKDOWN_LINK_RE = /(?<!!)\[([^\]]+)]\(([^)\s]+)([^)]*)\)/g;
 const NOTE_ROUTE_RE =
-  /^(?:https?:\/\/(?:www\.)?cho\.sh)?\/(?:(?:en|ko)\/)?(?:library|manifesto|r|w|research|blog|journals|pages)\/([^/?#]+)/i;
+  /^(?:https?:\/\/(?:www\.)?cho\.sh)?\/(?:library|manifesto|r|w|research|blog|journals|pages)\/([^/?#]+)/i;
 const ADMONITION_OPEN_RE = /^:::(\w+)(?:\s+(.*))?$/;
 const EXTERNAL_IMAGE_HREF_RE = /^(?:https?:|data:|#)/i;
 const EXTERNAL_LINK_HREF_RE = /^(?:https?:|mailto:|#)/i;

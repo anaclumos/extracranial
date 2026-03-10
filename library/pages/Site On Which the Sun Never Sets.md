@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D4B485'
-last_modified: 2024-07-06
+slug: /D4B485
+last_modified: 2024-07-06T00:00:00.000Z
 ---
 
 해가 지지 않는 사이트

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/39BFED'
-last_modified: 2025-04-29
+slug: /39BFED
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [[Engine Equation]] [[엔진 방정식]]

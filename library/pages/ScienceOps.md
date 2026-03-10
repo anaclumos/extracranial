@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/2DE01B'
-last_modified: 2025-04-29
+slug: /2DE01B
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 [[성현적 발상]]

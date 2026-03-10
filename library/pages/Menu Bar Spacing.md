@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/72AD93'
-last_modified: 2025-12-31
+slug: /72AD93
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]]

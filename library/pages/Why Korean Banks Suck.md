@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C8EA6C'
-last_modified: 2026-01-03
+slug: /C8EA6C
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 Banks falling behind the tech is a familiar story in the [[United States|U.S.]], But I am confident [[대한민국|Korea]] will take it to the next level. You need to install seven different programs and plugins that constantly run, slowing down your computer to check your account balance; you need to create a non-exportable digital certificate file to make any transactions.

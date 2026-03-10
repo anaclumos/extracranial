@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/2EB3BA'
-aliases: ['콜', '콜옵션', '콜 옵션']
-last_modified: 2026-01-01
+slug: /2EB3BA
+aliases:
+  - 콜
+  - 콜옵션
+  - 콜 옵션
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

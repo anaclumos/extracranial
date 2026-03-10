@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3E9BCC'
-last_modified: 2023-08-07
+slug: /3E9BCC
+last_modified: 2023-08-07T00:00:00.000Z
 ---
 
 What is the [[alternative]] to [[Adobe After Effects|After Effects]]?

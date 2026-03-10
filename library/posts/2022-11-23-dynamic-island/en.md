@@ -1,9 +1,9 @@
 ---
-date: 2022-11-23
-description: 'This is how I recreated Dynamic Island on the Web.'
-slug: '/9F7F85'
-title: 'Recreating the Dynamic Island'
-last_modified: 2026-03-08
+date: 2022-11-23T00:00:00.000Z
+description: This is how I recreated Dynamic Island on the Web.
+slug: /9F7F85
+title: Recreating the Dynamic Island
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

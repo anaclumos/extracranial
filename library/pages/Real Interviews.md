@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/654898'
-last_modified: 2023-10-26
+slug: /654898
+last_modified: 2023-10-26T00:00:00.000Z
 ---
 
 See also: [[Real Exams]]

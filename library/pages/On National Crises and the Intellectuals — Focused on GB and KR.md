@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/48A308'
-last_modified: 2026-01-03
+slug: /48A308
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 import Admonition from '@theme/Admonition';

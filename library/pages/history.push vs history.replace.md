@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7B9BB7'
-last_modified: 2025-04-29
+slug: /7B9BB7
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - `history.push` creates a new entry in the browser's history stack (allowing the user to navigate back)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FD2A0B'
-last_modified: 2025-09-04
+slug: /FD2A0B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Essay on [[2023-07-25]].

@@ -1,6 +1,6 @@
 ---
-slug: '/A11B23'
-last_modified: 2024-04-29
+slug: /A11B23
+last_modified: 2024-04-29T00:00:00.000Z
 ---
 
 [[2019-11-07]]

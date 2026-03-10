@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8C41D2'
-last_modified: 2024-02-21
+slug: /8C41D2
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 - [GitHub](https://github.com/braneproject)

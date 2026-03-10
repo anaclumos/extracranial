@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F3D96B'
-last_modified: 2026-01-03
+slug: /F3D96B
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 - [PDF](https://www.whitehouse.gov/wp-content/uploads/2022/10/Biden-Harris-Administrations-National-Security-Strategy-10.2022.pdf)

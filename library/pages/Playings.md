@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AE80A9'
-last_modified: 2026-01-01
+slug: /AE80A9
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 This is a [[metapage]] for all the media I've played, starting from Mar 2023. Just like [[Readings]] and [[Watchings]].

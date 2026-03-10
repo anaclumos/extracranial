@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/523E02'
-last_modified: 2023-06-15
+slug: /523E02
+last_modified: 2023-06-15T00:00:00.000Z
 ---
 
 ### [about nownownow.com](https://nownownow.com/about):

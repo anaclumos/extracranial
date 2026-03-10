@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5FD5B2'
-last_modified: 2025-09-04
+slug: /5FD5B2
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[Someday]] [[Project]]. A higher wrapper of the following feature.

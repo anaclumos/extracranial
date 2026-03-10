@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8794DD'
-last_modified: 2023-09-10
+slug: /8794DD
+last_modified: 2023-09-10T00:00:00.000Z
 ---
 
 - [[Musk-Twitter Incident]]

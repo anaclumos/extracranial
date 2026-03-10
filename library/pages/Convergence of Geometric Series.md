@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D300F0'
-last_modified: 2025-04-29
+slug: /D300F0
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 In [[Probability]],

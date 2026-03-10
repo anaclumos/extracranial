@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A54F58'
-last_modified: 2023-05-30
+slug: /A54F58
+last_modified: 2023-05-30T00:00:00.000Z
 ---
 
 - Fixing some things that I currently don't like about [[Docusaurus]]

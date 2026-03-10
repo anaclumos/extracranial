@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CFF630'
-last_modified: 2025-04-29
+slug: /CFF630
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Install a GitHub App to your blog repo

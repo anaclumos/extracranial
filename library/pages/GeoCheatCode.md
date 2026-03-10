@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9FB506'
-last_modified: 2023-03-31
+slug: /9FB506
+last_modified: 2023-03-31T00:00:00.000Z
 ---
 
 ### [geocheatcode](https://beauhilton.com/posts/geocheatcode.html)

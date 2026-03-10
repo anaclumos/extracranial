@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/36E401'
-last_modified: 2024-12-27
+slug: /36E401
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 iTunes was better than [[Apple Music]] in so many ways...

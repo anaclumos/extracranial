@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/D14970'
-last_modified: 2024-06-28
+slug: /D14970
+last_modified: 2024-06-28T00:00:00.000Z
 ---
 
 [onemillioncheckboxes.com](https://onemillioncheckboxes.com/)

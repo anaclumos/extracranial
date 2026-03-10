@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/13ACA9'
-last_modified: 2025-04-29
+slug: /13ACA9
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ... in the context of the "wrapper of knowledge"

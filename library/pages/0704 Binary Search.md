@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3A1093'
-last_modified: 2023-02-24
+slug: /3A1093
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 Solved at: [[2022-09-04]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C22CAE'
-last_modified: 2025-04-29
+slug: /C22CAE
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 [microsoft/guidance: A guidance language for controlling large language models.](https://github.com/microsoft/guidance)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/ED0129'
-last_modified: 2022-10-18
+slug: /ED0129
+last_modified: 2022-10-18T00:00:00.000Z
 ---
 
 - When does packet loss happen?

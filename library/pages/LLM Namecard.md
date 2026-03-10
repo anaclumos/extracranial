@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D326AB'
-last_modified: 2024-12-27
+slug: /D326AB
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 Why isn't there a namecard → LLM → Contact file (.vcf) app?

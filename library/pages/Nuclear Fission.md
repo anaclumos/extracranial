@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/13A69C'
-last_modified: 2025-09-04
+slug: /13A69C
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## [U.S. Senate passes bill to support advanced nuclear energy deployment](https://www.reuters.com/business/energy/us-senate-passes-bill-support-advanced-nuclear-energy-deployment-2024-06-19/)

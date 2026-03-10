@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/961C8F'
-last_modified: 2025-09-04
+slug: /961C8F
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[Simulated Annealing for Designs]]. [Good Design](https://shud.in/posts/good-design)

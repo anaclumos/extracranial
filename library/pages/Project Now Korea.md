@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/87173E'
-last_modified: 2026-01-01
+slug: /87173E
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ### 1.High‑level architecture

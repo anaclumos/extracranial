@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BA75CD'
-last_modified: 2023-06-30
+slug: /BA75CD
+last_modified: 2023-06-30T00:00:00.000Z
 ---
 
 - [Scaling Event Processing and Analytics in the Data Lake](https://www.grammarly.com/blog/engineering/event-store-architecture/)
