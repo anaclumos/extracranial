@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/34A4BD'
-last_modified: 2022-10-13
+slug: /34A4BD
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 > While we shape our tools, it is true that **our tools also shape us**. [Linking Your Thinking](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA).

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A3D87E'
-last_modified: 2024-02-21
+slug: /A3D87E
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 GraphQL is a query language and runtime designed to help build APIs with precise, efficient data fetching capabilities. Developed by [[Facebook]] in 2012 and open-sourced in 2015, GraphQL allows clients to define the structure of the responses they need, preventing excessive data from being returned. Here are the main features and benefits:

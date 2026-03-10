@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B77494'
-last_modified: 2026-01-03
+slug: /B77494
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 [[SIWOOO]]

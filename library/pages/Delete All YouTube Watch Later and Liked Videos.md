@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2D37B7'
-last_modified: 2026-01-01
+slug: /2D37B7
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 ![[7EA246.gif]]

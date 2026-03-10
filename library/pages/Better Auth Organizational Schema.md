@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/6AB59D'
-last_modified: 2026-01-17
+slug: /6AB59D
+last_modified: 2026-01-17T00:00:00.000Z
 ---
 
 ```mermaid

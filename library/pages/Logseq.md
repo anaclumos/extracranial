@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/476FB1'
-last_modified: 2023-03-05
+slug: /476FB1
+last_modified: 2023-03-05T00:00:00.000Z
 ---
 
 > Connected thoughts to increase understanding. Logseq is a privacy-first, open-source knowledge base that works on top of local plain-text [[Markdown]] and Org-mode files. Use it to write, organize and share your thoughts, keep your to-do list, and build your own [[digital garden]]. [Logseq](https://logseq.com/)

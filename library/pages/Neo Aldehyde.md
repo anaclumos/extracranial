@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/38DC16'
-aliases: ['Superextracranial']
-last_modified: 2025-02-26
+slug: /38DC16
+aliases:
+  - Superextracranial
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 What would the future of [[Aldehyde]] look like?

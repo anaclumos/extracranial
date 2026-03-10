@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/41A0F9'
-last_modified: 2025-04-29
+slug: /41A0F9
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 this could happen because of source site's image hot linking protection.

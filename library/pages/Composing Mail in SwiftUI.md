@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A024BB'
-last_modified: 2023-04-25
+slug: /A024BB
+last_modified: 2023-04-25T00:00:00.000Z
 ---
 
 ```swift

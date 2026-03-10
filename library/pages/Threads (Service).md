@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/B28568'
-aliases: ['Threads']
-last_modified: 2023-08-04
+slug: /B28568
+aliases:
+  - Threads
+last_modified: 2023-08-04T00:00:00.000Z
 ---
 
 Thoughts on [[2023-07-12]]

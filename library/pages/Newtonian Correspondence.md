@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/166FD1'
-last_modified: 2024-05-02
+slug: /166FD1
+last_modified: 2024-05-02T00:00:00.000Z
 ---
 
 | 2023                               | Content                                                                                                    | Social                                                                                                                                                        |

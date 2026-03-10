@@ -1,9 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
-import { locales } from "@/i18n/routing";
 
 const noteRouteLoaderInputSchema = z.object({
-  locale: z.enum(locales),
   rootSlug: z.string().trim().min(1),
   stack: z.string().optional(),
 });
@@ -15,7 +13,6 @@ export const getNoteRouteLoaderData = createServerFn({ method: "GET" })
 
     const routeData = await buildNoteRouteData({
       rootSlug: data.rootSlug,
-      locale: data.locale,
       search: { stack: data.stack },
     });
 

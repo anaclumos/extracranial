@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DA494B'
-last_modified: 2025-06-30
+slug: /DA494B
+last_modified: 2025-06-30T00:00:00.000Z
 ---
 
 ```

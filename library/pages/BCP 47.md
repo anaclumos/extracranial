@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/2BEC62'
-aliases: ['BCP47']
-last_modified: 2025-04-29
+slug: /2BEC62
+aliases:
+  - BCP47
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 An IETF BCP 47 language tag is a standardized code or tag that is used to identify human languages on the internet. The internet Engineering Task Force has standardized the tag structure in Best Current Practice 47; the IANA Language Subtag Registry maintains the subtags.

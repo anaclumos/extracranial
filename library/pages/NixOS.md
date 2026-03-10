@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/64DCA6'
-last_modified: 2025-06-15
+slug: /64DCA6
+last_modified: 2025-06-15T00:00:00.000Z
 ---
 
 My New Home

@@ -1,8 +1,8 @@
 ---
-title: '차세대 디지털 브레인 만들기'
-date: 2022-05-14
-slug: '/D8FB8E'
-last_modified: 2026-03-08
+title: 차세대 디지털 브레인 만들기
+date: 2022-05-14T00:00:00.000Z
+slug: /C24273
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

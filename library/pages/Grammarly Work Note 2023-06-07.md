@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/564602'
-last_modified: 2025-05-11
+slug: /564602
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

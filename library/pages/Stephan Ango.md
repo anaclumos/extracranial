@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/6A9784'
-aliases: ['kepano']
-last_modified: 2025-09-04
+slug: /6A9784
+aliases:
+  - kepano
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - CEO of [[Obsidian]]

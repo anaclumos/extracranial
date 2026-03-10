@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/43E68B'
-last_modified: 2022-10-18
+slug: /43E68B
+last_modified: 2022-10-18T00:00:00.000Z
 ---
 
 ## Constant Bit Rate

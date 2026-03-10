@@ -1,4 +1,3 @@
 ---
-lang: 'ko'
-slug: '{{hex}}'
+slug: '/{{hex}}'
 ---

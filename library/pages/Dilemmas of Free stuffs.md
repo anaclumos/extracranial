@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/88EA1B'
-last_modified: 2025-04-29
+slug: /88EA1B
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 I hate bullshit.

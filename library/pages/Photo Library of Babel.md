@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A1CDA4'
-last_modified: 2023-07-05
+slug: /A1CDA4
+last_modified: 2023-07-05T00:00:00.000Z
 ---
 
 [[Library of Babel]]

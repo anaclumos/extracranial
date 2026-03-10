@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/89C19F'
-last_modified: 2023-03-24
+slug: /89C19F
+last_modified: 2023-03-24T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]]. It's a symlink. [[How does File Alias work]]?

@@ -1,6 +1,6 @@
 ---
-slug: '/1C362F'
-last_modified: 2026-01-01
+slug: /1C362F
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 [[2020-04-15]]

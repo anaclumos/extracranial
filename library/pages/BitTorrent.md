@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4332D0'
-last_modified: 2025-04-08
+slug: /4332D0
+last_modified: 2025-04-08T00:00:00.000Z
 ---
 
 An unfortunate dope technology that has been stained by a bad use-case (stealing licensed products)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/22EAF0'
-last_modified: 2022-10-13
+slug: /22EAF0
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 - [[Someday]] [[Project]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B950DD'
-last_modified: 2022-10-13
+slug: /B950DD
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 Solved at: [[2022-08-26]]

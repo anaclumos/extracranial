@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BE3F13'
-last_modified: 2025-09-04
+slug: /BE3F13
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - I gotta admit, this is cool.

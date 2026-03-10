@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F94020'
-last_modified: 2025-04-29
+slug: /F94020
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 $x \in A \subset \Omega$

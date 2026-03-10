@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4460DA'
-last_modified: 2023-11-30
+slug: /4460DA
+last_modified: 2023-11-30T00:00:00.000Z
 ---
 
 1. Discussion about a new messaging app ([[Project Ganymede]])

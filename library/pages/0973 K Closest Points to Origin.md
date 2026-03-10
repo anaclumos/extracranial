@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B693C4'
-last_modified: 2025-04-29
+slug: /B693C4
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-30]]

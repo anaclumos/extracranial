@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/C80BE9'
-aliases: ['핵융합']
-last_modified: 2026-01-03
+slug: /C80BE9
+aliases:
+  - 핵융합
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 > Nuclear fusion is a reaction in which two or more atomic nuclei are combined to form one or more different atomic nuclei and subatomic particles (neutrons or protons). The difference in mass between the reactants and products is manifested as either the release or absorption of energy. This difference in group arises due to the difference in nuclear binding energy between the atomic nuclei before and after the reaction. Nuclear fusion is the process that powers active or central sequence stars and other high-magnitude stars, where large amounts of energy are released. [Nuclear fusion](https://en.wikipedia.org/wiki/Nuclear_fusion)

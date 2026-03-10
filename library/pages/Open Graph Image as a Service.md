@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2531E5'
-last_modified: 2025-02-26
+slug: /2531E5
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 [[Old Someday]] [[Project]]. Request Open Graph Images with [[URI]], `POST` payload.

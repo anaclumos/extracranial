@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/0A964E'
-last_modified: 2023-08-02
+slug: /0A964E
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 - [hex.cho.sh](https://hex.cho.sh/)

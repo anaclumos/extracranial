@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F75804'
-last_modified: 2023-04-25
+slug: /F75804
+last_modified: 2023-04-25T00:00:00.000Z
 ---
 
 - [[ChatGPT]] and [[Generative AI]] are not exactly [[Tools for Thought]] for now. However, it has the potential to be one. See [[Search AI]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/263F2E'
-last_modified: 2023-10-31
+slug: /263F2E
+last_modified: 2023-10-31T00:00:00.000Z
 ---
 
 ## [[dub.co]]

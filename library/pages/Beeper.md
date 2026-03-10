@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2DBC4A'
-last_modified: 2024-12-27
+slug: /2DBC4A
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 An [[alternative]] to [[Texts (Service)]]. A better approach with [[iMessage]], given that it logs into a server computer. But more than that...

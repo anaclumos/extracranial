@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E06055'
-last_modified: 2025-09-04
+slug: /E06055
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Some tools must choose to be dumbed down. [[PKM]] tools are one example.

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/FD1704'
-last_modified: 2026-01-29
+slug: /FD1704
+last_modified: 2026-01-29T00:00:00.000Z
 ---
 
 ```

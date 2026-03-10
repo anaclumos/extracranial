@@ -1,8 +1,8 @@
 ---
-title: 'Creating Next-gen Digital Brains'
-date: 2022-05-14
-slug: '/D8FB8E'
-last_modified: 2026-03-08
+title: Creating Next-gen Digital Brains
+date: 2022-05-14T00:00:00.000Z
+slug: /D8FB8E
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

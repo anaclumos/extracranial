@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/F177E8'
-last_modified: 2025-05-11
+slug: /F177E8
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 [[2024-03-25]]에 PS5 Slim을 샀다.

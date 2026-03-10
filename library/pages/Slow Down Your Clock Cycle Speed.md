@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DE5A56'
-last_modified: 2023-01-12
+slug: /DE5A56
+last_modified: 2023-01-12T00:00:00.000Z
 ---
 
 > In the fast-paced TikTok-like media, we don't want our brain wire to go haywire

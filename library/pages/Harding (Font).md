@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/93A9A5'
-last_modified: 2026-02-11
+slug: /93A9A5
+last_modified: 2026-02-11T00:00:00.000Z
 ---
 
 - [The design decisions behind Nature's new look](https://www.nature.com/articles/d41586-019-03083-5)

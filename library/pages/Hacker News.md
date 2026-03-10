@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/FA003B'
-aliases: ['HN']
-last_modified: 2024-02-21
+slug: /FA003B
+aliases:
+  - HN
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 [Hacker News](https://news.ycombinator.com/)

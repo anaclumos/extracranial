@@ -1,20 +1,17 @@
 ---
-lang: 'en'
-slug: '/8DC108'
+slug: /8DC108
 aliases:
-  [
-    'Raster Graphic',
-    'Raster Graphics',
-    'Bitmap Graphics',
-    'Bit Map Graphics',
-    'Bit Map',
-    'Bitmap',
-    'Rasterised',
-    'Rasterized',
-    'Bitmap Image',
-    'Bitmap Images',
-  ]
-last_modified: 2026-01-01
+  - Raster Graphic
+  - Raster Graphics
+  - Bitmap Graphics
+  - Bit Map Graphics
+  - Bit Map
+  - Bitmap
+  - Rasterised
+  - Rasterized
+  - Bitmap Image
+  - Bitmap Images
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

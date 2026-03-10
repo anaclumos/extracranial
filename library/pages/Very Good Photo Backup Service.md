@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/67A464'
-last_modified: 2025-07-01
+slug: /67A464
+last_modified: 2025-07-01T00:00:00.000Z
 ---
 
 [[Oneday]] [[Project]].

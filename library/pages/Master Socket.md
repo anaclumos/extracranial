@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9F6699'
-last_modified: 2023-02-24
+slug: /9F6699
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 - listening [[socket]]" (a.k.a. a "master [[socket]]")

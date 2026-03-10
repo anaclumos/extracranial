@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F16535'
-last_modified: 2023-07-25
+slug: /F16535
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 > Accelerationism is a range of Marxist and reactionary ideas in critical and social theory that propose that social processes, such as capitalist growth and technological change, should be drastically intensified to destabilize systems to create further radical social change referred to as "acceleration". The term also refers to the post-Marxist idea that because of capitalism's internal contradictions and instabilities which can jeopardize its growth, the abolition of the system and its class structures could be brought about by its acceleration. Various ideas, including Gilles Deleuze and Félix Guattari's idea of deterritorialization, Jean Baudrillard's proposals for "fatal [[Strategy|strategies]]", and aspects of the theoretical systems and processes developed by English philosopher and later Dark Enlightenment commentator Nick Land, are crucial influences on accelerationism, which aims to analyze and subsequently promote the social, [[Economy|economic]], cultural, and libidinal forces that constitute the process of acceleration. Accelerationism has since been taken as an ideological spectrum divided into mutually contradictory left-wing and right-wing variants. Both support the indefinite intensification of capitalism and its structures and the conditions for a technological singularity, a theoretical point where technological growth becomes uncontrollable and irreversible. [Accelerationism](https://en.wikipedia.org/wiki/Accelerationism)

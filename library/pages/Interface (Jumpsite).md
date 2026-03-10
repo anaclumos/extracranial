@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DDCF81'
-last_modified: 2022-12-18
+slug: /DDCF81
+last_modified: 2022-12-18T00:00:00.000Z
 ---
 
 - [[Jumpsite]]

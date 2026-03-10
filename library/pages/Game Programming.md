@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D6B2AF'
-last_modified: 2022-10-18
+slug: /D6B2AF
+last_modified: 2022-10-18T00:00:00.000Z
 ---
 
 ## Notes

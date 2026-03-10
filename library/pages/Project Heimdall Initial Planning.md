@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1EC9F6'
-last_modified: 2024-12-27
+slug: /1EC9F6
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 [[2023-04-19]]

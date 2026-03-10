@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F39D63'
-last_modified: 2023-01-29
+slug: /F39D63
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-28]]

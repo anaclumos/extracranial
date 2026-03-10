@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5FDA7B'
-last_modified: 2025-02-26
+slug: /5FDA7B
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 - [Chromium OS](https://www.chromium.org/chromium-os/)

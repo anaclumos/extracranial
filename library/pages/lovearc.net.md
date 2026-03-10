@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4CFF9A'
-last_modified: 2025-04-08
+slug: /4CFF9A
+last_modified: 2025-04-08T00:00:00.000Z
 ---
 
 A small [[done]] project I've done over the weekend

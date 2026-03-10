@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4E1464'
-last_modified: 2023-06-06
+slug: /4E1464
+last_modified: 2023-06-06T00:00:00.000Z
 ---
 
 ### [Igalia Brings MathML Back to Chromium](https://www.igalia.com/2023/01/10/Igalia-Brings-MathML-Back-to-Chromium.html)

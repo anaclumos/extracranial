@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/859F77'
-last_modified: 2025-06-03
+slug: /859F77
+last_modified: 2025-06-03T00:00:00.000Z
 ---
 
 - Generalized subroutine that can suspend execution at designated points and resume later while preserving local state.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FB73DE'
-last_modified: 2025-09-04
+slug: /FB73DE
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [[Bing Chat for All Browsers]]

@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/EAE738'
-last_modified: 2025-09-04
+slug: /EAE738
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[OpenAI]]가 방금 [[Generative Pre-trained Transformer|GPT]]-3.5-터보 모델을 기반으로 한 [[ChatGPT]] [[API]] 서비스를 출시했다.

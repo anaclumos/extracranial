@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/DD1F17'
-aliases: ['토스']
-last_modified: 2026-01-03
+slug: /DD1F17
+aliases:
+  - 토스
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 - [[Financial Technology|FinTech]] [[Unicorn]] of [[대한민국|Korea]].

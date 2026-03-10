@@ -1,15 +1,12 @@
 ---
-lang: 'en'
-slug: '/86587B'
+slug: /86587B
 aliases:
-  [
-    'Las Vegas Algorithms',
-    '라스 베가스 알고리즘',
-    '라스베가스 알고리즘',
-    '라스베이거스 알고리즘',
-    '라스 베이거즈 알고리즘',
-  ]
-last_modified: 2026-01-01
+  - Las Vegas Algorithms
+  - 라스 베가스 알고리즘
+  - 라스베가스 알고리즘
+  - 라스베이거스 알고리즘
+  - 라스 베이거즈 알고리즘
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

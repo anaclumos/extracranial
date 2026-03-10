@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/6B3AC8'
-aliases: ['우주의 정교한 기하학적 성질', 'exquisite geometric property of the universe']
-last_modified: 2026-01-01
+slug: /6B3AC8
+aliases:
+  - 우주의 정교한 기하학적 성질
+  - exquisite geometric property of the universe
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

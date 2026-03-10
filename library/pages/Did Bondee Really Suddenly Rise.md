@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CFEB86'
-last_modified: 2026-01-01
+slug: /CFEB86
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 Yesterday, we took a closer look into [[Bondee]]. [[Sudden Rise of Bondee]]. But did it suddenly rise?

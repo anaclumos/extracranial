@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AD2709'
-last_modified: 2022-12-05
+slug: /AD2709
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 - Arrays are row-major in C

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/56317F'
-last_modified: 2025-09-04
+slug: /56317F
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [WebGPU](https://gpuweb.github.io/gpuweb/) is a recently developed web interface that provides access to modern [[graphics]] processing unit ([[GPU]]) capabilities, such as Direct3D 12, Metal, and Vulkan, for rendering and computation tasks. Its aim is comparable to WebGL APIs, but [[WebGPU]] offers access to more advanced [[GPU]] features. **What if we could do this with [[NPU]]**? I hereby suggest a hypothetical **WebNPU** [[API]]. Think this way:

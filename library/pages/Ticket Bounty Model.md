@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/78366E'
-aliases: ['티켓 바운티 모델']
-last_modified: 2025-09-04
+slug: /78366E
+aliases:
+  - 티켓 바운티 모델
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - What if we pay devs with the number of tickets they get done?

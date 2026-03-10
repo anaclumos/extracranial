@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BF9369'
-last_modified: 2022-12-09
+slug: /BF9369
+last_modified: 2022-12-09T00:00:00.000Z
 ---
 
 **Attributions**. Much content is from [USC CS 356](https://usc-cs356.github.io/) and [Computer Systems: A Programmer's Perspective](http://csappbook.blogspot.com/).

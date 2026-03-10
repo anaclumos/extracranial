@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9E7876'
-last_modified: 2024-04-16
+slug: /9E7876
+last_modified: 2024-04-16T00:00:00.000Z
 ---
 
 An [[alternative]] approach to [[AIs.txt]], proposed by [Robert Reich](https://www.linkedin.com/in/robertreich/)

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A8E7F9'
-last_modified: 2025-12-30
+slug: /A8E7F9
+last_modified: 2025-12-30T00:00:00.000Z
 ---
 
 ## Wolfram's [[ChatGPT]] prompt

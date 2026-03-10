@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/710931'
-last_modified: 2023-04-18
+slug: /710931
+last_modified: 2023-04-18T00:00:00.000Z
 ---
 
 ![[173737.png]]

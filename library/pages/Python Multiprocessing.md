@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FC43CC'
-last_modified: 2025-05-11
+slug: /FC43CC
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 ```python

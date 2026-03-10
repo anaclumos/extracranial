@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A18D7B'
-last_modified: 2025-09-04
+slug: /A18D7B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[Design Trend]]

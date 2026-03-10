@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/70CD97'
-last_modified: 2023-04-10
+slug: /70CD97
+last_modified: 2023-04-10T00:00:00.000Z
 ---
 
 ```xml

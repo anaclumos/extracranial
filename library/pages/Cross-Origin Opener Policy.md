@@ -1,8 +1,8 @@
 ---
-lang: 'ko'
-slug: '/70114A'
-aliases: ['COOP']
-last_modified: 2023-02-21
+slug: /70114A
+aliases:
+  - COOP
+last_modified: 2023-02-21T00:00:00.000Z
 ---
 
 - See [Cross-Origin-Opener-Policy - HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy).

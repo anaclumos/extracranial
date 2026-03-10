@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1B55AE'
-last_modified: 2022-12-18
+slug: /1B55AE
+last_modified: 2022-12-18T00:00:00.000Z
 ---
 
 - Creator of [[Magician]]

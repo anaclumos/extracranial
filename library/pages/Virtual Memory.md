@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8778CD'
-last_modified: 2022-11-04
+slug: /8778CD
+last_modified: 2022-11-04T00:00:00.000Z
 ---
 
 - insulate different processes

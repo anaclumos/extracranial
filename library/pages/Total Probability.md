@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AA1394'
-last_modified: 2023-01-23
+slug: /AA1394
+last_modified: 2023-01-23T00:00:00.000Z
 ---
 
 In [[Probability]],

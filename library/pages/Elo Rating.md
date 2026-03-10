@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/88A3F5'
-last_modified: 2023-05-18
+slug: /88A3F5
+last_modified: 2023-05-18T00:00:00.000Z
 ---
 
 - [Elo Rating](https://matt-rickard.ghost.io/elo-rating/)

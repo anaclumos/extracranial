@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D8248C'
-last_modified: 2025-12-31
+slug: /D8248C
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 :::tip

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C6CFE9'
-last_modified: 2024-02-21
+slug: /C6CFE9
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 [trpc/trpc: 🧙♀ Move Fast and Break Nothing. End-to-end typesafe APIs made easy.](https://github.com/trpc/trpc)

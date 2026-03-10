@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B26538'
-last_modified: 2024-02-21
+slug: /B26538
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 ## Articles

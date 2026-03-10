@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CC756B'
-last_modified: 2023-10-04
+slug: /CC756B
+last_modified: 2023-10-04T00:00:00.000Z
 ---
 
 ## Reference

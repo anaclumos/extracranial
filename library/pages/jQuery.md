@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1EEABA'
-last_modified: 2024-02-21
+slug: /1EEABA
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 jQuery is a popular, fast, small, and feature-rich [[JavaScript]] library. It makes things like [[HTML]] document traversal and manipulation, event handling, and [[animation]] much simpler with an easy-to-use [[API]] that works across a multitude of [[Web Browser|browsers]].

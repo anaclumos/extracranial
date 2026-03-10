@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/B1CED1'
-last_modified: 2026-01-01
+slug: /B1CED1
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 [[장승]]에 대한 정보를 찾아보려고 [[Bing]] [[ChatGPT]]에 검색을 해보았다.

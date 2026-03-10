@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E1AC41'
-last_modified: 2023-03-03
+slug: /E1AC41
+last_modified: 2023-03-03T00:00:00.000Z
 ---
 
 > [[Palantir]] Foundry is an enterprise data management platform offering comprehensive tooling for working with big data. [Palantir Foundry - Digital Marketplace](https://www.digitalmarketplace.service.gov.uk/g-cloud/services/428024822967788#:~:text=Palantir%20Foundry%20is%20an%20enterprise,for%20working%20with%20big%20data.)

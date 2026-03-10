@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A6DBE3'
-last_modified: 2023-02-21
+slug: /A6DBE3
+last_modified: 2023-02-21T00:00:00.000Z
 ---
 
 - [[Assembly]]

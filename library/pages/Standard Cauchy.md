@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C63486'
-last_modified: 2023-03-07
+slug: /C63486
+last_modified: 2023-03-07T00:00:00.000Z
 ---
 
 The standard [[Cauchy]] distribution, also known as the standard Lorentzian distribution, is a special case of the [[Cauchy]] distribution with location parameter $x_0=0$ and scale parameter $\gamma=1$. The PDF of the standard [[Cauchy]] distribution is given by:

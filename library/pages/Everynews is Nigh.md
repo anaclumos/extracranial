@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/0D350E'
-last_modified: 2025-06-30
+slug: /0D350E
+last_modified: 2025-06-30T00:00:00.000Z
 ---
 
 - [ ] Handle PDF Parsing

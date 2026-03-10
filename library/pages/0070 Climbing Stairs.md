@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7D9C1D'
-last_modified: 2023-01-29
+slug: /7D9C1D
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-28]]

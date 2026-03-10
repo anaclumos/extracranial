@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/45FE18'
-last_modified: 2022-10-13
+slug: /45FE18
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 - [Debugging Programs with GDB](https://www.cs.rochester.edu/u/nelson/courses/csc_173/review/gdb.html)

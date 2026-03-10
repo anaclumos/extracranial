@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B56933'
-last_modified: 2025-04-29
+slug: /B56933
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Prior $h(\sigma) \sim \text{Beta}(\alpha, \beta)$

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A5294B'
-last_modified: 2023-02-24
+slug: /A5294B
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 - [[Blockchain]] wallets can be one potential solution

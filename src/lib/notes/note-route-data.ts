@@ -8,7 +8,6 @@ export interface NoteRouteSearchInput {
 }
 
 export interface BuildNoteRouteDataInput {
-  locale: string;
   rootSlug: string;
   search?: NoteRouteSearchInput;
 }
@@ -30,12 +29,9 @@ function normalizeStackSearch(
   return Array.isArray(stack) ? (stack[0] ?? "") : (stack ?? "");
 }
 
-function toSortedNoteSummaries(
-  notes: Map<string, NoteSummary>,
-  locale: string
-) {
+function toSortedNoteSummaries(notes: Map<string, NoteSummary>) {
   const noteSummaries = Array.from(notes.values()).map((note) => ({ ...note }));
-  const collator = new Intl.Collator(locale);
+  const collator = new Intl.Collator();
 
   noteSummaries.sort((a, b) => {
     const aTime = a.date
@@ -56,21 +52,20 @@ function toSortedNoteSummaries(
   return noteSummaries;
 }
 
-function loadStackNotes(fullStack: string[], locale: string) {
-  return Promise.all(fullStack.map((slug) => loadNote(slug, locale)));
+function loadStackNotes(fullStack: string[]) {
+  return Promise.all(fullStack.map((slug) => loadNote(slug)));
 }
 
 export async function buildNoteRouteData({
   rootSlug,
-  locale,
   search,
 }: BuildNoteRouteDataInput): Promise<NoteRouteData> {
   const additionalSlugs = parseStackString(normalizeStackSearch(search));
   const fullStack = buildFullStack(rootSlug, additionalSlugs);
 
   const [graph, stackNotes] = await Promise.all([
-    buildNoteGraph(locale),
-    loadStackNotes(fullStack, locale),
+    buildNoteGraph(),
+    loadStackNotes(fullStack),
   ]);
 
   const rootNote = graph.notes.get(rootSlug) ?? null;
@@ -93,7 +88,7 @@ export async function buildNoteRouteData({
   return {
     rootNoteExists: rootNote !== null,
     rootNote,
-    noteSummaries: toSortedNoteSummaries(graph.notes, locale),
+    noteSummaries: toSortedNoteSummaries(graph.notes),
     paneNotes,
     notes: graph.notes,
     backlinks: graph.backlinks,

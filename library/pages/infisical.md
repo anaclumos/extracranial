@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3A09D4'
-last_modified: 2026-01-21
+slug: /3A09D4
+last_modified: 2026-01-21T00:00:00.000Z
 ---
 
 ```

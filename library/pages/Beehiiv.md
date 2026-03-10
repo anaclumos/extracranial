@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/44E6DF'
-last_modified: 2024-05-02
+slug: /44E6DF
+last_modified: 2024-05-02T00:00:00.000Z
 ---
 
 ![[380540.png]]

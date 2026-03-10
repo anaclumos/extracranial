@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/B72B64'
-aliases: ['온프레미스', '온프렘']
-last_modified: 2023-06-06
+slug: /B72B64
+aliases:
+  - 온프레미스
+  - 온프렘
+last_modified: 2023-06-06T00:00:00.000Z
 ---
 
 Opposite of [[Cloud Computing]]

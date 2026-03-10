@@ -1,8 +1,12 @@
 ---
-lang: 'en'
-slug: '/E6A898'
-aliases: ['Neo-Malthusian', '네오 맬서스', '맬서스', 'Neo-Malthusian Trap', '네오 맬서스 트랩']
-last_modified: 2026-01-01
+slug: /E6A898
+aliases:
+  - Neo-Malthusian
+  - 네오 맬서스
+  - 맬서스
+  - Neo-Malthusian Trap
+  - 네오 맬서스 트랩
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

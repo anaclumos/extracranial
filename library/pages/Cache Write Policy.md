@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BCCDC0'
-last_modified: 2022-11-04
+slug: /BCCDC0
+last_modified: 2022-11-04T00:00:00.000Z
 ---
 
 In practice, use **Write Back**.

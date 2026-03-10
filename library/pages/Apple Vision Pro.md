@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AE7EF9'
-last_modified: 2025-04-29
+slug: /AE7EF9
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[52A9CC.png]]

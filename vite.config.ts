@@ -9,32 +9,8 @@ function getManualChunk(id: string) {
     return "streamdown-mermaid";
   }
 
-  if (
-    (id.includes("node_modules/remark-") &&
-      !id.includes("node_modules/remark-rehype")) ||
-    id.includes("node_modules/mdast-") ||
-    id.includes("node_modules/micromark") ||
-    id.includes("node_modules/unified/") ||
-    id.includes("node_modules/unist-") ||
-    id.includes("node_modules/vfile/") ||
-    id.includes("node_modules/remend/")
-  ) {
-    return "streamdown-remark";
-  }
-
-  if (
-    id.includes("node_modules/property-information/") ||
-    id.includes("node_modules/html-url-attributes/")
-  ) {
-    return "streamdown-dom";
-  }
-
-  if (
-    id.includes("node_modules/remark-rehype") ||
-    id.includes("node_modules/rehype-") ||
-    id.includes("node_modules/hast-")
-  ) {
-    return "streamdown-rehype";
+  if (id.includes("node_modules/remend/")) {
+    return "streamdown-remend";
   }
 
   if (id.includes("node_modules/streamdown/dist")) {

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3D6CC2'
-last_modified: 2025-07-05
+slug: /3D6CC2
+last_modified: 2025-07-05T00:00:00.000Z
 ---
 
 - https://www.reddit.com/r/indiehackers/comments/1dpnef5/350_places_to_post_your_project/

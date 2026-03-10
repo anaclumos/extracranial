@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F1A12C'
-last_modified: 2023-08-02
+slug: /F1A12C
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

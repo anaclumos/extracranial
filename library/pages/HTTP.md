@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/407AD6'
-last_modified: 2023-07-25
+slug: /407AD6
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 - Each line of the HTTP header should end in `\r\n` (`<CR><LF>`)

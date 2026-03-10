@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B73A90'
-last_modified: 2022-10-20
+slug: /B73A90
+last_modified: 2022-10-20T00:00:00.000Z
 ---
 
 - Remux means swapping the container without touching the content itself.

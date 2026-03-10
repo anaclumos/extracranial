@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/15E4C7'
-aliases: ['테라포밍']
-last_modified: 2024-01-15
+slug: /15E4C7
+aliases:
+  - 테라포밍
+last_modified: 2024-01-15T00:00:00.000Z
 ---
 
 Space terraforming makes a planet or other celestial body more hospitable for life, typically through manipulating its environment. This could involve altering the planet's atmosphere, temperature, and other factors to create conditions suitable for human habitation.

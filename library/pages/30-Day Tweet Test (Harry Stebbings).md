@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/18728A'
-last_modified: 2025-12-31
+slug: /18728A
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 | 2023                               | Content                                                                                                                                    | tweet                                                             |

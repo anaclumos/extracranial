@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C85882'
-last_modified: 2022-10-13
+slug: /C85882
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 - Tesla treats major releases differently.

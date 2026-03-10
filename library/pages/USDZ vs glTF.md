@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5FC6A9'
-last_modified: 2023-07-23
+slug: /5FC6A9
+last_modified: 2023-07-23T00:00:00.000Z
 ---
 
 [[USDZ]] and [[glTF]] are two [[3D]] file formats used for different purposes. [[USDZ]] is a subset of USD, created by Pixar and operated by [[Apple]] for [[iOS]] [[Augmented Reality]] applications. It is a zip file with USD and image files. [[glTF]] is a transmission format for [[3D]] assets well suited to the web and mobile devices. It removes unimportant data for efficient support display and employs compression algorithms to reduce file size.

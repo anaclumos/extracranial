@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D22464'
-last_modified: 2023-08-03
+slug: /D22464
+last_modified: 2023-08-03T00:00:00.000Z
 ---
 
 ## Interviewer

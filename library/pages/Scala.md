@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/370C8D'
-last_modified: 2025-04-29
+slug: /370C8D
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Scala is a general-purpose, high-level, multi-paradigm programming language. It's a statically typed language that includes features of functional programming and object-oriented programming. Scala stands for "Scalable Language". Its source code is compiled into bytecode and executed by the [[JVM|Java virtual machine]] ([[JVM]]).

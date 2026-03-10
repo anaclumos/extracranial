@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E77CE1'
-last_modified: 2023-04-28
+slug: /E77CE1
+last_modified: 2023-04-28T00:00:00.000Z
 ---
 
 In [[Probability]],

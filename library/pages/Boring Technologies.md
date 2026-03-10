@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/B8D890'
-aliases: ['overengineer', 'over-engineer']
-last_modified: 2025-09-04
+slug: /B8D890
+aliases:
+  - overengineer
+  - over-engineer
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[IDOL Stack]]

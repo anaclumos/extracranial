@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/708AFC'
-last_modified: 2025-04-29
+slug: /708AFC
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 $\mathbb{E}[aX+b] = a\mathbb{E}[X] + b$

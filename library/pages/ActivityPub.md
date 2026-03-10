@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E6F15C'
-last_modified: 2024-02-21
+slug: /E6F15C
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 - Decentralized Social Media Protocol.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2ADF58'
-last_modified: 2026-01-29
+slug: /2ADF58
+last_modified: 2026-01-29T00:00:00.000Z
 ---
 
 A toy project!

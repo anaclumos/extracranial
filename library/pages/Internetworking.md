@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6605BD'
-last_modified: 2023-04-28
+slug: /6605BD
+last_modified: 2023-04-28T00:00:00.000Z
 ---
 
 ## Notes

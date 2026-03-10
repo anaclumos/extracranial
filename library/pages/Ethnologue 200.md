@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8C04B8'
-last_modified: 2023-07-25
+slug: /8C04B8
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 The [Ethnologue 200](https://www.ethnologue.com/insights/ethnologue200/) is a list that accounts for most of the world's population, as it includes the top 200 languages spoken globally. Over 88% of people say one of these languages is their native tongue, and many hundreds of millions more speak them as second languages. This ranking takes into account both primary and [[Foreign Language|secondary language]] speakers, showing the total usage worldwide.

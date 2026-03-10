@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1BCB46'
-last_modified: 2023-07-06
+slug: /1BCB46
+last_modified: 2023-07-06T00:00:00.000Z
 ---
 
 ## Example References

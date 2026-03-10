@@ -6,22 +6,8 @@ import {
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Logo } from "@/components/brand/logo";
 import { Button } from "@/components/ui/button";
-import {
-  Select,
-  SelectItem,
-  SelectPopup,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { useLocaleNavigation } from "@/i18n/navigation";
-import { useLocale, useTranslations } from "@/i18n/provider";
-import { type Locale, locales } from "@/i18n/routing";
+import { useTranslations } from "@/i18n/provider";
 import { useShellTheme } from "@/lib/shell-theme";
-
-const localeLabels: Record<Locale, string> = {
-  en: "English",
-  ko: "한국어",
-};
 
 const themeIcons = {
   light: Sun01Icon,
@@ -32,10 +18,7 @@ const themeIcons = {
 const themeOrder = ["light", "dark", "system"] as const;
 
 export function ShellHeader() {
-  const locale = useLocale();
-  const tLanguage = useTranslations("languageSwitcher");
   const tTheme = useTranslations("theme");
-  const { switchLocale } = useLocaleNavigation();
   const { theme, setTheme } = useShellTheme();
 
   const toggleTheme = () => {
@@ -52,25 +35,6 @@ export function ShellHeader() {
         </div>
 
         <div className="flex items-center gap-2">
-          <Select
-            onValueChange={(value) => switchLocale(value as Locale)}
-            value={locale}
-          >
-            <SelectTrigger
-              aria-label={tLanguage("selectLanguage")}
-              className="h-8 min-w-24 px-2 text-xs"
-              size="sm"
-            >
-              <SelectValue />
-            </SelectTrigger>
-            <SelectPopup>
-              {locales.map((loc) => (
-                <SelectItem key={loc} value={loc}>
-                  {localeLabels[loc]}
-                </SelectItem>
-              ))}
-            </SelectPopup>
-          </Select>
           <Button
             className="gap-2"
             onClick={toggleTheme}

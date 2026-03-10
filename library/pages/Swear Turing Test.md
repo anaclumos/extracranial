@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/15670E'
-last_modified: 2024-12-27
+slug: /15670E
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 <blockquote class="twitter-tweet">

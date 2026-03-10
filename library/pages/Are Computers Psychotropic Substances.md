@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A4F1DE'
-last_modified: 2025-09-04
+slug: /A4F1DE
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 There's nothing new about **[[digital addiction]]** or **information addiction**. Still, millions suffer from those disorders; even I am not free from them. Maybe it's time to switch tactics, to define computers as psychotropic substances. The California Rules of Court defines such substances as:

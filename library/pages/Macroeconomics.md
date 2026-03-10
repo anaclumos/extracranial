@@ -1,8 +1,13 @@
 ---
-lang: 'en'
-slug: '/ECCCA7'
-aliases: ['거시경제', '거경', '거시경제학', '거시 경제학', '거시 경제', '거시']
-last_modified: 2026-01-01
+slug: /ECCCA7
+aliases:
+  - 거시경제
+  - 거경
+  - 거시경제학
+  - 거시 경제학
+  - 거시 경제
+  - 거시
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

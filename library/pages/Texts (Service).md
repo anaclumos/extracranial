@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/395057'
-last_modified: 2026-01-03
+slug: /395057
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 Potential [[Super App]] for the [[United States]]. [[Super App is a Universal Chat App]]

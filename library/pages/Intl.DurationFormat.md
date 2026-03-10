@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/C08C99'
-last_modified: 2025-05-11
+slug: /C08C99
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 ![[783741.png]]

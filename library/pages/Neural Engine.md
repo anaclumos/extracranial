@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/26FA6B'
-last_modified: 2023-04-19
+slug: /26FA6B
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 ### [hollance/neural-engine: Everything we know about the Apple Neural Engine (ANE)](https://github.com/hollance/neural-engine)

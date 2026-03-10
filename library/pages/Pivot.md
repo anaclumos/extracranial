@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/757F5D'
-aliases: ['피봇', '피보팅']
-last_modified: 2023-06-26
+slug: /757F5D
+aliases:
+  - 피봇
+  - 피보팅
+last_modified: 2023-06-26T00:00:00.000Z
 ---
 
 In startup companies, a pivot refers to a significant change in [[strategy]] or direction.

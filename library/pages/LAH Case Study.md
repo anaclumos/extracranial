@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/FAF64D'
-last_modified: 2025-05-11
+slug: /FAF64D
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 ![[784BE1.png]]

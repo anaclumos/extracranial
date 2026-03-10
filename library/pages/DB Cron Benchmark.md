@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9D0248'
-last_modified: 2025-02-26
+slug: /9D0248
+last_modified: 2025-02-26T00:00:00.000Z
 ---
 
 This is my go-to prompt for benchmarking whether an AI is smart or not.

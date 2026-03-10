@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E6D1EA'
-last_modified: 2025-09-04
+slug: /E6D1EA
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## 1. [[Stable Alternative]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/679DEB'
-last_modified: 2023-04-25
+slug: /679DEB
+last_modified: 2023-04-25T00:00:00.000Z
 ---
 
 > Notion is a [[project]] management and note-taking software platform designed to help members of companies or organizations coordinate deadlines, objectives, and assignments for greater efficiency and productivity. [Notion (productivity software)](<https://en.wikipedia.org/wiki/Notion_(productivity_software)>)

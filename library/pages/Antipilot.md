@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D91B80'
-last_modified: 2024-03-02
+slug: /D91B80
+last_modified: 2024-03-02T00:00:00.000Z
 ---
 
 Copilot but instead of giving you the code block, gives you step-by-step instructions

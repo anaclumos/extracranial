@@ -1,8 +1,8 @@
 ---
-lang: 'ko'
-slug: '/CD8BED'
-aliases: ['크래프톤 웨이']
-last_modified: 2026-01-03
+slug: /CD8BED
+aliases:
+  - 크래프톤 웨이
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 본문 발췌 및 재해석, 요약됨

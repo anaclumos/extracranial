@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/E6A68E'
-aliases: ['Move Fast']
-last_modified: 2026-01-03
+slug: /E6A68E
+aliases:
+  - Move Fast
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

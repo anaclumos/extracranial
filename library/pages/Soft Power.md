@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7FD8B9'
-last_modified: 2024-02-13
+slug: /7FD8B9
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 - [[효과적 가속주의]]

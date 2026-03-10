@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A22BF7'
-last_modified: 2022-12-05
+slug: /A22BF7
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 What if stale [[HTML]] elements can have some neat features?

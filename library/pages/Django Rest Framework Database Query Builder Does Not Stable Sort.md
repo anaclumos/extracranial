@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/88C7D8'
-last_modified: 2026-01-01
+slug: /88C7D8
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 A [[말도 안 되는 버그|stupid bug]] on [[2024-08-09]] something that I expected so naturally that took me hours to find out.

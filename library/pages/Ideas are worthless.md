@@ -1,10 +1,9 @@
 ---
-lang: 'en'
 slug: /65A667
 aliases:
   - 아이디어는 가치가 없다
   - 정보의 존재보다 실체의 발현
-last_modified: 2026-01-01
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

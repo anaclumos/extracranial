@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BDC078'
-last_modified: 2023-02-24
+slug: /BDC078
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 ### [Use.GPU Docs - Intro](https://usegpu.live/)

@@ -1,8 +1,8 @@
 ---
-title: 'First week at Karrot'
-date: 2022-05-27
-slug: '/98410A'
-last_modified: 2026-03-08
+title: First week at Karrot
+date: 2022-05-27T00:00:00.000Z
+slug: /98410A
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

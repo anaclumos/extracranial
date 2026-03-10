@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BEF810'
-last_modified: 2023-05-05
+slug: /BEF810
+last_modified: 2023-05-05T00:00:00.000Z
 ---
 
 ### [The Architecture of Mastodon](https://matt-rickard.ghost.io/the-architecture-of-mastodon/)

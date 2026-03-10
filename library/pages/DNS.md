@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BB07BF'
-last_modified: 2023-11-12
+slug: /BB07BF
+last_modified: 2023-11-12T00:00:00.000Z
 ---
 
 When navigating to www.amazon.com, the client asks

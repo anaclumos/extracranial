@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/10D264'
-last_modified: 2025-04-29
+slug: /10D264
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[529EA6.png]]

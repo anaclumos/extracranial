@@ -1,8 +1,4 @@
-import { useRouterState } from "@tanstack/react-router";
-import { createContext, type ReactNode, useContext, useMemo } from "react";
-import enMessages from "../../messages/en.json";
-import koMessages from "../../messages/ko.json";
-import { getLocaleFromPathname, type Locale } from "./routing";
+import { createContext, type ReactNode, useContext } from "react";
 
 interface MessageDictionary {
   [key: string]: string | MessageDictionary;
@@ -10,13 +6,42 @@ interface MessageDictionary {
 type TranslationValues = Record<string, string | number>;
 type TranslationFunction = (key: string, values?: TranslationValues) => string;
 
-const messagesByLocale: Record<Locale, MessageDictionary> = {
-  en: enMessages as MessageDictionary,
-  ko: koMessages as MessageDictionary,
+const messages: MessageDictionary = {
+  allNotes: {
+    blogOnly: "Blog",
+    blogOnlyToggle: "Show blog posts only",
+    currentlyOpen: "Currently Open at Position {position}",
+    noteCount: "{count} Notes",
+    title: "All Notes",
+  },
+  backlinks: {
+    plural: "{count} Notes Link Here",
+    singular: "{count} Notes Link Here",
+  },
+  common: {
+    close: "Close",
+    loading: "Loading Research...",
+    opensInNewTab: "Opens in a New Tab",
+    remove: "Remove",
+  },
+  notePane: {
+    closeNote: "Close {title}",
+    editOnGitHub: "Edit on GitHub",
+    expand: "Expand Workspace",
+    expandNote: "Explore {title}",
+  },
+  theme: {
+    dark: "Dark",
+    light: "Light",
+    system: "System",
+    toggle: "Change Theme",
+  },
+  mobileCarousel: {
+    goToNote: "Go to Note {position}: {title}",
+  },
 };
 
 interface I18nContextValue {
-  locale: Locale;
   messages: MessageDictionary;
   t: TranslationFunction;
 }
@@ -50,33 +75,23 @@ function formatMessage(template: string, values?: TranslationValues): string {
 }
 
 export function I18nProvider({ children }: Readonly<{ children: ReactNode }>) {
-  const pathname = useRouterState({
-    select: (state) => state.location.pathname,
-  });
+  const value: I18nContextValue = {
+    messages,
+    t: (key, values) => {
+      const message = getNestedMessage(messages, key);
 
-  const value = useMemo<I18nContextValue>(() => {
-    const locale = getLocaleFromPathname(pathname);
-    const messages = messagesByLocale[locale];
+      if (typeof message !== "string") {
+        return key;
+      }
 
-    return {
-      locale,
-      messages,
-      t: (key, values) => {
-        const message = getNestedMessage(messages, key);
-
-        if (typeof message !== "string") {
-          return key;
-        }
-
-        return formatMessage(message, values);
-      },
-    };
-  }, [pathname]);
+      return formatMessage(message, values);
+    },
+  };
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }
 
-function useI18nContext(): I18nContextValue {
+function useI18nContext() {
   const context = useContext(I18nContext);
 
   if (!context) {
@@ -84,10 +99,6 @@ function useI18nContext(): I18nContextValue {
   }
 
   return context;
-}
-
-export function useLocale(): Locale {
-  return useI18nContext().locale;
 }
 
 export function useMessages(): MessageDictionary {

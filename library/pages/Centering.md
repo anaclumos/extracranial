@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/36CA8C'
-last_modified: 2026-01-01
+slug: /36CA8C
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 - [Hardest Problem in Computer Science: Centering Things @ tonsky.me](https://tonsky.me/blog/centering/)

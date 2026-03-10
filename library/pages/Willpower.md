@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/121E0E'
-last_modified: 2025-09-04
+slug: /121E0E
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Our scarcest resource is willpower...

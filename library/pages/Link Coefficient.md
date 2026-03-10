@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AC990C'
-last_modified: 2023-06-02
+slug: /AC990C
+last_modified: 2023-06-02T00:00:00.000Z
 ---
 
 Given a [[database]], how interconnected is the [[database]]?

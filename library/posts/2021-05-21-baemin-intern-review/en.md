@@ -1,8 +1,8 @@
 ---
-title: 'Woowa Tech Camp 3rd Review'
-date: 2021-05-21
-slug: '/E2CAE4'
-last_modified: 2026-03-08
+title: Woowa Tech Camp 3rd Review
+date: 2021-05-21T00:00:00.000Z
+slug: /E2CAE4
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

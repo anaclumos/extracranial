@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5F1646'
-last_modified: 2026-01-01
+slug: /5F1646
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 - [Block](https://block.xyz/)

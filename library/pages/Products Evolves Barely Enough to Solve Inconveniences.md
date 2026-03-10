@@ -1,8 +1,11 @@
 ---
-lang: 'en'
-slug: '/7AB0BD'
-aliases: ['제품의 과적합', '제품 과적합', '과적합', 'Product Overfitting']
-last_modified: 2026-01-01
+slug: /7AB0BD
+aliases:
+  - 제품의 과적합
+  - 제품 과적합
+  - 과적합
+  - Product Overfitting
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

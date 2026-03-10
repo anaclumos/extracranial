@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/322CE5'
-last_modified: 2023-02-24
+slug: /322CE5
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 Solved at: [[2022-07-10]]

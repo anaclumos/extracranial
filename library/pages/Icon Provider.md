@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/861603'
-last_modified: 2026-01-12
+slug: /861603
+last_modified: 2026-01-12T00:00:00.000Z
 ---
 
 - [IconBrew - Open source icons for everyone](https://iconbrew.com/)

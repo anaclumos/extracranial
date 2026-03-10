@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F415A9'
-last_modified: 2023-08-28
+slug: /F415A9
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 Two types.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C99B48'
-last_modified: 2023-03-07
+slug: /C99B48
+last_modified: 2023-03-07T00:00:00.000Z
 ---
 
 The limit of a function $f$ at $x_0$ is $L$ iff ${\lim\limits_{x \to x_0}} f (x) = L$ iff

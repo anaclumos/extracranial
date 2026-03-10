@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/81E60A'
-last_modified: 2025-04-29
+slug: /81E60A
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - The Dream Machine (M. Mitchell Waldrop)

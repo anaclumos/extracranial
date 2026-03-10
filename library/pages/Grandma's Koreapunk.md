@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3289E5'
-last_modified: 2025-09-04
+slug: /3289E5
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [[2024-05-23]] Essay.

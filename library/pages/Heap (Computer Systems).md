@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F03966'
-last_modified: 2023-07-21
+slug: /F03966
+last_modified: 2023-07-21T00:00:00.000Z
 ---
 
 A heap is a region of memory that is dynamically allocated during runtime. This means that a heap is used to store objects created at runtime instead of objects stored on the stack, which are created and destroyed automatically as the program runs. Heaps are often used to store things that need to be accessed by multiple parts of a program or entities that need to be allocated and freed at different points in time.

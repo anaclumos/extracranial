@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4F4D93'
-last_modified: 2023-04-19
+slug: /4F4D93
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 A competitor to [[Bing Chat for All Browsers]].

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/CD4F4A'
-last_modified: 2022-12-04
+slug: /CD4F4A
+last_modified: 2022-12-04T00:00:00.000Z
 ---
 
 - synchronous system calls

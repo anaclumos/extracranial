@@ -1,8 +1,7 @@
 ---
-lang: 'en'
-slug: '/AADB27'
+slug: /AADB27
 title: 'Project: Day One Exodus'
-last_modified: 2025-09-04
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Day One has stalled since the [[Automattic]]'s acquisition.

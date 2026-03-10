@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/93024C'
-last_modified: 2023-02-02
+slug: /93024C
+last_modified: 2023-02-02T00:00:00.000Z
 ---
 
 ## Redirect in [[Cloudflare]]

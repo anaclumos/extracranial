@@ -1,8 +1,8 @@
 ---
-title: '컴퓨터 지연 시간 달력'
-date: 2022-04-19
-slug: '/DDA06F'
-last_modified: 2026-03-08
+title: 컴퓨터 지연 시간 달력
+date: 2022-04-19T00:00:00.000Z
+slug: /5957C7
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F9F706'
-last_modified: 2024-12-27
+slug: /F9F706
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 - [[Project]]

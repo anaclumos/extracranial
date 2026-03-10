@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/B03E94'
-aliases: ['데이터 중 정보']
-last_modified: 2023-10-04
+slug: /B03E94
+aliases:
+  - 데이터 중 정보
+last_modified: 2023-10-04T00:00:00.000Z
 ---
 
 - Data: Simple 0s and 1s.

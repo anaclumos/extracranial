@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BD5933'
-last_modified: 2023-08-02
+slug: /BD5933
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 - [[Mail|Email]] is the _the-most-successful-decentralized_ (to an extent) communication protocol

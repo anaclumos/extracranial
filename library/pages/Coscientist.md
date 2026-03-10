@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6975BA'
-last_modified: 2025-05-29
+slug: /6975BA
+last_modified: 2025-05-29T00:00:00.000Z
 ---
 
 A multi-agent large-language-model system that functions as a virtual research collaborator.

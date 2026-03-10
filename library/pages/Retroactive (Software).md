@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1755CB'
-last_modified: 2023-08-02
+slug: /1755CB
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 Installing iTunes (again) on modern computers

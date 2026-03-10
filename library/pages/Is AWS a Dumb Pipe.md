@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/32C1A4'
-last_modified: 2023-07-23
+slug: /32C1A4
+last_modified: 2023-07-23T00:00:00.000Z
 ---
 
 ### [AWS is Not a Dumb Pipe](https://matt-rickard.com/aws-is-not-a-dumb-pipe)

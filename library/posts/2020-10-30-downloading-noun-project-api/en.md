@@ -1,8 +1,8 @@
 ---
-title: 'Crawling with APIs'
-date: 2020-10-30
-slug: '/589DF4'
-last_modified: 2026-03-08
+title: Crawling with APIs
+date: 2020-10-30T00:00:00.000Z
+slug: /589DF4
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

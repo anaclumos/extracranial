@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B0B9FF'
-last_modified: 2025-09-04
+slug: /B0B9FF
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ## Newsletter

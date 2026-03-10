@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E203C9'
-last_modified: 2023-08-28
+slug: /E203C9
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 ## Science is not Technology and vice versa

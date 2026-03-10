@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3E779E'
-last_modified: 2023-07-17
+slug: /3E779E
+last_modified: 2023-07-17T00:00:00.000Z
 ---
 
 ...Server. opposite of [[Microservices Architecture|MSA]]

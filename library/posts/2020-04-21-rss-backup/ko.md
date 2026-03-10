@@ -1,8 +1,8 @@
 ---
-title: 'RSS로 한 번에 백업하기'
-date: 2020-04-21
-slug: '/21E029'
-last_modified: 2026-03-08
+title: RSS로 한 번에 백업하기
+date: 2020-04-21T00:00:00.000Z
+slug: /00A68C
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

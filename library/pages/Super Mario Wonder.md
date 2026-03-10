@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/95AE0A'
-last_modified: 2025-04-29
+slug: /95AE0A
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[3BB27E.jpg]]

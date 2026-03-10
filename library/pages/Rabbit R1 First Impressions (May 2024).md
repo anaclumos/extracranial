@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/24B784'
-last_modified: 2024-05-03
+slug: /24B784
+last_modified: 2024-05-03T00:00:00.000Z
 ---
 
 [[2024-05-03]]

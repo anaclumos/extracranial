@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2990CC'
-last_modified: 2022-12-04
+slug: /2990CC
+last_modified: 2022-12-04T00:00:00.000Z
 ---
 
 - a file descriptor, used in Unix/Linux, is simply an integer

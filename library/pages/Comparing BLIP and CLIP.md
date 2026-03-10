@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DEAF41'
-last_modified: 2025-04-29
+slug: /DEAF41
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 ![[87640C.png]]

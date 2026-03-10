@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8DB7E6'
-last_modified: 2026-01-03
+slug: /8DB7E6
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 - [[성현적 발상]]

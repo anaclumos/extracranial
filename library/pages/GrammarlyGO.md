@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D92A3A'
-last_modified: 2026-01-01
+slug: /D92A3A
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 GrammarlyGO is a suite of [[generative AI]] capabilities from [[Grammarly]]. It considers your context, preferences, and goals to instantly generate high-quality drafts, outlines, replies, and revisions.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/581B69'
-last_modified: 2025-07-06
+slug: /581B69
+last_modified: 2025-07-06T00:00:00.000Z
 ---
 
 [[Old Someday]] [[Project]]

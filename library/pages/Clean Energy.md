@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2C8D2A'
-last_modified: 2023-02-08
+slug: /2C8D2A
+last_modified: 2023-02-08T00:00:00.000Z
 ---
 
 - [[Solar]]

@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/D7EC42'
-aliases: ['광합성 인간']
-last_modified: 2026-01-01
+slug: /D7EC42
+aliases:
+  - 광합성 인간
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

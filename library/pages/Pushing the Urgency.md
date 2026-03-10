@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/594E4A'
-last_modified: 2025-04-29
+slug: /594E4A
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 > One problem he's seen with young CEOs: "They just think, 'I hire a bunch of people, and then I sit back and wait for greatness.' They have no idea that they have to relentlessly drive every second of the day, every interaction, and seek the confrontation," Slootman told the No Priors podcast in an episode posted Thursday.

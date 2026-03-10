@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/FC0D3A'
-last_modified: 2025-12-31
+slug: /FC0D3A
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 :::warning

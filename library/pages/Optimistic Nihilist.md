@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1F9808'
-last_modified: 2025-09-04
+slug: /1F9808
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Life is a peculiar thing. We are born into a world we did not choose, and we exist for a brief period before we return to the void from which we came. Many of us spend our lives searching for meaning and purpose, hoping to make sense of this absurd existence we find ourselves in. But what if everything we do is ultimately pointless in the grand scheme of things?

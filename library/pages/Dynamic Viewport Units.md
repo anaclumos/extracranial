@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B4413D'
-last_modified: 2024-08-23
+slug: /B4413D
+last_modified: 2024-08-23T00:00:00.000Z
 ---
 
 ### [The large, small, and dynamic viewport units](https://web.dev/viewport-units/)

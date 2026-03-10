@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8EA0CD'
-last_modified: 2023-07-06
+slug: /8EA0CD
+last_modified: 2023-07-06T00:00:00.000Z
 ---
 
 ## Virtual Address Space

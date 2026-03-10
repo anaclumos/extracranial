@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BB5C13'
-last_modified: 2025-05-29
+slug: /BB5C13
+last_modified: 2025-05-29T00:00:00.000Z
 ---
 
 Positional encoding augments token embeddings with information about their order so a model that uses only attention can distinguish sequence positions.

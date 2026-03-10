@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/17D18B'
-last_modified: 2023-08-02
+slug: /17D18B
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

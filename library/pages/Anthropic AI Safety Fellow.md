@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/CF3DAC'
-last_modified: 2026-01-14
+slug: /CF3DAC
+last_modified: 2026-01-14T00:00:00.000Z
 ---
 
 ## Why are you interested in participating in the Fellows program?

@@ -1,6 +1,9 @@
 ---
-lang: 'en'
-slug: '/EA877E'
-aliases: ['코어 ML', '코어ML', 'CoreML']
-last_modified: 2025-04-29
+slug: /EA877E
+aliases:
+  - 코어 ML
+  - 코어ML
+  - CoreML
+last_modified: 2025-04-29T00:00:00.000Z
 ---
+

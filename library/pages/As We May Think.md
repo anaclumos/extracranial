@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/141C90'
-last_modified: 2025-09-04
+slug: /141C90
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - Original Text @ [The Atlantic](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)

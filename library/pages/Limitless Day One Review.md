@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/A418D6'
-last_modified: 2025-09-04
+slug: /A418D6
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 [twitter.com/anaclumos/status/1780033289992204540](https://twitter.com/anaclumos/status/1780033289992204540)

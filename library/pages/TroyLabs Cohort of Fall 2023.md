@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6A8C64'
-last_modified: 2024-05-02
+slug: /6A8C64
+last_modified: 2024-05-02T00:00:00.000Z
 ---
 
 ## UpDonor

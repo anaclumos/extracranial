@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E4C6F6'
-last_modified: 2023-04-10
+slug: /E4C6F6
+last_modified: 2023-04-10T00:00:00.000Z
 ---
 
 - [[Bing Chat]] for all [[Web Browser|browser]]

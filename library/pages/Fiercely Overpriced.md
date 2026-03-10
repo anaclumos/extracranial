@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/72B85F'
-aliases: ['paywall', 'paywalled']
-last_modified: 2023-08-07
+slug: /72B85F
+aliases:
+  - paywall
+  - paywalled
+last_modified: 2023-08-07T00:00:00.000Z
 ---
 
 An idea suggested on [[2022-07-14]] that all inventions should be _fiercely overpriced_.

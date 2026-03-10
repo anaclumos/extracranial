@@ -1,8 +1,12 @@
 ---
-lang: 'en'
-slug: '/9B00D1'
-aliases: ['파이어폭스', '불여우', 'FF', '🔥🦊', '❤🔥']
-last_modified: 2023-07-06
+slug: /9B00D1
+aliases:
+  - 파이어폭스
+  - 불여우
+  - FF
+  - "\U0001F525\U0001F98A"
+  - "❤\U0001F525"
+last_modified: 2023-07-06T00:00:00.000Z
 ---
 
 ## Some quick hacks

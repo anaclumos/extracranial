@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/27880D'
-last_modified: 2024-08-23
+slug: /27880D
+last_modified: 2024-08-23T00:00:00.000Z
 ---
 
 - ex-[[Apple]] [[UI and UX|UI]]-Kit developer

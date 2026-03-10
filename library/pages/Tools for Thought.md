@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/872B83'
-aliases: ['사고 도구']
-last_modified: 2023-08-28
+slug: /872B83
+aliases:
+  - 사고 도구
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 ## Types

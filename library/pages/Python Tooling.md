@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/670AA0'
-last_modified: 2024-07-29
+slug: /670AA0
+last_modified: 2024-07-29T00:00:00.000Z
 ---
 
 ## Creating New Environment

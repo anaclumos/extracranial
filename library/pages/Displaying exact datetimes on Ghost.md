@@ -1,6 +1,6 @@
 ---
-slug: '/522AED'
-last_modified: 2024-04-29
+slug: /522AED
+last_modified: 2024-04-29T00:00:00.000Z
 ---
 
 [[2020-04-26]]

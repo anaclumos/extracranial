@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C7113C'
-last_modified: 2025-09-04
+slug: /C7113C
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - Original Text: [How to Build Software like an SRE](https://www.willett.io/posts/precepts/)

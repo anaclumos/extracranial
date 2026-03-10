@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D976F4'
-last_modified: 2025-05-02
+slug: /D976F4
+last_modified: 2025-05-02T00:00:00.000Z
 ---
 
 ## Sandbox vs Test

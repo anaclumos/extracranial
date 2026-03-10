@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/D38E36'
-aliases: ['메타버스']
-last_modified: 2024-07-05
+slug: /D38E36
+aliases:
+  - 메타버스
+last_modified: 2024-07-05T00:00:00.000Z
 ---
 
 Universe about Universe

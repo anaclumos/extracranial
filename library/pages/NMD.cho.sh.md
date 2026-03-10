@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/671D08'
-last_modified: 2024-12-27
+slug: /671D08
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 Mobile-Desktop optimized **Master Detail View** (Like iPhone-iPad)

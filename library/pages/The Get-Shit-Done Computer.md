@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5714DA'
-last_modified: 2026-01-05
+slug: /5714DA
+last_modified: 2026-01-05T00:00:00.000Z
 ---
 
 I've tried 3 months hard, to use my Framework Computer.

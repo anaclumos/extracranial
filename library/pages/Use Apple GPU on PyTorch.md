@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/37C60E'
-last_modified: 2024-02-13
+slug: /37C60E
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]].

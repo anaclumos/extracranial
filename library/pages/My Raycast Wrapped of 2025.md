@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/F5B82E'
-last_modified: 2026-01-08
+slug: /F5B82E
+last_modified: 2026-01-08T00:00:00.000Z
 ---
 
 - [[Raycast]]

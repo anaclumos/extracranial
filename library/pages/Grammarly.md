@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8481ED'
-last_modified: 2026-01-12
+slug: /8481ED
+last_modified: 2026-01-12T00:00:00.000Z
 ---
 
 - Company

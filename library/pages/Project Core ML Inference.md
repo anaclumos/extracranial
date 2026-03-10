@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5E2A4E'
-last_modified: 2025-09-04
+slug: /5E2A4E
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 Source: [Apple AI Interview Questions -- Acing the AI Interview](https://medium.com/acing-ai/apple-ai-interview-questions-acing-the-ai-interview-803a65b0e795)

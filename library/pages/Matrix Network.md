@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/EEDB6C'
-aliases: ['Matrix']
-last_modified: 2023-08-04
+slug: /EEDB6C
+aliases:
+  - Matrix
+last_modified: 2023-08-04T00:00:00.000Z
 ---
 
 I always wanted to create a social group for my core audience, but Discord was too sassy...

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/31A35D'
-last_modified: 2023-05-24
+slug: /31A35D
+last_modified: 2023-05-24T00:00:00.000Z
 ---
 
 ### [[Search in a Latent Space]]

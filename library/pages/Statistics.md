@@ -1,5 +1,5 @@
 ---
-lang: 'en'
-slug: '/7EDC4D'
-last_modified: 2025-04-29
+slug: /7EDC4D
+last_modified: 2025-04-29T00:00:00.000Z
 ---
+

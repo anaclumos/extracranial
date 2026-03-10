@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/75B627'
-last_modified: 2025-02-27
+slug: /75B627
+last_modified: 2025-02-27T00:00:00.000Z
 ---
 
 - [[Bento Grid]]

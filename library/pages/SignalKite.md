@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/85C9FC'
-last_modified: 2024-12-10
+slug: /85C9FC
+last_modified: 2024-12-10T00:00:00.000Z
 ---
 
 Project Heimdall failed because of its languid pace.

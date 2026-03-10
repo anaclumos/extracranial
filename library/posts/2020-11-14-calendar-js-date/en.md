@@ -1,8 +1,8 @@
 ---
-title: 'Creating Calendar in JavaScript'
-date: 2020-11-14
-slug: '/F522B3'
-last_modified: 2026-03-08
+title: Creating Calendar in JavaScript
+date: 2020-11-14T00:00:00.000Z
+slug: /F522B3
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

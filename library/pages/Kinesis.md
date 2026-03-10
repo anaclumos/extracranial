@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7914AC'
-last_modified: 2023-07-17
+slug: /7914AC
+last_modified: 2023-07-17T00:00:00.000Z
 ---
 
 [[Amazon]] Kinesis is a fully managed service that makes it easy to process and analyze streaming data at any scale. With Kinesis, you can ingest real-time data, such as video, audio, application logs, website clickstreams, and IoT telemetry data, for [[ML|machine learning]], analytics, and other applications.

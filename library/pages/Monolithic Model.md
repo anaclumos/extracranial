@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E99A6B'
-last_modified: 2022-10-13
+slug: /E99A6B
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 ```

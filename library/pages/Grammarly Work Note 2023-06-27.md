@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1CEE67'
-last_modified: 2025-04-29
+slug: /1CEE67
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - [[Grammarly]] [[Work Note]] [[2023-06-27]]

@@ -1,7 +1,7 @@
 import { Resvg } from "@resvg/resvg-js";
 import { createElement } from "react";
 import satori from "satori";
-import { getFontsForLocale } from "@/lib/og/fonts";
+import { getFonts } from "@/lib/og/fonts";
 import { OGTemplate } from "./og-template";
 
 const OG_WIDTH = 2400;
@@ -10,13 +10,11 @@ const OG_HEIGHT = 1260;
 export async function generateOGImage({
   title,
   description,
-  locale,
 }: {
   title: string;
   description?: string;
-  locale: string;
 }) {
-  const fonts = await getFontsForLocale(locale);
+  const fonts = await getFonts();
   const fontFamily =
     [...new Set(fonts.map((font) => `"${font.name}"`))].join(", ") ||
     '"Pretendard"';

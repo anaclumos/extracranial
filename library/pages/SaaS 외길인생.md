@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/FAB79A'
-last_modified: 2025-04-29
+slug: /FAB79A
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 오늘 내가 인터널툴/SaaS 외길 인생이라는 것을 알게 되었다.

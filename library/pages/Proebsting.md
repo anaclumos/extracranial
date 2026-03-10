@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D508E4'
-last_modified: 2025-04-29
+slug: /D508E4
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 > I claim the following simple experiment supports this depressing claim. Run your favorite set of benchmarks with your favorite state-of-the-art optimizing compiler. Then, run the models both with and without optimizations enabled. The ratio of those numbers represents the entirety of the contribution of compiler optimizations to speeding up those benchmarks. Let's assume that this ratio is about 4X for typical real-world applications, and let's further think that compiler optimization work has been going on for nearly 36 years. These assumptions conclude that compiler optimization advances double computing power every 18 years. QED.

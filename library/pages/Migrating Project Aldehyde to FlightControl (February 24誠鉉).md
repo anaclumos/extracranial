@@ -1,7 +1,6 @@
 ---
-lang: 'en'
 slug: /CF7070
-last_modified: 2026-01-01
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 I migrated my website, [[Aldehyde]] (part of Project [[Extracranial]]), to [[FlightControl]].

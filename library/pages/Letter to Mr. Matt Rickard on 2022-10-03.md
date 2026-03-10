@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D2DFA4'
-last_modified: 2024-02-21
+slug: /D2DFA4
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 - [[Mail|Letter]] to Mr. [[Matt Rickard]] on 2022-10-03

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4733B8'
-last_modified: 2023-09-14
+slug: /4733B8
+last_modified: 2023-09-14T00:00:00.000Z
 ---
 
 Suppose

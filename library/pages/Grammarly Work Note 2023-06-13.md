@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/820313'
-last_modified: 2023-06-27
+slug: /820313
+last_modified: 2023-06-27T00:00:00.000Z
 ---
 
 [[Grammarly Work Note]]

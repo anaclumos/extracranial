@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DC60F1'
-last_modified: 2024-06-19
+slug: /DC60F1
+last_modified: 2024-06-19T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]]. Add this to `~/.zshrc` or anything equivalent.

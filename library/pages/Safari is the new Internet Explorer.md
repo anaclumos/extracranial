@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/283EAF'
-last_modified: 2023-02-26
+slug: /283EAF
+last_modified: 2023-02-26T00:00:00.000Z
 ---
 
 ### [Apple Safari browser might become the new Internet Explorer • The Register](https://www.theregister.com/2021/10/22/safari_risks_becoming_the_new_ie/)

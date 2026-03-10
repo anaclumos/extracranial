@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/585E5B'
-last_modified: 2025-09-04
+slug: /585E5B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 > **SHAP (Shapley Additive Explanations)** is a game theoretic approach to explain the output of any [[ML|machine learning]] model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see [papers](https://github.com/slundberg/shap#citations) for details and citations). [Welcome to the SHAP documentation -- SHAP latest documentation](https://shap.readthedocs.io/en/latest/)

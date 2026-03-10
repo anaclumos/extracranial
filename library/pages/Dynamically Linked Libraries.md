@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/588956'
-aliases: ['DLL']
-last_modified: 2022-12-09
+slug: /588956
+aliases:
+  - DLL
+last_modified: 2022-12-09T00:00:00.000Z
 ---
 
 - also known as DLL

@@ -1,9 +1,9 @@
 ---
-date: 2022-11-23
-description: '웹 기술로 다이나믹 아일랜드를 재현하기 위해 힘쓴 기록'
-slug: '/9F7F85'
-title: '웹으로 빚은 다이나믹 아일랜드'
-last_modified: 2026-03-08
+date: 2022-11-23T00:00:00.000Z
+description: 웹 기술로 다이나믹 아일랜드를 재현하기 위해 힘쓴 기록
+slug: /BB3E15
+title: 웹으로 빚은 다이나믹 아일랜드
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->

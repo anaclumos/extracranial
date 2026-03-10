@@ -1,3 +1,6 @@
+---
+slug: /F72D52
+---
 Below is a structured set of question ideas tailored to the new features you've described, while incorporating product-management best practices. You'll notice each section addresses the key points of **first impressions, satisfaction, usage patterns, and open-ended improvement ideas.**
 
 ---

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4448DA'
-last_modified: 2023-01-29
+slug: /4448DA
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 [![GitHub deployments](https://img.shields.io/github/deployments/anaclumos/extracranial/production?color=%23000000&label=Vercel&logo=Vercel&logoColor=white&style=flat)](https://vercel.com/anaclumos/extracranial)

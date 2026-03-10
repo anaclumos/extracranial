@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/2880B0'
-last_modified: 2023-11-14
+slug: /2880B0
+last_modified: 2023-11-14T00:00:00.000Z
 ---
 
 Prisma is an open-source [[database]] toolkit developed to make it easier to work with databases in modern applications.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/517401'
-last_modified: 2023-09-27
+slug: /517401
+last_modified: 2023-09-27T00:00:00.000Z
 ---
 
 $\sigma_{xy} = \mathbb{E}[XY] - \mathbb{E}[X] \mathbb{E}[Y]$ where $\mathbb{E}[XY]$ is the correlation.

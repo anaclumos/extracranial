@@ -1,8 +1,13 @@
 ---
-lang: 'ko'
-slug: '/E16E88'
-aliases: ['메트로펑크', '씨티펑크', '시티펑크', '어반펑크', 'CityPunk', 'UrbanPunk']
-last_modified: 2026-01-01
+slug: /E16E88
+aliases:
+  - 메트로펑크
+  - 씨티펑크
+  - 시티펑크
+  - 어반펑크
+  - CityPunk
+  - UrbanPunk
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 [[성현적 발상]]

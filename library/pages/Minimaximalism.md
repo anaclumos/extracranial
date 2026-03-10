@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5B5595'
-last_modified: 2022-10-13
+slug: /5B5595
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 It's minimalism, but those minimal tools should be maximized.

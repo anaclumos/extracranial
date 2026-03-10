@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E61CEF'
-last_modified: 2024-02-21
+slug: /E61CEF
+last_modified: 2024-02-21T00:00:00.000Z
 ---
 
 Solved at: [[2023-01-28]]

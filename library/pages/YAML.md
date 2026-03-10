@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/70E791'
-last_modified: 2023-02-24
+slug: /70E791
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 > YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications storing or transmitting data. [YAML](https://en.wikipedia.org/wiki/YAML)

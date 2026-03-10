@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B12B00'
-last_modified: 2023-08-28
+slug: /B12B00
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 - why isn't there a good mac screen recording app with audio?

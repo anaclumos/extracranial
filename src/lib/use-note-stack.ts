@@ -1,10 +1,9 @@
 "use client";
 
-import { useNavigate } from "@tanstack/react-router";
+import { useLocation, useNavigate } from "@tanstack/react-router";
 import { useCallback, useMemo, useRef, useTransition } from "react";
-import { buildLocalePathname, usePathname } from "@/i18n/navigation";
-import { getLocaleFromPathname } from "@/i18n/routing";
-import { Route as LocaleRoute } from "@/routes/{-$locale}";
+import { buildNoteHref } from "@/lib/note-links";
+import { Route as NoteRoute } from "@/routes/$slug";
 import {
   parseNoteStackSearch,
   toNoteStackSearchParams,
@@ -17,10 +16,9 @@ import {
 } from "./stores/stack-utils";
 
 export function useNoteStack(rootSlug: string) {
-  const pathname = usePathname();
-  const locale = useMemo(() => getLocaleFromPathname(pathname), [pathname]);
-  const navigate = useNavigate({ from: LocaleRoute.fullPath });
-  const rawSearch = LocaleRoute.useSearch();
+  const location = useLocation();
+  const navigate = useNavigate({ from: NoteRoute.fullPath });
+  const rawSearch = NoteRoute.useSearch();
   const [isPending, startTransition] = useTransition();
   const urlState = useMemo(() => {
     return parseNoteStackSearch(rawSearch as Record<string, unknown>);
@@ -32,7 +30,7 @@ export function useNoteStack(rootSlug: string) {
       options?: { scroll?: boolean }
     ) => {
       navigate({
-        to: pathname,
+        to: location.pathname,
         replace: true,
         resetScroll: options?.scroll === false ? false : undefined,
         search: (prev: Record<string, unknown>) => {
@@ -66,15 +64,10 @@ export function useNoteStack(rootSlug: string) {
         },
       });
     },
-    [navigate, pathname]
+    [location.pathname, navigate]
   );
 
-  const buildNotePath = useCallback(
-    (slug: string) => {
-      return buildLocalePathname(`/${slug}`, locale);
-    },
-    [locale]
-  );
+  const buildNotePath = useCallback((slug: string) => buildNoteHref(slug), []);
 
   const stack = useMemo(
     () => buildFullStack(rootSlug, urlState.stack),

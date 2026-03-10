@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3664E7'
-last_modified: 2023-01-29
+slug: /3664E7
+last_modified: 2023-01-29T00:00:00.000Z
 ---
 
 Using System Haptics and Sounds in [[Swift]]

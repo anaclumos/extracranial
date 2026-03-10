@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/94F92F'
-last_modified: 2026-02-23
+slug: /94F92F
+last_modified: 2026-02-23T00:00:00.000Z
 ---
 
 - [[ChatGPT]] [[Prompt]]

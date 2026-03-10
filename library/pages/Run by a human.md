@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/4B647E'
-last_modified: 2024-08-09
+slug: /4B647E
+last_modified: 2024-08-09T00:00:00.000Z
 ---
 
 [[SignalKite]]

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E39879'
-last_modified: 2024-12-18
+slug: /E39879
+last_modified: 2024-12-18T00:00:00.000Z
 ---
 
 ```

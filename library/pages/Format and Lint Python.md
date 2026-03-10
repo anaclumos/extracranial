@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B9A8BA'
-last_modified: 2025-05-09
+slug: /B9A8BA
+last_modified: 2025-05-09T00:00:00.000Z
 ---
 
 ```

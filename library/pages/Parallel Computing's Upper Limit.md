@@ -1,8 +1,7 @@
 ---
-lang: 'en'
-slug: '/8A9CFC'
-title: "Parallel Computing's Upper Limit"
-last_modified: 2026-01-03
+slug: /8A9CFC
+title: Parallel Computing's Upper Limit
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 [[SIWOOO]]

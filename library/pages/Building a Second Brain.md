@@ -1,6 +1,6 @@
 ---
-slug: '/6AE59D'
-last_modified: 2023-08-18
+slug: /6AE59D
+last_modified: 2023-08-18T00:00:00.000Z
 ---
 
 ISBN13: 9781982167387

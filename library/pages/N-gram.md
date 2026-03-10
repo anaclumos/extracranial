@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/5B9D3A'
-aliases: ['N-grams', 'Ngram']
-last_modified: 2025-04-29
+slug: /5B9D3A
+aliases:
+  - N-grams
+  - Ngram
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 An N-gram is a contiguous sequence of _n_ items from a given sample of text or speech. For example, [[natural language processing]] ([[Natural Language Processing|NLP]]) is often used for tasks such as text prediction, spelling correction, speech recognition, and [[language]] modeling.

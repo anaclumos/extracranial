@@ -1,20 +1,17 @@
 ---
-lang: 'en'
-slug: '/CBB403'
+slug: /CBB403
 aliases:
-  [
-    '경제적 발전',
-    '경제 발전',
-    '경제 성장',
-    '경제적 발전',
-    '경제적 성장',
-    '경제 개발',
-    '경제개발',
-    '경제발전',
-    '경제성장',
-    'economic growth',
-  ]
-last_modified: 2026-01-01
+  - 경제적 발전
+  - 경제 발전
+  - 경제 성장
+  - 경제적 발전
+  - 경제적 성장
+  - 경제 개발
+  - 경제개발
+  - 경제발전
+  - 경제성장
+  - economic growth
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

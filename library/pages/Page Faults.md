@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BEE2D2'
-last_modified: 2023-05-11
+slug: /BEE2D2
+last_modified: 2023-05-11T00:00:00.000Z
 ---
 
 - when page is not present

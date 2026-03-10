@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F16ADE'
-last_modified: 2025-06-24
+slug: /F16ADE
+last_modified: 2025-06-24T00:00:00.000Z
 ---
 
 This guide provides instructions for accessing a Jupyter Notebook on a remote server and configuring a GPU for machine learning tasks using TensorFlow and [[PyTorch]].

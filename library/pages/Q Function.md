@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B4CD83'
-last_modified: 2023-07-19
+slug: /B4CD83
+last_modified: 2023-07-19T00:00:00.000Z
 ---
 
 In [[probability]] theory and [[statistics]], the Q function is the tail [[probability]] of the [[standard normal]] [[distribution]], also known as the complementary cumulative [[distribution]] function (CCDF) of the [[standard normal]] [[distribution]]. The Q function is defined as:

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/245AA4'
-last_modified: 2022-12-19
+slug: /245AA4
+last_modified: 2022-12-19T00:00:00.000Z
 ---
 
 - Unsplash [[CELLO]]

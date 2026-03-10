@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FBA8E3'
-last_modified: 2026-01-29
+slug: /FBA8E3
+last_modified: 2026-01-29T00:00:00.000Z
 ---
 
 ## 2026

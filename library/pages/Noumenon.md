@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/64CF02'
-aliases: ['물자체', 'thing-in-itself']
-last_modified: 2022-11-23
+slug: /64CF02
+aliases:
+  - 물자체
+  - thing-in-itself
+last_modified: 2022-11-23T00:00:00.000Z
 ---
 
 물자체. Thing-in-itself.

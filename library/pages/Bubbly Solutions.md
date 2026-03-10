@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8A6451'
-last_modified: 2026-01-03
+slug: /8A6451
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 [[SIWOOO]]

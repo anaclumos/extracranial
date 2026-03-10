@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C885AA'
-last_modified: 2022-12-05
+slug: /C885AA
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 - [[Computer Systems]]

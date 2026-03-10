@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D0C604'
-last_modified: 2023-08-28
+slug: /D0C604
+last_modified: 2023-08-28T00:00:00.000Z
 ---
 
 ![[FD1ABE.png]]

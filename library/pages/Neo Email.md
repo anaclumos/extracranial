@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/994348'
-last_modified: 2023-03-03
+slug: /994348
+last_modified: 2023-03-03T00:00:00.000Z
 ---
 
 - [[Neo]] [[Mail|Email]]

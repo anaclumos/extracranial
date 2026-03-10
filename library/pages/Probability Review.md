@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BA45A9'
-last_modified: 2023-04-27
+slug: /BA45A9
+last_modified: 2023-04-27T00:00:00.000Z
 ---
 
 ## Logic Table

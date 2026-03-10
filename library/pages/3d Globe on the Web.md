@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/432EF8'
-last_modified: 2023-02-03
+slug: /432EF8
+last_modified: 2023-02-03T00:00:00.000Z
 ---
 
 ## Articles

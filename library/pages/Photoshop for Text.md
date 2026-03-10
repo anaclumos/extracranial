@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/AE916E'
-last_modified: 2025-09-04
+slug: /AE916E
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ### [Photoshop for text](https://stephanango.com/photoshop-for-text) -- [[Stephan Ango]]

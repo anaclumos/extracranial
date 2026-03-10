@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/1F25A6'
-last_modified: 2023-05-11
+slug: /1F25A6
+last_modified: 2023-05-11T00:00:00.000Z
 ---
 
 - get ideas from your life

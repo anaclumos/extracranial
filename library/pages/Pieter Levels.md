@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/29E1BD'
-last_modified: 2023-08-15
+slug: /29E1BD
+last_modified: 2023-08-15T00:00:00.000Z
 ---
 
 - [[FIRE Engine]]

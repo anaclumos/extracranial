@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/8AE8DF'
-aliases: ['프리텐다드']
-last_modified: 2023-07-25
+slug: /8AE8DF
+aliases:
+  - 프리텐다드
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 ![[C42C4E.png]]

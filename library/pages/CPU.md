@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/F2202E'
-aliases: ['CPUs']
-last_modified: 2023-02-18
+slug: /F2202E
+aliases:
+  - CPUs
+last_modified: 2023-02-18T00:00:00.000Z
 ---
 
 > A central processing unit, also called a central processor, main processor, or just processor, is the electronic circuitry that executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output operations specified by the instructions in the program. [CPU](https://en.wikipedia.org/wiki/Central_processing_unit)

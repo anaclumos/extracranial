@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/19871A'
-aliases: ['DRF']
-last_modified: 2024-06-24
+slug: /19871A
+aliases:
+  - DRF
+last_modified: 2024-06-24T00:00:00.000Z
 ---
 
 Django REST Framework (DRF) is a powerful and flexible toolkit for building Web APIs using the Django web framework. It is built on top of Django and provides a set of tools, classes, and functionalities to simplify the creation of RESTful APIs.

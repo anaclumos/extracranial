@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D3342A'
-last_modified: 2023-08-18
+slug: /D3342A
+last_modified: 2023-08-18T00:00:00.000Z
 ---
 
 **Twitter's Missing Search [[Engine]]**.

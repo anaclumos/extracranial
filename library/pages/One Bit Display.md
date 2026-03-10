@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/38FBB3'
-last_modified: 2025-09-04
+slug: /38FBB3
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 - [[Dither]]

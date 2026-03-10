@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/390026'
-last_modified: 2025-05-13
+slug: /390026
+last_modified: 2025-05-13T00:00:00.000Z
 ---
 
 ```

@@ -1,8 +1,12 @@
 ---
-lang: 'en'
-slug: '/BC5754'
-aliases: ['Hash Maps', 'HashMap', 'HashMaps', '해시맵', '해시 맵']
-last_modified: 2026-01-01
+slug: /BC5754
+aliases:
+  - Hash Maps
+  - HashMap
+  - HashMaps
+  - 해시맵
+  - 해시 맵
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

@@ -1,9 +1,9 @@
 ---
-lang: 'en'
 slug: /69794B
-aliases: ['PIRI']
-title: 'Project PIRI 🪈: Programmatic Interlingual Resource Integration'
-last_modified: 2026-01-01
+aliases:
+  - PIRI
+title: "Project PIRI \U0001FA88: Programmatic Interlingual Resource Integration"
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Admonition from '@theme/Admonition';

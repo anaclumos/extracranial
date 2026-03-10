@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/FDF7F6'
-last_modified: 2025-05-07
+slug: /FDF7F6
+last_modified: 2025-05-07T00:00:00.000Z
 ---
 
 1. Open Command Palette (`Ctrl + Shift + P`) → **Preferences: Open Settings (UI)**.

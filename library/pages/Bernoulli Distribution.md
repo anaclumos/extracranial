@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5CFA0D'
-last_modified: 2023-06-26
+slug: /5CFA0D
+last_modified: 2023-06-26T00:00:00.000Z
 ---
 
 In [[Probability]],

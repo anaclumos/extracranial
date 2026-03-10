@@ -1,5 +1,4 @@
 ---
-lang: 'en'
 slug: /FFF058
 aliases:
   - 경제
@@ -8,7 +7,7 @@ aliases:
   - economics
   - 경제학
   - 경제학자
-last_modified: 2026-01-01
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 import Tabs from '@theme/Tabs'

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E688AF'
-last_modified: 2025-05-11
+slug: /E688AF
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 - [[Hashflags]] for the web

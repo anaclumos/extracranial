@@ -1,6 +1,6 @@
 ---
-slug: '/ACC7AB'
-last_modified: 2023-08-02
+slug: /ACC7AB
+last_modified: 2023-08-02T00:00:00.000Z
 ---
 
 [[2022-04-18]]

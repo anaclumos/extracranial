@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/341AD9'
-last_modified: 2025-09-04
+slug: /341AD9
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 An approach for startups. Aggregate all data into one place--the [[Super App]] approach.

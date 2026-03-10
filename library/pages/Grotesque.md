@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5046CC'
-last_modified: 2023-02-27
+slug: /5046CC
+last_modified: 2023-02-27T00:00:00.000Z
 ---
 
 > Grotesque typefaces are sans serif typefaces that originate in the nineteenth century. There is some degree of contrast between thick and thin strokes. The terminals of curves are usually horizontal, and the [[Font|typeface]] frequently has a spurred "G" and an "R" with a curled leg. According to Monotype, "grotesque" originates from Italian: garottes, meaning "belonging to the cave" due to their simple geometric appearance. The term arose because of unfavorable comparisons drawn with the more ornate Modern Serif and Roman typefaces that were the norm at the time. Examples of grotesque lineal typefaces include Headline, Monotype 215, and Grot no. 6.[

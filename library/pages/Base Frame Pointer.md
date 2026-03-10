@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/81AD46'
-last_modified: 2023-04-27
+slug: /81AD46
+last_modified: 2023-04-27T00:00:00.000Z
 ---
 
 - [[Computer Systems]]

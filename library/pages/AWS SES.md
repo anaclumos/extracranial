@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/C6DD8E'
-last_modified: 2023-07-05
+slug: /C6DD8E
+last_modified: 2023-07-05T00:00:00.000Z
 ---
 
 AWS SES, or Amazon Simple [[Mail|Email]] Service, is a cloud-based [[Mail|email]]-sending service designed to help digital marketers and application developers send marketing, notification, and transactional [[Mail|emails]]. It is a reliable, cost-effective service for businesses of all sizes that use [[Mail|email]] to keep in contact with their customers.

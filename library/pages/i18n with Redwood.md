@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/F980C8'
-last_modified: 2023-07-25
+slug: /F980C8
+last_modified: 2023-07-25T00:00:00.000Z
 ---
 
 This is an opinionated guide of implementing [[Internationalization]] with [[Redwood.js]]

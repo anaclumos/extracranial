@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B5FC98'
-last_modified: 2023-07-23
+slug: /B5FC98
+last_modified: 2023-07-23T00:00:00.000Z
 ---
 
 ```bash

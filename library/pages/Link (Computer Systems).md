@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/FC49CE'
-aliases: ['Linker']
-last_modified: 2023-07-06
+slug: /FC49CE
+aliases:
+  - Linker
+last_modified: 2023-07-06T00:00:00.000Z
 ---
 
 - in object code, all referenced memories are left empty `0`.

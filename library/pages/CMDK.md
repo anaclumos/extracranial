@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/9D1F64'
-last_modified: 2024-12-27
+slug: /9D1F64
+last_modified: 2024-12-27T00:00:00.000Z
 ---
 
 <blockquote class="twitter-tweet">

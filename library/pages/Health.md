@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/3B23E0'
-last_modified: 2025-05-11
+slug: /3B23E0
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 ## [미래에셋 박현주 회장](https://www.facebook.com/parktaeyoung/posts/pfbid02SmKBBAVkYfPEEtFBoA8zvpznR3VeXf1paV9F99VZnBbvsGVh8DYSqQkB4SY1Qu6Cl)

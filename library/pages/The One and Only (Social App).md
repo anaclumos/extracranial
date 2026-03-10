@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/43A06F'
-last_modified: 2023-05-03
+slug: /43A06F
+last_modified: 2023-05-03T00:00:00.000Z
 ---
 
 [[Someday]] [[Project]]. Ideated during [[Person 648442]]

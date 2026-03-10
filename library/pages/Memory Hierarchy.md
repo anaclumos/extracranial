@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B793D1'
-last_modified: 2026-01-03
+slug: /B793D1
+last_modified: 2026-01-03T00:00:00.000Z
 ---
 
 - [[Computer Systems]]

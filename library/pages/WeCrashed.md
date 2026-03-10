@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8FF07A'
-last_modified: 2022-10-13
+slug: /8FF07A
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 > I'm not looking to change the world. I just want to provide a good service at a fair price and know my employees' names.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/561193'
-last_modified: 2023-11-10
+slug: /561193
+last_modified: 2023-11-10T00:00:00.000Z
 ---
 
 [[Project]] to prepare for my [[Grammarly Experimentations Team]] team employment.

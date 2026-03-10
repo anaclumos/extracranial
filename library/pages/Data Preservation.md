@@ -1,8 +1,12 @@
 ---
-lang: 'en'
-slug: '/F0576B'
-aliases: ['archive', 'archivism', 'archivist', 'Preservation of Data', 'Preservation']
-last_modified: 2026-01-01
+slug: /F0576B
+aliases:
+  - archive
+  - archivism
+  - archivist
+  - Preservation of Data
+  - Preservation
+last_modified: 2026-01-01T00:00:00.000Z
 ---
 
 - An important concept for [[Memex]] and [[Extracranial]]

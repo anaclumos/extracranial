@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/BA8918'
-last_modified: 2022-12-18
+slug: /BA8918
+last_modified: 2022-12-18T00:00:00.000Z
 ---
 
 - [[Data Science]] [[Collaboration-based Tools for Thought]].

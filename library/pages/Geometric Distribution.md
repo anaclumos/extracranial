@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/E412DA'
-last_modified: 2023-04-19
+slug: /E412DA
+last_modified: 2023-04-19T00:00:00.000Z
 ---
 
 $r = 1$

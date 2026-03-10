@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D6D92B'
-last_modified: 2025-09-04
+slug: /D6D92B
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 "[[P-value]] hacking," also known as "p-hacking," is used to describe the manipulation of data or statistical analysis until insignificant findings appear significant, represented by a [[p-value]] of less than 0.05. In the context of statistical hypothesis testing, the [[p-value]] is the probability of obtaining a result as extreme as, or more potent than, the observed data, given that the null hypothesis is true. The null hypothesis typically states that there is no effect or relationship between two measured phenomena. When [[Researcher|researchers]] engage in p-hacking, they typically:

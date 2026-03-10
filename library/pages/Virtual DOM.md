@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/DB3227'
-aliases: ['가상 돔']
-last_modified: 2025-09-04
+slug: /DB3227
+aliases:
+  - 가상 돔
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ### [Virtual DOM is pure overhead](https://svelte.dev/blog/virtual-dom-is-pure-overhead)

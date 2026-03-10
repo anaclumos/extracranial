@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/50E78E'
-last_modified: 2023-05-11
+slug: /50E78E
+last_modified: 2023-05-11T00:00:00.000Z
 ---
 
 - using multi-level page tables can save space.

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3E8AD8'
-last_modified: 2025-12-31
+slug: /3E8AD8
+last_modified: 2025-12-31T00:00:00.000Z
 ---
 
 [[Lesser Known Trick]] [[Oneday]]

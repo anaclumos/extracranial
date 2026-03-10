@@ -1,7 +1,6 @@
 ---
-lang: 'en'
 slug: /2476E6
-last_modified: 2025-04-29
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 - Interviewed on [[2024-03-04]]

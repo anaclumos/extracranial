@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/8AF0EE'
-last_modified: 2025-04-29
+slug: /8AF0EE
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 My internship for Summer 2023

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/3EEC3A'
-last_modified: 2025-09-04
+slug: /3EEC3A
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 https://github.com/brannondorsey/mem-isolate

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/92B47B'
-last_modified: 2023-02-24
+slug: /92B47B
+last_modified: 2023-02-24T00:00:00.000Z
 ---
 
 - [[Project]] [[Done]]

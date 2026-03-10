@@ -1,8 +1,8 @@
 ---
-title: '점자로 보는 뮤직 비디오'
-date: 2021-07-05
-slug: '/AF848F'
-last_modified: 2026-03-08
+title: 점자로 보는 뮤직 비디오
+date: 2021-07-05T00:00:00.000Z
+slug: /6711D4
+last_modified: 2026-03-08T00:00:00.000Z
 ---
 
 <!-- truncate -->
@@ -316,7 +316,7 @@ resized_image_bw = resized_image.convert("1")  # apply dithering
 
 일단 이렇게 마무리된 프로젝트이다. 코드를 통해서 동영상을 분석하고 제어하는 프로젝트는 꾸준히 진행할 생각이다. 과거에 업로드했던 관련 글을 올리며 글을 마무리한다.
 
-- [동영상 압축과 유체이탈](/ko/w/6B6D29)
+- [동영상 압축과 유체이탈](/w/6B6D29)
 
 ### Butter
 

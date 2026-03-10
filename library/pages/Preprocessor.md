@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/6F8BD8'
-last_modified: 2025-09-04
+slug: /6F8BD8
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 In [[Graphics]], preprocessors are the directives to tell the compiler before turning them into codes.

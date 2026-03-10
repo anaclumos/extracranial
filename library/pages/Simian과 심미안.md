@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/6C3519'
-last_modified: 2023-10-13
+slug: /6C3519
+last_modified: 2023-10-13T00:00:00.000Z
 ---
 
 **[[Simian]]**이라는 영어 [[Vocab|단어]]는 [[Simian|원숭이]], [[Simian|유인원]]을 뜻한다.

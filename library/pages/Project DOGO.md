@@ -1,8 +1,8 @@
 ---
-lang: 'ko'
-slug: '/BEC9CB'
-aliases: ['도고계획']
-last_modified: 2025-09-04
+slug: /BEC9CB
+aliases:
+  - 도고계획
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 주식 자동매매 알고리즘 및 [[Macroeconomics|거시경제]] 인공지능을 독자 개발하는 프로젝트이다. 어원은 [[도고상인]].

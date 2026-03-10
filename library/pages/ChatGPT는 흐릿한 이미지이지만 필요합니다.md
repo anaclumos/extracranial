@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/1D93D4'
-last_modified: 2024-07-24
+slug: /1D93D4
+last_modified: 2024-07-24T00:00:00.000Z
 ---
 
 [[Blurry JPEG]]은 SF계의 거장 [[Ted Chiang|테드 창]]이 작성한 훌륭한 글입니다.

@@ -1,8 +1,11 @@
 ---
-lang: 'ko'
-slug: '/8E435E'
-aliases: ['antiktok', '반틱톡', '안티틱톡', '안틱톡']
-last_modified: 2023-08-07
+slug: /8E435E
+aliases:
+  - antiktok
+  - 반틱톡
+  - 안티틱톡
+  - 안틱톡
+last_modified: 2023-08-07T00:00:00.000Z
 ---
 
 [[anti]]-tiktok

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/B4930B'
-last_modified: 2023-08-15
+slug: /B4930B
+last_modified: 2023-08-15T00:00:00.000Z
 ---
 
 - An [[Generative AI|Gen AI]] Experiment done by [SuppMon104](https://github.com/suppmon104)

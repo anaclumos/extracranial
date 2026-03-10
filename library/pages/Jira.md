@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/85E49D'
-last_modified: 2022-12-05
+slug: /85E49D
+last_modified: 2022-12-05T00:00:00.000Z
 ---
 
 > Jira is a proprietary issue-tracking product developed by Atlassian that allows bug tracking and agile [[project]] management. [Jira (software)](<https://en.wikipedia.org/wiki/Jira_(software)>)

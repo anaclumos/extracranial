@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7041E5'
-last_modified: 2024-10-06
+slug: /7041E5
+last_modified: 2024-10-06T00:00:00.000Z
 ---
 
 [[Notion]]'s [[Generative Intelligence]]

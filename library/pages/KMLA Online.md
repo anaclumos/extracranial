@@ -1,8 +1,10 @@
 ---
-lang: 'en'
-slug: '/DE028D'
-aliases: ['큼라 온라인', '큼온', 'KMLAOnline']
-last_modified: 2024-02-13
+slug: /DE028D
+aliases:
+  - 큼라 온라인
+  - 큼온
+  - KMLAOnline
+last_modified: 2024-02-13T00:00:00.000Z
 ---
 
 민사고 인트라넷

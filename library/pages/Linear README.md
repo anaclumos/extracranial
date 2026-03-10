@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/888590'
-last_modified: 2022-10-24
+slug: /888590
+last_modified: 2022-10-24T00:00:00.000Z
 ---
 
 - [README - A story of magic](https://linear.app/readme)

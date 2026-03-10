@@ -1,8 +1,8 @@
 ---
-lang: 'en'
-slug: '/2F562A'
-aliases: ['토스페이스']
-last_modified: 2023-08-04
+slug: /2F562A
+aliases:
+  - 토스페이스
+last_modified: 2023-08-04T00:00:00.000Z
 ---
 
 - [[Emoji]] [[Font]] by [[Toss]]

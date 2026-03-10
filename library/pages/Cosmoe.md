@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/79191E'
-last_modified: 2025-06-24
+slug: /79191E
+last_modified: 2025-06-24T00:00:00.000Z
 ---
 
 https://cosmoe.org/index.html

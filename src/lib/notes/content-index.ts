@@ -18,7 +18,6 @@ export interface SourceNote extends SourceNoteBase {
   filePath: string;
   kind: NoteKind;
   lastModified?: number;
-  locale: string;
   title: string;
 }
 
@@ -30,10 +29,10 @@ const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets");
 const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"]);
 const MARKDOWN_SUFFIX_RE = /\.(md|mdx)$/i;
 const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"]);
-const POSTS_LOCALES = new Set(["en", "ko"]);
+const GENERIC_BASENAMES = new Set(["en", "index", "ko"]);
 
 interface ContentIndex {
-  notesBySlug: Map<string, Map<string, SourceNote>>;
+  notesBySlug: Map<string, SourceNote>;
   titleLookup: Map<string, string>;
 }
 
@@ -72,21 +71,6 @@ function inferKind(filePath: string): NoteKind {
   }
 
   return "research";
-}
-
-function inferLocale(filePath: string, frontmatterLang: unknown): string {
-  if (filePath.startsWith(POSTS_ROOT)) {
-    const baseName = path.basename(filePath, path.extname(filePath));
-    if (POSTS_LOCALES.has(baseName)) {
-      return baseName;
-    }
-  }
-
-  if (typeof frontmatterLang === "string" && frontmatterLang.trim()) {
-    return frontmatterLang;
-  }
-
-  return "en";
 }
 
 function buildEditUrl(filePath: string): string | undefined {
@@ -174,7 +158,6 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     kind: inferKind(filePath),
     lastModified:
       parseTimestamp(data.last_modified) ?? parseTimestamp(data.updatedAt),
-    locale: inferLocale(filePath, data.lang),
     slug,
     title:
       typeof data.title === "string" && data.title.trim()
@@ -201,7 +184,7 @@ function registerLookup(
 async function buildContentIndex(): Promise<ContentIndex> {
   const allFiles = await collectMarkdownFiles(LIBRARY_ROOT);
 
-  const notesBySlug = new Map<string, Map<string, SourceNote>>();
+  const notesBySlug = new Map<string, SourceNote>();
   const titleLookup = new Map<string, string>();
 
   const BATCH = 32;
@@ -214,18 +197,23 @@ async function buildContentIndex(): Promise<ContentIndex> {
         continue;
       }
 
-      const localeNotes =
-        notesBySlug.get(note.slug) ?? new Map<string, SourceNote>();
-      localeNotes.set(note.locale, note);
-      notesBySlug.set(note.slug, localeNotes);
+      const existingNote = notesBySlug.get(note.slug);
+      if (existingNote) {
+        throw new Error(
+          `Duplicate slug ${note.slug} in ${existingNote.filePath} and ${note.filePath}`
+        );
+      }
+      notesBySlug.set(note.slug, note);
 
       registerLookup(titleLookup, note.slug, note.slug);
       registerLookup(titleLookup, note.title, note.slug);
-      registerLookup(
-        titleLookup,
-        path.basename(note.filePath, path.extname(note.filePath)),
-        note.slug
+      const baseName = path.basename(
+        note.filePath,
+        path.extname(note.filePath)
       );
+      if (!GENERIC_BASENAMES.has(baseName)) {
+        registerLookup(titleLookup, baseName, note.slug);
+      }
 
       for (const alias of note.aliases) {
         registerLookup(titleLookup, alias, note.slug);
@@ -250,40 +238,11 @@ export function getContentIndex(): Promise<ContentIndex> {
   return contentIndexCache;
 }
 
-export function pickNoteForLocale(
-  variants: Map<string, SourceNote>,
-  locale: string
-): SourceNote | null {
-  return (
-    variants.get(locale) ??
-    variants.get("en") ??
-    variants.get("ko") ??
-    variants.values().next().value ??
-    null
-  );
-}
-
 export async function getSourceNoteBySlug(
-  slug: string,
-  locale: string
-): Promise<SourceNote | null> {
-  const { notesBySlug } = await getContentIndex();
-  const variants = notesBySlug.get(slug);
-  if (!variants) {
-    return null;
-  }
-  return pickNoteForLocale(variants, locale);
-}
-
-export async function getSourceNoteBySlugAnyLocale(
   slug: string
 ): Promise<SourceNote | null> {
   const { notesBySlug } = await getContentIndex();
-  const variants = notesBySlug.get(slug);
-  if (!variants) {
-    return null;
-  }
-  return pickNoteForLocale(variants, "en");
+  return notesBySlug.get(slug) ?? null;
 }
 
 export async function getAllNoteSlugs(): Promise<string[]> {
@@ -292,16 +251,14 @@ export async function getAllNoteSlugs(): Promise<string[]> {
 }
 
 export async function getLatestJournalSlug(
-  locale: string,
   maxDate?: string
 ): Promise<string | null> {
   const { notesBySlug } = await getContentIndex();
   let latestSlug: string | null = null;
   let latestDate = "";
 
-  for (const [slug, variants] of notesBySlug.entries()) {
-    const note = pickNoteForLocale(variants, locale);
-    if (!(note && note.kind === "journal" && note.date)) {
+  for (const [slug, note] of notesBySlug.entries()) {
+    if (!(note.kind === "journal" && note.date)) {
       continue;
     }
 
@@ -349,7 +306,7 @@ export async function resolveAssetPathForNote(
   slug: string,
   requestedPath: string[]
 ): Promise<string | null> {
-  const note = await getSourceNoteBySlugAnyLocale(slug);
+  const note = await getSourceNoteBySlug(slug);
   if (!note) {
     return null;
   }

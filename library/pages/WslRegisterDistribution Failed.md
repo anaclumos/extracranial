@@ -1,7 +1,6 @@
 ---
-lang: 'ko'
-slug: '/A51E2B'
-last_modified: 2025-05-11
+slug: /A51E2B
+last_modified: 2025-05-11T00:00:00.000Z
 ---
 
 Windows 기능 켜기 / 끄기 앱 실행

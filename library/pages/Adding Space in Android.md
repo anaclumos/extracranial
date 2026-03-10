@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7C6B13'
-last_modified: 2023-04-10
+slug: /7C6B13
+last_modified: 2023-04-10T00:00:00.000Z
 ---
 
 ```xml

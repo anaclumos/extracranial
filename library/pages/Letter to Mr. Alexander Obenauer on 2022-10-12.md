@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/25BA57'
-last_modified: 2023-04-20
+slug: /25BA57
+last_modified: 2023-04-20T00:00:00.000Z
 ---
 
 - [[Mail|Letter]] to Mr. [[Alexander Obenauer]] on [[2022-10-12]]

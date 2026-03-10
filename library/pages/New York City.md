@@ -1,8 +1,9 @@
 ---
-lang: 'en'
-slug: '/2D85E7'
-aliases: ['New York', 'NYC']
-last_modified: 2025-09-04
+slug: /2D85E7
+aliases:
+  - New York
+  - NYC
+last_modified: 2025-09-04T00:00:00.000Z
 ---
 
 ### [Fewer than 40 percent of New Yorkers earn a living wage](https://news.cornell.edu/stories/2023/01/fewer-40-new-yorkers-earn-living-wage)

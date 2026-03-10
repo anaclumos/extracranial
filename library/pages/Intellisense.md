@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/5FB774'
-last_modified: 2025-04-29
+slug: /5FB774
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 > Intelligent code completion is a context-aware code completion feature in some programming environments that speeds up the process of coding applications by reducing typos and other common mistakes. Attempts at this are usually made through auto-completion popups while typing, querying parameters of functions, and query hints related to syntax errors. Intelligent code completion and related tools serve as documentation and disambiguation for variable names, processes, and methods using reflection. [Intelligent code completion](https://en.wikipedia.org/wiki/Intelligent_code_completion)

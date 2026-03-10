@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D6FDF3'
-last_modified: 2022-10-13
+slug: /D6FDF3
+last_modified: 2022-10-13T00:00:00.000Z
 ---
 
 - The CODE Procedure is a second-brain-building procedure introduced in [[Building a Second Brain]].

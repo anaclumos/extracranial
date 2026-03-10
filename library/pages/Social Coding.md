@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/7C28C7'
-last_modified: 2023-02-15
+slug: /7C28C7
+last_modified: 2023-02-15T00:00:00.000Z
 ---
 
 ### [Social Coding](https://matt-rickard.ghost.io/social-coding/)

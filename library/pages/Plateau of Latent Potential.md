@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/D69A4A'
-last_modified: 2025-04-29
+slug: /D69A4A
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Can we unlock the potential of human intelligence with next-gen [[Tools for Thought]]?

@@ -1,7 +1,6 @@
 ---
-lang: 'en'
-slug: '/DB58DC'
-last_modified: 2025-04-29
+slug: /DB58DC
+last_modified: 2025-04-29T00:00:00.000Z
 ---
 
 Gave me chills since the first day of looking at this. I still think this is the GOAT of user field interactions [[UI and UX|UI]]
