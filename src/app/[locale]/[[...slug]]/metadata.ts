@@ -1,9 +1,7 @@
 import type { Metadata } from "next"
 import { hasLocale } from "next-intl"
 import { routing } from "@/i18n/routing"
-import { getAllNoteSlugs, getNoteBySlug } from "@/lib/notes"
-
-export const dynamicParams = false
+import { getNoteBySlug } from "@/lib/notes"
 
 export async function generateMetadata({
   params,
@@ -58,15 +56,8 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  const slugs = await getAllNoteSlugs()
-
-  const params: Array<{ locale: string; slug: string[] | undefined }> = []
-  for (const locale of routing.locales) {
-    params.push({ locale, slug: undefined })
-    for (const slug of slugs) {
-      params.push({ locale, slug: [slug] })
-    }
-  }
-
-  return params
+  return routing.locales.flatMap((locale) => [
+    { locale, slug: undefined },
+    { locale, slug: ["000000"] },
+  ])
 }
