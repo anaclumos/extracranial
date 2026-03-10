@@ -1,3 +1,5 @@
+import { PRETENDARD_REGULAR_URL } from "./pretendard";
+
 type Script =
   | "korean"
   | "japanese"
@@ -9,83 +11,87 @@ type Script =
   | "tamil"
   | "telugu"
   | "thai"
-  | "cyrillic"
+  | "cyrillic";
 
-const PRETENDARD_JP_CDN =
-  "https://cdn.jsdelivr.net/gh/niceplugin/pretendard-jp@1.0.0/dist/web/static/woff2"
+const NOTO_CJK_CDN =
+  "https://cdn.jsdelivr.net/gh/notofonts/noto-cjk@main/Sans/OTF";
+const NOTO_FONT_CDN =
+  "https://cdn.jsdelivr.net/gh/notofonts/noto-fonts@main/unhinted/otf";
+const NOTO_TTF_CDN =
+  "https://cdn.jsdelivr.net/gh/notofonts/noto-fonts@main/hinted/ttf";
 
 const SCRIPT_FONT_MAP: Record<Script, { name: string; url: string }> = {
   korean: {
     name: "Pretendard",
-    url: "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-Regular.woff2",
+    url: PRETENDARD_REGULAR_URL,
   },
   japanese: {
-    name: "Pretendard JP",
-    url: `${PRETENDARD_JP_CDN}/PretendardJP-Regular.woff2`,
+    name: "Noto Sans CJK JP",
+    url: `${NOTO_CJK_CDN}/Japanese/NotoSansCJKjp-Regular.otf`,
   },
   "chinese-simplified": {
-    name: "Noto Sans SC",
-    url: "https://fonts.gstatic.com/s/notosanssc/v37/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYg.woff2",
+    name: "Noto Sans CJK SC",
+    url: `${NOTO_CJK_CDN}/SimplifiedChinese/NotoSansCJKsc-Regular.otf`,
   },
   "chinese-traditional": {
-    name: "Noto Sans TC",
-    url: "https://fonts.gstatic.com/s/notosanstc/v35/-nFuOG829Oofr2wohFbTp9ifNAn722rq0MXz76Cy_CpOtma3uNQ.woff2",
+    name: "Noto Sans CJK TC",
+    url: `${NOTO_CJK_CDN}/TraditionalChinese/NotoSansCJKtc-Regular.otf`,
   },
   arabic: {
     name: "Noto Sans Arabic",
-    url: "https://fonts.gstatic.com/s/notosansarabic/v18/nwpxtLGrOAZMl5nJ_wfgRg3DrWFZWsnVBJ_sS6tlqHHFlhQ5l3sQWIHPqzCfyGyvu3CBFQLaig.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansArabic/NotoSansArabic-Regular.otf`,
   },
   devanagari: {
     name: "Noto Sans Devanagari",
-    url: "https://fonts.gstatic.com/s/notosansdevanagari/v25/TuGOUUFzXI5FBtUq5a8bjKYTZjtRU6Sgv3NaV_SNmI0b6w.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansDevanagari/NotoSansDevanagari-Regular.otf`,
   },
   bengali: {
     name: "Noto Sans Bengali",
-    url: "https://fonts.gstatic.com/s/notosansbengali/v20/Cn-SJsCGWQxOjaGwMQ6fIiMywrNJIky6nvd8BjzVMvJx2mcSPVFpVEqE-6KmsolKudCk8izI0lc.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansBengali/NotoSansBengali-Regular.otf`,
   },
   tamil: {
     name: "Noto Sans Tamil",
-    url: "https://fonts.gstatic.com/s/notosanstamil/v27/ieVc2YdFI3GCY6SyQy1KfStzYKZgzN1z4LKDbeZce-0429tBManUktuex7vGo70SI5g.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansTamil/NotoSansTamil-Regular.otf`,
   },
   telugu: {
     name: "Noto Sans Telugu",
-    url: "https://fonts.gstatic.com/s/notosanstelugu/v25/0FlxVOGZlE2Rrtr-HmgkMWJNjJ5_RyT8o8c7fHkeg-esVC5dzHkHIJQqrEntezbqQUbf-3v37w.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansTelugu/NotoSansTelugu-Regular.otf`,
   },
   thai: {
     name: "Noto Sans Thai",
-    url: "https://fonts.gstatic.com/s/notosansthai/v20/iJWnBXeUZi_OHPqn4wq6hQ2_hbJ1xyN9wd43SofNWcd1MKVQt_So_9CdU5RspzF-QRvzzXg.woff2",
+    url: `${NOTO_FONT_CDN}/NotoSansThai/NotoSansThai-Regular.otf`,
   },
   cyrillic: {
     name: "Noto Sans",
-    url: "https://fonts.gstatic.com/s/notosans/v36/o-0NIpQlx3QUlC5A4PNjXhFVZNyB.woff2",
+    url: `${NOTO_TTF_CDN}/NotoSans/NotoSans-Regular.ttf`,
   },
-}
+};
 
-const fontCache = new Map<Script, Promise<ArrayBuffer>>()
+const fontCache = new Map<Script, Promise<ArrayBuffer>>();
 
 async function fetchFont(url: string): Promise<ArrayBuffer> {
-  const response = await fetch(url, { cache: "force-cache" })
+  const response = await fetch(url, { cache: "force-cache" });
   if (!response.ok) {
-    throw new Error(`Failed to fetch font: ${response.status}`)
+    throw new Error(`Failed to fetch font ${url}: ${response.status}`);
   }
-  return response.arrayBuffer()
+  return response.arrayBuffer();
 }
 
 export function getPretendardForScript(
   script: Script,
   _text?: string
 ): Promise<ArrayBuffer> {
-  const cached = fontCache.get(script)
+  const cached = fontCache.get(script);
   if (cached) {
-    return cached
+    return cached;
   }
 
-  const fontConfig = SCRIPT_FONT_MAP[script]
-  const promise = fetchFont(fontConfig.url)
-  fontCache.set(script, promise)
-  return promise
+  const fontConfig = SCRIPT_FONT_MAP[script];
+  const promise = fetchFont(fontConfig.url);
+  fontCache.set(script, promise);
+  return promise;
 }
 
 export function getScriptFontName(script: Script): string {
-  return SCRIPT_FONT_MAP[script].name
+  return SCRIPT_FONT_MAP[script].name;
 }

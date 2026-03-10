@@ -1,20 +1,20 @@
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function ShimmerLine({ className }: { className?: string }) {
   return (
     <div
       className={cn(
         "rounded bg-muted-foreground/8 dark:bg-muted-foreground/12",
-        "bg-[length:200%_100%] bg-[position:200%_0] animate-skeleton",
+        "animate-skeleton bg-[length:200%_100%] bg-[position:200%_0]",
         "bg-gradient-to-r from-transparent via-muted-foreground/6 to-transparent dark:via-muted-foreground/10",
         className
       )}
     />
-  )
+  );
 }
 
 interface PaneSkeletonProps {
-  collapsed?: boolean
+  collapsed?: boolean;
 }
 
 export function PaneSkeleton({ collapsed }: PaneSkeletonProps) {
@@ -29,7 +29,7 @@ export function PaneSkeleton({ collapsed }: PaneSkeletonProps) {
           </div>
         </div>
       </div>
-    )
+    );
   }
 
   return (
@@ -52,5 +52,5 @@ export function PaneSkeleton({ collapsed }: PaneSkeletonProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }

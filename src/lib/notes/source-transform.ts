@@ -1,32 +1,37 @@
-import { buildNoteHref, normalizeNoteSlug } from "../note-links"
-import type { SourceNote } from "./content-index"
+import { buildNoteHref, normalizeNoteSlug } from "../note-links";
+import type { SourceNoteBase } from "./types";
 
-const CODE_BLOCK_RE = /```[\s\S]*?```/g
-const MARKDOWN_IMAGE_RE = /!\[([^\]]*)]\(([^)\s]+)([^)]*)\)/g
-const MARKDOWN_LINK_RE = /(?<!!)\[([^\]]+)]\(([^)\s]+)([^)]*)\)/g
+const CODE_BLOCK_RE = /```[\s\S]*?```/g;
+const MARKDOWN_IMAGE_RE = /!\[([^\]]*)]\(([^)\s]+)([^)]*)\)/g;
+const MARKDOWN_LINK_RE = /(?<!!)\[([^\]]+)]\(([^)\s]+)([^)]*)\)/g;
 const NOTE_ROUTE_RE =
-  /^(?:https?:\/\/(?:www\.)?cho\.sh)?\/(?:(?:en|ko)\/)?(?:library|manifesto|r|w|research|blog|journals|pages)\/([^/?#]+)/i
-const TOP_LEVEL_IMPORT_RE = /^(?:import|export)\s.+$/gm
-const TRUNCATE_COMMENT_RE = /<!--\s*truncate\s*-->/g
-const WIKI_IMAGE_RE = /!\[\[([^\]]+)]]/g
-const WIKI_LINK_RE = /(?<!!)\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?]]/g
+  /^(?:https?:\/\/(?:www\.)?cho\.sh)?\/(?:(?:en|ko)\/)?(?:library|manifesto|r|w|research|blog|journals|pages)\/([^/?#]+)/i;
+const ADMONITION_OPEN_RE = /^:::(\w+)(?:\s+(.*))?$/;
+const EXTERNAL_IMAGE_HREF_RE = /^(?:https?:|data:|#)/i;
+const EXTERNAL_LINK_HREF_RE = /^(?:https?:|mailto:|#)/i;
+const LEADING_RELATIVE_PATH_RE = /^(?:\.\.\/|\.\/)+/;
+const MARKDOWN_SUFFIX_RE = /\.(md|mdx)$/i;
+const TOP_LEVEL_IMPORT_RE = /^(?:import|export)\s.+$/gm;
+const TRUNCATE_COMMENT_RE = /<!--\s*truncate\s*-->/g;
+const WIKI_IMAGE_RE = /!\[\[([^\]]+)]]/g;
+const WIKI_LINK_RE = /(?<!!)\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?]]/g;
 
 function transformOutsideCodeBlocks(
   content: string,
   transform: (segment: string) => string
 ): string {
-  const parts: string[] = []
-  let lastIndex = 0
+  const parts: string[] = [];
+  let lastIndex = 0;
 
   for (const match of content.matchAll(CODE_BLOCK_RE)) {
-    const index = match.index ?? 0
-    parts.push(transform(content.slice(lastIndex, index)))
-    parts.push(match[0])
-    lastIndex = index + match[0].length
+    const index = match.index ?? 0;
+    parts.push(transform(content.slice(lastIndex, index)));
+    parts.push(match[0]);
+    lastIndex = index + match[0].length;
   }
 
-  parts.push(transform(content.slice(lastIndex)))
-  return parts.join("")
+  parts.push(transform(content.slice(lastIndex)));
+  return parts.join("");
 }
 
 function encodePathSegments(href: string): string {
@@ -34,17 +39,17 @@ function encodePathSegments(href: string): string {
     .split("/")
     .filter(Boolean)
     .map((segment) => encodeURIComponent(segment))
-    .join("/")
+    .join("/");
 }
 
 function normalizeAssetReference(href: string): string {
-  return href.replace(/^(?:\.\.\/|\.\/)+/, "")
+  return href.replace(LEADING_RELATIVE_PATH_RE, "");
 }
 
-function toAssetHref(note: SourceNote, href: string): string {
+function toAssetHref(note: SourceNoteBase, href: string): string {
   return `/api/content-assets/${note.slug}/${encodePathSegments(
     normalizeAssetReference(href)
-  )}`
+  )}`;
 }
 
 const CUSTOM_TAG_NAME_MAP = {
@@ -59,7 +64,7 @@ const CUSTOM_TAG_NAME_MAP = {
   Tabs: "tabs",
   WIP: "wip",
   YouTube: "youtube",
-} as const
+} as const;
 
 const CUSTOM_SELF_CLOSING_TAGS = [
   "applemusicsong",
@@ -68,109 +73,120 @@ const CUSTOM_SELF_CLOSING_TAGS = [
   "spotifysong",
   "wip",
   "youtube",
-] as const
+] as const;
 
 function rewriteAdmonitions(segment: string): string {
-  const lines = segment.split("\n")
-  const output: string[] = []
-  let isInsideAdmonition = false
+  const lines = segment.split("\n");
+  const output: string[] = [];
+  let isInsideAdmonition = false;
 
   for (const line of lines) {
-    const openMatch = line.match(/^:::(\w+)(?:\s+(.*))?$/)
+    const openMatch = line.match(ADMONITION_OPEN_RE);
     if (openMatch) {
-      const [, type, title] = openMatch
+      const [, type, title] = openMatch;
       output.push(
         `<admonition type="${type}"${title ? ` title=${JSON.stringify(title)}` : ""}>`
-      )
-      isInsideAdmonition = true
-      continue
+      );
+      isInsideAdmonition = true;
+      continue;
     }
 
     if (isInsideAdmonition && line.trim() === ":::") {
-      output.push("</admonition>")
-      isInsideAdmonition = false
-      continue
+      output.push("</admonition>");
+      isInsideAdmonition = false;
+      continue;
     }
 
-    output.push(line)
+    output.push(line);
   }
 
-  return output.join("\n")
+  return output.join("\n");
 }
 
 function stripTopLevelRuntimeStatements(segment: string): string {
-  return segment.replace(TOP_LEVEL_IMPORT_RE, "")
+  return segment.replace(TOP_LEVEL_IMPORT_RE, "");
 }
 
 function normalizeLegacyMath(segment: string): string {
   return segment.replace(/\$\{([\s\S]*?)\}\$/g, (_, expression: string) => {
-    return `$${expression}$`
-  })
+    return `$${expression}$`;
+  });
 }
 
 function normalizeCustomTags(segment: string): string {
-  let normalizedSegment = segment
+  let normalizedSegment = segment;
 
   for (const [sourceTag, targetTag] of Object.entries(CUSTOM_TAG_NAME_MAP)) {
-    normalizedSegment = normalizedSegment.replaceAll(`<${sourceTag}`, `<${targetTag}`)
-    normalizedSegment = normalizedSegment.replaceAll(`</${sourceTag}>`, `</${targetTag}>`)
+    normalizedSegment = normalizedSegment.replaceAll(
+      `<${sourceTag}`,
+      `<${targetTag}`
+    );
+    normalizedSegment = normalizedSegment.replaceAll(
+      `</${sourceTag}>`,
+      `</${targetTag}>`
+    );
   }
 
   for (const tagName of CUSTOM_SELF_CLOSING_TAGS) {
     normalizedSegment = normalizedSegment.replace(
       new RegExp(`<${tagName}([^>]*)/>`, "g"),
       `<${tagName}$1></${tagName}>`
-    )
+    );
   }
 
-  return normalizedSegment
+  return normalizedSegment;
 }
 
 function resolveReferenceSlug(
   href: string,
   titleLookup: Map<string, string>
 ): string | null {
-  const trimmed = href.trim()
+  const trimmed = href.trim();
   if (!trimmed || trimmed.startsWith("#")) {
-    return null
+    return null;
   }
 
-  const routeMatch = trimmed.match(NOTE_ROUTE_RE)
+  const routeMatch = trimmed.match(NOTE_ROUTE_RE);
   if (routeMatch?.[1]) {
-    return normalizeNoteSlug(routeMatch[1])
+    return normalizeNoteSlug(routeMatch[1]);
   }
 
-  const directSlug = normalizeNoteSlug(trimmed)
+  const directSlug = normalizeNoteSlug(trimmed);
   if (directSlug && titleLookup.has(directSlug.toLowerCase())) {
-    return titleLookup.get(directSlug.toLowerCase()) ?? directSlug
+    return titleLookup.get(directSlug.toLowerCase()) ?? directSlug;
   }
 
-  const bySlug = normalizeNoteSlug(trimmed)
+  const bySlug = normalizeNoteSlug(trimmed);
   if (bySlug && titleLookup.has(bySlug.normalize("NFC").trim().toLowerCase())) {
-    return titleLookup.get(bySlug.normalize("NFC").trim().toLowerCase()) ?? null
+    return (
+      titleLookup.get(bySlug.normalize("NFC").trim().toLowerCase()) ?? null
+    );
   }
 
-  const withoutExtension = trimmed.replace(/\.(md|mdx)$/i, "")
-  return titleLookup.get(withoutExtension.normalize("NFC").trim().toLowerCase()) ?? null
+  const withoutExtension = trimmed.replace(MARKDOWN_SUFFIX_RE, "");
+  return (
+    titleLookup.get(withoutExtension.normalize("NFC").trim().toLowerCase()) ??
+    null
+  );
 }
 
-function rewriteWikiImages(segment: string, note: SourceNote): string {
+function rewriteWikiImages(segment: string, note: SourceNoteBase): string {
   return segment.replace(WIKI_IMAGE_RE, (_, rawTarget: string) => {
-    const target = rawTarget.split("|")[0]?.trim() ?? rawTarget.trim()
-    return `![${target}](${toAssetHref(note, target)})`
-  })
+    const target = rawTarget.split("|")[0]?.trim() ?? rawTarget.trim();
+    return `![${target}](${toAssetHref(note, target)})`;
+  });
 }
 
-function rewriteMarkdownImages(segment: string, note: SourceNote): string {
+function rewriteMarkdownImages(segment: string, note: SourceNoteBase): string {
   return segment.replace(
     MARKDOWN_IMAGE_RE,
     (_, alt: string, href: string, suffix: string) => {
-      if (/^(?:https?:|data:|#)/i.test(href) || href.startsWith("/")) {
-        return `![${alt}](${href}${suffix})`
+      if (EXTERNAL_IMAGE_HREF_RE.test(href) || href.startsWith("/")) {
+        return `![${alt}](${href}${suffix})`;
       }
-      return `![${alt}](${toAssetHref(note, href)}${suffix})`
+      return `![${alt}](${toAssetHref(note, href)}${suffix})`;
     }
-  )
+  );
 }
 
 function rewriteWikiLinks(
@@ -180,14 +196,14 @@ function rewriteWikiLinks(
   return segment.replace(
     WIKI_LINK_RE,
     (match, rawTarget: string, rawLabel: string | undefined) => {
-      const slug = resolveReferenceSlug(rawTarget, titleLookup)
-      const label = rawLabel?.trim() || rawTarget.trim()
+      const slug = resolveReferenceSlug(rawTarget, titleLookup);
+      const label = rawLabel?.trim() || rawTarget.trim();
       if (!slug) {
-        return label || match
+        return label || match;
       }
-      return `[${label}](${buildNoteHref(slug)})`
+      return `[${label}](${buildNoteHref(slug)})`;
     }
-  )
+  );
 }
 
 function rewriteMarkdownLinks(
@@ -197,79 +213,84 @@ function rewriteMarkdownLinks(
   return segment.replace(
     MARKDOWN_LINK_RE,
     (_, label: string, href: string, suffix: string) => {
-      if (/^(?:https?:|mailto:|#)/i.test(href)) {
-        return `[${label}](${href}${suffix})`
+      if (EXTERNAL_LINK_HREF_RE.test(href)) {
+        return `[${label}](${href}${suffix})`;
       }
 
-      const slug = resolveReferenceSlug(href, titleLookup)
+      const slug = resolveReferenceSlug(href, titleLookup);
       if (!slug) {
-        return `[${label}](${href}${suffix})`
+        return `[${label}](${href}${suffix})`;
       }
 
-      return `[${label}](${buildNoteHref(slug)}${suffix})`
+      return `[${label}](${buildNoteHref(slug)}${suffix})`;
     }
-  )
+  );
 }
 
 function rewriteTabItemContent(segment: string): string {
   return segment.replace(
     /<tabitem\b([^>]*)>([\s\S]*?)<\/tabitem>/g,
     (_, attributes: string, content: string) => {
-      const encodedContent = Buffer.from(content.trim(), "utf8").toString("base64")
-      return `<tabitem${attributes} source=${JSON.stringify(encodedContent)}></tabitem>`
+      const encodedContent = Buffer.from(content.trim(), "utf8").toString(
+        "base64"
+      );
+      return `<tabitem${attributes} source=${JSON.stringify(encodedContent)}></tabitem>`;
     }
-  )
+  );
 }
 
 export function preprocessNoteSource(
-  note: SourceNote,
+  note: SourceNoteBase,
   titleLookup: Map<string, string>
 ): string {
-  const contentWithoutComments = note.content.replace(TRUNCATE_COMMENT_RE, "")
+  const contentWithoutComments = note.content.replace(TRUNCATE_COMMENT_RE, "");
 
   return transformOutsideCodeBlocks(contentWithoutComments, (segment) => {
-    const withoutRuntimeStatements = stripTopLevelRuntimeStatements(segment)
-    const withNormalizedMath = normalizeLegacyMath(withoutRuntimeStatements)
-    const withNormalizedTags = normalizeCustomTags(withNormalizedMath)
-    const withAdmonitions = rewriteAdmonitions(withNormalizedTags)
-    const withWikiImages = rewriteWikiImages(withAdmonitions, note)
-    const withMarkdownImages = rewriteMarkdownImages(withWikiImages, note)
-    const withWikiLinks = rewriteWikiLinks(withMarkdownImages, titleLookup)
-    const withMarkdownLinks = rewriteMarkdownLinks(withWikiLinks, titleLookup)
-    return rewriteTabItemContent(withMarkdownLinks)
-  }).trim()
+    const withoutRuntimeStatements = stripTopLevelRuntimeStatements(segment);
+    const withNormalizedMath = normalizeLegacyMath(withoutRuntimeStatements);
+    const withNormalizedTags = normalizeCustomTags(withNormalizedMath);
+    const withAdmonitions = rewriteAdmonitions(withNormalizedTags);
+    const withWikiImages = rewriteWikiImages(withAdmonitions, note);
+    const withMarkdownImages = rewriteMarkdownImages(withWikiImages, note);
+    const withWikiLinks = rewriteWikiLinks(withMarkdownImages, titleLookup);
+    const withMarkdownLinks = rewriteMarkdownLinks(withWikiLinks, titleLookup);
+    return rewriteTabItemContent(withMarkdownLinks);
+  }).trim();
 }
 
 export function extractOutboundLinks(
-  note: SourceNote,
+  note: SourceNoteBase,
   titleLookup: Map<string, string>
 ): string[] {
-  const links = new Set<string>()
-  const transformed = transformOutsideCodeBlocks(note.content, (segment) => segment)
+  const links = new Set<string>();
+  const transformed = transformOutsideCodeBlocks(
+    note.content,
+    (segment) => segment
+  );
 
   for (const match of transformed.matchAll(WIKI_LINK_RE)) {
-    const target = match[1]
+    const target = match[1];
     if (!target) {
-      continue
+      continue;
     }
-    const slug = resolveReferenceSlug(target, titleLookup)
+    const slug = resolveReferenceSlug(target, titleLookup);
     if (slug && slug !== note.slug) {
-      links.add(slug)
+      links.add(slug);
     }
   }
 
   for (const match of transformed.matchAll(MARKDOWN_LINK_RE)) {
-    const href = match[2]
+    const href = match[2];
     if (!href) {
-      continue
+      continue;
     }
-    const slug = resolveReferenceSlug(href, titleLookup)
+    const slug = resolveReferenceSlug(href, titleLookup);
     if (slug && slug !== note.slug) {
-      links.add(slug)
+      links.add(slug);
     }
   }
 
-  return Array.from(links)
+  return Array.from(links);
 }
 
 export function generateExcerpt(content: string, maxLength = 280): string {
@@ -277,20 +298,20 @@ export function generateExcerpt(content: string, maxLength = 280): string {
     .replace(TRUNCATE_COMMENT_RE, "")
     .replace(WIKI_IMAGE_RE, "")
     .replace(WIKI_LINK_RE, (_, target: string, label: string | undefined) => {
-      return label?.trim() || target.trim()
+      return label?.trim() || target.trim();
     })
     .replace(MARKDOWN_IMAGE_RE, "")
     .replace(MARKDOWN_LINK_RE, "$1")
     .replace(/<[^>]+>/g, " ")
     .replace(/[#*_`>-]/g, " ")
     .replace(/\s+/g, " ")
-    .trim()
+    .trim();
 
   if (plainText.length <= maxLength) {
-    return plainText
+    return plainText;
   }
 
-  const truncated = plainText.slice(0, maxLength)
-  const lastSpace = truncated.lastIndexOf(" ")
-  return `${lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated}...`
+  const truncated = plainText.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return `${lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated}...`;
 }

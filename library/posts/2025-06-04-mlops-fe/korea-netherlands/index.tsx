@@ -1,44 +1,44 @@
-'use client'
+"use client";
 
-import createGlobe from 'cobe'
-import { type KeyboardEvent, useEffect, useRef } from 'react'
-import styles from './index.module.css'
+import createGlobe from "cobe";
+import { type KeyboardEvent, useEffect, useRef } from "react";
+import styles from "./index.module.css";
 
 interface Props {
-  lang?: 'ko' | 'en'
+  lang?: "ko" | "en";
 }
 
-export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
+export const KoreaNetherlandsGlobe = ({ lang = "en" }: Props) => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
 
-  const pointerDown = useRef(false)
-  const startX = useRef(0)
-  const startY = useRef(0)
-  const startPhi = useRef(0)
-  const startTheta = useRef(0)
+  const pointerDown = useRef(false);
+  const startX = useRef(0);
+  const startY = useRef(0);
+  const startPhi = useRef(0);
+  const startTheta = useRef(0);
 
-  const phiRef = useRef(0)
-  const thetaRef = useRef(0)
-  const targetPhi = useRef(0)
-  const targetTheta = useRef(0)
-  const widthRef = useRef(0)
+  const phiRef = useRef(0);
+  const thetaRef = useRef(0);
+  const targetPhi = useRef(0);
+  const targetTheta = useRef(0);
+  const widthRef = useRef(0);
 
   const toAngles = (lat: number, lng: number): [number, number] => [
     Math.PI - ((lng * Math.PI) / 180 - Math.PI / 2),
     (lat * Math.PI) / 180,
-  ]
+  ];
 
   const clamp = (v: number, min: number, max: number) =>
-    Math.min(Math.max(v, min), max)
+    Math.min(Math.max(v, min), max);
 
   useEffect(() => {
     const onResize = () => {
       if (canvasRef.current) {
-        widthRef.current = canvasRef.current.offsetWidth
+        widthRef.current = canvasRef.current.offsetWidth;
       }
-    }
-    window.addEventListener('resize', onResize)
-    onResize()
+    };
+    window.addEventListener("resize", onResize);
+    onResize();
 
     const globe = createGlobe(canvasRef.current as HTMLCanvasElement, {
       devicePixelRatio: 2,
@@ -58,99 +58,99 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
         { location: [52.3676, 4.9041], size: 0.08 },
       ],
       onRender: (state) => {
-        phiRef.current = phiRef.current * 0.9 + targetPhi.current * 0.1
-        thetaRef.current = thetaRef.current * 0.9 + targetTheta.current * 0.1
+        phiRef.current = phiRef.current * 0.9 + targetPhi.current * 0.1;
+        thetaRef.current = thetaRef.current * 0.9 + targetTheta.current * 0.1;
 
-        state.phi = phiRef.current
-        state.theta = thetaRef.current
-        state.width = widthRef.current * 2
-        state.height = widthRef.current * 2
+        state.phi = phiRef.current;
+        state.theta = thetaRef.current;
+        state.width = widthRef.current * 2;
+        state.height = widthRef.current * 2;
       },
-    })
+    });
 
     if (canvasRef.current) {
-      canvasRef.current.style.opacity = '0'
+      canvasRef.current.style.opacity = "0";
       setTimeout(() => {
         if (canvasRef.current) {
-          canvasRef.current.style.opacity = '1'
+          canvasRef.current.style.opacity = "1";
         }
-      }, 100)
+      }, 100);
     }
 
     return () => {
-      globe.destroy()
-      window.removeEventListener('resize', onResize)
-    }
-  }, [])
+      globe.destroy();
+      window.removeEventListener("resize", onResize);
+    };
+  }, []);
 
   const handlePointerDown = (clientX: number, clientY: number) => {
-    pointerDown.current = true
-    startX.current = clientX
-    startY.current = clientY
-    startPhi.current = targetPhi.current
-    startTheta.current = targetTheta.current
-  }
+    pointerDown.current = true;
+    startX.current = clientX;
+    startY.current = clientY;
+    startPhi.current = targetPhi.current;
+    startTheta.current = targetTheta.current;
+  };
 
   const handlePointerMove = (clientX: number, clientY: number) => {
     if (!pointerDown.current) {
-      return
+      return;
     }
-    const dx = clientX - startX.current
-    const dy = clientY - startY.current
-    const w = widthRef.current || 1
-    targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2
+    const dx = clientX - startX.current;
+    const dy = clientY - startY.current;
+    const w = widthRef.current || 1;
+    targetPhi.current = startPhi.current + (dx / w) * Math.PI * 2;
     targetTheta.current = clamp(
       startTheta.current + (dy / w) * Math.PI,
       -Math.PI / 2,
       Math.PI / 2
-    )
-  }
+    );
+  };
 
   const handlePointerUp = () => {
-    pointerDown.current = false
-  }
+    pointerDown.current = false;
+  };
 
   const handleKeyDown = (event: KeyboardEvent<HTMLCanvasElement>) => {
-    const step = Math.PI / 18
+    const step = Math.PI / 18;
     switch (event.key) {
-      case 'ArrowLeft':
-        event.preventDefault()
-        targetPhi.current -= step
-        break
-      case 'ArrowRight':
-        event.preventDefault()
-        targetPhi.current += step
-        break
-      case 'ArrowUp':
-        event.preventDefault()
+      case "ArrowLeft":
+        event.preventDefault();
+        targetPhi.current -= step;
+        break;
+      case "ArrowRight":
+        event.preventDefault();
+        targetPhi.current += step;
+        break;
+      case "ArrowUp":
+        event.preventDefault();
         targetTheta.current = clamp(
           targetTheta.current - step,
           -Math.PI / 2,
           Math.PI / 2
-        )
-        break
-      case 'ArrowDown':
-        event.preventDefault()
+        );
+        break;
+      case "ArrowDown":
+        event.preventDefault();
         targetTheta.current = clamp(
           targetTheta.current + step,
           -Math.PI / 2,
           Math.PI / 2
-        )
-        break
+        );
+        break;
       default:
-        break
+        break;
     }
-  }
+  };
 
   const handleCityClick = (lat: number, lng: number) => {
-    ;[targetPhi.current, targetTheta.current] = toAngles(lat, lng)
-  }
+    [targetPhi.current, targetTheta.current] = toAngles(lat, lng);
+  };
 
   const labels = {
     netherlands:
-      lang === 'ko' ? '네덜란드 · 암스테르담' : 'Netherlands · Amsterdam',
-    korea: lang === 'ko' ? '대한민국 · 서울' : 'South Korea · Seoul',
-  }
+      lang === "ko" ? "네덜란드 · 암스테르담" : "Netherlands · Amsterdam",
+    korea: lang === "ko" ? "대한민국 · 서울" : "South Korea · Seoul",
+  };
 
   return (
     <div className={styles.container}>
@@ -159,9 +159,9 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
           <div className={styles.canvasWrapper}>
             <canvas
               aria-label={
-                lang === 'ko'
-                  ? '화살표 키로 지구본을 회전하세요'
-                  : 'Use arrow keys to rotate the globe'
+                lang === "ko"
+                  ? "화살표 키로 지구본을 회전하세요"
+                  : "Use arrow keys to rotate the globe"
               }
               className={styles.canvas}
               onKeyDown={handleKeyDown}
@@ -196,5 +196,5 @@ export const KoreaNetherlandsGlobe = ({ lang = 'en' }: Props) => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};

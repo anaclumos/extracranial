@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { Switch as SwitchPrimitive } from "@base-ui/react/switch"
+import { Switch as SwitchPrimitive } from "@base-ui/react/switch";
 
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 function Switch({ className, ...props }: SwitchPrimitive.Root.Props) {
   return (
@@ -21,7 +21,7 @@ function Switch({ className, ...props }: SwitchPrimitive.Root.Props) {
         data-slot="switch-thumb"
       />
     </SwitchPrimitive.Root>
-  )
+  );
 }
 
-export { Switch }
+export { Switch };

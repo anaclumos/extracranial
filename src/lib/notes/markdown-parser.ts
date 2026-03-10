@@ -1,39 +1,37 @@
-import "server-only"
-
-import type { SerializedNoteContent } from "@/lib/types"
-import { getContentIndex, type SourceNote } from "./content-index"
+import type { SerializedNoteContent } from "@/lib/types";
+import { getContentIndex, type SourceNote } from "./content-index";
 import {
   extractOutboundLinks,
   generateExcerpt,
   preprocessNoteSource,
-} from "./source-transform"
+} from "./source-transform";
 
 export interface NoteFrontmatter {
-  title: string
-  description?: string
-  sourceLocale?: string
-  sourceHash?: string
-  translatedAt?: string
-  createdAt?: string
-  last_modified?: string
-  updatedAt?: string
-  [key: string]: unknown // Allow additional fields
+  createdAt?: string;
+  description?: string;
+  last_modified?: string;
+  sourceHash?: string;
+  sourceLocale?: string;
+  title: string;
+  translatedAt?: string;
+  updatedAt?: string;
+  [key: string]: unknown; // Allow additional fields
 }
 
 export interface ParsedNote {
-  data: NoteFrontmatter
-  content: string
-  serializedContent: SerializedNoteContent
-  excerpt: string
-  outboundLinks: string[]
+  content: string;
+  data: NoteFrontmatter;
+  excerpt: string;
+  outboundLinks: string[];
+  serializedContent: SerializedNoteContent;
 }
 
 export async function parseMarkdown(note: SourceNote): Promise<ParsedNote> {
-  const { titleLookup } = await getContentIndex()
+  const { titleLookup } = await getContentIndex();
   const serializedContent = preprocessNoteSource(
     note,
     titleLookup
-  ) as SerializedNoteContent
+  ) as SerializedNoteContent;
 
   return {
     data: {
@@ -44,7 +42,5 @@ export async function parseMarkdown(note: SourceNote): Promise<ParsedNote> {
     excerpt: generateExcerpt(note.content),
     outboundLinks: extractOutboundLinks(note, titleLookup),
     serializedContent,
-  }
+  };
 }
-
-export { generateExcerpt } from "./source-transform"

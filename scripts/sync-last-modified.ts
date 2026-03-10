@@ -1,97 +1,101 @@
-import { execFile } from "node:child_process"
-import fs from "node:fs/promises"
-import path from "node:path"
-import { promisify } from "node:util"
+import { execFile } from "node:child_process";
+import fs from "node:fs/promises";
+import path from "node:path";
+import { promisify } from "node:util";
 
-const execFileAsync = promisify(execFile)
-const REPO_ROOT = process.cwd()
-const LIBRARY_ROOT = path.join(REPO_ROOT, "library")
-const GIT_HISTORY_ROOTS = ["library", "Research"] as const
-const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"])
-const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"])
-const FRONTMATTER_RE = /^---\r?\n([\s\S]*?)\r?\n---(\r?\n|$)/
+const execFileAsync = promisify(execFile);
+const REPO_ROOT = process.cwd();
+const LIBRARY_ROOT = path.join(REPO_ROOT, "library");
+const GIT_HISTORY_ROOTS = ["library", "Research"] as const;
+const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"]);
+const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"]);
+const FRONTMATTER_RE = /^---\r?\n([\s\S]*?)\r?\n---(\r?\n|$)/;
+const LIBRARY_PREFIX_RE = /^library\//;
+const LAST_MODIFIED_RE = /^last_modified\s*:/;
+const LINE_SPLIT_RE = /\r?\n/;
+const WHITESPACE_RE = /\s+/;
 
 async function collectMarkdownFiles(root: string): Promise<string[]> {
-  const entries = await fs.readdir(root, { withFileTypes: true })
-  const files: string[] = []
+  const entries = await fs.readdir(root, { withFileTypes: true });
+  const files: string[] = [];
 
   for (const entry of entries) {
-    const fullPath = path.join(root, entry.name)
+    const fullPath = path.join(root, entry.name);
 
     if (entry.isDirectory()) {
       if (SKIPPED_DIRECTORIES.has(entry.name)) {
-        continue
+        continue;
       }
-      files.push(...(await collectMarkdownFiles(fullPath)))
-      continue
+      files.push(...(await collectMarkdownFiles(fullPath)));
+      continue;
     }
 
     if (MARKDOWN_EXTENSIONS.has(path.extname(entry.name))) {
-      files.push(fullPath)
+      files.push(fullPath);
     }
   }
 
-  return files
+  return files;
 }
 
 function parseBeforeArg() {
-  const args = process.argv.slice(2)
-  const beforeWithEquals = args.find((arg) => arg.startsWith("--before="))
+  const args = process.argv.slice(2);
+  const beforeWithEquals = args.find((arg) => arg.startsWith("--before="));
   if (beforeWithEquals) {
-    return beforeWithEquals.slice("--before=".length)
+    return beforeWithEquals.slice("--before=".length);
   }
 
-  const beforeIndex = args.findIndex((arg) => arg === "--before")
+  const beforeIndex = args.indexOf("--before");
   if (beforeIndex >= 0) {
-    return args[beforeIndex + 1]
+    return args[beforeIndex + 1];
   }
 
-  return undefined
+  return undefined;
 }
 
 function getGitPathCandidates(relativePath: string) {
   return Array.from(
     new Set([
       relativePath,
-      relativePath.replace(/^library\//, "Research/"),
+      relativePath.replace(LIBRARY_PREFIX_RE, "Research/"),
     ])
-  )
+  );
 }
 
 function pickLastUpdatedFromLog(stdout: string): string | undefined {
-  let currentDate: string | null = null
-  let createdAt: string | undefined
+  let currentDate: string | null = null;
+  let createdAt: string | undefined;
 
   for (const line of stdout.split("\n")) {
-    const trimmed = line.trim()
+    const trimmed = line.trim();
     if (!trimmed) {
-      continue
+      continue;
     }
 
     if (trimmed.startsWith("__COMMIT__ ")) {
-      currentDate = trimmed.slice("__COMMIT__ ".length)
-      continue
+      currentDate = trimmed.slice("__COMMIT__ ".length);
+      continue;
     }
 
     if (!currentDate) {
-      continue
+      continue;
     }
 
-    const [status] = trimmed.split(/\s+/, 1)
+    const [status] = trimmed.split(WHITESPACE_RE, 1);
     if (!status) {
-      continue
+      continue;
     }
 
     if (status === "M") {
-      return currentDate
+      return currentDate;
     }
 
     if (status === "A" && !createdAt) {
-      createdAt = currentDate
+      createdAt = currentDate;
     }
   }
 
-  return createdAt
+  return createdAt;
 }
 
 async function getLastUpdatedForRelativePath(
@@ -101,9 +105,9 @@ async function getLastUpdatedForRelativePath(
   for (const candidate of getGitPathCandidates(relativePath)) {
     const candidateRoot = GIT_HISTORY_ROOTS.find((root) =>
       candidate.startsWith(`${root}/`)
-    )
+    );
     if (!candidateRoot) {
-      continue
+      continue;
     }
 
     const args = [
@@ -113,57 +117,58 @@ async function getLastUpdatedForRelativePath(
       "--follow",
       "--name-status",
       "--format=__COMMIT__ %cs",
-    ]
+    ];
 
     if (before) {
-      args.push(`--before=${before} 00:00:00`)
+      args.push(`--before=${before} 00:00:00`);
     }
 
-    args.push("--", candidate)
+    args.push("--", candidate);
 
     const { stdout } = await execFileAsync("git", args, {
       maxBuffer: 1024 * 1024,
-    })
+    });
 
-    const resolved = pickLastUpdatedFromLog(stdout)
+    const resolved = pickLastUpdatedFromLog(stdout);
     if (resolved) {
-      return resolved
+      return resolved;
     }
   }
 
-  return undefined
+  return undefined;
 }
 
-function upsertLastModified(source: string, lastModified: string): string | null {
-  const match = source.match(FRONTMATTER_RE)
+function upsertLastModified(
+  source: string,
+  lastModified: string
+): string | null {
+  const match = source.match(FRONTMATTER_RE);
   if (!match) {
-    return null
+    return null;
   }
 
-  const lineEnding = source.includes("\r\n") ? "\r\n" : "\n"
-  const frontmatterLines = match[1].split(/\r?\n/)
+  const lineEnding = source.includes("\r\n") ? "\r\n" : "\n";
+  const frontmatterLines = match[1].split(LINE_SPLIT_RE);
   const existingIndex = frontmatterLines.findIndex((line) =>
-    /^last_modified\s*:/.test(line)
-  )
-  const newLine = `last_modified: ${lastModified}`
+    LAST_MODIFIED_RE.test(line)
+  );
+  const newLine = `last_modified: ${lastModified}`;
 
   if (existingIndex >= 0) {
     if (frontmatterLines[existingIndex] === newLine) {
-      return source
+      return source;
     }
-    frontmatterLines[existingIndex] = newLine
+    frontmatterLines[existingIndex] = newLine;
   } else {
-    frontmatterLines.push(newLine)
+    frontmatterLines.push(newLine);
   }
 
-  const rest = source.slice(match[0].length)
-  const rebuiltFrontmatter = [
-    "---",
-    ...frontmatterLines,
-    "---",
-  ].join(lineEnding)
+  const rest = source.slice(match[0].length);
+  const rebuiltFrontmatter = ["---", ...frontmatterLines, "---"].join(
+    lineEnding
+  );
 
-  return `${rebuiltFrontmatter}${match[2]}${rest}`
+  return `${rebuiltFrontmatter}${match[2]}${rest}`;
 }
 
 async function runWithConcurrency<T>(
@@ -171,51 +176,54 @@ async function runWithConcurrency<T>(
   concurrency: number,
   worker: (item: T) => Promise<void>
 ) {
-  const queue = [...items]
+  const queue = [...items];
 
   await Promise.all(
     Array.from({ length: Math.min(concurrency, queue.length) }, async () => {
       while (queue.length > 0) {
-        const item = queue.shift()
+        const item = queue.shift();
         if (item === undefined) {
-          return
+          return;
         }
-        await worker(item)
+        await worker(item);
       }
     })
-  )
+  );
 }
 
 async function main() {
-  const before = parseBeforeArg()
-  const files = await collectMarkdownFiles(LIBRARY_ROOT)
+  const before = parseBeforeArg();
+  const files = await collectMarkdownFiles(LIBRARY_ROOT);
 
-  let updatedCount = 0
-  let skippedCount = 0
+  let updatedCount = 0;
+  let skippedCount = 0;
 
   await runWithConcurrency(files, 12, async (filePath) => {
-    const relativePath = path.relative(REPO_ROOT, filePath)
-    const lastModified = await getLastUpdatedForRelativePath(relativePath, before)
+    const relativePath = path.relative(REPO_ROOT, filePath);
+    const lastModified = await getLastUpdatedForRelativePath(
+      relativePath,
+      before
+    );
 
     if (!lastModified) {
-      skippedCount += 1
-      return
+      skippedCount += 1;
+      return;
     }
 
-    const source = await fs.readFile(filePath, "utf8")
-    const updatedSource = upsertLastModified(source, lastModified)
+    const source = await fs.readFile(filePath, "utf8");
+    const updatedSource = upsertLastModified(source, lastModified);
 
     if (!(updatedSource && updatedSource !== source)) {
-      return
+      return;
     }
 
-    await fs.writeFile(filePath, updatedSource)
-    updatedCount += 1
-  })
+    await fs.writeFile(filePath, updatedSource);
+    updatedCount += 1;
+  });
 
   console.log(
     `Updated ${updatedCount} files with last_modified${before ? ` before ${before}` : ""}. Skipped ${skippedCount} files without git history.`
-  )
+  );
 }
 
-await main()
+await main();

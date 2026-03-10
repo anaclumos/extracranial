@@ -1,13 +1,13 @@
-import type { KeyHandlerContext } from "./key-handlers"
+import type { KeyHandlerContext } from "./key-handlers";
 import {
   handleArrowLeft,
   handleArrowRight,
   handleEnd,
   handleEscape,
   handleHome,
-} from "./key-handlers"
+} from "./key-handlers";
 
-export type KeyHandler = (ctx: KeyHandlerContext) => void
+export type KeyHandler = (ctx: KeyHandlerContext) => void;
 
 export const keyboardShortcuts: Record<string, KeyHandler> = {
   ArrowLeft: handleArrowLeft,
@@ -15,4 +15,4 @@ export const keyboardShortcuts: Record<string, KeyHandler> = {
   Escape: handleEscape,
   Home: handleHome,
   End: handleEnd,
-}
+};
