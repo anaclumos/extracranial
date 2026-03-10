@@ -227,15 +227,6 @@ body {
     & em {
       @apply italic;
     }
-    & code {
-      @apply bg-muted px-1.5 py-0.5 rounded text-sm font-mono text-foreground;
-    }
-    & pre {
-      @apply bg-muted p-4 rounded-lg overflow-x-auto mb-6 border border-border/50;
-    }
-    & code {
-      @apply bg-transparent p-0 text-foreground;
-    }
     & blockquote {
       @apply border-l-2 border-primary/20 pl-4 ml-0 mb-6 text-foreground/70 italic;
     }

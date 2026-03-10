@@ -87,7 +87,6 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
             onExpand={handleExpandPane}
             onLinkClick={handleLinkClick}
             serializedContent={pane.serializedContent}
-            slug={pane.slug}
             title={pane.title}
           />
         ))}

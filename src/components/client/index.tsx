@@ -2,7 +2,6 @@
 
 import { Suspense, useEffect, useMemo, useRef } from "react"
 import { PaneContainer } from "@/components/pane/container"
-import { NotePreviewProvider } from "@/components/preview-link"
 import { Spinner } from "@/components/ui/spinner"
 import { usePaneUIStore } from "@/lib/stores/pane-ui-store"
 import type { NotePaneData, NoteSummary } from "@/lib/types"
@@ -33,25 +32,15 @@ function NotesContent({
     setScrollToPaneHandler(handler)
   }, [setScrollToPaneHandler])
 
-  const summariesMap = useMemo(() => {
-    const map = new Map<string, NoteSummary>()
-    for (const summary of noteSummaries) {
-      map.set(summary.slug, summary)
-    }
-    return map
-  }, [noteSummaries])
-
   return (
     <NoteStackProvider rootSlug={rootSlug}>
-      <KeyboardHandler initialPanesLength={1} />
-      <NotePreviewProvider summariesMap={summariesMap}>
-        <PaneContainer paneNotes={paneNotes} scrollToPaneRef={scrollToPaneRef}>
-          <PaneOrchestrator
-            noteSummaries={noteSummaries}
-            paneNotes={paneNotes}
-          />
-        </PaneContainer>
-      </NotePreviewProvider>
+      <KeyboardHandler />
+      <PaneContainer paneNotes={paneNotes} scrollToPaneRef={scrollToPaneRef}>
+        <PaneOrchestrator
+          noteSummaries={noteSummaries}
+          paneNotes={paneNotes}
+        />
+      </PaneContainer>
     </NoteStackProvider>
   )
 }

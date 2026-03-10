@@ -1,7 +1,6 @@
 import "server-only"
 
 import type { BacklinkInfo, NoteSummary } from "@/lib/types"
-import { extractExcerpt } from "./link-extractor"
 import { generateExcerpt } from "./markdown-parser"
 import { loadAllNoteGraphNodes } from "./note-loader"
 
@@ -33,7 +32,7 @@ async function buildNoteGraphUncached(locale: string): Promise<{
         targetBacklinks.push({
           slug: note.slug,
           title: note.title,
-          excerpt: extractExcerpt(note.content, targetSlug),
+          excerpt: generateExcerpt(note.content, 180),
         })
         backlinks.set(targetSlug, targetBacklinks)
       }

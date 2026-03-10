@@ -4,6 +4,7 @@ import {
   ArrowLeft01Icon,
   ArrowRight01Icon,
   ArrowUpRight01Icon,
+  Globe02Icon,
   LaptopIcon,
   Menu01Icon,
   Moon01Icon,
@@ -11,16 +12,21 @@ import {
   Tick01Icon,
 } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
-import { useLocale, useTranslations } from "next-intl"
+import { useLocale } from "next-intl"
 import { useTheme } from "next-themes"
 import { useQueryStates } from "nuqs"
 import { useEffect, useState } from "react"
 import { HeaderLogo } from "@/components/header-logo"
-import { LanguageSwitcher, localeNames } from "@/components/language-switcher"
-import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import { Group, GroupSeparator } from "@/components/ui/group"
 import { Separator } from "@/components/ui/separator"
+import {
+  Select,
+  SelectItem,
+  SelectPopup,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select"
 import {
   Sheet,
   SheetHeader,
@@ -42,6 +48,12 @@ interface AppHeaderProps {
   brand: string
   brandWithManifesto: string
   githubLabel: string
+  languageLabel: string
+  moreLabel: string
+  selectLanguageLabel: string
+  selectThemeLabel: string
+  themeLabels: Record<(typeof themes)[number]["value"], string>
+  themeToggleLabel: string
 }
 
 const themes = [
@@ -50,14 +62,158 @@ const themes = [
   { value: "system", icon: LaptopIcon },
 ] as const
 
+const localeNames: Record<Locale, string> = {
+  en: "English",
+  ko: "한국어",
+}
+
+function LanguageSwitcher({
+  className,
+  label: _label,
+  selectLanguageLabel,
+  variant = "icon",
+}: {
+  className?: string
+  label: string
+  selectLanguageLabel: string
+  variant?: "icon" | "select"
+}) {
+  const locale = useLocale()
+  const router = useRouter()
+  const pathname = usePathname()
+  const [urlState] = useQueryStates(noteStackParsers)
+
+  const handleChange = (value: string | null) => {
+    if (!(value && value !== locale)) {
+      return
+    }
+
+    const params: string[] = []
+    const stackStr = stackParser.serialize(urlState.stack)
+    if (stackStr) {
+      params.push(`stack=${stackStr}`)
+    }
+    if (urlState.focus !== null) {
+      const focusStr = focusParser.serialize(urlState.focus)
+      if (focusStr) {
+        params.push(`focus=${focusStr}`)
+      }
+    }
+
+    const fullPath = params.length > 0 ? `${pathname}?${params.join("&")}` : pathname
+    router.replace(fullPath, { locale: value as Locale })
+  }
+
+  return (
+    <Select onValueChange={handleChange} value={locale}>
+      {variant === "icon" ? (
+        <Button
+          aria-label={selectLanguageLabel}
+          className={cn(
+            "w-auto min-w-0 [&_[data-slot=select-icon]]:hidden",
+            className
+          )}
+          render={<SelectTrigger />}
+          size="icon"
+          variant="outline"
+        >
+          <HugeiconsIcon icon={Globe02Icon} size={18} strokeWidth={1.5} />
+        </Button>
+      ) : (
+        <SelectTrigger
+          aria-label={selectLanguageLabel}
+          className={cn("w-full justify-between", className)}
+        >
+          <SelectValue />
+        </SelectTrigger>
+      )}
+      <SelectPopup className="max-h-[300px]">
+        {routing.locales.map((loc) => (
+          <SelectItem key={loc} value={loc}>
+            {localeNames[loc]}
+          </SelectItem>
+        ))}
+      </SelectPopup>
+    </Select>
+  )
+}
+
+function ThemeToggle({
+  className,
+  labels,
+  selectThemeLabel,
+  toggleLabel,
+  variant = "icon",
+}: {
+  className?: string
+  labels: Record<(typeof themes)[number]["value"], string>
+  selectThemeLabel: string
+  toggleLabel: string
+  variant?: "icon" | "select"
+}) {
+  const [mounted, setMounted] = useState(false)
+  const { theme, setTheme } = useTheme()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  const resolvedTheme = mounted ? (theme ?? "system") : "system"
+  const currentTheme =
+    themes.find((themeOption) => themeOption.value === resolvedTheme) ?? themes[2]
+  const CurrentIcon = currentTheme.icon
+
+  return (
+    <Select
+      onValueChange={(value) => value && setTheme(value)}
+      value={resolvedTheme}
+    >
+      {variant === "icon" ? (
+        <Button
+          aria-label={toggleLabel}
+          className={cn(
+            "w-auto min-w-0 [&_[data-slot=select-icon]]:hidden",
+            className
+          )}
+          render={<SelectTrigger />}
+          size="icon"
+          variant="outline"
+        >
+          <HugeiconsIcon icon={CurrentIcon} size={18} strokeWidth={1.5} />
+        </Button>
+      ) : (
+        <SelectTrigger
+          aria-label={selectThemeLabel}
+          className={cn("w-full justify-between", className)}
+        >
+          <SelectValue />
+        </SelectTrigger>
+      )}
+      <SelectPopup alignItemWithTrigger={variant !== "icon"}>
+        {themes.map(({ value, icon: Icon }) => (
+          <SelectItem key={value} value={value}>
+            <span className="flex items-center gap-2">
+              <HugeiconsIcon icon={Icon} size={16} strokeWidth={1.5} />
+              {labels[value]}
+            </span>
+          </SelectItem>
+        ))}
+      </SelectPopup>
+    </Select>
+  )
+}
+
 export function AppHeader({
   brand,
   brandWithManifesto,
   githubLabel,
+  languageLabel,
+  moreLabel,
+  selectLanguageLabel,
+  selectThemeLabel,
+  themeLabels,
+  themeToggleLabel,
 }: AppHeaderProps) {
-  const tLanguage = useTranslations("languageSwitcher")
-  const tTheme = useTranslations("theme")
-  const tNavigation = useTranslations("navigation")
   const [isMainOpen, setIsMainOpen] = useState(false)
   const [isLanguageOpen, setIsLanguageOpen] = useState(false)
   const [isThemeOpen, setIsThemeOpen] = useState(false)
@@ -134,14 +290,21 @@ export function AppHeader({
             variant="outline"
           />
           <GroupSeparator />
-          <LanguageSwitcher />
+          <LanguageSwitcher
+            label={languageLabel}
+            selectLanguageLabel={selectLanguageLabel}
+          />
           <GroupSeparator />
-          <ThemeToggle />
+          <ThemeToggle
+            labels={themeLabels}
+            selectThemeLabel={selectThemeLabel}
+            toggleLabel={themeToggleLabel}
+          />
         </Group>
 
         <Sheet onOpenChange={setIsMainOpen} open={isMainOpen}>
           <SheetTrigger
-            aria-label={tNavigation("more")}
+            aria-label={moreLabel}
             className="sm:hidden"
             render={<Button size="icon" variant="outline" />}
           >
@@ -149,7 +312,7 @@ export function AppHeader({
           </SheetTrigger>
           <SheetPopup className="sm:hidden" side="bottom">
             <SheetHeader>
-              <SheetTitle>{tNavigation("more")}</SheetTitle>
+              <SheetTitle>{moreLabel}</SheetTitle>
             </SheetHeader>
             <SheetPanel>
               <div className="flex flex-col gap-1">
@@ -183,7 +346,7 @@ export function AppHeader({
                   variant="ghost"
                 >
                   <span className="flex items-center gap-2">
-                    {tLanguage("label")}
+                    {languageLabel}
                     <span className="text-muted-foreground text-sm">
                       {localeNames[locale as Locale]}
                     </span>
@@ -202,9 +365,9 @@ export function AppHeader({
                   variant="ghost"
                 >
                   <span className="flex items-center gap-2">
-                    {tTheme("toggle")}
+                    {themeToggleLabel}
                     <span className="text-muted-foreground text-sm capitalize">
-                      {mounted ? tTheme(resolvedTheme) : ""}
+                      {mounted ? themeLabels[resolvedTheme as keyof typeof themeLabels] : ""}
                     </span>
                   </span>
                   <HugeiconsIcon
@@ -239,7 +402,7 @@ export function AppHeader({
                 />
               </Button>
               <SheetTitle className="text-base">
-                {tLanguage("selectLanguage")}
+                {selectLanguageLabel}
               </SheetTitle>
             </SheetHeader>
             <SheetPanel className="pt-2">
@@ -289,7 +452,7 @@ export function AppHeader({
                   strokeWidth={1.5}
                 />
               </Button>
-              <SheetTitle className="text-base">{tTheme("toggle")}</SheetTitle>
+              <SheetTitle className="text-base">{themeToggleLabel}</SheetTitle>
             </SheetHeader>
             <SheetPanel className="pt-2">
               <div className="flex flex-col">
@@ -305,7 +468,7 @@ export function AppHeader({
                   >
                     <span className="flex items-center gap-3">
                       <HugeiconsIcon icon={Icon} size={20} strokeWidth={1.5} />
-                      {tTheme(value)}
+                      {themeLabels[value]}
                     </span>
                     {value === resolvedTheme && (
                       <HugeiconsIcon

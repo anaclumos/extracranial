@@ -3,13 +3,11 @@
 import { useTranslations } from "next-intl"
 import { memo } from "react"
 import { BacklinksSection } from "@/components/backlinks-section"
-import { NoteContent } from "@/components/note-content"
+import { MdxNoteContent } from "@/components/content/mdx-components"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import type { BacklinkInfo, SerializedNoteContent } from "@/lib/types"
-import { PaneHeader } from "./pane-header"
 
 interface PaneBodyProps {
-  slug: string
   title: string
   description?: string
   serializedContent: SerializedNoteContent
@@ -27,13 +25,19 @@ export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
   return (
     <ScrollArea className="relative z-0 h-full">
       <div className="flex min-h-full flex-col">
-        <PaneHeader description={description} title={title} />
+        <header className="px-4 pt-4 pb-2">
+          <h1 className="font-normal text-3xl text-foreground tracking-tight dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-500 dark:bg-clip-text dark:text-transparent">
+            {title}
+          </h1>
+          {description && (
+            <p className="mt-2 font-normal text-lg text-muted-foreground">
+              {description}
+            </p>
+          )}
+        </header>
 
         <div className="flex-1">
-          <NoteContent
-            onLinkClick={onLinkClick}
-            serializedContent={serializedContent}
-          />
+          <MdxNoteContent onLinkClick={onLinkClick} source={serializedContent} />
         </div>
 
         {backlinks.length > 0 && (
