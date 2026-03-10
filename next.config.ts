@@ -2,6 +2,14 @@ import type { NextConfig } from "next"
 import createNextIntlPlugin from "next-intl/plugin"
 
 const nextConfig: NextConfig = {
+  cacheComponents: true,
+  cacheLife: {
+    blog: {
+      stale: 300,
+      revalidate: 86400,
+      expire: 604800,
+    },
+  },
   transpilePackages: [
     "motion",
     "motion-plus",

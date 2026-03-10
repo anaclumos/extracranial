@@ -3,7 +3,7 @@ import "server-only"
 import fs from "node:fs/promises"
 import path from "node:path"
 import matter from "gray-matter"
-import { cache } from "react"
+import { cacheLife, cacheTag } from "next/cache"
 import type { NoteKind } from "@/lib/types"
 import { normalizeNoteSlug } from "../note-links"
 
@@ -190,7 +190,11 @@ function registerLookup(
   }
 }
 
-export const getContentIndex = cache(async (): Promise<ContentIndex> => {
+export async function getContentIndex(): Promise<ContentIndex> {
+  "use cache"
+  cacheLife("blog")
+  cacheTag("content-index")
+
   const [researchFiles, postFiles] = await Promise.all([
     collectMarkdownFiles(LIBRARY_ROOT),
     collectMarkdownFiles(POSTS_ROOT),
@@ -224,7 +228,7 @@ export const getContentIndex = cache(async (): Promise<ContentIndex> => {
   }
 
   return { notesBySlug, titleLookup }
-})
+}
 
 export function pickNoteForLocale(
   variants: Map<string, SourceNote>,
@@ -239,16 +243,21 @@ export function pickNoteForLocale(
   )
 }
 
-export const getSourceNoteBySlug = cache(
-  async (slug: string, locale: string): Promise<SourceNote | null> => {
-    const { notesBySlug } = await getContentIndex()
-    const variants = notesBySlug.get(slug)
-    if (!variants) {
-      return null
-    }
-    return pickNoteForLocale(variants, locale)
+export async function getSourceNoteBySlug(
+  slug: string,
+  locale: string
+): Promise<SourceNote | null> {
+  "use cache"
+  cacheLife("blog")
+  cacheTag(`source-note-${slug}`, `locale-${locale}`)
+
+  const { notesBySlug } = await getContentIndex()
+  const variants = notesBySlug.get(slug)
+  if (!variants) {
+    return null
   }
-)
+  return pickNoteForLocale(variants, locale)
+}
 
 export async function getSourceNoteBySlugAnyLocale(
   slug: string

@@ -1,6 +1,5 @@
 import "server-only"
 
-import { cache } from "react"
 import type { Note, NoteGraphNode } from "@/lib/types"
 import { getContentIndex } from "./content-index"
 import { getAllNoteSlugs, getSourceNoteBySlug } from "./file-io"
@@ -60,14 +59,12 @@ async function loadNoteGraphNode(
   }
 }
 
-const loadNoteGraphNodeCached = cache(loadNoteGraphNode)
-
 export async function loadAllNoteGraphNodes(
   locale = "en"
 ): Promise<NoteGraphNode[]> {
   const slugs = await getAllNoteSlugs(locale)
   const notes = await Promise.all(
-    slugs.map((slug) => loadNoteGraphNodeCached(slug, locale))
+    slugs.map((slug) => loadNoteGraphNode(slug, locale))
   )
   return notes.filter((note): note is NoteGraphNode => note !== null)
 }
