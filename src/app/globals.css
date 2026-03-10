@@ -10,8 +10,6 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  color-scheme: light;
-
   --pane-spine-width: 2.5rem;
   --pane-min-width: 20rem;
 
@@ -57,6 +55,7 @@
   --warning-foreground: var(--color-amber-700);
   --link: var(--color-blue-600);
   --link-visited: var(--color-blue-800);
+  color-scheme: light;
 }
 
 @theme inline {
@@ -118,19 +117,13 @@
   }
 }
 
-* {
-  corner-shape: squircle;
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
   overscroll-behavior-x: none;
+  color: var(--foreground);
+  background: var(--background);
 }
 
 .dark {
-  color-scheme: dark;
-
   --accent: --alpha(var(--color-white) / 4%);
   --accent-foreground: var(--color-neutral-100);
   --background: #0a0a0a;
@@ -162,6 +155,7 @@ body {
   --warning-foreground: var(--color-amber-400);
   --link: var(--color-blue-400);
   --link-visited: var(--color-blue-300);
+  color-scheme: dark;
 }
 
 @layer base {
@@ -198,16 +192,6 @@ body {
     & p {
       @apply text-base leading-[1.8] mb-6 text-foreground/80;
     }
-    & ul,
-    & ol {
-      @apply mb-6 pl-6 text-foreground/80;
-    }
-    & ul {
-      list-style: disc;
-    }
-    & ol {
-      list-style: decimal;
-    }
     & li > ul,
     & li > ol {
       @apply mt-3 mb-3;
@@ -217,6 +201,16 @@ body {
     }
     & li > ol {
       list-style: lower-alpha;
+    }
+    & ul,
+    & ol {
+      @apply mb-6 pl-6 text-foreground/80;
+    }
+    & ul {
+      list-style: disc;
+    }
+    & ol {
+      list-style: decimal;
     }
     & li {
       @apply text-base leading-[1.8] mb-3;
@@ -255,18 +249,18 @@ body {
       @apply mt-2 text-center text-muted-foreground text-sm;
     }
     & img {
-      @apply mx-auto rounded-xl;
-      max-height: 50rem;
       width: auto;
+      max-height: 50rem;
+      @apply mx-auto rounded-xl;
     }
     & iframe,
     & video {
-      @apply block w-full rounded-xl;
       max-width: 100%;
+      @apply block w-full rounded-xl;
     }
     & table {
-      @apply my-6 w-full border-collapse overflow-x-auto text-sm;
       display: block;
+      @apply my-6 w-full border-collapse overflow-x-auto text-sm;
     }
     & thead {
       @apply border-border border-b;
@@ -281,8 +275,8 @@ body {
   }
 
   .magnetic-cursor {
-    pointer-events: none;
     z-index: var(--z-toast);
+    pointer-events: none;
   }
 
   .dark .magnetic-cursor {

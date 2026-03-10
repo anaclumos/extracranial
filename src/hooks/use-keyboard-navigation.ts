@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import { useCallback, useEffect } from "react"
-import type { KeyHandlerContext } from "@/lib/keyboard/key-handlers"
-import { isTextInput } from "@/lib/keyboard/key-handlers"
-import { keyboardShortcuts } from "@/lib/keyboard/keyboard-config"
+import { useCallback, useEffect } from "react";
+import type { KeyHandlerContext } from "@/lib/keyboard/key-handlers";
+import { isTextInput } from "@/lib/keyboard/key-handlers";
+import { keyboardShortcuts } from "@/lib/keyboard/keyboard-config";
 
 interface KeyboardNavigationProps {
-  stackLength: number
-  focusIndex: number
-  maxFocusIndex?: number
-  onFocusChange: (index: number) => void
-  onPopStack: () => void
-  onScrollToPane: (index: number) => void
+  focusIndex: number;
+  maxFocusIndex?: number;
+  onFocusChange: (index: number) => void;
+  onPopStack: () => void;
+  onScrollToPane: (index: number) => void;
+  stackLength: number;
 }
 
 export function useKeyboardNavigation({
@@ -25,16 +25,16 @@ export function useKeyboardNavigation({
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) {
-        return
+        return;
       }
 
       if (isTextInput(e.target)) {
-        return
+        return;
       }
 
-      const handler = keyboardShortcuts[e.key]
+      const handler = keyboardShortcuts[e.key];
       if (handler) {
-        e.preventDefault()
+        e.preventDefault();
         const ctx: KeyHandlerContext = {
           focusIndex,
           stackLength,
@@ -42,8 +42,8 @@ export function useKeyboardNavigation({
           onFocusChange,
           onPopStack,
           onScrollToPane,
-        }
-        handler(ctx)
+        };
+        handler(ctx);
       }
     },
     [
@@ -54,10 +54,10 @@ export function useKeyboardNavigation({
       onPopStack,
       onScrollToPane,
     ]
-  )
+  );
 
   useEffect(() => {
-    document.addEventListener("keydown", handleKeyDown)
-    return () => document.removeEventListener("keydown", handleKeyDown)
-  }, [handleKeyDown])
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [handleKeyDown]);
 }

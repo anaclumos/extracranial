@@ -1,22 +1,22 @@
-"use client"
+"use client";
 
-import { Dialog as SheetPrimitive } from "@base-ui/react/dialog"
-import { Cancel01Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { Button } from "@/components/ui/button"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { cn } from "@/lib/utils"
+import { Dialog as SheetPrimitive } from "@base-ui/react/dialog";
+import { Cancel01Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { cn } from "@/lib/utils";
 
-const Sheet = SheetPrimitive.Root
+const Sheet = SheetPrimitive.Root;
 
-const SheetPortal = SheetPrimitive.Portal
+const SheetPortal = SheetPrimitive.Portal;
 
 function SheetTrigger(props: SheetPrimitive.Trigger.Props) {
-  return <SheetPrimitive.Trigger data-slot="sheet-trigger" {...props} />
+  return <SheetPrimitive.Trigger data-slot="sheet-trigger" {...props} />;
 }
 
 function SheetClose(props: SheetPrimitive.Close.Props) {
-  return <SheetPrimitive.Close data-slot="sheet-close" {...props} />
+  return <SheetPrimitive.Close data-slot="sheet-close" {...props} />;
 }
 
 function SheetBackdrop({ className, ...props }: SheetPrimitive.Backdrop.Props) {
@@ -29,7 +29,7 @@ function SheetBackdrop({ className, ...props }: SheetPrimitive.Backdrop.Props) {
       data-slot="sheet-backdrop"
       {...props}
     />
-  )
+  );
 }
 
 function SheetViewport({
@@ -38,8 +38,8 @@ function SheetViewport({
   inset = false,
   ...props
 }: SheetPrimitive.Viewport.Props & {
-  side?: "right" | "left" | "top" | "bottom"
-  inset?: boolean
+  side?: "right" | "left" | "top" | "bottom";
+  inset?: boolean;
 }) {
   return (
     <SheetPrimitive.Viewport
@@ -54,7 +54,7 @@ function SheetViewport({
       data-slot="sheet-viewport"
       {...props}
     />
-  )
+  );
 }
 
 function SheetPopup({
@@ -66,10 +66,10 @@ function SheetPopup({
   backdropClassName,
   ...props
 }: SheetPrimitive.Popup.Props & {
-  showCloseButton?: boolean
-  side?: "right" | "left" | "top" | "bottom"
-  inset?: boolean
-  backdropClassName?: string
+  showCloseButton?: boolean;
+  side?: "right" | "left" | "top" | "bottom";
+  inset?: boolean;
+  backdropClassName?: string;
 }) {
   return (
     <SheetPortal>
@@ -106,7 +106,7 @@ function SheetPopup({
         </SheetPrimitive.Popup>
       </SheetViewport>
     </SheetPortal>
-  )
+  );
 }
 
 function SheetHeader({ className, ...props }: React.ComponentProps<"div">) {
@@ -119,7 +119,7 @@ function SheetHeader({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="sheet-header"
       {...props}
     />
-  )
+  );
 }
 
 function SheetFooter({
@@ -127,7 +127,7 @@ function SheetFooter({
   variant = "default",
   ...props
 }: React.ComponentProps<"div"> & {
-  variant?: "default" | "bare"
+  variant?: "default" | "bare";
 }) {
   return (
     <div
@@ -141,7 +141,7 @@ function SheetFooter({
       data-slot="sheet-footer"
       {...props}
     />
-  )
+  );
 }
 
 function SheetTitle({ className, ...props }: SheetPrimitive.Title.Props) {
@@ -151,7 +151,7 @@ function SheetTitle({ className, ...props }: SheetPrimitive.Title.Props) {
       data-slot="sheet-title"
       {...props}
     />
-  )
+  );
 }
 
 function SheetDescription({
@@ -164,7 +164,7 @@ function SheetDescription({
       data-slot="sheet-description"
       {...props}
     />
-  )
+  );
 }
 
 function SheetPanel({
@@ -183,7 +183,7 @@ function SheetPanel({
         {...props}
       />
     </ScrollArea>
-  )
+  );
 }
 
 export {
@@ -200,4 +200,4 @@ export {
   SheetTitle,
   SheetDescription,
   SheetPanel,
-}
+};

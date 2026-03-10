@@ -1,34 +1,34 @@
-"use client"
+"use client";
 
-import { Cancel01Icon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
+import { Cancel01Icon } from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
 import {
   AnimatePresence,
   animate,
+  type MotionValue,
   motion,
+  type PanInfo,
   useMotionValue,
   useTransform,
-  type MotionValue,
-  type PanInfo,
-} from "motion/react"
-import { useTranslations } from "next-intl"
-import { memo, useCallback, useEffect, useRef } from "react"
-import { BacklinksSection } from "@/components/backlinks-section"
-import { MdxNoteContent } from "@/components/content/mdx-components"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
-import { reducedMotionTransition, springSubtle } from "@/lib/animations"
-import type { NotePaneData } from "@/lib/types"
+} from "motion/react";
+import { memo, useCallback, useEffect, useRef } from "react";
+import { BacklinksSection } from "@/components/backlinks-section";
+import { MdxNoteContent } from "@/components/content/mdx-components";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import { useTranslations } from "@/i18n/provider";
+import { reducedMotionTransition, springSubtle } from "@/lib/animations";
+import type { NotePaneData } from "@/lib/types";
 
 interface MobilePaneCarouselProps {
-  panes: NotePaneData[]
-  onLinkClick: (slug: string, fromIndex: number) => void
-  onClose: (index: number) => void
-  focusIndex: number
+  focusIndex: number;
+  onClose: (index: number) => void;
+  onLinkClick: (slug: string, fromIndex: number) => void;
+  panes: NotePaneData[];
 }
 
 function clamp(min: number, value: number, max: number) {
-  return Math.min(Math.max(value, min), max)
+  return Math.min(Math.max(value, min), max);
 }
 
 function calculatePaneTransform(
@@ -36,8 +36,8 @@ function calculatePaneTransform(
   progress: number,
   prefersReducedMotion: boolean
 ) {
-  const offset = (index - progress) * 200
-  const distance = Math.abs(offset)
+  const offset = (index - progress) * 200;
+  const distance = Math.abs(offset);
 
   return {
     x: (index - progress) * 260,
@@ -45,7 +45,7 @@ function calculatePaneTransform(
     scale: prefersReducedMotion ? 1 : clamp(0.8, 1 - distance * 0.001, 1),
     opacity: clamp(0.3, 1 - distance * 0.0015, 1),
     zIndex: Math.max(0, Math.round(100 - distance)),
-  }
+  };
 }
 
 function calculateDragTarget(
@@ -60,7 +60,7 @@ function calculateDragTarget(
       0,
       velocity < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex),
       maxIndex
-    )
+    );
   }
 
   if (Math.abs(offsetX) > cardWidth * 0.15) {
@@ -68,10 +68,10 @@ function calculateDragTarget(
       0,
       offsetX < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex),
       maxIndex
-    )
+    );
   }
 
-  return clamp(0, Math.round(currentIndex), maxIndex)
+  return clamp(0, Math.round(currentIndex), maxIndex);
 }
 
 function usePaneTransforms({
@@ -79,34 +79,41 @@ function usePaneTransforms({
   progress,
   prefersReducedMotion,
 }: {
-  index: number
-  progress: MotionValue<number>
-  prefersReducedMotion: boolean
+  index: number;
+  progress: MotionValue<number>;
+  prefersReducedMotion: boolean;
 }) {
-  const x = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion).x
-  )
-  const rotateY = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion).rotateY
-  )
-  const scale = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion).scale
-  )
-  const opacity = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion).opacity
-  )
-  const zIndex = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion).zIndex
-  )
+  const x = useTransform(
+    progress,
+    (value) => calculatePaneTransform(index, value, prefersReducedMotion).x
+  );
+  const rotateY = useTransform(
+    progress,
+    (value) =>
+      calculatePaneTransform(index, value, prefersReducedMotion).rotateY
+  );
+  const scale = useTransform(
+    progress,
+    (value) => calculatePaneTransform(index, value, prefersReducedMotion).scale
+  );
+  const opacity = useTransform(
+    progress,
+    (value) =>
+      calculatePaneTransform(index, value, prefersReducedMotion).opacity
+  );
+  const zIndex = useTransform(
+    progress,
+    (value) => calculatePaneTransform(index, value, prefersReducedMotion).zIndex
+  );
 
-  return { x, rotateY, scale, opacity, zIndex }
+  return { x, rotateY, scale, opacity, zIndex };
 }
 
 const paneVariants = {
   initial: { opacity: 0, scale: 0.92, x: 40 },
   animate: { opacity: 1, scale: 1, x: 0 },
   exit: { opacity: 0, scale: 0.92, x: -40 },
-}
+};
 
 const SliderNotch = memo(function SliderNotch({
   activeIndex,
@@ -114,16 +121,16 @@ const SliderNotch = memo(function SliderNotch({
   index,
   onTap,
 }: {
-  activeIndex: MotionValue<number>
-  ariaLabel: string
-  index: number
-  onTap: (index: number) => void
+  activeIndex: MotionValue<number>;
+  ariaLabel: string;
+  index: number;
+  onTap: (index: number) => void;
 }) {
   const distance = useTransform(activeIndex, (value) =>
     Math.abs(Math.round(value) - index)
-  )
-  const scaleY = useTransform(distance, (value) => (value === 0 ? 1 : 0.5))
-  const opacity = useTransform(distance, (value) => (value === 0 ? 1 : 0.3))
+  );
+  const scaleY = useTransform(distance, (value) => (value === 0 ? 1 : 0.5));
+  const opacity = useTransform(distance, (value) => (value === 0 ? 1 : 0.3));
 
   return (
     <button
@@ -137,8 +144,8 @@ const SliderNotch = memo(function SliderNotch({
         style={{ opacity, scaleY, transformOrigin: "center" }}
       />
     </button>
-  )
-})
+  );
+});
 
 function MobilePaneContent({
   closeLabel,
@@ -147,11 +154,11 @@ function MobilePaneContent({
   onLinkClick,
   pane,
 }: {
-  closeLabel: string
-  isClosable: boolean
-  onClose: () => void
-  onLinkClick: (slug: string) => void
-  pane: NotePaneData
+  closeLabel: string;
+  isClosable: boolean;
+  onClose: () => void;
+  onLinkClick: (slug: string) => void;
+  pane: NotePaneData;
 }) {
   return (
     <>
@@ -187,8 +194,8 @@ function MobilePaneContent({
           aria-label={closeLabel}
           className="absolute top-3 right-3 z-50 flex size-7 items-center justify-center rounded-full bg-muted/80 text-muted-foreground backdrop-blur-sm transition-colors hover:text-foreground"
           onClick={(event) => {
-            event.stopPropagation()
-            onClose()
+            event.stopPropagation();
+            onClose();
           }}
           type="button"
         >
@@ -196,7 +203,7 @@ function MobilePaneContent({
         </button>
       )}
     </>
-  )
+  );
 }
 
 const MobilePaneCard = memo(function MobilePaneCard({
@@ -209,23 +216,23 @@ const MobilePaneCard = memo(function MobilePaneCard({
   prefersReducedMotion,
   progress,
 }: {
-  closeLabel: string
-  index: number
-  isClosable: boolean
-  onClose: (index: number) => void
-  onLinkClick: (slug: string, index: number) => void
-  pane: NotePaneData
-  prefersReducedMotion: boolean
-  progress: MotionValue<number>
+  closeLabel: string;
+  index: number;
+  isClosable: boolean;
+  onClose: (index: number) => void;
+  onLinkClick: (slug: string, index: number) => void;
+  pane: NotePaneData;
+  prefersReducedMotion: boolean;
+  progress: MotionValue<number>;
 }) {
   const transition = prefersReducedMotion
     ? reducedMotionTransition
-    : springSubtle
+    : springSubtle;
   const { x, rotateY, scale, opacity, zIndex } = usePaneTransforms({
     index,
     progress,
     prefersReducedMotion,
-  })
+  });
 
   return (
     <motion.li
@@ -258,8 +265,8 @@ const MobilePaneCard = memo(function MobilePaneCard({
         />
       </motion.article>
     </motion.li>
-  )
-})
+  );
+});
 
 export const MobilePaneCarousel = memo(function MobilePaneCarousel({
   panes,
@@ -267,80 +274,80 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
   onClose,
   focusIndex,
 }: MobilePaneCarouselProps) {
-  const t = useTranslations("mobileCarousel")
-  const tPane = useTranslations("notePane")
-  const prefersReducedMotion = useReducedMotion()
-  const containerRef = useRef<HTMLDivElement>(null)
-  const currentIndex = useMotionValue(focusIndex)
-  const isDragging = useRef(false)
-  const dragStartIndex = useRef(focusIndex)
-  const previousLength = useRef(panes.length)
+  const t = useTranslations("mobileCarousel");
+  const tPane = useTranslations("notePane");
+  const prefersReducedMotion = useReducedMotion();
+  const containerRef = useRef<HTMLDivElement>(null);
+  const currentIndex = useMotionValue(focusIndex);
+  const isDragging = useRef(false);
+  const dragStartIndex = useRef(focusIndex);
+  const previousLength = useRef(panes.length);
 
   const animateToIndex = useCallback(
     (index: number) => {
-      const nextIndex = clamp(0, index, Math.max(0, panes.length - 1))
+      const nextIndex = clamp(0, index, Math.max(0, panes.length - 1));
       if (prefersReducedMotion) {
-        currentIndex.set(nextIndex)
-        return
+        currentIndex.set(nextIndex);
+        return;
       }
       animate(currentIndex, nextIndex, {
         type: "spring",
         duration: 0.5,
         bounce: 0.12,
-      })
+      });
     },
     [currentIndex, panes.length, prefersReducedMotion]
-  )
+  );
 
   useEffect(() => {
-    const panesAdded = panes.length > previousLength.current
-    previousLength.current = panes.length
-    dragStartIndex.current = focusIndex
+    const panesAdded = panes.length > previousLength.current;
+    previousLength.current = panes.length;
+    dragStartIndex.current = focusIndex;
 
     if (isDragging.current) {
-      return
+      return;
     }
 
     if (panesAdded) {
-      requestAnimationFrame(() => animateToIndex(focusIndex))
-      return
+      requestAnimationFrame(() => animateToIndex(focusIndex));
+      return;
     }
 
-    animateToIndex(focusIndex)
-  }, [animateToIndex, focusIndex, panes.length])
+    animateToIndex(focusIndex);
+  }, [animateToIndex, focusIndex, panes.length]);
 
   const handleDragStart = useCallback(() => {
-    isDragging.current = true
-    dragStartIndex.current = currentIndex.get()
-  }, [currentIndex])
+    isDragging.current = true;
+    dragStartIndex.current = currentIndex.get();
+  }, [currentIndex]);
 
   const handleDrag = useCallback(
     (_: unknown, info: PanInfo) => {
-      const cardWidth = containerRef.current?.offsetWidth ?? 350
-      const dragProgress = -info.offset.x / cardWidth
+      const cardWidth = containerRef.current?.offsetWidth ?? 350;
+      const dragProgress = -info.offset.x / cardWidth;
       currentIndex.set(
         clamp(-0.15, dragStartIndex.current + dragProgress, panes.length - 0.85)
-      )
+      );
     },
     [currentIndex, panes.length]
-  )
+  );
 
   const handleDragEnd = useCallback(
     (_: unknown, info: PanInfo) => {
-      isDragging.current = false
-      const cardWidth = containerRef.current?.offsetWidth ?? 350
+      isDragging.current = false;
+      const cardWidth = containerRef.current?.offsetWidth ?? 350;
       const nextIndex = calculateDragTarget(
         currentIndex.get(),
         info.velocity.x,
         info.offset.x,
         cardWidth,
         Math.max(0, panes.length - 1)
-      )
-      dragStartIndex.current = nextIndex
-      animateToIndex(nextIndex)
+      );
+      dragStartIndex.current = nextIndex;
+      animateToIndex(nextIndex);
     },
     [animateToIndex, currentIndex, panes.length]
-  )
+  );
 
   return (
     <div className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden bg-background">
@@ -354,7 +361,7 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
                 title: pane.title,
               })}
               index={index}
-              key={`${pane.slug}-${index}`}
+              key={`notch-${pane.slug}`}
               onTap={animateToIndex}
             />
           ))}
@@ -379,7 +386,7 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
                 closeLabel={tPane("closeNote", { title: pane.title })}
                 index={index}
                 isClosable={index > 0}
-                key={`${pane.slug}-${index}`}
+                key={`pane-${pane.slug}`}
                 onClose={onClose}
                 onLinkClick={onLinkClick}
                 pane={pane}
@@ -391,5 +398,5 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
         </ul>
       </motion.div>
     </div>
-  )
-})
+  );
+});

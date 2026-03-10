@@ -1,51 +1,51 @@
-export type NoteKind = "blog" | "journal" | "research"
-export type SerializedNoteContent = string
+export type NoteKind = "blog" | "journal" | "research";
+export type SerializedNoteContent = string;
 
 interface NoteMeta {
-  slug: string
-  title: string
-  description?: string
-  date?: string
-  lastModified?: number
-  kind: NoteKind
-  locale: string
-  editUrl?: string
+  date?: string;
+  description?: string;
+  editUrl?: string;
+  kind: NoteKind;
+  lastModified?: number;
+  locale: string;
+  slug: string;
+  title: string;
 }
 
 interface NoteBase extends NoteMeta {
-  content: string
+  content: string;
 }
 
 export interface NoteGraphNode extends NoteBase {
-  outboundLinks: string[]
+  outboundLinks: string[];
 }
 
 export interface Note extends NoteBase {
-  serializedContent: SerializedNoteContent
-  excerpt: string
+  excerpt: string;
+  serializedContent: SerializedNoteContent;
 }
 
 export interface BacklinkInfo {
-  slug: string
-  title: string
-  excerpt?: string
+  excerpt?: string;
+  slug: string;
+  title: string;
 }
 
 export interface NoteSummary {
-  slug: string
-  title: string
-  description?: string
-  excerpt?: string
-  date?: string
-  lastModified?: number
-  kind: NoteKind
+  date?: string;
+  description?: string;
+  excerpt?: string;
+  kind: NoteKind;
+  lastModified?: number;
+  slug: string;
+  title: string;
 }
 
 export interface NotePaneData {
-  slug: string
-  title: string
-  description?: string
-  serializedContent: SerializedNoteContent
-  backlinks: BacklinkInfo[]
-  editUrl?: string
+  backlinks: BacklinkInfo[];
+  description?: string;
+  editUrl?: string;
+  serializedContent: SerializedNoteContent;
+  slug: string;
+  title: string;
 }

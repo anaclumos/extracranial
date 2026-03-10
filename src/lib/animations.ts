@@ -7,7 +7,7 @@
  * They communicate state changes and spatial relationships.
  */
 
-import type { Transition, Variants } from "motion/react"
+import type { Transition, Variants } from "motion/react";
 
 /**
  * Dieter Rams-inspired spring: minimal bounce, quick settle.
@@ -17,7 +17,7 @@ export const springSubtle: Transition = {
   type: "spring",
   duration: 0.2,
   bounce: 0.05,
-}
+};
 
 /**
  * Even faster spring for micro-interactions.
@@ -27,11 +27,11 @@ export const springQuick: Transition = {
   type: "spring",
   duration: 0.15,
   bounce: 0,
-}
+};
 
 export const reducedMotionTransition: Transition = {
   duration: 0,
-}
+};
 
 /**
  * Pane enter/exit animation variants.
@@ -50,7 +50,7 @@ export const paneVariants: Variants = {
     opacity: 0,
     x: -20,
   },
-}
+};
 
 /**
  * Pane content collapse/expand animation variants.
@@ -65,7 +65,7 @@ export const paneContentVariants: Variants = {
     opacity: 0.4,
     x: "var(--pane-spine-width)",
   },
-}
+};
 
 /**
  * Spine fade-in animation when pane collapses.
@@ -77,7 +77,7 @@ export const spineVariants: Variants = {
   visible: {
     opacity: 1,
   },
-}
+};
 
 export const closeButtonVariants: Variants = {
   initial: {
@@ -92,4 +92,4 @@ export const closeButtonVariants: Variants = {
     opacity: 0,
     scale: 0.8,
   },
-}
+};

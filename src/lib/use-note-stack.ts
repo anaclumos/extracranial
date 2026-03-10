@@ -1,140 +1,185 @@
-"use client"
+"use client";
 
-import { useQueryStates } from "nuqs"
-import { useCallback, useMemo, useRef, useTransition } from "react"
-import { useRouter } from "@/i18n/navigation"
+import { useNavigate } from "@tanstack/react-router";
+import { useCallback, useMemo, useRef, useTransition } from "react";
+import { buildLocalePathname, usePathname } from "@/i18n/navigation";
+import { getLocaleFromPathname } from "@/i18n/routing";
+import { Route as LocaleRoute } from "@/routes/{-$locale}";
+import {
+  parseNoteStackSearch,
+  toNoteStackSearchParams,
+} from "./stores/note-stack-parsers";
 import {
   buildFullStack,
   getFocusIndex,
-  noteStackParsers,
   popFromStack,
   pushToStack,
-} from "./stores/note-stack-parsers"
+} from "./stores/stack-utils";
 
 export function useNoteStack(rootSlug: string) {
-  const buildNotePath = useCallback((slug: string) => {
-    return `/${slug}`
-  }, [])
+  const pathname = usePathname();
+  const locale = useMemo(() => getLocaleFromPathname(pathname), [pathname]);
+  const navigate = useNavigate({ from: LocaleRoute.fullPath });
+  const rawSearch = LocaleRoute.useSearch();
+  const [isPending, startTransition] = useTransition();
+  const urlState = useMemo(() => {
+    return parseNoteStackSearch(rawSearch as Record<string, unknown>);
+  }, [rawSearch]);
 
-  const router = useRouter()
-  const [isPending, startTransition] = useTransition()
-  const [urlState, setUrlState] = useQueryStates(noteStackParsers, {
-    history: "replace",
-    shallow: false,
-    clearOnDefault: true,
-  })
+  const setUrlState = useCallback(
+    (
+      nextState: Partial<{ stack: string[]; focus: number | null }>,
+      options?: { scroll?: boolean }
+    ) => {
+      navigate({
+        to: pathname,
+        replace: true,
+        resetScroll: options?.scroll === false ? false : undefined,
+        search: (prev: Record<string, unknown>) => {
+          const nextSearch = { ...prev };
+
+          if ("stack" in nextState) {
+            const stackValue = toNoteStackSearchParams(
+              nextState.stack ?? [],
+              null
+            ).stack;
+            if (stackValue) {
+              nextSearch.stack = stackValue;
+            } else {
+              nextSearch.stack = undefined;
+            }
+          }
+
+          if ("focus" in nextState) {
+            const focusValue = toNoteStackSearchParams(
+              [],
+              nextState.focus ?? null
+            ).focus;
+            if (typeof focusValue === "number") {
+              nextSearch.focus = focusValue;
+            } else {
+              nextSearch.focus = undefined;
+            }
+          }
+
+          return nextSearch;
+        },
+      });
+    },
+    [navigate, pathname]
+  );
+
+  const buildNotePath = useCallback(
+    (slug: string) => {
+      return buildLocalePathname(`/${slug}`, locale);
+    },
+    [locale]
+  );
 
   const stack = useMemo(
     () => buildFullStack(rootSlug, urlState.stack),
     [rootSlug, urlState.stack]
-  )
+  );
 
   const focusIndex = useMemo(
     () => getFocusIndex(urlState.focus, stack.length),
     [urlState.focus, stack.length]
-  )
+  );
 
-  const stackRef = useRef(stack)
-  stackRef.current = stack
+  const stackRef = useRef(stack);
+  stackRef.current = stack;
 
   const pushNote = useCallback(
     (slug: string, fromPaneIndex: number) => {
-      const currentStack = stackRef.current
-      const newStack = pushToStack(currentStack, slug, fromPaneIndex)
+      const currentStack = stackRef.current;
+      const newStack = pushToStack(currentStack, slug, fromPaneIndex);
 
       if (newStack.length === 1) {
-        const newRootSlug = newStack[0]
+        const newRootSlug = newStack[0];
         startTransition(() => {
-          router.push(buildNotePath(newRootSlug))
-        })
+          navigate({ to: buildNotePath(newRootSlug) });
+        });
       } else {
-        const newRootSlug = newStack[0]
-        const additionalSlugs = newStack.slice(1)
+        const newRootSlug = newStack[0];
+        const additionalSlugs = newStack.slice(1);
 
         if (newRootSlug !== rootSlug) {
-          const basePath = buildNotePath(newRootSlug)
+          const basePath = buildNotePath(newRootSlug);
+          const nextSearch = toNoteStackSearchParams(additionalSlugs, null);
           startTransition(() => {
-            router.push(`${basePath}?stack=${additionalSlugs.join(",")}`)
-          })
+            navigate({ to: basePath, search: nextSearch });
+          });
         } else {
-          setUrlState({ stack: additionalSlugs, focus: null })
+          setUrlState({ stack: additionalSlugs, focus: null });
         }
       }
     },
-    [buildNotePath, router, rootSlug, setUrlState, startTransition]
-  )
+    [buildNotePath, navigate, rootSlug, setUrlState]
+  );
 
   const popNote = useCallback(() => {
-    const currentStack = stackRef.current
-    const newStack = popFromStack(currentStack)
+    const currentStack = stackRef.current;
+    const newStack = popFromStack(currentStack);
 
     if (newStack.length <= 1) {
-      setUrlState({ stack: [], focus: null })
+      setUrlState({ stack: [], focus: null });
     } else {
-      const additionalSlugs = newStack.slice(1)
-      setUrlState({ stack: additionalSlugs, focus: null })
+      const additionalSlugs = newStack.slice(1);
+      setUrlState({ stack: additionalSlugs, focus: null });
     }
-  }, [setUrlState])
+  }, [setUrlState]);
 
   const focusPane = useCallback(
     (index: number) => {
-      const currentStack = stackRef.current
+      const currentStack = stackRef.current;
       if (index < 0 || index >= currentStack.length) {
-        return
+        return;
       }
       const currentFocusIndex = getFocusIndex(
         urlState.focus,
         currentStack.length
-      )
+      );
       if (index === currentFocusIndex) {
-        return
+        return;
       }
-      const newFocus = index === currentStack.length - 1 ? null : index
-      setUrlState({ focus: newFocus }, { scroll: false, shallow: true })
+      const newFocus = index === currentStack.length - 1 ? null : index;
+      setUrlState({ focus: newFocus }, { scroll: false });
     },
     [urlState.focus, setUrlState]
-  )
+  );
 
   const setStack = useCallback(
     (newStack: string[], focusIdx?: number) => {
       if (newStack.length === 0) {
         startTransition(() => {
-          router.push("/000000")
-        })
-        return
+          navigate({ to: buildNotePath("000000") });
+        });
+        return;
       }
 
-      const newRootSlug = newStack[0]
-      const additionalSlugs = newStack.slice(1)
+      const newRootSlug = newStack[0];
+      const additionalSlugs = newStack.slice(1);
       const newFocus =
         focusIdx !== undefined && focusIdx !== newStack.length - 1
           ? focusIdx
-          : null
+          : null;
 
       if (newRootSlug !== rootSlug) {
-        const basePath = buildNotePath(newRootSlug)
-        const params: string[] = []
-        if (additionalSlugs.length > 0) {
-          params.push(`stack=${additionalSlugs.join(",")}`)
-        }
-        if (newFocus !== null) {
-          params.push(`focus=${newFocus}`)
-        }
+        const basePath = buildNotePath(newRootSlug);
+        const nextSearch = toNoteStackSearchParams(additionalSlugs, newFocus);
         startTransition(() => {
-          router.push(
-            params.length > 0 ? `${basePath}?${params.join("&")}` : basePath
-          )
-        })
+          navigate({ to: basePath, search: nextSearch });
+        });
       } else {
-        setUrlState({ stack: additionalSlugs, focus: newFocus })
+        setUrlState({ stack: additionalSlugs, focus: newFocus });
       }
     },
-    [buildNotePath, router, rootSlug, setUrlState, startTransition]
-  )
+    [buildNotePath, navigate, rootSlug, setUrlState]
+  );
 
   const goBack = useCallback(() => {
-    router.back()
-  }, [router])
+    window.history.back();
+  }, []);
 
   return useMemo(
     () => ({
@@ -147,6 +192,15 @@ export function useNoteStack(rootSlug: string) {
       setStack,
       goBack,
     }),
-    [stack, focusIndex, isPending, pushNote, popNote, focusPane, setStack, goBack]
-  )
+    [
+      stack,
+      focusIndex,
+      isPending,
+      pushNote,
+      popNote,
+      focusPane,
+      setStack,
+      goBack,
+    ]
+  );
 }

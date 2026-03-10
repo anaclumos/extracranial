@@ -1,43 +1,43 @@
-"use client"
+import { lazy, Suspense, useEffect, useState } from "react";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
-import dynamic from "next/dynamic"
-import { useEffect, useState } from "react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
-
-const MagneticCursor = dynamic(
-  () => import("./magnetic-cursor").then((mod) => mod.MagneticCursor),
-  { ssr: false }
-)
+const MagneticCursor = lazy(() =>
+  import("./magnetic-cursor").then((mod) => ({ default: mod.MagneticCursor }))
+);
 
 function useFinePointer() {
-  const [isFinePointer, setIsFinePointer] = useState(false)
+  const [isFinePointer, setIsFinePointer] = useState(false);
 
   useEffect(() => {
-    const mql = window.matchMedia("(pointer: fine)")
+    const mql = window.matchMedia("(pointer: fine)");
     const onChange = (event: MediaQueryListEvent) => {
-      setIsFinePointer(event.matches)
-    }
+      setIsFinePointer(event.matches);
+    };
 
-    setIsFinePointer(mql.matches)
-    mql.addEventListener("change", onChange)
-    return () => mql.removeEventListener("change", onChange)
-  }, [])
+    setIsFinePointer(mql.matches);
+    mql.addEventListener("change", onChange);
+    return () => mql.removeEventListener("change", onChange);
+  }, []);
 
-  return isFinePointer
+  return isFinePointer;
 }
 
 export function MagneticCursorLazy() {
-  const prefersReducedMotion = useReducedMotion()
-  const isFinePointer = useFinePointer()
-  const [isEnabled, setIsEnabled] = useState(false)
+  const prefersReducedMotion = useReducedMotion();
+  const isFinePointer = useFinePointer();
+  const [isEnabled, setIsEnabled] = useState(false);
 
   useEffect(() => {
-    setIsEnabled(!prefersReducedMotion && isFinePointer)
-  }, [prefersReducedMotion, isFinePointer])
+    setIsEnabled(!prefersReducedMotion && isFinePointer);
+  }, [prefersReducedMotion, isFinePointer]);
 
   if (!isEnabled) {
-    return null
+    return null;
   }
 
-  return <MagneticCursor />
+  return (
+    <Suspense fallback={null}>
+      <MagneticCursor />
+    </Suspense>
+  );
 }

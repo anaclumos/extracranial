@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { Select as SelectPrimitive } from "@base-ui/react/select"
+import { Select as SelectPrimitive } from "@base-ui/react/select";
 import {
   ArrowDown01Icon,
   ArrowUp01Icon,
   ArrowUpDownIcon,
   Tick01Icon,
-} from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { cn } from "@/lib/utils"
+} from "@hugeicons/core-free-icons";
+import { HugeiconsIcon } from "@hugeicons/react";
+import { cn } from "@/lib/utils";
 
-export const Select = SelectPrimitive.Root
+export const Select = SelectPrimitive.Root;
 
 export function SelectItem({
   className,
@@ -33,7 +33,7 @@ export function SelectItem({
         {children}
       </SelectPrimitive.ItemText>
     </SelectPrimitive.Item>
-  )
+  );
 }
 
 export function SelectSeparator({
@@ -46,11 +46,11 @@ export function SelectSeparator({
       data-slot="select-separator"
       {...props}
     />
-  )
+  );
 }
 
 export function SelectGroup(props: SelectPrimitive.Group.Props) {
-  return <SelectPrimitive.Group data-slot="select-group" {...props} />
+  return <SelectPrimitive.Group data-slot="select-group" {...props} />;
 }
 
 export function SelectGroupLabel(props: SelectPrimitive.GroupLabel.Props) {
@@ -60,7 +60,7 @@ export function SelectGroupLabel(props: SelectPrimitive.GroupLabel.Props) {
       data-slot="select-group-label"
       {...props}
     />
-  )
+  );
 }
 
 export function SelectTrigger({
@@ -69,7 +69,7 @@ export function SelectTrigger({
   children,
   ...props
 }: SelectPrimitive.Trigger.Props & {
-  size?: "sm" | "default" | "lg"
+  size?: "sm" | "default" | "lg";
 }) {
   return (
     <SelectPrimitive.Trigger
@@ -93,7 +93,7 @@ export function SelectTrigger({
         />
       </SelectPrimitive.Icon>
     </SelectPrimitive.Trigger>
-  )
+  );
 }
 
 export function SelectValue({
@@ -109,7 +109,7 @@ export function SelectValue({
       data-slot="select-value"
       {...props}
     />
-  )
+  );
 }
 
 export function SelectPopup({
@@ -119,8 +119,8 @@ export function SelectPopup({
   alignItemWithTrigger = true,
   ...props
 }: SelectPrimitive.Popup.Props & {
-  sideOffset?: SelectPrimitive.Positioner.Props["sideOffset"]
-  alignItemWithTrigger?: SelectPrimitive.Positioner.Props["alignItemWithTrigger"]
+  sideOffset?: SelectPrimitive.Positioner.Props["sideOffset"];
+  alignItemWithTrigger?: SelectPrimitive.Positioner.Props["alignItemWithTrigger"];
 }) {
   return (
     <SelectPrimitive.Portal>
@@ -171,7 +171,7 @@ export function SelectPopup({
         </SelectPrimitive.Popup>
       </SelectPrimitive.Positioner>
     </SelectPrimitive.Portal>
-  )
+  );
 }
 
-export { SelectPopup as SelectContent }
+export { SelectPopup as SelectContent };
