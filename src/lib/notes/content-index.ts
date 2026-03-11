@@ -182,7 +182,9 @@ function registerLookup(
 }
 
 async function buildContentIndex(): Promise<ContentIndex> {
+  console.log("[content-index] Collecting markdown files...");
   const allFiles = await collectMarkdownFiles(LIBRARY_ROOT);
+  console.log(`[content-index] Found ${allFiles.length} markdown files`);
 
   const notesBySlug = new Map<string, SourceNote>();
   const titleLookup = new Map<string, string>();
@@ -219,20 +221,31 @@ async function buildContentIndex(): Promise<ContentIndex> {
         registerLookup(titleLookup, alias, note.slug);
       }
     }
+
+    if ((i + BATCH) % 512 === 0 || i + BATCH >= allFiles.length) {
+      console.log(`[content-index] Indexed ${Math.min(i + BATCH, allFiles.length)}/${allFiles.length} files (${notesBySlug.size} notes)`);
+    }
   }
 
+  console.log(`[content-index] Complete: ${notesBySlug.size} notes, ${titleLookup.size} lookup entries`);
   return { notesBySlug, titleLookup };
 }
 
 export function getContentIndex(): Promise<ContentIndex> {
   if (!contentIndexCache) {
-    contentIndexCache = buildContentIndex().catch((error: unknown) => {
-      contentIndexCache = null;
+    const start = performance.now();
+    contentIndexCache = buildContentIndex()
+      .then((index) => {
+        console.log(`[content-index] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`);
+        return index;
+      })
+      .catch((error: unknown) => {
+        contentIndexCache = null;
 
-      throw new Error("Failed to initialize content index cache", {
-        cause: error,
+        throw new Error("Failed to initialize content index cache", {
+          cause: error,
+        });
       });
-    });
   }
 
   return contentIndexCache;
