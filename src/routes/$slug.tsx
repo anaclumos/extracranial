@@ -1,9 +1,15 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import { getNoteRouteLoaderData } from "@/lib/notes/note-route-data.functions";
+import {
+  checkNoteExists,
+  getAllNoteSummaries,
+  getNotePaneData,
+} from "@/lib/notes/note-route-data.functions";
+import { parseStackString } from "@/lib/stores/stack-utils";
 import {
   parseNoteStackSearch,
   toNoteStackSearchParams,
 } from "@/lib/stores/note-stack-parsers";
+import type { NotePaneData } from "@/lib/types";
 
 const DIRECT_NOTE_SLUG_REGEX = /^[A-F0-9]{6}$/i;
 
@@ -23,8 +29,13 @@ export const Route = createFileRoute("/$slug")({
       stack: normalized.stack,
     };
   },
-  beforeLoad: ({ params }) => {
+  beforeLoad: async ({ params }) => {
     if (!DIRECT_NOTE_SLUG_REGEX.test(params.slug)) {
+      throw notFound();
+    }
+
+    const exists = await checkNoteExists({ data: { slug: params.slug } });
+    if (!exists) {
       throw notFound();
     }
   },
@@ -32,33 +43,39 @@ export const Route = createFileRoute("/$slug")({
     stack: search.stack,
   }),
   loader: async ({ params, deps }) => {
-    const routeData = await getNoteRouteLoaderData({
-      data: {
-        rootSlug: params.slug,
-        stack: deps.stack,
-      },
-    });
+    const additionalSlugs = parseStackString(
+      typeof deps.stack === "string" ? deps.stack : undefined
+    );
 
-    if (!(routeData.rootNoteExists && routeData.rootNote)) {
+    const [noteSummaries, rootPaneData, ...stackPaneData] = await Promise.all([
+      getAllNoteSummaries(),
+      getNotePaneData({ data: { slug: params.slug } }),
+      ...additionalSlugs.map((slug) =>
+        getNotePaneData({ data: { slug } })
+      ),
+    ]);
+
+    if (!rootPaneData) {
       throw notFound();
     }
 
+    const paneNotes = [rootPaneData, ...stackPaneData].filter(
+      (note): note is NotePaneData => note !== null
+    );
+
     return {
       rootSlug: params.slug,
-      noteSummaries: routeData.noteSummaries,
-      paneNotes: routeData.paneNotes,
-      title: routeData.rootNote.title,
-      description:
-        routeData.rootNote.description ||
-        routeData.rootNote.excerpt ||
-        "cho.sh",
+      noteSummaries,
+      paneNotes,
+      title: rootPaneData.title,
+      description: rootPaneData.description || "cho.sh",
     };
   },
   head: ({ loaderData }) => {
     const title = loaderData?.title ?? "cho.sh";
     const description = loaderData?.description ?? "cho.sh";
     const rootSlug = loaderData?.rootSlug;
-    const imageUrl = `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`;
+    const imageUrl = rootSlug ? `/og/${rootSlug}.png` : "/logo.png";
     const notePath = rootSlug ? `/${rootSlug}` : null;
     const pageUrl =
       notePath && typeof window !== "undefined"

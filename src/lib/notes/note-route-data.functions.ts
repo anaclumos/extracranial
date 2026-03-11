@@ -1,25 +1,30 @@
 import { createServerFn } from "@tanstack/react-start";
+import { staticFunctionMiddleware } from "@tanstack/start-static-server-functions";
 import { z } from "zod";
 
-const noteRouteLoaderInputSchema = z.object({
-  rootSlug: z.string().trim().min(1),
-  stack: z.string().optional(),
-});
+export const getAllNoteSummaries = createServerFn({ method: "GET" })
+  .middleware([staticFunctionMiddleware])
+  .handler(async () => {
+    const { getNoteSummaries } = await import("./note-route-data");
+    return getNoteSummaries();
+  });
 
-export const getNoteRouteLoaderData = createServerFn({ method: "GET" })
-  .inputValidator((input: unknown) => noteRouteLoaderInputSchema.parse(input))
+export const getNotePaneData = createServerFn({ method: "GET" })
+  .middleware([staticFunctionMiddleware])
+  .inputValidator((input: unknown) =>
+    z.object({ slug: z.string().trim().min(1) }).parse(input)
+  )
   .handler(async ({ data }) => {
-    const { buildNoteRouteData } = await import("./note-route-data");
+    const { getNotePaneDataBySlug } = await import("./note-route-data");
+    return getNotePaneDataBySlug(data.slug);
+  });
 
-    const routeData = await buildNoteRouteData({
-      rootSlug: data.rootSlug,
-      search: { stack: data.stack },
-    });
-
-    return {
-      rootNote: routeData.rootNote,
-      rootNoteExists: routeData.rootNoteExists,
-      noteSummaries: routeData.noteSummaries,
-      paneNotes: routeData.paneNotes,
-    };
+export const checkNoteExists = createServerFn({ method: "GET" })
+  .middleware([staticFunctionMiddleware])
+  .inputValidator((input: unknown) =>
+    z.object({ slug: z.string().trim().min(1) }).parse(input)
+  )
+  .handler(async ({ data }) => {
+    const { noteExists } = await import("./note-route-data");
+    return noteExists(data.slug);
   });

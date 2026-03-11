@@ -1,3 +1,7 @@
+# Generated static assets (build-time output)
+public/content-assets/
+public/og/
+
 # Logs
 logs
 *.log
