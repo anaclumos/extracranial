@@ -16,7 +16,7 @@ export const ambientGradients = {
     width: "1200px",
     height: "1200px",
     background:
-      "radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%)",
+      "radial-gradient(circle, rgba(59,197,105,0.08) 0%, transparent 70%)",
     filter: "blur(80px)",
   },
   bottom: {
@@ -26,7 +26,7 @@ export const ambientGradients = {
     width: "1200px",
     height: "1200px",
     background:
-      "radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%)",
+      "radial-gradient(circle, rgba(133,217,77,0.06) 0%, transparent 70%)",
     filter: "blur(80px)",
   },
 };
@@ -53,10 +53,7 @@ export const headerStyles = {
 
 export const logoStyles = {
   container: { display: "flex", alignItems: "center", gap: "16px" },
-  monolith: { display: "flex", gap: "6px" },
-  bar1: { width: "8px", height: "32px", background: "#fff" },
-  bar2: { width: "8px", height: "32px", background: "rgba(255,255,255,0.5)" },
-  bar3: { width: "8px", height: "32px", background: "rgba(255,255,255,0.2)" },
+  symbol: { width: "40px", height: "40px" },
   text: {
     fontSize: "32px",
     letterSpacing: "0.1em",

@@ -113,10 +113,11 @@ export const AllNotesList = memo(function AllNotesList({
         {isCollapsed && (
           <motion.div
             animate="visible"
-            className="absolute inset-0 z-10"
+            className="absolute inset-0 z-10 cursor-pointer"
             exit="hidden"
             initial="hidden"
             key="spine"
+            onClick={handleExpand}
             transition={quickTransition}
             variants={spineVariants}
           >

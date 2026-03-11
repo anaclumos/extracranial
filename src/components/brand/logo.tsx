@@ -6,12 +6,6 @@ interface LogoProps {
   style?: CSSProperties;
 }
 
-/**
- * Coscientist Logo - The Monolith
- *
- * 3 vertical bars with decreasing opacity — stacked monoliths receding into depth.
- * Inspired by Kubrick's Monolith from 2001: A Space Odyssey.
- */
 export function Logo({ className, size = 20, style }: LogoProps) {
   return (
     <svg
@@ -21,35 +15,57 @@ export function Logo({ className, size = 20, style }: LogoProps) {
       height={size}
       role="img"
       style={style}
-      viewBox="0 0 32 32"
+      viewBox="0 0 130 130"
       width={size}
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect fill="#000" height="32" width="32" />
-      <rect
-        fill="var(--logo-bar-color, #fff)"
-        fillOpacity="1"
-        height="20"
-        width="6"
-        x="5"
-        y="6"
+      <path
+        d="M119.37 12.1951C116.624 18.7854 107.425 15.2843 90.3313 19.3346C66.1665 25.0326 70.8347 49.4719 70.8347 49.4719C70.8347 49.4719 72.8942 36.4971 86.6929 30.5932C97.6768 25.925 105.434 27.8472 109.691 29.9754C110.858 30.5246 110.446 32.3095 109.141 32.3095C90.6745 32.6527 74.9537 50.2957 77.9743 56.4742C81.2009 63.1333 108.318 66.7717 119.439 47.6184C130.56 28.4651 122.185 5.53602 119.439 12.1951H119.37Z"
+        fill="url(#logo-grad-1)"
       />
-      <rect
-        fill="var(--logo-bar-color, #fff)"
-        fillOpacity="0.5"
-        height="20"
-        width="6"
-        x="13"
-        y="6"
+      <path
+        d="M19.1419 26.8174C5.06865 27.5039 3.07781 22.0119 6.373 32.7213C20.5835 78.9913 70.7666 71.8517 70.7666 71.8517C70.7666 71.8517 57.6545 24.8266 19.1419 26.7488V26.8174Z"
+        fill="url(#logo-grad-2)"
       />
-      <rect
-        fill="var(--logo-bar-color, #fff)"
-        fillOpacity="0.2"
-        height="20"
-        width="6"
-        x="21"
-        y="6"
+      <path
+        d="M45.8467 108.923C45.2975 118.259 54.4279 122.241 59.7826 118.122C78.2494 103.911 70.7666 71.9204 70.7666 71.9204C70.7666 71.9204 47.0137 89.4948 45.8467 108.923Z"
+        fill="url(#logo-grad-3)"
       />
+      <defs>
+        <linearGradient
+          id="logo-grad-1"
+          x1="97.76"
+          y1="11.02"
+          x2="97.76"
+          y2="61.83"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.4375" stopColor="#3BC569" />
+          <stop offset="0.8846" stopColor="#85D94D" />
+        </linearGradient>
+        <linearGradient
+          id="logo-grad-2"
+          x1="37.88"
+          y1="26.01"
+          x2="37.88"
+          y2="72.25"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.4375" stopColor="#3BC569" />
+          <stop offset="0.8846" stopColor="#85D94D" />
+        </linearGradient>
+        <linearGradient
+          id="logo-grad-3"
+          x1="59.04"
+          y1="71.92"
+          x2="59.04"
+          y2="119.74"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.4375" stopColor="#3BC569" />
+          <stop offset="0.8846" stopColor="#85D94D" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 }
