@@ -25,7 +25,6 @@ export interface SourceNote extends SourceNoteBase {
 const EXTRACRANIAL_ROOT = process.cwd();
 const LIBRARY_ROOT = path.join(EXTRACRANIAL_ROOT, "library");
 const POSTS_ROOT = path.join(LIBRARY_ROOT, "posts");
-const LIBRARY_ASSETS_ROOT = path.join(LIBRARY_ROOT, "assets");
 
 const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"]);
 const MARKDOWN_SUFFIX_RE = /\.(md|mdx)$/i;
@@ -294,42 +293,3 @@ export async function resolveLookupSlug(
   return titleLookup.get(normalizeLookupKey(withoutExtension)) ?? null;
 }
 
-async function fileExists(filePath: string): Promise<boolean> {
-  try {
-    const stats = await fs.stat(filePath);
-    return stats.isFile();
-  } catch {
-    return false;
-  }
-}
-
-export async function resolveAssetPathForNote(
-  slug: string,
-  requestedPath: string[]
-): Promise<string | null> {
-  const note = await getSourceNoteBySlug(slug);
-  if (!note) {
-    return null;
-  }
-
-  const relativeAssetPath = requestedPath
-    .map((segment) => decodeURIComponent(segment))
-    .join("/");
-  const localCandidate = path.resolve(note.dirPath, relativeAssetPath);
-  if (
-    localCandidate.startsWith(note.dirPath) &&
-    (await fileExists(localCandidate))
-  ) {
-    return localCandidate;
-  }
-
-  const fallbackCandidate = path.join(
-    LIBRARY_ASSETS_ROOT,
-    path.basename(relativeAssetPath)
-  );
-  if (await fileExists(fallbackCandidate)) {
-    return fallbackCandidate;
-  }
-
-  return null;
-}

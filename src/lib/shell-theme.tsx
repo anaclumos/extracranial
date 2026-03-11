@@ -16,7 +16,7 @@ interface ThemeContextType {
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-const STORAGE_KEY = "coscientist-theme";
+const STORAGE_KEY = "cho-sh-theme";
 
 function resolveStoredTheme(): Theme {
   if (typeof window === "undefined") {
