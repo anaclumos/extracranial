@@ -1,33 +1,6 @@
-import { buildFullStack, parseStackString } from "@/lib/stores/stack-utils";
-import type { BacklinkInfo, NotePaneData, NoteSummary } from "@/lib/types";
+import type { NotePaneData, NoteSummary } from "@/lib/types";
 import { buildNoteGraph } from "./graph-builder";
 import { loadNote } from "./note-loader";
-
-export interface NoteRouteSearchInput {
-  stack?: string | string[] | null | undefined;
-}
-
-export interface BuildNoteRouteDataInput {
-  rootSlug: string;
-  search?: NoteRouteSearchInput;
-}
-
-export interface NoteRouteData {
-  backlinks: Map<string, BacklinkInfo[]>;
-  fullStack: string[];
-  noteSummaries: NoteSummary[];
-  notes: Map<string, NoteSummary>;
-  paneNotes: NotePaneData[];
-  rootNote: NoteSummary | null;
-  rootNoteExists: boolean;
-}
-
-function normalizeStackSearch(
-  search: NoteRouteSearchInput | undefined
-): string {
-  const stack = search?.stack;
-  return Array.isArray(stack) ? (stack[0] ?? "") : (stack ?? "");
-}
 
 function toSortedNoteSummaries(notes: Map<string, NoteSummary>) {
   const noteSummaries = Array.from(notes.values()).map((note) => ({ ...note }));
@@ -52,46 +25,31 @@ function toSortedNoteSummaries(notes: Map<string, NoteSummary>) {
   return noteSummaries;
 }
 
-function loadStackNotes(fullStack: string[]) {
-  return Promise.all(fullStack.map((slug) => loadNote(slug)));
+export async function getNoteSummaries(): Promise<NoteSummary[]> {
+  const graph = await buildNoteGraph();
+  return toSortedNoteSummaries(graph.notes);
 }
 
-export async function buildNoteRouteData({
-  rootSlug,
-  search,
-}: BuildNoteRouteDataInput): Promise<NoteRouteData> {
-  const additionalSlugs = parseStackString(normalizeStackSearch(search));
-  const fullStack = buildFullStack(rootSlug, additionalSlugs);
+export async function getNotePaneDataBySlug(
+  slug: string
+): Promise<NotePaneData | null> {
+  const [graph, note] = await Promise.all([buildNoteGraph(), loadNote(slug)]);
 
-  const [graph, stackNotes] = await Promise.all([
-    buildNoteGraph(),
-    loadStackNotes(fullStack),
-  ]);
-
-  const rootNote = graph.notes.get(rootSlug) ?? null;
-  const paneNotes = stackNotes.reduce<NotePaneData[]>((acc, note) => {
-    if (!note) {
-      return acc;
-    }
-
-    acc.push({
-      slug: note.slug,
-      title: note.title,
-      description: note.description,
-      editUrl: note.editUrl,
-      serializedContent: note.serializedContent,
-      backlinks: graph.backlinks.get(note.slug) || [],
-    });
-    return acc;
-  }, []);
+  if (!note) {
+    return null;
+  }
 
   return {
-    rootNoteExists: rootNote !== null,
-    rootNote,
-    noteSummaries: toSortedNoteSummaries(graph.notes),
-    paneNotes,
-    notes: graph.notes,
-    backlinks: graph.backlinks,
-    fullStack,
+    slug: note.slug,
+    title: note.title,
+    description: note.description,
+    editUrl: note.editUrl,
+    serializedContent: note.serializedContent,
+    backlinks: graph.backlinks.get(note.slug) || [],
   };
+}
+
+export async function noteExists(slug: string): Promise<boolean> {
+  const graph = await buildNoteGraph();
+  return graph.notes.has(slug);
 }

@@ -11,8 +11,6 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as SlugRouteImport } from './routes/$slug'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as ApiOgRouteImport } from './routes/api.og'
-import { Route as ApiContentAssetsIdSplatRouteImport } from './routes/api.content-assets.$id.$'
 
 const SlugRoute = SlugRouteImport.update({
   id: '/$slug',
@@ -24,49 +22,31 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ApiOgRoute = ApiOgRouteImport.update({
-  id: '/api/og',
-  path: '/api/og',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ApiContentAssetsIdSplatRoute = ApiContentAssetsIdSplatRouteImport.update({
-  id: '/api/content-assets/$id/$',
-  path: '/api/content-assets/$id/$',
-  getParentRoute: () => rootRouteImport,
-} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
-  '/api/og': typeof ApiOgRoute
-  '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
-  '/api/og': typeof ApiOgRoute
-  '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/$slug': typeof SlugRoute
-  '/api/og': typeof ApiOgRoute
-  '/api/content-assets/$id/$': typeof ApiContentAssetsIdSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
+  fullPaths: '/' | '/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
-  id: '__root__' | '/' | '/$slug' | '/api/og' | '/api/content-assets/$id/$'
+  to: '/' | '/$slug'
+  id: '__root__' | '/' | '/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   SlugRoute: typeof SlugRoute
-  ApiOgRoute: typeof ApiOgRoute
-  ApiContentAssetsIdSplatRoute: typeof ApiContentAssetsIdSplatRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -85,28 +65,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/api/og': {
-      id: '/api/og'
-      path: '/api/og'
-      fullPath: '/api/og'
-      preLoaderRoute: typeof ApiOgRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/api/content-assets/$id/$': {
-      id: '/api/content-assets/$id/$'
-      path: '/api/content-assets/$id/$'
-      fullPath: '/api/content-assets/$id/$'
-      preLoaderRoute: typeof ApiContentAssetsIdSplatRouteImport
-      parentRoute: typeof rootRouteImport
-    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   SlugRoute: SlugRoute,
-  ApiOgRoute: ApiOgRoute,
-  ApiContentAssetsIdSplatRoute: ApiContentAssetsIdSplatRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

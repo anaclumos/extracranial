@@ -6,6 +6,7 @@ import { normalizeNoteSlug } from "../note-links";
 
 export interface SourceNoteBase {
   content: string;
+  dirPath?: string;
   slug: string;
 }
 

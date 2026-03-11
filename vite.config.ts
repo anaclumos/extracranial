@@ -69,6 +69,13 @@ export default defineConfig({
       router: {
         routesDirectory: "routes",
       },
+      prerender: {
+        enabled: true,
+        crawlLinks: true,
+        concurrency: 8,
+        failOnError: false,
+        maxRedirects: 5,
+      },
     }),
     viteReact(),
   ],

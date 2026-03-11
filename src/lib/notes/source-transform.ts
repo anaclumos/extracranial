@@ -1,3 +1,5 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import { buildNoteHref, normalizeNoteSlug } from "../note-links";
 import type { SourceNoteBase } from "./content-index";
 
@@ -47,9 +49,14 @@ function normalizeAssetReference(href: string): string {
 }
 
 function toAssetHref(note: SourceNoteBase, href: string): string {
-  return `/api/content-assets/${note.slug}/${encodePathSegments(
-    normalizeAssetReference(href)
-  )}`;
+  const normalized = normalizeAssetReference(href);
+  if (note.dirPath) {
+    const localPath = path.resolve(note.dirPath, normalized);
+    if (localPath.startsWith(note.dirPath) && existsSync(localPath)) {
+      return `/content-assets/${note.slug}/${encodePathSegments(normalized)}`;
+    }
+  }
+  return `/content-assets/_assets/${encodePathSegments(path.basename(normalized))}`;
 }
 
 const CUSTOM_TAG_NAME_MAP = {
