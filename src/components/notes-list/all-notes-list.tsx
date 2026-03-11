@@ -16,7 +16,11 @@ import {
 } from "@/lib/animations";
 import type { NoteSummary } from "@/lib/types";
 import { PaneBackground } from "../pane/pane-background";
-import { usePaneCollapse } from "../pane/pane-collapse-context";
+import {
+  useIsPaneCollapsed,
+  usePaneCollapseScrollTo,
+  useRegisterPaneRef,
+} from "../pane/pane-collapse-context";
 import { PaneSpine } from "../pane/pane-spine";
 import { NoteItem } from "./note-item";
 
@@ -25,7 +29,7 @@ interface AllNotesListProps {
   index: number;
   notes: NoteSummary[];
   onExpand: (index: number) => void;
-  onNoteClick: (slug: string) => void;
+  onNoteClick: (slug: string, stackPosition?: number) => void;
 }
 
 export const AllNotesList = memo(function AllNotesList({
@@ -35,8 +39,9 @@ export const AllNotesList = memo(function AllNotesList({
   onNoteClick,
   onExpand,
 }: AllNotesListProps) {
-  const { collapsedIndices, registerPaneRef } = usePaneCollapse();
-  const isCollapsed = collapsedIndices.has(index);
+  const isCollapsed = useIsPaneCollapsed(index);
+  const scrollToPane = usePaneCollapseScrollTo();
+  const registerPaneRef = useRegisterPaneRef();
   const prefersReducedMotion = useReducedMotion();
   const t = useTranslations("allNotes");
   const tPane = useTranslations("notePane");
@@ -70,7 +75,8 @@ export const AllNotesList = memo(function AllNotesList({
 
   const handleExpand = useCallback(() => {
     onExpand(index);
-  }, [onExpand, index]);
+    scrollToPane(index);
+  }, [index, onExpand, scrollToPane]);
 
   const getCurrentlyOpenLabel = useCallback(
     (pos: number) => t("currentlyOpen", { position: pos }),
@@ -92,7 +98,7 @@ export const AllNotesList = memo(function AllNotesList({
       data-pane
       exit="exit"
       initial={prefersReducedMotion ? false : "initial"}
-      layout
+      layout="position"
       ref={paneRef}
       style={{
         left: `calc(${index} * var(--pane-spine-width))`,

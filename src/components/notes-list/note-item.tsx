@@ -9,7 +9,7 @@ import { PreviewLink } from "../preview-link";
 interface NoteItemProps {
   currentlyOpenLabel: (position: number) => string;
   note: NoteSummary;
-  onNoteClick: (slug: string) => void;
+  onNoteClick: (slug: string, stackPosition?: number) => void;
   stackPosition?: number;
 }
 
@@ -24,9 +24,9 @@ export const NoteItem = memo(function NoteItem({
   const handleClick = useCallback(
     (e: React.MouseEvent) => {
       e.preventDefault();
-      onNoteClick(note.slug);
+      onNoteClick(note.slug, stackPosition);
     },
-    [onNoteClick, note.slug]
+    [onNoteClick, note.slug, stackPosition]
   );
 
   return (

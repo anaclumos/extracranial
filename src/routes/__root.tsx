@@ -52,7 +52,7 @@ export const Route = createRootRoute({
       },
       {
         rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@v1.0.0/dist/web/css/sunghyun-sans-kr-dynamic-subset.min.css",
+        href: "https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@29f779b837efd794f8ff09904235b7712cbee630/dist/web/css/sunghyun-sans-kr-hanja-dynamic-subset.min.css",
       },
       {
         rel: "stylesheet",

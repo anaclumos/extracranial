@@ -1,4 +1,3 @@
-import { Resvg } from "@resvg/resvg-js";
 import { createElement } from "react";
 import satori from "satori";
 import { getFonts } from "@/lib/og/fonts";
@@ -14,6 +13,8 @@ export async function generateOGImage({
   title: string;
   description?: string;
 }) {
+  // Native bindings from @resvg/resvg-js must stay out of the client/dev graph.
+  const { Resvg } = await import("@resvg/resvg-js");
   const fonts = await getFonts();
   const fontFamily =
     [...new Set(fonts.map((font) => `"${font.name}"`))].join(", ") ||
