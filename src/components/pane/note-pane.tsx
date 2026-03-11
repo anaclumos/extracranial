@@ -25,7 +25,11 @@ import type { BacklinkInfo, NotePaneData } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { PaneBackground } from "./pane-background";
 import { PaneBody } from "./pane-body";
-import { usePaneCollapse } from "./pane-collapse-context";
+import {
+  useIsPaneCollapsed,
+  usePaneCollapseScrollTo,
+  useRegisterPaneRef,
+} from "./pane-collapse-context";
 import { PaneSpine } from "./pane-spine";
 
 interface NotePaneProps {
@@ -53,8 +57,9 @@ export const NotePane = memo(function NotePane({
   onExpand,
   onClose,
 }: NotePaneProps) {
-  const { collapsedIndices, registerPaneRef } = usePaneCollapse();
-  const isCollapsed = collapsedIndices.has(index);
+  const isCollapsed = useIsPaneCollapsed(index);
+  const scrollToPane = usePaneCollapseScrollTo();
+  const registerPaneRef = useRegisterPaneRef();
   const prefersReducedMotion = useReducedMotion();
   const t = useTranslations("notePane");
   const paneRef = useRef<HTMLElement>(null);
@@ -73,7 +78,8 @@ export const NotePane = memo(function NotePane({
 
   const handleExpand = useCallback(() => {
     onExpand(index);
-  }, [onExpand, index]);
+    scrollToPane(index);
+  }, [index, onExpand, scrollToPane]);
 
   const handleClose = useCallback(() => {
     onClose(index);
@@ -100,7 +106,7 @@ export const NotePane = memo(function NotePane({
       data-pane
       exit="exit"
       initial={prefersReducedMotion ? false : "initial"}
-      layout
+      layout="position"
       ref={paneRef}
       style={
         {

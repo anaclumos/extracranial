@@ -1,15 +1,13 @@
 "use client";
 
-import {
-  type ReactNode,
-  useCallback,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { type ReactNode, useCallback, useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import { PaneCollapseContext } from "./pane-collapse-context";
+import {
+  resetPaneCollapseStore,
+  setCollapsedPaneIndices,
+  setPaneRefRegistration,
+  setPaneScrollTo,
+} from "./pane-collapse-context";
 
 interface DesktopContainerProps {
   children: ReactNode;
@@ -26,9 +24,8 @@ export function DesktopContainer({
   const paneRefs = useRef(new Map<number, HTMLElement>());
   const focusIndexRef = useRef(focusIndex);
   const collapseThresholdRef = useRef(0);
-  const [collapsedIndices, setCollapsedIndices] = useState<Set<number>>(
-    new Set()
-  );
+  const collapsedIndicesRef = useRef(new Set<number>());
+  const scrollFrameRef = useRef<number | null>(null);
 
   focusIndexRef.current = focusIndex;
 
@@ -114,7 +111,13 @@ export function DesktopContainer({
 
     const collapseThreshold = collapseThresholdRef.current;
     if (collapseThreshold <= 0) {
-      setCollapsedIndices((prev) => (prev.size === 0 ? prev : new Set()));
+      if (collapsedIndicesRef.current.size === 0) {
+        return;
+      }
+
+      const emptySet = new Set<number>();
+      collapsedIndicesRef.current = emptySet;
+      setCollapsedPaneIndices(emptySet);
       return;
     }
 
@@ -125,18 +128,32 @@ export function DesktopContainer({
       index += 1;
     }
 
-    setCollapsedIndices((prev) => {
-      if (prev.size !== next.size) {
-        return next;
+    const previous = collapsedIndicesRef.current;
+    if (previous.size !== next.size) {
+      collapsedIndicesRef.current = next;
+      setCollapsedPaneIndices(next);
+      return;
+    }
+
+    for (const value of next) {
+      if (!previous.has(value)) {
+        collapsedIndicesRef.current = next;
+        setCollapsedPaneIndices(next);
+        return;
       }
-      for (const value of next) {
-        if (!prev.has(value)) {
-          return next;
-        }
-      }
-      return prev;
-    });
+    }
   }, []);
+
+  const scheduleCollapsedIndicesUpdate = useCallback(() => {
+    if (scrollFrameRef.current !== null) {
+      return;
+    }
+
+    scrollFrameRef.current = requestAnimationFrame(() => {
+      scrollFrameRef.current = null;
+      updateCollapsedIndices();
+    });
+  }, [updateCollapsedIndices]);
 
   useEffect(() => {
     if (!scrollToPaneRef) {
@@ -147,6 +164,15 @@ export function DesktopContainer({
       scrollToPaneRef.current = null;
     };
   }, [scrollToPane, scrollToPaneRef]);
+
+  useEffect(() => {
+    setPaneRefRegistration(registerPaneRef);
+    setPaneScrollTo(scrollToPane);
+
+    return () => {
+      resetPaneCollapseStore();
+    };
+  }, [registerPaneRef, scrollToPane]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -160,18 +186,22 @@ export function DesktopContainer({
     if (typeof ResizeObserver === "undefined") {
       const handleResize = () => {
         updateCollapseThreshold();
-        updateCollapsedIndices();
+        scheduleCollapsedIndicesUpdate();
       };
       window.addEventListener("resize", handleResize);
       return () => {
         cancelAnimationFrame(frameId);
+        if (scrollFrameRef.current !== null) {
+          cancelAnimationFrame(scrollFrameRef.current);
+          scrollFrameRef.current = null;
+        }
         window.removeEventListener("resize", handleResize);
       };
     }
 
     const observer = new ResizeObserver(() => {
       updateCollapseThreshold();
-      updateCollapsedIndices();
+      scheduleCollapsedIndicesUpdate();
     });
     observer.observe(container);
 
@@ -182,9 +212,17 @@ export function DesktopContainer({
 
     return () => {
       cancelAnimationFrame(frameId);
+      if (scrollFrameRef.current !== null) {
+        cancelAnimationFrame(scrollFrameRef.current);
+        scrollFrameRef.current = null;
+      }
       observer.disconnect();
     };
-  }, [updateCollapseThreshold, updateCollapsedIndices]);
+  }, [
+    scheduleCollapsedIndicesUpdate,
+    updateCollapseThreshold,
+    updateCollapsedIndices,
+  ]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -192,31 +230,24 @@ export function DesktopContainer({
       return;
     }
 
-    container.addEventListener("scroll", updateCollapsedIndices, {
+    container.addEventListener("scroll", scheduleCollapsedIndicesUpdate, {
       passive: true,
     });
     return () => {
-      container.removeEventListener("scroll", updateCollapsedIndices);
+      container.removeEventListener("scroll", scheduleCollapsedIndicesUpdate);
     };
-  }, [updateCollapsedIndices]);
-
-  const contextValue = useMemo(
-    () => ({ collapsedIndices, registerPaneRef, scrollToPane }),
-    [collapsedIndices, registerPaneRef, scrollToPane]
-  );
+  }, [scheduleCollapsedIndicesUpdate]);
 
   return (
-    <PaneCollapseContext.Provider value={contextValue}>
-      <div
-        className={cn(
-          "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
-          "overscroll-x-none scroll-smooth bg-background",
-          "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20"
-        )}
-        ref={containerRef}
-      >
-        {children}
-      </div>
-    </PaneCollapseContext.Provider>
+    <div
+      className={cn(
+        "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
+        "overscroll-x-none scroll-smooth bg-background",
+        "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20"
+      )}
+      ref={containerRef}
+    >
+      {children}
+    </div>
   );
 }

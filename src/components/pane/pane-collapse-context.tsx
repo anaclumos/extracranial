@@ -1,21 +1,54 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { create } from "zustand";
 
-interface PaneCollapseContextValue {
+interface PaneCollapseStore {
   collapsedIndices: Set<number>;
   registerPaneRef: (index: number, element: HTMLElement | null) => void;
   scrollToPane: (index: number) => void;
 }
 
-const PaneCollapseContext = createContext<PaneCollapseContextValue>({
-  collapsedIndices: new Set(),
-  registerPaneRef: () => null,
-  scrollToPane: () => null,
-});
+const noopRegisterPaneRef = () => null;
+const noopScrollToPane = () => null;
 
-export function usePaneCollapse() {
-  return useContext(PaneCollapseContext);
+const usePaneCollapseStore = create<PaneCollapseStore>()(() => ({
+  collapsedIndices: new Set(),
+  registerPaneRef: noopRegisterPaneRef,
+  scrollToPane: noopScrollToPane,
+}));
+
+export function useIsPaneCollapsed(index: number) {
+  return usePaneCollapseStore((state) => state.collapsedIndices.has(index));
 }
 
-export { PaneCollapseContext };
+export function useRegisterPaneRef() {
+  return usePaneCollapseStore((state) => state.registerPaneRef);
+}
+
+export function usePaneCollapseScrollTo() {
+  return usePaneCollapseStore((state) => state.scrollToPane);
+}
+
+export function resetPaneCollapseStore() {
+  usePaneCollapseStore.setState({
+    collapsedIndices: new Set(),
+    registerPaneRef: noopRegisterPaneRef,
+    scrollToPane: noopScrollToPane,
+  });
+}
+
+export function setCollapsedPaneIndices(collapsedIndices: Set<number>) {
+  usePaneCollapseStore.setState({ collapsedIndices });
+}
+
+export function setPaneRefRegistration(
+  registerPaneRef: PaneCollapseStore["registerPaneRef"]
+) {
+  usePaneCollapseStore.setState({ registerPaneRef });
+}
+
+export function setPaneScrollTo(
+  scrollToPane: PaneCollapseStore["scrollToPane"]
+) {
+  usePaneCollapseStore.setState({ scrollToPane });
+}

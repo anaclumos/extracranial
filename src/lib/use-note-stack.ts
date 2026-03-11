@@ -1,6 +1,6 @@
 "use client";
 
-import { useLocation, useNavigate } from "@tanstack/react-router";
+import { useNavigate } from "@tanstack/react-router";
 import { useCallback, useMemo, useRef, useTransition } from "react";
 import { buildNoteHref } from "@/lib/note-links";
 import { Route as NoteRoute } from "@/routes/$slug";
@@ -16,7 +16,6 @@ import {
 } from "./stores/stack-utils";
 
 export function useNoteStack(rootSlug: string) {
-  const location = useLocation();
   const navigate = useNavigate({ from: NoteRoute.fullPath });
   const rawSearch = NoteRoute.useSearch();
   const [isPending, startTransition] = useTransition();
@@ -30,9 +29,10 @@ export function useNoteStack(rootSlug: string) {
       options?: { scroll?: boolean }
     ) => {
       navigate({
-        to: location.pathname,
+        params: { slug: rootSlug },
         replace: true,
         resetScroll: options?.scroll === false ? false : undefined,
+        to: "/$slug",
         search: (prev: Record<string, unknown>) => {
           const nextSearch = { ...prev };
 
@@ -64,7 +64,7 @@ export function useNoteStack(rootSlug: string) {
         },
       });
     },
-    [location.pathname, navigate]
+    [navigate, rootSlug]
   );
 
   const buildNotePath = useCallback((slug: string) => buildNoteHref(slug), []);
@@ -81,6 +81,8 @@ export function useNoteStack(rootSlug: string) {
 
   const stackRef = useRef(stack);
   stackRef.current = stack;
+  const focusIndexRef = useRef(focusIndex);
+  focusIndexRef.current = focusIndex;
 
   const pushNote = useCallback(
     (slug: string, fromPaneIndex: number) => {
@@ -128,17 +130,14 @@ export function useNoteStack(rootSlug: string) {
       if (index < 0 || index >= currentStack.length) {
         return;
       }
-      const currentFocusIndex = getFocusIndex(
-        urlState.focus,
-        currentStack.length
-      );
+      const currentFocusIndex = focusIndexRef.current;
       if (index === currentFocusIndex) {
         return;
       }
       const newFocus = index === currentStack.length - 1 ? null : index;
       setUrlState({ focus: newFocus }, { scroll: false });
     },
-    [urlState.focus, setUrlState]
+    [setUrlState]
   );
 
   const setStack = useCallback(
@@ -174,6 +173,32 @@ export function useNoteStack(rootSlug: string) {
     window.history.back();
   }, []);
 
+  const removePane = useCallback(
+    (index: number, availableLength?: number) => {
+      const currentStack = stackRef.current;
+      const visibleStack =
+        typeof availableLength === "number"
+          ? currentStack.slice(0, availableLength)
+          : currentStack;
+
+      if (
+        index === 0 ||
+        visibleStack.length <= 1 ||
+        index >= visibleStack.length
+      ) {
+        return;
+      }
+
+      const newStack = [
+        ...visibleStack.slice(0, index),
+        ...visibleStack.slice(index + 1),
+      ];
+      const newFocusIndex = Math.min(index, newStack.length - 1);
+      setStack(newStack, newFocusIndex);
+    },
+    [setStack]
+  );
+
   return useMemo(
     () => ({
       stack,
@@ -183,6 +208,7 @@ export function useNoteStack(rootSlug: string) {
       popNote,
       focusPane,
       setStack,
+      removePane,
       goBack,
     }),
     [
@@ -193,6 +219,7 @@ export function useNoteStack(rootSlug: string) {
       popNote,
       focusPane,
       setStack,
+      removePane,
       goBack,
     ]
   );

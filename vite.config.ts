@@ -52,6 +52,9 @@ export default defineConfig({
       },
     },
   },
+  optimizeDeps: {
+    exclude: ["@resvg/resvg-js", "@resvg/resvg-js-darwin-arm64"],
+  },
   server: {
     port: 3000,
   },

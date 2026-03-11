@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, LayoutGroup } from "motion/react";
+import { AnimatePresence } from "motion/react";
 import { memo, useCallback, useMemo } from "react";
 import { AllNotesList } from "@/components/notes-list/all-notes-list";
 import { NotePane } from "@/components/pane/note-pane";
@@ -17,7 +17,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   paneNotes,
   noteSummaries,
 }: PaneOrchestratorProps) {
-  const { stack, isPending, pushNote, focusPane, setStack } =
+  const { stack, focusIndex, isPending, pushNote, focusPane, removePane } =
     useNoteStackContext();
 
   const panesData = useMemo(() => {
@@ -45,74 +45,44 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
     });
   }, [panesData]);
 
-  const handleLinkClick = useCallback(
-    (slug: string, fromPaneIndex: number) => {
-      pushNote(slug, fromPaneIndex);
-    },
-    [pushNote]
-  );
-
-  const handleExpandPane = useCallback(
-    (index: number) => {
-      if (index < stack.length) {
-        focusPane(index);
-      }
-    },
-    [focusPane, stack.length]
-  );
-
-  const handleAllNotesClick = useCallback(
-    (slug: string) => {
-      const fromIndex = Math.max(0, panesData.length - 1);
-      pushNote(slug, fromIndex);
-    },
-    [pushNote, panesData.length]
-  );
-
-  const handleClosePane = useCallback(
-    (index: number) => {
-      const availableStack = stack.slice(0, panesData.length);
-      if (index === 0 || availableStack.length <= 1) {
+  const handleNoteListClick = useCallback(
+    (slug: string, stackPosition?: number) => {
+      if (typeof stackPosition === "number") {
+        focusPane(stackPosition);
         return;
       }
-      const newStack = [
-        ...availableStack.slice(0, index),
-        ...availableStack.slice(index + 1),
-      ];
-      const newFocusIndex = Math.min(index, newStack.length - 1);
-      setStack(newStack, newFocusIndex);
+
+      pushNote(slug, focusIndex);
     },
-    [stack, panesData.length, setStack]
+    [focusIndex, focusPane, pushNote]
   );
 
   return (
-    <LayoutGroup>
-      <AnimatePresence initial={false} mode="popLayout">
-        {paneEntries.map(({ pane, renderKey }, index) => (
-          <NotePane
-            backlinks={pane.backlinks}
-            description={pane.description}
-            editUrl={pane.editUrl}
-            index={index}
-            isClosable={index > 0}
-            key={renderKey}
-            onClose={handleClosePane}
-            onExpand={handleExpandPane}
-            onLinkClick={handleLinkClick}
-            serializedContent={pane.serializedContent}
-            title={pane.title}
-          />
-        ))}
-        {isPending && <PaneSkeleton key="pending-skeleton" />}
-        <AllNotesList
-          currentStack={stack}
-          index={paneEntries.length}
-          key="all-notes-list"
-          notes={noteSummaries}
-          onExpand={handleExpandPane}
-          onNoteClick={handleAllNotesClick}
+    <AnimatePresence initial={false} mode="popLayout">
+      {paneEntries.map(({ pane, renderKey }, index) => (
+        <NotePane
+          backlinks={pane.backlinks}
+          description={pane.description}
+          editUrl={pane.editUrl}
+          index={index}
+          isClosable={index > 0}
+          key={renderKey}
+          onClose={removePane}
+          onExpand={focusPane}
+          onLinkClick={pushNote}
+          serializedContent={pane.serializedContent}
+          title={pane.title}
         />
-      </AnimatePresence>
-    </LayoutGroup>
+      ))}
+      {isPending && <PaneSkeleton key="pending-skeleton" />}
+      <AllNotesList
+        currentStack={stack}
+        index={paneEntries.length}
+        key="all-notes-list"
+        notes={noteSummaries}
+        onExpand={focusPane}
+        onNoteClick={handleNoteListClick}
+      />
+    </AnimatePresence>
   );
 });

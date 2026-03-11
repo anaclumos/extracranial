@@ -191,11 +191,13 @@ function NoteAnchor({
 function Admonition({
   children,
   icon,
+  renderMarkdown,
   title,
   type = "info",
 }: {
   children: ReactNode;
   icon?: string;
+  renderMarkdown?: (value: ReactNode) => ReactNode;
   title?: string;
   type?: "caution" | "danger" | "info" | "note" | "tip" | "warning";
 }) {
@@ -220,7 +222,9 @@ function Admonition({
           {title && <span>{title}</span>}
         </header>
       )}
-      <div className="text-sm/7">{children}</div>
+      <div className="text-sm/7">
+        {renderMarkdown ? renderMarkdown(children) : children}
+      </div>
     </aside>
   );
 }
@@ -753,6 +757,7 @@ function createComponents(
     admonition: (props) => (
       <Admonition
         icon={typeof props.icon === "string" ? props.icon : undefined}
+        renderMarkdown={renderMarkdown}
         title={typeof props.title === "string" ? props.title : undefined}
         type={typeof props.type === "string" ? (props.type as never) : "info"}
       >

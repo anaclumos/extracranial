@@ -72,7 +72,7 @@
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
   --font-sans:
-    "Sunghyun Sans KR", ui-sans-serif, -apple-system, BlinkMacSystemFont,
+    "Sunghyun Sans KR Hanja", ui-sans-serif, -apple-system, BlinkMacSystemFont,
     "SF Pro", "Segoe UI", Roboto, "Pretendard Variable", Pretendard,
     "Pretendard JP", sans-serif;
   --font-heading: var(--font-sans);
