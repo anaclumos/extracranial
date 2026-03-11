@@ -9,7 +9,7 @@ interface LogoProps {
 export function Logo({ className, size = 20, style }: LogoProps) {
   return (
     <svg
-      aria-label="Coscientist logo"
+      aria-label="cho.sh logo"
       className={className}
       fill="none"
       height={size}

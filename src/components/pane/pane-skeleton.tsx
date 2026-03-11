@@ -29,7 +29,7 @@ export function PaneSkeleton({ collapsed }: PaneSkeletonProps) {
   }
 
   return (
-    <div className="flex h-full w-full flex-shrink-0 flex-col border-border border-l bg-background md:w-1/3 md:min-w-pane-min">
+    <div className="flex h-full w-full flex-shrink-0 flex-col border-border border-l bg-background md:w-1/2 md:max-w-3xl md:min-w-pane-min">
       <header className="px-4 pt-4 pb-2">
         <ShimmerLine className="mb-3 h-8 w-3/4" />
         <ShimmerLine className="h-5 w-1/2" />

@@ -55,7 +55,7 @@ export function OGTemplate({
         <div style={headerStyles}>
           <div style={logoStyles.container}>
             <OGSymbol />
-            <span style={logoStyles.text}>Coscientist</span>
+            <span style={logoStyles.text}>cho.sh</span>
           </div>
           <span style={domainStyles}>cho.sh</span>
         </div>

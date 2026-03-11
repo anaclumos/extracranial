@@ -17,30 +17,6 @@ function getManualChunk(id: string) {
     return "streamdown-core";
   }
 
-  if (
-    id.includes("node_modules/cytoscape") ||
-    id.includes("node_modules/cytoscape-cose-bilkent") ||
-    id.includes("node_modules/cytoscape-fcose")
-  ) {
-    return "mermaid-cytoscape";
-  }
-
-  if (id.includes("node_modules/dagre-d3-es")) {
-    return "mermaid-dagre";
-  }
-
-  if (id.includes("node_modules/d3/") || id.includes("node_modules/d3-")) {
-    return "mermaid-d3";
-  }
-
-  if (id.includes("node_modules/@mermaid-js/parser")) {
-    return "mermaid-parser";
-  }
-
-  if (id.includes("node_modules/mermaid/")) {
-    return "mermaid-runtime";
-  }
-
   return undefined;
 }
 
