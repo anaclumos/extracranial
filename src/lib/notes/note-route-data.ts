@@ -26,19 +26,26 @@ function toSortedNoteSummaries(notes: Map<string, NoteSummary>) {
 }
 
 export async function getNoteSummaries(): Promise<NoteSummary[]> {
+  console.log("[note-route-data] Building note graph for summaries...");
   const graph = await buildNoteGraph();
-  return toSortedNoteSummaries(graph.notes);
+  const summaries = toSortedNoteSummaries(graph.notes);
+  console.log(`[note-route-data] Returning ${summaries.length} sorted note summaries`);
+  return summaries;
 }
 
 export async function getNotePaneDataBySlug(
   slug: string
 ): Promise<NotePaneData | null> {
+  console.log(`[note-route-data] Loading pane data for slug: ${slug}`);
   const [graph, note] = await Promise.all([buildNoteGraph(), loadNote(slug)]);
 
   if (!note) {
+    console.log(`[note-route-data] Note not found: ${slug}`);
     return null;
   }
 
+  const backlinkCount = graph.backlinks.get(note.slug)?.length ?? 0;
+  console.log(`[note-route-data] Loaded "${note.title}" (${backlinkCount} backlinks)`);
   return {
     slug: note.slug,
     title: note.title,

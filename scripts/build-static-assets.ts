@@ -67,9 +67,11 @@ function extractSlug(filePath: string, frontmatter: Record<string, unknown>): st
 
 async function readNoteEntries(): Promise<NoteEntry[]> {
   const allFiles = await collectMarkdownFiles(LIBRARY_ROOT);
+  console.log(`  Found ${allFiles.length} markdown files`);
   const entries: NoteEntry[] = [];
 
-  for (const filePath of allFiles) {
+  for (let i = 0; i < allFiles.length; i++) {
+    const filePath = allFiles[i];
     const content = await fs.readFile(filePath, "utf8");
     const { data } = matter(content);
     const slug = extractSlug(filePath, data);
@@ -81,6 +83,10 @@ async function readNoteEntries(): Promise<NoteEntry[]> {
       title: typeof data.title === "string" ? data.title : slug,
       description: typeof data.description === "string" ? data.description : undefined,
     });
+
+    if ((i + 1) % 500 === 0) {
+      console.log(`  Parsed ${i + 1}/${allFiles.length} files`);
+    }
   }
 
   return entries;
@@ -88,6 +94,8 @@ async function readNoteEntries(): Promise<NoteEntry[]> {
 
 async function copyLocalAssets(notes: NoteEntry[]) {
   const seen = new Set<string>();
+  let copiedDirs = 0;
+  let copiedFiles = 0;
 
   for (const note of notes) {
     if (seen.has(note.dirPath)) continue;
@@ -115,8 +123,16 @@ async function copyLocalAssets(notes: NoteEntry[]) {
       const src = path.join(note.dirPath, asset.name);
       const dest = path.join(destDir, asset.name);
       await fs.copyFile(src, dest);
+      copiedFiles += 1;
+    }
+
+    copiedDirs += 1;
+    if (copiedDirs % 100 === 0) {
+      console.log(`  Copied assets from ${copiedDirs} directories (${copiedFiles} files)`);
     }
   }
+
+  console.log(`  Local assets: ${copiedFiles} files from ${copiedDirs} directories`);
 }
 
 async function copySharedAssets() {
@@ -176,6 +192,9 @@ async function generateOGImages(notes: NoteEntry[]) {
           const buffer = await response.arrayBuffer();
           await fs.writeFile(dest, Buffer.from(buffer));
           generated += 1;
+          if (generated % 100 === 0) {
+            console.log(`  Generated ${generated} OG images so far...`);
+          }
         } catch (error) {
           console.error(`Failed to generate OG image for ${note.slug}:`, error);
         }
@@ -190,25 +209,33 @@ async function generateOGImages(notes: NoteEntry[]) {
 
 async function main() {
   const skipOG = process.argv.includes("--skip-og");
+  const totalStart = performance.now();
 
+  let stepStart = performance.now();
   console.log("Reading note entries...");
   const notes = await readNoteEntries();
-  console.log(`Found ${notes.length} notes`);
+  console.log(`Found ${notes.length} notes (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`);
 
+  stepStart = performance.now();
   console.log("Copying local assets...");
   await copyLocalAssets(notes);
+  console.log(`Local assets done (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`);
 
+  stepStart = performance.now();
   console.log("Copying shared assets...");
   await copySharedAssets();
+  console.log(`Shared assets done (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`);
 
   if (!skipOG) {
+    stepStart = performance.now();
     console.log("Generating OG images...");
     await generateOGImages(notes);
+    console.log(`OG images done (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`);
   } else {
     console.log("Skipping OG image generation (--skip-og)");
   }
 
-  console.log("Static assets build complete.");
+  console.log(`Static assets build complete in ${((performance.now() - totalStart) / 1000).toFixed(1)}s`);
 }
 
 await main();

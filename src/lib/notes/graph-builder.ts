@@ -10,7 +10,10 @@ interface NoteGraph {
 let graphCache: Promise<NoteGraph> | null = null;
 
 async function buildNoteGraphUncached(): Promise<NoteGraph> {
+  console.log("[graph-builder] Loading all note graph nodes...");
   const allNotes = await loadAllNoteGraphNodes();
+  console.log(`[graph-builder] Loaded ${allNotes.length} graph nodes`);
+
   const notes = new Map<string, NoteSummary>();
   const backlinks = new Map<string, BacklinkInfo[]>();
 
@@ -28,6 +31,7 @@ async function buildNoteGraphUncached(): Promise<NoteGraph> {
     backlinks.set(note.slug, []);
   }
 
+  let totalBacklinks = 0;
   for (const note of allNotes) {
     const sourceExcerpt = notes.get(note.slug)?.excerpt;
     for (const targetSlug of note.outboundLinks) {
@@ -37,10 +41,12 @@ async function buildNoteGraphUncached(): Promise<NoteGraph> {
           title: note.title,
           excerpt: sourceExcerpt,
         });
+        totalBacklinks += 1;
       }
     }
   }
 
+  console.log(`[graph-builder] Complete: ${notes.size} notes, ${totalBacklinks} backlink edges`);
   return { notes, backlinks };
 }
 
@@ -48,10 +54,16 @@ export function buildNoteGraph(): Promise<NoteGraph> {
   if (graphCache) {
     return graphCache;
   }
-  const promise = buildNoteGraphUncached().catch((error: unknown) => {
-    graphCache = null;
-    throw error;
-  });
+  const start = performance.now();
+  const promise = buildNoteGraphUncached()
+    .then((graph) => {
+      console.log(`[graph-builder] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`);
+      return graph;
+    })
+    .catch((error: unknown) => {
+      graphCache = null;
+      throw error;
+    });
   graphCache = promise;
   return promise;
 }

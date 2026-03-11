@@ -110,6 +110,9 @@ async function loadNoteGraphNodeUncached(
 
 export async function loadAllNoteGraphNodes(): Promise<NoteGraphNode[]> {
   const slugs = await getAllNoteSlugs();
+  console.log(`[note-loader] Loading graph nodes for ${slugs.length} slugs...`);
   const notes = await Promise.all(slugs.map((slug) => loadNoteGraphNode(slug)));
-  return notes.filter((note): note is NoteGraphNode => note !== null);
+  const valid = notes.filter((note): note is NoteGraphNode => note !== null);
+  console.log(`[note-loader] Loaded ${valid.length}/${slugs.length} graph nodes`);
+  return valid;
 }
