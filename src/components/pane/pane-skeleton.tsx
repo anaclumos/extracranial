@@ -22,11 +22,7 @@ export function PaneSkeleton({ collapsed }: PaneSkeletonProps) {
     return (
       <div className="h-full w-pane-spine flex-shrink-0 border-border/50 border-l bg-card/80">
         <div className="flex h-full flex-col items-center gap-6 py-4">
-          <div className="flex flex-col items-center gap-1">
-            <ShimmerLine className="h-6 w-1.5 rounded-sm" />
-            <ShimmerLine className="h-6 w-1.5 rounded-sm opacity-50" />
-            <ShimmerLine className="h-6 w-1.5 rounded-sm opacity-20" />
-          </div>
+          <ShimmerLine className="size-5 rounded-full" />
         </div>
       </div>
     );

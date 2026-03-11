@@ -1,3 +1,4 @@
+import { Logo } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 
 interface PaneSpineProps {
@@ -24,11 +25,9 @@ export function PaneSpine({
     >
       <div
         aria-hidden="true"
-        className="flex flex-col items-center gap-1 opacity-50 grayscale transition-all duration-300 group-hover/spine:opacity-100 group-hover/spine:grayscale-0"
+        className="opacity-50 transition-all duration-300 group-hover/spine:opacity-100"
       >
-        <div className="h-6 w-1.5 rounded-sm bg-foreground/90" />
-        <div className="h-6 w-1.5 rounded-sm bg-foreground/50" />
-        <div className="h-6 w-1.5 rounded-sm bg-foreground/20" />
+        <Logo size={20} />
       </div>
 
       {showIndex && (
