@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb11f9cf6f0b085",
+        "id": "b3d18367fe3f1ea2",
         "type": "tabs",
         "children": [
           {
-            "id": "aaefb90aab954207",
+            "id": "2d1e52665cf7b1a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,9 +170,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aaefb90aab954207",
+  "active": "2d1e52665cf7b1a7",
   "lastOpenFiles": [
     "pages/AGENTS.md.md",
+    "journals/2026-03-12.md",
     "pages/잡스와 생존 편향 (19誠鉉).md",
     "pages/wallet.cho.sh.md",
     "journals/2026-03-04.md",
@@ -198,7 +199,6 @@
     "pages/성현산스.md",
     "journals/2026-02-11.md",
     "journals/2026-02-09.md",
-    "journals/2026-02-08.md",
     "Untitled.canvas",
     "assets/315C50.png",
     "assets/Pasted image 20260124231256.png",
