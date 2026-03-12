@@ -29,6 +29,11 @@ last_modified: 2026-03-07T00:00:00.000Z
   - exact deletion criteria
   - the ADR/task that tracks its removal
 - Default stance across the app: delete old-state compatibility code rather than carrying it forward.
+- On every edit, delete:
+	- Extra comments that a human wouldn't add or is inconsistent with the rest of the file
+	- Extra defensive checks or try/catch blocks that are abnormal for that area of the codebase (especially if called by trusted / validated codepaths)
+	- Casts to any to get around type issues
+	- Any other style that is inconsistent with the file
 
 ## Frontend
 
@@ -38,3 +43,4 @@ last_modified: 2026-03-07T00:00:00.000Z
 - Never use setState inside useEffect.
 - Never use vh, h-screen, etc. Use h-full with flex-1. Never use vw either.
 - Never use arbitrary Tailwind values (ones with brackets). Always use Tailwind default values.
+- If you combine a shadow border (i.e. `ring` in tailwind), with a normal shadow, they'll blend it looks a lot nicer than a normal css `border` with a shadow
