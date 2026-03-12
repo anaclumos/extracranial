@@ -48,7 +48,7 @@ export default defineConfig({
       prerender: {
         enabled: true,
         crawlLinks: true,
-        concurrency: 8,
+        concurrency: 16,
         failOnError: false,
         maxRedirects: 5,
       },
