@@ -165,7 +165,7 @@ async function generateOGImages(notes: NoteEntry[]) {
   let generated = 0;
   let skipped = 0;
 
-  const CONCURRENCY = 8;
+  const CONCURRENCY = 16;
   const queue = [...notes];
 
   await Promise.all(
