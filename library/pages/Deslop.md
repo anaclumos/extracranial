@@ -1,5 +1,5 @@
 ---
-slug: '/{{hex}}'
+slug: '/9F946D'
 ---
 
 Remove AI code slop
