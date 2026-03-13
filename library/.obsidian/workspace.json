@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3d18367fe3f1ea2",
+        "id": "973d04f97157c39c",
         "type": "tabs",
         "children": [
           {
-            "id": "2d1e52665cf7b1a7",
+            "id": "aed361392c46d78e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "journals/2026-03-12.md",
+                "file": "pages/CSS Inject.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2026-03-12"
+              "title": "CSS Inject"
             }
           }
         ]
@@ -184,10 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d1e52665cf7b1a7",
+  "active": "aed361392c46d78e",
   "lastOpenFiles": [
-    "pages/AGENTS.md.md",
+    "pages/CSS Inject.md",
+    "pages/macOS.md",
     "journals/2026-03-12.md",
+    "pages/AGENTS.md.md",
     "pages/Deslop.md",
     "pages/잡스와 생존 편향 (19誠鉉).md",
     "pages/wallet.cho.sh.md",
@@ -209,10 +211,8 @@
     "pages/Painterly Illustration Design Trend (2024).md",
     "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
     "pages/iOS App Icon Design.md",
-    "pages/CSS Inject.md",
     "pages/Design Trend.md",
     "pages/성현산스.md",
-    "journals/2026-02-11.md",
     "Untitled.canvas",
     "assets/315C50.png",
     "assets/Pasted image 20260124231256.png",
