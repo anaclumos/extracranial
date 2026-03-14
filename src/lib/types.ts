@@ -44,6 +44,7 @@ export interface NotePaneData {
   backlinks: BacklinkInfo[];
   description?: string;
   editUrl?: string;
+  excerpt?: string;
   serializedContent: SerializedNoteContent;
   slug: string;
   title: string;

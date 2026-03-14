@@ -8,29 +8,6 @@ export const containerStyles = {
   position: "relative" as const,
 };
 
-export const ambientGradients = {
-  top: {
-    position: "absolute" as const,
-    top: "-300px",
-    right: "-100px",
-    width: "1200px",
-    height: "1200px",
-    background:
-      "radial-gradient(circle, rgba(59,197,105,0.08) 0%, transparent 70%)",
-    filter: "blur(80px)",
-  },
-  bottom: {
-    position: "absolute" as const,
-    bottom: "-300px",
-    left: "-100px",
-    width: "1200px",
-    height: "1200px",
-    background:
-      "radial-gradient(circle, rgba(133,217,77,0.06) 0%, transparent 70%)",
-    filter: "blur(80px)",
-  },
-};
-
 export const borderStyles = {
   position: "absolute" as const,
   top: "40px",
@@ -79,9 +56,7 @@ export const titleStyles = {
   lineHeight: "1.5",
   margin: 0,
   fontWeight: 400,
-  background: "linear-gradient(to bottom right, #ffffff 50%, #9ca3af 100%)",
-  backgroundClip: "text",
-  color: "transparent",
+  color: "#ffffff",
   letterSpacing: "-0.02em",
 };
 

@@ -1,9 +1,9 @@
-import { Logo } from "@/components/brand/logo";
 import { cn } from "@/lib/utils";
 
 interface PaneSpineProps {
   className?: string;
   description?: string;
+  excerpt?: string;
   index: number;
   showIndex?: boolean;
   title: string;
@@ -13,23 +13,19 @@ export function PaneSpine({
   index,
   title,
   description,
+  excerpt,
   showIndex = true,
   className,
 }: PaneSpineProps) {
+  const secondaryText = description?.trim() || excerpt?.trim();
+
   return (
     <div
       className={cn(
-        "group/spine absolute top-0 bottom-0 left-0 z-sticky flex w-pane-spine flex-col items-center gap-6 border-border/50 border-r bg-card/80 py-4 backdrop-blur-md",
+        "absolute top-0 bottom-0 left-0 z-sticky flex w-pane-spine flex-col items-center gap-6 border-border/50 border-r bg-card/80 py-4 backdrop-blur-md",
         className
       )}
     >
-      <div
-        aria-hidden="true"
-        className="opacity-50 transition-all duration-300 group-hover/spine:opacity-100"
-      >
-        <Logo size={20} />
-      </div>
-
       {showIndex && (
         <span className="font-medium font-mono text-[10px] text-muted-foreground/50">
           {index < 10 ? `0${index}` : index}
@@ -47,9 +43,9 @@ export function PaneSpine({
           <span className="whitespace-nowrap font-medium text-foreground text-sm tracking-wide">
             {title}
           </span>
-          {description && (
+          {secondaryText && (
             <span className="whitespace-nowrap text-muted-foreground/50 text-xs">
-              {description}
+              {secondaryText}
             </span>
           )}
         </div>

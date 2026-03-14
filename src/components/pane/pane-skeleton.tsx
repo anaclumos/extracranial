@@ -5,8 +5,7 @@ function ShimmerLine({ className }: { className?: string }) {
     <div
       className={cn(
         "rounded bg-muted-foreground/8 dark:bg-muted-foreground/12",
-        "animate-skeleton bg-[length:200%_100%] bg-[position:200%_0]",
-        "bg-gradient-to-r from-transparent via-muted-foreground/6 to-transparent dark:via-muted-foreground/10",
+        "animate-pulse",
         className
       )}
     />

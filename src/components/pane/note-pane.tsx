@@ -36,6 +36,7 @@ interface NotePaneProps {
   backlinks: BacklinkInfo[];
   description?: string;
   editUrl?: string;
+  excerpt?: string;
   index: number;
   isClosable?: boolean;
   onClose: (index: number) => void;
@@ -48,6 +49,7 @@ interface NotePaneProps {
 export const NotePane = memo(function NotePane({
   title,
   description,
+  excerpt,
   serializedContent,
   index,
   isClosable = false,
@@ -134,6 +136,7 @@ export const NotePane = memo(function NotePane({
           >
             <PaneSpine
               description={description}
+              excerpt={excerpt}
               index={index}
               showIndex
               title={title}

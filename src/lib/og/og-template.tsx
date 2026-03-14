@@ -1,5 +1,4 @@
 import {
-  ambientGradients,
   borderStyles,
   containerStyles,
   contentStyles,
@@ -48,9 +47,6 @@ export function OGTemplate({
 }: OGTemplateProps) {
   return (
     <div style={{ ...containerStyles, fontFamily }}>
-      <div style={ambientGradients.top} />
-      <div style={ambientGradients.bottom} />
-
       <div style={borderStyles}>
         <div style={headerStyles}>
           <div style={logoStyles.container}>
