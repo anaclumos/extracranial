@@ -93,17 +93,24 @@ async function readNoteEntries(): Promise<NoteEntry[]> {
 }
 
 async function copyLocalAssets(notes: NoteEntry[]) {
-  const seen = new Set<string>();
-  let copiedDirs = 0;
+  const notesByDir = new Map<string, NoteEntry[]>();
+  for (const note of notes) {
+    const existing = notesByDir.get(note.dirPath);
+    if (existing) {
+      existing.push(note);
+      continue;
+    }
+    notesByDir.set(note.dirPath, [note]);
+  }
+
+  let copiedSourceDirs = 0;
+  let copiedSlugDirs = 0;
   let copiedFiles = 0;
 
-  for (const note of notes) {
-    if (seen.has(note.dirPath)) continue;
-    seen.add(note.dirPath);
-
+  for (const [dirPath, dirNotes] of notesByDir) {
     let entries: Awaited<ReturnType<typeof fs.readdir>>;
     try {
-      entries = await fs.readdir(note.dirPath, { withFileTypes: true });
+      entries = await fs.readdir(dirPath, { withFileTypes: true });
     } catch {
       continue;
     }
@@ -116,23 +123,31 @@ async function copyLocalAssets(notes: NoteEntry[]) {
 
     if (assetFiles.length === 0) continue;
 
-    const destDir = path.join(CONTENT_ASSETS_DIR, note.slug);
-    await ensureDir(destDir);
+    for (const note of dirNotes) {
+      const destDir = path.join(CONTENT_ASSETS_DIR, note.slug);
+      await ensureDir(destDir);
 
-    for (const asset of assetFiles) {
-      const src = path.join(note.dirPath, asset.name);
-      const dest = path.join(destDir, asset.name);
-      await fs.copyFile(src, dest);
-      copiedFiles += 1;
+      for (const asset of assetFiles) {
+        const src = path.join(dirPath, asset.name);
+        const dest = path.join(destDir, asset.name);
+        await fs.copyFile(src, dest);
+        copiedFiles += 1;
+      }
+
+      copiedSlugDirs += 1;
     }
 
-    copiedDirs += 1;
-    if (copiedDirs % 100 === 0) {
-      console.log(`  Copied assets from ${copiedDirs} directories (${copiedFiles} files)`);
+    copiedSourceDirs += 1;
+    if (copiedSourceDirs % 100 === 0) {
+      console.log(
+        `  Copied assets from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories (${copiedFiles} files)`
+      );
     }
   }
 
-  console.log(`  Local assets: ${copiedFiles} files from ${copiedDirs} directories`);
+  console.log(
+    `  Local assets: ${copiedFiles} files from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories`
+  );
 }
 
 async function copySharedAssets() {

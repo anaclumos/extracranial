@@ -51,6 +51,7 @@ export async function getNotePaneDataBySlug(
     title: note.title,
     description: note.description,
     editUrl: note.editUrl,
+    excerpt: note.excerpt,
     serializedContent: note.serializedContent,
     backlinks: graph.backlinks.get(note.slug) || [],
   };

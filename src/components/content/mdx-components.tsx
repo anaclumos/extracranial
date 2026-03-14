@@ -1,5 +1,6 @@
 "use client";
 
+import { Accordion } from "@base-ui/react";
 import { ArrowUpRight01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { cjk } from "@streamdown/cjk";
@@ -728,6 +729,66 @@ function extractMarkdownSource(value: ReactNode): string | null {
   return parts.join("");
 }
 
+function isSummaryElement(
+  node: ReactNode
+): node is ReactElement<{ children?: ReactNode }> {
+  return isValidElement<{ children?: ReactNode }>(node) && node.type === "summary";
+}
+
+function isBlankTextNode(node: ReactNode): boolean {
+  return typeof node === "string" && node.trim().length === 0;
+}
+
+function DetailsAccordion({
+  children,
+  open,
+  renderMarkdown,
+}: {
+  children?: ReactNode;
+  open?: boolean | string;
+  renderMarkdown: (value: ReactNode) => ReactNode;
+}) {
+  const nodes = Children.toArray(children).filter((node) => !isBlankTextNode(node));
+  const summaryNode = nodes.find(isSummaryElement);
+  const panelNodes = nodes.filter((node) => !isSummaryElement(node));
+  const summaryContent = summaryNode?.props.children ?? "Details";
+  const panelContent =
+    panelNodes.length <= 1 ? (panelNodes[0] ?? null) : panelNodes;
+  const defaultValue =
+    open === true || open === "" || open === "true" ? ["details"] : [];
+
+  return (
+    <Accordion.Root
+      className="my-6 overflow-hidden rounded-lg border border-border/60 bg-background/40"
+      defaultValue={defaultValue}
+    >
+      <Accordion.Item value="details">
+        <Accordion.Header className="m-0">
+          <Accordion.Trigger
+            className={(state) =>
+              cn(
+                "flex w-full items-center justify-between gap-3 px-4 py-3 text-left font-medium text-foreground transition-colors hover:bg-muted/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background",
+                state.open && "[&_.accordion-indicator]:rotate-45"
+              )
+            }
+          >
+            <span className="flex-1">{summaryContent}</span>
+            <span
+              aria-hidden="true"
+              className="accordion-indicator font-mono text-muted-foreground text-xs transition-transform"
+            >
+              +
+            </span>
+          </Accordion.Trigger>
+        </Accordion.Header>
+        <Accordion.Panel className="px-4 pb-4 pt-1">
+          {renderMarkdown(panelContent)}
+        </Accordion.Panel>
+      </Accordion.Item>
+    </Accordion.Root>
+  );
+}
+
 function createComponents(
   onLinkClick: (slug: string) => void,
   plugins: PluginConfig
@@ -772,6 +833,18 @@ function createComponents(
     ),
     browseronly: (props) => (
       <BrowserOnly>{toReactNode(props.children)}</BrowserOnly>
+    ),
+    details: (props) => (
+      <DetailsAccordion
+        open={
+          props.open === true || typeof props.open === "string"
+            ? props.open
+            : undefined
+        }
+        renderMarkdown={renderMarkdown}
+      >
+        {toReactNode(props.children)}
+      </DetailsAccordion>
     ),
     displayflex: (props) => (
       <DisplayFlex>{toReactNode(props.children)}</DisplayFlex>

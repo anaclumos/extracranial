@@ -64,7 +64,7 @@ export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
     <ScrollArea className="relative z-0 h-full">
       <div className="flex min-h-full flex-col">
         <header className="px-4 pt-4 pb-2">
-          <h1 className="font-normal text-3xl text-foreground tracking-tight dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-500 dark:bg-clip-text dark:text-transparent">
+          <h1 className="font-normal text-3xl text-foreground tracking-tight">
             {title}
           </h1>
           {description && (

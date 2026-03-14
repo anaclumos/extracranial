@@ -149,7 +149,7 @@ export const AllNotesList = memo(function AllNotesList({
         <ScrollArea className="relative z-0 h-full">
           <div className="sticky top-0 z-sticky border-border/50 border-b bg-background/80 px-4 pt-4 pb-2 backdrop-blur-md">
             <div className="flex items-start justify-between gap-3">
-              <h2 className="font-normal text-2xl text-foreground tracking-tight dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-500 dark:bg-clip-text dark:text-transparent">
+              <h2 className="font-normal text-2xl text-foreground tracking-tight">
                 {t("title")}
               </h2>
               <label

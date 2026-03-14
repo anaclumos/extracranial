@@ -78,7 +78,6 @@
   --font-heading: var(--font-sans);
   --font-mono:
     ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-  --animate-skeleton: skeleton 2s -1s infinite linear;
   --color-warning-foreground: var(--warning-foreground);
   --color-warning: var(--warning);
   --color-success-foreground: var(--success-foreground);
@@ -102,11 +101,6 @@
   --color-border: var(--border);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
-  @keyframes skeleton {
-    to {
-      background-position: -200% 0;
-    }
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -159,6 +153,11 @@ body {
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    corner-shape: squircle;
+  }
+  *::before,
+  *::after {
+    corner-shape: squircle;
   }
   body {
     @apply bg-background text-foreground;
@@ -179,7 +178,6 @@ body {
 
     & h1 {
       @apply text-[1.75rem] font-semibold leading-tight mb-6 text-foreground text-balance tracking-tight;
-      @apply dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-400;
     }
     & h2 {
       @apply text-[1.375rem] font-medium mt-8 mb-4 text-foreground text-balance tracking-tight;
@@ -233,12 +231,6 @@ body {
     }
     & hr {
       @apply my-8 border-0 border-t border-border;
-    }
-    & details {
-      @apply mb-6 rounded-lg border border-border/60 px-4 pt-3 pb-1;
-    }
-    & summary {
-      @apply cursor-pointer font-medium text-foreground;
     }
     & figure {
       @apply my-6 flex flex-col overflow-hidden rounded-xl;

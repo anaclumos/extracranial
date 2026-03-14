@@ -64,6 +64,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
           backlinks={pane.backlinks}
           description={pane.description}
           editUrl={pane.editUrl}
+          excerpt={pane.excerpt}
           index={index}
           isClosable={index > 0}
           key={renderKey}
