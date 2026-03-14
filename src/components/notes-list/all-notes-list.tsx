@@ -93,7 +93,7 @@ export const AllNotesList = memo(function AllNotesList({
   return (
     <motion.aside
       animate="animate"
-      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/2 md:max-w-3xl md:min-w-pane-min md:opacity-20 md:transition-opacity md:duration-300 md:hover:opacity-100"
+      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:max-w-3xl md:min-w-pane-min md:opacity-20 md:transition-opacity md:duration-300 md:hover:opacity-100"
       data-index={index}
       data-pane
       exit="exit"

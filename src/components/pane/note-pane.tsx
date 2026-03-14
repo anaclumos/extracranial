@@ -97,7 +97,7 @@ export const NotePane = memo(function NotePane({
       animate="animate"
       aria-label={title}
       className={cn(
-        "h-full w-full flex-shrink-0 overflow-hidden md:w-1/2 md:max-w-3xl md:min-w-pane-min",
+        "h-full w-full flex-shrink-0 overflow-hidden md:w-1/3 md:max-w-3xl md:min-w-pane-min",
         "group/pane relative border-border border-l bg-background",
         "left-0 md:sticky md:left-[var(--pane-left-offset)]",
         "snap-start md:snap-align-none"

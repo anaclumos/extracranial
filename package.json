@@ -12,6 +12,7 @@
     "preview": "bun --bun vite preview",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
+    "assign-hex": "bun run scripts/assign-hex-slugs.ts",
     "sync:last-modified": "bun run scripts/sync-last-modified.ts",
     "type-check": "tsc --noEmit",
     "check": "ultracite check",
