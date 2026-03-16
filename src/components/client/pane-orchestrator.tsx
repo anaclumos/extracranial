@@ -5,6 +5,7 @@ import { memo, useCallback, useMemo } from "react";
 import { AllNotesList } from "@/components/notes-list/all-notes-list";
 import { NotePane } from "@/components/pane/note-pane";
 import { PaneSkeleton } from "@/components/pane/pane-skeleton";
+import { resolvePanesFromStack } from "@/lib/stores/stack-utils";
 import type { NotePaneData, NoteSummary } from "@/lib/types";
 import { useNoteStackContext } from "./note-stack-provider";
 
@@ -20,16 +21,10 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   const { stack, focusIndex, isPending, pushNote, focusPane, removePane } =
     useNoteStackContext();
 
-  const panesData = useMemo(() => {
-    const paneDataMap = new Map<string, NotePaneData>();
-    for (const pane of paneNotes) {
-      paneDataMap.set(pane.slug, pane);
-    }
-
-    return stack
-      .map((slug) => paneDataMap.get(slug))
-      .filter((pane): pane is NotePaneData => pane !== undefined);
-  }, [stack, paneNotes]);
+  const panesData = useMemo(
+    () => resolvePanesFromStack(stack, paneNotes),
+    [stack, paneNotes]
+  );
 
   const paneEntries = useMemo(() => {
     const counts = new Map<string, number>();

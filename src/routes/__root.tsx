@@ -16,6 +16,43 @@ import { ShellThemeProvider } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
 import appCss from "../app/globals.css?url";
 
+const SUNGHYUN_SANS_FONT_BASE_URL =
+  "https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@29f779b837efd794f8ff09904235b7712cbee630/dist/web/woff2";
+
+const SUNGHYUN_SANS_FONT_CSS = `
+@font-face {
+  font-family: "Sunghyun Sans KR Hanja";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR Hanja";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR Hanja";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Sunghyun Sans KR Hanja";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-Bold.woff2") format("woff2");
+}
+`.trim();
+
 export const Route = createRootRoute({
   head: () => ({
     meta: [
@@ -49,10 +86,6 @@ export const Route = createRootRoute({
         rel: "preconnect",
         href: "https://cdn.jsdelivr.net",
         crossOrigin: "",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans@29f779b837efd794f8ff09904235b7712cbee630/dist/web/css/sunghyun-sans-kr-hanja-dynamic-subset.min.css",
       },
       {
         rel: "stylesheet",
@@ -106,6 +139,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
     <html className="h-full" dir="ltr" lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <style>{SUNGHYUN_SANS_FONT_CSS}</style>
       </head>
       <body className={cn("flex h-full flex-col font-sans antialiased")}>
         <Suspense>

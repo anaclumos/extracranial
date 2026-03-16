@@ -1,25 +1,18 @@
 "use client";
 
 import { AnimatePresence, motion } from "motion/react";
-import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { memo, useCallback, useMemo, useState } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Switch } from "@/components/ui/switch";
-import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useTranslations } from "@/i18n/provider";
-import {
-  paneContentVariants,
-  paneVariants,
-  reducedMotionTransition,
-  spineVariants,
-  springQuick,
-  springSubtle,
-} from "@/lib/animations";
+import { paneVariants, spineVariants } from "@/lib/animations";
 import type { NoteSummary } from "@/lib/types";
-import { PaneBackground } from "../pane/pane-background";
+import { cn } from "@/lib/utils";
 import {
   useIsPaneCollapsed,
   usePaneCollapseScrollTo,
-  useRegisterPaneRef,
+  usePaneRef,
+  usePaneTransitions,
 } from "../pane/pane-collapse-context";
 import { PaneSpine } from "../pane/pane-spine";
 import { NoteItem } from "./note-item";
@@ -41,17 +34,12 @@ export const AllNotesList = memo(function AllNotesList({
 }: AllNotesListProps) {
   const isCollapsed = useIsPaneCollapsed(index);
   const scrollToPane = usePaneCollapseScrollTo();
-  const registerPaneRef = useRegisterPaneRef();
-  const prefersReducedMotion = useReducedMotion();
+  const { transition, quickTransition, prefersReducedMotion } =
+    usePaneTransitions();
   const t = useTranslations("allNotes");
   const tPane = useTranslations("notePane");
-  const paneRef = useRef<HTMLElement>(null);
+  const paneRef = usePaneRef(index);
   const [isBlogOnly, setIsBlogOnly] = useState(false);
-
-  useEffect(() => {
-    registerPaneRef(index, paneRef.current);
-    return () => registerPaneRef(index, null);
-  }, [index, registerPaneRef]);
 
   const stackIndexBySlug = useMemo(() => {
     const map = new Map<string, number>();
@@ -83,17 +71,10 @@ export const AllNotesList = memo(function AllNotesList({
     [t]
   );
 
-  const transition = prefersReducedMotion
-    ? reducedMotionTransition
-    : springSubtle;
-  const quickTransition = prefersReducedMotion
-    ? reducedMotionTransition
-    : springQuick;
-
   return (
     <motion.aside
       animate="animate"
-      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:max-w-3xl md:min-w-pane-min md:opacity-20 md:transition-opacity md:duration-300 md:hover:opacity-100"
+      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:min-w-pane-min md:max-w-3xl md:opacity-20 md:transition-opacity md:duration-300 md:hover:opacity-100"
       data-index={index}
       data-pane
       exit="exit"
@@ -107,8 +88,6 @@ export const AllNotesList = memo(function AllNotesList({
       transition={transition}
       variants={paneVariants}
     >
-      <PaneBackground />
-
       <AnimatePresence>
         {isCollapsed && (
           <motion.div
@@ -126,11 +105,16 @@ export const AllNotesList = memo(function AllNotesList({
         )}
       </AnimatePresence>
 
-      <motion.div
-        animate={isCollapsed ? "collapsed" : "expanded"}
-        className="absolute top-0 bottom-0 left-0 h-full w-full"
-        transition={transition}
-        variants={paneContentVariants}
+      <div
+        className={cn(
+          "absolute top-0 bottom-0 left-0 h-full w-full",
+          "transition-all duration-200",
+          prefersReducedMotion
+            ? "transition-none"
+            : isCollapsed
+              ? "translate-x-[var(--pane-spine-width)] opacity-40"
+              : "translate-x-0 opacity-100"
+        )}
       >
         {isCollapsed && (
           <>
@@ -183,7 +167,7 @@ export const AllNotesList = memo(function AllNotesList({
             </ul>
           </div>
         </ScrollArea>
-      </motion.div>
+      </div>
     </motion.aside>
   );
 });

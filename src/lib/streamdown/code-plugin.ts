@@ -1,5 +1,3 @@
-"use client";
-
 import { createBundledHighlighter } from "shiki/core";
 import { createJavaScriptRegexEngine } from "shiki/engine/javascript";
 import type { CodeHighlighterPlugin, ThemeInput } from "streamdown";

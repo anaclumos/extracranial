@@ -1,13 +1,30 @@
 "use client";
 
-import { Suspense, useEffect, useRef } from "react";
+import { Suspense } from "react";
 import { PageSkeleton } from "@/components/page-skeleton";
 import { PaneContainer } from "@/components/pane/container";
-import { usePaneUIStore } from "@/lib/stores/pane-ui-store";
+import { usePaneCollapseScrollTo } from "@/components/pane/pane-collapse-context";
+import { useKeyboardNavigation } from "@/hooks/use-keyboard-navigation";
 import type { NotePaneData, NoteSummary } from "@/lib/types";
-import { KeyboardHandler } from "./keyboard-handler";
-import { NoteStackProvider } from "./note-stack-provider";
+import {
+  NoteStackProvider,
+  useNoteStackContext,
+} from "./note-stack-provider";
 import { PaneOrchestrator } from "./pane-orchestrator";
+
+function KeyboardHandler() {
+  const { stack, focusIndex, popNote, focusPane } = useNoteStackContext();
+  const scrollToPane = usePaneCollapseScrollTo();
+  useKeyboardNavigation({
+    stackLength: stack.length,
+    focusIndex,
+    maxFocusIndex: stack.length + 1,
+    onFocusChange: focusPane,
+    onPopStack: popNote,
+    onScrollToPane: scrollToPane,
+  });
+  return null;
+}
 
 interface NotesPageClientProps {
   noteSummaries: NoteSummary[];
@@ -20,22 +37,10 @@ function NotesContent({
   noteSummaries,
   paneNotes,
 }: NotesPageClientProps) {
-  const scrollToPaneRef = useRef<((index: number) => void) | null>(null);
-  const setScrollToPaneHandler = usePaneUIStore(
-    (state) => state.setScrollToPaneHandler
-  );
-
-  useEffect(() => {
-    const handler = (index: number) => {
-      scrollToPaneRef.current?.(index);
-    };
-    setScrollToPaneHandler(handler);
-  }, [setScrollToPaneHandler]);
-
   return (
     <NoteStackProvider rootSlug={rootSlug}>
       <KeyboardHandler />
-      <PaneContainer paneNotes={paneNotes} scrollToPaneRef={scrollToPaneRef}>
+      <PaneContainer paneNotes={paneNotes}>
         <PaneOrchestrator noteSummaries={noteSummaries} paneNotes={paneNotes} />
       </PaneContainer>
     </NoteStackProvider>

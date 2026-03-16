@@ -192,7 +192,64 @@ function MobilePaneContent({
   );
 }
 
-const MobilePaneCard = memo(function MobilePaneCard({
+const MobilePaneCardShell = memo(function MobilePaneCardShell({
+  articleStyle,
+  closeLabel,
+  isClosable,
+  onClose,
+  onLinkClick,
+  pane,
+  prefersReducedMotion,
+  transition,
+  zIndex,
+}: {
+  articleStyle: {
+    opacity: MotionValue<number>;
+    rotateY: MotionValue<number>;
+    scale: MotionValue<number>;
+    x: MotionValue<number>;
+  };
+  closeLabel: string;
+  isClosable: boolean;
+  onClose: () => void;
+  onLinkClick: (slug: string) => void;
+  pane: NotePaneData;
+  prefersReducedMotion: boolean;
+  transition: typeof springSubtle;
+  zIndex: MotionValue<number>;
+}) {
+  return (
+    <motion.li
+      animate="animate"
+      className="pointer-events-none absolute inset-0 flex items-center justify-center"
+      exit="exit"
+      initial={prefersReducedMotion ? false : "initial"}
+      style={{ zIndex }}
+      transition={transition}
+      variants={paneVariants}
+    >
+      <motion.article
+        className="pointer-events-auto h-full w-[92dvw] overflow-hidden rounded-2xl border border-border bg-background shadow-lg"
+        style={{
+          ...articleStyle,
+          transformPerspective: 1000,
+          transformStyle: "preserve-3d",
+          willChange: "transform, opacity",
+        }}
+      >
+        <MobilePaneContent
+          closeLabel={closeLabel}
+          isClosable={isClosable}
+          onClose={onClose}
+          onLinkClick={onLinkClick}
+          pane={pane}
+        />
+      </motion.article>
+    </motion.li>
+  );
+});
+
+const MobilePaneCardController = memo(function MobilePaneCardController({
   closeLabel,
   index,
   isClosable,
@@ -221,36 +278,96 @@ const MobilePaneCard = memo(function MobilePaneCard({
   });
 
   return (
-    <motion.li
-      animate="animate"
-      className="pointer-events-none absolute inset-0 flex items-center justify-center"
-      exit="exit"
-      initial={prefersReducedMotion ? false : "initial"}
-      style={{ zIndex }}
+    <MobilePaneCardShell
+      articleStyle={{ opacity, rotateY, scale, x }}
+      closeLabel={closeLabel}
+      isClosable={isClosable}
+      onClose={() => onClose(index)}
+      onLinkClick={(slug) => onLinkClick(slug, index)}
+      pane={pane}
+      prefersReducedMotion={prefersReducedMotion}
       transition={transition}
-      variants={paneVariants}
-    >
-      <motion.article
-        className="pointer-events-auto h-full w-[92dvw] overflow-hidden rounded-2xl border border-border bg-background shadow-lg"
-        style={{
-          opacity,
-          rotateY,
-          scale,
-          transformPerspective: 1000,
-          transformStyle: "preserve-3d",
-          willChange: "transform, opacity",
-          x,
-        }}
+      zIndex={zIndex}
+    />
+  );
+});
+
+const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
+  currentIndex,
+  handleDrag,
+  handleDragEnd,
+  handleDragStart,
+  onClose,
+  onLinkClick,
+  panes,
+  prefersReducedMotion,
+  t,
+  tPane,
+  animateToIndex,
+  containerRef,
+}: {
+  currentIndex: MotionValue<number>;
+  handleDrag: (_: unknown, info: PanInfo) => void;
+  handleDragEnd: (_: unknown, info: PanInfo) => void;
+  handleDragStart: () => void;
+  onClose: (index: number) => void;
+  onLinkClick: (slug: string, fromIndex: number) => void;
+  panes: NotePaneData[];
+  prefersReducedMotion: boolean;
+  t: ReturnType<typeof useTranslations>;
+  tPane: ReturnType<typeof useTranslations>;
+  animateToIndex: (index: number) => void;
+  containerRef: React.RefObject<HTMLDivElement | null>;
+}) {
+  return (
+    <div className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden bg-background">
+      <div className="flex h-10 w-full items-center justify-center px-4">
+        <div className="flex h-10 items-end justify-center">
+          {panes.map((pane, index) => (
+            <SliderNotch
+              activeIndex={currentIndex}
+              ariaLabel={t("goToNote", {
+                position: index + 1,
+                title: pane.title,
+              })}
+              index={index}
+              key={`notch-${pane.slug}`}
+              onTap={animateToIndex}
+            />
+          ))}
+        </div>
+      </div>
+
+      <motion.div
+        className="relative flex w-full flex-1 cursor-grab items-center justify-center overflow-hidden active:cursor-grabbing"
+        drag="x"
+        dragConstraints={{ left: 0, right: 0 }}
+        dragElastic={0.08}
+        onDrag={handleDrag}
+        onDragEnd={handleDragEnd}
+        onDragStart={handleDragStart}
+        ref={containerRef}
+        style={{ perspective: 1000 }}
       >
-        <MobilePaneContent
-          closeLabel={closeLabel}
-          isClosable={isClosable}
-          onClose={() => onClose(index)}
-          onLinkClick={(slug) => onLinkClick(slug, index)}
-          pane={pane}
-        />
-      </motion.article>
-    </motion.li>
+        <ul className="relative h-full w-full">
+          <AnimatePresence initial={false} mode="sync">
+            {panes.map((pane, index) => (
+              <MobilePaneCardController
+                closeLabel={tPane("closeNote", { title: pane.title })}
+                index={index}
+                isClosable={index > 0}
+                key={`pane-${pane.slug}`}
+                onClose={onClose}
+                onLinkClick={onLinkClick}
+                pane={pane}
+                prefersReducedMotion={prefersReducedMotion}
+                progress={currentIndex}
+              />
+            ))}
+          </AnimatePresence>
+        </ul>
+      </motion.div>
+    </div>
   );
 });
 
@@ -336,53 +453,19 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
   );
 
   return (
-    <div className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden bg-background">
-      <div className="flex h-10 w-full items-center justify-center px-4">
-        <div className="flex h-10 items-end justify-center">
-          {panes.map((pane, index) => (
-            <SliderNotch
-              activeIndex={currentIndex}
-              ariaLabel={t("goToNote", {
-                position: index + 1,
-                title: pane.title,
-              })}
-              index={index}
-              key={`notch-${pane.slug}`}
-              onTap={animateToIndex}
-            />
-          ))}
-        </div>
-      </div>
-
-      <motion.div
-        className="relative flex w-full flex-1 cursor-grab items-center justify-center overflow-hidden active:cursor-grabbing"
-        drag="x"
-        dragConstraints={{ left: 0, right: 0 }}
-        dragElastic={0.08}
-        onDrag={handleDrag}
-        onDragEnd={handleDragEnd}
-        onDragStart={handleDragStart}
-        ref={containerRef}
-        style={{ perspective: 1000 }}
-      >
-        <ul className="relative h-full w-full">
-          <AnimatePresence initial={false} mode="sync">
-            {panes.map((pane, index) => (
-              <MobilePaneCard
-                closeLabel={tPane("closeNote", { title: pane.title })}
-                index={index}
-                isClosable={index > 0}
-                key={`pane-${pane.slug}`}
-                onClose={onClose}
-                onLinkClick={onLinkClick}
-                pane={pane}
-                prefersReducedMotion={prefersReducedMotion}
-                progress={currentIndex}
-              />
-            ))}
-          </AnimatePresence>
-        </ul>
-      </motion.div>
-    </div>
+    <MobilePaneCarouselShell
+      animateToIndex={animateToIndex}
+      containerRef={containerRef}
+      currentIndex={currentIndex}
+      handleDrag={handleDrag}
+      handleDragEnd={handleDragEnd}
+      handleDragStart={handleDragStart}
+      onClose={onClose}
+      onLinkClick={onLinkClick}
+      panes={panes}
+      prefersReducedMotion={prefersReducedMotion}
+      t={t}
+      tPane={tPane}
+    />
   );
 });

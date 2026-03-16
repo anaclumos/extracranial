@@ -2,23 +2,16 @@
 
 import { type ReactNode, useCallback, useEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import {
-  resetPaneCollapseStore,
-  setCollapsedPaneIndices,
-  setPaneRefRegistration,
-  setPaneScrollTo,
-} from "./pane-collapse-context";
+import { resetPaneCollapseStore, setCollapsedPaneIndices, setPaneRefRegistration, setPaneScrollTo, } from "./pane-collapse-context";
 
 interface DesktopContainerProps {
   children: ReactNode;
   focusIndex: number;
-  scrollToPaneRef?: React.MutableRefObject<((index: number) => void) | null>;
 }
 
 export function DesktopContainer({
   children,
   focusIndex,
-  scrollToPaneRef,
 }: DesktopContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const paneRefs = useRef(new Map<number, HTMLElement>());
@@ -28,6 +21,20 @@ export function DesktopContainer({
   const scrollFrameRef = useRef<number | null>(null);
 
   focusIndexRef.current = focusIndex;
+
+  const publishCollapsedIndices = useCallback((next: Set<number>) => {
+    collapsedIndicesRef.current = next;
+    setCollapsedPaneIndices(next);
+  }, []);
+
+  const cancelScheduledCollapsedIndicesUpdate = useCallback(() => {
+    if (scrollFrameRef.current === null) {
+      return;
+    }
+
+    cancelAnimationFrame(scrollFrameRef.current);
+    scrollFrameRef.current = null;
+  }, []);
 
   const getScrollBehavior = useCallback(() => {
     if (typeof window === "undefined") {
@@ -115,9 +122,7 @@ export function DesktopContainer({
         return;
       }
 
-      const emptySet = new Set<number>();
-      collapsedIndicesRef.current = emptySet;
-      setCollapsedPaneIndices(emptySet);
+      publishCollapsedIndices(new Set<number>());
       return;
     }
 
@@ -130,19 +135,17 @@ export function DesktopContainer({
 
     const previous = collapsedIndicesRef.current;
     if (previous.size !== next.size) {
-      collapsedIndicesRef.current = next;
-      setCollapsedPaneIndices(next);
+      publishCollapsedIndices(next);
       return;
     }
 
     for (const value of next) {
       if (!previous.has(value)) {
-        collapsedIndicesRef.current = next;
-        setCollapsedPaneIndices(next);
+        publishCollapsedIndices(next);
         return;
       }
     }
-  }, []);
+  }, [publishCollapsedIndices]);
 
   const scheduleCollapsedIndicesUpdate = useCallback(() => {
     if (scrollFrameRef.current !== null) {
@@ -154,16 +157,6 @@ export function DesktopContainer({
       updateCollapsedIndices();
     });
   }, [updateCollapsedIndices]);
-
-  useEffect(() => {
-    if (!scrollToPaneRef) {
-      return;
-    }
-    scrollToPaneRef.current = scrollToPane;
-    return () => {
-      scrollToPaneRef.current = null;
-    };
-  }, [scrollToPane, scrollToPaneRef]);
 
   useEffect(() => {
     setPaneRefRegistration(registerPaneRef);
@@ -191,10 +184,7 @@ export function DesktopContainer({
       window.addEventListener("resize", handleResize);
       return () => {
         cancelAnimationFrame(frameId);
-        if (scrollFrameRef.current !== null) {
-          cancelAnimationFrame(scrollFrameRef.current);
-          scrollFrameRef.current = null;
-        }
+        cancelScheduledCollapsedIndicesUpdate();
         window.removeEventListener("resize", handleResize);
       };
     }
@@ -212,13 +202,11 @@ export function DesktopContainer({
 
     return () => {
       cancelAnimationFrame(frameId);
-      if (scrollFrameRef.current !== null) {
-        cancelAnimationFrame(scrollFrameRef.current);
-        scrollFrameRef.current = null;
-      }
+      cancelScheduledCollapsedIndicesUpdate();
       observer.disconnect();
     };
   }, [
+    cancelScheduledCollapsedIndicesUpdate,
     scheduleCollapsedIndicesUpdate,
     updateCollapseThreshold,
     updateCollapsedIndices,

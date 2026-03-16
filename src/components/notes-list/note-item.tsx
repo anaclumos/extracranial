@@ -4,7 +4,6 @@ import { memo, useCallback } from "react";
 import { buildNoteHref } from "@/lib/note-links";
 import type { NoteSummary } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { PreviewLink } from "../preview-link";
 
 interface NoteItemProps {
   currentlyOpenLabel: (position: number) => string;
@@ -31,7 +30,7 @@ export const NoteItem = memo(function NoteItem({
 
   return (
     <li>
-      <PreviewLink href={buildNoteHref(note.slug)} onClick={handleClick}>
+      <a href={buildNoteHref(note.slug)} onClick={handleClick}>
         <span
           className={cn(
             "flex items-center gap-3 rounded-md px-3 py-2 text-sm transition-all duration-150",
@@ -60,7 +59,7 @@ export const NoteItem = memo(function NoteItem({
             </span>
           )}
         </span>
-      </PreviewLink>
+      </a>
     </li>
   );
 });

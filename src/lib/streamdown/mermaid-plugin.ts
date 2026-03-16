@@ -1,5 +1,3 @@
-"use client";
-
 import type { DiagramPlugin } from "streamdown";
 
 const MERMAID_CDN_URL =

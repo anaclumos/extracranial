@@ -56,3 +56,16 @@ export function popFromStack(currentStack: string[]): string[] {
   }
   return currentStack.slice(0, -1);
 }
+
+export function resolvePanesFromStack<T extends { slug: string }>(
+  stack: string[],
+  panes: T[]
+): T[] {
+  const paneDataMap = new Map<string, T>();
+  for (const pane of panes) {
+    paneDataMap.set(pane.slug, pane);
+  }
+  return stack
+    .map((slug) => paneDataMap.get(slug))
+    .filter((pane): pane is T => pane !== undefined);
+}
