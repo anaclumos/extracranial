@@ -1,8 +1,5 @@
-import { parseStackString, serializeStackArray } from "./stack-utils";
-
 export interface NoteStackUrlState {
   focus: number | null;
-  stack: string[];
 }
 
 function parseFocusValue(value: unknown): number | null {
@@ -21,26 +18,15 @@ function parseFocusValue(value: unknown): number | null {
 export function parseNoteStackSearch(
   search: Record<string, unknown>
 ): NoteStackUrlState {
-  const stack = parseStackString(
-    typeof search.stack === "string" ? search.stack : null
-  );
-
   return {
-    stack,
     focus: parseFocusValue(search.focus),
   };
 }
 
-export function toNoteStackSearchParams(
-  stack: string[],
-  focus: number | null
-): { stack?: string; focus?: number } {
-  const next: { stack?: string; focus?: number } = {};
-  const serializedStack = serializeStackArray(stack);
-
-  if (serializedStack) {
-    next.stack = serializedStack;
-  }
+export function toNoteStackSearchParams(focus: number | null): {
+  focus?: number;
+} {
+  const next: { focus?: number } = {};
 
   if (focus !== null) {
     next.focus = focus;

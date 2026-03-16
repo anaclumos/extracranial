@@ -1,5 +1,37 @@
-import type { ReactNode } from "react";
+import type * as React from "react";
 import { cn } from "@/lib/utils";
+
+const ADMONITION_TITLE_WRAPPER_RES = [
+  /^\*\*(.+)\*\*$/s,
+  /^__(.+)__$/s,
+  /^\*(.+)\*$/s,
+  /^_(.+)_$/s,
+];
+
+function formatAdmonitionTitle(title?: string): string | undefined {
+  if (!title) {
+    return title;
+  }
+
+  let normalizedTitle = title.trim();
+  let didUnwrap = true;
+
+  while (didUnwrap) {
+    didUnwrap = false;
+
+    for (const wrapperRe of ADMONITION_TITLE_WRAPPER_RES) {
+      const match = normalizedTitle.match(wrapperRe);
+      if (!match?.[1]) {
+        continue;
+      }
+
+      normalizedTitle = match[1].trim();
+      didUnwrap = true;
+    }
+  }
+
+  return normalizedTitle;
+}
 
 export function Admonition({
   children,
@@ -8,9 +40,9 @@ export function Admonition({
   title,
   type = "info",
 }: {
-  children: ReactNode;
+  children: React.ReactNode;
   icon?: string;
-  renderMarkdown?: (value: ReactNode) => ReactNode;
+  renderMarkdown?: (value: React.ReactNode) => React.ReactNode;
   title?: string;
   type?: "caution" | "danger" | "info" | "note" | "tip" | "warning";
 }) {
@@ -26,13 +58,14 @@ export function Admonition({
       warning:
         "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
     }[type] ?? "border-border bg-muted/50 text-foreground";
+  const formattedTitle = formatAdmonitionTitle(title);
 
   return (
     <aside className={cn("my-6 rounded-2xl border px-5 py-4", toneClassName)}>
-      {(title || icon) && (
+      {(formattedTitle || icon) && (
         <header className="mb-2 flex items-center gap-2 font-medium text-sm">
           {icon && <span aria-hidden="true">{icon}</span>}
-          {title && <span>{title}</span>}
+          {formattedTitle && <span>{formattedTitle}</span>}
         </header>
       )}
       <div className="text-sm/7">
@@ -42,7 +75,7 @@ export function Admonition({
   );
 }
 
-export function DisplayFlex({ children }: { children: ReactNode }) {
+export function DisplayFlex({ children }: { children: React.ReactNode }) {
   return <div className="my-4 flex gap-4 overflow-x-auto">{children}</div>;
 }
 

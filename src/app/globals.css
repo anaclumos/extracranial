@@ -51,8 +51,8 @@
   --success-foreground: var(--color-emerald-700);
   --warning: var(--color-amber-500);
   --warning-foreground: var(--color-amber-700);
-  --link: var(--color-blue-600);
-  --link-visited: var(--color-blue-800);
+  --link: var(--color-emerald-600);
+  --link-visited: var(--color-emerald-800);
   color-scheme: light;
 }
 
@@ -145,18 +145,20 @@ body {
   --success-foreground: var(--color-emerald-400);
   --warning: var(--color-amber-500);
   --warning-foreground: var(--color-amber-400);
-  --link: var(--color-blue-400);
-  --link-visited: var(--color-blue-300);
+  --link: var(--color-emerald-400);
+  --link-visited: var(--color-emerald-300);
   color-scheme: dark;
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    /* biome-ignore lint/correctness/noUnknownProperty: `corner-shape` is an intentional experimental property. */
     corner-shape: squircle;
   }
   *::before,
   *::after {
+    /* biome-ignore lint/correctness/noUnknownProperty: `corner-shape` is an intentional experimental property. */
     corner-shape: squircle;
   }
   body {

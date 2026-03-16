@@ -8,7 +8,8 @@ const MARKDOWN_IMAGE_RE = /!\[([^\]]*)]\(([^)\s]+)([^)]*)\)/g;
 const MARKDOWN_LINK_RE = /(?<!!)\[([^\]]+)]\(([^)\s]+)([^)]*)\)/g;
 const NOTE_ROUTE_RE =
   /^(?:https?:\/\/(?:www\.)?cho\.sh)?\/(?:library|manifesto|r|w|research|blog|journals|pages)\/([^/?#]+)/i;
-const ADMONITION_OPEN_RE = /^:::(\w+)(?:\s+(.*))?$/;
+const ADMONITION_CLOSE_RE = /^(\s*):::\s*$/;
+const ADMONITION_OPEN_RE = /^(\s*):::(\w+)(?:\s+(.*))?$/;
 const EXTERNAL_IMAGE_HREF_RE = /^(?:https?:|data:|#)/i;
 const EXTERNAL_LINK_HREF_RE = /^(?:https?:|mailto:|#)/i;
 const LEADING_RELATIVE_PATH_RE = /^(?:\.\.\/|\.\/)+/;
@@ -90,21 +91,32 @@ function rewriteAdmonitions(segment: string): string {
   const lines = segment.split("\n");
   const output: string[] = [];
   let isInsideAdmonition = false;
+  let admonitionIndent = "";
 
-  for (const line of lines) {
+  for (const [index, line] of lines.entries()) {
     const openMatch = line.match(ADMONITION_OPEN_RE);
     if (openMatch) {
-      const [, type, title] = openMatch;
+      const [, indent, type, title] = openMatch;
+      if (output.at(-1)?.trim() !== "") {
+        output.push(indent);
+      }
       output.push(
-        `<admonition type="${type}"${title ? ` title=${JSON.stringify(title)}` : ""}>`
+        `${indent}<admonition type="${type}"${title ? ` title=${JSON.stringify(title)}` : ""}>`
       );
       isInsideAdmonition = true;
+      admonitionIndent = indent;
       continue;
     }
 
-    if (isInsideAdmonition && line.trim() === ":::") {
-      output.push("</admonition>");
+    const closeMatch = line.match(ADMONITION_CLOSE_RE);
+    if (isInsideAdmonition && closeMatch) {
+      const closeIndent = closeMatch[1] ?? admonitionIndent;
+      output.push(`${closeIndent}</admonition>`);
       isInsideAdmonition = false;
+      admonitionIndent = "";
+      if (lines[index + 1]?.trim() !== "") {
+        output.push(closeIndent);
+      }
       continue;
     }
 

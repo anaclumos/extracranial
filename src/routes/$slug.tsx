@@ -4,55 +4,60 @@ import {
   getAllNoteSummaries,
   getNotePaneData,
 } from "@/lib/notes/note-route-data.functions";
-import { parseStackString } from "@/lib/stores/stack-utils";
 import {
   parseNoteStackSearch,
   toNoteStackSearchParams,
 } from "@/lib/stores/note-stack-parsers";
+import { parseStackString } from "@/lib/stores/stack-utils";
 import type { NotePaneData } from "@/lib/types";
 
 const DIRECT_NOTE_SLUG_REGEX = /^[A-F0-9]{6}$/i;
 
 type NoteRouteSearch = Record<string, unknown> & {
-  stack?: string;
   focus?: number;
 };
 
 export const Route = createFileRoute("/$slug")({
   validateSearch: (search): NoteRouteSearch => {
     const parsed = parseNoteStackSearch(search);
-    const normalized = toNoteStackSearchParams(parsed.stack, parsed.focus);
+    const normalized = toNoteStackSearchParams(parsed.focus);
 
     return {
       ...search,
       focus: normalized.focus,
-      stack: normalized.stack,
     };
   },
   beforeLoad: async ({ params }) => {
-    if (!DIRECT_NOTE_SLUG_REGEX.test(params.slug)) {
+    const stackSlugs = parseStackString(params.slug);
+    const rootSlug = stackSlugs[0];
+
+    if (!rootSlug) {
       throw notFound();
     }
 
-    const exists = await checkNoteExists({ data: { slug: params.slug } });
+    if (!stackSlugs.every((slug) => DIRECT_NOTE_SLUG_REGEX.test(slug))) {
+      throw notFound();
+    }
+
+    const exists = await checkNoteExists({ data: { slug: rootSlug } });
     if (!exists) {
       throw notFound();
     }
   },
-  loaderDeps: ({ search }) => ({
-    stack: search.stack,
-  }),
-  loader: async ({ params, deps }) => {
-    const additionalSlugs = parseStackString(
-      typeof deps.stack === "string" ? deps.stack : undefined
-    );
+  loader: async ({ params }) => {
+    const stackSlugs = parseStackString(params.slug);
+    const rootSlug = stackSlugs[0];
+
+    if (!rootSlug) {
+      throw notFound();
+    }
+
+    const additionalSlugs = stackSlugs.slice(1);
 
     const [noteSummaries, rootPaneData, ...stackPaneData] = await Promise.all([
       getAllNoteSummaries(),
-      getNotePaneData({ data: { slug: params.slug } }),
-      ...additionalSlugs.map((slug) =>
-        getNotePaneData({ data: { slug } })
-      ),
+      getNotePaneData({ data: { slug: rootSlug } }),
+      ...additionalSlugs.map((slug) => getNotePaneData({ data: { slug } })),
     ]);
 
     if (!rootPaneData) {
@@ -64,7 +69,8 @@ export const Route = createFileRoute("/$slug")({
     );
 
     return {
-      rootSlug: params.slug,
+      rootSlug,
+      stackPath: params.slug,
       noteSummaries,
       paneNotes,
       title: rootPaneData.title,
@@ -75,8 +81,9 @@ export const Route = createFileRoute("/$slug")({
     const title = loaderData?.title ?? "cho.sh";
     const description = loaderData?.description ?? "cho.sh";
     const rootSlug = loaderData?.rootSlug;
+    const stackPath = loaderData?.stackPath;
     const imageUrl = rootSlug ? `/og/${rootSlug}.png` : "/logo.png";
-    const notePath = rootSlug ? `/${rootSlug}` : null;
+    const notePath = stackPath ? `/${stackPath}` : null;
     const pageUrl =
       notePath && typeof window !== "undefined"
         ? `${window.location.origin}${notePath}`

@@ -1,15 +1,17 @@
 /**
- * Server-safe stack string utilities.
+ * Server-safe stack path utilities.
  * These functions can be used in both server and client components.
  * For route search-state integration, see note-stack-parsers.ts
  */
+
+const STACK_SEGMENT_DELIMITER = ":";
 
 export function parseStackString(value: string | null | undefined): string[] {
   if (!value) {
     return [];
   }
   return value
-    .split(",")
+    .split(STACK_SEGMENT_DELIMITER)
     .map((s) => s.trim())
     .filter((s) => s.length > 0);
 }
@@ -18,7 +20,7 @@ export function serializeStackArray(value: string[]): string {
   if (!value || value.length === 0) {
     return "";
   }
-  return value.join(",");
+  return value.join(STACK_SEGMENT_DELIMITER);
 }
 
 export function buildFullStack(

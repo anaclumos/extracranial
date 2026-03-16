@@ -1,0 +1,2 @@
+- 2026-03-17: Admonition directives need blank block separation after source transformation, or custom `<admonition>` tags can stay inside a paragraph and trigger invalid nesting and hydration errors.
+- 2026-03-17: Treat `params.slug` as the only stack source of truth and encode panes as colon-delimited slugs in the path, while keeping `focus` as the only stack-related query param.

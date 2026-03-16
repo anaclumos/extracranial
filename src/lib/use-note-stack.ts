@@ -2,77 +2,67 @@
 
 import { useNavigate } from "@tanstack/react-router";
 import { useCallback, useMemo, useRef, useTransition } from "react";
-import { buildNoteHref } from "@/lib/note-links";
+import { buildNoteHref, buildNoteStackHref } from "@/lib/note-links";
 import { Route as NoteRoute } from "@/routes/$slug";
 import {
   parseNoteStackSearch,
   toNoteStackSearchParams,
 } from "./stores/note-stack-parsers";
 import {
-  buildFullStack,
   getFocusIndex,
+  parseStackString,
   popFromStack,
   pushToStack,
 } from "./stores/stack-utils";
 
 export function useNoteStack(rootSlug: string) {
   const navigate = useNavigate({ from: NoteRoute.fullPath });
+  const params = NoteRoute.useParams();
   const rawSearch = NoteRoute.useSearch();
   const [isPending, startTransition] = useTransition();
   const urlState = useMemo(() => {
     return parseNoteStackSearch(rawSearch as Record<string, unknown>);
   }, [rawSearch]);
 
-  const setUrlState = useCallback(
+  const navigateToStack = useCallback(
     (
-      nextState: Partial<{ stack: string[]; focus: number | null }>,
+      nextStack: string[],
+      focus: number | null,
       options?: { scroll?: boolean }
     ) => {
+      const targetStack = nextStack.length > 0 ? nextStack : ["000000"];
+      const nextSearchParams = toNoteStackSearchParams(focus);
+
       navigate({
-        params: { slug: rootSlug },
+        to: buildNoteStackHref(targetStack),
         replace: true,
         resetScroll: options?.scroll === false ? false : undefined,
-        to: "/$slug",
         search: (prev: Record<string, unknown>) => {
           const nextSearch = { ...prev };
 
-          if ("stack" in nextState) {
-            const stackValue = toNoteStackSearchParams(
-              nextState.stack ?? [],
-              null
-            ).stack;
-            if (stackValue) {
-              nextSearch.stack = stackValue;
-            } else {
-              nextSearch.stack = undefined;
-            }
-          }
-
-          if ("focus" in nextState) {
-            const focusValue = toNoteStackSearchParams(
-              [],
-              nextState.focus ?? null
-            ).focus;
-            if (typeof focusValue === "number") {
-              nextSearch.focus = focusValue;
-            } else {
-              nextSearch.focus = undefined;
-            }
+          if (typeof nextSearchParams.focus === "number") {
+            nextSearch.focus = nextSearchParams.focus;
+          } else {
+            nextSearch.focus = undefined;
           }
 
           return nextSearch;
         },
       });
     },
-    [navigate, rootSlug]
+    [navigate]
   );
 
   const buildNotePath = useCallback((slug: string) => buildNoteHref(slug), []);
 
-  const stack = useMemo(
-    () => buildFullStack(rootSlug, urlState.stack),
-    [rootSlug, urlState.stack]
-  );
+  const stack = useMemo(() => {
+    const pathStack = parseStackString(params.slug);
+    if (pathStack.length > 0) {
+      return pathStack;
+    }
+
+    return [rootSlug];
+  }, [params.slug, rootSlug]);
 
   const focusIndex = useMemo(
     () => getFocusIndex(urlState.focus, stack.length),
@@ -89,40 +79,21 @@ export function useNoteStack(rootSlug: string) {
       const currentStack = stackRef.current;
       const newStack = pushToStack(currentStack, slug, fromPaneIndex);
 
-      if (newStack.length === 1) {
-        const newRootSlug = newStack[0];
-        startTransition(() => {
-          navigate({ to: buildNotePath(newRootSlug) });
-        });
-      } else {
-        const newRootSlug = newStack[0];
-        const additionalSlugs = newStack.slice(1);
-
-        if (newRootSlug !== rootSlug) {
-          const basePath = buildNotePath(newRootSlug);
-          const nextSearch = toNoteStackSearchParams(additionalSlugs, null);
-          startTransition(() => {
-            navigate({ to: basePath, search: nextSearch });
-          });
-        } else {
-          setUrlState({ stack: additionalSlugs, focus: null });
-        }
-      }
+      startTransition(() => {
+        navigateToStack(newStack, null);
+      });
     },
-    [buildNotePath, navigate, rootSlug, setUrlState]
+    [navigateToStack]
   );
 
   const popNote = useCallback(() => {
     const currentStack = stackRef.current;
     const newStack = popFromStack(currentStack);
 
-    if (newStack.length <= 1) {
-      setUrlState({ stack: [], focus: null });
-    } else {
-      const additionalSlugs = newStack.slice(1);
-      setUrlState({ stack: additionalSlugs, focus: null });
-    }
-  }, [setUrlState]);
+    startTransition(() => {
+      navigateToStack(newStack, null);
+    });
+  }, [navigateToStack]);
 
   const focusPane = useCallback(
     (index: number) => {
@@ -135,38 +106,33 @@ export function useNoteStack(rootSlug: string) {
         return;
       }
       const newFocus = index === currentStack.length - 1 ? null : index;
-      setUrlState({ focus: newFocus }, { scroll: false });
+      navigateToStack(currentStack, newFocus, { scroll: false });
     },
-    [setUrlState]
+    [navigateToStack]
   );
 
   const setStack = useCallback(
     (newStack: string[], focusIdx?: number) => {
       if (newStack.length === 0) {
         startTransition(() => {
-          navigate({ to: buildNotePath("000000") });
+          navigate({
+            to: buildNotePath("000000"),
+            search: toNoteStackSearchParams(null),
+          });
         });
         return;
       }
 
-      const newRootSlug = newStack[0];
-      const additionalSlugs = newStack.slice(1);
       const newFocus =
         focusIdx !== undefined && focusIdx !== newStack.length - 1
           ? focusIdx
           : null;
 
-      if (newRootSlug !== rootSlug) {
-        const basePath = buildNotePath(newRootSlug);
-        const nextSearch = toNoteStackSearchParams(additionalSlugs, newFocus);
-        startTransition(() => {
-          navigate({ to: basePath, search: nextSearch });
-        });
-      } else {
-        setUrlState({ stack: additionalSlugs, focus: newFocus });
-      }
+      startTransition(() => {
+        navigateToStack(newStack, newFocus);
+      });
     },
-    [buildNotePath, navigate, rootSlug, setUrlState]
+    [buildNotePath, navigate, navigateToStack]
   );
 
   const goBack = useCallback(() => {

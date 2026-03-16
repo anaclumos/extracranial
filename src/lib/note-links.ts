@@ -26,3 +26,11 @@ export function buildNoteHref(slug: string): string {
   const normalized = normalizeNoteSlug(slug);
   return `/${normalized}`;
 }
+
+export function buildNoteStackHref(stack: string[]): string {
+  const normalizedStack = stack
+    .map((slug) => normalizeNoteSlug(slug))
+    .filter((slug) => slug.length > 0);
+
+  return `/${normalizedStack.join(":")}`;
+}
