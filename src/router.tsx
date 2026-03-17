@@ -6,6 +6,7 @@ export function createAppRouter() {
     defaultPreload: "intent",
     defaultPreloadDelay: 50,
     defaultStructuralSharing: true,
+    notFoundMode: "root",
     routeTree,
     scrollRestoration: true,
   });
