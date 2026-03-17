@@ -1,11 +1,14 @@
 "use client";
 
-import { Suspense } from "react";
-import { PageSkeleton } from "@/components/page-skeleton";
+import { useState } from "react";
 import { PaneContainer } from "@/components/pane/container";
 import { usePaneCollapseScrollTo } from "@/components/pane/pane-collapse-context";
 import { useKeyboardNavigation } from "@/hooks/use-keyboard-navigation";
-import type { NotePaneData, NoteSummary } from "@/lib/types";
+import type {
+  NoteLanguageFilter,
+  NotePaneData,
+  NoteSummary,
+} from "@/lib/types";
 import {
   NoteStackProvider,
   useNoteStackContext,
@@ -37,20 +40,33 @@ function NotesContent({
   noteSummaries,
   paneNotes,
 }: NotesPageClientProps) {
+  const [isBlogOnly, setIsBlogOnly] = useState(false);
+  const [languageFilter, setLanguageFilter] =
+    useState<NoteLanguageFilter>("all");
+
   return (
     <NoteStackProvider rootSlug={rootSlug}>
       <KeyboardHandler />
-      <PaneContainer paneNotes={paneNotes}>
-        <PaneOrchestrator noteSummaries={noteSummaries} paneNotes={paneNotes} />
+      <PaneContainer
+        isBlogOnly={isBlogOnly}
+        languageFilter={languageFilter}
+        onBlogOnlyChange={setIsBlogOnly}
+        onLanguageFilterChange={setLanguageFilter}
+        paneNotes={paneNotes}
+      >
+        <PaneOrchestrator
+          isBlogOnly={isBlogOnly}
+          languageFilter={languageFilter}
+          noteSummaries={noteSummaries}
+          onBlogOnlyChange={setIsBlogOnly}
+          onLanguageFilterChange={setLanguageFilter}
+          paneNotes={paneNotes}
+        />
       </PaneContainer>
     </NoteStackProvider>
   );
 }
 
 export function NotesPageClient(props: NotesPageClientProps) {
-  return (
-    <Suspense fallback={<PageSkeleton />}>
-      <NotesContent {...props} />
-    </Suspense>
-  );
+  return <NotesContent {...props} />;
 }

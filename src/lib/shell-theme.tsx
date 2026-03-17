@@ -5,9 +5,8 @@ import {
   useEffect,
   useState,
 } from "react";
-import { useMediaQuery } from "@/hooks/use-media-query";
 
-type Theme = "light" | "dark" | "system";
+type Theme = "light" | "dark";
 
 interface ThemeContextType {
   setTheme: (theme: Theme) => void;
@@ -20,15 +19,17 @@ const STORAGE_KEY = "cho-sh-theme";
 
 function resolveStoredTheme(): Theme {
   if (typeof window === "undefined") {
-    return "system";
+    return "light";
   }
 
   const storedTheme = localStorage.getItem(STORAGE_KEY);
-  return storedTheme === "light" ||
-    storedTheme === "dark" ||
-    storedTheme === "system"
-    ? storedTheme
-    : "system";
+  if (storedTheme === "light" || storedTheme === "dark") {
+    return storedTheme;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
 }
 
 function applyTheme(theme: "light" | "dark") {
@@ -40,28 +41,16 @@ function applyTheme(theme: "light" | "dark") {
   }
 }
 
-function resolveEffectiveTheme(
-  theme: Theme,
-  prefersDarkTheme: boolean
-): "light" | "dark" {
-  if (theme === "system") {
-    return prefersDarkTheme ? "dark" : "light";
-  }
-
-  return theme;
-}
-
 export function ShellThemeProvider({ children }: { children: ReactNode }) {
-  const prefersDarkTheme = useMediaQuery("(prefers-color-scheme: dark)");
-  const [theme, setThemeState] = useState<Theme>("system");
+  const [theme, setThemeState] = useState<Theme>("light");
 
   useEffect(() => {
     setThemeState(resolveStoredTheme());
   }, []);
 
   useEffect(() => {
-    applyTheme(resolveEffectiveTheme(theme, prefersDarkTheme));
-  }, [theme, prefersDarkTheme]);
+    applyTheme(theme);
+  }, [theme]);
 
   const setTheme = (newTheme: Theme) => {
     setThemeState(newTheme);
@@ -86,8 +75,5 @@ export function useShellTheme() {
 }
 
 export function useResolvedShellTheme(): "light" | "dark" {
-  const { theme } = useShellTheme();
-  const prefersDarkTheme = useMediaQuery("(prefers-color-scheme: dark)");
-
-  return resolveEffectiveTheme(theme, prefersDarkTheme);
+  return useShellTheme().theme;
 }

@@ -10,7 +10,6 @@ import { EscapeInAppBrowser } from "eiab/react";
 import { type ReactNode, Suspense } from "react";
 import { PreloadErrorRecovery } from "@/components/client/preload-error-recovery";
 import { MagneticCursorLazy } from "@/components/magnetic-cursor-lazy";
-import { ShellHeader } from "@/components/shell-header";
 import { I18nProvider } from "@/i18n/provider";
 import { ShellThemeProvider } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
@@ -126,7 +125,6 @@ function RootComponent() {
     <RootDocument>
       <ShellThemeProvider>
         <I18nProvider>
-          <ShellHeader />
           <Outlet />
         </I18nProvider>
       </ShellThemeProvider>

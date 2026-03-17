@@ -1,15 +1,22 @@
 "use client";
 
-import { type ReactNode, useCallback, useEffect, useRef } from "react";
+import { type ReactNode, useCallback, useEffect, useLayoutEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
-import { resetPaneCollapseStore, setCollapsedPaneIndices, setPaneRefRegistration, setPaneScrollTo, } from "./pane-collapse-context";
+import {
+  resetPaneCollapseStore,
+  setCollapsedPaneIndices,
+  setPaneRefRegistration,
+  setPaneScrollTo,
+} from "./pane-collapse-context";
 
 interface DesktopContainerProps {
   children: ReactNode;
+  className?: string;
   focusIndex: number;
 }
 
 export function DesktopContainer({
+  className,
   children,
   focusIndex,
 }: DesktopContainerProps) {
@@ -19,7 +26,6 @@ export function DesktopContainer({
   const collapseThresholdRef = useRef(0);
   const collapsedIndicesRef = useRef(new Set<number>());
   const scrollFrameRef = useRef<number | null>(null);
-
   focusIndexRef.current = focusIndex;
 
   const publishCollapsedIndices = useCallback((next: Set<number>) => {
@@ -37,12 +43,7 @@ export function DesktopContainer({
   }, []);
 
   const getScrollBehavior = useCallback(() => {
-    if (typeof window === "undefined") {
-      return "smooth" as const;
-    }
-    return window.matchMedia("(prefers-reduced-motion: reduce)").matches
-      ? "auto"
-      : "smooth";
+    return "auto" as const;
   }, []);
 
   const scrollPaneIntoViewIfFocused = useCallback(
@@ -102,7 +103,6 @@ export function DesktopContainer({
       return;
     }
 
-    // --pane-spine-width: 2.5rem, root font-size: 16px = 40px
     const SPINE_WIDTH_PX = 40;
     collapseThresholdRef.current = Math.max(
       0,
@@ -226,12 +226,18 @@ export function DesktopContainer({
     };
   }, [scheduleCollapsedIndicesUpdate]);
 
+  useLayoutEffect(() => {
+    updateCollapseThreshold();
+    updateCollapsedIndices();
+  });
+
   return (
     <div
       className={cn(
         "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
-        "overscroll-x-none scroll-smooth bg-background",
-        "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20"
+        "overscroll-x-none bg-background",
+        "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
+        className
       )}
       ref={containerRef}
     >

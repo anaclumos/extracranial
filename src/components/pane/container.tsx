@@ -1,9 +1,8 @@
 "use client";
 
 import { lazy, type ReactNode, Suspense, useMemo } from "react";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { resolvePanesFromStack } from "@/lib/stores/stack-utils";
-import type { NotePaneData } from "@/lib/types";
+import type { NoteLanguageFilter, NotePaneData } from "@/lib/types";
 import { useNoteStackContext } from "../client/note-stack-provider";
 import { DesktopContainer } from "./desktop-container";
 
@@ -15,6 +14,10 @@ const MobilePaneCarousel = lazy(() =>
 
 interface PaneContainerProps {
   children: ReactNode;
+  isBlogOnly: boolean;
+  languageFilter: NoteLanguageFilter;
+  onBlogOnlyChange: (nextValue: boolean) => void;
+  onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   paneNotes: NotePaneData[];
 }
 
@@ -109,30 +112,44 @@ function MobilePaneFallback({
   );
 }
 
-export function PaneContainer({ children, paneNotes }: PaneContainerProps) {
-  const isMobile = useIsMobile();
+export function PaneContainer({
+  children,
+  isBlogOnly,
+  languageFilter,
+  onBlogOnlyChange,
+  onLanguageFilterChange,
+  paneNotes,
+}: PaneContainerProps) {
   const { focusIndex, stack, pushNote, removePane } = useNoteStackContext();
   const panes = useMemo(
     () => resolvePanesFromStack(stack, paneNotes),
     [stack, paneNotes]
   );
 
-  if (isMobile) {
-    return (
-      <Suspense
-        fallback={<MobilePaneFallback focusIndex={focusIndex} panes={panes} />}
-      >
-        <MobilePaneCarousel
-          focusIndex={focusIndex}
-          onClose={(index: number) => removePane(index, panes.length)}
-          onLinkClick={pushNote}
-          panes={panes}
-        />
-      </Suspense>
-    );
-  }
-
   return (
-    <DesktopContainer focusIndex={focusIndex}>{children}</DesktopContainer>
+    <>
+      <div className="flex h-full w-full flex-1 md:hidden">
+        <Suspense
+          fallback={
+            <MobilePaneFallback focusIndex={focusIndex} panes={panes} />
+          }
+        >
+          <MobilePaneCarousel
+            focusIndex={focusIndex}
+            isBlogOnly={isBlogOnly}
+            languageFilter={languageFilter}
+            onBlogOnlyChange={onBlogOnlyChange}
+            onClose={(index: number) => removePane(index, panes.length)}
+            onLanguageFilterChange={onLanguageFilterChange}
+            onLinkClick={pushNote}
+            panes={panes}
+          />
+        </Suspense>
+      </div>
+
+      <DesktopContainer className="hidden md:flex" focusIndex={focusIndex}>
+        {children}
+      </DesktopContainer>
+    </>
   );
 }

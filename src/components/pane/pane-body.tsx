@@ -95,7 +95,7 @@ export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
         {editUrl && (
           <footer className="border-border/40 border-t px-8 py-4">
             <a
-              className="text-muted-foreground text-sm transition-colors hover:text-foreground"
+              className="text-muted-foreground text-sm hover:text-foreground"
               href={editUrl}
               rel="noopener noreferrer"
               target="_blank"

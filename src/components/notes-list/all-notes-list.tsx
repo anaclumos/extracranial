@@ -1,18 +1,16 @@
 "use client";
 
-import { AnimatePresence, motion } from "motion/react";
-import { memo, useCallback, useMemo, useState } from "react";
+import { memo, useCallback, useMemo } from "react";
+import { Logo } from "@/components/brand/logo";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Switch } from "@/components/ui/switch";
+import { SettingsDrawer } from "@/components/ui/settings-drawer";
 import { useTranslations } from "@/i18n/provider";
-import { paneVariants, spineVariants } from "@/lib/animations";
-import type { NoteSummary } from "@/lib/types";
+import type { NoteLanguageFilter, NoteSummary } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import {
   useIsPaneCollapsed,
   usePaneCollapseScrollTo,
   usePaneRef,
-  usePaneTransitions,
 } from "../pane/pane-collapse-context";
 import { PaneSpine } from "../pane/pane-spine";
 import { NoteItem } from "./note-item";
@@ -20,8 +18,12 @@ import { NoteItem } from "./note-item";
 interface AllNotesListProps {
   currentStack: string[];
   index: number;
+  isBlogOnly: boolean;
+  languageFilter: NoteLanguageFilter;
   notes: NoteSummary[];
+  onBlogOnlyChange: (nextValue: boolean) => void;
   onExpand: (index: number) => void;
+  onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   onNoteClick: (slug: string, stackPosition?: number) => void;
 }
 
@@ -29,17 +31,18 @@ export const AllNotesList = memo(function AllNotesList({
   notes,
   currentStack,
   index,
+  isBlogOnly,
+  languageFilter,
   onNoteClick,
   onExpand,
+  onBlogOnlyChange,
+  onLanguageFilterChange,
 }: AllNotesListProps) {
   const isCollapsed = useIsPaneCollapsed(index);
   const scrollToPane = usePaneCollapseScrollTo();
-  const { transition, quickTransition, prefersReducedMotion } =
-    usePaneTransitions();
   const t = useTranslations("allNotes");
   const tPane = useTranslations("notePane");
   const paneRef = usePaneRef(index);
-  const [isBlogOnly, setIsBlogOnly] = useState(false);
 
   const stackIndexBySlug = useMemo(() => {
     const map = new Map<string, number>();
@@ -58,8 +61,18 @@ export const AllNotesList = memo(function AllNotesList({
   }, [currentStack]);
 
   const filteredNotes = useMemo(() => {
-    return isBlogOnly ? notes.filter((note) => note.kind === "blog") : notes;
-  }, [notes, isBlogOnly]);
+    return notes.filter((note) => {
+      if (isBlogOnly && note.kind !== "blog") {
+        return false;
+      }
+
+      if (languageFilter !== "all" && note.language !== languageFilter) {
+        return false;
+      }
+
+      return true;
+    });
+  }, [notes, isBlogOnly, languageFilter]);
 
   const handleExpand = useCallback(() => {
     onExpand(index);
@@ -72,48 +85,28 @@ export const AllNotesList = memo(function AllNotesList({
   );
 
   return (
-    <motion.aside
-      animate="animate"
-      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:min-w-pane-min md:max-w-3xl md:opacity-20 md:transition-opacity md:duration-300 md:hover:opacity-100"
+    <aside
+      className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:min-w-pane-min md:max-w-3xl"
       data-index={index}
       data-pane
-      exit="exit"
-      initial={prefersReducedMotion ? false : "initial"}
-      layout="position"
       ref={paneRef}
       style={{
         left: `calc(${index} * var(--pane-spine-width))`,
         zIndex: `calc(var(--z-pane) + ${index})`,
       }}
-      transition={transition}
-      variants={paneVariants}
     >
-      <AnimatePresence>
-        {isCollapsed && (
-          <motion.div
-            animate="visible"
-            className="absolute inset-0 z-10 cursor-pointer"
-            exit="hidden"
-            initial="hidden"
-            key="spine"
-            onClick={handleExpand}
-            transition={quickTransition}
-            variants={spineVariants}
-          >
-            <PaneSpine index={index} showIndex={false} title={t("title")} />
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {isCollapsed && (
+        <div aria-hidden="true" className="absolute inset-0 z-10">
+          <PaneSpine index={index} showIndex={false} title={t("title")} />
+        </div>
+      )}
 
       <div
         className={cn(
           "absolute top-0 bottom-0 left-0 h-full w-full",
-          "transition-all duration-200",
-          prefersReducedMotion
-            ? "transition-none"
-            : isCollapsed
-              ? "translate-x-[var(--pane-spine-width)] opacity-40"
-              : "translate-x-0 opacity-100"
+          isCollapsed
+            ? "translate-x-[var(--pane-spine-width)] opacity-40"
+            : "translate-x-0 opacity-100"
         )}
       >
         {isCollapsed && (
@@ -131,23 +124,32 @@ export const AllNotesList = memo(function AllNotesList({
         )}
 
         <ScrollArea className="relative z-0 h-full">
-          <div className="sticky top-0 z-sticky border-border/50 border-b bg-background/80 px-4 pt-4 pb-2 backdrop-blur-md">
-            <div className="flex items-start justify-between gap-3">
-              <h2 className="font-normal text-2xl text-foreground tracking-tight">
-                {t("title")}
-              </h2>
-              <label
-                className="flex items-center gap-2 text-muted-foreground text-sm"
-                htmlFor="blog-only-toggle"
-              >
-                <span>{t("blogOnly")}</span>
-                <Switch
-                  aria-label={t("blogOnlyToggle")}
-                  checked={isBlogOnly}
-                  id="blog-only-toggle"
-                  onCheckedChange={setIsBlogOnly}
-                />
-              </label>
+          <div className="sticky top-0 z-sticky border-border/50 border-b bg-background/80 px-4 pt-4 pb-3 backdrop-blur-md">
+            <div className="flex items-start justify-between gap-4">
+              <div className="min-w-0">
+                <a
+                  className="inline-flex items-center gap-2 text-foreground transition-opacity hover:opacity-80"
+                  href="/"
+                >
+                  <span className="flex size-9 items-center justify-center rounded-full border border-border/70 bg-muted/35">
+                    <Logo className="text-foreground" size={18} />
+                  </span>
+                  <span className="font-medium text-sm uppercase tracking-[0.18em]">
+                    cho.sh
+                  </span>
+                </a>
+                <h2 className="mt-3 font-normal text-2xl text-foreground tracking-tight">
+                  {t("title")}
+                </h2>
+              </div>
+              <SettingsDrawer
+                compact
+                isBlogOnly={isBlogOnly}
+                languageFilter={languageFilter}
+                onBlogOnlyChange={onBlogOnlyChange}
+                onLanguageFilterChange={onLanguageFilterChange}
+                triggerClassName="mt-0.5 shrink-0"
+              />
             </div>
             <p className="mt-1 font-mono text-muted-foreground text-sm">
               {t("noteCount", { count: filteredNotes.length })}
@@ -168,6 +170,6 @@ export const AllNotesList = memo(function AllNotesList({
           </div>
         </ScrollArea>
       </div>
-    </motion.aside>
+    </aside>
   );
 });

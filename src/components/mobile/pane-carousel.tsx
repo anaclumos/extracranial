@@ -13,16 +13,22 @@ import {
 } from "motion/react";
 import { memo, useCallback, useEffect, useRef } from "react";
 import { BacklinksSection } from "@/components/backlinks-section";
+import { Logo } from "@/components/brand/logo";
 import { MdxNoteContent } from "@/components/content/mdx-components";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { SettingsDrawer } from "@/components/ui/settings-drawer";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useTranslations } from "@/i18n/provider";
 import { reducedMotionTransition, springSubtle } from "@/lib/animations";
-import type { NotePaneData } from "@/lib/types";
+import type { NoteLanguageFilter, NotePaneData } from "@/lib/types";
 
 interface MobilePaneCarouselProps {
   focusIndex: number;
+  isBlogOnly: boolean;
+  languageFilter: NoteLanguageFilter;
+  onBlogOnlyChange: (nextValue: boolean) => void;
   onClose: (index: number) => void;
+  onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   onLinkClick: (slug: string, fromIndex: number) => void;
   panes: NotePaneData[];
 }
@@ -297,7 +303,11 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
   handleDrag,
   handleDragEnd,
   handleDragStart,
+  isBlogOnly,
+  languageFilter,
   onClose,
+  onBlogOnlyChange,
+  onLanguageFilterChange,
   onLinkClick,
   panes,
   prefersReducedMotion,
@@ -310,7 +320,11 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
   handleDrag: (_: unknown, info: PanInfo) => void;
   handleDragEnd: (_: unknown, info: PanInfo) => void;
   handleDragStart: () => void;
+  isBlogOnly: boolean;
+  languageFilter: NoteLanguageFilter;
   onClose: (index: number) => void;
+  onBlogOnlyChange: (nextValue: boolean) => void;
+  onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   onLinkClick: (slug: string, fromIndex: number) => void;
   panes: NotePaneData[];
   prefersReducedMotion: boolean;
@@ -321,6 +335,28 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
 }) {
   return (
     <div className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden bg-background">
+      <div className="w-full border-border/60 border-b bg-background/90 px-4 pt-4 pb-3 backdrop-blur-md">
+        <div className="flex items-center justify-between gap-3">
+          <a
+            className="inline-flex items-center gap-2 text-foreground transition-opacity hover:opacity-80"
+            href="/"
+          >
+            <span className="flex size-9 items-center justify-center rounded-full border border-border/70 bg-muted/35">
+              <Logo className="text-foreground" size={18} />
+            </span>
+            <span className="font-medium text-sm uppercase tracking-[0.18em]">
+              cho.sh
+            </span>
+          </a>
+          <SettingsDrawer
+            compact
+            isBlogOnly={isBlogOnly}
+            languageFilter={languageFilter}
+            onBlogOnlyChange={onBlogOnlyChange}
+            onLanguageFilterChange={onLanguageFilterChange}
+          />
+        </div>
+      </div>
       <div className="flex h-10 w-full items-center justify-center px-4">
         <div className="flex h-10 items-end justify-center">
           {panes.map((pane, index) => (
@@ -373,6 +409,10 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
 
 export const MobilePaneCarousel = memo(function MobilePaneCarousel({
   panes,
+  isBlogOnly,
+  languageFilter,
+  onBlogOnlyChange,
+  onLanguageFilterChange,
   onLinkClick,
   onClose,
   focusIndex,
@@ -460,7 +500,11 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
       handleDrag={handleDrag}
       handleDragEnd={handleDragEnd}
       handleDragStart={handleDragStart}
+      isBlogOnly={isBlogOnly}
+      languageFilter={languageFilter}
+      onBlogOnlyChange={onBlogOnlyChange}
       onClose={onClose}
+      onLanguageFilterChange={onLanguageFilterChange}
       onLinkClick={onLinkClick}
       panes={panes}
       prefersReducedMotion={prefersReducedMotion}

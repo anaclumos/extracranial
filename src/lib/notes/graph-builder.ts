@@ -24,6 +24,7 @@ async function buildNoteGraphUncached(): Promise<NoteGraph> {
       excerpt,
       kind: note.kind,
       lastModified: note.lastModified,
+      language: note.language,
       slug: note.slug,
       title: note.title,
       description: note.description,
@@ -46,7 +47,9 @@ async function buildNoteGraphUncached(): Promise<NoteGraph> {
     }
   }
 
-  console.log(`[graph-builder] Complete: ${notes.size} notes, ${totalBacklinks} backlink edges`);
+  console.log(
+    `[graph-builder] Complete: ${notes.size} notes, ${totalBacklinks} backlink edges`
+  );
   return { notes, backlinks };
 }
 
@@ -57,7 +60,9 @@ export function buildNoteGraph(): Promise<NoteGraph> {
   const start = performance.now();
   const promise = buildNoteGraphUncached()
     .then((graph) => {
-      console.log(`[graph-builder] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`);
+      console.log(
+        `[graph-builder] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`
+      );
       return graph;
     })
     .catch((error: unknown) => {

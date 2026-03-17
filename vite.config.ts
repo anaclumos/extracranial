@@ -45,10 +45,10 @@ export default defineConfig({
       router: {
         routesDirectory: "routes",
       },
+      pages: [{ path: "/000000" }],
       prerender: {
         enabled: true,
         crawlLinks: true,
-        routes: ["/000000"],
         concurrency: 16,
         failOnError: false,
         maxRedirects: 5,

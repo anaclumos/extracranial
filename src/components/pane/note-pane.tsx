@@ -2,14 +2,8 @@
 
 import { Cancel01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import { AnimatePresence, motion } from "motion/react";
 import { type CSSProperties, memo, useCallback } from "react";
 import { useTranslations } from "@/i18n/provider";
-import {
-  closeButtonVariants,
-  paneVariants,
-  spineVariants,
-} from "@/lib/animations";
 import type { BacklinkInfo, NotePaneData } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { PaneBody } from "./pane-body";
@@ -17,7 +11,6 @@ import {
   useIsPaneCollapsed,
   usePaneCollapseScrollTo,
   usePaneRef,
-  usePaneTransitions,
 } from "./pane-collapse-context";
 import { PaneSpine } from "./pane-spine";
 
@@ -50,8 +43,6 @@ export const NotePane = memo(function NotePane({
 }: NotePaneProps) {
   const isCollapsed = useIsPaneCollapsed(index);
   const scrollToPane = usePaneCollapseScrollTo();
-  const { transition, quickTransition, prefersReducedMotion } =
-    usePaneTransitions();
   const t = useTranslations("notePane");
   const paneRef = usePaneRef(index);
 
@@ -72,8 +63,7 @@ export const NotePane = memo(function NotePane({
   }, [onClose, index]);
 
   return (
-    <motion.article
-      animate="animate"
+    <article
       aria-label={title}
       className={cn(
         "h-full w-full flex-shrink-0 overflow-hidden md:w-1/3 md:min-w-pane-min md:max-w-3xl",
@@ -83,9 +73,6 @@ export const NotePane = memo(function NotePane({
       )}
       data-index={index}
       data-pane
-      exit="exit"
-      initial={prefersReducedMotion ? false : "initial"}
-      layout="position"
       ref={paneRef}
       style={
         {
@@ -94,41 +81,25 @@ export const NotePane = memo(function NotePane({
         } as CSSProperties
       }
       tabIndex={-1}
-      transition={transition}
-      variants={paneVariants}
     >
-      <AnimatePresence>
-        {isCollapsed && (
-          <motion.div
-            animate="visible"
-            className="absolute inset-0 z-10 cursor-pointer"
-            exit="hidden"
-            initial="hidden"
-            key="spine"
-            onClick={handleExpand}
-            transition={quickTransition}
-            variants={spineVariants}
-          >
-            <PaneSpine
-              description={description}
-              excerpt={excerpt}
-              index={index}
-              showIndex
-              title={title}
-            />
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {isCollapsed && (
+        <div className="absolute inset-0 z-10 cursor-pointer" onClick={handleExpand}>
+          <PaneSpine
+            description={description}
+            excerpt={excerpt}
+            index={index}
+            showIndex
+            title={title}
+          />
+        </div>
+      )}
 
       <div
         className={cn(
           "absolute top-0 bottom-0 left-0 h-full w-full",
-          "transition-all duration-200",
-          prefersReducedMotion
-            ? "transition-none"
-            : isCollapsed
-              ? "translate-x-[var(--pane-spine-width)] opacity-40"
-              : "translate-x-0 opacity-100"
+          isCollapsed
+            ? "translate-x-[var(--pane-spine-width)] opacity-40"
+            : "translate-x-0 opacity-100"
         )}
       >
         {isCollapsed && (
@@ -154,32 +125,25 @@ export const NotePane = memo(function NotePane({
           title={title}
         />
 
-        <AnimatePresence>
-          {!isCollapsed && isClosable && (
-            <motion.button
-              animate="animate"
-              aria-label={t("closeNote", { title })}
-              className={cn(
-                "absolute top-4 right-4 z-overlay",
-                "flex size-8 items-center justify-center rounded-full",
-                "bg-transparent text-muted-foreground transition-colors hover:bg-muted",
-                "cursor-pointer"
-              )}
-              exit="exit"
-              initial="initial"
-              onClick={(event) => {
-                event.stopPropagation();
-                handleClose();
-              }}
-              transition={quickTransition}
-              type="button"
-              variants={closeButtonVariants}
-            >
-              <HugeiconsIcon icon={Cancel01Icon} size={20} strokeWidth={1.5} />
-            </motion.button>
-          )}
-        </AnimatePresence>
+        {!isCollapsed && isClosable && (
+          <button
+            aria-label={t("closeNote", { title })}
+            className={cn(
+              "absolute top-4 right-4 z-overlay",
+              "flex size-8 items-center justify-center rounded-full",
+              "bg-transparent text-muted-foreground hover:bg-muted",
+              "cursor-pointer"
+            )}
+            onClick={(event) => {
+              event.stopPropagation();
+              handleClose();
+            }}
+            type="button"
+          >
+            <HugeiconsIcon icon={Cancel01Icon} size={20} strokeWidth={1.5} />
+          </button>
+        )}
       </div>
-    </motion.article>
+    </article>
   );
 });

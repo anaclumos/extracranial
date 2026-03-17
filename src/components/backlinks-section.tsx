@@ -64,7 +64,7 @@ const BacklinkItem = memo(function BacklinkItem({
       <button
         className={cn(
           "-mx-1 w-full rounded-md px-1 py-2.5 text-left",
-          "transition-colors hover:bg-muted/50",
+          "hover:bg-muted/50",
           "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         )}
         onClick={handleClick}

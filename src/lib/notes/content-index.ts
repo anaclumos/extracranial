@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
-import type { NoteKind } from "@/lib/types";
+import type { NoteKind, NoteLanguage } from "@/lib/types";
 import { normalizeNoteSlug } from "../note-links";
 
 export interface SourceNoteBase {
@@ -18,6 +18,7 @@ export interface SourceNote extends SourceNoteBase {
   editUrl?: string;
   filePath: string;
   kind: NoteKind;
+  language: NoteLanguage;
   lastModified?: number;
   title: string;
 }
@@ -30,6 +31,7 @@ const MARKDOWN_EXTENSIONS = new Set([".md", ".mdx"]);
 const MARKDOWN_SUFFIX_RE = /\.(md|mdx)$/i;
 const SKIPPED_DIRECTORIES = new Set([".obsidian", "assets", "templates"]);
 const GENERIC_BASENAMES = new Set(["en", "index", "ko"]);
+const HANGUL_RE = /[\u3131-\u318E\uAC00-\uD7A3]/;
 
 interface ContentIndex {
   notesBySlug: Map<string, SourceNote>;
@@ -71,6 +73,22 @@ function inferKind(filePath: string): NoteKind {
   }
 
   return "research";
+}
+
+function inferLanguage(
+  filePath: string,
+  title: string,
+  content: string
+): NoteLanguage {
+  const baseName = path
+    .basename(filePath, path.extname(filePath))
+    .toLowerCase();
+
+  if (baseName === "en" || baseName === "ko") {
+    return baseName;
+  }
+
+  return HANGUL_RE.test(`${title}\n${content}`) ? "ko" : "en";
 }
 
 function buildEditUrl(filePath: string): string | undefined {
@@ -146,6 +164,11 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     return null;
   }
 
+  const title =
+    typeof data.title === "string" && data.title.trim()
+      ? data.title
+      : path.basename(filePath, path.extname(filePath));
+
   return {
     aliases: parseAliases(data.aliases),
     content,
@@ -158,11 +181,9 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     kind: inferKind(filePath),
     lastModified:
       parseTimestamp(data.last_modified) ?? parseTimestamp(data.updatedAt),
+    language: inferLanguage(filePath, title, content),
     slug,
-    title:
-      typeof data.title === "string" && data.title.trim()
-        ? data.title
-        : path.basename(filePath, path.extname(filePath)),
+    title,
   };
 }
 
@@ -223,11 +244,15 @@ async function buildContentIndex(): Promise<ContentIndex> {
     }
 
     if ((i + BATCH) % 512 === 0 || i + BATCH >= allFiles.length) {
-      console.log(`[content-index] Indexed ${Math.min(i + BATCH, allFiles.length)}/${allFiles.length} files (${notesBySlug.size} notes)`);
+      console.log(
+        `[content-index] Indexed ${Math.min(i + BATCH, allFiles.length)}/${allFiles.length} files (${notesBySlug.size} notes)`
+      );
     }
   }
 
-  console.log(`[content-index] Complete: ${notesBySlug.size} notes, ${titleLookup.size} lookup entries`);
+  console.log(
+    `[content-index] Complete: ${notesBySlug.size} notes, ${titleLookup.size} lookup entries`
+  );
   return { notesBySlug, titleLookup };
 }
 
@@ -236,7 +261,9 @@ export function getContentIndex(): Promise<ContentIndex> {
     const start = performance.now();
     contentIndexCache = buildContentIndex()
       .then((index) => {
-        console.log(`[content-index] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`);
+        console.log(
+          `[content-index] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`
+        );
         return index;
       })
       .catch((error: unknown) => {
@@ -305,4 +332,3 @@ export async function resolveLookupSlug(
   const withoutExtension = trimmed.replace(MARKDOWN_SUFFIX_RE, "");
   return titleLookup.get(normalizeLookupKey(withoutExtension)) ?? null;
 }
-

@@ -33,7 +33,7 @@ export const NoteItem = memo(function NoteItem({
       <a href={buildNoteHref(note.slug)} onClick={handleClick}>
         <span
           className={cn(
-            "flex items-center gap-3 rounded-md px-3 py-2 text-sm transition-all duration-150",
+            "flex items-center gap-3 rounded-md px-3 py-2 text-sm",
             "hover:bg-muted/50 dark:hover:bg-white/5",
             isInStack
               ? "bg-primary/5 text-foreground dark:bg-white/5"

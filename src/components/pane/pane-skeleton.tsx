@@ -5,7 +5,6 @@ function ShimmerLine({ className }: { className?: string }) {
     <div
       className={cn(
         "rounded bg-muted-foreground/8 dark:bg-muted-foreground/12",
-        "animate-pulse",
         className
       )}
     />

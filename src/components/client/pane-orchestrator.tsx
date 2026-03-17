@@ -1,24 +1,34 @@
 "use client";
 
-import { AnimatePresence } from "motion/react";
 import { memo, useCallback, useMemo } from "react";
 import { AllNotesList } from "@/components/notes-list/all-notes-list";
 import { NotePane } from "@/components/pane/note-pane";
-import { PaneSkeleton } from "@/components/pane/pane-skeleton";
 import { resolvePanesFromStack } from "@/lib/stores/stack-utils";
-import type { NotePaneData, NoteSummary } from "@/lib/types";
+import type {
+  NoteLanguageFilter,
+  NotePaneData,
+  NoteSummary,
+} from "@/lib/types";
 import { useNoteStackContext } from "./note-stack-provider";
 
 interface PaneOrchestratorProps {
+  isBlogOnly: boolean;
+  languageFilter: NoteLanguageFilter;
   noteSummaries: NoteSummary[];
+  onBlogOnlyChange: (nextValue: boolean) => void;
+  onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   paneNotes: NotePaneData[];
 }
 
 export const PaneOrchestrator = memo(function PaneOrchestrator({
+  isBlogOnly,
+  languageFilter,
   paneNotes,
   noteSummaries,
+  onBlogOnlyChange,
+  onLanguageFilterChange,
 }: PaneOrchestratorProps) {
-  const { stack, focusIndex, isPending, pushNote, focusPane, removePane } =
+  const { stack, focusIndex, pushNote, focusPane, removePane } =
     useNoteStackContext();
 
   const panesData = useMemo(
@@ -53,7 +63,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   );
 
   return (
-    <AnimatePresence initial={false} mode="popLayout">
+    <>
       {paneEntries.map(({ pane, renderKey }, index) => (
         <NotePane
           backlinks={pane.backlinks}
@@ -70,15 +80,18 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
           title={pane.title}
         />
       ))}
-      {isPending && <PaneSkeleton key="pending-skeleton" />}
       <AllNotesList
         currentStack={stack}
         index={paneEntries.length}
+        isBlogOnly={isBlogOnly}
         key="all-notes-list"
+        languageFilter={languageFilter}
         notes={noteSummaries}
+        onBlogOnlyChange={onBlogOnlyChange}
         onExpand={focusPane}
+        onLanguageFilterChange={onLanguageFilterChange}
         onNoteClick={handleNoteListClick}
       />
-    </AnimatePresence>
+    </>
   );
 });

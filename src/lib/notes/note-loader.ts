@@ -1,4 +1,8 @@
-import type { Note, NoteGraphNode, SerializedNoteContent } from "@/lib/types";
+import type {
+  Note,
+  NoteGraphNode,
+  SerializedNoteContent,
+} from "@/lib/types";
 import {
   getAllNoteSlugs,
   getContentIndex,
@@ -60,6 +64,7 @@ async function loadNoteUncached(slug: string): Promise<Note | null> {
     editUrl: sourceNote.editUrl,
     kind: sourceNote.kind,
     lastModified: sourceNote.lastModified,
+    language: sourceNote.language,
     content,
     serializedContent,
     excerpt,
@@ -102,6 +107,7 @@ async function loadNoteGraphNodeUncached(
     editUrl: sourceNote.editUrl,
     kind: sourceNote.kind,
     lastModified: sourceNote.lastModified,
+    language: sourceNote.language,
     content: sourceNote.content,
     outboundLinks,
     title: sourceNote.title || slug,
@@ -113,6 +119,8 @@ export async function loadAllNoteGraphNodes(): Promise<NoteGraphNode[]> {
   console.log(`[note-loader] Loading graph nodes for ${slugs.length} slugs...`);
   const notes = await Promise.all(slugs.map((slug) => loadNoteGraphNode(slug)));
   const valid = notes.filter((note): note is NoteGraphNode => note !== null);
-  console.log(`[note-loader] Loaded ${valid.length}/${slugs.length} graph nodes`);
+  console.log(
+    `[note-loader] Loaded ${valid.length}/${slugs.length} graph nodes`
+  );
   return valid;
 }

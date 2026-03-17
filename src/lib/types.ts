@@ -1,4 +1,6 @@
 export type NoteKind = "blog" | "journal" | "research";
+export type NoteLanguage = "en" | "ko";
+export type NoteLanguageFilter = NoteLanguage | "all";
 export type SerializedNoteContent = string;
 
 interface NoteMeta {
@@ -6,6 +8,7 @@ interface NoteMeta {
   description?: string;
   editUrl?: string;
   kind: NoteKind;
+  language: NoteLanguage;
   lastModified?: number;
   slug: string;
   title: string;
@@ -35,6 +38,7 @@ export interface NoteSummary {
   description?: string;
   excerpt?: string;
   kind: NoteKind;
+  language: NoteLanguage;
   lastModified?: number;
   slug: string;
   title: string;
