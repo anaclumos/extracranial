@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "973d04f97157c39c",
+        "id": "87e6a6cb5e0a66aa",
         "type": "tabs",
         "children": [
           {
-            "id": "aed361392c46d78e",
+            "id": "dba23922881ba512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/CSS Inject.md",
+                "file": "journals/2026-03-18.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CSS Inject"
+              "title": "2026-03-18"
+            }
+          },
+          {
+            "id": "bc2183ebaf7183a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journals/2026-03-18.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-03-18"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,8 +209,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aed361392c46d78e",
+  "active": "bc2183ebaf7183a3",
   "lastOpenFiles": [
+    "pages/Siri sent my 'ideal type list' to my Ex.md",
+    "journals/2026-03-18.md",
+    "pages/add-mcp.md",
     "pages/CSS Inject.md",
     "pages/macOS.md",
     "journals/2026-03-12.md",
@@ -210,9 +238,6 @@
     "pages/Biome.md",
     "pages/Painterly Illustration Design Trend (2024).md",
     "pages/PlanetScale DB 하나로 수많은 프로젝트 호스팅.md",
-    "pages/iOS App Icon Design.md",
-    "pages/Design Trend.md",
-    "pages/성현산스.md",
     "Untitled.canvas",
     "assets/315C50.png",
     "assets/Pasted image 20260124231256.png",

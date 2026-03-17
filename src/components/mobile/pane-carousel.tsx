@@ -11,7 +11,7 @@ import {
   useMotionValue,
   useTransform,
 } from "motion/react";
-import { memo, useCallback, useEffect, useRef } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef } from "react";
 import { BacklinksSection } from "@/components/backlinks-section";
 import { Logo } from "@/components/brand/logo";
 import { MdxNoteContent } from "@/components/content/mdx-components";
@@ -309,7 +309,7 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
   onBlogOnlyChange,
   onLanguageFilterChange,
   onLinkClick,
-  panes,
+  paneEntries,
   prefersReducedMotion,
   t,
   tPane,
@@ -326,7 +326,7 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
   onBlogOnlyChange: (nextValue: boolean) => void;
   onLanguageFilterChange: (nextValue: NoteLanguageFilter) => void;
   onLinkClick: (slug: string, fromIndex: number) => void;
-  panes: NotePaneData[];
+  paneEntries: Array<{ pane: NotePaneData; renderKey: string }>;
   prefersReducedMotion: boolean;
   t: ReturnType<typeof useTranslations>;
   tPane: ReturnType<typeof useTranslations>;
@@ -359,7 +359,7 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
       </div>
       <div className="flex h-10 w-full items-center justify-center px-4">
         <div className="flex h-10 items-end justify-center">
-          {panes.map((pane, index) => (
+          {paneEntries.map(({ pane }, index) => (
             <SliderNotch
               activeIndex={currentIndex}
               ariaLabel={t("goToNote", {
@@ -387,12 +387,12 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
       >
         <ul className="relative h-full w-full">
           <AnimatePresence initial={false} mode="sync">
-            {panes.map((pane, index) => (
+            {paneEntries.map(({ pane, renderKey }, index) => (
               <MobilePaneCardController
                 closeLabel={tPane("closeNote", { title: pane.title })}
                 index={index}
                 isClosable={index > 0}
-                key={`pane-${pane.slug}`}
+                key={renderKey}
                 onClose={onClose}
                 onLinkClick={onLinkClick}
                 pane={pane}
@@ -425,6 +425,19 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
   const isDragging = useRef(false);
   const dragStartIndex = useRef(focusIndex);
   const previousLength = useRef(panes.length);
+  const paneEntries = useMemo(() => {
+    const counts = new Map<string, number>();
+
+    return panes.map((pane) => {
+      const occurrence = (counts.get(pane.slug) ?? 0) + 1;
+      counts.set(pane.slug, occurrence);
+
+      return {
+        pane,
+        renderKey: `pane-${pane.slug}-${occurrence}`,
+      };
+    });
+  }, [panes]);
 
   const animateToIndex = useCallback(
     (index: number) => {
@@ -506,7 +519,7 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
       onClose={onClose}
       onLanguageFilterChange={onLanguageFilterChange}
       onLinkClick={onLinkClick}
-      panes={panes}
+      paneEntries={paneEntries}
       prefersReducedMotion={prefersReducedMotion}
       t={t}
       tPane={tPane}

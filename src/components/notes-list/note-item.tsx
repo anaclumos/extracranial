@@ -6,7 +6,7 @@ import type { NoteSummary } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 interface NoteItemProps {
-  currentlyOpenLabel: (position: number) => string;
+  currentlyOpenLabel?: string;
   note: NoteSummary;
   onNoteClick: (slug: string, stackPosition?: number) => void;
   stackPosition?: number;
@@ -52,11 +52,8 @@ export const NoteItem = memo(function NoteItem({
             {isInStack ? String(stackPosition + 1).padStart(2, "0") : "-"}
           </span>
           <span className="truncate">{note.title}</span>
-          {isInStack && (
-            <span className="sr-only">
-              {" "}
-              ({currentlyOpenLabel(stackPosition + 1)})
-            </span>
+          {currentlyOpenLabel && (
+            <span className="sr-only"> ({currentlyOpenLabel})</span>
           )}
         </span>
       </a>

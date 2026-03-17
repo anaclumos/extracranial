@@ -1,6 +1,12 @@
 "use client";
 
-import { type ReactNode, useCallback, useEffect, useLayoutEffect, useRef } from "react";
+import {
+  type ReactNode,
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+} from "react";
 import { cn } from "@/lib/utils";
 import {
   resetPaneCollapseStore,
@@ -13,12 +19,14 @@ interface DesktopContainerProps {
   children: ReactNode;
   className?: string;
   focusIndex: number;
+  paneCount: number;
 }
 
 export function DesktopContainer({
   className,
   children,
   focusIndex,
+  paneCount,
 }: DesktopContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const paneRefs = useRef(new Map<number, HTMLElement>());
@@ -227,9 +235,13 @@ export function DesktopContainer({
   }, [scheduleCollapsedIndicesUpdate]);
 
   useLayoutEffect(() => {
+    if (paneCount < 1) {
+      return;
+    }
+
     updateCollapseThreshold();
     updateCollapsedIndices();
-  });
+  }, [paneCount, updateCollapseThreshold, updateCollapsedIndices]);
 
   return (
     <div

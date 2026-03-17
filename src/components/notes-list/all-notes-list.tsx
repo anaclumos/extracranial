@@ -79,11 +79,6 @@ export const AllNotesList = memo(function AllNotesList({
     scrollToPane(index);
   }, [index, onExpand, scrollToPane]);
 
-  const getCurrentlyOpenLabel = useCallback(
-    (pos: number) => t("currentlyOpen", { position: pos }),
-    [t]
-  );
-
   return (
     <aside
       className="group/allnotes relative sticky left-0 h-full w-full flex-shrink-0 overflow-hidden border-border border-x bg-background md:w-1/3 md:min-w-pane-min md:max-w-3xl"
@@ -157,15 +152,23 @@ export const AllNotesList = memo(function AllNotesList({
           </div>
           <div className="px-8 py-6">
             <ul className="space-y-1">
-              {filteredNotes.map((note) => (
-                <NoteItem
-                  currentlyOpenLabel={getCurrentlyOpenLabel}
-                  key={note.slug}
-                  note={note}
-                  onNoteClick={onNoteClick}
-                  stackPosition={stackIndexBySlug.get(note.slug)}
-                />
-              ))}
+              {filteredNotes.map((note) => {
+                const stackPosition = stackIndexBySlug.get(note.slug);
+
+                return (
+                  <NoteItem
+                    currentlyOpenLabel={
+                      typeof stackPosition === "number"
+                        ? t("currentlyOpen", { position: stackPosition + 1 })
+                        : undefined
+                    }
+                    key={note.slug}
+                    note={note}
+                    onNoteClick={onNoteClick}
+                    stackPosition={stackPosition}
+                  />
+                );
+              })}
             </ul>
           </div>
         </ScrollArea>

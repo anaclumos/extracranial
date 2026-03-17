@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { lazy, Suspense } from "react";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
@@ -9,11 +9,7 @@ const MagneticCursor = lazy(() =>
 export function MagneticCursorLazy() {
   const prefersReducedMotion = useReducedMotion();
   const isFinePointer = useMediaQuery("(pointer: fine)");
-  const [isEnabled, setIsEnabled] = useState(false);
-
-  useEffect(() => {
-    setIsEnabled(!prefersReducedMotion && isFinePointer);
-  }, [prefersReducedMotion, isFinePointer]);
+  const isEnabled = !prefersReducedMotion && isFinePointer;
 
   if (!isEnabled) {
     return null;

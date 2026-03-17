@@ -88,21 +88,27 @@ function formatMessage(template: string, values?: TranslationValues): string {
   });
 }
 
+const translate: TranslationFunction = (key, values) => {
+  const message = getNestedMessage(messages, key);
+
+  if (typeof message !== "string") {
+    return key;
+  }
+
+  return formatMessage(message, values);
+};
+
+const i18nContextValue: I18nContextValue = {
+  messages,
+  t: translate,
+};
+
 export function I18nProvider({ children }: Readonly<{ children: ReactNode }>) {
-  const value: I18nContextValue = {
-    messages,
-    t: (key, values) => {
-      const message = getNestedMessage(messages, key);
-
-      if (typeof message !== "string") {
-        return key;
-      }
-
-      return formatMessage(message, values);
-    },
-  };
-
-  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
+  return (
+    <I18nContext.Provider value={i18nContextValue}>
+      {children}
+    </I18nContext.Provider>
+  );
 }
 
 function useI18nContext() {

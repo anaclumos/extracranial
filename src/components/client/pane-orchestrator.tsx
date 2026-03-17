@@ -28,7 +28,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   onBlogOnlyChange,
   onLanguageFilterChange,
 }: PaneOrchestratorProps) {
-  const { stack, focusIndex, pushNote, focusPane, removePane } =
+  const { stack, pushNote, pushFocusedNote, focusPane, removePane } =
     useNoteStackContext();
 
   const panesData = useMemo(
@@ -57,9 +57,9 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
         return;
       }
 
-      pushNote(slug, focusIndex);
+      pushFocusedNote(slug);
     },
-    [focusIndex, focusPane, pushNote]
+    [focusPane, pushFocusedNote]
   );
 
   return (
