@@ -25,23 +25,43 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: oven-sh/setup-bun@v2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
 
-      - run: bun install --frozen-lockfile
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
 
-      - run: bun run build
+      - run: pnpm install --frozen-lockfile
+
+      - run: pnpm run build
+
+      - name: Resolve Pages artifact path
+        id: pages_artifact
+        run: |
+          if [ -d .output/public ]; then
+            echo "path=.output/public" >> "$GITHUB_OUTPUT"
+          elif [ -d dist/client ]; then
+            echo "path=dist/client" >> "$GITHUB_OUTPUT"
+          else
+            echo "No Pages artifact path found after build." >&2
+            echo "Checked: .output/public and dist/client" >&2
+            exit 1
+          fi
 
       - name: Add .nojekyll
-        run: touch dist/client/.nojekyll
+        run: touch "${{ steps.pages_artifact.outputs.path }}/.nojekyll"
 
       - name: Add CNAME
-        run: echo 'cho.sh' > dist/client/CNAME
+        run: printf 'cho.sh\n' > "${{ steps.pages_artifact.outputs.path }}/CNAME"
 
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist/client
+          path: ${{ steps.pages_artifact.outputs.path }}
 
   deploy:
     needs: build
