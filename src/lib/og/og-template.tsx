@@ -40,11 +40,7 @@ function OGSymbol() {
   );
 }
 
-export function OGTemplate({
-  title,
-  description,
-  fontFamily,
-}: OGTemplateProps) {
+export function OGTemplate({ title, description, fontFamily }: OGTemplateProps) {
   return (
     <div style={{ ...containerStyles, fontFamily }}>
       <div style={borderStyles}>
@@ -60,9 +56,7 @@ export function OGTemplate({
           <h1 style={titleStyles}>{title}</h1>
           {description && (
             <p style={descriptionStyles}>
-              {description.length > 140
-                ? `${description.slice(0, 140)}...`
-                : description}
+              {description.length > 140 ? `${description.slice(0, 140)}...` : description}
             </p>
           )}
         </div>

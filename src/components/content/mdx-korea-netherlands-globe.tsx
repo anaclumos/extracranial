@@ -5,11 +5,7 @@ import { useResolvedShellTheme } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
 import styles from "./korea-netherlands-globe.module.css";
 
-export function KoreaNetherlandsGlobe({
-  lang = "en",
-}: {
-  lang?: "en" | "ko" | string;
-}) {
+export function KoreaNetherlandsGlobe({ lang = "en" }: { lang?: "en" | "ko" | string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const resolvedTheme = useResolvedShellTheme();
   const isDark = resolvedTheme === "dark";
@@ -38,10 +34,7 @@ export function KoreaNetherlandsGlobe({
       const clamp = (value: number, min: number, max: number) =>
         Math.min(Math.max(value, min), max);
 
-      const toAngles = (
-        latitude: number,
-        longitude: number
-      ): [number, number] => [
+      const toAngles = (latitude: number, longitude: number): [number, number] => [
         Math.PI - ((longitude * Math.PI) / 180 - Math.PI / 2),
         (latitude * Math.PI) / 180,
       ];
@@ -59,11 +52,7 @@ export function KoreaNetherlandsGlobe({
         const deltaY = event.clientY - startY;
         const safeWidth = width || 1;
         targetPhi = startPhi + (deltaX / safeWidth) * Math.PI * 2;
-        targetTheta = clamp(
-          startTheta + (deltaY / safeWidth) * Math.PI,
-          -Math.PI / 2,
-          Math.PI / 2
-        );
+        targetTheta = clamp(startTheta + (deltaY / safeWidth) * Math.PI, -Math.PI / 2, Math.PI / 2);
       };
 
       const handlePointerUp = () => {
@@ -141,10 +130,7 @@ export function KoreaNetherlandsGlobe({
       globeDestroy = () => {
         globe.destroy();
         window.removeEventListener("resize", onResize);
-        canvasRef.current?.removeEventListener(
-          "pointerdown",
-          handlePointerDown
-        );
+        canvasRef.current?.removeEventListener("pointerdown", handlePointerDown);
         canvasRef.current?.removeEventListener("pointermove", onPointerMove);
         canvasRef.current?.removeEventListener("pointerup", handlePointerUp);
         canvasRef.current?.removeEventListener("pointerleave", handlePointerUp);
@@ -171,8 +157,7 @@ export function KoreaNetherlandsGlobe({
   }, [isDark]);
 
   const labels = {
-    netherlands:
-      lang === "ko" ? "네덜란드 · 암스테르담" : "Netherlands · Amsterdam",
+    netherlands: lang === "ko" ? "네덜란드 · 암스테르담" : "Netherlands · Amsterdam",
     korea: lang === "ko" ? "대한민국 · 서울" : "South Korea · Seoul",
   };
 

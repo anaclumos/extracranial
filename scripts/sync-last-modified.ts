@@ -54,12 +54,7 @@ function parseBeforeArg() {
 }
 
 function getGitPathCandidates(relativePath: string) {
-  return Array.from(
-    new Set([
-      relativePath,
-      relativePath.replace(LIBRARY_PREFIX_RE, "Research/"),
-    ])
-  );
+  return Array.from(new Set([relativePath, relativePath.replace(LIBRARY_PREFIX_RE, "Research/")]));
 }
 
 function pickLastUpdatedFromLog(stdout: string): string | undefined {
@@ -100,24 +95,15 @@ function pickLastUpdatedFromLog(stdout: string): string | undefined {
 
 async function getLastUpdatedForRelativePath(
   relativePath: string,
-  before?: string
+  before?: string,
 ): Promise<string | undefined> {
   for (const candidate of getGitPathCandidates(relativePath)) {
-    const candidateRoot = GIT_HISTORY_ROOTS.find((root) =>
-      candidate.startsWith(`${root}/`)
-    );
+    const candidateRoot = GIT_HISTORY_ROOTS.find((root) => candidate.startsWith(`${root}/`));
     if (!candidateRoot) {
       continue;
     }
 
-    const args = [
-      "-C",
-      REPO_ROOT,
-      "log",
-      "--follow",
-      "--name-status",
-      "--format=__COMMIT__ %cs",
-    ];
+    const args = ["-C", REPO_ROOT, "log", "--follow", "--name-status", "--format=__COMMIT__ %cs"];
 
     if (before) {
       args.push(`--before=${before} 00:00:00`);
@@ -138,10 +124,7 @@ async function getLastUpdatedForRelativePath(
   return undefined;
 }
 
-function upsertLastModified(
-  source: string,
-  lastModified: string
-): string | null {
+function upsertLastModified(source: string, lastModified: string): string | null {
   const match = source.match(FRONTMATTER_RE);
   if (!match) {
     return null;
@@ -149,9 +132,7 @@ function upsertLastModified(
 
   const lineEnding = source.includes("\r\n") ? "\r\n" : "\n";
   const frontmatterLines = match[1].split(LINE_SPLIT_RE);
-  const existingIndex = frontmatterLines.findIndex((line) =>
-    LAST_MODIFIED_RE.test(line)
-  );
+  const existingIndex = frontmatterLines.findIndex((line) => LAST_MODIFIED_RE.test(line));
   const newLine = `last_modified: ${lastModified}`;
 
   if (existingIndex >= 0) {
@@ -164,9 +145,7 @@ function upsertLastModified(
   }
 
   const rest = source.slice(match[0].length);
-  const rebuiltFrontmatter = ["---", ...frontmatterLines, "---"].join(
-    lineEnding
-  );
+  const rebuiltFrontmatter = ["---", ...frontmatterLines, "---"].join(lineEnding);
 
   return `${rebuiltFrontmatter}${match[2]}${rest}`;
 }
@@ -174,7 +153,7 @@ function upsertLastModified(
 async function runWithConcurrency<T>(
   items: T[],
   concurrency: number,
-  worker: (item: T) => Promise<void>
+  worker: (item: T) => Promise<void>,
 ) {
   const queue = [...items];
 
@@ -187,7 +166,7 @@ async function runWithConcurrency<T>(
         }
         await worker(item);
       }
-    })
+    }),
   );
 }
 
@@ -200,10 +179,7 @@ async function main() {
 
   await runWithConcurrency(files, 12, async (filePath) => {
     const relativePath = path.relative(REPO_ROOT, filePath);
-    const lastModified = await getLastUpdatedForRelativePath(
-      relativePath,
-      before
-    );
+    const lastModified = await getLastUpdatedForRelativePath(relativePath, before);
 
     if (!lastModified) {
       skippedCount += 1;
@@ -222,7 +198,7 @@ async function main() {
   });
 
   console.log(
-    `Updated ${updatedCount} files with last_modified${before ? ` before ${before}` : ""}. Skipped ${skippedCount} files without git history.`
+    `Updated ${updatedCount} files with last_modified${before ? ` before ${before}` : ""}. Skipped ${skippedCount} files without git history.`,
   );
 }
 

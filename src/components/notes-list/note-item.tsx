@@ -25,7 +25,7 @@ export const NoteItem = memo(function NoteItem({
       e.preventDefault();
       onNoteClick(note.slug, stackPosition);
     },
-    [onNoteClick, note.slug, stackPosition]
+    [onNoteClick, note.slug, stackPosition],
   );
 
   return (
@@ -37,24 +37,20 @@ export const NoteItem = memo(function NoteItem({
             "hover:bg-muted/50 dark:hover:bg-white/5",
             isInStack
               ? "bg-primary/5 text-foreground dark:bg-white/5"
-              : "text-muted-foreground hover:text-foreground"
+              : "text-muted-foreground hover:text-foreground",
           )}
         >
           <span
             aria-hidden="true"
             className={cn(
               "w-6 flex-shrink-0 font-mono text-[10px] tabular-nums",
-              isInStack
-                ? "text-primary dark:text-white/70"
-                : "text-muted-foreground/30"
+              isInStack ? "text-primary dark:text-white/70" : "text-muted-foreground/30",
             )}
           >
             {isInStack ? String(stackPosition + 1).padStart(2, "0") : "-"}
           </span>
           <span className="truncate">{note.title}</span>
-          {currentlyOpenLabel && (
-            <span className="sr-only"> ({currentlyOpenLabel})</span>
-          )}
+          {currentlyOpenLabel && <span className="sr-only"> ({currentlyOpenLabel})</span>}
         </span>
       </a>
     </li>

@@ -116,9 +116,7 @@ async function copyLocalAssets(notes: NoteEntry[]) {
     }
 
     const assetFiles = entries.filter(
-      (entry) =>
-        entry.isFile() &&
-        ASSET_EXTENSIONS.has(path.extname(entry.name).toLowerCase())
+      (entry) => entry.isFile() && ASSET_EXTENSIONS.has(path.extname(entry.name).toLowerCase()),
     );
 
     if (assetFiles.length === 0) continue;
@@ -140,13 +138,13 @@ async function copyLocalAssets(notes: NoteEntry[]) {
     copiedSourceDirs += 1;
     if (copiedSourceDirs % 100 === 0) {
       console.log(
-        `  Copied assets from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories (${copiedFiles} files)`
+        `  Copied assets from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories (${copiedFiles} files)`,
       );
     }
   }
 
   console.log(
-    `  Local assets: ${copiedFiles} files from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories`
+    `  Local assets: ${copiedFiles} files from ${copiedSourceDirs} source directories into ${copiedSlugDirs} note directories`,
   );
 }
 
@@ -173,9 +171,7 @@ async function copySharedAssets() {
 async function generateOGImages(notes: NoteEntry[]) {
   await ensureDir(OG_DIR);
 
-  const { generateOGImage } = await import(
-    "../src/lib/og/og-generator"
-  );
+  const { generateOGImage } = await import("../src/lib/og/og-generator");
 
   let generated = 0;
   let skipped = 0;
@@ -214,12 +210,10 @@ async function generateOGImages(notes: NoteEntry[]) {
           console.error(`Failed to generate OG image for ${note.slug}:`, error);
         }
       }
-    })
+    }),
   );
 
-  console.log(
-    `OG images: ${generated} generated, ${skipped} skipped (already exist)`
-  );
+  console.log(`OG images: ${generated} generated, ${skipped} skipped (already exist)`);
 }
 
 async function main() {
@@ -229,7 +223,9 @@ async function main() {
   let stepStart = performance.now();
   console.log("Reading note entries...");
   const notes = await readNoteEntries();
-  console.log(`Found ${notes.length} notes (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`);
+  console.log(
+    `Found ${notes.length} notes (${((performance.now() - stepStart) / 1000).toFixed(1)}s)`,
+  );
 
   stepStart = performance.now();
   console.log("Copying local assets...");
@@ -250,7 +246,9 @@ async function main() {
     console.log("Skipping OG image generation (--skip-og)");
   }
 
-  console.log(`Static assets build complete in ${((performance.now() - totalStart) / 1000).toFixed(1)}s`);
+  console.log(
+    `Static assets build complete in ${((performance.now() - totalStart) / 1000).toFixed(1)}s`,
+  );
 }
 
 await main();

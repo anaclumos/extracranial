@@ -12,24 +12,15 @@ interface NoteStackProviderProps {
   rootSlug: string;
 }
 
-export function NoteStackProvider({
-  children,
-  rootSlug,
-}: NoteStackProviderProps) {
+export function NoteStackProvider({ children, rootSlug }: NoteStackProviderProps) {
   const stack = useNoteStack(rootSlug);
-  return (
-    <NoteStackContext.Provider value={stack}>
-      {children}
-    </NoteStackContext.Provider>
-  );
+  return <NoteStackContext.Provider value={stack}>{children}</NoteStackContext.Provider>;
 }
 
 export function useNoteStackContext() {
   const ctx = useContext(NoteStackContext);
   if (!ctx) {
-    throw new Error(
-      "useNoteStackContext must be used within NoteStackProvider"
-    );
+    throw new Error("useNoteStackContext must be used within NoteStackProvider");
   }
   return ctx;
 }

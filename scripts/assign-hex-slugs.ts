@@ -29,17 +29,13 @@ async function collectMarkdownFiles(root: string): Promise<string[]> {
   return files.concat(...subdirResults);
 }
 
-function collectExistingSlugs(
-  files: { path: string; content: string }[]
-): Set<string> {
+function collectExistingSlugs(files: { path: string; content: string }[]): Set<string> {
   const slugs = new Set<string>();
   for (const file of files) {
     const match = file.content.match(FRONTMATTER_RE);
     if (!match) continue;
     const frontmatter = match[1];
-    const slugLine = frontmatter
-      .split("\n")
-      .find((l) => l.startsWith("slug:"));
+    const slugLine = frontmatter.split("\n").find((l) => l.startsWith("slug:"));
     if (!slugLine) continue;
     const slug = slugLine
       .replace(/^slug:\s*/, "")
@@ -69,7 +65,7 @@ async function main() {
     allPaths.map(async (p) => ({
       path: p,
       content: await fs.readFile(p, "utf8"),
-    }))
+    })),
   );
 
   const existingSlugs = collectExistingSlugs(allFiles);

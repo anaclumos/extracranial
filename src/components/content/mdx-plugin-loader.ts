@@ -5,19 +5,15 @@ import { math } from "@streamdown/math";
 import { startTransition, useEffect, useMemo, useState } from "react";
 import type { PluginConfig } from "streamdown";
 
-const codeFenceWithLanguageRe =
-  /(^|\n)```(?!mermaid\b)([A-Za-z0-9_+.-]+)(?:\s|$)/m;
+const codeFenceWithLanguageRe = /(^|\n)```(?!mermaid\b)([A-Za-z0-9_+.-]+)(?:\s|$)/m;
 const mermaidFenceRe = /(^|\n)```mermaid(?:\s|$)/m;
 
 let codePluginPromise: Promise<NonNullable<PluginConfig["code"]>> | null = null;
-let mermaidPluginPromise: Promise<NonNullable<PluginConfig["mermaid"]>> | null =
-  null;
+let mermaidPluginPromise: Promise<NonNullable<PluginConfig["mermaid"]>> | null = null;
 
 function loadCodePlugin() {
   if (!codePluginPromise) {
-    codePluginPromise = import("@/lib/streamdown/code-plugin").then(
-      (module) => module.codePlugin
-    );
+    codePluginPromise = import("@/lib/streamdown/code-plugin").then((module) => module.codePlugin);
   }
 
   return codePluginPromise;
@@ -26,7 +22,7 @@ function loadCodePlugin() {
 function loadMermaidPlugin() {
   if (!mermaidPluginPromise) {
     mermaidPluginPromise = import("@/lib/streamdown/mermaid-plugin").then(
-      (module) => module.mermaidPlugin
+      (module) => module.mermaidPlugin,
     );
   }
 
@@ -41,31 +37,28 @@ function getOptionalPluginNeeds(source: string) {
 }
 
 export function useStreamdownPlugins(source: string): PluginConfig {
-  const [optionalPlugins, setOptionalPlugins] = useState<
-    Pick<PluginConfig, "code" | "mermaid">
-  >({});
+  const [optionalPlugins, setOptionalPlugins] = useState<Pick<PluginConfig, "code" | "mermaid">>(
+    {},
+  );
 
   const { needsCodePlugin, needsMermaidPlugin } = useMemo(
     () => getOptionalPluginNeeds(source),
-    [source]
+    [source],
   );
 
   useEffect(() => {
     let cancelled = false;
-    const loaders: Promise<Partial<Pick<PluginConfig, "code" | "mermaid">>>[] =
-      [];
+    const loaders: Promise<Partial<Pick<PluginConfig, "code" | "mermaid">>>[] = [];
 
     if (needsCodePlugin && !optionalPlugins.code) {
-      loaders.push(
-        loadCodePlugin().then((codePlugin) => ({ code: codePlugin }))
-      );
+      loaders.push(loadCodePlugin().then((codePlugin) => ({ code: codePlugin })));
     }
 
     if (needsMermaidPlugin && !optionalPlugins.mermaid) {
       loaders.push(
         loadMermaidPlugin().then((mermaidPlugin) => ({
           mermaid: mermaidPlugin,
-        }))
+        })),
       );
     }
 
@@ -89,12 +82,7 @@ export function useStreamdownPlugins(source: string): PluginConfig {
     return () => {
       cancelled = true;
     };
-  }, [
-    needsCodePlugin,
-    needsMermaidPlugin,
-    optionalPlugins.code,
-    optionalPlugins.mermaid,
-  ]);
+  }, [needsCodePlugin, needsMermaidPlugin, optionalPlugins.code, optionalPlugins.mermaid]);
 
   return useMemo(() => {
     const plugins: PluginConfig = { cjk, math };
@@ -108,10 +96,5 @@ export function useStreamdownPlugins(source: string): PluginConfig {
     }
 
     return plugins;
-  }, [
-    needsCodePlugin,
-    needsMermaidPlugin,
-    optionalPlugins.code,
-    optionalPlugins.mermaid,
-  ]);
+  }, [needsCodePlugin, needsMermaidPlugin, optionalPlugins.code, optionalPlugins.mermaid]);
 }

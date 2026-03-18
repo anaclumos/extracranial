@@ -35,11 +35,7 @@
   --info-foreground: var(--color-blue-700);
   --input: --alpha(var(--color-black) / 10%);
   --muted: --alpha(var(--color-black) / 4%);
-  --muted-foreground: color-mix(
-    in srgb,
-    var(--color-neutral-500) 90%,
-    var(--color-black)
-  );
+  --muted-foreground: color-mix(in srgb, var(--color-neutral-500) 90%, var(--color-black));
   --popover: var(--color-white);
   --popover-foreground: var(--color-neutral-800);
   --primary: var(--color-neutral-800);
@@ -72,12 +68,10 @@
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
   --font-sans:
-    "Sunghyun Sans KR Hanja", ui-sans-serif, -apple-system, BlinkMacSystemFont,
-    "SF Pro", "Segoe UI", Roboto, "Pretendard Variable", Pretendard,
-    "Pretendard JP", sans-serif;
+    "Sunghyun Sans KR Hanja", ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro",
+    "Segoe UI", Roboto, "Pretendard Variable", Pretendard, "Pretendard JP", sans-serif;
   --font-heading: var(--font-sans);
-  --font-mono:
-    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --color-warning-foreground: var(--warning-foreground);
   --color-warning: var(--warning);
   --color-success-foreground: var(--success-foreground);
@@ -122,11 +116,7 @@ body {
   --border: --alpha(var(--color-white) / 10%);
   --card: #0a0a0a;
   --card-foreground: var(--color-neutral-100);
-  --destructive: color-mix(
-    in srgb,
-    var(--color-red-500) 90%,
-    var(--color-white)
-  );
+  --destructive: color-mix(in srgb, var(--color-red-500) 90%, var(--color-white));
   --destructive-foreground: var(--color-red-400);
   --foreground: var(--color-neutral-100);
   --info: var(--color-blue-500);

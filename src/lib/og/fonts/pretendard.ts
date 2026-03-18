@@ -1,5 +1,4 @@
-const PRETENDARD_CDN =
-  "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff";
+const PRETENDARD_CDN = "https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/static/woff";
 
 export const PRETENDARD_REGULAR_URL = `${PRETENDARD_CDN}/Pretendard-Regular.woff`;
 

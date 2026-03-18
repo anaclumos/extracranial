@@ -35,12 +35,7 @@ export function useKeyboardNavigation({
   const maxFocusIndex = maxFocusIndexProp ?? stackLength;
 
   const handleKeyDown = useEffectEvent((event: KeyboardEvent) => {
-    if (
-      event.defaultPrevented ||
-      event.metaKey ||
-      event.ctrlKey ||
-      event.altKey
-    ) {
+    if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey) {
       return;
     }
 

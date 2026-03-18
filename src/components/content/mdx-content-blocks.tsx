@@ -1,12 +1,7 @@
 import type * as React from "react";
 import { cn } from "@/lib/utils";
 
-const ADMONITION_TITLE_WRAPPER_RES = [
-  /^\*\*(.+)\*\*$/s,
-  /^__(.+)__$/s,
-  /^\*(.+)\*$/s,
-  /^_(.+)_$/s,
-];
+const ADMONITION_TITLE_WRAPPER_RES = [/^\*\*(.+)\*\*$/s, /^__(.+)__$/s, /^\*(.+)\*$/s, /^_(.+)_$/s];
 
 function formatAdmonitionTitle(title?: string): string | undefined {
   if (!title) {
@@ -48,15 +43,13 @@ export function Admonition({
 }) {
   const toneClassName =
     {
-      caution:
-        "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
+      caution: "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
       danger:
         "border-destructive/25 bg-destructive/6 text-destructive-foreground dark:bg-destructive/12",
       info: "border-info/25 bg-info/6 text-info-foreground dark:bg-info/12",
       note: "border-border bg-muted/50 text-foreground dark:bg-muted/30",
       tip: "border-success/25 bg-success/6 text-success-foreground dark:bg-success/12",
-      warning:
-        "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
+      warning: "border-warning/25 bg-warning/6 text-warning-foreground dark:bg-warning/12",
     }[type] ?? "border-border bg-muted/50 text-foreground";
   const formattedTitle = formatAdmonitionTitle(title);
 
@@ -68,9 +61,7 @@ export function Admonition({
           {formattedTitle && <span>{formattedTitle}</span>}
         </header>
       )}
-      <div className="text-sm/7">
-        {renderMarkdown ? renderMarkdown(children) : children}
-      </div>
+      <div className="text-sm/7">{renderMarkdown ? renderMarkdown(children) : children}</div>
     </aside>
   );
 }
@@ -79,13 +70,7 @@ export function DisplayFlex({ children }: { children: React.ReactNode }) {
   return <div className="my-4 flex gap-4 overflow-x-auto">{children}</div>;
 }
 
-export function YouTube({
-  id,
-  title = "YouTube video player",
-}: {
-  id?: string;
-  title?: string;
-}) {
+export function YouTube({ id, title = "YouTube video player" }: { id?: string; title?: string }) {
   if (!id) {
     return null;
   }
@@ -157,10 +142,7 @@ export function WIP({ state }: { state?: "translating" | string }) {
     <Admonition icon="💬" title="Work in Progress" type="info">
       {!state && <p>Work in progress. Check back later.</p>}
       {state === "translating" && (
-        <p>
-          This note exists in another language, but this translation is not done
-          yet.
-        </p>
+        <p>This note exists in another language, but this translation is not done yet.</p>
       )}
     </Admonition>
   );

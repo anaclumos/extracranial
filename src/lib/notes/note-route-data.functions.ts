@@ -11,9 +11,7 @@ export const getAllNoteSummaries = createServerFn({ method: "GET" })
 
 export const getNotePaneData = createServerFn({ method: "GET" })
   .middleware([staticFunctionMiddleware])
-  .inputValidator((input: unknown) =>
-    z.object({ slug: z.string().trim().min(1) }).parse(input)
-  )
+  .inputValidator((input: unknown) => z.object({ slug: z.string().trim().min(1) }).parse(input))
   .handler(async ({ data }) => {
     const { getNotePaneDataBySlug } = await import("./note-route-data");
     return getNotePaneDataBySlug(data.slug);
@@ -21,9 +19,7 @@ export const getNotePaneData = createServerFn({ method: "GET" })
 
 export const checkNoteExists = createServerFn({ method: "GET" })
   .middleware([staticFunctionMiddleware])
-  .inputValidator((input: unknown) =>
-    z.object({ slug: z.string().trim().min(1) }).parse(input)
-  )
+  .inputValidator((input: unknown) => z.object({ slug: z.string().trim().min(1) }).parse(input))
   .handler(async ({ data }) => {
     const { noteExists } = await import("./note-route-data");
     return noteExists(data.slug);

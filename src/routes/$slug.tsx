@@ -4,10 +4,7 @@ import {
   getAllNoteSummaries,
   getNotePaneData,
 } from "@/lib/notes/note-route-data.functions";
-import {
-  parseNoteStackSearch,
-  toNoteStackSearchParams,
-} from "@/lib/stores/note-stack-parsers";
+import { parseNoteStackSearch, toNoteStackSearchParams } from "@/lib/stores/note-stack-parsers";
 import { parseStackString } from "@/lib/stores/stack-utils";
 import type { NotePaneData } from "@/lib/types";
 
@@ -65,7 +62,7 @@ export const Route = createFileRoute("/$slug")({
     }
 
     const paneNotes = [rootPaneData, ...stackPaneData].filter(
-      (note): note is NotePaneData => note !== null
+      (note): note is NotePaneData => note !== null,
     );
 
     return {
@@ -85,9 +82,7 @@ export const Route = createFileRoute("/$slug")({
     const imageUrl = rootSlug ? `/og/${rootSlug}.png` : "/logo.png";
     const notePath = stackPath ? `/${stackPath}` : null;
     const pageUrl =
-      notePath && typeof window !== "undefined"
-        ? `${window.location.origin}${notePath}`
-        : null;
+      notePath && typeof window !== "undefined" ? `${window.location.origin}${notePath}` : null;
 
     return {
       meta: [

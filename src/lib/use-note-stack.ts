@@ -5,12 +5,7 @@ import { useCallback, useMemo, useRef, useTransition } from "react";
 import { buildNoteHref, buildNoteStackHref } from "@/lib/note-links";
 import { Route as NoteRoute } from "@/routes/$slug";
 import { toNoteStackSearchParams } from "./stores/note-stack-parsers";
-import {
-  getFocusIndex,
-  parseStackString,
-  popFromStack,
-  pushToStack,
-} from "./stores/stack-utils";
+import { getFocusIndex, parseStackString, popFromStack, pushToStack } from "./stores/stack-utils";
 
 export function useNoteStack(rootSlug: string) {
   const navigate = useNavigate({ from: NoteRoute.fullPath });
@@ -23,11 +18,7 @@ export function useNoteStack(rootSlug: string) {
   const startTransition = useTransition()[1];
 
   const navigateToStack = useCallback(
-    (
-      nextStack: string[],
-      focus: number | null,
-      options?: { scroll?: boolean }
-    ) => {
+    (nextStack: string[], focus: number | null, options?: { scroll?: boolean }) => {
       const targetStack = nextStack.length > 0 ? nextStack : ["000000"];
       const nextSearchParams = toNoteStackSearchParams(focus);
 
@@ -48,7 +39,7 @@ export function useNoteStack(rootSlug: string) {
         },
       });
     },
-    [navigate]
+    [navigate],
   );
 
   const buildNotePath = useCallback((slug: string) => buildNoteHref(slug), []);
@@ -62,10 +53,7 @@ export function useNoteStack(rootSlug: string) {
     return [rootSlug];
   }, [rootSlug, stackPath]);
 
-  const focusIndex = useMemo(
-    () => getFocusIndex(focus, stack.length),
-    [focus, stack.length]
-  );
+  const focusIndex = useMemo(() => getFocusIndex(focus, stack.length), [focus, stack.length]);
 
   const stackRef = useRef(stack);
   stackRef.current = stack;
@@ -81,7 +69,7 @@ export function useNoteStack(rootSlug: string) {
         navigateToStack(newStack, null);
       });
     },
-    [navigateToStack]
+    [navigateToStack],
   );
 
   const pushFocusedNote = useCallback(
@@ -94,7 +82,7 @@ export function useNoteStack(rootSlug: string) {
         navigateToStack(newStack, null);
       });
     },
-    [navigateToStack]
+    [navigateToStack],
   );
 
   const popNote = useCallback(() => {
@@ -119,7 +107,7 @@ export function useNoteStack(rootSlug: string) {
       const newFocus = index === currentStack.length - 1 ? null : index;
       navigateToStack(currentStack, newFocus, { scroll: false });
     },
-    [navigateToStack]
+    [navigateToStack],
   );
 
   const setStack = useCallback(
@@ -134,42 +122,30 @@ export function useNoteStack(rootSlug: string) {
         return;
       }
 
-      const newFocus =
-        focusIdx !== undefined && focusIdx !== newStack.length - 1
-          ? focusIdx
-          : null;
+      const newFocus = focusIdx !== undefined && focusIdx !== newStack.length - 1 ? focusIdx : null;
 
       startTransition(() => {
         navigateToStack(newStack, newFocus);
       });
     },
-    [buildNotePath, navigate, navigateToStack]
+    [buildNotePath, navigate, navigateToStack],
   );
 
   const removePane = useCallback(
     (index: number, availableLength?: number) => {
       const currentStack = stackRef.current;
       const visibleStack =
-        typeof availableLength === "number"
-          ? currentStack.slice(0, availableLength)
-          : currentStack;
+        typeof availableLength === "number" ? currentStack.slice(0, availableLength) : currentStack;
 
-      if (
-        index === 0 ||
-        visibleStack.length <= 1 ||
-        index >= visibleStack.length
-      ) {
+      if (index === 0 || visibleStack.length <= 1 || index >= visibleStack.length) {
         return;
       }
 
-      const newStack = [
-        ...visibleStack.slice(0, index),
-        ...visibleStack.slice(index + 1),
-      ];
+      const newStack = [...visibleStack.slice(0, index), ...visibleStack.slice(index + 1)];
       const newFocusIndex = Math.min(index, newStack.length - 1);
       setStack(newStack, newFocusIndex);
     },
-    [setStack]
+    [setStack],
   );
 
   return useMemo(
@@ -182,14 +158,6 @@ export function useNoteStack(rootSlug: string) {
       focusPane,
       removePane,
     }),
-    [
-      stack,
-      focusIndex,
-      pushNote,
-      pushFocusedNote,
-      popNote,
-      focusPane,
-      removePane,
-    ]
+    [stack, focusIndex, pushNote, pushFocusedNote, popNote, focusPane, removePane],
   );
 }

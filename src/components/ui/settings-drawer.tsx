@@ -49,7 +49,7 @@ export function SettingsDrawer({
             variant: "outline",
           }),
           "rounded-full px-3.5",
-          triggerClassName
+          triggerClassName,
         )}
       >
         {tSettings("open")}
@@ -71,9 +71,7 @@ export function SettingsDrawer({
               <div className="mt-8 space-y-6">
                 <section className="space-y-3">
                   <div>
-                    <p className="font-medium text-foreground text-sm">
-                      {tSettings("appearance")}
-                    </p>
+                    <p className="font-medium text-foreground text-sm">{tSettings("appearance")}</p>
                     <p className="mt-1 text-muted-foreground text-sm leading-relaxed">
                       {tSettings("appearanceDescription")}
                     </p>
@@ -106,9 +104,7 @@ export function SettingsDrawer({
 
                 <section className="space-y-3">
                   <div>
-                    <p className="font-medium text-foreground text-sm">
-                      {tSettings("language")}
-                    </p>
+                    <p className="font-medium text-foreground text-sm">{tSettings("language")}</p>
                     <p className="mt-1 text-muted-foreground text-sm leading-relaxed">
                       {tSettings("languageDescription")}
                     </p>
@@ -151,9 +147,7 @@ export function SettingsDrawer({
 
                 <section className="flex items-start justify-between gap-4 rounded-2xl border border-border/70 bg-muted/30 px-4 py-3">
                   <div className="space-y-1 pr-2">
-                    <p className="font-medium text-foreground text-sm">
-                      {tSettings("blogOnly")}
-                    </p>
+                    <p className="font-medium text-foreground text-sm">{tSettings("blogOnly")}</p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       {tSettings("blogOnlyDescription")}
                     </p>
@@ -170,7 +164,7 @@ export function SettingsDrawer({
                 <Drawer.Close
                   className={cn(
                     buttonVariants({ size: "sm", variant: "ghost" }),
-                    "w-full justify-center"
+                    "w-full justify-center",
                   )}
                 >
                   {tSettings("close")}

@@ -4,11 +4,7 @@ import { memo, useCallback, useMemo } from "react";
 import { AllNotesList } from "@/components/notes-list/all-notes-list";
 import { NotePane } from "@/components/pane/note-pane";
 import { resolvePanesFromStack } from "@/lib/stores/stack-utils";
-import type {
-  NoteLanguageFilter,
-  NotePaneData,
-  NoteSummary,
-} from "@/lib/types";
+import type { NoteLanguageFilter, NotePaneData, NoteSummary } from "@/lib/types";
 import { useNoteStackContext } from "./note-stack-provider";
 
 interface PaneOrchestratorProps {
@@ -28,13 +24,9 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   onBlogOnlyChange,
   onLanguageFilterChange,
 }: PaneOrchestratorProps) {
-  const { stack, pushNote, pushFocusedNote, focusPane, removePane } =
-    useNoteStackContext();
+  const { stack, pushNote, pushFocusedNote, focusPane, removePane } = useNoteStackContext();
 
-  const panesData = useMemo(
-    () => resolvePanesFromStack(stack, paneNotes),
-    [stack, paneNotes]
-  );
+  const panesData = useMemo(() => resolvePanesFromStack(stack, paneNotes), [stack, paneNotes]);
 
   const paneEntries = useMemo(() => {
     const counts = new Map<string, number>();
@@ -59,7 +51,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
 
       pushFocusedNote(slug);
     },
-    [focusPane, pushFocusedNote]
+    [focusPane, pushFocusedNote],
   );
 
   return (

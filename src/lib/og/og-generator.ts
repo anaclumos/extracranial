@@ -17,8 +17,7 @@ export async function generateOGImage({
   const { Resvg } = await import("@resvg/resvg-js");
   const fonts = await getFonts();
   const fontFamily =
-    [...new Set(fonts.map((font) => `"${font.name}"`))].join(", ") ||
-    '"Pretendard"';
+    [...new Set(fonts.map((font) => `"${font.name}"`))].join(", ") || '"Pretendard"';
 
   const svg = await satori(
     createElement(OGTemplate, {
@@ -36,7 +35,7 @@ export async function generateOGImage({
         style: font.style,
         lang: font.lang,
       })),
-    }
+    },
   );
 
   const png = new Resvg(svg).render().asPng();

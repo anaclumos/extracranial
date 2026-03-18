@@ -10,7 +10,7 @@ import { DesktopContainer } from "./desktop-container";
 const MobilePaneCarousel = lazy(() =>
   import("../mobile/pane-carousel").then((mod) => ({
     default: mod.MobilePaneCarousel,
-  }))
+  })),
 );
 const EMPTY_PANES: NotePaneData[] = [];
 
@@ -23,15 +23,8 @@ interface PaneContainerProps {
   paneNotes: NotePaneData[];
 }
 
-function MobilePaneFallback({
-  focusIndex,
-  panes,
-}: {
-  focusIndex: number;
-  panes: NotePaneData[];
-}) {
-  const notchIds =
-    panes.length > 0 ? panes.map((pane) => pane.slug) : ["placeholder"];
+function MobilePaneFallback({ focusIndex, panes }: { focusIndex: number; panes: NotePaneData[] }) {
+  const notchIds = panes.length > 0 ? panes.map((pane) => pane.slug) : ["placeholder"];
   const paneCount = Math.max(1, panes.length);
   const activeIndex = Math.min(Math.max(focusIndex, 0), paneCount - 1);
   const activePane = panes[activeIndex];
@@ -126,13 +119,13 @@ export function PaneContainer({
   const isDesktop = useMediaQuery("(min-width: 768px)", true);
   const panes = useMemo(
     () => (isDesktop ? EMPTY_PANES : resolvePanesFromStack(stack, paneNotes)),
-    [isDesktop, stack, paneNotes]
+    [isDesktop, stack, paneNotes],
   );
   const handleClose = useCallback(
     (index: number) => {
       removePane(index, panes.length);
     },
-    [removePane, panes.length]
+    [removePane, panes.length],
   );
 
   if (isDesktop) {
@@ -145,9 +138,7 @@ export function PaneContainer({
 
   return (
     <div className="flex h-full w-full flex-1">
-      <Suspense
-        fallback={<MobilePaneFallback focusIndex={focusIndex} panes={panes} />}
-      >
+      <Suspense fallback={<MobilePaneFallback focusIndex={focusIndex} panes={panes} />}>
         <MobilePaneCarousel
           focusIndex={focusIndex}
           isBlogOnly={isBlogOnly}

@@ -23,28 +23,18 @@ export function serializeStackArray(value: string[]): string {
   return value.join(STACK_SEGMENT_DELIMITER);
 }
 
-export function buildFullStack(
-  rootSlug: string,
-  additionalSlugs: string[]
-): string[] {
+export function buildFullStack(rootSlug: string, additionalSlugs: string[]): string[] {
   return [rootSlug, ...additionalSlugs];
 }
 
-export function getFocusIndex(
-  focus: number | null,
-  stackLength: number
-): number {
+export function getFocusIndex(focus: number | null, stackLength: number): number {
   if (focus === null) {
     return Math.max(0, stackLength - 1);
   }
   return Math.min(Math.max(0, focus), stackLength - 1);
 }
 
-export function pushToStack(
-  currentStack: string[],
-  newSlug: string,
-  fromIndex: number
-): string[] {
+export function pushToStack(currentStack: string[], newSlug: string, fromIndex: number): string[] {
   if (currentStack.length === 0) {
     return [newSlug];
   }
@@ -61,13 +51,11 @@ export function popFromStack(currentStack: string[]): string[] {
 
 export function resolvePanesFromStack<T extends { slug: string }>(
   stack: string[],
-  panes: T[]
+  panes: T[],
 ): T[] {
   const paneDataMap = new Map<string, T>();
   for (const pane of panes) {
     paneDataMap.set(pane.slug, pane);
   }
-  return stack
-    .map((slug) => paneDataMap.get(slug))
-    .filter((pane): pane is T => pane !== undefined);
+  return stack.map((slug) => paneDataMap.get(slug)).filter((pane): pane is T => pane !== undefined);
 }

@@ -64,17 +64,15 @@ const I18nContext = createContext<I18nContextValue | null>(null);
 
 function getNestedMessage(
   messages: MessageDictionary,
-  key: string
+  key: string,
 ): string | MessageDictionary | undefined {
-  return key
-    .split(".")
-    .reduce<string | MessageDictionary | undefined>((current, segment) => {
-      if (!current || typeof current === "string") {
-        return undefined;
-      }
+  return key.split(".").reduce<string | MessageDictionary | undefined>((current, segment) => {
+    if (!current || typeof current === "string") {
+      return undefined;
+    }
 
-      return current[segment];
-    }, messages);
+    return current[segment];
+  }, messages);
 }
 
 function formatMessage(template: string, values?: TranslationValues): string {
@@ -104,11 +102,7 @@ const i18nContextValue: I18nContextValue = {
 };
 
 export function I18nProvider({ children }: Readonly<{ children: ReactNode }>) {
-  return (
-    <I18nContext.Provider value={i18nContextValue}>
-      {children}
-    </I18nContext.Provider>
-  );
+  return <I18nContext.Provider value={i18nContextValue}>{children}</I18nContext.Provider>;
 }
 
 function useI18nContext() {

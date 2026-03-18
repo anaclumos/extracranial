@@ -1,7 +1,6 @@
 import type { DiagramPlugin } from "streamdown";
 
-const MERMAID_CDN_URL =
-  "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+const MERMAID_CDN_URL = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
 
 type MermaidConfig = Record<string, unknown>;
 
@@ -32,9 +31,7 @@ function getMermaidModule() {
   return mermaidModulePromise;
 }
 
-export function createMermaidPlugin(
-  options: { config?: MermaidConfig } = {}
-): DiagramPlugin {
+export function createMermaidPlugin(options: { config?: MermaidConfig } = {}): DiagramPlugin {
   let initialized = false;
   let config = { ...defaultConfig, ...options.config };
 

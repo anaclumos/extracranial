@@ -37,11 +37,7 @@ function clamp(min: number, value: number, max: number) {
   return Math.min(Math.max(value, min), max);
 }
 
-function calculatePaneTransform(
-  index: number,
-  progress: number,
-  prefersReducedMotion: boolean
-) {
+function calculatePaneTransform(index: number, progress: number, prefersReducedMotion: boolean) {
   const offset = (index - progress) * 200;
   const distance = Math.abs(offset);
 
@@ -59,22 +55,14 @@ function calculateDragTarget(
   velocity: number,
   offsetX: number,
   cardWidth: number,
-  maxIndex: number
+  maxIndex: number,
 ) {
   if (Math.abs(velocity) > 400) {
-    return clamp(
-      0,
-      velocity < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex),
-      maxIndex
-    );
+    return clamp(0, velocity < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex), maxIndex);
   }
 
   if (Math.abs(offsetX) > cardWidth * 0.15) {
-    return clamp(
-      0,
-      offsetX < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex),
-      maxIndex
-    );
+    return clamp(0, offsetX < 0 ? Math.ceil(currentIndex) : Math.floor(currentIndex), maxIndex);
   }
 
   return clamp(0, Math.round(currentIndex), maxIndex);
@@ -90,7 +78,7 @@ function usePaneTransforms({
   prefersReducedMotion: boolean;
 }) {
   const all = useTransform(progress, (value) =>
-    calculatePaneTransform(index, value, prefersReducedMotion)
+    calculatePaneTransform(index, value, prefersReducedMotion),
   );
   const x = useTransform(all, (t) => t.x);
   const rotateY = useTransform(all, (t) => t.rotateY);
@@ -118,9 +106,7 @@ const SliderNotch = memo(function SliderNotch({
   index: number;
   onTap: (index: number) => void;
 }) {
-  const distance = useTransform(activeIndex, (value) =>
-    Math.abs(Math.round(value) - index)
-  );
+  const distance = useTransform(activeIndex, (value) => Math.abs(Math.round(value) - index));
   const scaleY = useTransform(distance, (value) => (value === 0 ? 1 : 0.5));
   const opacity = useTransform(distance, (value) => (value === 0 ? 1 : 0.3));
 
@@ -157,25 +143,17 @@ function MobilePaneContent({
       <ScrollArea className="h-full">
         <div className="p-5 pb-10">
           <header className="mb-4 pr-8">
-            <h1 className="font-semibold text-foreground text-xl leading-snug">
-              {pane.title}
-            </h1>
+            <h1 className="font-semibold text-foreground text-xl leading-snug">{pane.title}</h1>
             {pane.description && (
               <p className="mt-2 text-muted-foreground text-sm leading-relaxed">
                 {pane.description}
               </p>
             )}
           </header>
-          <MdxNoteContent
-            onLinkClick={onLinkClick}
-            source={pane.serializedContent}
-          />
+          <MdxNoteContent onLinkClick={onLinkClick} source={pane.serializedContent} />
           {pane.backlinks.length > 0 && (
             <footer className="mt-6 border-border/40 border-t pt-4">
-              <BacklinksSection
-                backlinks={pane.backlinks}
-                onBacklinkClick={onLinkClick}
-              />
+              <BacklinksSection backlinks={pane.backlinks} onBacklinkClick={onLinkClick} />
             </footer>
           )}
         </div>
@@ -274,9 +252,7 @@ const MobilePaneCardController = memo(function MobilePaneCardController({
   prefersReducedMotion: boolean;
   progress: MotionValue<number>;
 }) {
-  const transition = prefersReducedMotion
-    ? reducedMotionTransition
-    : springSubtle;
+  const transition = prefersReducedMotion ? reducedMotionTransition : springSubtle;
   const { x, rotateY, scale, opacity, zIndex } = usePaneTransforms({
     index,
     progress,
@@ -344,9 +320,7 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
             <span className="flex size-9 items-center justify-center rounded-full border border-border/70 bg-muted/35">
               <Logo className="text-foreground" size={18} />
             </span>
-            <span className="font-medium text-sm uppercase tracking-[0.18em]">
-              cho.sh
-            </span>
+            <span className="font-medium text-sm uppercase tracking-[0.18em]">cho.sh</span>
           </a>
           <SettingsDrawer
             compact
@@ -452,7 +426,7 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
         bounce: 0.12,
       });
     },
-    [currentIndex, panes.length, prefersReducedMotion]
+    [currentIndex, panes.length, prefersReducedMotion],
   );
 
   useEffect(() => {
@@ -481,11 +455,9 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
     (_: unknown, info: PanInfo) => {
       const cardWidth = containerRef.current?.offsetWidth ?? 350;
       const dragProgress = -info.offset.x / cardWidth;
-      currentIndex.set(
-        clamp(-0.15, dragStartIndex.current + dragProgress, panes.length - 0.85)
-      );
+      currentIndex.set(clamp(-0.15, dragStartIndex.current + dragProgress, panes.length - 0.85));
     },
-    [currentIndex, panes.length]
+    [currentIndex, panes.length],
   );
 
   const handleDragEnd = useCallback(
@@ -497,12 +469,12 @@ export const MobilePaneCarousel = memo(function MobilePaneCarousel({
         info.velocity.x,
         info.offset.x,
         cardWidth,
-        Math.max(0, panes.length - 1)
+        Math.max(0, panes.length - 1),
       );
       dragStartIndex.current = nextIndex;
       animateToIndex(nextIndex);
     },
-    [animateToIndex, currentIndex, panes.length]
+    [animateToIndex, currentIndex, panes.length],
   );
 
   return (

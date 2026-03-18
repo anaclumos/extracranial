@@ -78,9 +78,5 @@ function getMediaQueryStore(query: string): MediaQueryStore {
 export function useMediaQuery(query: string, serverFallback = false): boolean {
   const store = getMediaQueryStore(query);
 
-  return useSyncExternalStore(
-    store.subscribe,
-    store.getSnapshot,
-    () => serverFallback
-  );
+  return useSyncExternalStore(store.subscribe, store.getSnapshot, () => serverFallback);
 }

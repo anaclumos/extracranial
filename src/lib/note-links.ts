@@ -1,7 +1,6 @@
 const PROTOCOL_REGEX = /^[a-z][a-z0-9+.-]*:/i;
 const LEADING_SLASH_REGEX = /^(\.\/|\/)+/;
-const CONTENT_PREFIX_REGEX =
-  /^(?:manifesto|library|r|w|research|blog|journals|pages)\//;
+const CONTENT_PREFIX_REGEX = /^(?:manifesto|library|r|w|research|blog|journals|pages)\//;
 const MD_EXTENSION_REGEX = /\.md$/;
 const TRAILING_SLASH_REGEX = /\/$/;
 

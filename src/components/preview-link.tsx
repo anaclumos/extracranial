@@ -1,8 +1,4 @@
-import {
-  buildNoteHref,
-  isExternalHref,
-  normalizeNoteSlug,
-} from "@/lib/note-links";
+import { buildNoteHref, isExternalHref, normalizeNoteSlug } from "@/lib/note-links";
 
 interface PreviewLinkProps {
   children: React.ReactNode;

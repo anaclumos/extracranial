@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  type ReactNode,
-  useCallback,
-  useEffect,
-  useLayoutEffect,
-  useRef,
-} from "react";
+import { type ReactNode, useCallback, useEffect, useLayoutEffect, useRef } from "react";
 import { cn } from "@/lib/utils";
 import {
   resetPaneCollapseStore,
@@ -67,7 +61,7 @@ export function DesktopContainer({
         });
       });
     },
-    [getScrollBehavior]
+    [getScrollBehavior],
   );
 
   const registerPaneRef = useCallback(
@@ -79,7 +73,7 @@ export function DesktopContainer({
       }
       paneRefs.current.delete(index);
     },
-    [scrollPaneIntoViewIfFocused]
+    [scrollPaneIntoViewIfFocused],
   );
 
   const scrollToPane = useCallback(
@@ -95,7 +89,7 @@ export function DesktopContainer({
       });
       targetPane.focus();
     },
-    [getScrollBehavior]
+    [getScrollBehavior],
   );
 
   const updateCollapseThreshold = useCallback(() => {
@@ -104,18 +98,13 @@ export function DesktopContainer({
       return;
     }
 
-    const firstPane = container.querySelector(
-      "[data-pane]"
-    ) as HTMLElement | null;
+    const firstPane = container.querySelector("[data-pane]") as HTMLElement | null;
     if (!firstPane) {
       return;
     }
 
     const SPINE_WIDTH_PX = 40;
-    collapseThresholdRef.current = Math.max(
-      0,
-      firstPane.offsetWidth - SPINE_WIDTH_PX
-    );
+    collapseThresholdRef.current = Math.max(0, firstPane.offsetWidth - SPINE_WIDTH_PX);
   }, []);
 
   const updateCollapsedIndices = useCallback(() => {
@@ -249,7 +238,7 @@ export function DesktopContainer({
         "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
         "overscroll-x-none bg-background",
         "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
-        className
+        className,
       )}
       ref={containerRef}
     >

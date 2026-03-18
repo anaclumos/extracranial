@@ -1,16 +1,7 @@
 import { ArrowUpRight01Icon } from "@hugeicons/core-free-icons";
 import { HugeiconsIcon } from "@hugeicons/react";
-import {
-  Fragment,
-  isValidElement,
-  type ReactElement,
-  type ReactNode,
-} from "react";
-import {
-  buildNoteHref,
-  isExternalHref,
-  normalizeNoteSlug,
-} from "@/lib/note-links";
+import { Fragment, isValidElement, type ReactElement, type ReactNode } from "react";
+import { buildNoteHref, isExternalHref, normalizeNoteSlug } from "@/lib/note-links";
 import { PreviewLink } from "../preview-link";
 
 export function toReactNode(value: unknown): ReactNode {
@@ -34,10 +25,7 @@ export function extractMarkdownSource(value: ReactNode): string | null {
       return node.every(visit);
     }
 
-    if (
-      isValidElement<{ children?: ReactNode }>(node) &&
-      node.type === Fragment
-    ) {
+    if (isValidElement<{ children?: ReactNode }>(node) && node.type === Fragment) {
       return visit(node.props.children);
     }
 
@@ -51,12 +39,8 @@ export function extractMarkdownSource(value: ReactNode): string | null {
   return parts.join("");
 }
 
-export function isSummaryElement(
-  node: ReactNode
-): node is ReactElement<{ children?: ReactNode }> {
-  return (
-    isValidElement<{ children?: ReactNode }>(node) && node.type === "summary"
-  );
+export function isSummaryElement(node: ReactNode): node is ReactElement<{ children?: ReactNode }> {
+  return isValidElement<{ children?: ReactNode }>(node) && node.type === "summary";
 }
 
 export function isBlankTextNode(node: ReactNode): boolean {

@@ -21,7 +21,7 @@ const WIKI_LINK_RE = /(?<!!)\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?]]/g;
 
 function transformOutsideCodeBlocks(
   content: string,
-  transform: (segment: string) => string
+  transform: (segment: string) => string,
 ): string {
   const parts: string[] = [];
   let lastIndex = 0;
@@ -84,7 +84,7 @@ const CUSTOM_SELF_CLOSING_TAGS = [
 ] as const;
 
 const SELF_CLOSING_TAG_REGEXES = CUSTOM_SELF_CLOSING_TAGS.map(
-  (tag) => [new RegExp(`<${tag}([^>]*)/>`, "g"), tag] as const
+  (tag) => [new RegExp(`<${tag}([^>]*)/>`, "g"), tag] as const,
 );
 
 function rewriteAdmonitions(segment: string): string {
@@ -101,7 +101,7 @@ function rewriteAdmonitions(segment: string): string {
         output.push(indent);
       }
       output.push(
-        `${indent}<admonition type="${type}"${title ? ` title=${JSON.stringify(title)}` : ""}>`
+        `${indent}<admonition type="${type}"${title ? ` title=${JSON.stringify(title)}` : ""}>`,
       );
       isInsideAdmonition = true;
       admonitionIndent = indent;
@@ -140,31 +140,19 @@ function normalizeCustomTags(segment: string): string {
   let normalizedSegment = segment;
 
   for (const [sourceTag, targetTag] of Object.entries(CUSTOM_TAG_NAME_MAP)) {
-    normalizedSegment = normalizedSegment.replaceAll(
-      `<${sourceTag}`,
-      `<${targetTag}`
-    );
-    normalizedSegment = normalizedSegment.replaceAll(
-      `</${sourceTag}>`,
-      `</${targetTag}>`
-    );
+    normalizedSegment = normalizedSegment.replaceAll(`<${sourceTag}`, `<${targetTag}`);
+    normalizedSegment = normalizedSegment.replaceAll(`</${sourceTag}>`, `</${targetTag}>`);
   }
 
   for (const [regex, tagName] of SELF_CLOSING_TAG_REGEXES) {
     regex.lastIndex = 0;
-    normalizedSegment = normalizedSegment.replace(
-      regex,
-      `<${tagName}$1></${tagName}>`
-    );
+    normalizedSegment = normalizedSegment.replace(regex, `<${tagName}$1></${tagName}>`);
   }
 
   return normalizedSegment;
 }
 
-function resolveReferenceSlug(
-  href: string,
-  titleLookup: Map<string, string>
-): string | null {
+function resolveReferenceSlug(href: string, titleLookup: Map<string, string>): string | null {
   const trimmed = href.trim();
   if (!trimmed || trimmed.startsWith("#")) {
     return null;
@@ -182,16 +170,11 @@ function resolveReferenceSlug(
 
   const bySlug = normalizeNoteSlug(trimmed);
   if (bySlug && titleLookup.has(bySlug.normalize("NFC").trim().toLowerCase())) {
-    return (
-      titleLookup.get(bySlug.normalize("NFC").trim().toLowerCase()) ?? null
-    );
+    return titleLookup.get(bySlug.normalize("NFC").trim().toLowerCase()) ?? null;
   }
 
   const withoutExtension = trimmed.replace(MARKDOWN_SUFFIX_RE, "");
-  return (
-    titleLookup.get(withoutExtension.normalize("NFC").trim().toLowerCase()) ??
-    null
-  );
+  return titleLookup.get(withoutExtension.normalize("NFC").trim().toLowerCase()) ?? null;
 }
 
 function rewriteWikiImages(segment: string, note: SourceNoteBase): string {
@@ -202,70 +185,53 @@ function rewriteWikiImages(segment: string, note: SourceNoteBase): string {
 }
 
 function rewriteMarkdownImages(segment: string, note: SourceNoteBase): string {
-  return segment.replace(
-    MARKDOWN_IMAGE_RE,
-    (_, alt: string, href: string, suffix: string) => {
-      if (EXTERNAL_IMAGE_HREF_RE.test(href) || href.startsWith("/")) {
-        return `![${alt}](${href}${suffix})`;
-      }
-      return `![${alt}](${toAssetHref(note, href)}${suffix})`;
+  return segment.replace(MARKDOWN_IMAGE_RE, (_, alt: string, href: string, suffix: string) => {
+    if (EXTERNAL_IMAGE_HREF_RE.test(href) || href.startsWith("/")) {
+      return `![${alt}](${href}${suffix})`;
     }
-  );
+    return `![${alt}](${toAssetHref(note, href)}${suffix})`;
+  });
 }
 
-function rewriteWikiLinks(
-  segment: string,
-  titleLookup: Map<string, string>
-): string {
-  return segment.replace(
-    WIKI_LINK_RE,
-    (match, rawTarget: string, rawLabel: string | undefined) => {
-      const slug = resolveReferenceSlug(rawTarget, titleLookup);
-      const label = rawLabel?.trim() || rawTarget.trim();
-      if (!slug) {
-        return label || match;
-      }
-      return `[${label}](${buildNoteHref(slug)})`;
+function rewriteWikiLinks(segment: string, titleLookup: Map<string, string>): string {
+  return segment.replace(WIKI_LINK_RE, (match, rawTarget: string, rawLabel: string | undefined) => {
+    const slug = resolveReferenceSlug(rawTarget, titleLookup);
+    const label = rawLabel?.trim() || rawTarget.trim();
+    if (!slug) {
+      return label || match;
     }
-  );
+    return `[${label}](${buildNoteHref(slug)})`;
+  });
 }
 
-function rewriteMarkdownLinks(
-  segment: string,
-  titleLookup: Map<string, string>
-): string {
-  return segment.replace(
-    MARKDOWN_LINK_RE,
-    (_, label: string, href: string, suffix: string) => {
-      if (EXTERNAL_LINK_HREF_RE.test(href)) {
-        return `[${label}](${href}${suffix})`;
-      }
-
-      const slug = resolveReferenceSlug(href, titleLookup);
-      if (!slug) {
-        return `[${label}](${href}${suffix})`;
-      }
-
-      return `[${label}](${buildNoteHref(slug)}${suffix})`;
+function rewriteMarkdownLinks(segment: string, titleLookup: Map<string, string>): string {
+  return segment.replace(MARKDOWN_LINK_RE, (_, label: string, href: string, suffix: string) => {
+    if (EXTERNAL_LINK_HREF_RE.test(href)) {
+      return `[${label}](${href}${suffix})`;
     }
-  );
+
+    const slug = resolveReferenceSlug(href, titleLookup);
+    if (!slug) {
+      return `[${label}](${href}${suffix})`;
+    }
+
+    return `[${label}](${buildNoteHref(slug)}${suffix})`;
+  });
 }
 
 function rewriteTabItemContent(segment: string): string {
   return segment.replace(
     /<tabitem\b([^>]*)>([\s\S]*?)<\/tabitem>/g,
     (_, attributes: string, content: string) => {
-      const encodedContent = Buffer.from(content.trim(), "utf8").toString(
-        "base64"
-      );
+      const encodedContent = Buffer.from(content.trim(), "utf8").toString("base64");
       return `<tabitem${attributes} source=${JSON.stringify(encodedContent)}></tabitem>`;
-    }
+    },
   );
 }
 
 export function preprocessNoteSource(
   note: SourceNoteBase,
-  titleLookup: Map<string, string>
+  titleLookup: Map<string, string>,
 ): string {
   const contentWithoutComments = note.content.replace(TRUNCATE_COMMENT_RE, "");
 
@@ -288,7 +254,7 @@ function stripCodeBlocks(content: string): string {
 
 export function extractOutboundLinks(
   note: SourceNoteBase,
-  titleLookup: Map<string, string>
+  titleLookup: Map<string, string>,
 ): string[] {
   const links = new Set<string>();
   const transformed = stripCodeBlocks(note.content);

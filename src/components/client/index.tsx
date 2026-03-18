@@ -4,15 +4,8 @@ import { useState } from "react";
 import { PaneContainer } from "@/components/pane/container";
 import { usePaneCollapseScrollTo } from "@/components/pane/pane-collapse-context";
 import { useKeyboardNavigation } from "@/hooks/use-keyboard-navigation";
-import type {
-  NoteLanguageFilter,
-  NotePaneData,
-  NoteSummary,
-} from "@/lib/types";
-import {
-  NoteStackProvider,
-  useNoteStackContext,
-} from "./note-stack-provider";
+import type { NoteLanguageFilter, NotePaneData, NoteSummary } from "@/lib/types";
+import { NoteStackProvider, useNoteStackContext } from "./note-stack-provider";
 import { PaneOrchestrator } from "./pane-orchestrator";
 
 function KeyboardHandler() {
@@ -35,14 +28,9 @@ interface NotesPageClientProps {
   rootSlug: string;
 }
 
-function NotesContent({
-  rootSlug,
-  noteSummaries,
-  paneNotes,
-}: NotesPageClientProps) {
+function NotesContent({ rootSlug, noteSummaries, paneNotes }: NotesPageClientProps) {
   const [isBlogOnly, setIsBlogOnly] = useState(false);
-  const [languageFilter, setLanguageFilter] =
-    useState<NoteLanguageFilter>("all");
+  const [languageFilter, setLanguageFilter] = useState<NoteLanguageFilter>("all");
 
   return (
     <NoteStackProvider rootSlug={rootSlug}>

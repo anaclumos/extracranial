@@ -3,7 +3,7 @@ import { useMediaQuery } from "@/hooks/use-media-query";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 
 const MagneticCursor = lazy(() =>
-  import("./magnetic-cursor").then((mod) => ({ default: mod.MagneticCursor }))
+  import("./magnetic-cursor").then((mod) => ({ default: mod.MagneticCursor })),
 );
 
 export function MagneticCursorLazy() {

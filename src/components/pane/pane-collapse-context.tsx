@@ -4,11 +4,7 @@ import type { Transition } from "motion/react";
 import { useEffect, useRef } from "react";
 import { create } from "zustand";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
-import {
-  reducedMotionTransition,
-  springQuick,
-  springSubtle,
-} from "@/lib/animations";
+import { reducedMotionTransition, springQuick, springSubtle } from "@/lib/animations";
 
 interface PaneViewportControllerStore {
   collapsedIndices: Set<number>;
@@ -50,14 +46,12 @@ export function setCollapsedPaneIndices(collapsedIndices: Set<number>) {
 }
 
 export function setPaneRefRegistration(
-  registerPaneRef: PaneViewportControllerStore["registerPaneRef"]
+  registerPaneRef: PaneViewportControllerStore["registerPaneRef"],
 ) {
   usePaneCollapseStore.setState({ registerPaneRef });
 }
 
-export function setPaneScrollTo(
-  scrollToPane: PaneViewportControllerStore["scrollToPane"]
-) {
+export function setPaneScrollTo(scrollToPane: PaneViewportControllerStore["scrollToPane"]) {
   usePaneCollapseStore.setState({ scrollToPane });
 }
 

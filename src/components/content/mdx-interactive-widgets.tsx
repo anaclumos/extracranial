@@ -46,18 +46,14 @@ export function Shuffle({ children }: { children: ReactNode }) {
     childArray.length === 1 && isValidElement(childArray[0])
       ? (childArray[0] as ReactElement<ListElementProps>)
       : null;
-  const items = listElement
-    ? Children.toArray(listElement.props.children)
-    : childArray;
+  const items = listElement ? Children.toArray(listElement.props.children) : childArray;
 
   const signatureRef = useRef("");
   const shuffledRef = useRef<ReactNode[]>([]);
 
   const signature = items
     .map((item, index) =>
-      isValidElement(item) && item.key != null
-        ? String(item.key)
-        : `item-${index}`
+      isValidElement(item) && item.key != null ? String(item.key) : `item-${index}`,
     )
     .join("|");
 
@@ -88,9 +84,7 @@ function decodeMarkdownSource(source?: string): string | undefined {
     }
 
     const binary = atob(source);
-    const bytes = Uint8Array.from(binary, (character) =>
-      character.charCodeAt(0)
-    );
+    const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
     return new TextDecoder().decode(bytes);
   } catch {
     return source;
@@ -105,15 +99,10 @@ export function Tabs({
   groupid?: string;
   renderMarkdown: (value: ReactNode) => ReactNode;
 }) {
-  const items = Children.toArray(children).filter(
-    isValidElement
-  ) as ReactElement<TabItemProps>[];
+  const items = Children.toArray(children).filter(isValidElement) as ReactElement<TabItemProps>[];
   const defaultValue =
-    items.find((item) => item.props.default)?.props.value ??
-    items[0]?.props.value;
-  const [activeValue, setActiveValue] = useState<string | undefined>(
-    defaultValue
-  );
+    items.find((item) => item.props.default)?.props.value ?? items[0]?.props.value;
+  const [activeValue, setActiveValue] = useState<string | undefined>(defaultValue);
 
   if (items.length === 0) {
     return null;
@@ -128,7 +117,7 @@ export function Tabs({
               "rounded-full px-3 py-1.5 text-sm transition-colors",
               item.props.value === activeValue
                 ? "bg-foreground text-background"
-                : "text-muted-foreground hover:bg-muted"
+                : "text-muted-foreground hover:bg-muted",
             )}
             key={item.props.value}
             onClick={() => setActiveValue(item.props.value)}
@@ -146,13 +135,9 @@ export function Tabs({
 
           const panelContent =
             decodeMarkdownSource(
-              typeof item.props.source === "string"
-                ? item.props.source
-                : undefined
+              typeof item.props.source === "string" ? item.props.source : undefined,
             ) ?? item.props.children;
-          return (
-            <div key={item.props.value}>{renderMarkdown(panelContent)}</div>
-          );
+          return <div key={item.props.value}>{renderMarkdown(panelContent)}</div>;
         })}
       </div>
     </div>
@@ -168,16 +153,12 @@ export function DetailsAccordion({
   open?: boolean | string;
   renderMarkdown: (value: ReactNode) => ReactNode;
 }) {
-  const nodes = Children.toArray(children).filter(
-    (node) => !isBlankTextNode(node)
-  );
+  const nodes = Children.toArray(children).filter((node) => !isBlankTextNode(node));
   const summaryNode = nodes.find(isSummaryElement);
   const panelNodes = nodes.filter((node) => !isSummaryElement(node));
   const summaryContent = summaryNode?.props.children ?? "Details";
-  const panelContent =
-    panelNodes.length <= 1 ? (panelNodes[0] ?? null) : panelNodes;
-  const defaultValue =
-    open === true || open === "" || open === "true" ? ["details"] : [];
+  const panelContent = panelNodes.length <= 1 ? (panelNodes[0] ?? null) : panelNodes;
+  const defaultValue = open === true || open === "" || open === "true" ? ["details"] : [];
 
   return (
     <Accordion.Root
@@ -190,7 +171,7 @@ export function DetailsAccordion({
             className={(state) =>
               cn(
                 "flex w-full items-center justify-between gap-3 px-4 py-3 text-left font-medium text-foreground transition-colors hover:bg-muted/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background",
-                state.open && "[&_.accordion-indicator]:rotate-45"
+                state.open && "[&_.accordion-indicator]:rotate-45",
               )
             }
           >
@@ -203,9 +184,7 @@ export function DetailsAccordion({
             </span>
           </Accordion.Trigger>
         </Accordion.Header>
-        <Accordion.Panel className="px-4 pt-1 pb-4">
-          {renderMarkdown(panelContent)}
-        </Accordion.Panel>
+        <Accordion.Panel className="px-4 pt-1 pb-4">{renderMarkdown(panelContent)}</Accordion.Panel>
       </Accordion.Item>
     </Accordion.Root>
   );

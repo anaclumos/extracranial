@@ -75,14 +75,8 @@ function inferKind(filePath: string): NoteKind {
   return "research";
 }
 
-function inferLanguage(
-  filePath: string,
-  title: string,
-  content: string
-): NoteLanguage {
-  const baseName = path
-    .basename(filePath, path.extname(filePath))
-    .toLowerCase();
+function inferLanguage(filePath: string, title: string, content: string): NoteLanguage {
+  const baseName = path.basename(filePath, path.extname(filePath)).toLowerCase();
 
   if (baseName === "en" || baseName === "ko") {
     return baseName;
@@ -92,9 +86,7 @@ function inferLanguage(
 }
 
 function buildEditUrl(filePath: string): string | undefined {
-  const relativePath = path
-    .relative(EXTRACRANIAL_ROOT, filePath)
-    .split(path.sep);
+  const relativePath = path.relative(EXTRACRANIAL_ROOT, filePath).split(path.sep);
   if (relativePath.length === 0) {
     return undefined;
   }
@@ -173,25 +165,19 @@ async function readSourceNote(filePath: string): Promise<SourceNote | null> {
     aliases: parseAliases(data.aliases),
     content,
     date: parseDate(data.date),
-    description:
-      typeof data.description === "string" ? data.description : undefined,
+    description: typeof data.description === "string" ? data.description : undefined,
     dirPath: path.dirname(filePath),
     editUrl: buildEditUrl(filePath),
     filePath,
     kind: inferKind(filePath),
-    lastModified:
-      parseTimestamp(data.last_modified) ?? parseTimestamp(data.updatedAt),
+    lastModified: parseTimestamp(data.last_modified) ?? parseTimestamp(data.updatedAt),
     language: inferLanguage(filePath, title, content),
     slug,
     title,
   };
 }
 
-function registerLookup(
-  lookup: Map<string, string>,
-  label: string | undefined,
-  slug: string
-) {
+function registerLookup(lookup: Map<string, string>, label: string | undefined, slug: string) {
   if (!label) {
     return;
   }
@@ -223,17 +209,14 @@ async function buildContentIndex(): Promise<ContentIndex> {
       const existingNote = notesBySlug.get(note.slug);
       if (existingNote) {
         throw new Error(
-          `Duplicate slug ${note.slug} in ${existingNote.filePath} and ${note.filePath}`
+          `Duplicate slug ${note.slug} in ${existingNote.filePath} and ${note.filePath}`,
         );
       }
       notesBySlug.set(note.slug, note);
 
       registerLookup(titleLookup, note.slug, note.slug);
       registerLookup(titleLookup, note.title, note.slug);
-      const baseName = path.basename(
-        note.filePath,
-        path.extname(note.filePath)
-      );
+      const baseName = path.basename(note.filePath, path.extname(note.filePath));
       if (!GENERIC_BASENAMES.has(baseName)) {
         registerLookup(titleLookup, baseName, note.slug);
       }
@@ -245,13 +228,13 @@ async function buildContentIndex(): Promise<ContentIndex> {
 
     if ((i + BATCH) % 512 === 0 || i + BATCH >= allFiles.length) {
       console.log(
-        `[content-index] Indexed ${Math.min(i + BATCH, allFiles.length)}/${allFiles.length} files (${notesBySlug.size} notes)`
+        `[content-index] Indexed ${Math.min(i + BATCH, allFiles.length)}/${allFiles.length} files (${notesBySlug.size} notes)`,
       );
     }
   }
 
   console.log(
-    `[content-index] Complete: ${notesBySlug.size} notes, ${titleLookup.size} lookup entries`
+    `[content-index] Complete: ${notesBySlug.size} notes, ${titleLookup.size} lookup entries`,
   );
   return { notesBySlug, titleLookup };
 }
@@ -261,9 +244,7 @@ export function getContentIndex(): Promise<ContentIndex> {
     const start = performance.now();
     contentIndexCache = buildContentIndex()
       .then((index) => {
-        console.log(
-          `[content-index] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`
-        );
+        console.log(`[content-index] Built in ${((performance.now() - start) / 1000).toFixed(1)}s`);
         return index;
       })
       .catch((error: unknown) => {
@@ -278,9 +259,7 @@ export function getContentIndex(): Promise<ContentIndex> {
   return contentIndexCache;
 }
 
-export async function getSourceNoteBySlug(
-  slug: string
-): Promise<SourceNote | null> {
+export async function getSourceNoteBySlug(slug: string): Promise<SourceNote | null> {
   const { notesBySlug } = await getContentIndex();
   return notesBySlug.get(slug) ?? null;
 }
@@ -290,9 +269,7 @@ export async function getAllNoteSlugs(): Promise<string[]> {
   return Array.from(notesBySlug.keys()).sort();
 }
 
-export async function getLatestJournalSlug(
-  maxDate?: string
-): Promise<string | null> {
+export async function getLatestJournalSlug(maxDate?: string): Promise<string | null> {
   const { notesBySlug } = await getContentIndex();
   let latestSlug: string | null = null;
   let latestDate = "";
@@ -315,9 +292,7 @@ export async function getLatestJournalSlug(
   return latestSlug;
 }
 
-export async function resolveLookupSlug(
-  reference: string
-): Promise<string | null> {
+export async function resolveLookupSlug(reference: string): Promise<string | null> {
   const { titleLookup, notesBySlug } = await getContentIndex();
   const trimmed = reference.trim();
   if (!trimmed) {

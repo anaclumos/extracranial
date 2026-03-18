@@ -23,7 +23,7 @@ export function PaneSpine({
     <div
       className={cn(
         "absolute top-0 bottom-0 left-0 z-sticky flex w-pane-spine flex-col items-center gap-6 border-border/50 border-r bg-card/80 py-4 backdrop-blur-md",
-        className
+        className,
       )}
     >
       {showIndex && (

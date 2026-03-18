@@ -84,7 +84,7 @@ const themeLoaders = {
 } as const;
 
 const supportedLanguages = new Set<SupportedLanguage>(
-  Object.keys(languageLoaders) as SupportedLanguage[]
+  Object.keys(languageLoaders) as SupportedLanguage[],
 );
 const supportedThemes = new Set<SupportedTheme>(defaultThemes);
 
@@ -94,15 +94,9 @@ const createHighlighter = createBundledHighlighter({
   themes: themeLoaders,
 });
 
-const highlighterCache = new Map<
-  string,
-  ReturnType<typeof createHighlighter>
->();
+const highlighterCache = new Map<string, ReturnType<typeof createHighlighter>>();
 const highlightResultCache = new Map<string, HighlightResult>();
-const pendingCallbacks = new Map<
-  string,
-  Set<(result: HighlightResult) => void>
->();
+const pendingCallbacks = new Map<string, Set<(result: HighlightResult) => void>>();
 
 function normalizeLanguage(language: string): SupportedLanguage | null {
   const normalized = language.trim().toLowerCase();
@@ -113,29 +107,22 @@ function normalizeLanguage(language: string): SupportedLanguage | null {
   return languageAliases[normalized] ?? null;
 }
 
-function normalizeThemes(
-  themes: [ThemeInput, ThemeInput]
-): [SupportedTheme, SupportedTheme] {
+function normalizeThemes(themes: [ThemeInput, ThemeInput]): [SupportedTheme, SupportedTheme] {
   const [lightTheme, darkTheme] = themes;
 
   const resolvedLightTheme =
-    typeof lightTheme === "string" &&
-    supportedThemes.has(lightTheme as SupportedTheme)
+    typeof lightTheme === "string" && supportedThemes.has(lightTheme as SupportedTheme)
       ? (lightTheme as SupportedTheme)
       : defaultThemes[0];
   const resolvedDarkTheme =
-    typeof darkTheme === "string" &&
-    supportedThemes.has(darkTheme as SupportedTheme)
+    typeof darkTheme === "string" && supportedThemes.has(darkTheme as SupportedTheme)
       ? (darkTheme as SupportedTheme)
       : defaultThemes[1];
 
   return [resolvedLightTheme, resolvedDarkTheme];
 }
 
-function getHighlighter(
-  language: SupportedLanguage,
-  themes: [SupportedTheme, SupportedTheme]
-) {
+function getHighlighter(language: SupportedLanguage, themes: [SupportedTheme, SupportedTheme]) {
   const cacheKey = `${language}:${themes[0]}:${themes[1]}`;
   const cachedHighlighter = highlighterCache.get(cacheKey);
   if (cachedHighlighter) {
@@ -170,7 +157,7 @@ function createPlainTextResult(code: string): HighlightResult {
 function createHighlightCacheKey(
   code: string,
   language: SupportedLanguage,
-  themes: [SupportedTheme, SupportedTheme]
+  themes: [SupportedTheme, SupportedTheme],
 ) {
   const prefix = code.slice(0, 120);
   const suffix = code.length > 120 ? code.slice(-120) : "";
@@ -202,11 +189,7 @@ export const codePlugin: CodeHighlighterPlugin = {
     }
 
     const normalizedThemes = normalizeThemes(themes);
-    const cacheKey = createHighlightCacheKey(
-      code,
-      normalizedLanguage,
-      normalizedThemes
-    );
+    const cacheKey = createHighlightCacheKey(code, normalizedLanguage, normalizedThemes);
     const cachedResult = highlightResultCache.get(cacheKey);
     if (cachedResult) {
       return cachedResult;
@@ -227,7 +210,7 @@ export const codePlugin: CodeHighlighterPlugin = {
               dark: normalizedThemes[1],
               light: normalizedThemes[0],
             },
-          }) as HighlightResult
+          }) as HighlightResult,
       )
       .catch(() => createPlainTextResult(code))
       .then((result) => {

@@ -2,11 +2,7 @@
 
 import { type ReactNode, useEffect, useState } from "react";
 
-export function BrowserOnly({
-  children,
-}: {
-  children: ReactNode | (() => ReactNode);
-}) {
+export function BrowserOnly({ children }: { children: ReactNode | (() => ReactNode) }) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {

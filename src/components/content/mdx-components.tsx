@@ -12,10 +12,7 @@ interface NoteContentProps {
 
 export function MdxNoteContent({ onLinkClick, source }: NoteContentProps) {
   const plugins = useStreamdownPlugins(source);
-  const components = useMemo(
-    () => createComponents(onLinkClick, plugins),
-    [onLinkClick, plugins]
-  );
+  const components = useMemo(() => createComponents(onLinkClick, plugins), [onLinkClick, plugins]);
 
   return (
     <Streamdown

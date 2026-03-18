@@ -1,16 +1,8 @@
 "use client";
 
 import type { ReactNode } from "react";
-import {
-  type AllowedTags,
-  type Components,
-  type PluginConfig,
-  Streamdown,
-} from "streamdown";
-import {
-  BrowserOnlyIsland,
-  KoreaNetherlandsGlobeIsland,
-} from "./mdx-browser-islands";
+import { type AllowedTags, type Components, type PluginConfig, Streamdown } from "streamdown";
+import { BrowserOnlyIsland, KoreaNetherlandsGlobeIsland } from "./mdx-browser-islands";
 import {
   Admonition,
   AppleMusicSong,
@@ -19,17 +11,8 @@ import {
   WIP,
   YouTube,
 } from "./mdx-content-blocks";
-import {
-  DetailsAccordion,
-  Shuffle,
-  TabItem,
-  Tabs,
-} from "./mdx-interactive-widgets";
-import {
-  extractMarkdownSource,
-  NoteAnchor,
-  toReactNode,
-} from "./mdx-render-helpers";
+import { DetailsAccordion, Shuffle, TabItem, Tabs } from "./mdx-interactive-widgets";
+import { extractMarkdownSource, NoteAnchor, toReactNode } from "./mdx-render-helpers";
 
 export const allowedTags = {
   admonition: ["icon", "title", "type"],
@@ -47,7 +30,7 @@ export const allowedTags = {
 
 export function createComponents(
   onLinkClick: (slug: string) => void,
-  plugins: PluginConfig
+  plugins: PluginConfig,
 ): Components {
   let components = {} as Components;
 
@@ -58,12 +41,7 @@ export function createComponents(
     }
 
     return (
-      <Streamdown
-        allowedTags={allowedTags}
-        components={components}
-        mode="static"
-        plugins={plugins}
-      >
+      <Streamdown allowedTags={allowedTags} components={components} mode="static" plugins={plugins}>
         {source}
       </Streamdown>
     );
@@ -87,28 +65,18 @@ export function createComponents(
         url={typeof props.url === "string" ? props.url : undefined}
       />
     ),
-    browseronly: (props) => (
-      <BrowserOnlyIsland>{toReactNode(props.children)}</BrowserOnlyIsland>
-    ),
+    browseronly: (props) => <BrowserOnlyIsland>{toReactNode(props.children)}</BrowserOnlyIsland>,
     details: (props) => (
       <DetailsAccordion
-        open={
-          props.open === true || typeof props.open === "string"
-            ? props.open
-            : undefined
-        }
+        open={props.open === true || typeof props.open === "string" ? props.open : undefined}
         renderMarkdown={renderMarkdown}
       >
         {toReactNode(props.children)}
       </DetailsAccordion>
     ),
-    displayflex: (props) => (
-      <DisplayFlex>{toReactNode(props.children)}</DisplayFlex>
-    ),
+    displayflex: (props) => <DisplayFlex>{toReactNode(props.children)}</DisplayFlex>,
     koreanetherlandsglobe: (props) => (
-      <KoreaNetherlandsGlobeIsland
-        lang={typeof props.lang === "string" ? props.lang : "en"}
-      />
+      <KoreaNetherlandsGlobeIsland lang={typeof props.lang === "string" ? props.lang : "en"} />
     ),
     shuffle: (props) => <Shuffle>{toReactNode(props.children)}</Shuffle>,
     spotifysong: (props) => (
@@ -119,11 +87,7 @@ export function createComponents(
     ),
     tabitem: (props) => (
       <TabItem
-        default={
-          props.default === true ||
-          props.default === "" ||
-          props.default === "true"
-        }
+        default={props.default === true || props.default === "" || props.default === "true"}
         label={typeof props.label === "string" ? props.label : undefined}
         source={typeof props.source === "string" ? props.source : undefined}
         value={typeof props.value === "string" ? props.value : undefined}
@@ -139,9 +103,7 @@ export function createComponents(
         {toReactNode(props.children)}
       </Tabs>
     ),
-    wip: (props) => (
-      <WIP state={typeof props.state === "string" ? props.state : undefined} />
-    ),
+    wip: (props) => <WIP state={typeof props.state === "string" ? props.state : undefined} />,
     youtube: (props) => (
       <YouTube
         id={typeof props.id === "string" ? props.id : undefined}

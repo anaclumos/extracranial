@@ -15,9 +15,7 @@ function parseFocusValue(value: unknown): number | null {
   return null;
 }
 
-export function parseNoteStackSearch(
-  search: Record<string, unknown>
-): NoteStackUrlState {
+export function parseNoteStackSearch(search: Record<string, unknown>): NoteStackUrlState {
   return {
     focus: parseFocusValue(search.focus),
   };

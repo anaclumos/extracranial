@@ -29,9 +29,7 @@ function resolveStoredTheme(): Theme {
     return storedTheme;
   }
 
-  return window.matchMedia("(prefers-color-scheme: dark)").matches
-    ? "dark"
-    : "light";
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
 function applyTheme(theme: "light" | "dark") {
@@ -65,12 +63,10 @@ export function ShellThemeProvider({ children }: { children: ReactNode }) {
       theme,
       setTheme,
     }),
-    [setTheme, theme]
+    [setTheme, theme],
   );
 
-  return (
-    <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
-  );
+  return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
 
 export function useShellTheme() {

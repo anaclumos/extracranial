@@ -20,8 +20,7 @@ function ScrollArea({
       <ScrollAreaPrimitive.Viewport
         className={cn(
           "h-full rounded-[inherit] bg-transparent outline-none transition-shadows focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background data-has-overflow-x:overscroll-x-contain",
-          scrollbarGutter &&
-            "data-has-overflow-y:pe-2.5 data-has-overflow-x:pb-2.5"
+          scrollbarGutter && "data-has-overflow-y:pe-2.5 data-has-overflow-x:pb-2.5",
         )}
         data-slot="scroll-area-viewport"
       >
@@ -43,7 +42,7 @@ function ScrollBar({
     <ScrollAreaPrimitive.Scrollbar
       className={cn(
         "m-1 flex opacity-0 transition-opacity delay-300 data-[orientation=horizontal]:h-1.5 data-[orientation=vertical]:w-1.5 data-[orientation=horizontal]:flex-col data-hovering:opacity-100 data-scrolling:opacity-100 data-hovering:delay-0 data-scrolling:delay-0 data-hovering:duration-100 data-scrolling:duration-100",
-        className
+        className,
       )}
       data-slot="scroll-area-scrollbar"
       orientation={orientation}

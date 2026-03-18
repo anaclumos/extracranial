@@ -46,11 +46,7 @@ export const AllNotesList = memo(function AllNotesList({
 
   const stackIndexBySlug = useMemo(() => {
     const map = new Map<string, number>();
-    for (
-      let currentIndex = 0;
-      currentIndex < currentStack.length;
-      currentIndex += 1
-    ) {
+    for (let currentIndex = 0; currentIndex < currentStack.length; currentIndex += 1) {
       const slug = currentStack[currentIndex];
       if (!(slug && !map.has(slug))) {
         continue;
@@ -101,7 +97,7 @@ export const AllNotesList = memo(function AllNotesList({
           "absolute top-0 bottom-0 left-0 h-full w-full",
           isCollapsed
             ? "translate-x-[var(--pane-spine-width)] opacity-40"
-            : "translate-x-0 opacity-100"
+            : "translate-x-0 opacity-100",
         )}
       >
         {isCollapsed && (
@@ -129,9 +125,7 @@ export const AllNotesList = memo(function AllNotesList({
                   <span className="flex size-9 items-center justify-center rounded-full border border-border/70 bg-muted/35">
                     <Logo className="text-foreground" size={18} />
                   </span>
-                  <span className="font-medium text-sm uppercase tracking-[0.18em]">
-                    cho.sh
-                  </span>
+                  <span className="font-medium text-sm uppercase tracking-[0.18em]">cho.sh</span>
                 </a>
                 <h2 className="mt-3 font-normal text-2xl text-foreground tracking-tight">
                   {t("title")}

@@ -12,11 +12,7 @@ interface BacklinksSectionProps {
   onBacklinkClick: (slug: string) => void;
 }
 
-const ExcerptWithBold = memo(function ExcerptWithBold({
-  text,
-}: {
-  text: string;
-}) {
+const ExcerptWithBold = memo(function ExcerptWithBold({ text }: { text: string }) {
   const parts = useMemo(() => {
     const counts = new Map<string, number>();
 
@@ -40,7 +36,7 @@ const ExcerptWithBold = memo(function ExcerptWithBold({
           </strong>
         ) : (
           <span key={`text-${key}`}>{part}</span>
-        )
+        ),
       )}
     </>
   );
@@ -65,14 +61,12 @@ const BacklinkItem = memo(function BacklinkItem({
         className={cn(
           "-mx-1 w-full rounded-md px-1 py-2.5 text-left",
           "hover:bg-muted/50",
-          "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
         )}
         onClick={handleClick}
         type="button"
       >
-        <span className="block font-medium text-foreground text-sm">
-          {backlink.title}
-        </span>
+        <span className="block font-medium text-foreground text-sm">{backlink.title}</span>
         {backlink.excerpt && (
           <span className="mt-0.5 line-clamp-2 block text-muted-foreground text-xs">
             <ExcerptWithBold text={backlink.excerpt} />
