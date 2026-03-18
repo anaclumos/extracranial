@@ -7,7 +7,11 @@ import { useTranslations } from "@/i18n/provider";
 import type { BacklinkInfo, NotePaneData } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { PaneBody } from "./pane-body";
-import { useIsPaneCollapsed, usePaneCollapseScrollTo, usePaneRef } from "./pane-collapse-context";
+import {
+  useIsPaneCollapsed,
+  usePaneCollapseScrollTo,
+  usePaneRef,
+} from "./pane-collapse-context";
 import { PaneSpine } from "./pane-spine";
 
 interface NotePaneProps {
@@ -62,9 +66,9 @@ export const NotePane = memo(function NotePane({
     <article
       aria-label={title}
       className={cn(
-        "h-full w-full flex-shrink-0 overflow-hidden md:w-1/3 md:min-w-pane-min md:max-w-3xl",
+        "h-full w-full shrink-0 overflow-hidden md:w-1/3 md:min-w-pane-min md:max-w-3xl",
         "group/pane relative border-border border-l bg-background",
-        "left-0 md:sticky md:left-[var(--pane-left-offset)]",
+        "left-0 md:sticky `md:left-(--pane-left-offset)",
         "snap-start md:snap-align-none",
       )}
       data-index={index}
@@ -79,7 +83,10 @@ export const NotePane = memo(function NotePane({
       tabIndex={-1}
     >
       {isCollapsed && (
-        <div className="absolute inset-0 z-10 cursor-pointer" onClick={handleExpand}>
+        <div
+          className="absolute inset-0 z-10 cursor-pointer"
+          onClick={handleExpand}
+        >
           <PaneSpine
             description={description}
             excerpt={excerpt}
@@ -94,7 +101,7 @@ export const NotePane = memo(function NotePane({
         className={cn(
           "absolute top-0 bottom-0 left-0 h-full w-full",
           isCollapsed
-            ? "translate-x-[var(--pane-spine-width)] opacity-40"
+            ? "translate-x-(--pane-spine-width) opacity-40"
             : "translate-x-0 opacity-100",
         )}
       >
@@ -108,7 +115,9 @@ export const NotePane = memo(function NotePane({
             <span className="sr-only">{t("expand")}</span>
           </button>
         )}
-        {isCollapsed && <div className="absolute top-0 bottom-0 left-0 z-sticky w-px bg-border" />}
+        {isCollapsed && (
+          <div className="absolute top-0 bottom-0 left-0 z-sticky w-px bg-border" />
+        )}
 
         <PaneBody
           backlinks={backlinks}

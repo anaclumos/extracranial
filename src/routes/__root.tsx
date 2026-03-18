@@ -153,8 +153,11 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
 }
 
 function RootErrorComponent({ error, reset }: ErrorComponentProps) {
-  const message = error instanceof Error ? error.message : "Unknown application error";
-  const isDynamicImportFetchError = message.includes("Failed to fetch dynamically imported module");
+  const message =
+    error instanceof Error ? error.message : "Unknown application error";
+  const isDynamicImportFetchError = message.includes(
+    "Failed to fetch dynamically imported module",
+  );
 
   return (
     <>
@@ -223,9 +226,11 @@ function ShellStatusView({
     <main className="mx-auto flex w-full max-w-3xl flex-1 items-center px-4 py-12 md:px-8">
       <section className="w-full rounded-lg border border-foreground/20 bg-background/80 p-6 backdrop-blur-sm md:p-8">
         <h1 className="font-semibold text-2xl tracking-tight">{title}</h1>
-        <p className="mt-3 text-foreground/80 text-sm md:text-base">{description}</p>
+        <p className="mt-3 text-foreground/80 text-sm md:text-base">
+          {description}
+        </p>
         {detail ? (
-          <p className="mt-4 rounded-md border border-foreground/15 bg-foreground/[0.04] px-3 py-2 text-foreground/80 text-xs md:text-sm">
+          <p className="mt-4 rounded-md border border-foreground/15 bg-foreground/4 px-3 py-2 text-foreground/80 text-xs md:text-sm">
             {detail}
           </p>
         ) : null}
