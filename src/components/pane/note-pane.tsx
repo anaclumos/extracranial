@@ -68,7 +68,7 @@ export const NotePane = memo(function NotePane({
       className={cn(
         "h-full w-full shrink-0 overflow-hidden md:w-1/3 md:min-w-pane-min md:max-w-3xl",
         "group/pane relative border-border border-l bg-background",
-        "left-0 md:sticky `md:left-(--pane-left-offset)",
+        "left-0 md:sticky md:left-(--pane-left-offset)",
         "snap-start md:snap-align-none",
       )}
       data-index={index}
