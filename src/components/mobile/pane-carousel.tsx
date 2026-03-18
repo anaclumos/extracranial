@@ -16,7 +16,7 @@ import { BacklinksSection } from "@/components/backlinks-section";
 import { Logo } from "@/components/brand/logo";
 import { MdxNoteContent } from "@/components/content/mdx-components";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { SettingsDrawer } from "@/components/ui/settings-drawer";
+import { SettingsDialog } from "@/components/ui/settings-dialog";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { useTranslations } from "@/i18n/provider";
 import { reducedMotionTransition, springSubtle } from "@/lib/animations";
@@ -322,7 +322,7 @@ const MobilePaneCarouselShell = memo(function MobilePaneCarouselShell({
             </span>
             <span className="font-medium text-sm uppercase tracking-[0.18em]">cho.sh</span>
           </a>
-          <SettingsDrawer
+          <SettingsDialog
             compact
             isBlogOnly={isBlogOnly}
             languageFilter={languageFilter}

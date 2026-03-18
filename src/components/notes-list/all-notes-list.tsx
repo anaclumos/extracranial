@@ -3,7 +3,7 @@
 import { memo, useCallback, useMemo } from "react";
 import { Logo } from "@/components/brand/logo";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { SettingsDrawer } from "@/components/ui/settings-drawer";
+import { SettingsDialog } from "@/components/ui/settings-dialog";
 import { useTranslations } from "@/i18n/provider";
 import type { NoteLanguageFilter, NoteSummary } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -131,7 +131,7 @@ export const AllNotesList = memo(function AllNotesList({
                   {t("title")}
                 </h2>
               </div>
-              <SettingsDrawer
+              <SettingsDialog
                 compact
                 isBlogOnly={isBlogOnly}
                 languageFilter={languageFilter}
