@@ -49,6 +49,7 @@ const messages: MessageDictionary = {
   theme: {
     dark: "Dark",
     light: "Light",
+    system: "System",
   },
   mobileCarousel: {
     goToNote: "Go to Note {position}: {title}",

@@ -11,7 +11,7 @@ import { type ReactNode, Suspense } from "react";
 import { PreloadErrorRecovery } from "@/components/client/preload-error-recovery";
 import { MagneticCursorLazy } from "@/components/magnetic-cursor-lazy";
 import { I18nProvider } from "@/i18n/provider";
-import { ShellThemeProvider } from "@/lib/shell-theme";
+import { ShellThemeProvider, THEME_INIT_SCRIPT } from "@/lib/shell-theme";
 import { cn } from "@/lib/utils";
 import appCss from "../app/globals.css?url";
 
@@ -48,6 +48,13 @@ export const Route = createRootRoute({
         rel: "preconnect",
         href: "https://cdn.jsdelivr.net",
         crossOrigin: "",
+      },
+      {
+        rel: "preload",
+        as: "font",
+        type: "font/woff2",
+        href: `${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-Regular.woff2`,
+        crossOrigin: "anonymous",
       },
       {
         rel: "stylesheet",
@@ -103,6 +110,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html className="h-full" dir="ltr" lang="en" suppressHydrationWarning>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <HeadContent />
       </head>
       <body className={cn("flex h-full flex-col font-sans antialiased")}>

@@ -1,2 +1,5 @@
+allowBuilds:
+  esbuild: true
+  lefthook: true
 overrides:
   vite: npm:@voidzero-dev/vite-plus-core@0.1.12

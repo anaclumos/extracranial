@@ -6,9 +6,10 @@ import {
   useEffect,
   useMemo,
   useState,
+  useSyncExternalStore,
 } from "react";
 
-type Theme = "light" | "dark";
+type Theme = "light" | "dark" | "system";
 
 interface ThemeContextType {
   setTheme: (theme: Theme) => void;
@@ -19,52 +20,42 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 const STORAGE_KEY = "cho-sh-theme";
 
-function resolveStoredTheme(): Theme {
+function getStoredTheme(): Theme {
   if (typeof window === "undefined") {
-    return "light";
+    return "system";
   }
-
-  const storedTheme = localStorage.getItem(STORAGE_KEY);
-  if (storedTheme === "light" || storedTheme === "dark") {
-    return storedTheme;
+  const stored = localStorage.getItem(STORAGE_KEY);
+  if (stored === "light" || stored === "dark") {
+    return stored;
   }
-
-  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "system";
 }
 
-function applyTheme(theme: "light" | "dark") {
+function applyThemeClass(theme: Theme) {
   const html = document.documentElement;
-  if (theme === "dark") {
-    html.classList.add("dark");
-  } else {
-    html.classList.remove("dark");
-  }
+  html.classList.toggle("dark", theme === "dark");
+  html.classList.toggle("light", theme === "light");
 }
 
 export function ShellThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>("light");
+  const [theme, setThemeState] = useState<Theme>(getStoredTheme);
 
   useEffect(() => {
-    setThemeState(resolveStoredTheme());
-  }, []);
-
-  useEffect(() => {
-    applyTheme(theme);
+    applyThemeClass(theme);
   }, [theme]);
 
-  const setTheme = useCallback((newTheme: Theme) => {
-    setThemeState(newTheme);
+  const setTheme = useCallback((next: Theme) => {
+    setThemeState(next);
     if (typeof window !== "undefined") {
-      localStorage.setItem(STORAGE_KEY, newTheme);
+      if (next === "system") {
+        localStorage.removeItem(STORAGE_KEY);
+      } else {
+        localStorage.setItem(STORAGE_KEY, next);
+      }
     }
   }, []);
-  const value = useMemo(
-    () => ({
-      theme,
-      setTheme,
-    }),
-    [setTheme, theme],
-  );
+
+  const value = useMemo(() => ({ theme, setTheme }), [setTheme, theme]);
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
@@ -77,6 +68,36 @@ export function useShellTheme() {
   return context;
 }
 
-export function useResolvedShellTheme(): "light" | "dark" {
-  return useShellTheme().theme;
+const darkMQL =
+  typeof window !== "undefined"
+    ? window.matchMedia("(prefers-color-scheme: dark)")
+    : null;
+
+function subscribeToDarkMQL(callback: () => void) {
+  darkMQL?.addEventListener("change", callback);
+  return () => darkMQL?.removeEventListener("change", callback);
 }
+
+function getDarkMQLSnapshot() {
+  return darkMQL?.matches ?? false;
+}
+
+function getDarkMQLServerSnapshot() {
+  return false;
+}
+
+export function useResolvedShellTheme(): "light" | "dark" {
+  const { theme } = useShellTheme();
+  const osDark = useSyncExternalStore(
+    subscribeToDarkMQL,
+    getDarkMQLSnapshot,
+    getDarkMQLServerSnapshot,
+  );
+
+  if (theme === "light" || theme === "dark") {
+    return theme;
+  }
+  return osDark ? "dark" : "light";
+}
+
+export const THEME_INIT_SCRIPT = `(function(){try{var t=localStorage.getItem("${STORAGE_KEY}");if(t==="dark")document.documentElement.classList.add("dark");else if(t==="light")document.documentElement.classList.add("light")}catch(e){}})();`;

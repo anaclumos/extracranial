@@ -116,7 +116,7 @@ export function PaneContainer({
   paneNotes,
 }: PaneContainerProps) {
   const { focusIndex, stack, pushNote, removePane } = useNoteStackContext();
-  const isDesktop = useMediaQuery("(min-width: 768px)", true);
+  const isDesktop = useMediaQuery("(min-width: 768px)");
   const panes = useMemo(
     () => (isDesktop ? EMPTY_PANES : resolvePanesFromStack(stack, paneNotes)),
     [isDesktop, stack, paneNotes],
