@@ -20,8 +20,8 @@ interface SettingsDrawerProps {
   triggerClassName?: string;
 }
 
-function isTheme(value: unknown): value is "light" | "dark" {
-  return value === "light" || value === "dark";
+function isTheme(value: unknown): value is "light" | "dark" | "system" {
+  return value === "light" || value === "dark" || value === "system";
 }
 
 function isLanguageFilter(value: unknown): value is NoteLanguageFilter {
@@ -84,7 +84,7 @@ export function SettingsDrawer({
                     }}
                     value={theme}
                   >
-                    <Tabs.List className="relative grid grid-cols-2 rounded-full border border-border/70 bg-muted/60 p-1">
+                    <Tabs.List className="relative grid grid-cols-3 rounded-full border border-border/70 bg-muted/60 p-1">
                       <Tabs.Indicator className="absolute top-1 bottom-1 left-0 z-0 w-[var(--active-tab-width)] translate-x-[var(--active-tab-left)] rounded-full bg-foreground shadow-sm transition-all duration-300 ease-out" />
                       <Tabs.Tab
                         className="relative z-10 rounded-full px-3 py-2 font-medium text-muted-foreground text-sm transition-colors aria-selected:text-background"
@@ -97,6 +97,12 @@ export function SettingsDrawer({
                         value="dark"
                       >
                         {tTheme("dark")}
+                      </Tabs.Tab>
+                      <Tabs.Tab
+                        className="relative z-10 rounded-full px-3 py-2 font-medium text-muted-foreground text-sm transition-colors aria-selected:text-background"
+                        value="system"
+                      >
+                        {tTheme("system")}
                       </Tabs.Tab>
                     </Tabs.List>
                   </Tabs.Root>
