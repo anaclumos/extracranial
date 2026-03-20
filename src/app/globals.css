@@ -5,7 +5,16 @@
 @source "../../node_modules/@streamdown/math/dist/*.js";
 @source "../../node_modules/@streamdown/cjk/dist/*.js";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark {
+  &:where(.dark, .dark *) {
+    @slot;
+  }
+  @media (prefers-color-scheme: dark) {
+    &:where(:not(.light *, .light)) {
+      @slot;
+    }
+  }
+}
 
 :root {
   --pane-spine-width: 2.5rem;
@@ -140,6 +149,39 @@ body {
   color-scheme: dark;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --accent: --alpha(var(--color-white) / 4%);
+    --accent-foreground: var(--color-neutral-100);
+    --background: #0a0a0a;
+    --border: --alpha(var(--color-white) / 10%);
+    --card: #0a0a0a;
+    --card-foreground: var(--color-neutral-100);
+    --destructive: color-mix(in srgb, var(--color-red-500) 90%, var(--color-white));
+    --destructive-foreground: var(--color-red-400);
+    --foreground: var(--color-neutral-100);
+    --info: var(--color-blue-500);
+    --info-foreground: var(--color-blue-400);
+    --input: --alpha(var(--color-white) / 8%);
+    --muted: --alpha(var(--color-white) / 4%);
+    --muted-foreground: #a1a1aa;
+    --popover: #0a0a0a;
+    --popover-foreground: var(--color-neutral-100);
+    --primary: var(--color-neutral-100);
+    --primary-foreground: var(--color-neutral-800);
+    --ring: var(--color-neutral-500);
+    --secondary: --alpha(var(--color-white) / 4%);
+    --secondary-foreground: var(--color-neutral-100);
+    --success: var(--color-emerald-500);
+    --success-foreground: var(--color-emerald-400);
+    --warning: var(--color-amber-500);
+    --warning-foreground: var(--color-amber-400);
+    --link: var(--color-emerald-400);
+    --link-visited: var(--color-emerald-300);
+    color-scheme: dark;
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -263,5 +305,11 @@ body {
 
   .dark .magnetic-cursor {
     mix-blend-mode: screen !important;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not(.light) .magnetic-cursor {
+      mix-blend-mode: screen !important;
+    }
   }
 }
