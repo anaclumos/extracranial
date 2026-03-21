@@ -53,7 +53,7 @@ export const Route = createRootRoute({
         rel: "preload",
         as: "font",
         type: "font/woff2",
-        href: `${SUNGHYUN_SANS_FONT_BASE_URL}/SunghyunSansKRHanja-Regular.woff2`,
+        href: "https://cdn.jsdelivr.net/gh/anaclumos/sunghyun-sans/dist/web/woff2/SunghyunSansKRHanja-Regular.woff2",
         crossOrigin: "anonymous",
       },
       {
